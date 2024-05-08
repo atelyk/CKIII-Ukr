@@ -1,11 +1,11 @@
 ﻿l_english:
- doctrine_core_tenets_name:0 "Tenets"
+ doctrine_core_tenets_name:1 "Tenets"
  tenets_name:0 "Tenets"
 
  #Abrahamic Tenets
  tenet_communion_name:0 "Communion"
  tenet_communion_desc:0 "Our rituals are not merely symbolic — they invoke the very presence of the divine itself. Those who cannot or do not join us in their practice cannot be true believers."
- doctrine_parameter_seek_indulgences_active:0 "Characters may #V Seek Indulgences#! from their [head_of_faith|E] to pay [gold|E] in exchange for [piety|E]"
+ doctrine_parameter_seek_indulgences_active:1 "Characters may #V Seek Indulgences#! from their [head_of_faith|E] to pay [gold|E] in exchange for [piety|E]"
  doctrine_parameter_seek_indulgences_active_2:0 "Characters who have committed [criminal|E] acts may #V Seek Indulgences#! to gain forgiveness for them instead"
  doctrine_parameter_excommunication_active:0 "Spiritual [heads_of_faith|E] may [excommunicate|E] other characters of their [faith|E]"
  tenet_excommunicated:0 "[GetTrait('excommunicated').GetName( GetNullCharacter )]"
@@ -13,18 +13,19 @@
  tenet_armed_pilgrimages_name:0 "Armed Pilgrimages"
  tenet_armed_pilgrimages_desc:0 "Our pilgrims travel across the world to visit our sacred holy sites — we will gladly take up the sword to keep them safe from any who would harm them"
  doctrine_parameter_cheaper_holy_wars_active:0 "It costs [rulers|E] of this [faith|E] #P -20%#! less [piety|E] to declare [holy_wars|E]"
- doctrine_parameter_great_holy_wars_active:0 "If one exists, the [head_of_faith|E] can declare a [great_holy_war|E] when the [faith|E] has high [fervor|E]"
+ doctrine_parameter_great_holy_wars_active:1 "If one exists, the [head_of_faith|E] can declare a [great_holy_war|E] when the [faith|E] has high [fervor|E]"
  doctrine_parameter_ghw_no_hof_conversion_buffs_active:0 "If no [head_of_faith|E] exists, adherents gain a bonus to the [convert_county|E] [councillor_task|E] per controlled [holy_site|E]"
- doctrine_parameter_pilgrimage_decision_active:0 "Characters of this [faith|E] gain an additional bonus upon the successful completion of a [pilgrimage|E]"
+ doctrine_parameter_pilgrimage_decision_active:1 "Characters of this [faith|E] gain an additional bonus upon the successful completion of a [pilgrimage|E]"
 
  tenet_monasticism_name:0 "Monasticism"
  tenet_monasticism_desc:0 "The pleasures of fine food and drink only serve to distract us from service to the divine. Isolating ourselves in remote monasteries is the best way to avoid these temptations."
  doctrine_parameter_take_vows_active:0 "[courtiers|E] can Take the Vows and become a [GetTrait('devoted').GetName( GetNullCharacter )]"
 
  tenet_divine_marriage_name:0 "Divine Marriage"
- tenet_divine_marriage_desc:0 "The blood of the divine runs through the veins of our kings and queens. Keeping our bloodlines pure is the best way to ensure our family's reign continues for centuries to come."
+ tenet_divine_marriage_xwedodah: "Xwedodah"
+ tenet_divine_marriage_desc: "By marrying close of kin, we emulate the sacred unions of the first beings in creation. Good qualities will be passed down our family line, and thus we gain purity and favor in the eternal battle against evil."
  doctrine_parameter_divine_marriage_opinion:0 "Adherents who are married to a [close_family|E] member have $VALUE|0+=$ [opinion|E] from [vassals|E] of the same [faith|E]"
- doctrine_parameter_divine_marriage_piety_gain_active:0 "The [GetFaithDoctrine('doctrine_monogamy').GetBaseName] marriage bonus also grants a large amount of [piety|E] if you are marrying a [close_family|E] member"
+ doctrine_parameter_divine_marriage_piety_gain_active:2 "The [GetFaithDoctrine('doctrine_monogamy').GetBaseName] marriage bonus also grants a large amount of [piety|E] if you are marrying a [close_family|E] member"
  
  tenet_pacifism_name:0 "Pacifism"
  tenet_pacifism_desc:0 "Violence is an abhorrent act that only leads to suffering, pain, and regret. By working to avoid it whenever possible we can build stronger, more secure societies for the faithful to live in."
@@ -42,7 +43,7 @@
 
  tenet_human_sacrifice_name:0 "Human Sacrifice"
  tenet_human_sacrifice_desc:0 "The best way to prove our devotion is through the act of sacrifice. The most valuable sacrifice we can offer is the sacrifice of human life."
- doctrine_parameter_human_sacrifice_active:0 "[executions|E] earn [piety|E] instead of costing [piety|E]"
+ doctrine_parameter_human_sacrifice_active:1 "[executions|E] earn [piety|E] instead of costing [piety|E]\n$EFFECT_LIST_BULLET$[executions|E] never cost [prestige|E] when [sharing_power|E]"
  doctrine_parameter_flower_war_cb_active:0 "Grants the [flowery_war|E] [casus_belli|E] against neighboring realms"
 
  tenet_gruesome_festivals_blot_name:0 "Blót"
@@ -53,20 +54,20 @@
 
  tenet_volcanic_veneration_name:0 "Volcanic Veneration"
  tenet_volcanic_veneration_desc:0 "There is little more divine than the newborn earth spewing from the fiery pits of our home. We spend our lives on the edge of disaster, forever at the mercy of [ROOT.Faith.PantheonTerm]."
- tenet_cthonic_redoubts_name:0 "Cthonic Redoubts"
+ tenet_cthonic_redoubts_name:0 "Chthonic Redoubts"
  tenet_cthonic_redoubts_desc:0 "There is no shelter better than the roots of the Earth, no fortress hardier than its jutting spines, no pilgrimage more sacred than its hidden trails. We gaze down at Creation from these lofty summits and feel the true weight of the Divine."
  doctrine_parameter_easier_to_convert_faith_in_mountains:0 "[convert_county|E] speed in mountainous [terrain|E]: #P +[EmptyScope.ScriptValue('easier_to_convert_faith_in_mountains_bonus_loc_control')|0]%#!"
  doctrine_parameter_easier_to_convert_culture_in_same_faith_mountains:0 "[promote_culture|E] speed in same-[faith|E] mountainous [terrain|E]: #P +[EmptyScope.ScriptValue('promote_culture_easier_to_convert_culture_in_same_faith_mountains_bonus_loc_control')|0]%#!"
  doctrine_parameter_harder_to_convert_faith_away_in_mountains:0 "Hostile [convert_county|E] speed in mountainous [terrain|E]: #P [EmptyScope.ScriptValue('harder_to_convert_faith_away_in_mountains_malus_loc_control')|0]%#!"
 
- tenet_consolamentum_name:0 "Endura"
+ tenet_consolamentum_name:1 "Endura"
  tenet_consolamentum_name_alternate:0 "Ritual Suicide"
  tenet_consolamentum_desc:0 "When we grow old or sick, we perform a ritual to cleanse our souls of sin. Once that is done, we quickly and definitively end our lives, so that sin does not have the opportunity to infest us once more."
- doctrine_parameter_consolamentum_active:0 "Adherents can [decide|E] to end their life when old, incapable, or near death; doing so does not incur any of the normal penalties from suicide"
+ doctrine_parameter_consolamentum_active:1 "Adherents can [decide|E] to end their life when old, incapable, or near death; doing so does not incur any of the normal penalties from suicide"
 
  tenet_gnosticism_name:0 "Gnosticism"
  tenet_gnosticism_desc:0 "Through knowledge, the divine spark that rests inside all humans may be liberated and returned to its heavenly source in the spirit-realm."
- doctrine_parameter_hostility_override_tenet_gnosticism:0 "Considers other Gnostic and Dualist [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_hostile_tooltippable$ or $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_tenet_gnosticism:3 "Considers other Gnostic and Dualist [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_hostile_tooltippable$ or $hostility_evil_tooltippable$"
  doctrine_parameter_hostility_override_special_doctrine_is_gnostic_faith:0 ""
  doctrine_parameter_granting_titles_gives_stress:0 "Giving away [titles|E] relieves a proportional amount of [stress|E]"
 
@@ -77,9 +78,9 @@
  tenet_communal_identity_name:0 "Communal Identity"
  tenet_communal_identity_desc:0 "Our faith and our culture are intrinsically linked together. This practice strengthens the bonds of our community, though it tends to exclude foreigners."
  doctrine_parameter_same_communal_identity_opinion_active:0 "#P +10#! [opinion|E] with characters of the same [faith|E]"
- doctrine_parameter_same_culture_conversion_bonus_active:0 "Conversion Speed in [counties|E] of my [culture|E]: #P +50%#!"
- doctrine_parameter_same_faith_promote_culture_bonus_active:0 "Promote Culture Speed in [counties|E] of my [faith|E]: #P +50%#!"
- doctrine_parameter_other_culture_conversion_penalty_active:0 "Conversion Speed in [counties|E] of a different [culture|E]: #N -50%#!"
+ doctrine_parameter_same_culture_conversion_bonus_active:1 "Conversion Speed in [counties|E] of my [culture|E]: #P +50%#!"
+ doctrine_parameter_same_faith_promote_culture_bonus_active:1 "Promote Culture Speed in [counties|E] of my [faith|E]: #P +50%#!"
+ doctrine_parameter_other_culture_conversion_penalty_active:1 "Conversion Speed in [counties|E] of a different [culture|E]: #N -50%#!"
 
  tenet_pentarchy_name:0 "Ecclesiarchy"
  tenet_pentarchy_alternate_name:0 "The Pentarchy"
@@ -87,13 +88,19 @@
 
  tenet_aniconism_name:0 "Aniconism"
  tenet_aniconism_desc:0 "The worship of graven images has blinded far too many to the divine truth. We will cast all icons out of our holy places so that our faithful will not fall into that trap."
+ doctrine_parameter_reforging_artifacts_costs_piety:0 "[rulers|E] of this [faith|E] must spend [piety|E] to [reforge|E] or [repair|E] [artifacts|E]"
+ doctrine_parameter_destroying_artifacts_is_pious:0 "[rulers|E] of this [faith|E] can destroy [artifacts|E] for [piety|E]"
+ destroying_artifacts_is_not_pious_tt:0 "Your [faith|E] cannot destroy [artifacts|E] for [piety|E]"
+ artifact_is_rarer_than_masterwork_tt:0 "This [artifact|E] has higher than Masterwork [rarity|E]"
 
  tenet_alexandrian_catechism_name:0 "Alexandrian Catechism"
  tenet_alexandrian_catechism_desc:0 "The Catechetical School of Alexandria had a long tradition of encouraging theologians to think critically and question the status quo.\n\nDespite the physical destruction of the school, we carry on these traditions."
+ tenet_islamic_rationalism_name: "Islamic Rationalism"
+ tenet_islamic_rationalism_desc: "Since [ROOT.Faith.HighGodNameAlternate] is just and wise, [ROOT.Faith.HighGodNameSheHe|U] cannot go against reason or disregard the wellbeing of [ROOT.Faith.HighGodHerHis|U] creation. Only through unaided reason can we hope to comprehend our part in [ROOT.Faith.HighGodHerHis|U] great work, and separate good from evil."
 
  tenet_hedonistic_name:0 "Hedonistic"
  tenet_hedonistic_desc:0 "The divine filled this world with a bounty of pleasures for us to indulge in and enjoy — to not partake of such things is to snub the very work of creation itself."
- doctrine_parameter_piety_from_feasts_active:0 "Hosting a [feast|E] earns [piety|E]"
+ doctrine_parameter_piety_from_feasts_active:1 "Hosting a [GetActivityType('activity_feast').GetName] earns [piety|E]"
 
  tenet_carnal_exaltation_name:0 "Carnal Exaltation"
  tenet_carnal_exaltation_desc:0 "The pleasures of the flesh are sublime in a way that transcends other earthly experiences, bringing us closer to the divine. We should glorify our sexual desires and seek out opportunities for us to fulfill them."
@@ -104,6 +111,8 @@
 
  tenet_unrelenting_faith_name:0 "Unrelenting Faith"
  tenet_unrelenting_faith_desc:0 "Our convictions are strong, and we will gladly fight and die for our faith. No matter how badly the odds are stacked against us, we shall not surrender."
+ tenet_unrelenting_faith_zandik_name: "Righteous Rebellion"
+ tenet_unrelenting_faith_zandik_desc: "We wish no harm to any soul, nor any thing, but if our ways are threatened, we will defend them with relentless ferocity." 
 
  tenet_rite_name:0 "Rite"
  tenet_rite_desc:0 "Our beliefs are not so very different from those of our mother-faith... why should we quibble over specifics when we agree on the major points of doctrine, and, most importantly, the ultimate authority for arbitration?"
@@ -129,6 +138,7 @@
 
  tenet_false_conversion_sanction_name:0 "Sanctioned False Conversions"
  tenet_temporal_condemnation_taqiya:0 "Taqiya"
+ tenet_anusim:0 "Anusim"
  tenet_false_conversion_sanction_desc:0 "If your life is threatened, it is acceptable to confess a false faith, as long as you keep the truth in your heart."
  doctrine_parameter_sanctioned_false_conversion:0 "Conversion Resistance: #P +30%#!\n$EFFECT_LIST_BULLET$[characters|E] and [counties|E] may sometimes reconvert back to this [faith|E] if led astray"
 
@@ -144,25 +154,30 @@
  tenet_legalism_desc:0 "Our laws are the result of generations of wisdom and devoutness, and adhering to them is by its very nature pious. A sinner, no matter who, will never be above the law."
  doctrine_parameter_legalism_reduced_faction_virtues:0 "[vassals|E] and [counties|E] are less likely to join [factions|E] against a [virtuous|E] ruler"
  doctrine_parameter_legalism_increased_faction_sins:0 "[vassals|E] and [counties|E] are more likely to join [factions|E] against a [sinful|E] ruler"
- doctrine_parameter_legalism_modified_law_costs:0 "Reduce law costs by #P -10%#! for each [virtue|E] a ruler has"
+ doctrine_parameter_legalism_modified_law_costs:1 "Reduce law costs by #P -10%#! for each [virtue|E] a ruler has"
  doctrine_parameter_legalism_modified_law_costs_2:0 "Increase law costs by #N 10%#! for each [sin|E] a ruler has"
- doctrine_parameter_legalism_trust_just_leader_active:0 "[electors|E] under elective [succession|E] types are more likely to vote for the choice of their [liege|E] if their Liege is $trait_just$"
+ doctrine_parameter_legalism_trust_just_leader_active:1 "[electors|E] under elective [succession|E] types are more likely to vote for the choice of their [liege|E] if their Liege is $trait_just$"
  tenet_legalism_law_cost_tooltip:0 "[legalism|E]:\n   My sins and virtues are affecting this by: [SCOPE.ScriptValue('legalism_law_cost_modifier')|-0%]"
  
  tenet_reincarnation_name:0 "Reincarnation"
  tenet_reincarnation_desc:0 "We have lived many lives before this one, and will continue to live many lives after it. Every death is only the beginning of something new."
+ tenet_reincarnation_zoroastrian_name: "Raj'a"
+ tenet_reincarnation_zoroastrian_desc: "Like the gods can incarnate in human bodies, we too may be reborn. The good are rewarded with forms of beauty and purity, and may ultimately become angels of pure light."
  doctrine_parameter_reincarnation_resistance_to_conversion:0 "County Conversion Resistance: #P +20%#!"
- doctrine_parameter_reincarnation_events_active:0 "Children have a chance of being considered as the reincarnation of an ancestor, giving bonuses to [piety|E] and [opinion|E]"
+ doctrine_parameter_reincarnation_events_active:1 "Children have a chance of being considered as the reincarnation of an ancestor, giving bonuses to [piety|E] and [opinion|E]"
 
  tenet_esotericism_name:0 "Esotericism"
+ tenet_esotericism_kabbalah:0 "Kabbalah"
  tenet_esotericism_desc:0 "The great mysteries of the divine may be beyond mortal comprehension, but that is not an excuse for ignorance. Their very existence compels us to seek knowledge and understanding of the world around us."
- doctrine_parameter_tenet_esotericism_mystic_education:0 "Children with the [learning|E] [education_focus|E] may gain the [GetTrait('mystic_1').GetName( GetNullCharacter )] trait if they do well at their studies."
+ doctrine_parameter_tenet_esotericism_mystic_education:2 "Children with the [learning|E] [education_focus|E] may gain the [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] trait if they do well at their studies."
+ tenet_esotericism_kabbalah_desc:0 "The teachings of Kabbalah bring into mortal comprehension the relationship between the eternal God, the nature of infinity known as Ein Sof, and God's creation. Kabbalah forms the basis for all Judaic mysticism, and practitioners of Kabbalah often engage with other Jewish schools."
+ tenet_religious_kabbalah_cost_tooltip:0 "Kabbalah: #P -10%#!"
 
  #Eastern Tenets
  tenet_adaptive_name:0 "Adaptive"
  tenet_adaptive_desc:0 "Dogmatic adherence to old restrictions only harms the faithful. As long as we stay true to the core beliefs of our faith, we may adapt our laws to the world around us."
  doctrine_parameter_tenet_adaptive_conversion_resistance:0 "County Conversion Resistance: #P +30%#!"
- doctrine_parameter_reduced_vassal_religion_discontent:0 "Infidel [vassals|E] are less likely to join Independence and Populist [factions|E]"
+ doctrine_parameter_reduced_vassal_religion_discontent:1 "Infidel [vassals|E] are less likely to join Independence and Populist [factions|E]"
 
  tenet_inner_journey_name:0 "Inner Journey"
  tenet_inner_journey_desc:0 "Only by understanding one's own self can we understand the world. The journey of self-discovery is important as it is long and difficult."
@@ -174,7 +189,7 @@
  tenet_bhakti_name:0 "Bhakti"
  tenet_bhakti_patron_god_name:0 "Patron Gods"
  tenet_bhakti_desc:0 "Mortals cannot live up to the full glory of the divine, but by selecting a single aspect of divinity to emulate, worship, and devote oneself to, we can come closer to them than would otherwise be possible."
- doctrine_parameter_select_personal_god_active:0 "Rulers can [decide|E] to pick a personal avatar to venerate, gaining a related bonus"
+ doctrine_parameter_select_personal_god_active:1 "Rulers can [decide|E] to pick a personal avatar to venerate, gaining a related bonus"
 
  tenet_asceticism_name:0 "Asceticism"
  tenet_asceticism_desc:0 "Materialistic pursuits blind us to the divine truth. Only by devoting ourselves to live simple lives without luxury can to achieve spiritual enlightenment. "
@@ -190,22 +205,24 @@
  doctrine_parameter_conquest_cb_enabled:0 "[rulers|E] have a Conquest [casus_belli|E] against neighboring rulers"
  doctrine_parameter_faith_can_raid:0 "Allows the [raiding|E] of foreign [counties|E] for loot"
  doctrine_parameter_invasion_cb_enabled:0 "Prestigious [rulers|E] can use an Invasion [casus_belli|E] once per lifetime"
- doctrine_parameter_great_holy_wars_active_if_reformed:0 "If one exists, the [head_of_faith|E] can declare [great_holy_wars|E], provided this [faith|E] is [organized|E]"
+ doctrine_parameter_great_holy_wars_active_if_reformed:1 "If one exists, the [head_of_faith|E] can declare [great_holy_wars|E], provided this [faith|E] is [organized|E]"
 
  tenet_ancestor_worship_name:0 "Ancestor Worship"
  tenet_ancestor_worship_desc:0 "Our ancestors watch over us from beyond the grave, guiding us and showing us the way forward. For this we must respect and honor them."
 
  tenet_adorcism_name:0 "Adorcism"
  tenet_adorcism_desc:0 "The spirits of this world can do great works of both good and evil. By honoring and respecting them we can only hope that they will do their good to us and their evil to our foes."
- doctrine_parameter_spirit_possession_active:0 "Enables the 'Seek Aid of The Spirits' [decision|E]"
+ doctrine_parameter_spirit_possession_active:1 "Enables the 'Seek Aid of The Spirits' [decision|E]"
 
  tenet_ritual_celebrations_name:0 "Ritual Celebrations"
- tenet_ritual_celebrations_desc:0 "The worship of the divine is something to be exalted in and shared with our community. Organizing great festivals to honor and praise the divine brings us all together."
+ tenet_ritual_celebrations_desc:1 "The worship of the divine is something to be exalted in and shared with our community. Organizing great festivals to honor and praise the divine brings us all together."
  doctrine_parameter_mandatory_feast_attendance:0 "[vassals|E] are more likely to attend your Feasts. Those who still refuse to come will lose [piety|E] for doing so."
 
  tenet_sky_burials_name:0 "Sky Burials"
- tenet_sky_burials_desc:0 "The dead should not be imprisoned underground — it is far better to allowed them to be consumed by scavenging birds, where in a final act of generosity they can feed the world which fed them."
- doctrine_parameter_sky_burials_active:0 "[rulers|E] can give their ancestors a Sky Burial, gaining [piety|E] and pleasing their [vassals|E]"
+ tenet_sky_burials_desc:1 "The dead should not be imprisoned underground — it is far better to allowed them to be consumed by scavenging birds, where in a final act of generosity they can feed the world which fed them."
+ doctrine_parameter_sky_burials_active:3 "[rulers|E] can give their ancestors a Sky Burial, gaining [piety|E] and pleasing their [vassals|E]\n$EFFECT_LIST_BULLET$Charnel Grounds [duchy_building|E] can be built"
+ can_build_towers_of_silence_active_name: "ability to use the [GetBuilding('tower_of_silence_01').GetName] [duchy_building|E]"
+ doctrine_parameter_can_build_towers_of_silence_active: "[vassals|E] may build the [GetBuilding('tower_of_silence_01').GetName] [duchy_building|E] to bolster [county|E] zeal — #EMP if#! their [liege|E]'s [faith|E] does not engage in $tenet_sky_burials_name$"
 
  tenet_sacred_childbirth_name:0 "Sacred Childbirth"
  tenet_sacred_childbirth_alternate_name:0 "Kūdikis Lemti"
@@ -216,18 +233,20 @@
  piety_from_childbirth_toast:0 "Sacred Childbirth"
 
  tenet_sanctity_of_nature_name:0 "Sanctity of Nature"
- tenet_sanctity_of_nature_desc:0 "The natural world is the creation of the divine, and we are merely guests in it. We must respect and honor every tree, every animal, and even the ground itself."
+ tenet_sanctity_of_nature_desc:1 "The natural world is the creation of the divine, and we are merely guests in it. We must respect and honor every tree, every animal, and even the ground itself."
  # This parameter does nothing; it's just here to flag the tenet's nature silently so we can reference it without directly tagging the tenet.
  doctrine_parameter_believes_in_harmony_with_nature_invisible:0 ""
 
  tenet_mystical_birthright_name:0 "Auspicious Birthright"
  tenet_mystical_birthright_alternate:0 "Táltos Születés"
  tenet_mystical_birthright_desc:0 "Every one of us is born with a destiny, the most important of which is that of the Táltos — those who are chosen from birth to wield magical powers and become great spiritual leaders."
- doctrine_parameter_mystic_birthright_active:0 "Children can rarely be born with the [GetTrait('mystic_3').GetName( GetNullCharacter )] trait"
+ doctrine_parameter_mystic_birthright_active:1 "Children can rarely be born with the [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] trait"
 
  tenet_astrology_name:0 "Astrology"
  tenet_astrology_desc:0 "The night sky is our window into the realm of the divine. The great secrets and mysteries of the world are written there, open for all to learn if they know where to look."
  doctrine_parameter_divine_the_stars_active:0 "Allows adherents to Divine the Stars and predict their future"
+ tenet_divination_name: "Divination"
+ tenet_divination_desc: "The fate of mortals and the future of the world is written in the stars and in hidden signs, and through rituals, dreams and omens, skilled practitioners can divine these secrets from the spirits beyond."
 
  tenet_sun_worship_name:0 "Sun Worship"
  tenet_sun_worship_desc:0 "The light-bringer, the live-giver, the ever-burning flame — it reigns high in the sky as the true sovereign of the world."
@@ -261,7 +280,7 @@
 
  tenet_eastern_syncretism_name:0 "Eastern Syncretism"
  tenet_eastern_syncretism_desc:0 "There is something to be learned from the way the different eastern religions tolerate each other. They may not follow the true faith, but that does not make them evil."
- doctrine_parameter_hostility_override_eastern_hostility_doctrine:0 "Eastern [faiths|E] are considered only [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_eastern_hostility_doctrine:1 "Eastern [faiths|E] are considered only [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  #Instead, add these doctrine parameters to appropriate tenets (presently Eastern Syncretism).
  doctrine_parameter_is_eastern_faith_bilateral_loc_override:0 "Considers Eastern [faiths|E], and is considered by Eastern $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
  doctrine_parameter_hostility_override_special_doctrine_is_eastern_faith:0 "Considers Eastern [faiths|E], and is considered by Eastern $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
@@ -272,25 +291,25 @@
 
  tenet_unreformed_syncretism_name:0 "Syncretic Folk Traditions"
  tenet_unreformed_syncretism_desc:0 "Who are we to tell others that their traditions are untrue? It is not our place to lecture them about customs they have practiced for centuries: instead, we should learn quietly about their ways."
- doctrine_parameter_hostility_override_unreformed_faith_doctrine:0 "Considers [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faiths|E], and is considered by [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseNameNoTooltip] $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_unreformed_faith_doctrine:2 "Considers [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faiths|E], and is considered by [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseNameNoTooltip] $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
  doctrine_parameter_hostility_override_west_african_unreformed_faith_doctrine:0 "Considers African [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName] [faiths|E], and is considered by African [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseNameNoTooltip] $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
- doctrine_parameter_unreformed_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faiths|E]"
+ doctrine_parameter_unreformed_syncretic_actor_opinion_active:2 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faiths|E]"
  doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active:0 ""
- doctrine_parameter_unreformed_syncretic_recipient_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have $tenet_unreformed_syncretism_name$ [core_tenet|E]"
+ doctrine_parameter_unreformed_syncretic_recipient_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have $tenet_unreformed_syncretism_name$ [core_tenet|E]"
  doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 ""
  doctrine_parameter_unreformed_syncretic_conversion_malus_active:0 "Base speed of converting syncretised faiths is reduced by [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]"
 
  tenet_christian_syncretism_name:0 "Christian Syncretism"
  tenet_christian_syncretism_desc:0 "Jesus of Nazareth may not have been true divinity, but he was still an upstanding and virtuous figure. We should honor and respect his teachings."
  #This is deliberately left blank. It should not be deleted or filled in: such will break the loc.
- doctrine_parameter_hostility_override_special_doctrine_is_christian_faith:0 ""
+ doctrine_parameter_hostility_override_special_doctrine_is_christian_faith:1 ""
  #Instead, add these doctrine parameters to appropriate tenets (presently Christian Syncretism & Pastoral Isolation).
- doctrine_parameter_is_christian_faith_bilateral_loc_override:0 "Considers Christian [faiths|E], and is considered by Christian $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
- doctrine_parameter_is_christian_faith_pastoral_isolation_loc_override:0 "Always considers other Christian [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V], regardless of doctrinal differences"
+ doctrine_parameter_is_christian_faith_bilateral_loc_override:2 "Considers Christian [faiths|E], and is considered by Christian $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_is_christian_faith_pastoral_isolation_loc_override:1 "Always considers other Christian [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V], regardless of doctrinal differences"
  doctrine_parameter_can_use_christian_artefacts:0 "Can use Christian [artifacts|E] at full benefit"
- doctrine_parameter_christian_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Christian [faiths|E]"
+ doctrine_parameter_christian_syncretic_actor_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Christian [faiths|E]"
  doctrine_parameter_opinion_of_christian_syncretic_recipient_opinion_active:0 ""
- doctrine_parameter_christian_syncretic_recipient_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_christian_syncretism_name$ [core_tenet|E]"
+ doctrine_parameter_christian_syncretic_recipient_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_christian_syncretism_name$ [core_tenet|E]"
  doctrine_parameter_opinion_of_christian_syncretic_actor_opinion_active:0 ""
  doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_felicitous_doctrine:0 ""
  doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_radical_doctrine:0 ""
@@ -303,20 +322,20 @@
 
  tenet_islamic_syncretism_name:0 "Islamic Syncretism"
  tenet_islamic_syncretism_desc:0 "The Prophet's words are indisputably wise and just, and whatever our other doubts, we should take heed of his thoughts and deeds."
- doctrine_parameter_hostility_override_special_doctrine_is_islamic_faith:0 "Considers Islamic [faiths|E], and is considered by Islamic $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_special_doctrine_is_islamic_faith:2 "Considers Islamic [faiths|E], and is considered by Islamic $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
  doctrine_parameter_can_use_islamic_artefacts:0 "Can use Islamic [artifacts|E] at full benefit"
- doctrine_parameter_islamic_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Islamic [faiths|E]"
+ doctrine_parameter_islamic_syncretic_actor_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Islamic [faiths|E]"
  doctrine_parameter_opinion_of_islamic_syncretic_recipient_opinion_active:0 ""
- doctrine_parameter_islamic_syncretic_recipient_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_islamic_syncretism_name$ [core_tenet|E]"
+ doctrine_parameter_islamic_syncretic_recipient_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_islamic_syncretism_name$ [core_tenet|E]"
  doctrine_parameter_opinion_of_islamic_syncretic_actor_opinion_active:0 ""
 
  tenet_jewish_syncretism_name:0 "Jewish Syncretism"
  tenet_jewish_syncretism_desc:0 "Though we do not agree with its claims about God's chosen people, the wisdom of the Jewish Torah is undeniable, and there is much to be learned from the text."
- doctrine_parameter_hostility_override_special_doctrine_is_jewish_faith:0 "Considers Jewish [faiths|E], and is considered by Jewish $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_special_doctrine_is_jewish_faith:2 "Considers Jewish [faiths|E], and is considered by Jewish $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
  doctrine_parameter_can_use_jewish_artefacts:0 "Can use Jewish [artifacts|E] at full benefit"
- doctrine_parameter_jewish_syncretic_actor_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Jewish [faiths|E]"
+ doctrine_parameter_jewish_syncretic_actor_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with Jewish [faiths|E]"
  doctrine_parameter_opinion_of_jewish_syncretic_recipient_opinion_active:0 ""
- doctrine_parameter_jewish_syncretic_recipient_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_jewish_syncretism_name$ [core_tenet|E]"
+ doctrine_parameter_jewish_syncretic_recipient_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_jewish_syncretism_name$ [core_tenet|E]"
  doctrine_parameter_opinion_of_jewish_syncretic_actor_opinion_active:0 ""
 
  # Additional Tenets
@@ -326,9 +345,9 @@
 
  tenet_exaltation_of_pain_name:0 "Exaltation of Pain"
  tenet_exaltation_of_pain_desc:0 "Pain is the universal emotion, violence the universal language. To bestow pain upon another is to give them a blessing, so receive pain one's self is to receive grace."
- doctrine_parameter_torturing_prisoners_grants_piety:0 "#D Torturing [prisoners|E] earn [piety|E] instead of costing [piety|E]#!"
- doctrine_parameter_reduced_stress_from_torture:0 "#D Adherents are resistant to the negative effects of being tortured#!"
- doctrine_parameter_self_mutilation_active:0 "#D Can [decide|E] to Perform Self-Mutilation, earning [piety|E] at the cost of getting the [GetTrait('wounded_1').GetName( GetPlayer )] [trait|E]#!"
+ doctrine_parameter_torturing_prisoners_grants_piety:0 "Torturing [prisoners|E] earn [piety|E] instead of costing [piety|E]"
+ doctrine_parameter_reduced_stress_from_torture:0 "Adherents are resistant to the negative effects of being tortured"
+ doctrine_parameter_self_mutilation_active:0 "Can [decide|E] to Perform Self-Mutilation, earning [piety|E] at the cost of getting the [GetTrait('wounded_1').GetName( GetPlayer )] [trait|E]"
 
  tenet_sacred_shadows_name:0 "Sacred Lies"
  tenet_sacred_shadows_desc:0 "Lying is the most profound art in existence. Those who can convince others of their lies are holy. Those who can successfully lie to themselves are unstoppable."
@@ -346,8 +365,16 @@
  tenet_natural_primitivism_desc:0 "Civilization is unnatural, a futile and blasphemous attempt by man to impose order on an inherently unordered creation. We embrace naturism and live as [ROOT.Faith.PantheonTerm] intended, wild and free."
  doctrine_parameter_naked_adherents_active:0 "Adherents do not wear clothes"
  doctrine_parameter_natural_primitivism_law_cost_increase:0 "Law Costs: #N +50%#!"
- doctrine_parameter_unlock_jizya_contract:0 "Unlocks the Jizya [vassal_contract|E]"
+ doctrine_parameter_unlock_jizya_contract:1 "Unlocks the Jizya [vassal_contract|E] and [tax_decree|E]"
  
+
+ #FP3 tenets
+
+ tenet_communal_possessions_name: "Communal Possessions"
+ tenet_communal_possessions_desc: "[ROOT.Faith.HighGodName] intended for us all an equal share of the resources on earth. We should hold all things in common, and re-distribute the stolen wealth of the powerful." 
+ doctrine_parameter_piety_from_gifts_active: "Adherents gain [piety|E] from sending [gifts|E] and giving away [artifacts|E]"
+  doctrine_parameter_piety_from_marrying_lowborn_active: "Rulers gain [piety|E] from marrying [lowborn|E] [characters|E]"
+
  tenet_sacrificial_ceremonies_name:0 "Sacrificial Ceremonies"
  tenet_sacrificial_ceremonies_desc:0 "Human sacrifice both voluntary and involuntary bring us closer to the divine. It is customary and virtuous for one to volunteer to sacrifice oneself in ceremony, just as it is virtuous to sacrifice those who have committed unforgivable crimes against the Gods."
  
@@ -355,3 +382,10 @@
  tenet_megaliths_desc:0 "Worship should not be done merely in the confines of a temple, these are the primitive constructions of man that distracts them from the divine creations surrounding us all. We embrace stone and the open air, arranging the stones that the creator gave us in ways which please them and bring us closer to divinity."
  doctrine_parameter_can_build_megaliths:0 "Enables the construction of Megaliths in [temple|E] holdings and Great Megaliths in Duchy Capitals."
  province_is_of_a_megalith_faith_tt:0 "This [county|E] must follow a [faith|E] that believes in the significance of Megaliths."
+
+ tenet_fp3_fedayeen_name: "Fedayeen"
+ tenet_fp3_sacred_murder_name: "Sacred Murder"
+ tenet_fp3_fedayeen_desc: "When ordinary warfare will not avail, it is our duty before [ROOT.Faith.HighGodNameAlternate] to destroy [ROOT.Faith.HighGodHerHis|U] enemies through infiltration and deception. We must fear neither death nor pain, and eagerly lay down our lives for the greater cause." 
+ doctrine_parameter_master_assassin_court_position_unlocked: "Unlocks the [master_assassin|E] [court_position|E]"
+ doctrine_parameter_death_is_glory: "Likelihood of death or injury in [battle|E]: #N +10%#!"
+ doctrine_parameter_sanctioned_assassinations: "No [piety|e] loss for killing characters of a different [faith|E] through the [GetScheme('murder').GetTypeName] [schemes|E]"

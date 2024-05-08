@@ -1,6 +1,6 @@
 ﻿l_english:
  bm_1066_rags_to_riches:0 "Rags to Riches"
- bm_1066_rags_to_riches_desc:0 "Throughout Europe, families fight and scheme for power. A lot of land lies disputed, as battles are won and lost, and dynasties come and go, as their rulers are outmaneuvered.\n\n#bold Kings of old are being replaced, while newcomers reach for the stars. Which will you be?#!"
+ bm_1066_rags_to_riches_desc:1 "Throughout Europe, families fight and scheme for power. A lot of land lies disputed, as battles are won and lost, and dynasties come and go, as their rulers are outmaneuvered.\n\n#bold Kings of old are being replaced, while newcomers reach for the stars. Which will you be?#!"
 
  # Murchad Briain, Duke of Munster, Ireland
  bookmark_rags_to_riches_petty_king_murchad:0 "Petty King Murchad"
@@ -15,7 +15,7 @@
 
  # Yahya Dhunnunid, Emir (Duke) of Toldeo, Iberia
  bookmark_rags_to_riches_emir_yahya:0 "Emir Yahya"
- bookmark_rags_to_riches_emir_yahya_desc:0 "The Kingdom of Toledo will be established in the late 11th century, when the King of León takes over the eponymous city. This eradication of Emir Yahya and his influence means that the Dhunnunid family will lose its hold on the region, where they have reigned for generations.\n\n#bold Through manipulating your rivals, and finding more allies, do you have what it takes to challenge the Kings of the Iberian peninsula and change history for the Dhunnunid house?#!"
+ bookmark_rags_to_riches_emir_yahya_desc:1 "The Kingdom of Toledo will be established in the late 11th century, when the King of León takes over the eponymous city. This eradication of Emir Yahya and his influence means that the Dhunnunid family will lose its hold on the region, where they have reigned for generations.\n\n#bold Through manipulating your rivals, and finding more allies, do you have what it takes to challenge the Kings of the Iberian peninsula and change history for the Dhunnunid house?#!"
 
  bookmark_rags_to_riches_emir_yahya_alt_zahida:0 "$Zahida$"
  bookmark_rags_to_riches_emir_yahya_alt_yahya2:0 "$Yahya$"

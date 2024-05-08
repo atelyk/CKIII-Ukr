@@ -10,7 +10,7 @@
  border_raid_cb_desc_white_peace_attacker:0 "You fail to complete your raid."
  border_raid_cb_desc_white_peace_defender:0 "[attacker.GetName] fails to complete [attacker.GetHerHis] raid."
  border_raid_cb_desc_defeat_attacker:0 "You must pay [gold|E] reparations for attempting the raid."
- border_raid_cb_desc_defeat_defender:0 "[attacker.GetName] must pay [gold|E] reparations for attempting the raid."
+ border_raid_cb_desc_defeat_defender:1 "[attacker.GetName] must pay [gold|E] reparations for attempting the raid."
  destroy_random_building_tt:0 "A random [building|E] in [raid_county.GetName] is destroyed, earning extra [gold_i]"
  border_raid_building_tt:0 "A [building|E] may also be destroyed."
  border_raid_warning_tt:0 "@warning_icon! #X No [titles|E] will change hands.#!"

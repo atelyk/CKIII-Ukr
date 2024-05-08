@@ -132,7 +132,7 @@
  heartless_behavior:0 "heartlessness"
 
  #InsultSentence
- insult_sentence_arrogant:0 "you are a self-made [ROOT.GetCharacter.GetWomanMan], worshiping your creator"
+ insult_sentence_arrogant:1 "you are a self-made [ROOT.GetCharacter.GetWomanMan], worshiping your creator"
  insult_sentence_lustful:0 "I feel so miserable when I am not with you; it is almost like being in your company"
  insult_sentence_subtle:0 "you are as subtle as a street corner doxy"
  insult_sentence_highgod:0 "your face is proof that [ROOT.GetCharacter.GetFaith.HighGodName] is not always good"
@@ -258,3 +258,13 @@
  insult_shunt_female:0 "shunt"
  insult_blunt_female:0 "blunt"
  impotent_female:0 "barren"
+
+ insult_noun_clumsy_oaf: "$oaf_insult$"
+ insult_noun_clumsy_buffoon: "$buffoon$"
+ insult_noun_clumsy_dimwit: "dimwit"
+ insult_noun_clumsy_nimrod: "nimrod"
+ 
+ insult_adjective_clumsy_clumsy: "clumsy"
+ insult_adjective_clumsy_stumbling: "stumbling"
+ insult_adjective_clumsy_blundering: "blundering"
+ insult_adjective_clumsy_fumbling: "fumbling"

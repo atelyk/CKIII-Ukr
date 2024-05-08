@@ -3,7 +3,7 @@
  negative_desc_of_other:0 "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('second') )]"
  positive_desc_debug:0 "good"
  negative_desc_debug:0 "bad"
- test_case_desc_in_event:0 "My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
+ test_case_desc_in_event:1 "My [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
 
  positive_desc_loyal:0 "loyal"
  positive_desc_faithful:0 "faithful"
@@ -49,8 +49,8 @@
  positive_desc_unsusceptible:0 "unsusceptible"
  positive_desc_ahem:0 "ahem... #EMP efficient#!"
  positive_desc_efficient:0 "efficient"
- positive_desc_fellow_connoisseur:0 "fellow connoisseur and"
- positive_desc_fellow_gourmand:0 "fellow gourmand and"
+ positive_desc_fellow_connoisseur:1 "connoisseur"
+ positive_desc_fellow_gourmand:1 "gourmand"
  positive_desc_resolute:0 "resolute"
  positive_desc_flexible:0 "flexible"
  positive_desc_trenchant:0 "trenchant"
@@ -78,7 +78,7 @@
  positive_desc_wise:0 "wise"
  positive_desc_venerable:0 "venerable"
  positive_desc_youthful:0 "youthful"
- positive_desc_compliment_adjective:0 "[second.Custom('ComplimentAdjective')]"
+ positive_desc_compliment_adjective:1 "[second.Custom('ComplimentAdjective')]"
 
  negative_desc_traitorous:0 "traitorous"
  negative_desc_subversive:0 "subversive"
@@ -156,7 +156,7 @@
  negative_desc_overconfident:0 "overconfident"
  negative_desc_careless:0 "careless"
  negative_desc_hubristic:0 "hubristic"
- negative_desc_insult_adjective:0 "[second.Custom('InsultAdjective')]"
+ negative_desc_insult_adjective:1 "[second.Custom('InsultAdjective')]"
  
  crime_kinslayer:0 "kinslayer"
  crime_deviant:0 "deviant"

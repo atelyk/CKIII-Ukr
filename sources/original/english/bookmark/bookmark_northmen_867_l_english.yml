@@ -1,6 +1,6 @@
 ﻿l_english:
  bm_867_northmen:0 "Wrath of The Northmen"
- bm_867_northmen_desc:0 "Two years ago, King Ælla of Northumbria threw the great Viking hero Ragnarr Loðbrók into a pit of snakes to die. Upon hearing the news, Ragnarr's sons set sail for England to avenge their father.\n\nThe brothers have since established a firm foothold in York and The Isles. The Anglo-Saxon kings have lost battle after battle — their future looks bleak indeed.\n\nBut all hope is not lost, and a great hero could still turn the tide of history.\n\n#bold Will you lay all of England under Norse rule, or vanquish the Great Heathen Army from Anglo-Saxon soil?#!"
+ bm_867_northmen_desc:1 "Two years ago, King Ælla of Northumbria threw the great Viking hero Ragnarr Loðbrók into a pit of snakes to die. Upon hearing the news, Ragnarr's sons set sail for England to avenge their father.\n\nThe brothers have since established a firm foothold in York and The Isles. The Anglo-Saxon kings have lost battle after battle — their future looks bleak indeed.\n\nBut all hope is not lost, and a great hero could still turn the tide of history.\n\n#bold Will you lay all of England under Norse rule, or vanquish the Great Heathen Army from Anglo-Saxon soil?#!"
 
  #Halfdan Whiteshirt
  bookmark_northmen_halfdan_whiteshirt:0 "Halfdan Whiteshirt"
@@ -21,7 +21,7 @@
 
  #Sigurdr Snake-in-the-eye
  bookmark_northmen_sigurdr_snake_in_the_eye:0 "Sigurdr Snake-in-the-Eye"
- bookmark_northmen_sigurdr_snake_in_the_eye_desc:0 "As his brothers sailed off to England to exact their vengeance, Sigurd Snake-in-the-Eye stayed behind to rule his late father's lands. Ragnarr Loðbrók has left him some very large boots to fill.\n\n#bold Sigurd's descendants will be Kings of Denmark, Norway and England for well over a century. Can you fulfill the destiny of his dynasty?#!"
+ bookmark_northmen_sigurdr_snake_in_the_eye_desc:1 "As his brothers sailed off to England to exact their vengeance, Sigurd Snake-in-the-Eye stayed behind to rule his late father's lands. Ragnarr Loðbrók has left him some very large boots to fill.\n\n#bold Sigurd's descendants will be Kings of Denmark, Norway and England for well over a century. Can you fulfill the destiny of his dynasty?#!"
 
  bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud:0 "$Knud$"
  bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud_desc:0 "alt desc"
@@ -49,9 +49,9 @@
  bookmark.0002.desc:0 "The first time a vassal hailed me with a "long live [ROOT.Char.GetFirstNameNoTooltip] the Great!", I was deeply honored. I thought nothing more of it, but since that day, the epithet has grown in popularity.\n\nWherever I go, from [capital.GetNameNoTooltip] to [province.GetNameNoTooltip], my subjects now call me [ROOT.Char.GetFirstNameNoTooltip] the Great."
  bookmark.0002.a:0 "I pray I will never let them down."
 
- bookmark.0004.t:0 "Vengeance"
- bookmark.0004.desc_unknown:0 "As [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] is brought before me [prisoner.GetSheHe] immediately prostrates [prisoner.GetHerselfHimself] and begs my forgiveness for #EMP killing my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))]#!?!\n\n"I... I thought you knew! Forget I said anything," [prisoner.GetSheHe] laughs nervously. "Obviously I must have hit my head when I was captured. Or something. I don't know what I'm talking about!"\n\nWhen I heard of my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetNamePossessive] death I swore I would have my vengeance. And I am a [ROOT.Char.GetWomanMan] of my word."
- bookmark.0004.desc:0 "Finally, after all this time, I have the [prisoner.Custom('InsultAdjective')] [prisoner.GetName] at my mercy! When I heard of my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetNamePossessive] death at [prisoner.GetHerHis] hands, I swore I would have my vengeance. And I am a [ROOT.Char.GetWomanMan] of my word."
+ bookmark.0004.t:1 "Vengeance"
+ bookmark.0004.desc_unknown:1 "As [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] is brought before me [prisoner.GetSheHe] immediately prostrates [prisoner.GetHerselfHimself] and begs my forgiveness for #EMP killing my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))]#!?!\n\n"I... I thought you knew! Forget I said anything," [prisoner.GetSheHe] laughs nervously. "Obviously I must have hit my head when I was captured. Or something. I don't know what I'm talking about!"\n\nWhen I heard of my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetNamePossessive] death I swore I would have my vengeance. And I am a [ROOT.Char.GetWomanMan] of my word."
+ bookmark.0004.desc:1 "Finally, after all this time, I have the [prisoner.Custom('InsultAdjective')] [prisoner.GetName] at my mercy! When I heard of my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetNamePossessive] death at [prisoner.GetHerHis] hands, I swore I would have my vengeance. And I am a [ROOT.Char.GetWomanMan] of my word."
  bookmark.0004.a.custom:0 "Every [close_family_member|E] of [dead.GetShortUIName]"
  bookmark.0004.a:0 "I will tear his ribs into blood wings!"
  bookmark.0004.b:0 "This [prisoner.GetWomanMan] is yours, great [ROOT.Char.GetFaith.HighGodName]!"

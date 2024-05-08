@@ -1,19 +1,18 @@
 ﻿l_english:
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_yearly_events_l_english.yml
-
  #A spouse/consort attempts to influence you into changing your heir
  bp1_yearly.2020.t:0 "Great Expectations"
  bp1_yearly.2020.desc:0 "[bp1_yearly_2020_influencing_partner.GetTitledFirstName] approaches me with a friendly smile. "My love! Have you seen how majestic our [bp1_yearly_2020_child_to_become_heir.GetFirstName] is becoming? [bp1_yearly_2020_child_to_become_heir.GetSheHe|U] could practically rule this nation with one hand tied behind [bp1_yearly_2020_child_to_become_heir.GetHerHis] back; and I swear by [bp1_yearly_2020_influencing_partner.GetFaith.HighGodNameAlternate] that [bp1_yearly_2020_child_to_become_heir.GetSheHe] would make you very proud."\n\n[bp1_yearly_2020_influencing_partner.GetSheHe|U] gives me a side-eye glance. "Of course, if there is #EMP anything#! I could do in order to make the idea more enticing... I'm sure you would let me know and we could come to some sort of an agreement, my fair [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)]." A wry smile lingers on [bp1_yearly_2020_influencing_partner.GetHerHis] lips.\n\n#EMP Anything#!, she says?"
  bp1_yearly.2020.a:0 "Bring me the [bp1_yearly_2020_target.Custom('InsultAdjectiveGeneric')] [bp1_yearly_2020_target.GetFirstNamePossessiveNoTooltip] head on a platter."
  bp1_yearly.2020.b:0 "I #EMP am#! interested in more #EMP useful#! courtiers."
- bp1_yearly.2020.b_tt:0 "[bp1_yearly_2020_influencing_partner.GetFirstNameNoTooltip] will offer you a selection of skilled courtiers. "
+ bp1_yearly.2020.b_tt:1 "[bp1_yearly_2020_influencing_partner.GetFirstNameNoTooltip] will offer you a selection of skilled courtiers. "
  bp1_yearly.2020.c:0 "My coffers #EMP are#! quite empty."
  bp1_yearly.2020.c_tt_only_hook:0 "[bp1_yearly_2020_influencing_partner.GetTitledFirstName] offers up a hook on [bp1_yearly_2020_influencing_partner.GetHerHis] [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', SCOPE.sC('bp1_yearly_2020_influencing_partners_parent_only_hook') )] [bp1_yearly_2020_influencing_partners_parent_only_hook.GetTitledFirstName]."
  bp1_yearly.2020.c_tt_halfsies:0 "[bp1_yearly_2020_influencing_partner.GetTitledFirstName] is half-way sponsored by and will offer up a hook on [bp1_yearly_2020_influencing_partner.GetHerHis] [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', SCOPE.sC('bp1_yearly_2020_influencing_partners_parent_halfsies') )] [bp1_yearly_2020_influencing_partners_parent_halfsies.GetTitledFirstName]."
  bp1_yearly.2020.c_tt_pay_and_hook:0 "[bp1_yearly_2020_influencing_partner.GetTitledFirstName] is sponsored by and will offer up a hook on [bp1_yearly_2020_influencing_partner.GetHerHis] [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', SCOPE.sC('bp1_yearly_2020_influencing_partners_parent_pays') )] [bp1_yearly_2020_influencing_partners_parent_pays.GetTitledFirstName]."
  bp1_yearly.2020.d:0 "This seems #EMP highly#! suspicious. Guards!"
  bp1_yearly.2020.d_tt:0 "Who knows what else [bp1_yearly_2020_influencing_partner.GetSheHe] might be plotting!"
- bp1_yearly.2020.e:0 "I don't need anything from you, [bp1_yearly_2020_influencing_partner.GetFirstNameNoTooltip]."
+ bp1_yearly.2020.e:1 "I don't need anything from you, [bp1_yearly_2020_influencing_partner.GetFirstNameNoTooltip]."
+ #Spouse brings up a bunch of skilled people for you to recruit
  bp1_yearly.2021.t:0 "Persona Grata"
  bp1_yearly.2021.desc:0 "[bp1_yearly_2020_influencing_partner.GetFirstName] catches up with me once more. "[bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)|U]! I come bearing news!" [bp1_yearly_2020_influencing_partner.GetSheHe|U] hurries to my side, unveiling a soft sheet with a collection of scribbles while doing so. "These fine people would be most pleased to come work for you, here at our court!"\n\nI glance at the sheet. Those are some impressive set of skills, I'll give [bp1_yearly_2020_influencing_partner.GetHerHim] that!"
  bp1_yearly.2021.a:0 "This trained warrior has a certain #EMP authority#!."
@@ -27,12 +26,14 @@
  bp1_yearly.2021.e:0 "A very #EMP intriguing#! candidate!"
  bp1_yearly.2021.e_tt:0 "[bp1_yearly_2021_intrigue_person.GetShortUIName|U] joins your court"
  bp1_yearly.2021.f:0 "I've changed my mind."
+ #Letter event - Spouse is captured or killed by your rival
  bp1_yearly.2022.t:0 "[bp1_yearly_2020_target.Custom2('AppropriateGreetingNegative', ROOT.Char )]"
  bp1_yearly.2022.desc_intro:0 "[bp1_yearly_2020_target.Custom2('NegativeSupplimentaryGreeting', ROOT.Char )]"
  bp1_yearly.2022.desc_imprisoned:0 "\n\nI have in my possession a certain individual whom swears that you had no hand in [bp1_yearly_2020_influencing_partner.GetHerHis] #EMP assassination attempt#! on my life. I do not believe this treacherous [bp1_yearly_2020_influencing_partner.Custom('InsultNoun')].\n\nConsider yourself warned."
  bp1_yearly.2022.desc_dead:0 "\n\nYou will not believe what happened to me the other day. A malicious [bp1_yearly_2020_influencing_partner.Custom('InsultNoun')] made an attempt at my life, but [bp1_yearly_2020_influencing_partner.GetFaith.HighGodName] was with me and kept me safe. I in turn keep [bp1_yearly_2020_influencing_partner.GetHerHis] head as decor in my personal study.\n\nConsider yourself warned."
  bp1_yearly.2022.a_imprisoned:0 "That #EMP [bp1_yearly_2020_target.Custom('InsultNoun')]#!!"
  bp1_yearly.2022.b_dead:0 "What? No! This can't be! [bp1_yearly_2020_influencing_partner.GetTitledFirstNameNoTooltip]..."
+ #Concluding event
  bp1_yearly.2023.t:0 "All Hail The [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]"
  bp1_yearly.2023.desc_triumphant:0 "[bp1_yearly_2020_influencing_partner.GetFirstName] smiles triumphantly in my direction as I stride towards [bp1_yearly_2020_influencing_partner.GetHerHim]."
  bp1_yearly.2023.desc_sad:0 "I look around the empty kitchen. It echoes hollow, as [bp1_yearly_2020_influencing_partner.GetFirstName] is missing from my side."
@@ -120,12 +121,12 @@
  #Friendly consorts want to tutor other consort's child
  bp1_yearly.2060.t:0 "It Takes A Village"
  bp1_yearly.2060.desc_intro:0 "I have noticed [bp1_yearly_2060_first_consort.GetTitledFirstName] and [bp1_yearly_2060_second_consort.GetTitledFirstName] spending a lot of time together recently. This morning the duo approaches me, noticeably excited about something.\n\n"[ROOT.Char.GetTitledFirstName]! [bp1_yearly_2060_second_consort.GetFirstNameNoTooltip] and I have been bonding over our shared interest in "
- bp1_yearly.2060.desc_diplomacy:0 "diplomacy and making sure everyone gets along,""
- bp1_yearly.2060.desc_martial:0 "the martial arts and combat knowledge,""
+ bp1_yearly.2060.desc_diplomacy:1 "diplomacy and making sure everyone gets along,""
+ bp1_yearly.2060.desc_martial:1 "the martial arts and combat knowledge,""
  bp1_yearly.2060.desc_stewardship:0 "economy and stewardship skills,""
- bp1_yearly.2060.desc_intrigue:0 "intrigue and the subterfuge of court,""
- bp1_yearly.2060.desc_learning:0 "learning the our love for knowledge,""
- bp1_yearly.2060.desc_outro:0 " [bp1_yearly_2060_first_consort.GetFirstNameNoTooltip] chirps.\n\n[bp1_yearly_2060_second_consort.GetFirstNameNoTooltip] breaks in: "My [bp1_yearly_2060_second_consort.Custom2('RelationToMeShort', bp1_yearly_2060_target_child)] [bp1_yearly_2060_target_child.GetFirstNameNoTooltip] has been showing great promise in this area, and we'd like to tutor [bp1_yearly_2060_target_child.GetHerHim]!""
+ bp1_yearly.2060.desc_intrigue:1 "intrigue and the subterfuge of court,""
+ bp1_yearly.2060.desc_learning:1 "learning the our love for knowledge,""
+ bp1_yearly.2060.desc_outro:1 " [bp1_yearly_2060_first_consort.GetFirstNameNoTooltip] chirps.\n\n[bp1_yearly_2060_second_consort.GetFirstNameNoTooltip] breaks in: "My [bp1_yearly_2060_second_consort.Custom2('RelationToMeShort', bp1_yearly_2060_target_child)] [bp1_yearly_2060_target_child.GetFirstNameNoTooltip] has been showing great promise in this area, and we'd like to tutor [bp1_yearly_2060_target_child.GetHerHim]!""
  bp1_yearly.2060.a:0 "That sounds like a great idea!"
  bp1_yearly.2060.a_paranoid:0 "If you insist."
  bp1_yearly.2060.a_tt_paranoid:0 "Who knows what else they're indoctrinating [bp1_yearly_2060_target_child.GetHerHim] with..."
@@ -144,12 +145,9 @@
  bp1_yearly.2070.c:0 "You and I both know that is for the best."
  bp1_yearly.2070.c_tt:0 "This world is a terrible place."
 
-
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_opinions_l_english.yml
  primary_heir_replaced_opinion:0 "Removed As Heir"
  parent_primary_heir_replaced_opinion:0 "Child Removed As Heir"
 
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_modifiers_l_english.yml
  bp1_yearly_2023_honorable_modifier:0 "Honorable"
  bp1_yearly_2023_honorable_modifier_desc:0 "This character honorably respected a partner's wish."
  bp1_yearly_2023_dishonorable_modifier:0 "Dishonorable"
@@ -167,10 +165,8 @@
  bp1_yearly_2070_cynicism_modifier:0 "For The Best"
  bp1_yearly_2070_cynicism_modifier_desc:0 "There are too many terrible things in this world for a love child."
 
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_opinions_l_english.yml
  tutored_me_opinion:0 "Tutored Me"
 
- #TODO_CD_FGK_BP1_POLISH move to game\localization\english\dlc\bp1\dlc_bp1_custom_loc_l_english.yml
  #InsultAdjectiveGeneric
  random_insult_adjective_despicable:0 "despicable"
  random_insult_adjective_reprehensible:0 "reprehensible"
@@ -191,7 +187,7 @@
  custom_loc_sisterhood:0 "sisterhood"
  custom_loc_brotherhood:0 "brotherhood"
  #SkillFlag
- custom_loc_diplomacy:0 "diplomatic abilities"
+ custom_loc_diplomacy:0 "diplomatic abilities" 
  custom_loc_martial:0 "martial arts"
  custom_loc_stewardship:0 "stewardship"
  custom_loc_intrigue:0 "intrigue"

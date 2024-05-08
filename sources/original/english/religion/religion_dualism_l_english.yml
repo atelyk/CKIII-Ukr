@@ -24,7 +24,7 @@
  dualism_house_of_worship:0 "temple"
  dualism_house_of_worship_2:0 "$dualism_house_of_worship$" # Optional translation alt
  dualism_house_of_worship_3:0 "$dualism_house_of_worship$" # Optional translation alt
- dualism_house_of_worship_plural:0 "temples"
+ dualism_house_of_worship_plural:1 "temples"
  dualism_religious_symbol:0 "cross of light"
  dualism_religious_symbol_2:0 "$dualism_religious_symbol$" # Optional translation alt
  dualism_religious_symbol_3:0 "$dualism_religious_symbol$" # Optional translation alt
@@ -82,7 +82,7 @@
  dualism_water_god_name_possessive:0 "$dualism_high_god_name_possessive$"
 
  #Manicheanism
- manichean:0 "Manichaeism"
+ manichean:1 "Manichaeism"
  manichean_adj:0 "Manichean"
  manichean_adherent:0 "Manichean"
  manichean_adherent_plural:0 "Manicheans"

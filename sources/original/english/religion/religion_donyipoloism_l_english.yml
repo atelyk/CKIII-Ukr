@@ -4,7 +4,7 @@
  tani_religion_adj:0 "Tani"
  tani_religion_adherent:0 "Tanist"
  tani_religion_adherent_plural:0 "Tanists"
- tani_religion_desc:0 "The religion of the Tani Lhoba and their neighbors focuses around a duality of natural deities who are worshiped as the Supreme Being. To the Tani, these dual deities are Donyi, the sun goddess, and Polo, the moon god."
+ tani_religion_desc:1 "The religion of the Tani Lhoba and their neighbors focuses around a duality of natural deities who are worshiped as the Supreme Being. To the Tani, these dual deities are Donyi, the sun goddess, and Polo, the moon god."
  tani_high_god_name:0 "Donyi-Polo"
  tani_high_god_name_2:0 "$tani_high_god_name$" # Optional translation alt
  tani_high_god_name_possessive:0 "Donyi-Polo's"
@@ -100,9 +100,9 @@
  sedism_old_adherent:0 "Old Sedi Ome"
  sedism_old_adherent_plural:0 "Old Sedi Ome"
  
- sedism_high_god_name:0 "Sedi"
+ sedism_high_god_name:1 "Sedi"
  sedism_high_god_name_2:0 "$sedism_high_god_name$" # Optional translation alt
- sedism_high_god_name_possessive:0 "Sedi's"
+ sedism_high_god_name_possessive:1 "Sedi's"
  sedism_high_god_shehe:0 "He"
  sedism_high_god_herselfhimself:0 "Himself"
  sedism_high_god_herhis:0 "His"

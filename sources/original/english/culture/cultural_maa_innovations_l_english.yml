@@ -39,22 +39,22 @@
  innovation_hird_desc:0 "The tradition of keeping armed retinues in service to a household has served us well. By formalizing and expanding this system we can field entire regiments of huscarls in our armies."
 
  innovation_zweihanders:0 "Zweihanders"
- innovation_zweihanders_desc:0 "These massive two-handed swords are as adept at cutting down charging $knight_culture_player_plural_no_tooltip_lowercase$ as they are at breaking enemy pike formations, making them a formidable addition to our own pike regiments."
+ innovation_zweihanders_desc:1 "These massive two-handed swords are as adept at cutting down charging $knight_culture_player_plural_no_tooltip_lowercase$ as they are at breaking enemy pike formations, making them a formidable addition to our own pike regiments."
 
  #innovation_longbows:0 "Longbow"
  #innovation_longbows_desc:0 "Taking advantage of the strong yew wood that grows here, our bowyers have learned to make longbows so powerful they require specialized training from an early age to use effectively. This investment is worth it, as our longbowmen can shoot arrows which travel further and penetrate deeper than those fired by other archers."
 
  innovation_adaptive_militia:0 "Adaptive Militia"
- innovation_adaptive_militia_desc:0 "Weapons like the goedendag are cheap and easy to produce, yet surprisingly effective against cavalry charges. Their existence allows us to adapt our militias to have much better odds when fighting armored $knight_culture_player_plural_no_tooltip_lowercase$."
+ innovation_adaptive_militia_desc:1 "Weapons like the goedendag are cheap and easy to produce, yet surprisingly effective against cavalry charges. Their existence allows us to adapt our militias to have much better odds when fighting armored $knight_culture_player_plural_no_tooltip_lowercase$."
 
  innovation_valets:0 "Valets"
- innovation_valets_desc:0 "Establishing a valet system of dedicated servants for our noble horsemen will enable us to field $knight_culture_player_plural_no_tooltip_lowercase$ who are both better armed and armored."
+ innovation_valets_desc:1 "Establishing a valet system of dedicated servants for our noble horsemen will enable us to field $knight_culture_player_plural_no_tooltip_lowercase$ who are both better armed and armored."
 
  innovation_pike_columns:0 "Pike Columns"
  innovation_pike_columns_desc:0 "Pikemen have always been strong defenders, but they have historically lacked in mobility and offense. Devising new formations to address this deficiency will improve our chances of victory in battle."
 
  innovation_legionnaires:0 "Legionnaires"
- innovation_legionnaires_desc:0 "Just as we have restored the Roman empire, so too shall restore the structure of the old Roman legion and its feared elite troops!"
+ innovation_legionnaires_desc:1 "Just as we have restored the Roman empire, so too shall restore the structure of the old Roman legion and its feared elite troops!"
 
  innovation_desert_tactics:0 "Desert Tactics"
  innovation_desert_tactics_desc:0 "The Levant is an unfamiliar place with poor terrain for cavalry charges. We should adapt to these lands and field cavalry which is better suited to fight in our new home."
@@ -66,7 +66,7 @@
  innovation_cataphracts_desc:0 "Fully encased in protective iron suits, our intimidating cataphract cavalry can break almost any defensive line by charging straight into it with their lances."
 
  innovation_hobbies:0 "Hobbies"
- innovation_hobbies_desc:0 "Riders on our Celtic hobby horses are both fast and agile — perfect for scouting and raiding in rough terrain where enemy $knight_culture_player_plural_no_tooltip_lowercase$ are loathe to go."
+ innovation_hobbies_desc:1 "Riders on our Celtic hobby horses are both fast and agile — perfect for scouting and raiding in rough terrain where enemy $knight_culture_player_plural_no_tooltip_lowercase$ are loathe to go."
 
  innovation_rectilinear_schiltron:0 "Rectilinear Schiltron"
  innovation_rectilinear_schiltron_desc:0 "The traditional pike circle is a powerful defensive formation, but it is limited in offense and mobility. While requiring great discipline to employ, our rectilinear schiltron is a superior formation which is capable of both powerful offensive and defensive tactics."
@@ -105,8 +105,8 @@
 
  tradition_hussar_name:0 "$innovation_hussar_raids$"
  tradition_hussar_desc:0 "$innovation_hussar_raids_desc$"
- innovation_hussar_raids:0 "$hussar$ Raids"
- innovation_hussar_raids_desc:0 "Light cavalry which can strike quickly at exposed enemies before darting back away, our $hussar$ can be formed into regiments which specialize in harassment and raiding."
+ innovation_hussar_raids:1 "$hussar$ Raids"
+ innovation_hussar_raids_desc:1 "Light cavalry which can strike quickly at exposed enemies before darting back away, our $hussar$ can be formed into regiments which specialize in harassment and raiding."
 
  tradition_druzhina_name:0 "$innovation_druzhina$"
  tradition_druzhina_desc:0 "$innovation_druzhina_desc$"
@@ -159,7 +159,7 @@
  innovation_royal_army_tradition_desc:0 "We have a long tradition of a standing army made to protect the capital. This has given us access to tough soldiers that work exceedingly well with supporting troops, such as War Elephants."
  
  innovation_repeating_crossbow:0 "Chu-ko-nu"
- innovation_repeating_crossbow_desc:0 "The repeating crossbow, known as Chu-ko-nu, is an ingenious invention with an easy-to-use mechanism that can be operated by anyone. What it lacks in range and penetrating power, it makes up for with the rapidity of its volleys, making it an ideal weapon for defensive positions."
+ innovation_repeating_crossbow_desc:1 "The repeating crossbow, known as Chu-ko-nu, is an ingenious invention with an easy-to-use mechanism that can be operated by anyone. What it lacks in range and penetrating power, it makes up for with the rapidity of its volleys, making it an ideal weapon for defensive positions."
 
  innovation_men_at_arms:0 "Men-at-Arms"
  innovation_men_at_arms_desc:0 "Training and equipping standing armies that remain under the direct disposal of our rulers will be a stepping stone on the road to centralize our power."

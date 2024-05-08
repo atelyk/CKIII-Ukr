@@ -1,6 +1,6 @@
 ﻿l_english:
  yearly.9100.t:0 "Trouble in the Garden"
- yearly.9100.desc:0 "As I enter the gardens, I barely have the time to take a single step before I hear someone shouting profanities. "#EMP [gardener.Custom('CulturalCurse')|U]!#!"\n\nI walk around a hedge in search of the source and spot my gardener [gardener.GetTitledFirstName] toiling away in the earth with a scowl on [gardener.GetHerHis] face. [gardener.GetSheHe|U] notices my approach and quickly gets up on [gardener.GetHerHis] feet.\n\n"Oh! Forgive me, my [ROOT.Char.GetLadyLord|U]. I did not expect anyone else to be out here... Some stupid animal, a [gardener.Custom('LocalAnimal')] no doubt, has ruined #EMP all#! of my recent work! I planted these herbs only the day before yesterday!""
+ yearly.9100.desc:0 "As I enter the gardens, I barely have the time to take a single step before I hear someone shouting profanities. "#EMP [gardener.Custom('CulturalCurse')|U]!#!"\n\nI walk around a hedge in search of the source and spot my gardener [gardener.GetTitledFirstName] toiling away in the earth with a scowl on [gardener.GetHerHis] face. [gardener.GetSheHe|U] notices my approach and quickly gets up on [gardener.GetHerHis] feet.\n\n"Oh! Forgive me, my [ROOT.Char.GetLadyLord|U]. I did not expect anyone else to be out here... Some stupid animal, a [gardener.Custom('GetAnimalType')] no doubt, has ruined #EMP all#! of my recent work! I planted these herbs only the day before yesterday!""
  yearly.9100.a:0 "Allow me to help!"
  yearly.9100.b:0 "Here is a little something for your hard work!"
  yearly.9100.c:0 "That #EMP is#! unfortunate... But don't stop on my account!"
@@ -10,7 +10,7 @@
  yearly.9100.a.failure:0 "Gardening is a waste of time!"
  
  yearly.9110.t:0 "The Flower Thief"
- yearly.9110.desc:0 "My gardener [gardener.GetTitledFirstName] storms into the council chambers and furiously approaches my [romantic_councillor.GetCouncilTitle], [romantic_councillor.GetTitledFirstName].\n\n"How #EMP dare#! you ruin the [ROOT.Char.GetTitleTierNamePossessive] garden?! By #EMP stealing#! rare and precious flowers no less!"\n\n[romantic_councillor.GetFirstNameNoTooltip] is clearly unaffected by the gardener's temper. "I thought they would make a perfect gift for my [councillor_spouse.GetWifeHusband]. Being a romantic is hardly a crime, is it?""
+ yearly.9110.desc:1 "My gardener [gardener.GetTitledFirstName] storms into the council chambers and furiously approaches my [romantic_councillor.GetCouncilTitle], [romantic_councillor.GetTitledFirstName].\n\n"How #EMP dare#! you ruin the [ROOT.Char.GetTitleTierNamePossessive] garden?! By #EMP stealing#! rare and precious flowers no less!"\n\n[romantic_councillor.GetFirstNameNoTooltip] is clearly unaffected by the gardener's temper. "I thought they would make a perfect gift for my [councillor_spouse.GetWifeHusband]. Being a romantic is hardly a crime, is it?""
  yearly.9110.a:0 "But ruining my garden is. You'll pay for the damages. Now."
  yearly.9110.b:0 "You step out of line [gardener.GetFirstNameNoTooltip]!"
  yearly.9110.c:0 "Those flowers does make an excellent gift... For #EMP my#! [spouse.GetWifeHusband]."

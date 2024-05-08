@@ -1,10 +1,12 @@
 ﻿l_english:
  DIPLOMACY_ACTIONS:0 "diplomatic actions"
  FRIENDLY_ACTIONS:0 "friendly actions"
+ CLAN_ACTIONS: "clan actions"
  HOSTILE_ACTIONS:0 "hostile actions"
+ DIARCH_ACTIONS:0 "diarch"
  VASSAL_ACTIONS:0 "vassal actions"
  COURT_ACTIONS:0 "court actions"
- IMPRISOMENT_ACTIONS:0 "imprisoment actions"
+ IMPRISOMENT_ACTIONS:1 "imprisonment actions"
  RELIGIOUS_ACTIONS:0 "religious actions"
  HOUSE_HEAD_ACTIONS:0 "house head actions"
  UNCATEGORIZED_ACTIONS:0 "uncategorized actions"

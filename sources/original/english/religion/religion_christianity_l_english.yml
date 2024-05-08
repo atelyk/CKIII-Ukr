@@ -45,11 +45,11 @@
  christianity_bishop:0 "bishop"
  christianity_bishop_plural:0 "bishops"
  christianity_positive_afterlife:0 "heaven"
- christianity_positive_afterlife_2:0 "paradise" # Optional translation alt
- christianity_positive_afterlife_3:0 "$christianity_high_god_name_possessive$ Kingdom" # Optional translation alt
+ christianity_positive_afterlife_2:1 "paradise" # Optional translation alt
+ christianity_positive_afterlife_3:1 "$christianity_high_god_name_possessive$ Kingdom" # Optional translation alt
  christianity_negative_afterlife:0 "hell"
- christianity_negative_afterlife_2:0 "the Pit" # Optional translation alt
- christianity_negative_afterlife_3:0 "Gehenna" # Optional translation alt
+ christianity_negative_afterlife_2:1 "the Pit" # Optional translation alt
+ christianity_negative_afterlife_3:1 "Gehenna" # Optional translation alt
  christianity_witchgodname_the_horned_god:0 "the Horned God"
  christianity_witchgodname_the_horned_god_possessive:0 "the Horned God's"
 
@@ -121,11 +121,11 @@
  lollard_adherent_plural:0 "Lollards"
  lollard_desc:0 "Denouncing many common Christian sacraments like baptism and confession, Lollards hold that The Holy Bible is the only valid source of Christian doctrine and that any teachings not directly based on it are inherently illegitimate."
 
- insular_celtic:0 "Insularism"
+ insular_celtic:1 "Insularism"
  insular_celtic_adj:0 "Insular"
  insular_celtic_adherent:0 "Insularist"
  insular_celtic_adherent_plural:0 "Insularists"
- insular_celtic_desc:0 "A rural church that drifted away from Roman Catholic orthodoxy some centuries ago, Insular Christianity has lost many of its once-distinctive features at the insistence of its mother-church. It yet retains a greater emphasis on penance and monasticism, and incorporates many traditional Celtic marriage customs foreign to wider Christendom."
+ insular_celtic_desc:1 "A rural church that drifted away from Roman Catholic orthodoxy some centuries ago, Insular Christianity has lost many of its once-distinctive features at the insistence of its mother-church. It yet retains a greater emphasis on penance and monasticism, and incorporates many traditional Celtic marriage customs foreign to wider Christendom."
 
  insular_celtic_religious_head_title:0 "Arch-Abbot"
  #insular_celtic_religious_head_title_female: "Arch-Abbess"
@@ -134,7 +134,7 @@
  insular_celtic_fertility_god_name:0 "St. Bríd"
  insular_celtic_fertility_god_name_possessive:0 "St. Bríd's"
  insular_celtic_wealth_god_name:0 "St. Colmcille"
- insular_celtic_wealth_god_name_possessive:0 "St. Colmcille's"
+ insular_celtic_wealth_god_name_possessive:1 "St. Colmcille's"
  insular_celtic_household_god_name:0 "St. Ciarán"
  insular_celtic_household_god_name_possessive:0 "St. Ciarán's"
  insular_celtic_fate_god_name:0 "St. Ruadhán"
@@ -266,11 +266,11 @@
  east_christian_war_god_name:0 "St. Maurice"
  east_christian_war_god_name_possessive:0 "St. Maurice's"
 
- armenian_apostolic:0 "Apostolic"
- armenian_apostolic_adj:0 "Apostolic"
- armenian_apostolic_adherent:0 "Apostolic"
- armenian_apostolic_adherent_plural:0 "Apostolics"
- armenian_apostolic_desc:0 "Founded by the Apostles Bartholomew and Thaddeus, the Armenian Apostolic Church rapidly gained followers in the region and shepherded the Kingdom of Armenia into becoming the first state ever to adopt Christianity as its official religion."
+ armenian_apostolic:1 "Apostolic"
+ armenian_apostolic_adj:1 "Apostolic"
+ armenian_apostolic_adherent:1 "Apostolic"
+ armenian_apostolic_adherent_plural:1 "Apostolics"
+ armenian_apostolic_desc:1 "Founded by the Apostles Bartholomew and Thaddeus, the Armenian Apostolic Church rapidly gained followers in the region and shepherded the Kingdom of Armenia into becoming the first state ever to adopt Christianity as its official religion."
  apostolic_religious_head_title:0 "Catholicos"
  apostolic_religious_head_title_plural:0 "Catholicoi"
  apostolic_religious_head_title_name:0 "Church"
@@ -286,7 +286,7 @@
 
  messalian:0 "Messalianism"
  messalian_adj:0 "Messalian"
- messalian_adherent:0 "Messalian"
+ messalian_adherent:1 "Messalian"
  messalian_adherent_plural:0 "Messalians"
  messalian_desc:0 "Believing that the essence of God can be perceived through the carnal senses, the Messalians reject traditional Christian sacraments and instead seek to experience God directly through less conventional means of worship."
  messalian_priest:0 "perfect"

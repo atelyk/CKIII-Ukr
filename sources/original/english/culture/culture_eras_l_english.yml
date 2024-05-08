@@ -2,7 +2,7 @@
  #GROUPS
  culture_group_military:0 "Military"
  culture_group_civic:0 "Civic"
- culture_group_regional:0 "Cultural and Regional"
+ culture_group_regional:1 "Cultural and Regional"
  culture_group_any:0 "any"
  #ERAS
  culture_era_tribal:0 "Tribal"

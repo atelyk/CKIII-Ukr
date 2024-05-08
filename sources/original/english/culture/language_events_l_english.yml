@@ -1,6 +1,6 @@
 ﻿l_english:
  language_events.0001.t:0 "Lexical Lethargy"
- language_events.0001.desc:0 "It's hard keeping all of these languages in my head, I keep forgetting which language I am speaking!\n\nJust the other day, I accidentally introduced myself using a confusing mixture of [language_to_forget.GetLanguage.GetNameNoTooltip] and [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] words... and I did not even realize I had done so until it was pointed out to me!\n\nPerhaps I should simply let [language_to_forget.GetLanguage.GetNameNoTooltip] slip from my mind..?"
+ language_events.0001.desc:1 "It's hard keeping all of these languages in my head, I keep forgetting which language I am speaking!\n\nJust the other day, I accidentally introduced myself using a confusing mixture of [language_to_forget.GetLanguage.GetNameNoTooltip] and [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] words... and I did not even realize I had done so until it was pointed out to me!\n\nPerhaps I should simply let [language_to_forget.GetLanguage.GetNameNoTooltip] slip from my mind..?"
  language_events.0001.a:0 "Let it slip into oblivion..."
  language_events.0001.b:0 "No! I must work harder, and study more!"
  language_events.0002.b.tt:0 "You send collectors to 'tax' [gold_i]#P 50#! from every [vassal_speaking_other_language.GetCulture.GetName] county in [vassal_speaking_other_language.GetTitledFirstNamePossessive] realm"

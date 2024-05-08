@@ -452,21 +452,21 @@
 
 ### Roman ###
 # Feudal 
- baron_feudal_male_roman:0 "Baro"
- baron_feudal_female_roman:0 "Baronissa"
- barony_feudal_roman:0 "Castrum"
+ baron_feudal_male_roman:1 "Baro"
+ baron_feudal_female_roman:1 "Baronissa"
+ barony_feudal_roman:1 "Castrum"
  count_feudal_male_roman:0 "Comes"
- count_feudal_female_roman:0 "Comitissa"
+ count_feudal_female_roman:1 "Comitissa"
  county_feudal_roman:0 "County"
- duke_feudal_male_roman:0 "Dux"
- duke_feudal_female_roman:0 "Ducissa"
+ duke_feudal_male_roman:1 "Dux"
+ duke_feudal_female_roman:1 "Ducissa"
  duchy_feudal_roman:0 "Duchy"
  king_feudal_male_roman:0 "Rex"
  king_feudal_female_roman:0 "Regina"
  kingdom_feudal_roman:0 "Regnum"
- emperor_feudal_male_roman:0 "Imperator"
- emperor_feudal_female_roman:0 "Imperatrix"
- empire_feudal_roman:0 "Imperium"
+ emperor_feudal_male_roman:1 "Imperator"
+ emperor_feudal_female_roman:1 "Imperatrix"
+ empire_feudal_roman:1 "Imperium"
 
 # Republic
  baron_republic_male_roman:0 "Magister"
@@ -493,11 +493,11 @@
  duke_viceroyalty_male_roman:0 "Governor"
  duke_viceroyalty_female_roman:0 "Governess"
  duchy_viceroyalty_roman:0 "Province"
- king_viceroyalty_male_roman:0 "Vicar"
- king_viceroyalty_female_roman:0 "Vicarissa"
- kingdom_viceroyalty_roman:0 "Diocese"
+ king_viceroyalty_male_roman:1 "Vicar"
+ king_viceroyalty_female_roman:1 "Vicarissa"
+ kingdom_viceroyalty_roman:1 "Diocese"
  emperor_viceroyalty_male_roman:0 "Princeps"
- emperor_viceroyalty_female_roman:0 "Principissa"
+ emperor_viceroyalty_female_roman:1 "Principissa"
  empire_viceroyalty_roman:0 "Principate"
 
 ### Greek ###
@@ -514,8 +514,8 @@
 
 ### Byzantine ###
 # Republic 
- duke_republic_male_byzantine_group:0 "Eparch"
- duke_republic_female_byzantine_group:0 "Eparchessa"
+ duke_republic_male_byzantine_group:1 "Eparch"
+ duke_republic_female_byzantine_group:1 "Eparchessa"
  king_republic_male_byzantine_group:0 "Serene Doge"
  king_republic_female_byzantine_group:0 "Serene Dogaressa"
 
@@ -566,7 +566,7 @@
 
 ### Pictish ###
  count_feudal_male_pictish:0 "Mormaer"
- count_feudal_female_pictish:0 "Banmormaer"
+ count_feudal_female_pictish:1 "Banmormaer"
  county_feudal_pictish:0 "Mormaerdom"
 
 ### Scottish ###
@@ -644,23 +644,23 @@
 
 ### Arabic ###
 # Feudal / Clan / Tribal 
- baron_feudal_male_arabic_group:0 "Wālī"
- baron_feudal_female_arabic_group:0 "Wālīa"
- barony_feudal_arabic_group:0 "Wilāyah"
+ baron_feudal_male_arabic_group:1 "Wālī"
+ baron_feudal_female_arabic_group:1 "Wālīa"
+ barony_feudal_arabic_group:1 "Wilāyah"
  count_feudal_male_arabic_group:0 "Sheikh"
  count_feudal_female_arabic_group:0 "Shaykhah"
  county_feudal_arabic_group:0 "Sheikhdom"
  duke_feudal_male_arabic_group:0 "Emir"
  duke_feudal_female_arabic_group:0 "Emira"
  duchy_feudal_arabic_group:0 "Emirate"
- king_feudal_male_arabic_group:0 "Malik"
- king_feudal_female_arabic_group:0 "Malika"
- kingdom_feudal_arabic_group:0 "Malikate"
+ king_feudal_male_arabic_group:1 "Malik"
+ king_feudal_female_arabic_group:1 "Malika"
+ kingdom_feudal_arabic_group:1 "Malikate"
  king_feudal_muslim_male_arabic_group:0 "Sultan"
  king_feudal_muslim_female_arabic_group:0 "Sultana"
  kingdom_feudal_muslim_arabic_group:0 "Sultanate"
- emperor_feudal_male_arabic_group:0 "Malik al-Muazzam"
- emperor_feudal_female_arabic_group:0 "Malika al-Muazzama"
+ emperor_feudal_male_arabic_group:1 "Malik al-Muazzam"
+ emperor_feudal_female_arabic_group:1 "Malika al-Muazzama"
  empire_feudal_arabic_group:0 "Empire"
 
 # Republic 
@@ -673,39 +673,44 @@
 
 ### Turkish ###
 # Feudal / Clan 
- baron_feudal_male_turkish:0 "Agha"
- baron_feudal_female_turkish:0 "Hanim"
- barony_feudal_turkish:0 "Timariot"
- count_feudal_male_turkish:0 "Beg"
- count_feudal_female_turkish:0 "Begum"
+ baron_feudal_male_turkish:1 "Agha"
+ baron_feudal_female_turkish:1 "Hanim"
+ barony_feudal_turkish:1 "Timariot"
+ count_feudal_male_turkish:1 "Beg"
+ count_feudal_female_turkish:1 "Begum"
  county_feudal_turkish:0 "Beylik"
- duke_feudal_male_turkish:0 "Atabeg"
- duke_feudal_female_turkish:0 "Atabegum"
- duchy_feudal_turkish:0 "Atabegate"
+ duke_feudal_male_turkish:1 "Atabeg"
+ duke_feudal_female_turkish:1 "Atabegum"
+ duchy_feudal_turkish:1 "Atabegate"
  king_feudal_male_turkish:0 "Sultan"
  king_feudal_female_turkish:0 "Sultana"
  kingdom_feudal_turkish:0 "Sultanate"
- emperor_feudal_male_turkish:0 "Sultan al-Muazzam"
- emperor_feudal_female_turkish:0 "Sultana al-Muazzama"
+ emperor_feudal_male_turkish:1 "Sultan al-Muazzam"
+ emperor_feudal_female_turkish:1 "Sultana al-Muazzama"
  empire_feudal_turkish:0 "Empire"
 
 ### Iranian ###
+ duke_khorezm_male_iranian_group: "Khwarezmshah"
+ duke_khorezm_female_iranian_group: "Khwarezmbanebshen"
+ duchy_khorezm_iranian_group: "Khwarezmshahdom"
 # Feudal / Clan 
  baron_feudal_male_iranian_group:0 "Argbadh"
- baron_feudal_female_iranian_group:0 "$baron_feudal_male_iranian_group$"
+ baron_feudal_female_iranian_group:1 "$baron_feudal_male_iranian_group$"
  barony_feudal_iranian_group:0 "Arg"
  count_feudal_male_iranian_group:0 "Marzoban"
- count_feudal_female_iranian_group:0 "$count_feudal_male_iranian_group$"
+ count_feudal_female_iranian_group:1 "$count_feudal_male_iranian_group$"
  county_feudal_iranian_group:0 "Marzpanate"
  duke_feudal_male_iranian_group:0 "Satrap"
- duke_feudal_female_iranian_group:0 "$duke_feudal_male_iranian_group$"
+ duke_feudal_female_iranian_group:1 "$duke_feudal_male_iranian_group$"
  duchy_feudal_iranian_group:0 "Satrapy"
- duke_feudal_independent_male_iranian_group:0 "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]shah"
- duke_feudal_independent_female_iranian_group:0 "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]banebshen"
- duchy_feudal_independent_iranian_group:0 "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]shahdom"
+ duke_feudal_independent_male_iranian_group:2 "[SelectLocalization( CHARACTER.HasLandedTitles, 'PRIMARY_TITLE_BASE_NAME', 'SPOUSE_PRIMARY_TITLE_BASE_NAME' )]shah"
+ duke_feudal_independent_female_iranian_group:2 "[SelectLocalization( CHARACTER.HasLandedTitles, 'PRIMARY_TITLE_BASE_NAME', 'SPOUSE_PRIMARY_TITLE_BASE_NAME' )]banebshen"
+ PRIMARY_TITLE_BASE_NAME: "[Character.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+ SPOUSE_PRIMARY_TITLE_BASE_NAME: "[Character.GetPrimarySpouse.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+ duchy_feudal_independent_iranian_group:1 "Shahdom"
  king_feudal_male_iranian_group:0 "Shah"
  king_feudal_female_iranian_group:0 "Banebshen"
- kingdom_feudal_iranian_group:0 "Shahdom"
+ kingdom_feudal_iranian_group:1 "Shahdom"
  emperor_feudal_male_iranian_group:0 "Shahanshah"
  emperor_feudal_female_iranian_group:0 "Banebshenan Banebshen"
  empire_feudal_iranian_group:0 "Empire"
@@ -798,7 +803,7 @@
  king_feudal_muslim_male_dravidian_group:0 "$king_feudal_muslim_male_arabic_group$"
  king_feudal_muslim_female_dravidian_group:0 "$king_feudal_muslim_female_arabic_group$"
  emperor_feudal_muslim_male_dravidian_group:0 "Padishah"
- emperor_feudal_muslim_female_dravidian_group:0 "Shahbanu"
+ emperor_feudal_muslim_female_dravidian_group:1 "Shahbanu"
  empire_feudal_muslim_dravidian_group:0 "$empire_feudal_arabic_group$"
 
 ### GUANCHE (Canary Islands) ###
@@ -819,15 +824,15 @@
  baron_feudal_female_west_african_group:0 "Tigua"
  count_feudal_male_west_african_group_independent:0 "Jamanatigi"
  count_feudal_female_west_african_group_independent:0 "Jamanatiga"
- county_feudal_west_african_group:0 "Jamana"
+ county_feudal_west_african_group:1 "Jamana"
  count_feudal_male_west_african_group:0 "Farin"
  count_feudal_female_west_african_group:0 "Farina"
  duke_feudal_male_west_african_group:0 "Farbas"
  duke_feudal_female_west_african_group:0 "Farba"
- duchy_feudal_west_african_group:0 "Duchy"
- king_feudal_male_west_african_group:0 "Faama"
- king_feudal_female_west_african_group:0 "Malika"
- kingdom_feudal_west_african_group:0 "Kingdom"
+ duchy_feudal_west_african_group:1 "Duchy"
+ king_feudal_male_west_african_group:1 "Faama"
+ king_feudal_female_west_african_group:1 "Malika"
+ kingdom_feudal_west_african_group:1 "Kingdom"
  emperor_feudal_male_west_african_group:0 "Mansa"
  emperor_feudal_female_west_african_group:0 "Sultana"
  empire_feudal_west_african_group:0 "Kurufaba"
@@ -871,10 +876,10 @@
 #Princes (children of Kings/Emperors, sorted by culture)
 
 ### Roman ### 
- prince_male_roman:0 "Princeps"
- prince_female_roman:0 "Principissa"
+ prince_male_roman:1 "Princeps"
+ prince_female_roman:1 "Principissa"
  prince_male_roman_empire:0 "Caesar"
- prince_female_roman_empire:0 "Caesarissa"
+ prince_female_roman_empire:1 "Caesarissa"
 
 ### Iberian ### 
  prince_male_iberian_group:0 "Infante"
@@ -1083,12 +1088,14 @@
  count_feudal_female_hausan:0 "Sarkina Gadi"
  duke_feudal_male_hausan:0 "Galadima"
  duke_feudal_female_hausan:0 "Magajiya"
- king_feudal_male_hausan:0 "Sarkin"
- king_feudal_female_hausan:0 "Sarauniya"
- emperor_feudal_male_hausan:0 "Sarkin Sarakuna"
- emperor_feudal_female_hausan:0 "Sarauniyar Sarauniya"
+ king_feudal_male_hausan:1 "Sarkin"
+ king_feudal_female_hausan:1 "Sarauniya"
+ emperor_feudal_male_hausan:1 "Sarkin Sarakuna"
+ emperor_feudal_female_hausan:1 "Sarauniyar Sarauniya"
 
 ### Italic 
 # Feudal
  count_republic_latin_male:0 "Podesta"
  count_republic_latin_female:0 "Podestaressa"
+
+ 

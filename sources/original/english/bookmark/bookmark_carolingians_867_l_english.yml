@@ -1,6 +1,6 @@
 ﻿l_english:
  bm_867_carolingians:0 "The Carolingians"
- bm_867_carolingians_desc:0 "After the passing of Louis the Pious, the once-great Carolingian Empire was divided up into the three separate Kingdoms of East, West, and Middle Francia. Since then, these realms have only splintered further as wars, rebellions, and inheritance variously cause instability and fragmentation.\n\n#bold Are any of the Karlings strong enough to reunite their empire? Or will their family squabbles leave them vulnerable to exploitation by opportunists?#!"
+ bm_867_carolingians_desc:1 "After the passing of Louis the Pious, the once-great Carolingian Empire was divided up into the three separate Kingdoms of East, West, and Middle Francia. Since then, these realms have only splintered further as wars, rebellions, and inheritance variously cause instability and fragmentation.\n\n#bold Are any of the Karlings strong enough to reunite their empire? Or will their family squabbles leave them vulnerable to exploitation by opportunists?#!"
 
  #Charles the Bald
  bookmark_carolingians_charles_the_bald:0 "Charles the Bald"
@@ -25,13 +25,13 @@
 
  #King Louis of Italy
  bookmark_carolingians_king_louis:0 "King Louis II"
- bookmark_carolingians_king_louis_desc:0 "Imperial power had diminished so much by the time Louis was crowned Holy Roman Emperor that the title no longer offered any real authority. Though he managed to reclaim the Kingdom of Provence, Louis' uncles and brother, unburdened by any sort of allegiance to the Imperial Crown, continue to act as they please. Saddled with quarrelsome neighbors and an unstable realm, Louis II will die before siring a son.\n\n#bold Can you regain all the lost territories of the Empire and reestablish the Imperial Crown as a real power?#!"
+ bookmark_carolingians_king_louis_desc:1 "Imperial power had diminished so much by the time Louis was crowned Holy Roman Emperor that the title no longer offered any real authority. Though he managed to reclaim the Kingdom of Provence, Louis' uncles and brother, unburdened by any sort of allegiance to the Imperial Crown, continue to act as they please. Saddled with quarrelsome neighbors and an unstable realm, Louis II will die before siring a son.\n\n#bold Can you regain all the lost territories of the Empire and reestablish the Imperial Crown as a real power?#!"
 
  bookmark_carolingians_king_louis_alt_ermengarde:0 "$Ermengarde$"
  bookmark_carolingians_king_louis_alt_engelberga:0 "$Engelberga$"
 
  # King Karlmann of Bavaria
- bookmark_carolingians_king_karlmann:0 "Prince Karlmann"
+ bookmark_carolingians_king_karlmann:1 "Prince Karlmann"
  bookmark_carolingians_king_karlmann_desc:0 "The eldest son of Ludwig the German, Karlmann rebelled against his father and forced him to give him control over the lands of Bavaria. He will expand this domain in wars with Slavs to the east and later on will even be elected King of Italy — though an unfortunate stroke will force him to abdicate the thrones of Bavaria and Italy to his younger brothers. He will die just a few years later.\n\n#bold With a little luck, will you be able to avoid Karlmann's unfortunate demise and establish a legacy that will last the ages?#!"
 
  bookmark_carolingians_king_karlmann_alt_arnulf:0 "$Arnulf$"

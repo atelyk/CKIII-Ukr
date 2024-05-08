@@ -19,36 +19,36 @@
  create_claimant_faction_against_interaction_desc:0 "Found a [claimant_faction|E] against [secondary_actor.GetShortUINameNoTooltip]"
 
  general_rebellion_decline_summary:0 "[recipient.Custom2('RevokeTitleDeclineSummary', SCOPE.sC('actor'))]"
- general_rebellion_decline_summary_warning:0 "@warning_icon!#X If [ROOT.Char.GetShortUINameNoTooltip] declines [ROOT.Char.GetSheHe] will rise up in rebellion with other disgruntled [vassals|E]!#!"
- general_rebellion_decline_summary_auto_accept:0 "" #Supposed to be empty, we want no warning about them rising up in rebellion if they can't refuse and do so
+ general_rebellion_decline_summary_warning:0 "@warning_icon! #X If [ROOT.Char.GetShortUINameNoTooltip] declines [ROOT.Char.GetSheHe] will rise up in rebellion with other disgruntled [vassals|E]!#!"
+ general_rebellion_decline_summary_auto_accept:0 ""
 
 
  stop_attacker_vassal_war_interaction:0 "Stop Vassal War"
  stop_defender_vassal_war_interaction:0 "Demand Surrender in Vassal War"
  STOP_VASSAL_WAR_ATTACKER:0 "Select war to demand an end to"
  STOP_VASSAL_WAR_DEFENDER:0 "Select war to demand an end to"
- stop_vassal_war_negotiation:0 "Demand that [recipient.GetShortUIName] abandons [recipient.GetHerHis] war\n\n[recipient.GetShortUINamePossessive] willingness to end the war is determined by:\n$BULLET_WITH_TAB$Both of your [diplomacy|E] skills\n$BULLET_WITH_TAB$The state of the war\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [traits|E]\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [opinion|E] of you\n$BULLET_WITH_TAB$Whether [recipient.GetSheHe] is [intimidated|E] or [cowed|E] by you"
- stop_vassal_war_use_hook:0 "You will be able to use your [hook|E] if necessary"
+ stop_vassal_war_negotiation:2 "Demand that [recipient.GetShortUIName] abandons [recipient.GetHerHis] war\n\n[recipient.GetShortUINamePossessive] willingness to end the war is determined by:\n$BULLET_WITH_TAB$Both of your [diplomacy|E] skills\n$BULLET_WITH_TAB$The state of the war\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [traits|E]\n$BULLET_WITH_TAB$[recipient.GetHerHis|U] [opinion|E] of you\n$BULLET_WITH_TAB$Whether [recipient.GetSheHe] is [intimidated|E] or [cowed|E] by you"
+ stop_vassal_war_use_hook:1 "You will be able to use your [hook|E] if necessary"
  force_join_faction_interaction:0 "Force to Join Faction"
- force_join_faction_interaction_desc:0 "Use a [hook|E] on [recipient.GetShortUIName] to force them to join your current [faction|E]"
+ force_join_faction_interaction_desc:1 "Use a [hook|E] on [recipient.GetShortUIName] to force them to join your current [faction|E]"
  force_join_faction_interaction_notification:0 "Forced to Join Faction"
 
- stop_attacker_vassal_war_decline_summary:0 "[recipient.GetShortUINameNoTooltip] might ask for something in return"
+ stop_attacker_vassal_war_decline_summary:1 "[recipient.GetShortUINameNoTooltip] might ask for something in return"
 
- IS_FIGHTING_AGAINST_ME:0 "You are fighting [TARGET_CHARACTER.GetShortUIName]"
- I_HAVE_RECENTLY_ASKED_TO_STOP_WAR:0 "You recently asked [TARGET_CHARACTER.GetShortUIName] to stop a war"
+ IS_FIGHTING_AGAINST_ME:1 "You are fighting [TARGET_CHARACTER.GetShortUIName]"
+ I_HAVE_RECENTLY_ASKED_TO_STOP_WAR:1 "You recently asked [TARGET_CHARACTER.GetShortUIName] to stop a war"
  interfere_in_war:0 "Stop Vassal War"
 
  force_onto_council:0 "Demand Council Position"
  force_onto_council_desc:0 "Use a [hook|E] to force [recipient.GetShortUINameNoTooltip] to grant you a [council|E] position of your choice"
- force_onto_council_extra_icon:0 "@weak_hook_icon!Available because you have a [hook|E]"
+ force_onto_council_extra_icon:1 "@weak_hook_icon!Available because you have a [hook|E]"
  force_onto_council.notification.strong_hook:0 "I have decided that it is in your best interests to have me as your faithful [council_task.GetPositionName].\n\nYou #EMP know#! what will happen if you try to refuse."
  force_onto_council.notification.fallback:0 "Per our arrangement, I intend to act as your [council_task.GetPositionName] henceforth.\n\nNaturally, this rights your debt to me."
  force_onto_council.desc.tt:0 "[Select_CString(actor.IsLocalPlayer,'You',actor.GetShortUIName)] [Select_CString(actor.IsLocalPlayer,'are','is')] made a [councillor|E]"
  force_onto_council.recipient.tt:0 "[actor.GetShortUIName] has become your [council_task.GetPositionName]"
- force_onto_council.recipient.tt.duration:0 "[actor.GetSheHe|U] cannot be fired for [SCOPE.ScriptValue('council_position_locked_value')|0] years"
+ force_onto_council.recipient.tt.duration:2 "[actor.GetSheHe|U] cannot be fired for [SCOPE.ScriptValue('council_position_locked_value')|0] years"
  force_onto_council.actor.tt:0 "You have become your liege's [council_task.GetPositionName]"
- force_onto_council.actor.tt.duration:0 "You cannot be fired for [SCOPE.ScriptValue('council_position_locked_value')|0] years"
+ force_onto_council.actor.tt.duration:2 "You cannot be fired for [SCOPE.ScriptValue('council_position_locked_value')|0] years"
 
  arrange_marriage_interaction_extra_icon:0 "@weak_hook_icon!You can use your [hook|E] to make them accept"
 
@@ -59,9 +59,17 @@
  ask_for_pardon_interaction_accept_decline:0 "[recipient.GetShortUIName|U] declined your plea for pardon"
 
  vassal_claim_liege_title_interaction:0 "Claim Liege Title"
- vassal_claim_liege_title_interaction_desc:0 "If you control a majority #weak (51%)#! of the [counties|E] that are [de_jure|E] to one of your [lieges|E] [titles|E], you can spend [prestige|E] to get an [unpressed_claim|E] on it!"
+ vassal_claim_liege_title_interaction_desc:0 "If you control a percentage of the [counties|E] that are [de_jure|E] to one of your [lieges|E] [titles|E], you can spend [prestige|E] to get an [unpressed_claim|E] on it!"
  HAS_51_PERCENT_OF_A_DE_JURE_TITLE:0 "If you control a majority #weak (51%)#! of one of your [lieges|E] [titles|E], you can spend [prestige|E] to get an [unpressed_claim|E] on it!"
- NOT_HAS_51_PERCENT_OF_A_DE_JURE_TITLE:0 "You do NOT control at least #V 51%#! of the [counties|E] that make up the [de_jure|E] of this [title|E]"
+ NOT_HAS_51_PERCENT_OF_A_DE_JURE_TITLE:0 "You do NOT control at least #V 51%#! #weak ([legitimacy|E] level 1 or 0)#! of the [counties|E] that make up the [de_jure|E] of this [title|E]"
+ HAS_15_PERCENT_OF_A_DE_JURE_TITLE: "If you control a majority #weak (15%)#! of one of your [lieges|E] [titles|E], you can spend [prestige|E] to get an [unpressed_claim|E] on it!"
+ NOT_HAS_15_PERCENT_OF_A_DE_JURE_TITLE: "You do NOT control at least #V 15%#! #weak ([legitimacy|E] level 5)#! of the [counties|E] that make up the [de_jure|E] of this [title|E]"
+ HAS_21_PERCENT_OF_A_DE_JURE_TITLE: "If you control a majority #weak (21%)#! of one of your [lieges|E] [titles|E], you can spend [prestige|E] to get an [unpressed_claim|E] on it!"
+ NOT_HAS_21_PERCENT_OF_A_DE_JURE_TITLE: "You do NOT control at least #V 21%#! #weak ([legitimacy|E] level 4)#! of the [counties|E] that make up the [de_jure|E] of this [title|E]" 
+ HAS_31_PERCENT_OF_A_DE_JURE_TITLE: "If you control a majority #weak (31%)#! of one of your [lieges|E] [titles|E], you can spend [prestige|E] to get an [unpressed_claim|E] on it!"
+ NOT_HAS_31_PERCENT_OF_A_DE_JURE_TITLE: "You do NOT control at least #V 31%#! #weak ([legitimacy|E] level 3)#! of the [counties|E] that make up the [de_jure|E] of this [title|E]" 
+ HAS_41_PERCENT_OF_A_DE_JURE_TITLE: "If you control a majority #weak (41%)#! of one of your [lieges|E] [titles|E], you can spend [prestige|E] to get an [unpressed_claim|E] on it!"
+ NOT_HAS_41_PERCENT_OF_A_DE_JURE_TITLE: "You do NOT control at least #V 41%#! #weak ([legitimacy|E] level 2)#! of the [counties|E] that make up the [de_jure|E] of this [title|E]" 
  higher_prestige_level_than_liege:0 "Higher [prestige_level|E] than [liege|E]"
  lower_prestige_level_than_liege:0 "Lower [prestige_level|E] than [liege|E]"
 
@@ -71,7 +79,8 @@
  ASK_FOR_PARDON_NOTIFICATION:0 "I humbly ask of you to grant me pardon for my crimes."
  
  pardon_interaction:0 "Grant Pardon"
- pardon_interaction_desc:0 "You consider [recipient.GetName] to be a [criminal|E] ([recipient.GetImprisonmentReasons( actor.Self )]), allowing you to [imprison|E] them at any time without gaining [tyranny|E].\n\nIf you would prefer that they remain free, you can choose to pardon them. This will remove any and all reasons you have to [imprison|E] them and increase their [opinion|E] of you."
+ pardon_interaction_desc:1 "You consider [recipient.GetName] to be a [criminal|E] ([recipient.GetImprisonmentReasons( actor.Self )]), allowing you to [imprison|E] them at any time without gaining [tyranny|E].\n\nIf you would prefer that they remain free, you can choose to pardon them. This will remove any and all reasons you have to [imprison|E] them and increase their [opinion|E] of you."
+ pardon_interaction_has_jirga_desc: "You consider [recipient.GetName] to be a [criminal|E] ([recipient.GetImprisonmentReasons( actor.Self )]), allowing you to [imprison|E] them at any time without gaining [tyranny|E].\n\nIf you would prefer that they remain free, you can choose to pardon them. This will remove any and all reasons you have to [imprison|E] them and increase their [opinion|E] of you, as well as give you prestige due to your $tradition_fp3_jirga_name$#! tradition."
  pardon_interaction_toast:0 "Your benevolent liege, [actor.GetFirstName], has pardoned your crimes!"
 
  county_must_have_city_tt:0 "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip] must contain one [city|E] or have a [development|E] level of over 20."

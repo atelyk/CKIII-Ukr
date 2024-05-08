@@ -207,7 +207,7 @@ if (mode == "4")
     Directory.CreateDirectory(newRootDirectory);
 
     // Recursively get all files in the directory and subdirectories
-    var files = Directory.GetFiles(directoryPath, "*.*", SearchOption.AllDirectories);
+    var files = Directory.GetFiles(directoryPath, "*.yml", SearchOption.AllDirectories);
     Console.WriteLine("Scanning files...");
     bool found = false;
 

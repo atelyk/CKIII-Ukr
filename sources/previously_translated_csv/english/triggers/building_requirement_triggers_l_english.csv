@@ -1,0 +1,7 @@
+﻿"l_english":""
+"":""
+" BUILDING_REQUIREMENT_TRIBAL_HOLDING_IN_COUNTY0":"У провінції [PROVINCE.GetCounty.GetTitle.GetName] є [Concept( 'tribal', 'племінні' )|E] володіння"
+"":""
+" BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED0":"У провінції [PROVINCE.GetName] має бути [castle|El], [city|El] чи [temple|El]"
+" NOT_BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED0":"В провінції [PROVINCE.GetName] відсутні [castle|El], [city|El] чи [temple|El]"
+" NOT_BUILDING_REQUIREMENT_HALL_OF_HEROES_FAILED0":"Зал героїв можуть використовувати лише балтійські, слов'янські та фінські язичники"

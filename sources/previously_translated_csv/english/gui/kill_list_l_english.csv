@@ -1,0 +1,8 @@
+﻿"l_english":""
+" KILL_LIST0":"Список вбивств"
+" OPEN_KILL_LIST_TOOLTIP0":"Відкрити список вбивств"
+" ARTIFACT_KILL_LIST0":"Вбивства: [ArtifactKillListWindow.GetArtifact.GetName|U]"
+" OPEN_ARTIFACT_KILL_LIST_TOOLTIP0":"#T Перегляд вбивств\n#!Переглянути всіх вбитих артефактом «[Artifact.GetName]»"
+" ARTIFACT_FORGOTTEN_SOLDIER_KILLS0":"#S Забуті солдати#!: [Artifact.GetForgottenSoldiersCount|V]"
+" DEATH_DATE0":"Дата смерті"
+" DEATH_REASON0":"Причина смерті"

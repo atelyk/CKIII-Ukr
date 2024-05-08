@@ -1,0 +1,6 @@
+﻿"l_english":""
+" COURT0":"Двір персонажа [CourtWindow.GetCharacter.GetUINameNoTooltip]"
+" COURTIER_SORT_GUEST0":"$game_concept_guest$"
+" COURT_SCENE_CHARACTER_NAME_NO_RELATION0":"[CHARACTER.GetName]"
+" COURT_SCENE_CHARACTER_NAME0":"[CHARACTER.GetName] #weak ($RELATION$)#!"
+" COURT_SCENE_EDITOR_DEV_CAM_DESC0":"Камера розробника"

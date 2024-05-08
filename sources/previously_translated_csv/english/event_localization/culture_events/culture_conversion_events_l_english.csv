@@ -1,0 +1,6 @@
+﻿"l_english":""
+" culture_conversion.0001.t0":"[new_culture.GetName]е життя"
+" culture_conversion.0001.desc0":"[new_culture.GetAdjective]і вбрання, [new_culture.GetAdjective]і звички і [new_culture.GetCollectiveNoun], що заполонили столицю... Не дивно, що [converting_liege.Custom2('MyCharacterIntroduction', ROOT.Char)], забувши про [old_culture.GetAdjective]е коріння, вважає себе частиною [new_culture.GetAdjective]ого народу!"
+" culture_conversion.0001.a0":"Все змінюється, і люди теж."
+" culture_conversion.0001.b0":"Погано відкидати наші старі традиції."
+" culture_conversion.0001.c0":"Ми повинні рухатися в ногу з часом!"

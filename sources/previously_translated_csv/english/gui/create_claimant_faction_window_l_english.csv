@@ -1,0 +1,6 @@
+﻿"l_english":""
+" CREATE_CLAIMANT_FACTION_NO_CLAIMANT_IN_REALM0":"@warning_icon!#X За межами держави персонажа [CHARACTER.GetShortUIName]#!"
+" CREATE_CLAIMANT_FACTION_NO_CLAIMANT_UNLANDED0":"@warning_icon!#X Цей персонаж не безземельний#!"
+" CREATE_CLAIMANT_FACTION_INVITE0":"#T Запросити претендента#!"
+" CREATE_CLAIMANT_FACTION_SELECT_CLAIMANT0":"@warning_icon!#X Претендента не обрано#!"
+" CREATE_CLAIMANT_FACTION_SELECT_TITLE0":"@warning_icon!#X Титул не обрано#!"

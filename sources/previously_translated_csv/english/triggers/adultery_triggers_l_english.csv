@@ -1,0 +1,4 @@
+﻿"l_english":""
+" TARGET_IS_NOT_OF_MY_HOUSE0":"[TARGET_CHARACTER.GetShortUIName|U] не [bastard|El] вашого [houses|E]"
+" HOUSE_HEAD_DOES_NOT_APPROVE0":"Ваш [house_head|El], [CHARACTER.GetShortUIName], не підтримує це визнання"
+" MOTHER_IS_MARRIED0":"[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'одружена', 'одружений' )] і ніколи не зізнається у зраді"

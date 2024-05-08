@@ -1,0 +1,36 @@
+﻿l_english:
+  #PartnerOpinionDescription
+  partner_opinion_high: "[ROOT.Char.Custom2('PartnerOpinionHighDescription', SCOPE.sC('другий') )]"
+  partner_opinion_low: "[ROOT.Char.Custom2('PartnerOpinionLowDescription', SCOPE.sC('другий') )]"
+  #PartnerOpinionHighDescription
+  partner_opinion_desc_darling: "дорогий"
+  partner_opinion_desc_precious: "дорогоцінний"
+  partner_opinion_desc_sweet: "милий"
+  partner_opinion_desc_lovely: "любимий"
+  #PartnerOpinionLowDescription
+  partner_opinion_desc_esteemed: "шановний"
+  partner_opinion_desc_imposing: "нав'язування"
+  partner_opinion_desc_respectable: "поважний"
+  #RandomJewellry
+  random_jewellry_torc: "торк"
+  random_jewellry_pendant: "кулон"
+  random_jewellry_ring: "каблучка"
+  random_jewellry_medallion: "медальйон"
+  random_jewellry_bracelet: "браслет"
+  random_jewellry_bangle: "браслет"
+  random_jewellry_brooch: "брошка"
+  #RandomPositiveLookAdjective
+  random_positive_look_magnificent: "величний"
+  random_positive_look_stupendous: "приголомшливий"
+  random_positive_look_marvelous: "дивовижний"
+  random_positive_look_exquisite: "вишуканий"
+  random_positive_look_delightful: "чудовий"
+  random_positive_look_terrific: "надзвичайний"
+  random_positive_look_splendid: "розкішний"
+  random_positive_look_stunning: "вражаючий"
+  random_positive_look_enchanting: "чарівний"
+  random_positive_look_wonderful: "прекрасний"
+  murder_memory_ending_revenge: "помста нарешті!"
+  murder_memory_ending_justice: "\"Справедливість настає для всіх\"."
+  murder_memory_ending_sleep: "Тепер я можу спокійно спати."
+  murder_memory_ending_sow: "Що посієш, те й пожнеш, дебіле!"

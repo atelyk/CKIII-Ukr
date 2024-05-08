@@ -1,5 +1,5 @@
 ﻿l_english:
-  # dlc_fp2_flavor_events_oltner":"
+  #dlc_fp2_flavor_events_oltner
   rice_fields_modifier: "Рисові поля"
   rice_fields_modifier_desc: "Селяни в цій провінції вирощують поживний рис, який не дає їм голодувати і надихає на нові страви."
   fp2_flavor.0001.t: "Врожай нових ідей"
@@ -12,10 +12,9 @@
   fp2_flavor.0001.b.failure: "[rice_propagator.GetFirstNameNoTooltip] is insulted"
   fp2_flavor.0001.c.success: "Your agent steals the secret"
   fp2_flavor.0001.c.failure: "[rice_propagator.GetFirstNameNoTooltip] is furious"
-
-  # fp2_struggle_events":"
-  ##################################################":"
-  # #Misc":"
+  #fp2_struggle_events
+  ##################################################
+  ##Misc
   fp2_struggle.0011.t: "fp2_struggle.0011.t"
   fp2_struggle.0011.desc.intro: "fp2_struggle.0011.desc.intro"
   fp2_struggle.0011.desc.personality: "fp2_struggle.0011.desc.personality"
@@ -31,7 +30,6 @@
   fp2_struggle.0011.a.tt.failure: "fp2_struggle.0011.a.tt.failure"
   fp2_struggle.0011.b: "fp2_struggle.0011.b"
   fp2_struggle.0011.c: "fp2_struggle.0011.c"
-
   fp2_struggle.0021.a.tt.success: "fp2_struggle.0021.a.tt.success"
   fp2_struggle.0021.a.tt.failure: "fp2_struggle.0021.a.tt.failure"
   fp2_struggle.0021.t: "fp2_struggle.0021.t"
@@ -48,7 +46,6 @@
   fp2_struggle.0021.b.tt.success: "fp2_struggle.0021.a.tt.success"
   fp2_struggle.0021.b: "fp2_struggle.0021.b"
   fp2_struggle.0021.b.tt.failure: "fp2_struggle.0021.b.tt.failure"
-
   fp2_struggle.0041.t: "fp2_struggle.0041.t"
   fp2_struggle.0041.desc: "fp2_struggle.0041.desc"
   fp2_struggle.0041.desc.intro: "fp2_struggle.0041.desc.intro"
@@ -70,7 +67,6 @@
   fp2_struggle.0041.c.tt.success: "fp2_struggle.0041.c.tt.success"
   fp2_struggle.0041.c.tt.failure: "fp2_struggle.0041.c.tt.failure"
   fp2_struggle.0041.d: "fp2_struggle.0041.d"
-
   fp2_struggle.0051.t: "fp2_struggle.0051.t"
   fp2_struggle.0051.desc: "fp2_struggle.0051.desc"
   fp2_struggle.0051.desc.intro: "fp2_struggle.0051.desc.intro"
@@ -93,17 +89,15 @@
   fp2_struggle.0051.b.tt: "fp2_struggle.0051.b.tt"
   fp2_struggle.0051.c: "fp2_struggle.0051.c"
   fp2_struggle.0051.c.refuses_to_engage: "fp2_struggle.0051.c.refuses_to_engage"
-
-  ##### Intro #####":"
+  ##### Intro #####
   fp2_struggle.0501.t: "The $iberian_struggle$"
   fp2_struggle.0501.desc: "The Iberian peninsula is in turmoil, a conflict born of its storied past. Outsiders covet the land and the great Muslim and Christian powers seek to sway its people. But those who live and die on its soil will ultimately determine its fate.\n\n"
   fp2_struggle.0501.desc.involved: "I will not let slip my vision for my homeland. By [ROOT.Char.GetFaith.HighGodName], House [ROOT.Char.GetHouse.GetNameNoTooltip] will weather the storm and see my will fulfilled.\n\n"
   fp2_struggle.0501.desc.interloper: "The time has come for me to take hold of the situation and my destiny. I see all the pieces laid out on the board. I know the way forward, and there will be no stopping House [ROOT.Char.GetHouse.GetNameNoTooltip].\n\n"
   fp2_struggle.0501.desc.mottocall: "[ROOT.Char.GetHouse.GetMotto]!"
   fp2_struggle.0501.a: "Take hold of fate!"
-
-  ##### Hostility #####":"
-  # Struggle Ender":"
+  ##### Hostility #####
+  #Struggle Ender
   fp2_struggle.0900.t: "$struggle_iberia_ending_hostility_decision$"
   fp2_struggle.0900.opening.basque: "We [ROOT.Char.GetCulture.GetNameNoTooltip] have endured centuries of encroachment: Visigoths, Gauls, Moors... but, with time, each of their strengths faltered. Today, the fate of Iberia is in #EMP our#! hands once more."
   fp2_struggle.0900.opening.andalusian: "The history of our people is as complex as we are diverse, and as fraught as we are strong. The future of Iberia will once again be decided by the heirs of the Umayyads."
@@ -113,7 +107,7 @@
   fp2_struggle.0900.a: "This shall be a land of [ROOT.Char.GetFaith.HighGodNameAlternate]!"
   fp2_struggle.0900.b: "The settlement of this peninsula will be our focus."
   fp2_struggle.0900.c: "[ROOT.Char.GetFaith.HighGodName] has given Iberia to the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!"
-  # Other Players":"
+  #Other Players
   fp2_struggle.0910.opening.involved: "Though it comes from another realm, deliverance from the uncertainty that has engulfed the region for centuries may now be at hand..."
   fp2_struggle.0910.opening: "Word of recent developments on the Iberian peninsula has reached our court, promising an end to the conflicts that have plagued the region."
   fp2_struggle.0910.desc: "\n\n[struggle_ender.GetName], who now controls the majority of the peninsula, has proclaimed [struggle_ender.GetHerselfHimself] the ultimate victor of the struggles set in motion long ago by the Moorish invasion.\n\n"
@@ -122,113 +116,85 @@
   fp2_struggle.0910.closing.combined: "[struggle_ender.GetSheHe|U] has proclaimed Iberia and [struggle_ender.GetPrimaryTitle.GetNameNoTier] to be one and the same, now delivered to the hands of the [struggle_ender.GetFaith.GetAdjective] [struggle_ender.GetCulture.GetName] by [struggle_ender.GetFaith.HighGodName]..."
   fp2_struggle.0910.a: "This is not over."
   fp2_struggle.0910.b: "Most interesting."
-  ##### Compromise #####":"
-  # Struggle Ender":"
+  ##### Compromise #####
+  #Struggle Ender
   fp2_struggle.0901.t: "$struggle_iberia_ending_compromise_decision$"
   fp2_struggle.0901.desc: "\n\nIt is now clear there will be no end to this cycle of bloodshed if things continue; this peninsula will not bear unification.\n\nWe must be satisfied with [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], and leave the other potentates of Iberia to their own devices - for now..."
   fp2_struggle.0901.a: "This is for the best."
   fp2_struggle.0901.tt: "[THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier] has become a [de_jure|E] [empire|E]"
-  # Other Players":"
+  #Other Players
   fp2_struggle.0911.desc: "\n\n[struggle_ender.GetTitledFirstName] has officialy renounced any intentions to unite the peninsula under a common crown, and declared any who would that title illegitimate.\n\nThe disparate realms molded by centuries of invasion and reconquest are now too entrenched to be united."
   fp2_struggle.0911.a: "We will not forget the dream of Hispania..."
-  ##### Conciliation #####":"
-  # Struggle Ender":"
+  ##### Conciliation #####
+  #Struggle Ender
   fp2_struggle.0902.t: "$struggle_iberia_ending_conciliation_decision$"
   fp2_struggle.0902.desc: "\n\nA sworn guarantee of protection, which only I am now in a position to enforce, will ensure the diverse peoples of the region may live and worship freely.\n\n[ROOT.Char.GetFaith.HighGodName] willing, the wars of the past will remain there, and the other Iberian princes will see the benefits of co-existence."
   fp2_struggle.0902.a: "Send the heralds."
-  # Other Players":"
+  #Other Players
   fp2_struggle.0912.desc: "\n\n[struggle_ender.GetPrimaryTitle.GetAdjectiveNoTooltip] heralds have proclaimed guarantees of free passage and worship for all, enforced by [struggle_ender.GetTitledFirstName], to the wide acclamation of the common people.\n\nMany have longed for an end to the bloodshed in Iberia; perhaps #EMP this#! peace will be a lasting one."
   fp2_struggle.0912.a: "A surprise, to be sure."
-
-  # fp2_event_dan":"
+  #fp2_event_dan
   fp2_yearly.1001.t: "Chess Two"
   fp2_yearly.1001.desc: "After winning another game of chess against myself, I can't help but think that perhaps my towering intellect could improve this game somewhat. \n\nBut what change would make the most sense?"
   fp2_yearly.1001.a: "The King is clearly too weak."
   fp2_yearly.1001.b: "The Bishop should be stronger."
   fp2_yearly.1001.c: "Why can't I torture the pawns?"
-
-
   fp2_yearly.1002.t: "A Compromising Position"
   fp2_yearly.1002.desc: "Late at night I hear strange sounds coming from a room down the hall. Upon peeking round the door I can see my [ROOT.Char.Custom2('RelationToMeShort', deviant_courtier)] naked, bound and being beaten with a wooden rod by a servant, who appears to be dressed in some of my old clothes. If that weren't strange enough, [deviant_courtier.GetSheHe] seems to be loving it.\n\nBetween hits [deviant_courtier.GetSheHe] shouts out Yes! Punish me [ROOT.GetCharacter.GetNameNoTooltip], I've been a naughty little [ROOT.Char.Custom2('RelationToMeShort', deviant_courtier)]!"
   fp2_yearly.1002.b: "I smell blackmail material."
   fp2_yearly.1002.c: "That looks like fun!"
   fp2_yearly.1002.a: "I'll just go."
-  
-
   fp2_yearly.1003.t: "Tilting at... Giants?"
   fp2_yearly.1003.desc: "A commotion in my courtyard catches my attention as [injured_knight.Custom2('MyCharacterIntroduction', ROOT.Char)] is carried in by several peasants. [injured_knight.GetSheHe|U] is obviously badly injured.\n\nWhen I demand to know what happened, the peasants tell me they found [injured_knight.GetHerHim] in a field where [injured_knight.GetSheHe] claimed to have just barely fought off a giant.\n\nHis squire pulls me aside after the story is over, The truth is that [injured_knight.GetSheHe] tried to joust with a windmill and lost my lord, but these villagers seems quite taken with [injured_knight.GetHerHis] story."
   fp2_yearly.1003.a: "All hail the brave knight, I'll buy [injured_knight.GetHerHim] a new steed."
   fp2_yearly.1003.b: "I'll brook no fairy tales in my court."
-
   fp2_yearly.1004.t: "The Hawk of Quarysh"
-  fp2_yearly.1004.desc: "I am reading a history of [hawk_of_quraysh.GetName] also known as The Hawk of Quarysh"".\n\nLearning about his life is incredibly inspiring, from his [abbasid_dynasty.GetName] escape, to establishing the [hawk_dynasty.GetName] dynasty in Iberia, I can't help but think I should take some of it to heart."
+  fp2_yearly.1004.desc: "I am reading a history of [hawk_of_quraysh.GetName] also known as The Hawk of Quarysh\"\".\n\nLearning about his life is incredibly inspiring, from his [abbasid_dynasty.GetName] escape, to establishing the [hawk_dynasty.GetName] dynasty in Iberia, I can't help but think I should take some of it to heart."
   fp2_yearly.1004.a: "I too could inspire my men as he did at Carmona."
   fp2_yearly.1004.b: "His diplomatic dealings with the Yemeni are legendary."
   fp2_yearly.1004.c: "We're related!"
-
   nick_the_hawk_of_quraysh: "the Hawk of Quraysh"
-
-
   fp2_hawk_of_quarysh_martial_modifier: "Martial Inspiration"
   fp2_hawk_of_quarysh_martial_modifier_desc: "This character has gained martial inspiration from the Hawk of Quarysh."
-
-
   fp2_hawk_of_quarysh_diplomacy_modifier: "Diplomatic Inspiration"
   fp2_hawk_of_quarysh_diplomacy_modifier_desc: "This character has gained diplomatic inspiration from the Hawk of Quarysh."
-
   fp2_yearly.1005.t: "Lost Viking"
-  fp2_yearly.1005.desc: "Struggling and shouting, a large [hidden_viking.GetWomanMan] is dragged before me. [hidden_viking.GetSheHe|U] is clearly a viking raider, the type who has sown chaos in our realm for decades.\n\nPlease have mercy. My name is [hidden_viking.GetName] and I've been living in [viking_county.GetNameNoTooltip] for years. I was left behind because I was injured. The villagers saved me; they're my family now.""\n\nThe viking falls to his knees, hoping I'll spare [hidden_viking.GetHerHis] life. Several peasants confirm [hidden_viking.GetHerHis] story."
+  fp2_yearly.1005.desc: "Struggling and shouting, a large [hidden_viking.GetWomanMan] is dragged before me. [hidden_viking.GetSheHe|U] is clearly a viking raider, the type who has sown chaos in our realm for decades.\n\nPlease have mercy. My name is [hidden_viking.GetName] and I've been living in [viking_county.GetNameNoTooltip] for years. I was left behind because I was injured. The villagers saved me; they're my family now.\"\"\n\nThe viking falls to his knees, hoping I'll spare [hidden_viking.GetHerHis] life. Several peasants confirm [hidden_viking.GetHerHis] story."
   fp2_yearly.1005.a: "You may entertain my courtiers with your unique story."
   fp2_yearly.1005.b: "A good act doesn't balance out the bad — you die."
   fp2_yearly.1005.c: "As you serve the village, you may live for now."
-
-
   fp2_yearly.1006.t: "Viking Cheese?"
-  fp2_yearly.1006.desc: "I stop at a roadside stall selling some simple foods. The trader, [cheese_trader.GetName], plies me with different wares before reaching below the stall and bringing out a carved wooden box.\n\nFor you my liege, this is the finest cheese in all the realm. [cheese_trader.GetSheHe|U] pushes the small block into my hand, leans in and whispers conspiratorially, ""It was crafted by cheese-making Vikings here in Iberia.""\n\nDespite the bizarre comment, the cheese is incredibly good."
+  fp2_yearly.1006.desc: "I stop at a roadside stall selling some simple foods. The trader, [cheese_trader.GetName], plies me with different wares before reaching below the stall and bringing out a carved wooden box.\n\nFor you my liege, this is the finest cheese in all the realm. [cheese_trader.GetSheHe|U] pushes the small block into my hand, leans in and whispers conspiratorially, \"\"It was crafted by cheese-making Vikings here in Iberia.\"\"\n\nDespite the bizarre comment, the cheese is incredibly good."
   fp2_yearly.1006.a: "I'll accept your cheese but not your ridiculous story."
-  fp2_yearly.1006.b: "I must find these Cheese Vikings""..."
+  fp2_yearly.1006.b: "I must find these Cheese Vikings\"\"..."
   fp2.1006.b.tt: "You send your agents out to find the Cheese Vikings"
   fp2_yearly.1006.c: "What a load of rubbish."
-
-
   fp2_yearly.1007.t: "$fp2_yearly.1006.t$"
-  fp2_yearly.1007.desc: "A scrawny looking [fake_cheese_viking.GetWomanMan] is brought before me. However, the pathetic [fake_cheese_viking.GetWomanMan] in front of me barely looks like a cheese maker — let alone a Viking.\n\nI'm truly sorry, but I'm not really a Viking. It's just a lie to help with selling the cheese," [fake_cheese_viking.GetSheHe] sputters."
+  fp2_yearly.1007.desc: "A scrawny looking [fake_cheese_viking.GetWomanMan] is brought before me. However, the pathetic [fake_cheese_viking.GetWomanMan] in front of me barely looks like a cheese maker — let alone a Viking.\n\nI'm truly sorry, but I'm not really a Viking. It's just a lie to help with selling the cheese,\" [fake_cheese_viking.GetSheHe] sputters."
   fp2_yearly.1007.a: "Oh well, at least I solved the mystery."
   fp2_yearly.1007.b: "I want half your profits, and half your cheese."
-
   fp2_respected_clergy_chess: "Respected Clergy in Chess"
   fp2_respected_clergy_chess_desc: "Changed the rules of chess to respect the clergy."
-
   fp2_cheese_artifact: "Aged Cheese"
   fp2_cheese_artifact_desc: "Despite the rumors, this cheese was not made by Vikings. However it is extremely good."
-
-
   fp2_yearly.1008.t: "Consuming the Cheese"
   fp2_yearly.1008.desc: "It is time. Deep in my cellar has sat some of the most incredible cheese in the known world, slowly ageing, increasing in potency.\n\n And now I shall consume it."
   fp2_yearly.1008.a: "[ROOT.Char.GetFaith.HealthGodName|U] wept. That's some good cheese."
   fp2_yearly.1008.b: "Actually, let the cheese age more."
-
-  # fp2_struggle_event_ola":"
+  #fp2_struggle_event_ola
   stoke_tension_toast.success: "Your hate campaign succeeded."
   stoke_tension_toast.failure: "Your involvement was revealed."
-
   delegated_stoke_tension_toast.success: "[tension_councillor.GetTitledFirstName] spread hatred."
-
   ease_tension_toast.success: "You mediated successfully."
   ease_tension_toast.failure: "Your efforts failed."
-
   bad_intrigue.tt: "This option is available because of your poor Intrigue skill."
-
   fp2_struggle.1000.t: "Stoking the Fire"
-  fp2_struggle.1000.desc: "There have been clashes between the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] and the [tension_county.GetCountyData.GetFaith.GetAdjectiveNoTooltip] population in the [tension_county.GetName]. Let us use this opportunity" my [tension_councillor.GetCouncilTitle] [tension_councillor.GetFirstName] suggests, ""to recruit thugs for hire from among the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] rioters. And if they continue their #italic training#! in their home county, that isn't so bad either! We might actually #italic encourage#! that..." \n\n Do I let [tension_county.GetNameNoTierNoTooltip] burn in order to enlist these violent fanatics?"
+  fp2_struggle.1000.desc: "There have been clashes between the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] and the [tension_county.GetCountyData.GetFaith.GetAdjectiveNoTooltip] population in the [tension_county.GetName]. Let us use this opportunity\" my [tension_councillor.GetCouncilTitle] [tension_councillor.GetFirstName] suggests, \"\"to recruit thugs for hire from among the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] rioters. And if they continue their #italic training#! in their home county, that isn't so bad either! We might actually #italic encourage#! that...\" \n\n Do I let [tension_county.GetNameNoTierNoTooltip] burn in order to enlist these violent fanatics?"
   fp2_struggle.1000.a: "Let us spread some hatred...discreetly."
   fp2_struggle.1000.b: "I trust you to handle it"
   fp2_struggle.1000.c: "No, I shall try to ease the tension."
   fp2_struggle.1000.d: "If I cannot stop this madness, perhaps a [minority_courtier.GetFaith.GetAdherentNameNoTooltip] ruler could."
-  
-
   not_my_problem_toast: "Single mothers and children in your realm will starve for years to come."
-
   fp2_struggle.1001.t: "War Widows"
   fp2_struggle.1001.desc: "[expectant_courtier.GetTitledFirstName] is with child, and has come to ponder the situation of other mothers in our lands - those left by recent war and misfortune to care for their children alone. We could institute a special fund, my [ROOT.Char.GetLadyLord], to pay nursing mothers who have no other means of support. After all, rearing children is a labor just as hard and laudable as others."
   fp2_struggle.1001.a: "A good idea! I shall create such a fund."
@@ -240,23 +206,21 @@
   fp2_struggle.1001.e: "I am your [ROOT.Char.GetTitleTierName], not a wet nurse!"
   fp2_struggle.1001.specialdescpositive: "Vassals who are happy to pay gain #positive_value 10#! #color_light_blue Opinion#! of you"
   fp2_struggle.1001.specialdescnegative: "Vassals who are not happy to pay lose #negative_value 10#! #color_light_blue Opinion#! of you"
-
   reading_avicenna_toast.success: "You read a big book on medicine."
   reading_avicenna_toast.failure: "You might have misunderstood something..."
   reading_hippocrates_toast.success: "You read all of Galen's works."
   reading_hippocrates_toast.failure: "Why is Greek so hard?"
   rolling_in_filth_toast: "Your court is a health hazard."
-
   fp2_struggle.1002.t: "[xenophilic_culture.GetNameNoTooltip] Advancements"
   fp2_struggle.1002.desc_early_golden_age: "[xenophilic_culture.GetNameNoTooltip] scholars have recently made great strides in medical knowledge. But the polymath [great_physician.GetFirstName] has been exiled from my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('neighboring_ruler'))] [neighboring_ruler.GetTitledFirstNamePossessive] court for a #italic poem and a mistake#!, and seeks new employment. \n\n"
   fp2_struggle.1002.desc_late_golden_age: "[xenophilic_culture.GetNameNoTooltip] scholars have long devoted themselves to the study of medicine. Now the polymath [great_physician.GetFirstName] is seeking to join my court, but [great_physician.GetSheHe] has recently been exiled from my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('neighboring_ruler'))] [neighboring_ruler.GetTitledFirstNamePossessive] court for an undisclosed transgression. \n\n"
   fp2_struggle.1002.desc_post_golden_age_christian: "Though the likes of Averroes and Albucasis are long dead, [xenophilic_culture.GetNameNoTooltip] physicians remain preeminent in knowledge. Now the polymath [great_physician.GetFirstName] is seeking new employment, having been exiled from my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('neighboring_ruler'))] [neighboring_ruler.GetTitledFirstNamePossessive] court for an undisclosed transgression. \n\n"
   fp2_struggle.1002.desc_post_golden_age_unchristian: "Though the likes of Ibn Rushd and Al-Zahrawi are long dead, [xenophilic_culture.GetNameNoTooltip] physicians remain preeminent in knowledge. Now the polymath [great_physician.GetFirstName] is seeking new employment, having been exiled from my [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('neighboring_ruler'))] [neighboring_ruler.GetTitledFirstNamePossessive] court for an undisclosed transgression. \n\n"
-  fp2_struggle.1002.desc_albucasis: "Though my skills are modest"", he says, ""I once saved the life of a slave-girl who had cut her own throat, with only a slight hoarseness to her voice afterwards. And I would ask you to make some changes in your hygiene habits..." \n\n"
-  fp2_struggle.1002.desc_avenzoar: "I have practiced medicine all my life"", he says, ""and wrote a book on regimen for a healthy life. But I am a sworn enemy of superstition and the false remedies peddled by witches and astrologers, so I would ask you to ban such things..." \n\n"
-  fp2_struggle.1002.desc_tufail: "I study both the heavens, the mind and the ailments of the flesh"", [great_physician.GetSheHe] says. ""But I am an advocate for the benefits of studying the human body #italic post mortem#!... Might you provide me with opportunities to pursue this?" \n\n"
-  fp2_struggle.1002.desc_no_historical_physician_early: "I have learned much"", [great_physician.GetSheHe] says, ""from the works of the Ancients. Yet I have rescued their knowledge from the abyss of prolixity, and can use it for your benefit." \n\n"
-  fp2_struggle.1002.desc_no_historical_physician_late: "I have learned much"", [great_physician.GetSheHe] says, ""from the works of Al-Zahrawi and Ibn Sina. Yet I have improved upon their techniques. I can remove cataracts and boils, and treat diseases previously thought untreatable." \n\n"
+  fp2_struggle.1002.desc_albucasis: "Though my skills are modest\"\", he says, \"\"I once saved the life of a slave-girl who had cut her own throat, with only a slight hoarseness to her voice afterwards. And I would ask you to make some changes in your hygiene habits...\" \n\n"
+  fp2_struggle.1002.desc_avenzoar: "I have practiced medicine all my life\"\", he says, \"\"and wrote a book on regimen for a healthy life. But I am a sworn enemy of superstition and the false remedies peddled by witches and astrologers, so I would ask you to ban such things...\" \n\n"
+  fp2_struggle.1002.desc_tufail: "I study both the heavens, the mind and the ailments of the flesh\"\", [great_physician.GetSheHe] says. \"\"But I am an advocate for the benefits of studying the human body #italic post mortem#!... Might you provide me with opportunities to pursue this?\" \n\n"
+  fp2_struggle.1002.desc_no_historical_physician_early: "I have learned much\"\", [great_physician.GetSheHe] says, \"\"from the works of the Ancients. Yet I have rescued their knowledge from the abyss of prolixity, and can use it for your benefit.\" \n\n"
+  fp2_struggle.1002.desc_no_historical_physician_late: "I have learned much\"\", [great_physician.GetSheHe] says, \"\"from the works of Al-Zahrawi and Ibn Sina. Yet I have improved upon their techniques. I can remove cataracts and boils, and treat diseases previously thought untreatable.\" \n\n"
   fp2_struggle.1002.desc_has_physician_and_is_christian: "My current court physician, [scoped_physician.GetTitledFirstName], urges me not to replace [scoped_physician.GetHerHim] with this heathen."
   fp2_struggle.1002.desc_has_physician_but_not_christian: "My current court physician, [scoped_physician.GetTitledFirstName], urges me not to replace [scoped_physician.GetHerHim] with this eccentric."
   fp2_struggle.1002.desc_has_no_physician_but_is_christian: "Some courtiers urge me not to associate with this heathen."
@@ -271,9 +235,8 @@
   fp2_struggle.1002.f: "Begone, innovation should only come from God."
   fp2_struggle.1002.physicianleaves: "[great_physician.GetFirstName] seeks employment elsewhere"
   fp2_struggle.1001.physician_imprisoned: "[great_physician.GetFirstName] is imprisoned by [neighboring_ruler.GetName], for certain reasons"
-
   fp2_struggle.1010.t: "Soul of Iron"
-  fp2_struggle.1010.desc: "A [great_swordsmith.GetWomanMan] called [great_swordsmith.GetName] has arrived at my court, claiming to be a master smith who has traveled far and wide.\n\nMy [ROOT.Char.GetLadyLord]"", [great_swordsmith.GetSheHe] says, ""my family has been swordmakers in [toledo_holding.GetNameNoTierNoTooltip] since ancient times, and once made #italic falcatas#! for the armies of Carthage. No alloy is as strong as that which is made in Iberia, and I can perfect it. I can make the world's finest weapons, but in return, you must give me command of the blacksmiths' guild in [blacksmith_county.GetNameNoTierNoTooltip]. Then they will see that I was better than them all along!"
+  fp2_struggle.1010.desc: "A [great_swordsmith.GetWomanMan] called [great_swordsmith.GetName] has arrived at my court, claiming to be a master smith who has traveled far and wide.\n\nMy [ROOT.Char.GetLadyLord]\"\", [great_swordsmith.GetSheHe] says, \"\"my family has been swordmakers in [toledo_holding.GetNameNoTierNoTooltip] since ancient times, and once made #italic falcatas#! for the armies of Carthage. No alloy is as strong as that which is made in Iberia, and I can perfect it. I can make the world's finest weapons, but in return, you must give me command of the blacksmiths' guild in [blacksmith_county.GetNameNoTierNoTooltip]. Then they will see that I was better than them all along!"
   fp2_struggle.1010.a: "No, you shall work with the guild, to benefit us all."
   fp2_struggle.1010.b: "Whatever knowledge you possess, I shall draw it out..."
   fp2_struggle.1010.c: "You shall have it, if you make swords for my armies."
@@ -286,10 +249,8 @@
   fp2_struggle.1010.compassionate_courtiers: "Not all your courtiers might approve of this"
   toledo_compromise_flavor: "You force a compromise between [great_swordsmith.GetNameNoTooltip] and the guild."
   fp2_struggle.1010.swordsmith_leaves: "[great_swordsmith.GetNameNoTooltip] goes to another court."
-
-
   fp2_struggle.1011.t: "The Blade of [blacksmith_county.GetNameNoTierNoTooltip]"
-  fp2_struggle.1011.desc: "It is finished"", [great_swordsmith.GetName] says, but seems strangely weary.\n\n""It may be that the ghosts of my ancestors guided me in the forging, for it is the best blade I have ever created. Never again will I make its like, nor will anyone else in this land, for the secrets of its making I shall take to the grave. I shall go now, and claim the guild that you promised me, though that victory now feels oddly hollow. Be that as it may, you must name the sword that I forged for you."
+  fp2_struggle.1011.desc: "It is finished\"\", [great_swordsmith.GetName] says, but seems strangely weary.\n\n\"\"It may be that the ghosts of my ancestors guided me in the forging, for it is the best blade I have ever created. Never again will I make its like, nor will anyone else in this land, for the secrets of its making I shall take to the grave. I shall go now, and claim the guild that you promised me, though that victory now feels oddly hollow. Be that as it may, you must name the sword that I forged for you."
   fp2_struggle.1011.a: "#italic Martiello#!, the hammer."
   fp2_struggle.1011.b: "#italic Tiniebra#!, the darkness."
   fp2_struggle.1011.c: "#italic Vermejo#!, the red."
@@ -337,22 +298,18 @@
   mistletoe_name: "Mistletoe"
   moormurder_name: "Moor-cleaver"
   usurperblade_name: "Usurper's blade"
-
   awesome_toledo_sword_name: "[great_swordsmith.GetTitledFirstNamePossessiveNoTooltip] Sword"
   awesome_toledo_sword_desc: "This sword was the greatest work of the smith [great_swordsmith.GetName] of [toledo_county.GetNameNoTierNoTooltip], forged using secret techniques [great_swordsmith.GetSheHe] took to the grave. A brilliant yet arrogant [great_swordsmith.GetWomanMan], it is said that [great_swordsmith.GetSheHe] poured part of [great_swordsmith.GetHerHis] soul into the blade, and indeed, it seems to give its wielder a will of iron."
-
   fp2_struggle.1012.t: "The Masterwork"
-  fp2_struggle.1012.desc:0 It is finished, [great_swordsmith.GetName] says.\n\n""This is the sword I promised you, one of my best works. Its blade is of the finest alloy imaginable, such as only could be made in Iberia. It truly has, as they say, #italic a soul of iron#!. A blade fit for a [Select_CString(ROOT.Char.IsFemale,'noble lady','great lord')] like you."
+  fp2_struggle.1012.desc: "\"\"It is finished\", [great_swordsmith.GetName] says.\n\n\"This is the sword I promised you, one of my best works. Its blade is of the finest alloy imaginable, such as only could be made in Iberia. It truly has, as they say, #italic a soul of iron#!. A blade fit for a [Select_CString(ROOT.Char.IsFemale,'noble lady','great lord')] like you.\""
   fp2_struggle.1012.a: "It is...exquisite. You may go in peace."
   fp2_struggle.1012.b: "Magnificent. May I not convince you to stay and serve me?"
   fp2_struggle.1012.swordsmith_leaves: "Having completed [great_swordsmith.GetHerHis] work, [great_swordsmith.GetName] leaves to take command over the blacksmiths' guild, as you promised."
   fp2_struggle.1012_swordsmith_stays: "[great_swordsmith.GetName] stays in your court"
-
   toledo_sword_name: "Toledo Sword"
   toledo_sword_desc: "This blade is a masterwork of Toledo steel, exceptionally strong and durable. A small inscription near the base says that it was forged by #italic the great smith#! [great_swordsmith.GetName] in [blacksmith_county.GetNameNoTierNoTooltip]."
-
   fp2_struggle.1050.t: "Dreams of Destruction"
-  fp2_struggle.1050.desc_opening: "[visionary_spouse.GetTitledFirstName] comes to me in the dark of the night, feverish and pale. I have had dreams"", [visionary_spouse.GetSheHe] says, ""where I find myself in a field of death."
+  fp2_struggle.1050.desc_opening: "[visionary_spouse.GetTitledFirstName] comes to me in the dark of the night, feverish and pale. I have had dreams\"\", [visionary_spouse.GetSheHe] says, \"\"where I find myself in a field of death."
   fp2_struggle.1050.desc_christian: "Our cities were raised, our church towers toppled, our people trampled in a mire of their own blood."
   fp2_struggle.1050.desc_islamic: "Our libraries were burnt, our minarets fallen, our brothers and sisters nailed to crosses, beset by carrion birds."
   fp2_struggle.1050.desc_rampaging_barbarian_heathen: "Our houses were burnt, our runestones toppled, our warriors slain without honor or glory."
@@ -374,14 +331,13 @@
   comforting_spouse_visionary.failure: "You failed to comfort [visionary_spouse.GetTitledFirstName]"
   fp2_yearly.8004.t: "The [translation_capital.GetNameNoTierNoTooltip] School of Translators"
   fp2_yearly.8004.desc_opening: "With the spirit of conciliation reigning in Iberia, scholars from all the region have been dawdling in the libraries of my domain. Perhaps I could direct their energy into something fruitful...\n\n"
-  fp2_yearly.8004.desc_chaplain: "My [translation_enthusiast.GetCouncilTitle] [translation_enthusiast.GetTitledFirstName] has an idea. We should organize a translation team"", [translation_enthusiast.GetSheHe] says, ""and I could lead it. Let us scour the land for skilled translators, even heathens, and put them at work under your auspices. [translation_capital.GetNameNoTierNoTooltip] has the potential to be a beacon of enlightenment, if you will fund it!"
-  fp2_yearly.8004.desc_wanderer: "The learned wanderer [translation_enthusiast.GetTitledFirstName] presents an opportunity. My [ROOT.Char.GetLadyLord]"", [translation_enthusiast.GetSheHe] says, ""I have mastered a dozen tongues, and could help you organize a translation team. Let us scour the land for skilled translators and put them at work under your auspices. [translation_capital.GetNameNoTierNoTooltip] could become a great beacon of enlightenment."
+  fp2_yearly.8004.desc_chaplain: "My [translation_enthusiast.GetCouncilTitle] [translation_enthusiast.GetTitledFirstName] has an idea. We should organize a translation team\"\", [translation_enthusiast.GetSheHe] says, \"\"and I could lead it. Let us scour the land for skilled translators, even heathens, and put them at work under your auspices. [translation_capital.GetNameNoTierNoTooltip] has the potential to be a beacon of enlightenment, if you will fund it!"
+  fp2_yearly.8004.desc_wanderer: "The learned wanderer [translation_enthusiast.GetTitledFirstName] presents an opportunity. My [ROOT.Char.GetLadyLord]\"\", [translation_enthusiast.GetSheHe] says, \"\"I have mastered a dozen tongues, and could help you organize a translation team. Let us scour the land for skilled translators and put them at work under your auspices. [translation_capital.GetNameNoTierNoTooltip] could become a great beacon of enlightenment."
   fp2_yearly.8004.a: "I shall spare #italic no#! expense in finding the best people."
   fp2_yearly.8004.b: "Since you are so capable, #italic you#! can do all the translations."
   fp2_yearly.8004.c: "Libraries are so much bother..."
   recruiting_brilliance_toast.success: "You found great translators"
   recruiting_mediocrity_toast.failure: "You employed mediocre translators"
-
   fp2_yearly.8005.t: "Under the Stone Pine"
   fp2_yearly.8005.desc_opening: "In the scorching midday heat, they sit in the shadow under a great stone pine, playing on lutes and flutes."
   fp2_yearly.8005.desc_iberian: "They sing in Galician-Portuguese, in Catalan, about life, loss, bittersweet love."
@@ -394,9 +350,8 @@
   fp2_yearly.8005.b: "So beautiful..."
   fp2_yearly.8005.c: "I should sponsor more musicians!"
   fp2_yearly.8005.d: "Enough! I will have that damned tree chopped down."
-
   fp2_yearly.8002.t: "A Dietary Dilemma"
-  fp2_yearly.8002.desc: "Two children were collecting clams from the beach in [beached_whale_province.GetName] when they came upon a carcass of colossal size. Beach-dwellers claim that the flesh of this dead sea-creature is still incorrupt, and #italic very#! tasty. But my [preoccupied_ulama.GetCouncilTitle] [preoccupied_ulama.GetFirstName] pulls me aside during the council meeting, seemingly concerned.\n\nIs the consumption of whale meat truly permissible to us [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]?"", [preoccupied_ulama.GetSheHe] ponders. ""I cannot make a ruling in this matter. We should wait for a statement from a very respected scholar. But you should forbid the people from eating the meat of this beast - just in case..."
+  fp2_yearly.8002.desc: "Two children were collecting clams from the beach in [beached_whale_province.GetName] when they came upon a carcass of colossal size. Beach-dwellers claim that the flesh of this dead sea-creature is still incorrupt, and #italic very#! tasty. But my [preoccupied_ulama.GetCouncilTitle] [preoccupied_ulama.GetFirstName] pulls me aside during the council meeting, seemingly concerned.\n\nIs the consumption of whale meat truly permissible to us [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]?\"\", [preoccupied_ulama.GetSheHe] ponders. \"\"I cannot make a ruling in this matter. We should wait for a statement from a very respected scholar. But you should forbid the people from eating the meat of this beast - just in case..."
   fp2_yearly.8002.a: "No, #italic I#! can make it permissible."
   fp2_yearly.8002.b: "Give me some of that meat! I #italic must#! taste it."
   fp2_yearly.8002.c: "Very well, let us wait for a ruling."
@@ -405,9 +360,8 @@
   exploding_whale.tt: "The carcass explodes!"
   healthy_whale_toast: "It tasted very good"
   unhealthy_whale_toast: "Something is not right..."
-
   fp2_yearly.8003.t: "Flight of Fancy"
-  fp2_yearly.8003.desc: "The renowned inventor [flying_polymath.GetFirstName] has sought me out with a very odd petition, carrying a pair of wings made from wood and silk. \n\nLong have humans lusted to soar through the heavens"", [flying_polymath.GetSheHe] says, ""and I have made calculations. I will prove that we can! Allow me to jump from the tallest tower of your [ROOT.Char.Custom('ResidenceBuilding')], my [ROOT.Char.GetLadyLord], and I shall serve you faithfully afterwards." \n\nUnfortunately, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('enthusiastic_child'))] [enthusiastic_child.GetTitledFirstName] has learned of this, and is begging me to let [enthusiastic_child.GetHerHim] see the aged scholar take flight. "
+  fp2_yearly.8003.desc: "The renowned inventor [flying_polymath.GetFirstName] has sought me out with a very odd petition, carrying a pair of wings made from wood and silk. \n\nLong have humans lusted to soar through the heavens\"\", [flying_polymath.GetSheHe] says, \"\"and I have made calculations. I will prove that we can! Allow me to jump from the tallest tower of your [ROOT.Char.Custom('ResidenceBuilding')], my [ROOT.Char.GetLadyLord], and I shall serve you faithfully afterwards.\" \n\nUnfortunately, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('enthusiastic_child'))] [enthusiastic_child.GetTitledFirstName] has learned of this, and is begging me to let [enthusiastic_child.GetHerHim] see the aged scholar take flight. "
   fp2_yearly.8003.a: "Very well, I will allow it."
   fp2_yearly.8003.b: "Lend me those wings - #italic I#! want to fly."
   fp2_yearly.8003.c: "No, this is madness."
@@ -416,23 +370,20 @@
   fp2_yearly.8003_child_reaction: "There is no telling how [enthusiastic_child.GetFirstNameNoTooltip] might react to seeing this."
   polymath_flight_attempt_toast.success: "[flying_polymath.GetFirstNameNoTooltip] flew!"
   polymath_flight_attempt_toast.failure: "[flying_polymath.GetFirstNameNoTooltip] fell to [flying_polymath.GetHerHis] death."
-
   fp2_yearly.8001.t: "Assembling the Cortes"
-  fp2_yearly.8001.desc: "My [commoner_enthusiast.GetCouncilTitle] [commoner_enthusiast.GetTitledFirstName] has long pondered our finances, and now suggests it is time to assemble the #italic cortes#!, a novel form of parliament where elected representatives of the free municipalities take part in the deliberations of the royal council.\n\nIn return for this privilege"", [commoner_enthusiast.GetSheHe] says, ""we could tax the cities even more. If we truly need gold, my [ROOT.Char.GetLadyLord], we could even allow some of the less wretched peasants to attend our meetings, though I would advice against that, since it would surely infuriate the nobles."
+  fp2_yearly.8001.desc: "My [commoner_enthusiast.GetCouncilTitle] [commoner_enthusiast.GetTitledFirstName] has long pondered our finances, and now suggests it is time to assemble the #italic cortes#!, a novel form of parliament where elected representatives of the free municipalities take part in the deliberations of the royal council.\n\nIn return for this privilege\"\", [commoner_enthusiast.GetSheHe] says, \"\"we could tax the cities even more. If we truly need gold, my [ROOT.Char.GetLadyLord], we could even allow some of the less wretched peasants to attend our meetings, though I would advice against that, since it would surely infuriate the nobles."
   fp2_yearly.8001.a: "Invite the cities' representatives."
   fp2_yearly.8001.b: "Invite everyone! And I mean #italic everyone#!."
   fp2_yearly.8001.c: "No, the nobles knows best, as we always have."
   fp2_flavor.8001_vassal_opinion: "Vassals who are protective of their privilege will dislike this"
-
   fp2_yearly.8000.t: "Burning the Vineyards"
-  fp2_yearly.8000.desc_muslim_opening: "The fine wine made in Iberia has long been enjoyed by the faithful who settled here. Yet the [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] has now decided that this shall come to an end.\n\nWine"", [vinoclast_caliph.GetHerHis] envoy [hof_emissary.GetTitledFirstName] declares, ""is certainly #italic haram#!, and neither its production nor consumption can be tolerated any longer. You must therefore put the vineyards in the [vineyard_county.GetName] to the torch."
-  fp2_yearly.8000.desc_jewish_opening: "The fine wine made in Iberia has long been enjoyed by our ancestors who settled here. Yet the [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] has now decided that this shall come to an end.\n\nWine"", [vinoclast_caliph.GetHerHis] envoy [hof_emissary.GetTitledFirstName] declares, ""is certainly not kosher, and neither its production nor consumption can be tolerated any longer. You must therefore put the vineyards in the [vineyard_county.GetName] to the torch."
+  fp2_yearly.8000.desc_muslim_opening: "The fine wine made in Iberia has long been enjoyed by the faithful who settled here. Yet the [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] has now decided that this shall come to an end.\n\nWine\"\", [vinoclast_caliph.GetHerHis] envoy [hof_emissary.GetTitledFirstName] declares, \"\"is certainly #italic haram#!, and neither its production nor consumption can be tolerated any longer. You must therefore put the vineyards in the [vineyard_county.GetName] to the torch."
+  fp2_yearly.8000.desc_jewish_opening: "The fine wine made in Iberia has long been enjoyed by our ancestors who settled here. Yet the [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] has now decided that this shall come to an end.\n\nWine\"\", [vinoclast_caliph.GetHerHis] envoy [hof_emissary.GetTitledFirstName] declares, \"\"is certainly not kosher, and neither its production nor consumption can be tolerated any longer. You must therefore put the vineyards in the [vineyard_county.GetName] to the torch."
   fp2_yearly.8000.desc_jerez: "But since your city of [jerez_vineyards.GetNameNoTier] has the greatest vineyards in all of Iberia, we do understand the gravity of your sacrifice, and the [vinoclast_caliph.GetTitleTierName] will not forget it. Still, the vineyards must burn!"
   fp2_yearly.8000.desc_not_jerez: "The [vinoclast_caliph.GetTitleTierName] do understand the anguish this may cause for your wine farmers, but think of all the land you will free up for better, more righteous purposes! The vineyards must be destroyed."
   fp2_yearly.8000.a: "Destroying fine wine? Has the [vinoclast_caliph.GetTitleTierName] gone insane?"
   fp2_yearly.8000.b: "I shall burn them to cinders!"
   fp2_yearly.8000.c: "No, I must protect the wine farmers."
-
   fp2_struggle.1020.t: "Death of a [Select_CString(minority_councillor.IsFemale,'Councilwoman','Councilman')]"
   fp2_struggle.1020_desc_opening: "What a disaster! Amidst tensions that have been simmering in [unrest_capital.GetNameNoTierNoTooltip], a mob of angry [unrest_capital.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip] named my councilor [minority_councillor.GetTitledFirstName] as the cause of their discontent, due to [minority_councillor.GetHerHis] [minority_councillor.GetFaith.GetAdherentNameNoTooltip] beliefs."
   fp2_struggle.1020_desc_beaten_by_mob: "As [minority_councillor.GetNameNoTooltip] was on [minority_councillor.GetHerHis] way to my [ROOT.Char.Custom('ResidenceBuilding')], the mob descended upon [minority_councillor.GetHerHim] and savagely beat [minority_councillor.GetHerHim] to death.\n\n"
@@ -448,19 +399,17 @@
   fp2_struggle.1020.b: "Make things right with [minority_councillor.GetTitledFirstNamePossessiveNoTooltip] folk."
   fp2_struggle.1020.c: "Hunt down the perpetrators."
   fp2_struggle.1020.d: "Deploy soldiers to restore order in [unrest_capital.GetNameNoTierNoTooltip]."
-
   fp2_yearly.8006.t: "Saqaliba Settlers"
-  fp2_yearly.8006.desc: "A band of several hundred pale-skinned #italic Saqaliba#!, enslaved men and women from the eastern reaches of Europe, have escaped the realm of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('former_master'))] [former_master.GetTitledFirstName]. Talk as [former_master.GetSheHe] may about how treasured they were in [former_master.GetHerHis] armies and [former_master.GetHerHis] harem, they have braved many dangers to seek freedom in my land.\n\nWe all have scars"", their leader [saqaliba_leader.GetFirstName] tells me, ""on our bodies, or deep inside. But we are strong and determined. We long for some land of our own, where we can speak our ancestral tongue. If you let us settle in the [saqaliba_barony.GetName], we would work hard to make it prosper."
+  fp2_yearly.8006.desc: "A band of several hundred pale-skinned #italic Saqaliba#!, enslaved men and women from the eastern reaches of Europe, have escaped the realm of my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('former_master'))] [former_master.GetTitledFirstName]. Talk as [former_master.GetSheHe] may about how treasured they were in [former_master.GetHerHis] armies and [former_master.GetHerHis] harem, they have braved many dangers to seek freedom in my land.\n\nWe all have scars\"\", their leader [saqaliba_leader.GetFirstName] tells me, \"\"on our bodies, or deep inside. But we are strong and determined. We long for some land of our own, where we can speak our ancestral tongue. If you let us settle in the [saqaliba_barony.GetName], we would work hard to make it prosper."
   fp2_yearly.8006.a: "I could even make you a mayor..."
   fp2_yearly.8006.b: "You can stay, but your friends must go elsewhere."
   fp2_yearly.8006.c: "I will send you back to your master."
   furious_rival_8006.desc: "Your rival [former_master.GetTitledFirstNameNoTooltip] might press a [claim|E] on the [saqaliba_county.GetName]"
   fp2_yearly.8006.flavor.b.tt: "Reluctantly, [saqaliba_leader.GetFirstNameNoTooltip] stays at your court, leaving [saqaliba_leader.GetHerHis] followers to find their own path."
   fp2_yearly.8006.flavor.c.tt: "The Saqaliba are forcefully returned to [former_master.GetTitledFirstNameNoTooltip]."
-
-  # fp2_struggle_event_vero":"
+  #fp2_struggle_event_vero
   fp2_struggle.3001.t: "The Price of War"
-  fp2_struggle.3001.desc: "[struggle_3001_steward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] enters the room with a grave demeanor. My [ROOT.GetCharacter.GetLadyLord]," [struggle_3001_steward.GetSheHe] says, ""our coffers are almost empty. It's dangerous in these times." [struggle_3001_steward.GetSheHe|U] does not have to say more. In silence, I give him a dour look. ""My [ROOT.GetCharacter.GetLadyLord|U]...," [struggle_3001_steward.GetSheHe] repeats as I leave."
+  fp2_struggle.3001.desc: "[struggle_3001_steward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] enters the room with a grave demeanor. My [ROOT.GetCharacter.GetLadyLord],\" [struggle_3001_steward.GetSheHe] says, \"\"our coffers are almost empty. It's dangerous in these times.\" [struggle_3001_steward.GetSheHe|U] does not have to say more. In silence, I give him a dour look. \"\"My [ROOT.GetCharacter.GetLadyLord|U]...,\" [struggle_3001_steward.GetSheHe] repeats as I leave."
   fp2_struggle.3001.desc_no_war_intro: "\n\nAll I have is this crown. This crown and the duty to serve it well. But what good is a crown with no wealth to keep it?"
   fp2_struggle.3001.desc_war_intro: "\n\nAll I have is this crown. This crown and the duty to serve it well. But what good is a crown that shall be taken regardless upon my defeat?"
   fp2_struggle.3001.desc_outro: "I reach out and touch its cold material — gold.\n\nI know some unscrupulous merchants that would be interested in it..."
@@ -470,13 +419,11 @@
   fp2_struggle.3001.c: "Wait! I'm not the only one with a crown in this household."
   fp2_struggle.3001.c_flavour: "Your spouse will lose their crown."
   fp2_struggle.3001.d: "This crown is only coming off once I am dead!"
-  nick_the_crownless: "the Crownless"
   struggle_3001_spouse_crown_modifier: "Crown Sold"
-
   fp2_struggle.3011.t: "Damsels in Distress"
-  fp2_struggle.3011.desc: "My [ROOT.GetCharacter.GetLadyLord]! The unthinkable has happened!" [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] takes a second to catch [struggle_3011_marshal.GetHerHis] breath, [struggle_3011_marshal.GetHerHis] forehead wet with sweat. ""The ladies of [struggle_3011_county_town.GetNameNoTier] have taken up arms to defend the city themselves."
-  fp2_struggle.3011.desc_men: "My [ROOT.GetCharacter.GetLadyLord]! The unthinkable has happened!" [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] takes a second to catch [struggle_3011_marshal.GetHerHis] breath, [struggle_3011_marshal.GetHerHis] forehead wet with sweat. ""The lads of [struggle_3011_county_town.GetNameNoTierNoTooltip] have taken up arms to defend the city themselves."
-  fp2_struggle.3011.desc_outro: "\n\n[bishop.GetTitledFirstName] storms into the room, soon following. This is unnatural, my [ROOT.GetCharacter.GetLadyLord]!" [bishop.GetSheHe] cries out, ""If we let them fight soon they shall also ask for land, and who is going to take care of the children then?""\n\n""A sword is a sword," [struggle_3011_marshal.GetFirstNameNoTooltip]'s answer is immediate. ""Surely you agree, my [ROOT.GetCharacter.GetLadyLord]?"
+  fp2_struggle.3011.desc: "My [ROOT.GetCharacter.GetLadyLord]! The unthinkable has happened!\" [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] takes a second to catch [struggle_3011_marshal.GetHerHis] breath, [struggle_3011_marshal.GetHerHis] forehead wet with sweat. \"\"The ladies of [struggle_3011_county_town.GetNameNoTier] have taken up arms to defend the city themselves."
+  fp2_struggle.3011.desc_men: "My [ROOT.GetCharacter.GetLadyLord]! The unthinkable has happened!\" [struggle_3011_marshal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] takes a second to catch [struggle_3011_marshal.GetHerHis] breath, [struggle_3011_marshal.GetHerHis] forehead wet with sweat. \"\"The lads of [struggle_3011_county_town.GetNameNoTierNoTooltip] have taken up arms to defend the city themselves."
+  fp2_struggle.3011.desc_outro: "\n\n[bishop.GetTitledFirstName] storms into the room, soon following. This is unnatural, my [ROOT.GetCharacter.GetLadyLord]!\" [bishop.GetSheHe] cries out, \"\"If we let them fight soon they shall also ask for land, and who is going to take care of the children then?\"\"\n\n\"\"A sword is a sword,\" [struggle_3011_marshal.GetFirstNameNoTooltip]'s answer is immediate. \"\"Surely you agree, my [ROOT.GetCharacter.GetLadyLord]?"
   fp2_struggle.3011.a: "I wish all my subjects were so ready to defend our lands!"
   fp2_struggle.3011.b: "Women should only hold one thing in their arms — babies."
   fp2_struggle.3011.b_men: "Men should only hold one thing in their arms — babies."
@@ -486,9 +433,8 @@
   fp2_order_of_the_hachet_modifier_desc: "The men and women of the county shall defend it equally."
   fp2_punished_order_of_the_hachet_modifier: "Forced Damsels to Distress"
   fp2_punished_order_of_the_hachet_modifier_desc: "In these counties, those who defend their lands without the approval of their liege are given harsher punishments than their aggressors."
-
   fp2_struggle.3021.t: "The Wrath of Heaven"
-  fp2_struggle.3021.desc: "[struggle_3021_knight.Custom2('MyCharacterIntroduction', ROOT.Char)|U]'s face is distorted with fear when I visit the barracks. [struggle_3021_courtier.GetTitledFirstName] is trying to help [struggle_3021_knight.GetHerHim] and raises and eyebrow when [struggle_3021_courtier.GetSheHe] sees me.\n\nWill you at least tell your [ROOT.GetCharacter.GetLadyLord] what happened?""\n\n[struggle_3021_knight.GetFirstNameNoTooltip] lifts [struggle_3021_knight.GetHerHis] head immediately. ""M-My [ROOT.GetCharacter.GetLadyLord]... what I saw was not meant to be seen. Figures were throwing stones made of black powder from the battlements. The stones lit on fire and thundered as they hit their enemies. They cut a man in two, my [ROOT.GetCharacter.GetLadyLord]!""\n\n[struggle_3021_courtier.GetFirstNameNoTooltip] nods with interest. ""Perhaps... if we too could have that power..."
+  fp2_struggle.3021.desc: "[struggle_3021_knight.Custom2('MyCharacterIntroduction', ROOT.Char)|U]'s face is distorted with fear when I visit the barracks. [struggle_3021_courtier.GetTitledFirstName] is trying to help [struggle_3021_knight.GetHerHim] and raises and eyebrow when [struggle_3021_courtier.GetSheHe] sees me.\n\nWill you at least tell your [ROOT.GetCharacter.GetLadyLord] what happened?\"\"\n\n[struggle_3021_knight.GetFirstNameNoTooltip] lifts [struggle_3021_knight.GetHerHis] head immediately. \"\"M-My [ROOT.GetCharacter.GetLadyLord]... what I saw was not meant to be seen. Figures were throwing stones made of black powder from the battlements. The stones lit on fire and thundered as they hit their enemies. They cut a man in two, my [ROOT.GetCharacter.GetLadyLord]!\"\"\n\n[struggle_3021_courtier.GetFirstNameNoTooltip] nods with interest. \"\"Perhaps... if we too could have that power..."
   fp2_struggle.3021.a: "This is surely worth researching."
   fp2_struggle.3021.b: "Who knows what dangers this could entail."
   fp2_struggle.3021.c: "Black powder you say... a new and fiery spice."
@@ -503,10 +449,9 @@
   stone_poisoning_worked: "A Fiery Spice"
   stone_poisoning_worked_desc: "Successfully researched the mysterious black powder."
   fp2_lightning_stones_poison_modifier: "Black Powder Poison"
-
-  # placeholderhugofp2eventtasf_events":"
+  #placeholderhugofp2eventtasf_events
   fp2_struggle.2000.t: "Disorderly Market"
-  fp2_struggle.2000.desc: "While surveying the market streets, I encounter a distressed muḥtasib, [fp2_2000_market_inspector.GetFullName], attempting to enforce market regulations amongst the peddlers. Disorderly arrangements, oil beside mosque doors, unskinned rabbits, and cheese in bowls! By Allah, you all better listen to me right now!""\n\nThis muḥtasib #emphasis should#! be punishing market transgressions, with violence if necessary. However, [fp2_2000_market_inspector.GetSheHe] is being ignored by the greed-blinded merchants.\n\nWhat can I do to aid [fp2_2000_market_inspector.GetHerHim]?"
+  fp2_struggle.2000.desc: "While surveying the market streets, I encounter a distressed muḥtasib, [fp2_2000_market_inspector.GetFullName], attempting to enforce market regulations amongst the peddlers. Disorderly arrangements, oil beside mosque doors, unskinned rabbits, and cheese in bowls! By Allah, you all better listen to me right now!\"\"\n\nThis muḥtasib #emphasis should#! be punishing market transgressions, with violence if necessary. However, [fp2_2000_market_inspector.GetSheHe] is being ignored by the greed-blinded merchants.\n\nWhat can I do to aid [fp2_2000_market_inspector.GetHerHim]?"
   fp2_struggle.2000.a: "Intervene in the matter and threaten to call a qāḍī."
   fp2_struggle.2000.a.desc: "Muḥtasib correct the path of misguided merchants,\nqāḍī punishes them according to their judgment"
   fp2_struggle.2000.a.a: "The merchants obey your word but remain unconvinced"
@@ -525,7 +470,7 @@
   fp2_struggle.2000.f.notif: "Leniency On Foreign Merchants"
   fp2_struggle.2000.f.notif.desc: "Market violations have only increased now the muḥtasib has ceased to enforce regulations"
   fp2_struggle.2001.t: "The Forsaken Village"
-  fp2_struggle.2001.desc: "As I tour my [ROOT.GetCharacter.Custom('FortifiedBuilding')] grounds, a peasant elder approaches me.\n\nGreat [ROOT.Char.GetLadyLord], please have mercy upon us and save our village from the tyranny of [fp2_2001_desperate_county.GetHolder.GetName]"". [fp2_2001_desperate_county.GetHolder.GetSheHe|U] has neglected our settlement for far too long. The people yearn for a new ruler; they yearn for you, [ROOT.Char.GetLadyLord]."
+  fp2_struggle.2001.desc: "As I tour my [ROOT.GetCharacter.Custom('FortifiedBuilding')] grounds, a peasant elder approaches me.\n\nGreat [ROOT.Char.GetLadyLord], please have mercy upon us and save our village from the tyranny of [fp2_2001_desperate_county.GetHolder.GetName]\"\". [fp2_2001_desperate_county.GetHolder.GetSheHe|U] has neglected our settlement for far too long. The people yearn for a new ruler; they yearn for you, [ROOT.Char.GetLadyLord]."
   fp2_struggle.2001.desc.extra.a: "The [fp2_2001_desperate_county.GetName] belongs to your ally, [fp2_2001_desperate_county.GetHolder.GetName]. Providing rebels with military support would be an act of aggression.\n\n"
   fp2_struggle.2001.desc.extra.b: "[fp2_2001_desperate_county.GetHolder.GetName], who owns the [fp2_2001_desperate_county.GetName], has an existing truce with you. Helping the peasants would be a breach of this agreement."
   fp2_struggle.2001.a: "You have my word, [fp2_2001_desperate_county.GetNameNoTierNoTooltip] will be liberated!"
@@ -551,7 +496,7 @@
   fp2_struggle.2002.t.a: "Liberated Village"
   fp2_struggle.2002.t.b: "Unmet Obligations"
   fp2_struggle.2003.t: "Band of Lost Birds"
-  fp2_struggle.2003.desc: "A wounded and disillusioned mercenary group has arrived at the [fp2_2003_county_town.GetName]. The locals claim to have overheard talk of settling down after pillaging an easy target" and have begun to grow anxious.\n\nTensions are high and conflict is likely to arise if I do not intervene in the matter."
+  fp2_struggle.2003.desc: "A wounded and disillusioned mercenary group has arrived at the [fp2_2003_county_town.GetName]. The locals claim to have overheard talk of settling down after pillaging an easy target\" and have begun to grow anxious.\n\nTensions are high and conflict is likely to arise if I do not intervene in the matter."
   fp2_struggle.2003.a: "Implore them to leave."
   fp2_struggle.2003.a.a.notif: "Brigands Ignore Pleas"
   fp2_struggle.2003.a.b.notif: "Peaceful Resolution"
@@ -572,7 +517,7 @@
   fp2_struggle.2003.e.notif.c: "Mercenaries Settle Down"
   fp2_struggle.2003.e.notif.c.desc: "The mercenaries have taken a liking to the [fp2_2003_county_town.GetName] and have settled down to farm the land, bringing in a flow of unexpected revenue and a reserve of qualified men to the region."
   fp2_struggle.2007.t: "A Castle Worthy of Iberia"
-  fp2_struggle.2007.desc.main: "are ripe for development, states my [fp2_2007_scoped_steward.GetCouncilTitleFirstName]. ""With your funding, we could secure [fp2_2007_free_real_estate.GetCounty.GetTitle.GetNameNoTier] against our enemies-in-wait at a #emphasis greatly#! reduced cost. [2007_vassal_sponsor.GetTitledFirstName] has petitioned for a [fp2_2007_foreign_faith.GetAdjective]-style [ROOT.Char.Custom('FortifiedBuilding')] to be built upon it, offering some of [2007_vassal_sponsor.GetHerHis] own coin in an attempt at swaying your opinion. However, your other vassals demand that you stick to local [ROOT.Char.GetFaith.GetAdjective] architects. Regardless of who you pick, this will be a golden opportunity to strengthen the realm as a whole." The only issue being #EMP who#! will be chosen for this golden opportunity..."
+  fp2_struggle.2007.desc.main: "are ripe for development, states my [fp2_2007_scoped_steward.GetCouncilTitleFirstName]. \"\"With your funding, we could secure [fp2_2007_free_real_estate.GetCounty.GetTitle.GetNameNoTier] against our enemies-in-wait at a #emphasis greatly#! reduced cost. [2007_vassal_sponsor.GetTitledFirstName] has petitioned for a [fp2_2007_foreign_faith.GetAdjective]-style [ROOT.Char.Custom('FortifiedBuilding')] to be built upon it, offering some of [2007_vassal_sponsor.GetHerHis] own coin in an attempt at swaying your opinion. However, your other vassals demand that you stick to local [ROOT.Char.GetFaith.GetAdjective] architects. Regardless of who you pick, this will be a golden opportunity to strengthen the realm as a whole.\" The only issue being #EMP who#! will be chosen for this golden opportunity..."
   fp2_struggle.2007.desc.a: "Your lands $fp2_struggle.2007.desc.main$"
   fp2_struggle.2007.desc.b: "The lands of [fp2_2007_castle_holder.GetTitledFirstName] $fp2_struggle.2007.desc.main$"
   fp2_struggle.2007.a: "I will hire the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] architect."
@@ -600,9 +545,9 @@
   fp2_struggle.2008.d: "You will be publicly shamed at the town square."
   fp2_struggle.2008.d.flavor: "You expose [fps_2008_misdeed_actor.GetHerHis] actions to the people, so that they may judge [fps_2008_misdeed_actor.GetHerHim] themselves. Going against the desire for discrepancy of your vassals and councillors."
   fp2_struggle.2009.t: "Catching Thieves of Myth"
-  fp2_struggle.2009.desc: "You picked the wrong castle, fool!" screams my marshal as [fp2_2009_marshal.GetSheHe] threatens the frightened intruder with a sword.\n\nUnder further pressure from my marshal, the young [fp2_2009_garduna_young_thief.GetWomanMan] explains that [fp2_2009_garduna_young_thief.GetSheHe] is part of a large criminal organization originating from the [fp2_2009_involved_ruler.GetPrimaryTitle.GetName] and commanded by the dreaded [fp2_2009_garduna_guild_master.GetFullNameNicknamed]. ""So, you're trying to set up a new thieves guild right under my nose, eh?" I ask, to which the thief merely nods. [fp2_2009_garduna_young_thief.GetSheHe|U] is willing to exchange further information for [fp2_2009_garduna_young_thief.GetHerHis] life."
+  fp2_struggle.2009.desc: "You picked the wrong castle, fool!\" screams my marshal as [fp2_2009_marshal.GetSheHe] threatens the frightened intruder with a sword.\n\nUnder further pressure from my marshal, the young [fp2_2009_garduna_young_thief.GetWomanMan] explains that [fp2_2009_garduna_young_thief.GetSheHe] is part of a large criminal organization originating from the [fp2_2009_involved_ruler.GetPrimaryTitle.GetName] and commanded by the dreaded [fp2_2009_garduna_guild_master.GetFullNameNicknamed]. \"\"So, you're trying to set up a new thieves guild right under my nose, eh?\" I ask, to which the thief merely nods. [fp2_2009_garduna_young_thief.GetSheHe|U] is willing to exchange further information for [fp2_2009_garduna_young_thief.GetHerHis] life."
   fp2_struggle.2009.a: "This realm isn't big enough for #EMP two#! [Select_CString(ROOT.Char.IsFemale,'queens','kings')]."
-  fp2_struggle.2009.a.flavor: "You let the thief go in exchange for the location of their leader, then set off on a quest to defeat them and earn the title of The Thief-Slayer""."
+  fp2_struggle.2009.a.flavor: "You let the thief go in exchange for the location of their leader, then set off on a quest to defeat them and earn the title of The Thief-Slayer\"\"."
   fp2_struggle.2009.b: "Tell me where your accomplices hide and you may yet live."
   fp2_struggle.2009.b.blues: "Gains the [trait|E] #TUT_KW [GetTrait('depressed_1').GetName(GetNullCharacter)]#! after selling out [fp2_2009_garduna_young_thief.GetHerHis] friends"
   fp2_struggle.2009.c: "Your thieves' guild sounds... #emphasis taxable.#!"
@@ -610,7 +555,7 @@
   fp2_struggle.2009.d.flavor.st: "You pay the thieves' guild to leave your lands"
   fp2_struggle.2009.e: "I will gift your severed head to [fp2_2009_involved_ruler.GetTitledFirstNameNoTooltip]."
   fp2_struggle.2009.e.a: "The thieves guild may retaliate by destabilizing a random county"
-  # Note to spanish translators": please translate this as ""Cazando a la Martes Foina"", saying Garduña is too blatant."
+  #Note to spanish translators: please translate this as "Cazando a la Martes Foina", saying Garduña is too blatant.
   fp2_struggle.2010.t: "Hunting the Beech Marten"
   fp2_struggle.2010.desc: "After journeying to [fp2_2009_involved_capital_county.GetNameNoTierNoTooltip], I enter an abandoned church. [fp2_2009_garduna_guild_master.GetNameNoTooltip] has been awaiting my arrival.\n\n[ROOT.Char.GetFirstNameNoTooltip], I presume? Your [ROOT.Char.Custom('signature_weapon')] tells me you are not here to offer me a deal. But thieves are closer to merchants than soldiers. We could both walk away content if you pay me. Then, I'll have no business left with your [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]."
   fp2_struggle.2010.b: "Prepare to be beheaded, snake!"
@@ -642,14 +587,14 @@
   fp2_struggle.2014.desc.end: "\n\nYou have done me well, I will not forget this. Thank you."
   fp2_struggle.2014.b: "Shame that [fp2_2013_prisoner_with_a_secret.GetFirstNameNoTooltip] wasn't executed, but at least I gained favor."
   fp2_struggle.2015.t: "Letter on The Back"
-  fp2_struggle.2015.desc: "Passing through my court, I notice an unrecognized face approach me. My most [ROOT.Char.Custom('ComplimentAdjective')] liege, I am [fp2_struggle_2015_peasant_to_murder.GetFirstName], former courtier of [fp2_struggle_2015_murder_requester_vassal.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. [fp2_struggle_2015_murder_requester_vassal.GetSheHe|U] has asked me to present myself before you and partake in your court. [fp2_struggle_2015_murder_requester_vassal.GetSheHe|U] has also given me a letter of introduction that only you may read." Then, [fp2_struggle_2015_peasant_to_murder.GetSheHe] hands me an enclosed letter.\n\nAfter breaking the seal, the letter simply reads":"#EMP Dear [ROOT.Char.GetFirstName], please assassinate the bearer of this letter#!. - [fp2_struggle_2015_murder_requester_vassal.GetFirstNameNoTooltip]"
+  fp2_struggle.2015.desc: "Passing through my court, I notice an unrecognized face approach me. My most [ROOT.Char.Custom('ComplimentAdjective')] liege, I am [fp2_struggle_2015_peasant_to_murder.GetFirstName], former courtier of [fp2_struggle_2015_murder_requester_vassal.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. [fp2_struggle_2015_murder_requester_vassal.GetSheHe|U] has asked me to present myself before you and partake in your court. [fp2_struggle_2015_murder_requester_vassal.GetSheHe|U] has also given me a letter of introduction that only you may read.\" Then, [fp2_struggle_2015_peasant_to_murder.GetSheHe] hands me an enclosed letter.\n\nAfter breaking the seal, the letter simply reads\":\"#EMP Dear [ROOT.Char.GetFirstName], please assassinate the bearer of this letter#!. - [fp2_struggle_2015_murder_requester_vassal.GetFirstNameNoTooltip]"
   fp2_struggle.2015.a: "Welcome! Come, have some #DIE2 (poisoned)#! [ROOT.Char.Custom('GetExpensiveDrink_Singular')]."
   fp2_struggle.2015.a.a: "You botch the poisoning attempt"
   fp2_struggle.2015.a.murder_scheme: "[fp2_struggle_2015_murder_requester_vassal.GetTitledFirstName] will continue attempting to murder [fp2_struggle_2015_peasant_to_murder.GetFirstName]"
   fp2_struggle.2015.a.b: "Courtier poisoned!"
   fp2_struggle.2015.b: "Disregard the letter and accept [fp2_struggle_2015_peasant_to_murder.GetFirstNameNoTooltip] into your court."
   fp2_struggle.2015.c: "You've been marked for death, flee while you can."
-  fp2_struggle.2015.c.a: "[fp2_struggle_2015_peasant_to_murder.GetFirstNameNoTooltip] mysteriously fails" to escape"
+  fp2_struggle.2015.c.a: "[fp2_struggle_2015_peasant_to_murder.GetFirstNameNoTooltip] mysteriously fails\" to escape"
   fp2_struggle.2015.c.b: "[fp2_struggle_2015_murder_requester_vassal.GetFirstNameNoTooltip] is tricked into thinking [fp2_struggle_2015_peasant_to_murder.GetFirstNameNoTooltip] is dead"
   fp2_struggle.2016.t: "To the foolish [ROOT.Char.GetFirstNameNoTooltip],"
   fp2_struggle.2016.desc: "I know you have murdered #DIE2 (at my request)#! my most-beloved envoy [fp2_struggle_2015_peasant_to_murder.GetFirstNameNoTooltip]. But worry not, as your loyal vassal I will keep this secret between us. So long as we continue to help each other out, like the good friends we are."
@@ -680,7 +625,7 @@
   fp2_struggle.2018.b: "We didn't quite become friends, but good fun was had!"
   fp2_struggle.2018.c: "Uh, that didn't go well..."
   fp2_struggle.2020.t: "Açò és or, xata!"
-  fp2_struggle.2020.desc: "Passing through [fp2_2020_valencia.GetName], a peasant woman offers me a refreshing mug of milk with a taste sweeter than anything I've tasted before. What is this marvelous drink you've offered me?" I ask, to which she responds ""milk from an earth almond.""\n\nThere is no person who could resist the allure of this concoction on a hot summer day, no child who could avoid smiling when offered a mug, and no Valencian without a sweet tooth for it. #EMP This beverage isn't milk, it's gold!#!"
+  fp2_struggle.2020.desc: "Passing through [fp2_2020_valencia.GetName], a peasant woman offers me a refreshing mug of milk with a taste sweeter than anything I've tasted before. What is this marvelous drink you've offered me?\" I ask, to which she responds \"\"milk from an earth almond.\"\"\n\nThere is no person who could resist the allure of this concoction on a hot summer day, no child who could avoid smiling when offered a mug, and no Valencian without a sweet tooth for it. #EMP This beverage isn't milk, it's gold!#!"
   fp2_struggle.2020.a: "From now on, [fp2_2020_valencia.GetNameNoTooltip] shall exclusively grow earth almonds!"
   fp2_struggle.2020.a.desc: "You force the peasants to exclusively grow earth almonds, creating luxury products for your capital."
   fp2_struggle.2020.b: "Give me all your barrels, this will be at the center of my next feast!"
@@ -709,7 +654,7 @@
   fp2_struggle.2021.d.a: "Slaying Old Enemies"
   fp2_struggle.2021.d.b: "@warning_icon! You will enter a lethal duel with [dueltarget.GetFirstName]"
   fp2_struggle.2023.t: "A King for a Bard"
-  fp2_struggle.2023.desc: "I am in a tent at an encampment bordering the [fp2_2023_foreign_king.GetPrimaryTitle.GetName], tasked with gauging the tensions between our realms. Suddenly, a [fp2_2023_enemy_knight.GetWomanMan] enters the tent, demanding to see the new commander." Instinctively, I step forward.\n\n""So, you're the new commander? Very well, pick a challenge, the loser pays for the other camp's drinks tonight!" Says [fp2_2023_enemy_knight.GetFirstName], commander of the foreign encampment, oblivious to the fact that I am [ROOT.Char.GetFirstNameRegnal] and not a mere military leader."
+  fp2_struggle.2023.desc: "I am in a tent at an encampment bordering the [fp2_2023_foreign_king.GetPrimaryTitle.GetName], tasked with gauging the tensions between our realms. Suddenly, a [fp2_2023_enemy_knight.GetWomanMan] enters the tent, demanding to see the new commander.\" Instinctively, I step forward.\n\n\"\"So, you're the new commander? Very well, pick a challenge, the loser pays for the other camp's drinks tonight!\" Says [fp2_2023_enemy_knight.GetFirstName], commander of the foreign encampment, oblivious to the fact that I am [ROOT.Char.GetFirstNameRegnal] and not a mere military leader."
   fp2_struggle.2023.a.desc: "You tell the soldiers who you are, shut down the party and demand your troops do squats as punishment for fraternizing with the enemy while on duty."
   fp2_struggle.2023.a.a: "You fool, I am [ROOT.GetCharacter.GetFullNameNoTooltip]!"
   fp2_struggle.2023.b: "Bring forth thou'st nastiest poem about each other's lieges!"
@@ -726,7 +671,7 @@
   fp2_struggle.2023.d.a: "You pass out drunk"
   fp2_struggle.2023.d.b: "Drinking a barrel's worth"
   fp2_struggle.2025.t: "Suffering From Success"
-  fp2_struggle.2025.desc: "Basking under the warm glow of the sunlight is a patch of land with unkempt fields and crumbling buildings, the wind whispering lamentations of solitude through its decrepit stones. This is one of many villages like it in [fp2_2025_razed_land.GetNameNoTier], the inhabitants that left when war came never returned when it ended and the flag of [ROOT.Char.GetPrimaryTitle.GetName] flew over it.\n\nBeautiful, isn't it?" Asks my [ROOT.Char.Custom2('RelationToMe', fp2_2025_marshal)] [fp2_2025_marshal.GetFirstName], ""Free land this is, prime for reconstruction. We could build a monument to our success right here."
+  fp2_struggle.2025.desc: "Basking under the warm glow of the sunlight is a patch of land with unkempt fields and crumbling buildings, the wind whispering lamentations of solitude through its decrepit stones. This is one of many villages like it in [fp2_2025_razed_land.GetNameNoTier], the inhabitants that left when war came never returned when it ended and the flag of [ROOT.Char.GetPrimaryTitle.GetName] flew over it.\n\nBeautiful, isn't it?\" Asks my [ROOT.Char.Custom2('RelationToMe', fp2_2025_marshal)] [fp2_2025_marshal.GetFirstName], \"\"Free land this is, prime for reconstruction. We could build a monument to our success right here."
   fp2_struggle.2025.a: "Our new subjects need time to mourn, not fight..."
   fp2_struggle.2025.b: "Brilliant idea! Here will stand the greatest of monuments!"
   fp2_struggle.2025.c: "We will restore this town back to what it was."
@@ -756,12 +701,11 @@
   fp2_struggle.2050.c: "Perhaps it is time to let him go..."
   fp2_struggle.2050.c.notif: "[fp2_2050_el_cid.GetFirstNameNicknamedNoTooltip] will seek employment elsewhere..."
   fp2_struggle.2051.t: "[fp2_2050_el_cid.GetFirstNameNicknamedNoTooltip]"
-  fp2_struggle.2051.desc: "A renowned knight by the name of [fp2_2050_el_cid.GetFullName], also known as [fp2_2050_el_cid.GetNicknameNoTooltip|U]"", has arrived at my court looking for a lord to serve. He is an undoubtedly talented commander and a warrior worthy of legend.\n\n[fp2_2050_el_cid.GetFirstNameNoTooltip] has no qualms working with anyone willing to welcome him with open arms. This is an opportunity to recruit a knight capable of turning the tide of battle all on his own."
+  fp2_struggle.2051.desc: "A renowned knight by the name of [fp2_2050_el_cid.GetFullName], also known as [fp2_2050_el_cid.GetNicknameNoTooltip|U]\"\", has arrived at my court looking for a lord to serve. He is an undoubtedly talented commander and a warrior worthy of legend.\n\n[fp2_2050_el_cid.GetFirstNameNoTooltip] has no qualms working with anyone willing to welcome him with open arms. This is an opportunity to recruit a knight capable of turning the tide of battle all on his own."
   fp2_struggle.2051.a: "Ah welcome! You will enjoy a high position at my court."
   fp2_struggle.2051.b: "A man of your talent is always welcome in my realm."
   fp2_struggle.2051.c: "Search for employment elsewhere, [fp2_2050_el_cid.GetFirstNameNoTooltip]."
-
-  # fp2_2004placeholder":"
+  #fp2_2004placeholder
   fp2_struggle.2004.t: "A Greater Armada"
   fp2_struggle.2004.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('2004_scoped_steward'))], [2004_scoped_steward.GetFirstName], informs me that [2004_scoped_steward.GetHerHis] chroniclers have returned from navigating and studying the naval technologies across the seas. [2004_scoped_steward.GetSheHe|U] says that with funding, we could have a new ship designed that would outperform our neighbors and usher in an era of maritime supremacy for [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nOn the other hand, my [2004_scoped_marshal.GetCouncilTitleFirstName], would much rather spend that gold in things other than trade vessels."
   fp2_struggle.2004.a: "Consider the endeavor sponsored"
@@ -774,7 +718,7 @@
   fp2_struggle.2005.t: "An Armada Ahead of Time"
   fp2_struggle.2005.t.alt: "Master Craftsmen of [fp2_2004_dockyards.GetNameNoTier]"
   fp2_struggle.2005.desc: "The new ships feature the following design:"
-  fp2_struggle.2005.desc.intro: "My liege, at long last our ships are ready to sail!"", says [2005_scoped_steward.GetFirstName]. ""I believe you will find the design most pleasing.""\n\n"
+  fp2_struggle.2005.desc.intro: "My liege, at long last our ships are ready to sail!\"\", says [2005_scoped_steward.GetFirstName]. \"\"I believe you will find the design most pleasing.\"\"\n\n"
   fp2_struggle.2005.desc.cirt.notif: "The new designs are an outstanding success! In fact, a new dockyard has been set-up in [fp2_2004_dockyards.GetNameNoTier] just to produce these new, state-of-the-art ships.\n\n"
   fp2_struggle.2005.desc.cirt.a.notif: "Sadly, in the time since construction began, the [fp2_2004_dockyards.GetName] fell into the hands of [fp2_2004_dockyards.GetHolder.GetName]. We managed to hold onto the ship designs, but the dockyards are now theirs.\n\n"
   fp2_struggle.2005.desc.newdesigner.notif: "The original designer, [2004_scoped_steward.GetFirstName], is no longer with us, but [2005_scoped_steward.GetFirstNameNicknamed] was able to take the reins and finish the project without [2004_scoped_steward.GetHerHim].\n\n"
@@ -794,16 +738,15 @@
   fp2_struggle.2005.desc.sails.b: "$fp2_struggle.2005.desc.sails.init$ massive, overlapping lugsails worthy of the most powerful of vessels."
   fp2_struggle.2005.desc.sails.c: "$fp2_struggle.2005.desc.sails.init$ complex fore-and-aft sail rigs for the greatest of maneuverability."
   fp2_struggle.2005.desc.sails.d: "$fp2_struggle.2005.desc.sails.init$ many great rows of oars. Making the vessel as steadfast as the will of those manning it."
-  fp2_struggle.2005.desc.outro: "\n\nMost impressive, wouldn't you agree?" Says [2005_scoped_steward.GetFirstNameNicknamed]."
-  fp2_struggle.2005.desc.outro.crit: "\n\nThis is sure to bring upon us an era of naval supremacy!" Proudly proclaims [2005_scoped_steward.GetFirstNameNicknamed]."
+  fp2_struggle.2005.desc.outro: "\n\nMost impressive, wouldn't you agree?\" Says [2005_scoped_steward.GetFirstNameNicknamed]."
+  fp2_struggle.2005.desc.outro.crit: "\n\nThis is sure to bring upon us an era of naval supremacy!\" Proudly proclaims [2005_scoped_steward.GetFirstNameNicknamed]."
   fp2_struggle.2005.a: "You have done well."
   fp2_struggle.2005.a.a: "Shame about the dockyards, but at least we have the ships."
   fp2_struggle.2005.desc.alt.a: "Sunken Silver"
-  fp2_struggle.2005.desc.alt.a.desc: "Aware of how upsetting these news are going to be, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('2005_scoped_steward'))], [2005_scoped_steward.GetFirstName], cautiously approaches to convey the outcome of our attempt at making silver float.\n\nIn spite of our best efforts, the idea of building a boat out of metal is madness. After it's completion, the boat left the port and promptly sunk into the abyss of the ocean. A significant part of our treasury now lies out of reach beneath the cruel waves. I am sorry my liege.""\n\n"
+  fp2_struggle.2005.desc.alt.a.desc: "Aware of how upsetting these news are going to be, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('2005_scoped_steward'))], [2005_scoped_steward.GetFirstName], cautiously approaches to convey the outcome of our attempt at making silver float.\n\nIn spite of our best efforts, the idea of building a boat out of metal is madness. After it's completion, the boat left the port and promptly sunk into the abyss of the ocean. A significant part of our treasury now lies out of reach beneath the cruel waves. I am sorry my liege.\"\"\n\n"
   fp2_struggle.2005.desc.alt.b: "Silver Vessels"
-  fp2_struggle.2005.desc.alt.b.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('2005_scoped_steward'))], [2005_scoped_steward.GetFirstName] knew this was merely a prop for show, something to gain a reputation over. Boats made out of metal will never float, no matter how much technology advances.\n\nTherefore, instead of taking the task seriously and attempting the impossible, [2005_scoped_steward.GetSheHe] coated a wooden vessel under a thin coat of silver to trick onlookers. Me and my new metallic ship" are the talk of the town and the envy of the world!\n\n"
-
-  # fp2_struggle_event_2006":"
+  fp2_struggle.2005.desc.alt.b.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('2005_scoped_steward'))], [2005_scoped_steward.GetFirstName] knew this was merely a prop for show, something to gain a reputation over. Boats made out of metal will never float, no matter how much technology advances.\n\nTherefore, instead of taking the task seriously and attempting the impossible, [2005_scoped_steward.GetSheHe] coated a wooden vessel under a thin coat of silver to trick onlookers. Me and my new metallic ship\" are the talk of the town and the envy of the world!\n\n"
+  #fp2_struggle_event_2006
   fp2_struggle.2006.t: "The Borders of Faith"
   fp2_struggle.2006.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fp2_2006_vassal_in_crisis'))] [fp2_2006_vassal_in_crisis.GetTitledFirstName] approaches me in private with clear doubt in [fp2_2006_vassal_in_crisis.GetHerHis] eyes.\n\n[fp2_2006_vassal_in_crisis.GetSheHe|U] explains to me that [fp2_2006_vassal_in_crisis.GetHerHis] faith is faltering due to [fp2_2006_vassal_in_crisis.GetHerHis] time spent guarding the border against [fp2_2006_foreign_faith.GetNameNoTooltip] and fraternizing with the enemy. [fp2_2006_vassal_in_crisis.GetHerHis|U] words are not in jest. It feels as if the slightest mistake, could push [fp2_2006_vassal_in_crisis.GetHerHim] away from [ROOT.Char.GetFaith.HighGodName].\n\nYet, this is an opportunity to strengthen our fervor as well as our relationship."
   fp2_struggle.2006.a: "Someone call a priest!"
@@ -825,8 +768,7 @@
   fp2_struggle.2006.generic.notif.b.t: "Vassal Remains Faithful"
   fp2_struggle.2006.e.notif.t: "Cordial Conjurers"
   fp2_struggle.2006.e.tacticalwitchfaithchange: "Converts to [fp2_2006_foreign_faith.GetName] to avoid persecution"
-
-  # fp2_flavor_events_vero":"
+  #fp2_flavor_events_vero
   fp2_flavor.3001.t: "As I Lay Dying"
   fp2_flavor.3001.desc: "The wind feels colder and the days darker, shorter, quieter. The throne looks the same as the day where I first sat on it. The throne will always look the same. But I won't.\n\nIt is time for me to prepare for the inevitable, and I shall commission an epitaph before I leave, so I can leave in peace."
   fp2_flavor.3001.a: "We shall use the [SCOPE.Custom('IberiaSacredLanguage')] language."
@@ -838,16 +780,14 @@
   IberiaRomanceLanguage_sephardi: "Sephardi"
   IberiaRomanceLanguage_mozarabic: "Mozarabic"
   fp2_epitaph_modifier: "Polyglot Epitaph"
-
   fp2_flavor.3011.t: "An Unexpected Move"
   fp2_flavor.3011.desc: "My best friend [fp2_flavor_3011_best_friend.GetFirstName] does not need to knock on the door to enter my chambers. Ah, [fp2_flavor_3011_best_friend.GetHerHis] joyous smile will never cease to delight me. But... there's something different about [fp2_flavor_3011_best_friend.GetHerHis] today; [fp2_flavor_3011_best_friend.GetHerHis] hair is perfectly done and [fp2_flavor_3011_best_friend.GetHerHis] clothes are as opulent as elegant.\n\n[ROOT.Char.GetFirstNameNoTooltip], my dearest friend! A castle this big... and you're here all by yourself! There's nothing I enjoy more than your precious company and if I could — oh, goodness, if I could! — I'd spend all my days and nights with you in this very room."
   fp2_flavor.3011.a: "And there is only one bed."
   fp2_flavor.3011.b: "I shall find an accommodation worthy of you!"
   fp2_flavor.3011.c_spouse: "I have a spouse!"
   fp2_flavor.3011.c: "I'm as alone as I want to be."
-
   fp2_flavor.3021.t: "A Tasteless Evening"
-  fp2_flavor.3021.desc: "When my dear friend [fp2_flavor_3021_best_friend.GetFirstName] invited me this evening I wasn't expecting that I'd rather be eating wet leather in a cave.\n\nI turn my head when one of the guests exposes his pus infected wounds: This one I got while taking a shit!""\n\n""Such a nice evening, isn't it?," [fp2_flavor_3021_best_friend.GetFirstNameNoTooltip] approaches me, cup in hand, [fp2_flavor_3021_best_friend.GetHerHis] blushed smile cannot be tarnished even by the miserable atmosphere, miserable conversation and miserable food."
+  fp2_flavor.3021.desc: "When my dear friend [fp2_flavor_3021_best_friend.GetFirstName] invited me this evening I wasn't expecting that I'd rather be eating wet leather in a cave.\n\nI turn my head when one of the guests exposes his pus infected wounds: This one I got while taking a shit!\"\"\n\n\"\"Such a nice evening, isn't it?,\" [fp2_flavor_3021_best_friend.GetFirstNameNoTooltip] approaches me, cup in hand, [fp2_flavor_3021_best_friend.GetHerHis] blushed smile cannot be tarnished even by the miserable atmosphere, miserable conversation and miserable food."
   fp2_flavor.3021.a: "As nice as it gets!"
   fp2_flavor.3021.b: "Y-yes, [fp2_flavor_3021_best_friend.GetFirstNameNoTooltip]... I— look, th-this evening is—"
   fp2_flavor.3021.c: "[fp2_flavor_3021_best_friend.GetSheHe|U] ought to know the truth."
@@ -855,8 +795,7 @@
   fp2_flavor.3021.b.success_tt: "[fp2_flavor_3021_best_friend.GetFirstNameNoTooltip] will understand your concerns"
   fp2_flavor.3021.b.success: "A Successful Conversation"
   fp2_flavor.3021.b.fail: "An Embarrassing Conversation"
-
-  # fp2_james_events":"
+  #fp2_james_events
   fp2_james.0001.t: "Thriving [fp2_james_0001_jewish_trader.GetFaith.GetAdherentNameNoTooltip] Community in [fp2_james_0001_thriving_community.GetNameNoTierNoTooltip]"
   fp2_james.0001.desc: "The expansion of trading ports in [fp2_james_0001_thriving_community.GetNameNoTier] has made it a thriving hub for Jewish peoples all in Iberia!\n\nA member of a major [fp2_james_0001_jewish_trader.GetCulture.GetName] trading family has been bringing in more and more of [fp2_james_0001_jewish_trader.GetHerHis] people.\n\nSoon it will be the very heart of the vast Jewish trade network across Iberia."
   fp2_james.0001.a: "If they are not [ROOT.Char.GetFaith.GetReligion.GetAdjective], they are not welcome!"
@@ -898,23 +837,20 @@
   fp2_james.0005.a: "Anything for the faith!"
   fp2_james.0005.b: "You're wasting my time."
   fp2_toledo_nights_modifier: "Locals Rulers Slaughtered"
-  fp2_toledo_nights_modifier_desc: "The local religious rulers of this province were recently slaughtered."
+  fp2_toledo_nights_modifier_desc: "The local religious rulers of this County were recently slaughtered."
   fp2_toledo_nights_fallout_modifier: "Priesthood Slaughtered"
   fp2_toledo_nights_fallout_modifier_desc: "Religious leaders were recently slaughtered in a nearby town, causing repercussions across this realm."
   fp2_correctly_facing_church: "Correctly Oriented Temple"
-  fp2_correctly_facing_church_desc: "The place of worship in this province has been rotated brick by brick to ensure proper worship."
-
-  # fp2_nick_events (all three files)":"
+  fp2_correctly_facing_church_desc: "The place of worship in this County has been rotated brick by brick to ensure proper worship."
+  #fp2_nick_events (all three files)
   fp2_yearly.4001.t: "The Sixth Hour"
   fp2_yearly.4001.desc: "My goodness! Being a ruler really does take it out of you. I have to toil all day and much of the night too in order to maintain my lands. The peasants lead blessed lives in that respect; they don't have the pressures of rulership to weigh them down and cause them so much lethargy!\n\nPerhaps a little nap would do me good? I can sleep off the exertions of lunch and be ready to tackle the rest of the day!"
   fp2_yearly.4001.a: "No! I have work to do!"
   fp2_yearly.4001.b: "Mm, #EMP lovely.#!"
-
   fp2_yearly.4002.t: "Living In Harmony"
-  fp2_yearly.4002.desc: "The disapproving frown on my [realm_priest.GetCouncilTitle] [realm_priest.GetTitledFirstNamePossessive] face readies me pre-emptively for what is sure to be some manner of [ROOT.Char.GetFaith.HighGodName]-bothering nonsense.\n\nMy [ROOT.Char.GetLadyLord]," [realm_priest.GetSheHe] begins, ""there is a matter of grave import happening within your very realm. The county of [interfaith_province.GetCounty.GetName] is filled with people not following the true faith! If that wasn't bad enough, they're living alongside those who do! And, and, and #EMP fornicating#! with each other and-""\n\nI close my eyes as the interminable drone continues. I dread to think how [realm_priest.GetSheHe] will carry on if I don't do something..."
+  fp2_yearly.4002.desc: "The disapproving frown on my [realm_priest.GetCouncilTitle] [realm_priest.GetTitledFirstNamePossessive] face readies me pre-emptively for what is sure to be some manner of [ROOT.Char.GetFaith.HighGodName]-bothering nonsense.\n\nMy [ROOT.Char.GetLadyLord],\" [realm_priest.GetSheHe] begins, \"\"there is a matter of grave import happening within your very realm. The county of [interfaith_province.GetCounty.GetName] is filled with people not following the true faith! If that wasn't bad enough, they're living alongside those who do! And, and, and #EMP fornicating#! with each other and-\"\"\n\nI close my eyes as the interminable drone continues. I dread to think how [realm_priest.GetSheHe] will carry on if I don't do something..."
   fp2_yearly.4002.a: "Let them live in peace, [realm_priest.GetFirstNameNoTooltip]."
   fp2_yearly.4002.b: "You're right. This can't continue."
-
   fp2_yearly.4003.t: "O Camiño de Santiago"
   fp2_yearly.4003.desc: "The holy city of Santiago de Compostela is a magnet for the faithful, drawing pilgrims from lands local and distant. The route to it is accordingly well-travelled, wending its way to the site from the foothills of the Pyrenees. Of course, where people rich enough to travel to the holy site exist, so too do those looking to profit from their trust in the almighty.\n\nIt is the fifth report of a violent robbery by bandits in as many days on the stretches of land that run through my territory that finally drives my [steward.GetCouncilTitle] [steward.GetFirstName] to consult with me on how to deal with this issue."
   fp2_yearly.4003.a: "I shall contact the holy warriors in [ho_province.GetProvince.GetCounty.GetName]!"
@@ -922,7 +858,7 @@
   fp2_yearly.4003.c: "[ROOT.Char.GetFaith.HighGodName] helps those who help themselves..."
   fp2_yearly.4003.tt: "The local [holy_order|E] will patrol the road in their county."
   fp2_yearly.4004.t: "The Wandering Master"
-  fp2_yearly.4004.desc: "I'm on my way through my courtroom when a scuffle at its far end draws my attention. A strapping [mozarab_wanderer.GetWomanMan] is being advanced upon by my guards, only for their weapons to clatter to the floor in the blink of an eye. The stranger flourishes [mozarab_wanderer.GetHerHis] sword in salute towards me.\n\nMy [ROOT.Char.GetLadyLord]"", [mozarab_wanderer.GetSheHe] begins as I wave away more guards, ""I find myself without a liege to serve, and judging from your protection here you could do with my help.""\n\nFrom the cross [mozarab_wanderer.GetSheHe] wears around [mozarab_wanderer.GetHerHis] neck, I deduce [mozarab_wanderer.GetSheHe] is a [mozarab_wanderer.GetFaith.GetAdherentName]."
+  fp2_yearly.4004.desc: "I'm on my way through my courtroom when a scuffle at its far end draws my attention. A strapping [mozarab_wanderer.GetWomanMan] is being advanced upon by my guards, only for their weapons to clatter to the floor in the blink of an eye. The stranger flourishes [mozarab_wanderer.GetHerHis] sword in salute towards me.\n\nMy [ROOT.Char.GetLadyLord]\"\", [mozarab_wanderer.GetSheHe] begins as I wave away more guards, \"\"I find myself without a liege to serve, and judging from your protection here you could do with my help.\"\"\n\nFrom the cross [mozarab_wanderer.GetSheHe] wears around [mozarab_wanderer.GetHerHis] neck, I deduce [mozarab_wanderer.GetSheHe] is a [mozarab_wanderer.GetFaith.GetAdherentName]."
   fp2_yearly.4004.a: "For a [mozarab_wanderer.GetWomanMan] of your talents? Absolutely!"
   fp2_yearly.4004.b: "I would rather my $knight_culture_player_no_tooltip_lowercase$s be [ROOT.Char.GetFaith.GetAdherentNameNoTooltip]."
   fp2_yearly.4004.c: "Begone, heathen!"
@@ -930,16 +866,14 @@
   fp2_yearly.4004.b.succ: "[mozarab_wanderer.GetName] joins your court"
   fp2_yearly.4004.b.fail: "[mozarab_wanderer.GetName] refuses to convert and returns to wandering"
   fp2_yearly.4004.c.tt: "[mozarab_wanderer.GetName] returns to wandering"
-
   fp2_yearly.4005.t: "Establishing Enclaves"
   fp2_yearly.4005.desc.christian: "The [mozarab_merchant.GetFaith.GetAdherentNamePlural] occupy a unique position in Iberian society."
   fp2_yearly.4005.desc.muslim: "[mozarab_merchant.GetFaith.GetReligion.GetAdjectiveNoTooltip|U] subjects occupy a unique position in Iberian society."
-  fp2_yearly.4005.desc: "It is unusual, then, to see one of their local merchants ask for an audience with me.\n\nWe [mozarab_merchant.GetFaith.GetAdherentNamePlural] tend to deal with a certain degree of extra... difficulty when living our lives." [mozarab_merchant.GetSheHe|U] speaks evenly and without rancor, but there's clearly some steel to [mozarab_merchant.GetHerHis] words.\n\n""All we want is for a small section of the cities in the [mozarab_quarter.GetName] to call our own and live among our people. I have come here to petition you, my [ROOT.Char.GetLadyLord], to see whether you might magnanimously grant us this."
+  fp2_yearly.4005.desc: "It is unusual, then, to see one of their local merchants ask for an audience with me.\n\nWe [mozarab_merchant.GetFaith.GetAdherentNamePlural] tend to deal with a certain degree of extra... difficulty when living our lives.\" [mozarab_merchant.GetSheHe|U] speaks evenly and without rancor, but there's clearly some steel to [mozarab_merchant.GetHerHis] words.\n\n\"\"All we want is for a small section of the cities in the [mozarab_quarter.GetName] to call our own and live among our people. I have come here to petition you, my [ROOT.Char.GetLadyLord], to see whether you might magnanimously grant us this."
   fp2_yearly.4005.a: "You are welcome in my cities."
   fp2_yearly.4005.b: "I will not have you pollute my towns!"
-
   fp2_yearly.4006.t: "[ROOT.Char.GetFaith.HighGodNamePossessive] Architect"
-  fp2_yearly.4006.desc: "It is a brave person who would accost me as I'm leaving the [ROOT.Char.GetFaith.HouseOfWorship] after my daily worship, but one such [mozarab_priest.GetWomanMan] has tried exactly that. I note the crucifix looped around [mozarab_priest.GetHerHis] neck with some suspicion as [mozarab_priest.GetSheHe] begins to speak.\n\nMy [ROOT.Char.GetLadyLord], I only ask a minute of your time. All I want is for my flock to be able to worship in a [mozarab_priest.GetFaith.HouseOfWorship] as all good followers of [mozarab_priest.GetFaith.HighGodName] should!" The nervous priest stops, and looks at me imploringly.\n\nLetting the [mozarab_priest.GetFaith.GetAdherentNamePlural] build places of worship would make converting them trickier, but perhaps some leniency might aid the cohesiveness of my realm?"
+  fp2_yearly.4006.desc: "It is a brave person who would accost me as I'm leaving the [ROOT.Char.GetFaith.HouseOfWorship] after my daily worship, but one such [mozarab_priest.GetWomanMan] has tried exactly that. I note the crucifix looped around [mozarab_priest.GetHerHis] neck with some suspicion as [mozarab_priest.GetSheHe] begins to speak.\n\nMy [ROOT.Char.GetLadyLord], I only ask a minute of your time. All I want is for my flock to be able to worship in a [mozarab_priest.GetFaith.HouseOfWorship] as all good followers of [mozarab_priest.GetFaith.HighGodName] should!\" The nervous priest stops, and looks at me imploringly.\n\nLetting the [mozarab_priest.GetFaith.GetAdherentNamePlural] build places of worship would make converting them trickier, but perhaps some leniency might aid the cohesiveness of my realm?"
   fp2_yearly.4006.a: "You have my assent. Build your [mozarab_priest.GetFaith.HouseOfWorshipPlural]."
   fp2_yearly.4006.b: "You will #EMP never #!build those heathen's shacks on my land!"
   fp2_yearly.4007.t: "Look And You Shell Find"
@@ -950,7 +884,6 @@
   fp2_yearly.4007.c.tt.flavour: "If I kept this shell, who's to say it #EMP isn't#! real?"
   fp2_yearly.4007.c.tt.success: "You keep the convincing shell"
   fp2_yearly.4007.c.tt.fail: "[realm_priest.GetFirstNameNoTooltip] easily brands the shell a fake"
-
   fp2_yearly.4008.t: "Fireside Tales"
   fp2_yearly.4008.desc.intro: "The fire crackles, casting long shadows on the wall of the servant’s quarters. A wizened old woman holds children agog with her tales.\n\n"
   fp2_yearly.4008.desc.basque.a: "...the Aatxe is a cave spirit who is most often seen in the beastly form of a red bull, protecting people from baleful influences and attacking thieves."
@@ -970,13 +903,11 @@
   fp2_yearly.4008.a: "What a fun old tale!"
   fp2_yearly.4008.b: "Ha! Nonsense ghost stories!"
   fp2_yearly.4008.c: "You tell a fine tale, old lady!"
-
   fp2_yearly.4009.t: "The White Lord"
   fp2_yearly.4009.desc: "Today is a special day. I round the corner and sight my quarry the Malato Tree from the legend of Jaun Zuria. The tale of the young warrior who turned back an army is well-worn into the minds of every [root_culture.GetName] child.\n\nI run a hand over the knobbled trunk and my fingers coming to rest on a slit, as wide as a finger. As legend has it, a sword was embedded here by the White Lord's followers to witness their resolve to follow him anywhere."
   fp2_yearly.4009.a: "I too shall vanquish our people's foes!"
   fp2_yearly.4009.b: "I am more than just [root_culture.GetNameNoTooltip]."
   fp2_yearly.4009.c: "A little memento of this day would be nice."
-
   fp2_yearly.4010.t: "Pigs of Stone"
   fp2_yearly.4010.desc: "It was meant to be a simple trip to visit the [verraco_county.GetName], but I have come across something rare and unusual.\n\nHuge stone beasts in the shape of boars stand before me in the wide open country. By the weathering, I would guess they are truly ancient. If they really are that old, then what possibly possessed these people to expend the effort to create monolithic swine?"
   fp2_yearly.4010.a: "Perhaps these were tombs... for saints?"

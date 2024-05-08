@@ -2,20 +2,17 @@
   available_because_of_dread_tt: "Це варіант доступний через навіюваний вами [Concept( 'dread', 'жах' )|E]."
   intrigue_lifestyle_perk_indication: "Ви можете отримати [perk|E] [intrigue_lifestyle|E]"
   intrigue_scheming_focus_point_clear_gain: "Тепер ви краще розумієте такий предмет, як [intrigue_lifestyle|E]"
-
-# Play Robin Hood, by Linnéa Thimrén
+  #Play Robin Hood, by Linnéa Thimrén
   intrigue_scheming.1001.t: "[county.GetNameNoTierNoTooltip] скаржиться"
   intrigue_scheming.1001.desc: "«Ці ресурси потрібні нашим військам! І якщо одному маленькому селу у володінні [county.GetNameNoTier] доведеться голодувати...»\nЯ все ще чую гарячу суперечку між моїми радниками, коли [councillor.GetTitledFirstName], представник володіння [county.GetNameNoTierNoTooltip], вітає мене зі стомленим виглядом."
   intrigue_scheming.1001.a: "Ось. Цей указ велить їм дати вам спокій."
   intrigue_scheming.1001.b: "Що таке одне село в масштабі всесвіту?"
-
-# Invent code for messages, by Linnéa Thimrén
+  #Invent code for messages, by Linnéa Thimrén
   intrigue_scheming.1011.t: "Потреба секретності"
   intrigue_scheming.1011.desc: "«[ROOT.Char.GetLadyLord]!»\nЯ обертаюсь, щоб побачити, як [council_member.GetTitledFirstName], задихаючись, біжить до мене: «[ROOT.Char.GetLadyLord], ще одного посланця знайшли мертвим. Сумка та лист викрадені».\n\nВтретє цього року. Прикрість переростає у занепокоєння. Що коли моє листування з васалами читають наші вороги?"
   intrigue_scheming.1011.a: "Надішліть за криптографом і починайте працювати!"
   intrigue_scheming.1011.a.flavor: "Я працюватиму разом із криптографом, щоб придумати код."
   intrigue_scheming.1011.b: "У майбутньому мені треба бути уважнішим."
-
   intrigue_scheming.1012.desc: "Довга ніч переходить у ранній світанок, але ні я, ні криптограф [cryptographer.GetTitledFirstName] ще не лягали.\n\n"
   intrigue_scheming.1012.desc_archimedes: "«Ця каторга швидко закінчилася б, якби ми мали працю Архімеда про шифри. Безліч сторінок про коди та зашифровані повідомлення...»"
   intrigue_scheming.1012.desc_al_kindi: "«Ця каторга швидко закінчилася б, якби ми мали працю Аль-Кінді про криптографію. Безліч сторінок про коди та зашифровані повідомлення...»"
@@ -24,7 +21,6 @@
   intrigue_scheming.1012.a.duel_success: "[cryptographer.GetTitledFirstNameNoTooltip] і я успішно створюємо новий шифр."
   intrigue_scheming.1012.a.duel_failure: "[cryptographer.GetTitledFirstNameNoTooltip] не в змозі навчити мене своєму мистецтву"
   intrigue_scheming.1012.b: "Розбудіть мене, якщо виявите що-небудь."
-
   intrigue_scheming.1013.desc_alive: "Нарешті, у нас щось є! Після довгих суперечок і ще довших ночей [cryptographer.GetTitledFirstName] і я нарешті досягли результату.\n\n"
   intrigue_scheming.1013.desc_dead: "Попри втрату криптографа, мені нарешті вдалося чогось досягти!\n\n"
   intrigue_scheming.1013.desc_transposition: "Досить проста система, яка переставляє літери в слові, підійде нам найкраще. Головне, щоб одержувач міг прочитати повідомлення без затримки."
@@ -34,69 +30,61 @@
   intrigue_scheming.1013.a.tt: "Ви отримуєте #T [THIS.Var('intrigue_exp_gain_value').GetValue]#! очк. [Concept( 'guile_Ilegu', 'підступності' )|E]"
   intrigue_scheming.1013.b.tt: "Ви отримуєте #T [THIS.Var('intrigue_exp_gain_value').GetValue]#! очк. [Concept( 'guile_7_21_9_12_5', 'підступності' )|E]"
   intrigue_scheming.1013.c.tt: "Ви отримуєте #T [THIS.Var('intrigue_exp_gain_value').GetValue]#! очк. [Concept( 'guile_Qynch', 'підступності' )|E]"
-
   intrigue_scheming.1014.desc_alive: "На жаль, незважаючи на всі старання, [cryptographer.GetTitledFirstName] так і не [Select_CString(cryptographer.IsFemale, 'змогла', 'зміг' )] розтлумачити мені тонке мистецтво криптографії.\n\n[Select_CString(cryptographer.IsFemale, 'Вона', 'Він' )] запевняє мене, що у надійності створеного шифру можна не сумніватися. І все ж я не можу позбутися відчуття, що я втрачаю можливість відточити свою майстерність."
   intrigue_scheming.1014.desc_dead: "Тепер, коли [cryptographer.GetTitledFirstName] [Select_CString(cryptographer.IsFemale, 'загинула', 'загинув' )], мені доведеться відкласти спроби створити секретний код для листування.\n\nЗалишається сподіватися, що незабаром я вигадаю інший спосіб боротися зі шпигунами."
   intrigue_scheming.1014.a: "Яка прикрість..."
-
-# Hired spies construct a report of your castle's weaknesses, by Linnéa Thimrén
+  #Hired spies construct a report of your castle's weaknesses, by Linnéa Thimrén
   intrigue_scheming.1201.t: "Кожен куточок"
   intrigue_scheming.1201.desc: "У темряві нічний оживають тіні, якими наповнюється [ROOT.Char.Custom('FortifiedBuilding')].З кожним виявленим куточком, що не охороняється, я все гостріше відчуваю, як легко до нас може проникнути ворог.\n\nЯкщо я бачу стільки способів проникнути сюди, то уявіть, скільки варіантів відшукають кілька таких уважних людей!"
   intrigue_scheming.1201.a: "Я найму групу... #EMP обережних#! агентів."
   intrigue_scheming.1201.b: "Достатньо і того, що бачу я!"
-
   intrigue_scheming.1202.desc: "«Ось що вам потрібно зробити...»\n[hired_spy.GetTitledFirstName], #EMP  експерт#! у таємних справах, [Select_CString(hired_spy.IsFemale, 'побувала', 'побував' )] у всіх частинах мого житла, розлякуючи слуг і придворних своєю раптовою появою з темних кутів.\n\nЗ [hired_spy.GetHerHis] сумбурних записок поступово вимальовується план посилення безпеки."
   intrigue_scheming.1202.a: "Я вже почуваюся в безпеці!"
   intrigue_scheming.1202.b: "Мені можуть стати у нагоді деякі з ваших талантів."
   intrigue_scheming.1202.b.tt: "[hired_spy.GetTitledFirstName] залишається при вашому дворі"
   intrigue_scheming.1202.c: "Зрозуміло, ці відомості не можуть стати загальним надбанням."
-
-# Meet a merchant from a far away land, by Linnéa Thimrén
+  #Meet a merchant from a far away land, by Linnéa Thimrén
   intrigue_scheming.1401.t: "Відомості здалеку"
   intrigue_scheming.1401.desc_opening: "На місцевому ринку мою увагу привертає продавець із далеких земель.\n\n«[ROOT.Char.GetLadyLord], підійдіть ближче! Подивуйтесь скарбам, досі небаченим у цих землях!"
   intrigue_scheming.1401.desc1: "Довелося бути дуже обережним, коли я вивозив цю красу, так-так. Завжди сплю на півока»."
+  intrigue_scheming.1401.desc2: "Walked right past the guards responsible for these beauties. A true knower of people, that I am.\""
   intrigue_scheming.1401.desc3: "Мені довелося змішатись із місцевими, щоб вивезти цю красу, це було так жахливо!»"
-  intrigue_scheming.1401.a: """Напевно, дуже цікаво стільки подорожувати!"""
+  intrigue_scheming.1401.desc_ending: "\n\nThis merchant might have more to give me than marvels from afar."
+  intrigue_scheming.1401.a: "\"\"Напевно, дуже цікаво стільки подорожувати!\"\""
   intrigue_scheming.1401.a.tt: "#F Ви вмовляєте торговця поділитися з вами знаннями.#!"
   intrigue_scheming.1401.a.success: "Ви переконуєте торговця"
   intrigue_scheming.1401.a.failure: "Вам не вдається переконати торговця"
   intrigue_scheming.1401.b: "[dummy_gender.GetSheHe|U] #EMP скаже#! мені все, що знає!"
   intrigue_scheming.1401.b.penalty: "Селяни зляться через вашу поведінку"
   intrigue_scheming.1401.c: "«Це за дрібнички та інформацію»."
-
-# Potential to turn a secret into a hook — or other things, by Petter Vilberg
+  #Potential to turn a secret into a hook — or other things, by Petter Vilberg
   intrigue_scheming.1601.t: "Те, що ми знаємо"
   intrigue_scheming.1601.desc: "Я збрешу, якщо скажу, що мені не було приємно бачити, як [Select_CString(blackmailed_vassal.IsFemale, 'скорчилася', 'скорчився' )] [blackmailed_vassal.GetTitledFirstName], дізнавшись, що мені відомо.\n\nВідвівши мене у бік для приватної бесіди, [Select_CString(blackmailed_vassal.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('blackmailed_vassal'))] питає, що [blackmailed_vassal.GetHerHim] тепер робити."
   intrigue_scheming.1601.a: "Небагато золота може багато чого змінити."
   intrigue_scheming.1601.b: "Мені б хотілося справити на когось враження..."
   intrigue_scheming.1601.c: "Нічого не можна зробити. Я просто хочу, щоб ви втратили спокій."
-
-# Gain Intrigue Mentor, by Linnéa Thimrén
+  #Gain Intrigue Mentor, by Linnéa Thimrén
   intrigue_scheming.2001.t: "Вчитель"
   intrigue_scheming.2001.desc: "«Від мене не сховався ваш інтерес до мистецтва... витонченої інтриги, [ROOT.Char.GetLadyLord]. Я можу допомогти вам ще краще освоїти його».\n\n[Select_CString(future_mentor.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('future_mentor') )] [future_mentor.GetTitledFirstName], [future_mentor.Custom('quirk_pos_adverb')] посміхнувшись, приєднується до мене на прогулянці в саду. [future_mentor.GetSheHe|U] [Select_CString(future_mentor.IsFemale, 'відома', 'відомий' )] настільки, наскільки взагалі може бути відома людина з такими навичками. Мені б #EMP  дуже#! хотілося покращити своє вміння інтриг."
-  intrigue_scheming.2001.a: """Кажіть, що робити""."
+  intrigue_scheming.2001.a: "\"\"Кажіть, що робити\"\"."
   intrigue_scheming.2001.b: "Було б наївно довіряти людині з такими навичками."
-
-# Sneaky person seeks you out (might be an agent), by Linnéa Thimrén
+  #Sneaky person seeks you out (might be an agent), by Linnéa Thimrén
   intrigue_scheming.2101.t: "Цікава пропозиція"
   intrigue_scheming.2101.desc: "«[ROOT.Char.GetLadyLord], мені стало відомо, що вам може стати в нагоді людина моїх... талантів», — до мене з усмішкою підходить [sneaky_person.GetTitledFirstName], [Select_CString(sneaky_person.IsFemale, 'моя нова знайома', 'мій новий знайомий' )].\n\n«Якщо мої послуги можуть вам знадобитися, будь ласка, не соромтеся звертатися»."
   intrigue_scheming.2101.a: "Мабуть, ви мені знадобитеся."
   intrigue_scheming.2101.b: "Ви не підходите для роботи."
-
   intrigue_scheming.2102.t: "[Select_CString(sneaky_person.IsFemale, 'Вірна', 'Вірний' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_person') )]"
   intrigue_scheming.2102.desc: "З напівтемряви коридору я спостерігаю, як [Select_CString(sneaky_person.IsFemale, 'моя нова', 'мій новий' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_person') )] [sneaky_person.GetTitledFirstName] зникає у сутінках.\n\nЩе один вечір, ще одна таємна зустріч — моя підозра щодо цієї людини тільки зростає."
   intrigue_scheming.2102.a: "[sneaky_person.GetFirstNameNoTooltip], що ви задумали?!"
   intrigue_scheming.2102.a.tt: "[sneaky_person.GetSheHe|U] не помічає вашого розслідування"
   intrigue_scheming.2102.b.tt: "[sneaky_person.GetSheHe|U] розуміє, що ви розпочали розслідування"
   intrigue_scheming.2102.b: "Це дурниця, мабуть."
-
   intrigue_scheming.2103.desc_not_noticed: "«[sneaky_person.GetHerHis|U] роботодавець — [sneaky_person_scheme_owner.GetTitledFirstName]?!»\n\nУ кімнатах, де проживає, мені вдалося знайти листа, зміст якого не викликає сумнівів. [sneaky_person.GetSheHe|U] [Select_CString(sneaky_person.IsFemale, 'плела', 'плів' )] змову проти мене, вдаючи, ніби [Select_CString(sneaky_person.IsFemale, 'вона — вірна', 'він — вірний' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_person') )]."
   intrigue_scheming.2103.desc_noticed: "«[ROOT.Char.GetLadyLord], що я можу зробити для вас?»\n\nНезважаючи на мої зусилля, мені не вдалося знайти жодних свідчень, що [sneaky_person.GetTitledFirstName] займається чимось лихим. Якщо не рахувати [sneaky_person.GetHerHis] дивних нічних звичок."
   intrigue_scheming.2103.a: "У в'язницю [sneaky_person.GetHerHis]!"
   intrigue_scheming.2103.b: "Викинути [sneaky_person.GetHerHis] геть!"
   intrigue_scheming.2103.c: "Думаю, у всіх свої #EMP потреби#!."
-
-# Servants and Masters, by Petter Vilberg
+  #Servants and Masters, by Petter Vilberg
   intrigue_scheming.3001.t: "Слуги та господарі"
   intrigue_scheming.3001.desc: "[hooked_courtier.GetTitledFirstName], [new_target.Custom2('RelationToMe', SCOPE.sC('hooked_courtier'))] персонажа [new_target.GetTitledFirstName], повністю в моїх руках. Але обравши правильну стратегію, я можу домогтися ще більшої влади.\n\nМожливо, [hooked_courtier.GetFirstName] може зміцнити мій вплив, під який потрапить [new_target.GetTitleTierName]?"
   intrigue_scheming.3001.a: "[hooked_courtier.GetFirstNameNoTooltip] стане моїм особистим шпигуном!"
@@ -115,37 +103,26 @@
   intrigue_scheming.3001.d.success: "Моя репутація випереджає мене"
   intrigue_scheming.3001.d.failure: "Порожні погрози"
   intrigue_scheming.3001.z: "Поширіть чутки, що люди мене бояться."
-
   intrigue_scheming.3003.desc: "[hooked_courtier.GetTitledFirstName] чудово [Select_CString(hooked_courtier.IsFemale, 'зробила', 'зробив' )] свою роботу! Я знаю, який секрет приховує [new_target.GetFirstNameNoTooltip], і [hooked_courtier.GetTitledFirstName] більше мені нічого не [Select_CString(hooked_courtier.IsFemale, 'винна', 'винен' )]."
   intrigue_scheming.3003.a: "Все не так погано, як ви думали, так?"
   intrigue_scheming.3003.b: "Що ж до шантажу..."
-
   intrigue_scheming.3004.desc: "[hooked_courtier.GetTitledFirstName] не [Select_CString(hooked_courtier.IsFemale, 'змогла', 'зміг' )] знайти докази, що [new_target.GetTitledFirstName] займається темними справами. І незважаючи на це, [Select_CString(hooked_courtier.IsFemale, 'ця ідіотка', 'цей ідіот' )] наполягає, що завдяки [hooked_courtier.GetHerHis] зусиллям [hooked_courtier.GetHerHis] борг щодо мене виплачений!"
   intrigue_scheming.3004.a: "Невже моя репутація не така грізна, як мені здавалося?"
-
   intrigue_scheming.3013.desc: "[hooked_courtier.GetTitledFirstName] не [Select_CString(hooked_courtier.IsFemale, 'змогла', 'зміг' )] знайти докази, що [new_target.GetTitledFirstName] займається темними справами. Добре, що у мене була готова власна історія.\n\nРаптово [new_target.GetFirstName] [Select_CString(new_target.IsFemale, 'опинилася', 'опинився' )] об'єктом мерзенних чуток, а в мене знайшли докази, що підтверджують їх."
   intrigue_scheming.3013.a: "[ROOT.Char.GetFaith.TricksterGodName] допомагає тим, хто допомагає собі сам."
-
   intrigue_scheming.3014.desc: "[hooked_courtier.GetTitledFirstName] не [Select_CString(hooked_courtier.IsFemale, 'змогла', 'зміг' )] знайти докази, що [new_target.GetTitledFirstName] займається неприємними справами. На жаль, запущені мною чутки залишилися поза увагою: ніхто не вірить гидотам, у яких [Select_CString(new_target.IsFemale, 'повинна була бути звинувачена', 'повинен був бути звинувачений' )] [new_target.GetTitleTierName].\n\nГірше того, було доведено мою причетність до поширення хибних чуток!"
   intrigue_scheming.3014.a: "Чи багато значить невелика невинна брехня серед друзів?"
-
   intrigue_scheming.3021.desc: "Здається, [new_target.Custom('ResidenceBuilding')] тремтить від криків. Слуги втекли, та [new_target.GetTitledFirstName] [Select_CString(new_target.IsFemale, 'залишилася', 'залишився' )] стояти, дивлячись, як [hooked_courtier.GetTitledFirstName] холодіє в [new_target.GetHerHis] покоях, і [new_target.GetHerHis] ж ніж валяється поруч.\n\n«Я [Select_CString(new_target.IsFemale, 'була сама', 'був сам' )] у саду, ви повинні повірити мені! - намагається [new_target.GetSheHe] переконати натовп придворних, що зібрався. Але хто повірить настільки незграбним виправданням?"
   intrigue_scheming.3021.a: "Мені подобається дарувати людям подарунки!"
-
   intrigue_scheming.3022.desc: "Моя спроба зробити так, щоб [Select_CString(new_target.IsFemale, 'винною здавалася', 'винним здавався' )] [new_target.GetTitledFirstName], призвела до катастрофи! [hooked_courtier.GetFirstName] ще [Select_CString(hooked_courtier.IsFemale, 'дихала', 'дихав' )], коли слуги знайшли [hooked_courtier.GetHerHis] [Select_CString(hooked_courtier.IsFemale, 'стікаючою', 'стікаючим' )] кров'ю у покоях, які займає [new_target.GetTitleTierName].\n\nКоли [Select_CString(new_target.IsFemale, 'прийшла', 'прийшов' )] [new_target.GetFirstName], [hooked_courtier.GetFirstName] з останніх сил [Select_CString(hooked_courtier.IsFemale, 'видихнула', 'видихнув' )]: «[ROOT.Char.GetTitledFirstName]...»"
   intrigue_scheming.3022.a: "Як же мені хочеться вбити [hooked_courtier.GetHerHis] ще раз!"
-
   intrigue_scheming.3023.desc: "Все мало бути чудово, але... [hooked_courtier.GetTitledFirstName] [Select_CString(hooked_courtier.IsFemale, 'повинна була', 'повинен був' )] лежати у покоях, де живе [new_target.GetTitleTierName], [Select_CString(hooked_courtier.IsFemale, 'вбита', 'вбитий' )] ножем, яким володіє [new_target.GetTitleTierName], в той час коли [new_target.GetTitleTierName] залишається без алібі.\n\nНажаль! З півдюжини слуг підтвердили, що [new_target.GetTitledFirstName] в той день [Select_CString(new_target.IsFemale, 'каталася', 'катався' )] верхи, а тому не може бути вбивцею."
   intrigue_scheming.3023.a: "Порожня трата такої гарної жертви!"
-
   intrigue_scheming.3031.desc: "Мені йде на користь репутація людини, яка досягає бажаного будь-якими засобами. Багато васалів і слуг стелиться переді мною, і переконати інших наслідувати їх приклад не так вже й складно.\n\nВистачило того, що одного вечора [hooked_courtier.GetTitledFirstName] [Select_CString(hooked_courtier.IsFemale, 'підійшла', 'підійшов' )], коли [new_target.GetTitledFirstName] [Select_CString(new_target.IsFemale, 'була сама', 'бул сам' )], і [Select_CString(hooked_courtier.IsFemale, 'передала', 'передав' )] лист із моєю печаткою. [new_target.GetTitleTierName] тепер розуміє, що не вислизне від мене."
   intrigue_scheming.3031.a: "Прикро, що все так швидко пройшло. Мені подобається переконувати людей..."
-
   intrigue_scheming.3032.desc: "Одного вечора [hooked_courtier.GetTitledFirstName] [Select_CString(hooked_courtier.IsFemale, 'підійшла', 'підійшов' )], коли [new_target.GetTitledFirstName] [Select_CString(new_target.IsFemale, 'була сама', 'був сам' )], і [Select_CString(hooked_courtier.IsFemale, 'передала', 'передав' )] лист з моєю печаткою, тим самим показавши, наскільки далеко тягнеться мій вплив. На жаль, ефект вийшов дещо іншим. Тепер [new_target.GetTitleTierName] розповідає всім підряд про мої «порожні погрози»!"
   intrigue_scheming.3032.a: "Я покажу вам, наскільки вони порожні..."
-
-
-# The Weight of Influence, by Petter Vilberg
+  #The Weight of Influence, by Petter Vilberg
   intrigue_scheming.3041.t: "Тягар впливу"
   intrigue_scheming.3041.desc: "Мені подобається, з яким ентузіазмом [vassal_target.GetTitledFirstName] виконує мої доручення, але ось [vassal_target.GetHerHis] [liege_target.Custom2('RelationToMe', SCOPE.sC('liege_target'))] [liege_target.GetTitledFirstName] залишається поза моєю досяжністю. Втім, [vassal_target.GetFirstName] і допоможе мені це виправити."
   intrigue_scheming.3041.a: "Сюзерен відповідає за вчинки своїх васалів..."
@@ -156,24 +133,18 @@
   intrigue_scheming.3041.b.success: "Рішучі дії завжди спрацьовують!"
   intrigue_scheming.3041.b.failure: "[liege_target.GetFirstNameNoTooltip] не боїться"
   intrigue_scheming.3041.c: "Мені не потрібна допомога для досягнення моїх цілей."
-
   intrigue_scheming.3042.desc: "[liege_target.GetTitledFirstName] перебуває в такому шоці, наче сам той факт, що [vassal_target.GetTitledFirstName] [Select_CString(vassal_target.IsFemale, 'зрадила', 'зрадив' )] [Select_CString(liege_target.IsFemale, 'її', 'його' )], став #EMP  цілковитою#! несподіванкою: «Ви підтримуєте вимоги, які висуває [Select_CString(ROOT.char.IsFemale, 'ця', 'цей' )]... [Select_CString(ROOT.char.IsFemale, 'Ця', 'Цей' )] [ROOT.Char.Custom('InsultNoun')]?!»\n\n[vassal_target.GetFirstName] підігрує мені суворим кивком, як і планувалося. Я з усмішкою дивлюся на мого майбутнього пішака: «Не сумнівайтеся, мене підтримує не тільки [vassal_target.GetSheHe]»."
   intrigue_scheming.3042.a: "Отже, я хочу, щоб ви..."
-
   intrigue_scheming.3043.desc: "«Не думайте, що мене так легко примусити! - заявляє [liege_target.GetTitledFirstName]. [vassal_target.GetTitledFirstName] на [liege_target.GetHerHis] фоні немов зіщулюється, втрачаючи впевненість, з якою раніше [Select_CString(vassal_target.IsFemale, 'підтримувала', 'підтримував' )] мене.\n\n[liege_target.GetTitleTierName] розбиває мої останні надії: «Мої васали знають своє місце». [vassal_target.GetFirstName] своїм мовчанням підтверджує це."
   intrigue_scheming.3043.a: "Схоже, я себе [Select_CString(ROOT.char.IsFemale, 'переоцінила', 'переоцінив' )]..."
-
   intrigue_scheming.3051.desc: "Згідно з моїм планом, [liege_target.GetTitledFirstName] [Select_CString(liege_target.IsFemale, 'опинилася', 'опинився' )] у підземеллі на запрошення, яке [Select_CString(vassal_target.IsFemale, 'відправила', 'відправив' )] [vassal_target.GetTitleTierName]. І там [Select_CString(ROOT.char.IsFemale, 'чекала я, готова', 'чекав я, готовий' )] катувати [Select_CString(vassal_target.IsFemale, 'хазяйку', 'господаря' )] підземелля, щоб показати свою владу. Але [liege_target.GetFirstName] [Select_CString(liege_target.IsFemale, 'відреагувала', 'відреагував' )] не так, як очікувалося.\n\n«Виглядає так, наче ви ніколи цього не робили!»\nНа мій подив, [liege_target.GetTitledFirstName] [Select_CString(liege_target.IsFemale, 'взяла', 'взяв' )] все в свої руки! [vassal_target.GetFirstName] [Select_CString(vassal_target.IsFemale, 'протягнула', 'протягнув' )] до світанку. Але не довше."
   intrigue_scheming.3051.a: "Жахливе видовище!"
   intrigue_scheming.3051.b: "Мені багато чого вдалося навчитися!"
-
   intrigue_scheming.3052.desc: "Згідно з моїм планом, [liege_target.GetTitledFirstName] [Select_CString(liege_target.IsFemale, 'опинилась', 'опинився' )] у підземеллі на запрошення, яке [Select_CString(vassal_target.IsFemale, 'відправила', 'відправив' )] [vassal_target.GetTitleTierName]. І там [Select_CString(ROOT.char.IsFemale, 'чекала я, готова', 'чекав я, готовий' )] показати що [Select_CString(vassal_target.IsFemale, 'хазяйка', 'господар' )] підземелля — [Select_CString(vassal_target.IsFemale, 'бранка', 'бранець' )] у власному будинку.\n\nМожливо, радість від того, що [vassal_target.GetTitleTierName] в моїх руках, надто переповнювала мене, проте мені вдалося перетворити це на натяк, якої саме покірності я чекаю."
   intrigue_scheming.3052.a: "Навіть крізь ті крики, що [Select_CString(vassal_target.IsFemale, 'видавала', 'видавав' )] [vassal_target.GetFirstNameNoTooltip], [liege_target.GetFirstNameNoTooltip] [Select_CString(liege_target.IsFemale, 'вловила', 'вловив' )] основне посилання."
-
   intrigue_scheming.3053.desc: "Згідно з моїм планом, [liege_target.GetTitledFirstName] [Select_CString(liege_target.IsFemale, 'опинилась', 'опинився' )] у підземеллі на запрошення, яке [Select_CString(vassal_target.IsFemale, 'відправила', 'відправив' )] [vassal_target.GetTitleTierName]. І там [Select_CString(ROOT.char.IsFemale, 'чекала я, готова', 'чекав я, готовий' )] показати що [Select_CString(vassal_target.IsFemale, 'хазяйка', 'гозподар' )] підземелля — [Select_CString(vassal_target.IsFemale, 'бранка', 'бранець' )] у власному домі.\n\n[liege_target.GetFirstName] не так [Select_CString(liege_target.IsFemale, 'злякалася', 'злякався' )] моїх тортур, як мені хотілося б: «Такі виродки як ви, [ROOT.Char.GetTitledFirstName], не злякають мене!»"
   intrigue_scheming.3053.a: "Після цього мене не тішить навіть те, як [vassal_target.GetFirstNameNoTooltip] просить пощади."
-
-# Fabricate Bastardy, by Petter Vilberg
+  #Fabricate Bastardy, by Petter Vilberg
   intrigue_scheming.3061.t: "Заплутане походження"
   intrigue_scheming.3061.desc: "Протягом багатьох днів мене займав родовід династії [target.GetDynasty.GetBaseName], і тепер я знаю напевно: [target.GetTitledFirstName] нізащо не зможе довести, що [target.GetHerHis] [target.Custom2('RelationToMe', SCOPE.sC('heir'))] [heir.GetTitledFirstName] — [target.GetHerHis] по крові!\n\nНестачу свідчень завжди можна заповнити підробкою... Настав час мені написати нову правду про те, від кого веде свій рід [heir.GetFirstNamePossessive]!"
   intrigue_scheming.3061.a: "[new_father.GetTitledFirstNameNoTooltip] чудово підійде на роль батька."
@@ -185,29 +156,22 @@
   intrigue_scheming.3061.failure: "Приниження родоводу"
   intrigue_scheming.3061.a.success_tt: "Я зможу довести, що [heir.GetTitledFirstNameNoTooltip] — бастард персонажа [new_father.GetTitledFirstNameNoTooltip]"
   intrigue_scheming.3061.b.success_tt: "Я зможу довести, що [heir.GetTitledFirstNameNoTooltip] — бастард персонажа [commoner_target.GetTitledFirstNameNoTooltip]"
-
   intrigue_scheming.3062.opening: "Поповзли чутки, як мені й хотілось. Ніхто нічого не може сказати з упевненістю, але в тому й задум!"
   intrigue_scheming.3062.ending: "Мої агенти повідомляють, що [target.GetTitledFirstName] веде себе дивно завжди, коли [heir.GetTitledFirstName] з'являється в [target.GetHerHis] полі зору, і з недовірою, коли наближається [new_father.GetTitledFirstName]."
   intrigue_scheming.3062.a: "Я всім покажу мої свідчення!"
   intrigue_scheming.3062.b: "Ще не час."
   intrigue_scheming.3062.b.tt: "#F Я поки не розкриватиму цей «секрет»#!"
-
   intrigue_scheming.3063.opening: "«Ха, ці чутки безглузді! [ROOT.Char.GetTitledFirstName] поширює мерзенну брехню».\n\nМої агенти повідомляють, що [new_father.GetTitledFirstName] відкидає будь-які підозри в тому, що [heir.GetTitledFirstName] — [target.GetHerHis] [heir.Custom('GetDaughterSon')]."
   intrigue_scheming.3063.ending: "\n\n[target.GetTitledFirstName] теж не вірить, що в моїх чутках є хоч крихта правди, і звинувачує мене в ганебній брехні та неповазі до природного обігу речей."
   intrigue_scheming.3063.a: "Протестую! Мені зовсім не соромно!"
-
   intrigue_scheming.3064.ending: "Мої агенти повідомляють, що [target.GetTitledFirstName] мучиться сумнівами і сповнюється недовірою щоразу, коли [mother.GetTitledFirstName], [heir.GetTitledFirstName] і [commoner_target.GetTitledFirstName] трапляються [Select_CString(target.IsFemale, 'їй', 'йому' )] на очі."
-
   intrigue_scheming.3065.opening: "«Наче я дозволю такому простолюдину, як [commoner_target.GetTitledFirstName], доторкнутися до мене».\n\nМої агенти повідомляють, що [mother.GetTitledFirstName], ні секунди не вагаючись, відкинула всі чутки, що я поширюю, щоб нашкодити [mother.GetHerHim]."
-
   intrigue_scheming.3066.desc: "Побачення, подорожі, можливості таємних зустрічей... Все змішалося! Я запускаю все більше чуток, і ось [target.GetTitledFirstName] вже має легкі сумніви в тому, чи є [heir.GetTitledFirstName] його дитиною.\n\nОдного разу хтось прийде до висновку, що я є ймовірним кандидатом на батьківство... Це лише питання часу..."
   intrigue_scheming.3066.a: "Іди до татка, [heir.GetFirstNameNoTooltip]!"
   intrigue_scheming.3066.b: "На все свій час. На все свій час."
-
   intrigue_scheming.3067.opening: "Після всіх запущених мною чуток я не чекаю, [mother.GetTitledFirstName] приходить до мене особисто, і це дуже несподівано.\n\n«Як ви смієте говорити ці мерзоти про мене і [Select_CString(heir.IsFemale, 'мою дочку', 'мого сина' )]?! — слова образливі, але ляпас, який я відразу отримую, ранить набагато болючіше. - Інших дотиків ви від мене не дочекаєтеся!»"
   intrigue_scheming.3067.a: "Схоже, я помиляюсь у своїх супротивниках..."
-
-# Interrogation, by Sean Hughes
+  #Interrogation, by Sean Hughes
   intrigue_scheming.4021.t: "Допит"
   intrigue_scheming.4021.desc: "Виходячи з отриманої інформації, я підозрюю, що [prisoner.GetTitledFirstName] знає секрет, невідомий мені. І оскільки зараз [prisoner.GetTitledFirstName] у моїй в'язниці, у мене є чудова можливість дізнатися цей секрет, використовуючи будь-які методи..."
   intrigue_scheming.4021.a: "Запропонувати [prisoner.GetHerHim] свободу в обмін на інформацію."
@@ -221,8 +185,7 @@
   intrigue_scheming.4021.c.failure: "Схоже, [prisoner.GetTitledFirstName] не дуже турбується через мої загрози"
   intrigue_scheming.4021.success: "Я відкриваю [secret|El], який знає [prisoner.GetTitledFirstName]"
   intrigue_scheming.4021.failure: "Я не дізнаюся нічого важливого"
-
-# Passing Suspicion, by Sean Hughes
+  #Passing Suspicion, by Sean Hughes
   intrigue_scheming.4040.t: "Підозри, що минають"
   intrigue_scheming.4040.desc: "Всім добре відомо, що придворні плетуть інтриги й будують змови, і я можу скористатися цим у своїх цілях..\n\nЯкщо мені вдасться посіяти в цих людях підозру один до одного й відвернути їх внутрішніми чварами, то у придворних не буде ні часу, ні ресурсів, щоб плести інтриги проти мене!"
   intrigue_scheming.4040.a: "Я негайно почну розповсюджувати чутки!"
@@ -234,8 +197,7 @@
   intrigue_scheming.4040.b: "Поки серед придворних будуть мої шпигуни, я в безпеці."
   intrigue_scheming.4040.c.dread: "Мої придворні вже знають, що не можна плести проти мене інтриги!"
   intrigue_scheming.4040.c.dread.tt: "Цей варіант доступний через те, що ви вселяєте найсильніший [Concept( 'dread', 'жах' )|E]."
-
-# Information Brokering, by Sean Hughes
+  #Information Brokering, by Sean Hughes
   intrigue_scheming.4050.t: "Торгівля інформацією"
   intrigue_scheming.4050.desc.start: "Думаю, [buyer.GetTitledFirstName] зацікавиться моїми відомостями, згідно з якими"
   intrigue_scheming.4050.desc.lover: "[buyer.GetHerHis] [buyer.Custom2('RelationToMeShort', SCOPE.sC('owner'))] [owner.GetTitledFirstName] і [target.GetTitledFirstName] сплять разом..."
@@ -255,7 +217,6 @@
   intrigue_scheming.4050.d: "Знання – сила, і я не відмовлюся від нього так просто."
   intrigue_scheming.4050.success: "[buyer.GetTitledFirstName] приймає вашу пропозицію"
   intrigue_scheming.4050.failure: "[buyer.GetTitledFirstName] відхиляє вашу пропозицію"
-
   intrigue_scheming.4051.desc.start: "[seller.GetTitledFirstName] [Select_CString(seller.IsFemale, 'звернулась', 'звернувся' )] до мене, сказавши, що [Select_CString(seller.IsFemale, 'їй', 'йому' )] вдалося виявити,"
   intrigue_scheming.4051.desc.lover: "що хтось із моїх близьких родичів має позашлюбний зв'язок."
   intrigue_scheming.4051.desc.bastard: "що законне продовження моєї династії під загрозою, якщо я нічого не вчиню."
@@ -273,13 +234,10 @@
   intrigue_scheming.4051.a.tt: "Ви дізнаєтесь у подробицях про цей невідомий вам секрет"
   intrigue_scheming.4051.a.opinion: "І справді дуже щедро"
   intrigue_scheming.4051.b: "Під деякі камені краще не заглядати..."
-
   intrigue_scheming.4052.desc: "Відомий мені секрет надто привабливий, щоб його можна було ігнорувати, а тому [buyer.GetTitledFirstName] [Select_CString(buyer.IsFemale, 'погодилася', 'погодився' )] на мою пропозицію. Якщо я продовжу пхати носа в чужі справи, то в майбутньому зможу укласти більше подібних угод..."
   intrigue_scheming.4052.a: "Так багато можливостей!"
-
   intrigue_scheming.4053.desc: "Важко сказати, чи [Select_CString(buyer.IsFemale, 'повірила', 'повірив' )] [buyer.GetTitledFirstName] моїм слівам про те, що у мене є відомості щодо [buyer.GetHerHis] сім'ї. Як би там не було, [buyer.GetSheHe] [Select_CString(buyer.IsFemale, 'відкинула', 'відкинув' )] мої умови - мені довелося піти з порожніми руками."
   intrigue_scheming.4053.a: "Доведеться знайти інше застосування цієї інформації..."
-
   intrigue_scheming.4054.desc.start: "Вивчивши документи, що [Select_CString(seller.IsFemale, 'передала', 'передав' )] мені [seller.GetTitledFirstName], я розумію,"
   intrigue_scheming.4054.desc.lover: "що [Select_CString(owner.IsFemale, 'моя', 'мій' )] [buyer.Custom2('RelationToMeShort', SCOPE.sC('owner'))] [owner.GetTitledFirstName] і [target.GetTitledFirstName] сплять разом!"
   intrigue_scheming.4054.desc.incest: "що [Select_CString(owner.IsFemale, 'моя', 'мій' )] [buyer.Custom2('RelationToMeShort', SCOPE.sC('owner'))] [owner.GetTitledFirstName] і [Select_CString(target.IsFemale, 'моя', 'мій' )] [buyer.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName] перебувають у тілесних стосунках один з одним!"
@@ -294,14 +252,12 @@
   intrigue_scheming.4054.a.incest.accepted: "А що не так?"
   intrigue_scheming.4054.a.murder: "Зрадлива тварюка!"
   intrigue_scheming.4054.a.bastard: "Мене зрадили!"
-
-# Special Chain — Convince Courtier to Share Spy-Secrets
+  #Special Chain — Convince Courtier to Share Spy-Secrets
   intrigue_scheming_special.1001.t: "To Put on an Act"
   intrigue_scheming_special.1001.desc: "Підслуханий шепіт та дрібні деталі довершили головоломку. [Select_CString(courtier_spy.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('courtier_spy'))] [courtier_spy.GetTitledFirstName] куди краще розуміється на мистецтві інтриг, ніж вважають при дворі.\n\nМене неабияк турбує знання, що при дворі є така людина. Але я можу багато чого навчитися, якщо мені вдасться досягти [courtier_spy.GetHerHis] довіри."
   intrigue_scheming_special.1001.a: "Я покажу [courtier_spy.GetHerHim], що ми зліплені з одного тіста!"
   intrigue_scheming_special.1001.b: "Ризик занадто великий, #EMP я#! не можу довіряти #EMP [courtier_spy.GetHerHim]#!."
   intrigue_scheming_special.1001.c: "[courtier_spy.GetSheHe|U] [Select_CString(courtier_spy.IsFemale, 'повинна', 'повинен' )] піти!"
-
   intrigue_scheming_special.1002.desc: "Через багато днів я і [courtier_spy.GetTitledFirstName] нарешті #EMP  випадково#! зіткнулися, коли [courtier_spy.GetSheHe] [Select_CString(courtier_spy.IsFemale, 'була одна', 'був один' )]. «[courtier_spy.GetLadyLord|U] [courtier_spy.GetTitledFirstNameNoTooltip], мені хотілося б...»\n«Якщо, увійшовши до кімнати, ви побачите, як [Select_CString(ROOT.char.IsFemale, 'ваш чоловік', 'ваша дружина' )] кричить на молодого слугу за те, що той упустив тарілку, що ви зробите?»\n\n[courtier_spy.GetSheHe|U] перевіряє мене? Можливо це шанс показати [courtier_spy.GetHerHim], що у нас багато спільного."
   intrigue_scheming_special.1002.a: "Зрозуміло, слуга буде покараний."
   intrigue_scheming_special.1002.b: "Всі роблять помилки, я пробачу слугу."
@@ -311,7 +267,6 @@
   intrigue_scheming_special.1002.f: "Сварка? Я зараз же піду."
   intrigue_scheming_special.1002.g: "Я теж хочу покричати!"
   intrigue_scheming_special.1002.h: "Я попрошу обидві сторони розповісти свою думку."
-
   intrigue_scheming_special.1003.desc_good: "«Гм», — [courtier_spy.GetSheHe] робить невелику паузу, перш ніж продовжити.\n\n"
   intrigue_scheming_special.1003.desc_bad: "«Гм», — [courtier_spy.GetSheHe] робить паузу з таким обличчям, наче [Select_CString(courtier_spy.IsFemale, 'з'їла', 'з'їв' )] щось кисле, а потім продовжує.\n\n"
   intrigue_scheming_special.1003.desc: "«На півдорозі до поля битви, щойно ви стали табором, до вас звертається офіцер із питанням, що робити зі спійманим шпигуном»."
@@ -323,7 +278,6 @@
   intrigue_scheming_special.1003.f: "Я попрошу офіцера розібратися з цим і дати мені спокій."
   intrigue_scheming_special.1003.g: "Шпигун?! Та ми нізащо... Цього не може бути!"
   intrigue_scheming_special.1003.h: "Очевидно, шпигунові доведеться відповісти на деякі запитання. Раніше чи пізніше."
-
   intrigue_scheming_special.1004.desc_good: "[courtier_spy.GetSheHe|U] киває, перш ніж перейти до наступного питання.\n\n"
   intrigue_scheming_special.1004.desc_bad: "[courtier_spy.GetHerHis|U] брови опускаються вниз, а погляд стає холодним.\n\n"
   intrigue_scheming_special.1004.desc: "«Ви прийняли рішення, скажімо, підвищити всі податки у графстві та помічаєте, що один із васалів відкрито обурюється цим рішенням. Що ви зробите?»"
@@ -335,19 +289,16 @@
   intrigue_scheming_special.1004.f: "Я спробую не звертати уваги на образу, не треба влаштовувати сцени."
   intrigue_scheming_special.1004.g: "Ну, я б протистояв їм. Голосно."
   intrigue_scheming_special.1004.h: "Щоб вирішити суперечності, потрібна дискусія."
-
   intrigue_scheming_special.1099.desc_won: "[courtier_spy.GetHerHis|U] обличчя висвітлює напрочуд тепла посмішка: «Схоже, ви людина правильних суджень».\n\n[courtier_spy.GetSheHe|U] [courtier_spy.Custom('quirk_pos_present')], а потім продовжує свій безшумний шлях коридором: «Приєднуйтесь. Нам належить багато про що поговорити»."
   intrigue_scheming_special.1099.desc_lost: "[courtier_spy.GetSheHe|U] хмуриться і відходить назад: «Я буду [Select_CString(courtier_spy.IsFemale, 'вдячна', 'вдячний' )], якщо ви більше ніколи не порушували цю тему».\n\nНе чекаючи моєї відповіді [courtier_spy.GetSheHe] йде коридором, стрімко розчиняючись у тінях."
   intrigue_scheming_special.1099.a: "Я, мабуть, продовжу цю гру, принаймні зараз"
   intrigue_scheming_special.1099.b: "[courtier_spy.GetSheHe|U] та ще загадка."
-
-# Special Chain — Root out secrets at your court, by Linnéa Thimrén
+  #Special Chain — Root out secrets at your court, by Linnéa Thimrén
   intrigue_scheming_special.1301.t: "Тіні, що переслідують"
   intrigue_scheming_special.1301.desc: "Відлуння кроків у віддалених коридорах, папери в моєму кабінеті не на своїх місцях, тінь, побачена краєм ока..."
   intrigue_scheming_special.1301.desc_mentor_or_other: "\n\n«Ви думаєте, за вами хтось стежить?» — [Select_CString(mentor_or_other.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('mentor_or_other'))] [mentor_or_other.GetTitledFirstName], схоже, все ретельно [Select_CString(mentor_or_other.IsFemale, 'обдумала', 'обдумав' )], перш ніж погодитись. «Я #EMP  [Select_CString(mentor_or_other.IsFemale, 'замітила', 'замітив' )]#! дещо підозріле останнім часом»."
   intrigue_scheming_special.1301.a: "Мені треба докопатися до суті!"
   intrigue_scheming_special.1301.b: "Я подбаю про те, щоб мені ніколи більше не доводилося хвилюватися про свою безпеку."
-
   intrigue_scheming_special.1302.desc: "Я чекаю і спостерігаю, сховавшись в одному з найбільш віддалених коридорів, що ведуть до найзатишніших кімнат і до внутрішніх садів.\n\n#EMP  Чи не безглуздо було приходити сюди? Можливо мені#!... Кроки! З тіні коридору нечутно виходить постать.\n\nА що тут робить [sneaky_courtier.GetTitledFirstName]?"
   intrigue_scheming_special.1302.a: "Я негайно поговорю з [Select_CString(sneaky_courtier.IsFemale, 'нею', 'ним' )]!"
   intrigue_scheming_special.1302.a.tt: "Якщо [sneaky_courtier.GetFirstName] бере участь у підступах, ви дізнаєтеся про це\nЯкщо ні, ваша спроба позбавитися шпигуна провалиться"
@@ -356,7 +307,6 @@
   intrigue_scheming_special.1302.b.tt2: "[sneaky_courtier.GetSheHe|U] чує, що ви йдете за [Select_CString(sneaky_courtier.IsFemale, 'нею', 'ним' )]"
   intrigue_scheming_special.1302.c: "Я не викрию себе, [sneaky_courtier.GetSheHe] ні при чому."
   intrigue_scheming_special.1302.c.tt: "Ви продовжите пошуки шпигуна."
-
   intrigue_scheming_special.1303.desc_exposed: "Необхідність у стеженні відпала: тепер усі знають, що [sneaky_courtier.GetTitledFirstName] — шпигун!\n\nСподіваюся, якщо історія повториться, я зможу запідозрити шпигунів ще раніше... Це чесно зароблене знання!"
   intrigue_scheming_special.1303.desc_sneak_win: "Мені вдається йти абсолютно безшумно: [sneaky_courtier.GetTitledFirstName] не помічає, що за [Select_CString(sneaky_courtier.IsFemale, 'нею', 'ним' )] стежать. [sneaky_courtier.GetSheHe|U] поспішно минає один коридор за іншим і через кілька хвилин проходить повз мої покої прямо в сад."
   intrigue_scheming_special.1303.desc_sneak_win_spy: "Мені вдається йти абсолютно безшумно, і коли ми підходимо до моїх покоїв, моє серце починає битися частіше.\n\nНезабаром клацання замка на дверях моїх покоїв луною проноситься коридором."
@@ -366,29 +316,22 @@
   intrigue_scheming_special.1303.c: "Що ж, сьогодні #EMP і справді#! чудова ніч."
   intrigue_scheming_special.1303.c.tt: "Вам вдалося заспокоїти свої підозри, то був цінний урок.\n"
   intrigue_scheming_special.1303.d: "Мені вдалося помітити найперші ознаки!"
-
   intrigue_scheming_special.1304.desc_found: "Передчуття не обдурили мене! Варто мені знову зникнути в тіні, як [sneaky_courtier.GetTitledFirstName] [Select_CString(sneaky_courtier.IsFemale, 'пройшла', 'пройшов' )] коридором прямісінько до моїх покоїв.\n\nКлацнув замок, і слідом за ним пролунав зойк: моя рука опустилася на плече доглядача."
   intrigue_scheming_special.1304.desc_not_found: "Настає глибока ніч, але коридор, як і раніше, тихий і порожній. Жодних шепотів, жодних лякаючих тіней.\n\nМожливо, все-таки слід з'ясувати, куди йде [sneaky_courtier.GetTitledFirstName]?"
-  intrigue_scheming_special.1304.a: """Думаю, вам варто піти зі мною""."
+  intrigue_scheming_special.1304.a: "\"\"Думаю, вам варто піти зі мною\"\"."
   intrigue_scheming_special.1304.b: "Можливо ніхто мені не загрожує?"
-
   intrigue_scheming_special.1350.desc: "Тепер, коли [sneaky_courtier.GetTitledFirstName] [Select_CString(sneaky_courtier.IsFemale, 'померла', 'помер' )], я ніколи не дізнаюся, [Select_CString(sneaky_courtier.IsFemale, 'задумувала', 'задумував' )] [sneaky_courtier.GetSheHe]щось проти мене чи ні... Але моє розслідування багато чого мене навчило. Наступного разу я не блукатиму наосліп!"
   intrigue_scheming_special.1350.a: "Чи була [sneaky_courtier.GetHerHis] смерть вдалим збігом обставин чи просто збігом?"
-
   intrigue_scheming_special.1398.desc: "«На чому ґрунтуються подібні звинувачення?! - запитує мене [sneaky_courtier.GetTitledFirstName], в [sneaky_courtier.GetHerHis] голосі чується [sneaky_courtier.Custom('GeneralTemperament')]. — Я просто [Select_CString(sneaky_courtier.IsFemale, 'йшла', 'йшов' )] у сад, щоб подихати повітрям».\n\nТепер, бачачи біль у [sneaky_courtier.GetHerHis] очах, я не уявляю, як мені на думку прийшло підозрювати [sneaky_courtier.GetHerHis] у шпигунстві."
   intrigue_scheming_special.1398.a: "Сподіваюся, [sneaky_courtier.GetSheHe] зможе мені пробачити."
-
   intrigue_scheming_special.1399.desc: "Я кладу руку [sneaky_courtier.GetHerHim] на плече, і [sneaky_courtier.GetTitledFirstName] різко обертається. [Select_CString(sneaky_courtier.IsFemale, 'Спіймана', 'Спійманий' )] на місці злочину, [sneaky_courtier.GetSheHe] навіть не намагається захищатися.\n\nУся ця історія дала мені важливий урок про довіру і пильність, а моя проникливість стала кращою!"
-
-# An Anonymous Informant by Chad Uhl
+  #An Anonymous Informant by Chad Uhl
   realm_has_more_than_2_siegeable_holdings_trigger_desc: "Two or more of the enemy's holdings can be sieged"
   realm_has_more_than_2_siegeable_holdings_trigger_desc_not: "Fewer than 2 of the enemy's holdings can be sieged"
-
   intrigue_scheming.1801.t: "An Anonymous Informant"
-  intrigue_scheming.1801.desc: "My [spymaster.GetCouncilTitle] [spymaster.GetFirstName] rushes into the room and hands me an anonymous letter [spymaster.GetSheHe] has just received. It appears we have a unique opportunity to acquire information about [enemy.GetTitledFirstNamePossessive] defense strategies.\n\nThe letter reads:\n\nIf you desire information about [enemy.GetFirstNamePossessiveNoTooltip] defenses, have your [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip] meet me in [meeting_place.GetName] within a fortnight. Bring plenty of gold."""""
+  intrigue_scheming.1801.desc: "My [spymaster.GetCouncilTitle] [spymaster.GetFirstName] rushes into the room and hands me an anonymous letter [spymaster.GetSheHe] has just received. It appears we have a unique opportunity to acquire information about [enemy.GetTitledFirstNamePossessive] defense strategies.\n\nThe letter reads:\n\nIf you desire information about [enemy.GetFirstNamePossessiveNoTooltip] defenses, have your [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip] meet me in [meeting_place.GetName] within a fortnight. Bring plenty of gold.\"\"\"\""
   intrigue_scheming.1801.a: "I would be a fool not to investigate this."
   intrigue_scheming.1801.b: "This is nothing but empty extortion."
-
   intrigue_scheming.1802.intro_desc: "[spymaster.GetFirstName] has returned from meeting with the anonymous informant. With a grave look on [spymaster.GetHerHis] face, [spymaster.GetSheHe] spreads out a sheaf of parchment inscribed with what appear to be my enemy's defense tactics."
   intrigue_scheming.1802.g_high_skill_desc: "$intrigue_scheming.1802.intro_desc$\n\nAs far as I can tell, these schematics for [enemy.GetFirstNamePossessive] defense plans seem as genuine as they could be."
   intrigue_scheming.1802.g_medium_skill_desc: "$intrigue_scheming.1802.intro_desc$\n\nThe schematics drawn upon the parchment make sense, but there are a few outliers that don't fit in with our existing knowledge of [enemy.GetFirstNamePossessive] typical strategy."
@@ -396,13 +339,10 @@
   intrigue_scheming.1802.fallback_desc: "$intrigue_scheming.1802.intro_desc$\n\nIt is nearly impossible to tell whether these plans are genuine or not."
   intrigue_scheming.1802.a: "Act on the information."
   intrigue_scheming.1802.b: "Disregard information."
-
   intrigue_scheming.1803.f_high_skill_desc: "$intrigue_scheming.1802.intro_desc$\n\nAs I look over the document, I find far too many glaring errors in these plans for them to be genuine. I've been had!"
   intrigue_scheming.1803.f_medium_skill_desc: "$intrigue_scheming.1802.intro_desc$\n\nSome of the details described by the plans make sense, but many of them do not follow with what we know of [enemy.GetFirstNamePossessive] typical defense strategy."
-
   intrigue_scheming.1803.a: "Act on the information."
   intrigue_scheming.1803.b: "Disregard information."
-
   intrigue_scheming.1804.genuine_info_desc: "Word has just returned from my forces laying siege to the [barony.GetName] in my war against [enemy.GetTitledFirstName]. They report the information we received from the anonymous informant to be genuine!\n\nWith this inside knowledge of [enemy.GetFirstNamePossessiveNoTooltip] defense tactics, they were able to take the [enemy.Custom('FortifiedBuilding')] in record time. Victory seems all but assured!"
   intrigue_scheming.1804.fake_info_desc: "Word has just returned from my forces laying siege to the [barony.GetName] in my war against [enemy.GetTitledFirstName]. They report the information we received from the anonymous informant to be false!\n\nThey were able to take the [enemy.Custom('FortifiedBuilding')] nevertheless, but the road ahead will be challenging."
   intrigue_scheming.1804.rejected_fake_info_desc: "Word has just returned from my forces laying siege to the [barony.GetName] in my war against [enemy.GetTitledFirstName]. They report the information we received from the anonymous informant to be false!\n\nThank [ROOT.Char.GetFaith.HighGodName] I did not choose to act on those fraudulent documents!"

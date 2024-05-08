@@ -77,6 +77,7 @@
   venomous_animal_modifier: "Отруйна зустріч"
   studied_venomous_animal_modifier: "Вивчення отруйної істоти"
   has_plush_carpet_modifier: "Розкішний килим із далеких країв"
+  persian_has_plush_carpet_modifier: "Plush and Commonplace Carpet"
   suspicious_of_carpet_modifier: "Надзвичайна пильність"
   focused_reading_modifier: "Зосереджене читання"
   exotic_animals_modifier: "Екзотична тварина"
@@ -85,11 +86,9 @@
   seeing_dead_people_modifier_desc: "Цьому персонажу ввижаються давно померлі люди"
   focused_on_mystical_animal_modifier: "Зосередженість на полюванні"
   focused_on_mystical_animal_modifier_desc: "Розум цього персонажа зайнятий виключно полюванням"
-
   the_great_khan_modifier: "Великий хан"
   the_great_khan_modifier_desc: "Цього персонажа проголосили великим ханом, законним наступником хана ханів."
   trickster_modifier: "Трикстер"
-
   alluring_confidence: "Упевненість, що манить"
   confident_diplomat: "Впевнений дипломат"
   confident_strategist: "Впевнений стратег"
@@ -153,7 +152,6 @@
   football_cup: "Football Cup"
   participation_trophy: "Participation Trophy"
   perfume_bottle: "[ROOT.Char.GetFirstNamePossessive] Perfume"
-
   crushing_charge_modifier: "Crushing Charge"
   church_burner_modifier: "House of Worship Burner"
   war_guilt_modifier: "War Guilt"
@@ -166,7 +164,6 @@
   ghost_writer_modifier_desc: "This character has someone writing impressive speeches for them..."
   playing_with_miniatures: "Playing with Miniatures"
   playing_with_miniatures_desc: "This character is distractedly dreaming of thin paints"
-
   artifact_3000_reusing_artifact_weapon_modifier: "Reusing Metals"
   artifact_3000_reusing_artifact_weapon_modifier_desc: "This character has melted a previous artifact and kept the raw materials. They might come in handy for a new weapon or armor"
   artifact_3000_reusing_artifact_wood_modifier: "Reusing Wood"
@@ -209,25 +206,27 @@
   artifact_duel_weapon_2_modifier_desc: "The number of enemies defeated by this weapon in duels has attracted some attention"
   artifact_duel_weapon_3_modifier_desc: "The impressive tally of foes defeated by this weapon in duels has gained it a reputation"
   artifact_duel_weapon_4_modifier_desc: "So many duels have been won by this weapon that its fame shall endure the test of time"
-
   dying_of_thirst_modifier: "Dying of Thirst"
   dying_of_thirst_modifier_desc: "This is struggling through a desert, in more ways than one."
-
   tomb_robber_modifier: "Tomb Robber"
   tomb_robber_modifier_desc: "This character has been known to disrespect the burial practices of foreign realms"
   respect_for_the_dead_modifier: "Respects the Dead"
   respect_for_the_dead_modifier_desc: "This character is known to respect foreign realms' burial practices"
   phallic_mountain_modifier: "Suggestively Named Mountain"
   phallic_mountain_modifier_desc: "An entire mountain has been nicknamed after this character's phallus. The world wonders about the truth of the rumors."
-
   performance_enhancers_modifier: "Performance-Enhancing Drafts"
   performance_enhancers_modifier_desc: "This character has obtained a liquid that enhances their physical capabilities"
   footballer_modifier: "Gifted Footballer"
   footballer_modifier_desc: "This character recently won a football match"
   footballer_health_modifier: "Active Footballer"
   footballer_health_modifier_desc: "This character participated in a football match, maintaining their fitness and health"
-
   bibliomancy_tense_modifier: "Tense"
   bibliomancy_tense_modifier_desc: "This character has spent too many long hours pouring over a difficult text."
   bibliomancy_fearful_modifier: "Afraid"
   bibliomancy_fearful_modifier_desc: "This character fears the unknown."
+  recent_arson_modifier: "Recent Arson"
+  recent_arson_modifier_desc: "There was recently a drunken arson in this county. It is unlikely to recover for a long time."
+  arson_rebuilding_modifier: "Reconstruction"
+  arson_rebuilding_modifier_desc: "There was recently a drunken arson in this county. Funds have been set aside and taxation suspended to aid in the reconstruction."
+  artifact_physician_aptitude_1_modifier: "Medicine Collection"
+  artifact_physician_aptitude_1_modifier_desc: "This artifact increases the [aptitude|e] of [GetCourtPositionType('court_physician_court_position').GetName()]."

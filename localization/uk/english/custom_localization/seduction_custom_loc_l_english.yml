@@ -5,7 +5,6 @@
   seduction_object_sea_shell: "морська мушля"
   seduction_object_a_sea_shell: "морська мушля"
   seduction_object_sea_shells: "морські мушлі"
-
   #SeductionGiftType
   seduce_gift_tapestry: "династичний гобелен"
   seduce_gift_horse: "породистий кінь"
@@ -32,8 +31,6 @@
   seduce_gift_indefinite_stuffed_animal: "опудала лисиці"
   seduce_gift_indefinite_flower_display: "орнамент з квітів"
   seduce_gift_indefinite_handkerchief: "хустка з гербом дому"
-
-
   book_in_question_religious: "[SCOPE.Custom('RandomReligiousTextName')]"
   book_in_question_entertaining: "[SCOPE.Custom('RandomEntertainmentTextName')]"
   book_in_question_informative: "[SCOPE.Custom('RandomInformativeTextName')]"

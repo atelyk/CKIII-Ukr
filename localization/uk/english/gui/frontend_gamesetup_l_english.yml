@@ -1,19 +1,16 @@
 ﻿l_english:
   SELECT_CHARACTER_ON_MAP: "Виберіть персонажа на мапі."
-  PICK_ANY_CHARACTER: "Грати за будь-якого правителя в [GameSetup.GetSelectedBookmark.GetDate.GetYear]..."
+  PICK_ANY_CHARACTER: "Грай за будь-якого правителя у #light_background;bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#!, або #bold створи власного!#!"
   BOOKMARK_DISABLED: "Ця стартова дата вимкнена"
   BOOKMARK_NOT_PICKED_CHARACTER: "Перед початком гри виберіть персонажа на стартовій даті. Або виберіть будь-кого, натиснувши «Вибрати будь-якого персонажа»."
-  SINGLEPLAYER: "Самітна гра"
-
+  SINGLEPLAYER: "Одиночна гра"
   GAMESETUP_TUTORIAL_PROMPT_HEADER: "Ласкаво просимо до гри Crusader Kings III"
   GAMESETUP_TUTORIAL_PROMPT_INTRO: "Crusader Kings III — масштабна стратегічна гра про династії та придворні інтриги!"
-  GAMESETUP_TUTORIAL_PROMPT_RECOMMEND: "Якщо ви поки що незнайомі зі світом Crusader Kings, радимо пройти навчання."
-  GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER: "У режимі навчання ваш персонаж — $bookmark_rags_to_riches_petty_king_murchad$, правитель Ірландії. Очольте свою сім'ю та династію, знищте ворогів та станьте Королем Ірландії!"
-  GAMESETUP_TUTORIAL_PROMPT_ASK: "Пройти навчання гри як «$bookmark_rags_to_riches_petty_king_murchad$»?"
-
+  GAMESETUP_TUTORIAL_PROMPT_RECOMMEND: "Якщо ти поки що незнайомий зі світом Crusader Kings, радимо пройти навчання."
+  GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER: "У режимі навчання ваш персонаж $bookmark_rags_to_riches_petty_king_murchad$, правитель Ірландії. Очольте свою сім'ю та династію, знищте ворогів та станьте Королем Ірландії!"
+  GAMESETUP_TUTORIAL_PROMPT_ASK: "Пройти навчання гри як $bookmark_rags_to_riches_petty_king_murchad$?"
   GAMESETUP_TUTORIAL_PROMPT_DISABLE: "Можливо пізніше"
   GAMESETUP_TUTORIAL_PROMPT_PLAY_TUTORIAL: "$GAMESETUP_PLAY_TUTORIAL$"
   GAMESETUP_PLAY_TUTORIAL: "Пройти навчання"
   GAMESETUP_GAME_INFO: "Про гру"
-
-  GAMESETUP_TUTORIAL_PROMPT_PLAY_BUTTON_TOOLTIP: "#T Грати за персонажа $bookmark_rags_to_riches_petty_king_murchad$ у 1066 році#!"
+  GAMESETUP_TUTORIAL_PROMPT_PLAY_BUTTON_TOOLTIP: "#T Грай за$bookmark_rags_to_riches_petty_king_murchad$, у 1066#!"

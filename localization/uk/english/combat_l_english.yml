@@ -1,9 +1,9 @@
 ﻿l_english:
   COMBAT_NAME: "Битва в провінції [PROVINCE.GetNameNoTooltip]"
   TOTAL_DEAD_AND_INITIAL_MEN: "$DEAD$"
-  TOTAL_DEAD_AND_INITIAL_MEN_TOOLTIP: "Втрати: $DEAD|V$\nНа початку [soldier|El]: $INITIAL|V$"
-  TOTAL_INITIAL_MEN: "Початкова кількість [soldier|El]"
-  TOTAL_MEN_ALIVE: "Живих [soldier|El]"
+  TOTAL_DEAD_AND_INITIAL_MEN_TOOLTIP: "Втрати: $DEAD|V$\nInitial [soldiers|E]: $INITIAL|V$"
+  TOTAL_INITIAL_MEN: "Початкова кількість [soldiers|E]"
+  TOTAL_MEN_ALIVE: "Живих [soldiers|E]"
   TOTAL_MEN_DEAD: "Втрати"
   COMBAT_BALANCE_ATTACKER_WINNING: "Зараз перемагають нападники"
   COMBAT_BALANCE_DEFENDER_WINNING: "Зараз перемагають оборонці"
@@ -14,24 +14,23 @@
   ATTACKER: "Нападник"
   DEFENDER: "Оборонець"
   ARMY: "Армія"
-  #ATTACKER_LEADER0": Delete this"
-  #DEFENDER_LEADER0": Delete this"
+  #ATTACKER_LEADER: "" Delete this
+  #DEFENDER_LEADER: "" Delete this
   COMBAT_MODIFIER_HEADER: "$TYPE$: $VALUE|2+=%$"
   END_OF_COMBAT: "[battle|E] завершилась"
-  DEPLOYED: "Розгорнуто:"
-  DIED0: Загинуло"
-  DIED: "Died: "
-  # Maneuver Combat Actions
+  DEPLOYED: "Розгорнуто: "
+  DIED: "Загинуло: "
+  #Maneuver Combat Actions
   default_maneuver: "Бойові формування"
   ford_river: "Переправа через річку"
   take_high_ground: "Зайняття панівної висоти"
   sleeping_camp: "Сон в таборі"
   rousing_speech: "Запальна промова"
-  # Skirmish Combat Actions
+  #Skirmish Combat Actions
   default_skirmish: "Перестрілка"
   cover: "В укритті"
   extended_skirmish: "Затяжна перестрілка"
-  # Melee Combat Actions
+  #Melee Combat Actions
   default_melee: "Ближній бій"
   desperate_stand: "Відчайдушна оборона"
   lead_the_charge: "На чолі атаки"
@@ -41,14 +40,14 @@
   character_duel_response: "Виклик прийнятий"
   feigned_retreat: "Притворний відступ"
   feigned_retreat_response: "Вразливий натиск"
-  # Maneuver Combat Actions
+  #Maneuver Combat Actions
   default_retreat: "Відступ"
   default_pursuit: "Переслідування"
   overextension: "Розтягнутий стрій"
   frenzied_pursuit: "Люте переслідування"
   sacrificial_countercharge: "Самогубна атака"
   looting: "Розграбування ворожого табору"
-  # General Combat Actions
+  #General Combat Actions
   frightened: "Переляк"
   COMBAT_PHASE_TOOLTIP: "[CombatWindow.GetPhaseTooltip]\n\n[CombatWindow.GetCombat.PhaseFrozenInfo]"
   COMBAT_EFFECT_DESCRIPTION: "[advantage|E] викликає наступний ефект: $ADVANTAGE|0=+$\n"
@@ -79,7 +78,7 @@
   COMBAT_NO_RETREAT_TOO_EARLY: "Почати організований відступ можна в останній фазі битви (через $DAYS|V$ дн.)"
   COMBAT_NO_RETREAT_PURSUIT: "@warning_icon! У фазі переслідування відступати неможливо"
   COMBAT_NO_RETREAT_LANDLESS: "@warning_icon! Безземельні командири не можуть відступати"
-  # New combat
+  #New combat
   combat_phase_maneuver: "Маневрування"
   combat_phase_main: "Основна"
   combat_phase_pursuit: "Переслідування"
@@ -100,12 +99,12 @@
   COMBAT_PREDICTION_EDGE_BETTER_COMMANDER: "Кращий [army_commander|El]"
   COMBAT_PREDICTION_EDGE_COMMANDER_TRAITS: "[army_commander|E] має більше рис"
   COMBAT_PREDICTION_COMBAT_HEADER: "Можлива битва (через $DURATION$)"
-  COMBAT_PREDICTION_EDGE_SOLDIERS_COUNT: "Більше [soldier|El]"
-  COMBAT_PREDICTION_EDGE_QUALITY_COUNT: "Вища [troop_quality|El]"
-  COMBAT_PREDICTION_EDGE_MAA_COUNTER: "Численніше [men_at_arms_counter|El]"
+  COMBAT_PREDICTION_EDGE_SOLDIERS_COUNT: "Більше [soldiers|E]"
+  COMBAT_PREDICTION_EDGE_QUALITY_COUNT: "Вища [troop_quality|E]"
+  COMBAT_PREDICTION_EDGE_MAA_COUNTER: "Численніше [men_at_arms_counter|E]"
   COMBAT_PREDICTION_DEBUG_SCORE: "#D (DEBUG SCORE: $VALUE$)#!"
   MAA_COUNTERED_IN_COMBAT: "$NAME$: $EFFECTIVENESS|%V0$"
   MAAS_COUNTERED_IN_COMBAT: "[men_at_arms|E] б'ється з меншою ефективністю, оскільки присутній [men_at_arms_counter|El]:"
   COMBAT_ON_MAP_TOOLTIP: "#T [Combat.GetName]#!\n[soldiers|E]: [Combat.GetLeftSide.GetCurrentFightingMen|0] проти [Combat.GetRightSide.GetCurrentFightingMen|0]\n#I Натисніть, щоб подивитися#!"
   COMMANDER_ADVANTAGE_DESC: "#T [advantage|E] командира: $ADVANTAGE$#!\nВміння «Військова справа»: $SKILL|+=$\n$MODIFIERS$"
-  #COMMANDER_ADVANTAGE_ADJUSTED_DESC0": # <DELETE THIS KEY>"
+  #COMMANDER_ADVANTAGE_ADJUSTED_DESC: "" # <DELETE THIS KEY>

@@ -1,5 +1,4 @@
 ﻿l_english:
-
   MAA_SOLDIERS: "[soldiers|E]:"
   MAA_FULL_STENGTH: "Повна сила через $TIME$"
   MAA_AT_FULL_STRENGTH: "У повній силі"
@@ -24,14 +23,13 @@
   MAA_TYPE_NAME: "Тип: [Regiment.GetMAAType.GetBaseTypeName]"
   MAA_INCREASE_SIZE: "Збільшити розмір до [MAAItem.GetNextSize]"
   MAA_DECREASE_SIZE: "Зменшити розмір до [MAAItem.GetPreviousSize]"
-  MAA_INCREASE_SIZE_TOOLTIP: "#T $MAA_INCREASE_SIZE$#!\nВартість: [RegimentType.GetCostString( GetPlayer )]\nВитрати на утримання збільшаться на:\n[RegimentType.GetReinforcementCostString( GetPlayer )]\n[RegimentType.GetFullStrengthMaintenanceCostForPlayerString]"
-  MAA_DECREASE_SIZE_TOOLTIP: "#T $MAA_DECREASE_SIZE$#!\nВитрати на утримання знизяться на:\n[MenAtArmsView.GetReduceSizeBlockers][RegimentType.GetReinforcementCostString( GetPlayer )]\n[RegimentType.GetFullStrengthMaintenanceCostForPlayerString]"
+  MAA_INCREASE_SIZE_TOOLTIP: "#T $MAA_INCREASE_SIZE$#!\nВартість: [MenAtArmsType.GetCostString( GetPlayer )]\nВитрати на утримання збільшаться на:\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]"
+  MAA_DECREASE_SIZE_TOOLTIP: "#T $MAA_DECREASE_SIZE$#!\nВитрати на утримання знизяться на:\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]"
   MAA_DESTROY_TOOLTIP: "#T Розпустити полк#!\n[MenAtArmsView.GetReduceSizeBlockers]$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/міс.\n$MAA_UNRAISED_MAINTENANCE_TEXT$[Regiment.CalcUnraisedCost]/міс."
   MAA_AT_MAX_SIZE: "Досягнуто максимум"
   MAA_SIZE_CHANGE: "@soldier_icon! +[Regiment.GetMAAType.GetStackSize]"
   MAA_REINFORCING: "Поповнюється"
   REGIMENT_CURRENT_SIZE: "Розмір [Regiment.GetMAAChunkCount]/[Regiment.CalcMaxMAAChunkCount]"
-
   #Tooltip
   MAA_TT_BUY_TITLE: "#T Додати солдат ($COUNT$)#!"
   MAA_TT_SELL_TITLE: "#T Прибрати солдат ($COUNT$)#!"

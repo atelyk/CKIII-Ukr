@@ -1,3 +1,6 @@
 ﻿l_english:
-  kochinim_history_loc: "Сформовано з [CULTURE.GetName] та невідомої культури $israelite_group$ [heritage|E] в [DATE.GetYear] року"
-  vlach_history_loc: "Сформовано з [CULTURE.GetName] та невідомої культури $south_slavic_group$ [heritage|E] в [DATE.GetYear] року"
+  kochinim_history_loc: "Утворена з [CULTURE.GetName] та невідомої культури $israelite_group$ [heritage|E] у році [DATE.GetYear]"
+  vlach_history_loc: "Сформована з [CULTURE.GetName] та невідомої культури of $south_slavic_group$ [heritage|E] у році [DATE.GetYear]"
+  bulgarian_history_loc: "Сформовано з [CULTURE.GetName] та невідомої культури $south_slavic_group$ [heritage|E] у році [DATE.GetYear]"
+  scythian_heritage_loc: "Diverged from Scythian in the year [DATE.GetYear]"
+  bactrian_heritage_loc: "Formed from Bactrian and [CULTURE.GetName] in the year [DATE.GetYear]"

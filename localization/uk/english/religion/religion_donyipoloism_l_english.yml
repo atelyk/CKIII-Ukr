@@ -6,7 +6,7 @@
   tani_religion_adherent_plural: "Таністи"
   tani_religion_desc: "Релігія Тані Лоба та їхніх сусідів зосереджена навколо подвійності природних божеств, яким поклоняються як Вищій Істоті. Для Тані цими подвійними божествами є Доньї, богиня сонця, і Поло, бог місяця."
   tani_high_god_name: "Доньї-Поло"
-  tani_high_god_name_2: "$tani_high_god_name$ # Optional translation alt"
+  tani_high_god_name_2: "$tani_high_god_name$ # Optional translation alt" #Optional translation alt
   tani_high_god_name_possessive: "Доньї-Поло"
   tani_high_god_shehe: "Вони"
   tani_high_god_herselfhimself: "Самі"
@@ -24,15 +24,15 @@
   tani_good_god_guumin_soyin: "Гуумін Соїн"
   tani_good_god_abotani: "Аботані"
   tani_house_of_worship: "гангін"
-  tani_house_of_worship_2: "$tani_house_of_worship$ # Optional translation alt"
-  tani_house_of_worship_3: "$tani_house_of_worship$ # Optional translation alt"
+  tani_house_of_worship_2: "$tani_house_of_worship$ # Optional translation alt" #Optional translation alt
+  tani_house_of_worship_3: "$tani_house_of_worship$ # Optional translation alt" #Optional translation alt
   tani_house_of_worship_plural: "гангіни"
-  tani_religious_symbol: "Доньї #lit. Sun, symbolized by a radiant sun"
-  tani_religious_symbol_2: "$tani_religious_symbol$ # Optional translation alt"
-  tani_religious_symbol_3: "$tani_religious_symbol$ # Optional translation alt"
-  tani_religious_text: "Доньї-Поло #Sun-Moon deitiy pair synonymous with the concepts of truth and wisdom"
-  tani_religious_text_2: "$tani_religious_text$ # Optional translation alt"
-  tani_religious_text_3: "$tani_religious_text$ # Optional translation alt"
+  tani_religious_symbol: "Доньї #lit. Sun, symbolized by a radiant sun" #lit. Sun, symbolized by a radiant sun
+  tani_religious_symbol_2: "$tani_religious_symbol$ # Optional translation alt" #Optional translation alt
+  tani_religious_symbol_3: "$tani_religious_symbol$ # Optional translation alt" #Optional translation alt
+  tani_religious_text: "Доньї-Поло #Sun-Moon deitiy pair synonymous with the concepts of truth and wisdom" #Sun-Moon deitiy pair synonymous with the concepts of truth and wisdom
+  tani_religious_text_2: "$tani_religious_text$ # Optional translation alt" #Optional translation alt
+  tani_religious_text_3: "$tani_religious_text$ # Optional translation alt" #Optional translation alt
   tani_religious_head_title: "Абу Мірі"
   tani_religious_head_title_name: "Абу Міріат"
   tani_devotee_male: "оме"
@@ -47,12 +47,11 @@
   tani_bishop: "мірі"
   tani_bishop_plural: "мірі"
   tani_divine_realm: "Гангін Сірінг"
-  tani_divine_realm_2: "$tani_divine_realm$ # Optional translation alt"
-  tani_divine_realm_3: "$tani_divine_realm$ # Optional translation alt"
+  tani_divine_realm_2: "$tani_divine_realm$ # Optional translation alt" #Optional translation alt
+  tani_divine_realm_3: "$tani_divine_realm$ # Optional translation alt" #Optional translation alt
   tani_positive_afterlife: "Гангін Сірінг"
-  tani_positive_afterlife_2: "$tani_positive_afterlife$ # Optional translation alt"
-  tani_positive_afterlife_3: "$tani_positive_afterlife$ # Optional translation alt"
-
+  tani_positive_afterlife_2: "$tani_positive_afterlife$ # Optional translation alt" #Optional translation alt
+  tani_positive_afterlife_3: "$tani_positive_afterlife$ # Optional translation alt" #Optional translation alt
   tani_creator_god_name: "Седі"
   tani_creator_god_name_possessive: "Седі"
   tani_health_god_name: "$tani_high_god_name$"
@@ -75,33 +74,28 @@
   tani_night_god_name_possessive: "$tani_high_god_name_possessive$"
   tani_water_god_name: "$tani_high_god_name$"
   tani_water_god_name_possessive: "$tani_high_god_name_possessive$"
-
   #Donyi-Poloism
   donyipoloism: "Доньї-Полізм"
   donyipoloism_adj: "Доньї-Поліст"
   donyipoloism_adherent: "Доньї-Поло Оме"
   donyipoloism_adherent_plural: "Доньї-Поло Оме"
   donyipoloism_desc: "Доньї-полоїзм — це основна форма релігії Тані Лхоба, яка поклоняється подвійним божествам Сонця і Місяця, які є очима бога-творця Седі як Вищої Істоти."
-
   donyipoloism_old: "Старий Доній-Полоїзм"
   donyipoloism_old_adj: "Старий Доньї-Полоїст"
   donyipoloism_old_adherent: "Старий Доньї-Поло Оме"
   donyipoloism_old_adherent_plural: "Старий Доньї-Поло Оме"
-
   #Sedism
   sedism: "Седизм"
   sedism_adj: "Седизт"
   sedism_adherent: "Седі Оме"
   sedism_adherent_plural: "Седі Оме"
   sedism_desc: "Седизм є формою релігії Тані Лхоба, яка поклоняється богу-творцю Седі як Вищій Істоті."
-
   sedism_old: "Старий седизм"
   sedism_old_adj: "Старий седист"
   sedism_old_adherent: "Старий Седі Оме"
   sedism_old_adherent_plural: "Старий Седі Оме"
-
   sedism_high_god_name: "Седі"
-  sedism_high_god_name_2: "$sedism_high_god_name$ # Optional translation alt"
+  sedism_high_god_name_2: "$sedism_high_god_name$ # Optional translation alt" #Optional translation alt
   sedism_high_god_name_possessive: "Седістький"
   sedism_high_god_shehe: "Він"
   sedism_high_god_herselfhimself: "Себе"

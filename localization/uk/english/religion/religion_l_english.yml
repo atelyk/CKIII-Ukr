@@ -1,11 +1,9 @@
 ﻿l_english:
   RELIGION_LOC_PLACEHOLDER: "#D ЗАГЛУШКА!#!"
-
   FAITH_HOSTILITY_EVIL: "[faith_evil|L]"
   FAITH_HOSTILITY_HOSTILE: "[faith_hostile|L]"
   FAITH_HOSTILITY_ASTRAY: "[faith_astray|L]"
   FAITH_HOSTILITY_RIGHTEOUS: "[faith_righteous|L]"
-
   FAITH_DESCRIPTION: "#T [faith|E]: [FAITH.GetTextIcon][FAITH.GetNameNoTooltip]#!\n[religion|E]: [FAITH.GetReligion.GetName] #weak ([FAITH.GetReligion.GetFamily.GetName])#!\n[fervor|E]: #V [FAITH.GetFervor|0]%#!"
   FAITH_DESCRIPTION_HOSTILITY: "Моя думка про них: $HOSTILITY_CATEGORY|V$"
   FAITH_AND_RELIGION: "[FAITH.GetTextIcon][FAITH.GetName] — [FAITH.GetReligion.GetName]"
@@ -23,16 +21,15 @@
   DOCTRINE_VIRTUE_SIN_TRAIT_ENTRY: "[TRAIT.GetName( GetPlayer )]"
   REL_HEAD_TITLE_NAME: "[my_faith.GetAdjectiveNoTooltip|U] [my_faith.ReligiousHeadTitleName|U]"
   HOLY_SITE_UNDER_CONTROL: "#P Controlled by [FAITH.GetName]#!"
-  HOLY_SITE_NOT_UNDER_CONTROL: "@warning_icon!#X Не контролюється [FAITH.GetName]#!"
+  HOLY_SITE_NOT_UNDER_CONTROL: "@warning_icon!#X Not controlled by [FAITH.GetName]#!"
   FAITH_WINDOW_HOLY_SITE_TOOLTIP: "#T [holy_site|E] [HolySite.GetName]#!\n[GuiHolySiteItem.GetControlDesc]\nПри контролі [GuiHolySiteItem.GetFaith.GetName], застосовуються такі ефекти:\n[HolySite.GetEffectDesc( GuiHolySiteItem.GetFaith )]\n\n#I Натисніть, щоб переглянути [HolySite.GetBarony.GetName]#!"
   FERVOR_GAIN_FROM_HOLY_SITES: "З [holy_sit|E]"
   PIETY_HEAD_OF_FAITH: "[head_of_faith|E]"
   FERVOR_GAIN_SIZE_MODIFIER: "Розмір [faith|E]"
-
   #One-time fervor changes
-  fervor_gain_built_temple_holding: "Утримання нового Храму [temple_location.GetName]"
-  fervor_gain_upgraded_temple_holding_culture_parameter: "Утримання оновленого храму #weak (from [tradition|E])#!"
-  fervor_loss_religious_war: "[war_goal_title.GetName] отримані від [defender.GetFaith.GetAdherentNamePlural] у Священній Війні"
+  fervor_gain_built_temple_holding: "Новий храм будується [temple_location.GetName]"
+  fervor_gain_upgraded_temple_holding_culture_parameter: "Оновлений храм #weak (from [tradition|E])#!"
+  fervor_loss_religious_war: "[war_goal_title.GetName] отримані від [defender.GetFaith.GetAdherentNamePlural] у священній війні"
   fervor_gain_religious_war: "[war_goal_title.GetName] втрачено у [attacker.GetFaith.GetAdjective] Святій Війні"
   fervor_loss_great_holy_war: "[war_goal_title.GetName] отримані в [attacker.GetFaith.Custom('GHWName')]"
   fervor_gain_great_holy_war: "[war_goal_title.GetName] втрачені в [attacker.GetFaith.Custom('GHWName')]"
@@ -77,12 +74,12 @@
   fervor_gain_persecuted: "Galvanized by persecution"
   fervor_gain_theravada: "[theravada_faith.GetName] релігійні реформи"
   fervor_gain_holy_order_expelled_by_force: "[holy_order|E]expelled by another [faith|E]"
-
+  fervor_gain_strengthen_caliphate: "Strengthened the Caliphate"
+  fervor_gain_shia_caliphate: "Birth of the Caliphate"
+  fervor_gain_persian_fervor: "Embraced in Persia"
   FAITH_DOCTRINE_GENERAL_TOOLTIP: "[FaithDoctrine.GetEffectsDescription( GetPlayer.GetFaith )]\n\n[FaithDoctrine.GetDescription( GetPlayer.GetFaith )|F]"
-
   HOLY_SITE_CHARACTER_MODIFIER_NAME: "[holy_site|E]: $NAME$"
   RELIGION_TITLE_TEXT: "[Religion.GetNameNoTooltip] #weak ([Religion.GetFamily.GetName])#!"
-
   PIETY_TEXT_ICON: "@piety_icon!"
   PIETY_TEXT_ICON_christian: "@piety_icon_christian!"
   PIETY_TEXT_ICON_islam: "@piety_icon_islam!"
@@ -90,7 +87,6 @@
   PIETY_TEXT_ICON_eastern: "@piety_icon_eastern!"
   PIETY_TEXT_ICON_judaism: "@piety_icon_judaism!"
   PIETY_TEXT_ICON_zoroastrian: "@piety_icon_zoroastrian!"
-
   faith_conversion_cost_reformed_converting_to_unreformed: "Перетворення від [organized|E] віри до нереформованої віри"
   faith_conversion_cost_feudal_converting_to_unreformed: "Феодальний правитель переходить на нереформовану віру"
   faith_conversion_cost_clan_converting_to_unreformed: "Правитель клану переходить на нереформовану віру"
@@ -113,13 +109,12 @@
   faith_conversion_cost_conversion_blocked_till_decision_taken: "This [faith|E] must be unlocked via [decision|E]"
   faith_conversion_cost_conversion_blocked_till_nebulous_circumstances: "This [faith|E] must be unlocked through #EMP mysterious circumstances#!"
   faith_conversion_cost_unreformed_to_organized: "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faith|E] перетворення в [organized|E] [faith]"
-
+  faith_reformation_via_decision: "This [faith|E] can only be reformed via [decision|E]"
   MINIMUM_FAITH_CONVERSION_PIETY_COST: "Мінімальна вартість: [GetLocalPlayerPietyTextIcon]$VALUE|V$"
-
   faith_conversion_cost_fervor_difference: "Різниця в [fervor|E]"
   faith_creation_cost_fervor_impact: "З поточного [fervor|E]"
-
-  #Holy Sites": Christian"
+  faith_conversion_cost_witch_event: "You have studied this [faith|E]'s Witchcraft"
+  #Holy Sites: Christian
   holy_site_jerusalem_name: "Єрусалим"
   holy_site_jerusalem_effect_name: "З [holy_site|E] #слабкий ($holy_site_jerusalem_name$)#!"
   holy_site_jerusalem_effects: "Швидкість перетворення графства #P +20%#!"
@@ -179,8 +174,7 @@
   holy_site_carthage_adoptionist_name: "Carthage"
   holy_site_lyon_name: "Lyon"
   holy_site_lyon_effect_name: "From [holy_site|E] #weak ($holy_site_lyon_name$)#!"
-
-  #Holy Sites": Islam"
+  #Holy Sites: Islam
   holy_site_mecca_name: "Мекка"
   holy_site_mecca_effect_name: "З [holy_site|E] #слабкий ($holy_site_mecca_name$)#!"
   holy_site_medina_name: "Медіна"
@@ -224,8 +218,7 @@
   holy_site_zozan_effect_name: "З [holy_site|E] #слабкий ($holy_site_zozan_name$)#!"
   holy_site_kufa_name: "Куфа"
   holy_site_kufa_effect_name: "З [holy_site|E] #слабкий ($holy_site_kufa_name$)#!"
-
-  #Holy Sites": Judaism"
+  #Holy Sites: Judaism
   holy_site_semien_name: "Семіен"
   holy_site_semien_effect_name: "З [holy_site|E] #слабкий ($holy_site_semien_name$)#!"
   holy_site_sufed_name: "Сафєд"
@@ -240,8 +233,11 @@
   holy_site_kochi_effect_name: "З [holy_site|E] #слабкий ($holy_site_kochi_name$)#!"
   holy_site_manipur_name: "Маніпур"
   holy_site_manipur_effect_name: "З [holy_site|E] #слабкий ($holy_site_manipur_name$)#!"
-
-  #Holy Sites": Dualism"
+  holy_site_hamadan_name: "Hamadan"
+  holy_site_hamadan_effect_name: "From [holy_site|E] #weak ($holy_site_hamadan_name$)#!"
+  holy_site_babylon_name: "Babylon"
+  holy_site_babylon_effect_name: "From [holy_site|E] #weak ($holy_site_babylon_name$)#!"
+  #Holy Sites: Dualism
   holy_site_khozistan_name: "Хузестан"
   holy_site_khozistan_effect_name: "З [holy_site|E] #слабкий ($holy_site_khozistan_name$)#!"
   holy_site_udabhanda_name: "Удабханда"
@@ -254,9 +250,7 @@
   holy_site_ahvaz_effect_name: "З [holy_site|E] #слабкий ($holy_site_ahvaz_name$)#!"
   holy_site_samarkand_name: "Самарканд"
   holy_site_samarkand_effect_name: "З [holy_site|E] #слабкий ($holy_site_samarkand_name$)#!"
-
-
-  #Holy Sites": Buddhism"
+  #Holy Sites: Buddhism
   holy_site_bodh_gaya_name: "Бодх-Гая"
   holy_site_bodh_gaya_effect_name: "З [holy_site|E] #слабкий ($holy_site_bodh_gaya_name$)#!"
   holy_site_kusinagara_name: "Лумбіні"
@@ -281,8 +275,7 @@
   holy_site_ava_effect_name: "З [holy_site|E] #слабкий ($holy_site_ava_name$)#!"
   holy_site_sittaung_name: "Сіттаунг"
   holy_site_sittaung_effect_name: "З [holy_site|E] #слабкий ($holy_site_sittaung_name$)#!"
-
-  #Holy Sites": Hinduism"
+  #Holy Sites: Hinduism
   holy_site_varanasi_name: "Варанасі"
   holy_site_varanasi_effect_name: "З [holy_site|E] #слабкий ($holy_site_varanasi_name$)#!"
   holy_site_ayodhya_name: "Айодх'я"
@@ -297,8 +290,7 @@
   holy_site_ujjayini_effect_name: "З [holy_site|E] #слабкий ($holy_site_ujjayini_name$)#!"
   holy_site_dwarka_name: "Дварка"
   holy_site_dwarka_effect_name: "З [holy_site|E] #слабкий ($holy_site_dwarka_name$)#!"
-
-  #Holy sites": Jain"
+  #Holy sites: Jain
   holy_site_palitana_name: "Палітана"
   holy_site_palitana_effect_name: "З [holy_site|E] #слабкий ($holy_site_palitana_name$)#!"
   holy_site_shikharj_name: "Шекхардж"
@@ -309,8 +301,7 @@
   holy_site_ellora_effect_name: "З [holy_site|E] #слабкий ($holy_site_ellora_name$)#!"
   holy_site_sittannavasal_name: "Ситтаннавазал"
   holy_site_sittannavasal_effect_name: "З [holy_site|E] #слабкий ($holy_site_sittannavasal_name$)#!"
-
-  #Holy sites": Tani"
+  #Holy sites: Tani
   holy_site_itanagar_name: "Ітанагар"
   holy_site_itanagar_effect_name: "З [holy_site|E] #слабкий ($holy_site_itanagar_name$)#!"
   holy_site_pemako_name: "Пемако"
@@ -319,8 +310,7 @@
   holy_site_rima_effect_name: "З [holy_site|E] #слабкий ($holy_site_rima_name$)#!"
   holy_site_tezu_name: "Тезу"
   holy_site_tezu_effect_name: "З [holy_site|E] #слабкий ($holy_site_tezu_name$)#!"
-
-  #Holy sites": Mundhum"
+  #Holy sites: Mundhum
   holy_site_kathmandu_name: "Катманду"
   holy_site_kathmandu_effect_name: "З [holy_site|E] #слабкий ($holy_site_kathmandu_name$)#!"
   holy_site_ilam_name: "Ілам"
@@ -329,8 +319,7 @@
   holy_site_garwhal_effect_name: "З [holy_site|E] #слабкий ($holy_site_garwhal_name$)#!"
   holy_site_jumla_name: "Джумла"
   holy_site_jumla_effect_name: "З [holy_site|E] #слабкий ($holy_site_jumla_name$)#!"
-
-  #Holy sites": Qiangic/Hsexje"
+  #Holy sites: Qiangic/Hsexje
   holy_site_maowun_name: "Маовюн"
   holy_site_maowun_effect_name: "З [holy_site|E] #слабкий ($holy_site_maowun_name$)#!"
   holy_site_ngawa_name: "Нгава"
@@ -347,11 +336,14 @@
   holy_site_yijinai_effect_name: "З [holy_site|E] #слабкий ($holy_site_yijinai_name$)#!"
   holy_site_alxa_name: "Алаша"
   holy_site_alxa_effect_name: "З [holy_site|E] #слабкий ($holy_site_alxa_name$)#!"
-
-  #Holy Sites": Zoroastrian"
+  #Holy Sites: Zoroastrian
   holy_site_yazd_name: "Єзд"
   holy_site_yazd_effect_name: "З [holy_site|E] #слабкий ($holy_site_yazd_name$)#!"
   holy_site_nok_kundi_name: "Нок-Кунді"
+  holy_site_adur_burzen_mihr_name: "Adur Burzen-Mhir"
+  holy_site_adur_burzen_mihr_effect_name: "From [holy_site|E] #weak ($holy_site_adur_burzen_mihr_name$)#!\""
+  holy_site_adur_farnbag_name: "Adur Farnbag"
+  holy_site_adur_farnbag_effect_name: "From [holy_site|E] #weak ($holy_site_adur_farnbag_name$)#!\""
   holy_site_nok_kundi_effect_name: "З [holy_site|E] #слабкий ($holy_site_nok_kundi_name$)#!"
   holy_site_takht-i-sangin_name: "Тахті-Сангин"
   holy_site_takht-i-sangin_effect_name: "З [holy_site|E] #слабкий ($holy_site_takht-i-sangin_name$)#!"
@@ -359,8 +351,20 @@
   holy_site_takht-e_soleyman_effect_name: "З [holy_site|E] #слабкий ($holy_site_takht-e_soleyman_name$)#!"
   holy_site_ushi-darena_name: "Уші-Дарена"
   holy_site_ushi-darena_effect_name: "З [holy_site|E] #слабкий ($holy_site_ushi-darena_name$)#!"
-
-  #Holy Sites": Norse"
+  holy_site_ctesiphon_name: "Ctesiphon"
+  holy_site_ctesiphon_effect_name: "From [holy_site|E] #weak ($holy_site_ctesiphon_name$)#!"
+  holy_site_mizdahqan_name: "Mizdakhan"
+  holy_site_mount_damavand_name: "Mount Damavand"
+  holy_site_mount_damavand_effect_name: "From [holy_site|E] #weak ($holy_site_mount_damavand_name$)#!"
+  holy_site_mizdahqan_effect_name: "From [holy_site|E] #weak ($holy_site_mizdahqan_name$)#!"
+  holy_site_badd_name: "Badd"
+  holy_site_badd_effect_name: "From [holy_site|E] #weak ($holy_site_badd_name$)#!"
+  holy_site_nishapur: "Nishapur"
+  holy_site_ani_name: "Ani"
+  holy_site_ani_effect_name: "From [holy_site|E] #weak ($holy_site_ani_name$)#!"
+  holy_site_dunhuang_name: "Dunhuang"
+  holy_site_dunhuang_effect_name: "From [holy_site|E] #weak ($holy_site_dunhuang_name$)#!"
+  #Holy Sites: Norse
   holy_site_uppsala_name: "Уппсала"
   holy_site_uppsala_effect_name: "З [holy_site|E] #слабкий ($holy_site_uppsala_name$)#!"
   holy_site_lejre_name: "Лайре"
@@ -375,8 +379,7 @@
   holy_site_jorvik_effect_name: "З [holy_site|E] #слабкий ($holy_site_jorvik_name$)#!"
   holy_site_konugardr_name: "$cn_konugardr_NORSE$"
   holy_site_konugardr_effect_name: "З [holy_site|E] #слабкий ($holy_site_konugardr_name$)#!"
-
-  #Holy Sites": Finnish"
+  #Holy Sites: Finnish
   holy_site_raivola_name: "Райвола"
   holy_site_raivola_effect_name: "З [holy_site|E] #слабкий ($holy_site_raivola_name$)#!"
   holy_site_hiiumaa_name: "Хіюмаа"
@@ -385,8 +388,7 @@
   holy_site_akkel_effect_name: "З [holy_site|E] #слабкий ($holy_site_akkel_name$)#!"
   holy_site_perm_name: "Перм"
   holy_site_perm_effect_name: "З [holy_site|E] #слабкий ($holy_site_perm_name$)#!"
-
-  #Holy Sites": Slavic"
+  #Holy Sites: Slavic
   holy_site_kiev_name: "Київ"
   holy_site_kiev_effect_name: "З [holy_site|E] #слабкий ($holy_site_kiev_name$)#!"
   holy_site_novgorod_name: "Новгород"
@@ -395,8 +397,7 @@
   holy_site_barlad_effect_name: "З [holy_site|E] #слабкий ($holy_site_barlad_name$)#!"
   holy_site_plock_name: "Плоцьк"
   holy_site_plock_effect_name: "З [holy_site|E] #слабкий ($holy_site_plock_name$)#!"
-
-  #Holy Sites": Baltic"
+  #Holy Sites: Baltic
   holy_site_pokaini_name: "Покайні"
   holy_site_pokaini_effect_name: "З [holy_site|E] #слабкий ($holy_site_pokaini_name$)#!"
   holy_site_torun_name: "Торунь"
@@ -405,8 +406,7 @@
   holy_site_braslau_effect_name: "З [holy_site|E] #слабкий ($holy_site_braslau_name$)#!"
   holy_site_rugen_name: "Рюген"
   holy_site_rugen_effect_name: "З [holy_site|E] #слабкий ($holy_site_rugen_name$)#!"
-
-  #Holy Sites": Magyar"
+  #Holy Sites: Magyar
   holy_site_pest_name: "Пешт"
   holy_site_pest_effect_name: "З [holy_site|E] #слабкий ($holy_site_pest_name$)#!"
   holy_site_crimea_name: "Крим"
@@ -417,8 +417,7 @@
   holy_site_sarysyn_effect_name: "З [holy_site|E] #слабкий ($holy_site_sarysyn_name$)#!"
   holy_site_poszony_name: "Посонь"
   holy_site_poszony_effect_name: "З [holy_site|E] #слабкий ($holy_site_poszony_name$)#!"
-
-  #Holy Sites": Tengri"
+  #Holy Sites: Tengri
   holy_site_kerch_name: "Керч"
   holy_site_kerch_effect_name: "З [holy_site|E] #слабкий ($holy_site_kerch_name$)#!"
   holy_site_kara_khorum_name: "Каракорум"
@@ -431,8 +430,7 @@
   holy_site_preslav_effect_name: "З [holy_site|E] #слабкий ($holy_site_preslav_name$)#!"
   holy_site_tavan_bogd_name: "Таван Богд"
   holy_site_tavan_bogd_effect_name: "З [holy_site|E] #слабкий ($holy_site_tavan_bogd_name$)#!"
-
-  #Holy Sites": Siberian"
+  #Holy Sites: Siberian
   holy_site_tyumen_name: "Тюмень"
   holy_site_tyumen_effect_name: "З [holy_site|E] #слабкий ($holy_site_tyumen_name$)#!"
   holy_site_surgut_name: "Сургут"
@@ -441,16 +439,14 @@
   holy_site_ob_effect_name: "З [holy_site|E] #слабкий ($holy_site_ob_name$)#!"
   holy_site_olkhon_name: "Ольхон"
   holy_site_olkhon_effect_name: "З [holy_site|E] #слабкий ($holy_site_olkhon_name$)#!"
-
-  #Holy Sites": Basque"
+  #Holy Sites: Basque
   holy_site_viscaya_name: "$c_viscaya$"
   holy_site_viscaya_effect_name: "From [holy_site|E] #weak ($holy_site_viscaya_name$)#!"
   holy_site_aneto_name: "Aneto"
   holy_site_aneto_effect_name: "From [holy_site|E] #weak ($holy_site_aneto_name$)#!"
   holy_site_bordeaux_name: "$c_bordeaux$"
   holy_site_bordeaux_effect_name: "From [holy_site|E] #weak ($holy_site_bordeaux_name$)#!"
-
-  #Holy Sites": Hellenic"
+  #Holy Sites: Hellenic
   holy_site_athens_name: "Афіни"
   holy_site_athens_effect_name: "З [holy_site|E] #слабкий ($holy_site_athens_name$)#!"
   holy_site_carthage_name: "Карфаген"
@@ -459,17 +455,14 @@
   holy_site_olympus_effect_name: "З [holy_site|E] #слабкий ($holy_site_olympus_name$)#!"
   holy_site_sparta_name: "Спарта"
   holy_site_sparta_effect_name: "З [holy_site|E] #слабкий ($holy_site_sparta_name$)#!"
-
-
-  #Holy Sites": Zunist"
+  #Holy Sites: Zunist
   holy_site_kabul_name: "Кабул"
   holy_site_kabul_effect_name: "З [holy_site|E] #слабкий ($holy_site_kabul_name$)#!"
   holy_site_multan_name: "Мултан"
   holy_site_multan_effect_name: "З [holy_site|E] #слабкий ($holy_site_multan_name$)#!"
   holy_site_bost_name: "Бост"
   holy_site_bost_effect_name: "З [holy_site|E] #слабкий ($holy_site_bost_name$)#!"
-
-  #Holy Sites": Bon"
+  #Holy Sites: Bon
   holy_site_khotan_name: "Хотан"
   holy_site_khotan_effect_name: "З [holy_site|E] #слабкий ($holy_site_khotan_name$)#!"
   holy_site_balkh_name: "Балх"
@@ -480,12 +473,10 @@
   holy_site_purang_effect_name: "З [holy_site|E] #слабкий ($holy_site_purang_name$)#!"
   holy_site_gilgit_name: "Гілгіт"
   holy_site_gilgit_effect_name: "З [holy_site|E] #слабкий ($holy_site_gilgit_name$)#!"
-
-  # Holy Sites": Taoism"
+  #Holy Sites: Taoism
   holy_site_suzhou_name: "Сучжоу"
   holy_site_suzhou_effect_name: "З [holy_site|E] #слабкий ($holy_site_suzhou_name$)#!"
-
-  #Holy Sites": Siguic"
+  #Holy Sites: Siguic
   holy_site_awkar_name: "Авкар"
   holy_site_awkar_effect_name: "З [holy_site|E] #слабкий ($holy_site_awkar_name$)#!"
   holy_site_jenne_name: "Дженне"
@@ -496,8 +487,7 @@
   holy_site_kukiya_effect_name: "З [holy_site|E] #слабкий ($holy_site_kukiya_name$)#!"
   holy_site_wadan_name: "Вадан"
   holy_site_wadan_effect_name: "З [holy_site|E] #слабкий ($holy_site_wadan_name$)#!"
-
-  #Holy Sites": Bori"
+  #Holy Sites: Bori
   holy_site_daura_name: "Даура"
   holy_site_daura_effect_name: "З [holy_site|E] #слабкий ($holy_site_daura_name$)#!"
   holy_site_garumele_name: "Гарумеле"
@@ -508,8 +498,7 @@
   holy_site_el_fasher_effect_name: "З [holy_site|E] #слабкий ($holy_site_el_fasher_name$)#!"
   holy_site_wandala_name: "Вандала"
   holy_site_wandala_effect_name: "З [holy_site|E] #слабкий ($holy_site_wandala_name$)#!"
-
-  #Holy Sites": Roog Sene"
+  #Holy Sites: Roog Sene
   holy_site_kisi_name: "Кісі"
   holy_site_kisi_effect_name: "З [holy_site|E] #слабкий ($holy_site_kisi_name$)#!"
   holy_site_sherbro_name: "Шербро"
@@ -518,8 +507,7 @@
   holy_site_kayor_effect_name: "З [holy_site|E] #слабкий ($holy_site_kayor_name$)#!"
   holy_site_kasa_name: "Каса"
   holy_site_kasa_effect_name: "З [holy_site|E] #слабкий ($holy_site_kasa_name$)#!"
-
-  #Holy Sites": Akom"
+  #Holy Sites: Akom
   holy_site_bono_name: "Боно"
   holy_site_bono_effect_name: "З [holy_site|E] #слабкий ($holy_site_bono_name$)#!"
   holy_site_kumasi_name: "Кумасі"
@@ -528,8 +516,7 @@
   holy_site_ife_effect_name: "З [holy_site|E] #слабкий ($holy_site_ife_name$)#!"
   holy_site_nikki_name: "Ніккі"
   holy_site_nikki_effect_name: "З [holy_site|E] #слабкий ($holy_site_nikki_name$)#!"
-
-  #Holy Sites": Kushitism"
+  #Holy Sites: Kushitism
   holy_site_aswan_name: "Асуан"
   holy_site_aswan_effect_name: "З [holy_site|E] #слабкий ($holy_site_aswan_name$)#!"
   holy_site_wadi_el_milk_name: "Ваді-ель-Мільк"
@@ -539,16 +526,14 @@
   holy_site_naqis_effect_name: "З [holy_site|E] #слабкий ($holy_site_naqis_name$)#!"
   holy_site_sennar_name: "Сеннар"
   holy_site_sennar_effect_name: "З [holy_site|E] #слабкий ($holy_site_sennar_name$)#!"
-
-  #Holy Sites": Achamism"
+  #Holy Sites: Achamism
   holy_site_tenerife_name: "Mount Teide"
   holy_site_tenerife_effect_name: "From [holy_site|E] #weak ($holy_site_tenerife_name$)#!"
   holy_site_madiera_name: "Madeira"
   holy_site_madiera_effect_name: "From [holy_site|E] #weak ($holy_site_madiera_name$)#!"
   holy_site_cartagena_name: "Cartagena"
   holy_site_cartagena_effect_name: "From [holy_site|E] #weak ($holy_site_cartagena_name$)#!"
-
-  #Holy Sites": Waaqism"
+  #Holy Sites: Waaqism
   holy_site_danakil_name: "Данакіль"
   holy_site_danakil_effect_name: "З [holy_site|E] #слабкий ($holy_site_danakil_name$)#!"
   holy_site_kaffa_name: "Каффа"
@@ -559,14 +544,11 @@
   holy_site_makhir_effect_name: "З [holy_site|E] #слабкий ($holy_site_makhir_name$)#!"
   holy_site_mogadishu_name: "Могадішу"
   holy_site_mogadishu_effect_name: "З [holy_site|E] #слабкий ($holy_site_mogadishu_name$)#!"
-
   rf_abrahamic: "Авраамічна"
   rf_pagan: "Язичницька"
   rf_eastern: "Східна"
-
   sinful_theocrat_exposed_title: "Гріховний [sinful_theocrat.Custom('GetActualBishopTitle')] Викритий"
   virtuous_theocrat_celebrated_title: "Доброчесний [virtuous_theocrat.Custom('GetActualBishopTitle')] Відзначається"
-
   doctrine_parameter_number_of_spouses: "Правителі, якщо це дозволено [gender_law|E], можуть мати до $VALUE|V0$ подружжя"
   #Intentionally left blank
   doctrine_parameter_number_of_spouses_1: "У персонажів може бути лише один [spouse|E]"
@@ -601,7 +583,6 @@
   doctrine_parameter_combatant_must_be_female_if_no_roco: "[SelectLocalization( Not(HasDlcFeature( 'diverge_culture' )), 'doctrine_parameter_combatant_must_be_female', '' )]"
   doctrine_parameter_combatant_must_be_male_if_no_roco: "[SelectLocalization( Not(HasDlcFeature( 'diverge_culture' )), 'doctrine_parameter_combatant_must_be_male', '' )]"
   doctrine_parameter_combatant_can_be_either_gender_if_no_roco: "[SelectLocalization( Not(HasDlcFeature( 'diverge_culture' )), 'doctrine_parameter_combatant_can_be_either_gender', '' )]"
-
   doctrine_homosexuality_name: "Одностатеві стосунки"
   doctrine_homosexuality_crime_name: "Злочин"
   doctrine_homosexuality_crime_desc: "Гріховні бажання содомітів становлять небезпеку для самого суспільства, тому вони повинні бути покарані та ув'язнені за свої провини."
@@ -612,7 +593,6 @@
   doctrine_parameter_homosexuality_illegal: "Чоловіки з [GetTrait('sodomite').GetName( GetNullCharacter )] [trait|E] є [criminals|E]"
   doctrine_parameter_homosexuality_shunned: "Чоловіки є [GetTrait('sodomite').GetName( GetNullCharacter )] [trait|E] є [shunned|E]"
   doctrine_parameter_homosexuality_accepted: "Одностатеві стосунки цілком прийнятні"
-
   doctrine_deviancy_name: "Збочення"
   doctrine_deviancy_crime_name: "Злочин"
   doctrine_deviancy_crime_desc: "Зрозуміло, що є лише один правильний спосіб любити іншого. Будь-які відхилення від цієї форми є гріхом і підлягають покаранню."
@@ -620,10 +600,11 @@
   doctrine_deviancy_shunned_desc: "Є деякі сексуальні практики, які є просто ненормальними та дивними. Зрозуміло, що люди з такими бажаннями однаково ненормальні та дивні."
   doctrine_deviancy_accepted_name: "Прийнято"
   doctrine_deviancy_accepted_desc: "Любов прекрасна і священна, незалежно від її форми. Кожному має бути дозволено любити і робити те, що ти хочеш."
+  doctrine_deviancy_virtuous_name: "Virtuous"
+  doctrine_deviancy_virtuous_desc: "The pleasures of the flesh bring us closer to the divine, and thus those who are unshackled by conventional desires are the height of virtue in our faith."
   doctrine_parameter_deviancy_illegal: "Персонажі з [GetTrait('deviant').GetName( GetPlayer )] [trait|E] є [criminals|E]"
   doctrine_parameter_deviancy_shunned: "Персонажі з [GetTrait('deviant').GetName( GetPlayer )] [trait|E] є [shunned|E]"
   doctrine_parameter_deviancy_accepted: "Персонажі з [GetTrait('deviant').GetName( GetPlayer )] [trait|E] повністю прийнятні"
-
   doctrine_witchcraft_name: "Чаклунство"
   doctrine_witchcraft_crime_name: "Злочин"
   doctrine_witchcraft_crime_desc: "Тільки божественне має право творити чудеса на цій землі. Будь-хто, хто робить нечисті спроби зробити те саме, буде покараний за свою гординю та зарозумілість."
@@ -631,15 +612,19 @@
   doctrine_witchcraft_shunned_desc: "Божество має законну юрисдикцію над надприродними силами в цьому світі, тому будь-яка спроба змусити ці сили підкорятися волі смертного за своєю суттю є помилковою."
   doctrine_witchcraft_accepted_name: "Прийнято"
   doctrine_witchcraft_accepted_desc: "Магія наповнює світ навколо нас, і це наше право і наш привілей займатися нею так, як робили наші предки."
+  doctrine_witchcraft_virtuous_name: "Virtuous"
+  doctrine_witchcraft_virtuous_desc: "To practice witchcraft is to put one's own soul in danger from evil spirits. For their bravery in this necessary aspect of keeping our own souls clean, witches are to be venerated."
   doctrine_parameter_witchcraft_illegal: "Персонажі з [GetTrait('witch').GetName( GetPlayer )] [trait|E] є [criminals|E]"
   doctrine_parameter_witchcraft_shunned: "Персонажі з [GetTrait('witch').GetName( GetPlayer )] [trait|E] [shunned|E]"
   doctrine_parameter_witchcraft_accepted: "Персонажі з [GetTrait('witch').GetName( GetPlayer )] [trait|E] повністю приймаються"
-
+  witchcraft_illegal_name: "Criminal Witchcraft Doctrine"
+  witchcraft_shunned_name: "Shunned Witchcraft Doctrine"
   doctrine_head_of_faith_name: "Голова конфесії"
   doctrine_head_of_faith_desc: "[head_of_faith|E] є лідером [faith|E]"
   doctrine_no_head_name: "Ні"
   doctrine_no_head_desc: "Повна дурість припускати, що будь-яка людина може справді зрозуміти волю [ROOT.Faith.HighGodName]. Ми повинні слідувати своїм власним серцям, щоб дізнатися, який [ROOT.Faith.HighGodHerHis] план для нас."
   doctrine_parameter_no_head_of_faith: "Не має [head_of_faith|E]"
+  no_head_of_faith_name: "No [head_of_faith|E] [doctrine|E]"
   doctrine_parameter_minimum_fervor: "Завзяття не може бути нижче #V $VALUE|0$%#!"
   doctrine_spiritual_head_name: "Духовний"
   doctrine_spiritual_head_desc: "Фізичний світ і духовний світ не схожі. Ми повинні переконатися, що духовний світ має власного лідера, який буде скеровувати нас і захищати нашу віру від осквернення фізичними бажаннями."
@@ -650,7 +635,6 @@
   doctrine_parameter_temporal_head_of_faith: "Посада [head_of_faith|E] надається засновнику [faith|E] і передається його [primary_heir|E] після смерті"
   doctrine_parameter_temporal_head_of_faith_directed_holy_wars: "Якщо Віра має [great_holy_wars|E], Голові Віри дозволяється керувати війною та вибирати, хто буде ціллю війни"
   doctrine_temporal_head_desc: "Духовне і фізичне внутрішньо пов’язані воєдино, ціле й нероздільне. Нерозумно мати двох різних лідерів для одного царства."
-
   doctrine_marriage_type_name: "Тип шлюбу"
   doctrine_monogamy_name: "Моногамія"
   doctrine_monogamy_desc: "Шлюб – це священний зв’язок між двома людьми. Спроба створити такий зв’язок з кількома людьми одночасно є святотатством."
@@ -658,7 +642,6 @@
   doctrine_polygamy_desc: "Оскільки шлюб є священним союзом, мати кілька шлюбів є більш святим, ніж мати лише один шлюб, якщо кожен шлюб є святим сам по собі."
   doctrine_concubines_name: "Наложництво"
   doctrine_concubines_desc: "Шлюб — це священний зв’язок, але якщо дружина має пріоритет, можливо також мати наложниць."
-
   hostility_group_name: "Група ворожнечі"
   abrahamic_hostility_doctrine_name: "Авраамічна"
   abrahamic_hostility_doctrine_desc: "Наступні релігії є авраамічними:\n[GetReligionFamily('rf_abrahamic').GetReligions]"
@@ -666,21 +649,17 @@
   pagan_hostility_doctrine_desc: "Наступні релігії є язичницькими:\n[GetReligion Family('rf_pagan').Gets Religions]"
   eastern_hostility_doctrine_name: "Східна"
   eastern_hostility_doctrine_desc: "Наступні релігії є східними:\n[GetReligion Family('rf_eastern').Gets Religions]"
-
   special_tolerance_name: "Особлива толерантність"
   special_doctrine_ecumenical_christian_name: "Екуменізм"
   special_doctrine_ecumenical_christian_desc: "Наші релігійні лідери історично брали участь у міжконфесійних діалогах, щоб посилити співпрацю між різними християнськими конфесіями."
-
   special_doctrine_full_tolerance_name: "Повна толерантність"
   full_tolerance_name: "$special_doctrine_full_tolerance_name$"
   doctrine_parameter_hostility_override_special_doctrine_full_tolerance: "Всі [faiths|E] вважаються [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
   special_doctrine_full_tolerance_desc: "Кожен вільний у виборі віри. Наші відмінності не розділяють нас, вони роблять нас сильнішими."
-
   nudity_doctrine_name: "Перегляди на наготу"
   special_doctrine_naked_priests_name: "Голі священики"
   special_doctrine_naked_priests_desc: "Наші священики знають, що одяг затримує дух і заважає нам досягти справжнього просвітлення. Лише скинувши свій одяг, ми зможемо пробудити свої душі та відчути [ROOT.Faith.HighGodNamePossessive] любов."
   doctrine_parameter_naked_priests_active: "Священики і ревнителі не носять одягу."
-
   doctrine_gender_name: "Перегляди на Стать"
   doctrine_gender_male_dominated_name: "Домінування чоловіків"
   doctrine_gender_male_dominated_desc: "Чоловіки сильніші та краще підготовлені, щоб вести нас у цьому суворому та невблаганному світі, тому ми довіримо їм керувати нашим суспільством."
@@ -688,7 +667,6 @@
   doctrine_gender_equal_desc: "Нерозумно відмовляти кваліфікованим людям у ролі в уряді лише через їхню стать. Ми дозволимо керувати нашим суспільством всім, хто здатний."
   doctrine_gender_female_dominated_name: "Жіноче домінування"
   doctrine_gender_female_dominated_desc: "Жінки знову і знову доводили, що тільки вони мають мудрість і розважливість, необхідні для належного управління нашим суспільством."
-
   doctrine_divorce_name: "Розлучення"
   doctrine_divorce_disallowed_name: "Заборонені"
   doctrine_divorce_disallowed_desc: "Шлюбні обітниці є остаточними та обов’язковими. Тільки смерть може розлучити нас."
@@ -699,7 +677,6 @@
   doctrine_parameter_divorce_disallowed: "Персонажам ніколи не дозволяється [divorce|E] зі своїм [spouse|E]"
   doctrine_parameter_divorce_approval: "Персонажу дозволено [divorce|E] зі своїм [spouse|E], якщо їх духовний [spouse|E] схвалює (або [house_head|E], якщо не існує духовного глави віри)"
   doctrine_parameter_divorce_allowed: "Персонажам завжди дозволяється [divorce|E] зі своїм [divorce|E], витрачаючи [piety|E]"
-
   doctrine_bastardry_name: "Бастарди"
   doctrine_bastardry_none_name: "Немає бастардов"
   doctrine_bastardry_none_desc: "Кров визначає походження, а не шлюб. Діти, народжені поза шлюбом, такі ж законні, як і будь-які інші."
@@ -710,7 +687,6 @@
   doctrine_parameter_bastards_none: "Не існує такого поняття, як [bastard|E]. Усі діти однаково [legitimate|E]"
   doctrine_parameter_bastards_legitimize: "[bastards|E] можуть бути узаконені, якщо їх [house_head|E] або [dynast|E] схвалять"
   doctrine_parameter_bastards_always: "[bastards|E] ніколи не буде узаконеним"
-
   doctrine_adultery_men_name: "Чоловіча подружня зрада"
   doctrine_adultery_men_crime_name: "Злочин"
   doctrine_adultery_men_crime_desc: "Для чоловіків вступ у статеві стосунки поза шлюбом є злочином, і вони повинні бути покарані відповідно."
@@ -721,7 +697,6 @@
   doctrine_parameter_adultery_male_crime: "Чоловіки з [GetTrait('adulterer').GetName( GetNullCharacter )] або [GetTrait('fornicator').GetName( GetNullCharacter )] [trait|E] є [criminals|E]"
   doctrine_parameter_adultery_male_shunned: "Чоловіки з [GetTrait('adulterer').GetName( GetNullCharacter )] або [GetTrait('fornicator').GetName( GetNullCharacter )] [trait|E] є [shunned|E]"
   doctrine_parameter_adultery_male_accepted: "Чоловіки з [GetTrait('adulterer').GetName( GetNullCharacter )] або [GetTrait('fornicator').GetName( GetNullCharacter )] [trait|E] повністю приймаються"
-
   doctrine_adultery_women_name: "Жіноча подружня зрада"
   doctrine_adultery_women_crime_name: "Злочин"
   doctrine_adultery_women_crime_desc: "Вступ жінок у статеві стосунки поза шлюбом є злочином, і вони повинні бути покарані відповідно."
@@ -732,15 +707,12 @@
   doctrine_parameter_adultery_female_crime: "Жінки з [GetTrait('adulterer').GetName( GetNullCharacter )] або [GetTrait('fornicator').GetName( GetNullCharacter )] [trait|E] є [criminals|E]"
   doctrine_parameter_adultery_female_shunned: "Жінки з [GetTrait('adulterer').GetName( GetNullCharacter )] або [GetTrait('fornicator').GetName( GetNullCharacter )] [trait|E] є [shunned|E]"
   doctrine_parameter_adultery_female_accepted: "Жінки з [GetTrait('adulterer').GetName( GetNullCharacter )] або [GetTrait('fornicator').GetName( GetNullCharacter )] [trait|E] повністю приймаються"
-
   doctrine_kinslaying_name: "Братовбивство"
   doctrine_kinslaying_any_dynasty_member_crime_name: "Династичне вбивство є злочинним"
   doctrine_kinslaying_any_dynasty_member_crime_desc: "Всі родичі пов'язані кров'ю, і вбити навіть далекого родича - тяжкий злочин проти всієї династії. Такі провини не забудуться."
   doctrine_parameter_kinslaying_any_dynasty_member_crime: "[kinslayers|E] з [GetTrait('kinslayer_1').GetName( GetPlayer )] [trait|E] або гірше [criminals|E] в очах своєї [dynasty|E]"
   doctrine_parameter_kinslaying_extended_family_crime: "[kinslayers|E] з [GetTrait('kinslayer_2').GetName( GetPlayer )] [trait|E] або гірше [criminals|E] в очах своєї [dynasty|E]"
   doctrine_parameter_kinslaying_close_kin_crime: "[kinslayers|E] з [GetTrait('kinslayer_3').GetName( GetPlayer )] [trait|E] є [criminals|E] в очах своєї [dynasty|E]"
-
-
   doctrine_parameter_kinslaying_shunned: "[kinslayers|E] є [shunned|E]"
   doctrine_parameter_kinslaying_accepted: "Персонажі, які вбивають родичів, не розглядаються як [kinslayers|E]"
   doctrine_kinslaying_extended_family_crime_name: "Заборонено вбивати рідню"
@@ -752,7 +724,6 @@
   doctrine_kinslaying_accepted_name: "Прийнято"
   doctrine_kinslaying_accepted_desc: "Вбивство члена свого родича нічим не відрізняється від будь-якого іншого вбивства, і до нього слід ставитися так само."
   kinslayer_crime_dynasty: "Братовбивця"
-
   doctrine_consanguinity_name: "Кровозмішання"
   doctrine_consanguinity_restricted_name: "Табу на статеві відносини з близькими родичами"
   doctrine_consanguinity_restricted_desc: "Це гріх проти [ROOT.Faith.HighGodName] дозволяти двом родичам одружуватися між собою або вступати в сексуальні стосунки."
@@ -770,11 +741,10 @@
   doctrine_consanguinity_unrestricted_desc: "Це природно і здорово для членів сім’ї любити один одного, і ті, хто каже, що любов має бути обмежена несексуальними стосунками, є дурнями."
   doctrine_parameter_consanguinity_unrestricted_marriage: "Допускається шлюб між усіма членами сім'ї"
   doctrine_parameter_consanguinity_unrestricted_incest: "Статеві відносини між будь-якими членами сім'ї не дадуть інцесту [secret|E]"
-  #The following 3 strings intentionally left blank
+  #The following 3 strings intentionally left blank:
   doctrine_parameter_allows_cousin_marriage: ""
   doctrine_parameter_allows_aunt_nephew_and_uncle_niece_marriage: ""
   doctrine_parameter_allows_unrestricted_marriage: ""
-
   doctrine_pluralism_name: "Релігійне ставлення"
   doctrine_parameter_hostility_towards_us_mult: "Прихильники інших [faiths|E] матимуть штрафи за думку в розмірі $VALUE|%V0$"
   doctrine_pluralism_fundamentalist_name: "Фундаменталізм"
@@ -792,7 +762,6 @@
   doctrine_parameter_pluralism_pluralistic_faction_join_chance: "Графства інших [faiths|E] є #P менш імовірними#! приєднатися до [factions|E]"
   doctrine_parameter_pluralism_pluralistic_resistant_to_heresy: "#P Зменшена небезпека#! від єресей, коли на низькому [fervor|E]"
   doctrine_parameter_pluralism_pluralistic_holy_wars_preserve_vassals: "Перемога у [holy_war|E] васалізує невірних [rulers|E] у цільовій області замість захоплення їхньої землі"
-
   doctrine_theocracy_name: "Традиції духовенства"
   doctrine_theocracy_temporal_name: "Теократія"
   doctrine_theocracy_temporal_desc: "Лише санкціонованим [ROOT.Faith.PriestNeuterPlural] можна довірити підтримку доктрин нашої віри та, як наслідок, управління та догляд за нашими святими місцями."
@@ -800,10 +769,9 @@
   doctrine_theocracy_lay_clergy_name: "Мирське духовенство"
   doctrine_theocracy_lay_clergy_desc: "Будь-який відданий послідовник більш ніж здатний зрозуміти, слідувати та проповідувати доктрини нашої віри."
   doctrine_parameter_theocracy_temple_ownership: "Світські [rulers|E] безпосередньо контролюють свої власні Храмові [holdings|E] та отримують усі пов’язані з цим переваги."
-  #Intentionally left blank
+  #Intentionally left blank:
   doctrine_parameter_lay_clergy: ""
   doctrine_parameter_allowed_holding_type_church_holding: ""
-
   doctrine_clerical_function_name: "Функції духовенства"
   doctrine_clerical_function_taxation_name: "Контроль"
   doctrine_clerical_function_taxation_desc: "[ROOT.Faith.AltPriestTermPlural] отримує повноваження від [ROOT.Faith.HighGodName] [ROOT.Faith.HighGodHerselfHimself], і це все ще застосовується тут, на Землі."
@@ -812,7 +780,6 @@
   doctrine_clerical_function_recruitment_name: "Вербування"
   doctrine_clerical_function_recruitment_desc: "Наш [ROOT.Faith.PriestNeuterPlural] може взяти до рук зброю та захистити нашу віру. Відповідальність бути прикладом надає їм додаткову силу в бою."
   doctrine_parameter_clergy_can_fight: "Члени [clergy|E] можуть служити як [commanders|E] або $knight_culture_player_plural$"
-
   doctrine_clerical_gender_name: "Стать духовенства"
   doctrine_clerical_gender_male_only_name: "Тільки чоловіки"
   doctrine_clerical_gender_male_only_desc: "Тільки чоловіки можуть взяти на себе велику відповідальність служіння як [ROOT.Faith.PriestMalePlural] нашої віри."
@@ -823,7 +790,6 @@
   doctrine_clerical_gender_either_name: "Будь-хто"
   doctrine_clerical_gender_either_desc: "Кожен, хто відчув божественний поклик, повинен мати можливість служити як [ROOT.Faith.PriestNeuterPlural], незалежно від статі."
   doctrine_parameter_clergy_can_be_either_gender: "Стать не впливає на те, кому можна надати храм [holdings|E] або служити [court_chapelans|E]"
-
   doctrine_clerical_marriage_name: "Шлюби духовенства"
   doctrine_clerical_marriage_allowed_name: "Дозволено"
   doctrine_clerical_marriage_allowed_desc: "Шлюб — це священний інститут, і [ROOT.Faith.PriestNeuterPlural] має мати змогу брати в ньому участь, як і будь-який інший вірний прибічник."
@@ -831,7 +797,6 @@
   doctrine_clerical_marriage_disallowed_name: "Заборонено"
   doctrine_clerical_marriage_disallowed_desc: "Стати [ROOT.Faith.PriestNeuter] означає присвятити своє життя [ROOT.Faith.HighGodName]. Розглядати можливість взяти смертного чоловіка на додаток до цього є невірним."
   doctrine_parameter_clergy_can_marry_disabled: "Членам [clergy|E] заборонено [marrying|E]"
-
   doctrine_clerical_succession_name: "Призначення духовенства"
   doctrine_clerical_succession_temporal_appointment_name: "Цивільний, Відкличний"
   doctrine_clerical_succession_temporal_appointment_desc: "[ROOT.Faith.BishopNeuterPlural|U] є, зрештою, слугами королівства, тому їхній сеньйор повинен мати можливість наймати та звільняти їх із невеликими обмеженнями."
@@ -845,25 +810,20 @@
   doctrine_parameter_clerical_appointment_head_of_faith: "[Head_of_faith|E] або духовенство призначає всіх [realm_priest|E] або [court_chapelans|E]"
   doctrine_parameter_clerical_appointment_fixed_disabled: "[realm_priest|E] або [court_chapelan|E] можуть бути звільнені та замінені новим призначеним"
   doctrine_parameter_clerical_appointment_fixed: "[realm_priest|E] або [court_chapelan|E] мають своє місце довічно"
-
   unreformed_faith_doctrine_name: "Нереформовані"
   unreformed_faith_name: "$unreformed_faith_doctrine_name$"
   unreformed_faith_doctrine_desc: "Нереформованій вірі бракує організованого духовенства та усталених канонічних доктрин; різні спільноти можуть номінально сповідувати ту саму віру, маючи надзвичайно різні релігійні практики та вірування."
   doctrine_parameter_unreformed: "Запобігає племінним [rulers|E] змінити тип [government|E] \n$EFFECT_LIST_BULLET$Надає [unreformed_pagan_combat_bonus|E]"
   doctrine_parameter_hostility_override_tenet_unreformed_syncretism: "Не язичницькі [faiths|E] з принципом $tenet_unreformed_syncretism_name$ вважаються [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue)|V] замість $hostility_evil_tooltippable$"
-
   west_african_unreformed_faith_doctrine_name: "$unreformed_faith_doctrine_name$"
   west_african_unreformed_faith_doctrine_desc: "$unreformed_faith_doctrine_desc$"
-
   heresy_hostility_name: "Погляд на Єресь"
   heresy_hostility_doctrine_name: "Єресь"
   heresy_hostility_doctrine_desc: "Стережіться лжепророка, який спотворить і підірве Віру заради власних цілей. Ті, хто хотів би це зробити, є єретиками і повинні бути знищені."
-
   divine_destiny_name: "Божественна доля"
   divine_destiny_doctrine_name: "Законні правителі світу"
   divine_destiny_doctrine_desc: "Ми є тими, хто започаткує еру миру та процвітання для всіх народів. Ми є законними правителями світу."
   doctrine_parameter_divine_destiny_holy_war_cost_reduction: "Священна війна [piety|e] Вартість: #P -50%#!"
-
   adoptionist_school_name: "Adoptionist Creed"
   special_doctrine_adoptionist_school_elipandic_doctrine_name: "Elipandic School"
   special_doctrine_adoptionist_school_elipandic_doctrine_desc: "Preferring to focus on subtle variations in Christology, the Elipandic variant of $adoptionist$ stresses the importance of #EMP precise#! differences from Trinitarian dogma. A complex distinction well made is considered infinitely better than a simple explanation poorly justified."
@@ -871,57 +831,54 @@
   special_doctrine_adoptionist_school_felicitous_doctrine_desc: "Felician $adoptionist$ believes in practicality above purity, understanding that it must work within hostile systems to undermine them. A heinous lie in pursuit of a noble cause is thought to be worth a thousand blunt truths."
   special_doctrine_adoptionist_school_radical_doctrine_name: "Radical School"
   special_doctrine_adoptionist_school_radical_doctrine_desc: "Radical $adoptionist_adherent_plural$ admit no God but the Father, accept no divinity from mortal flesh, and acknowledge no $christianity_religion_adherent_plural$ but themselves. To receive Christ without agreeing on every #EMP letter#! of canon is to acknowledge apostasy."
-
   special_doctrine_is_christian_faith_name: "Вчення Ісуса"
   is_christian_faith_name: "$special_doctrine_is_christian_faith_name$"
   special_doctrine_is_christian_faith_desc: "У світі є ті, хто дотримується вчень Ісуса, не визнаючи його божественності. Незважаючи на те, що це богохульство, ми все ж повинні виявляти співчуття до цих оманливих душ, оскільки вони одного дня можуть стати наверненими до істинної віри."
   doctrine_parameter_hostility_override_tenet_christian_syncretism: "Нехристиянські [faiths|E] з принципом $tenet_christian_syncretism_name$ вважаються [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue)|V] замість $hostility_evil_tooltippable$"
-
   special_doctrine_is_islamic_faith_name: "Вчення Пророка"
   is_islamic_faith_name: "$special_doctrine_is_islamic_faith_name$"
   special_doctrine_is_islamic_faith_desc: "Хоча не всі люди в цьому світі слідують завітам Пророка, багато хто старанно служить волі Аллаха, сам того не підозрюючи. Можливо, згодом ці дикуни зможуть очиститися від скверни та стати правовірними мусульманами!"
   doctrine_parameter_hostility_override_tenet_islamic_syncretism: "Неісламські [faiths|E] з принципом $tenet_islamic_syncretism_name$ вважаються [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue)|V] замість $hostility_evil_tooltippable$"
-
   special_doctrine_is_jewish_faith_name: "Вчення Мойсея"
   is_jewish_faith_name: "$special_doctrine_is_jewish_faith_name$"
   special_doctrine_is_jewish_faith_desc: "Не всі серед народів живуть у гріху. Є ті, хто поважає вибраний Богом народ, і вони, у свою чергу, заслуговують певної міри нашої поваги."
   doctrine_parameter_hostility_override_tenet_jewish_syncretism: "Неєврейські [faiths|E] з принципом $tenet_jewish_syncretism_name$ вважаються [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue)|V] замість $hostility_evil_tooltippable$"
-
+  prophecy_of_malachi_name: "The Prophecy of Malachi"
+  special_doctrine_not_allowed_to_hof_name: "Dismantled Priesthood"
+  not_allowed_to_hof_name: "$special_doctrine_not_allowed_to_hof_name$"
+  prophecy_of_malachi_desc: "Under traditional Jewish doctrine, a new High Priest can only be named either with the coming of the Prophet or if a descendant of Aaron fit to serve as priest is found."
+  special_doctrine_not_allowed_to_hof_desc: "The High Priesthood of this faith has been completely dismantled. Any attempts to name a High Priest would first require a thorough reconstruction of traditional church structure."
+  doctrine_parameter_block_from_create_hof_parameter: "This faith cannot recreate its [head_of_faith|E] under normal circumstances."
   special_doctrine_is_eastern_faith_name: "Багатоконфесійне переплетіння"
   is_eastern_faith_name: "$special_doctrine_is_eastern_faith_name$"
   special_doctrine_is_eastern_faith_desc: "Нас об’єднує не одна віра, а багато вірувань, які складають релігійну структуру нашого суспільства. Хоча ми можемо називати себе різними іменами та йти різними шляхами, дехто з-за меж нашої власної системи переконань навчився співіснувати в нашому суспільстві, ніби вони були одними з нас."
   doctrine_parameter_hostility_override_tenet_eastern_syncretism: "Несхідні [faiths|E] з принципом $tenet_eastern_syncretism_name$ вважаються [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue)|V] замість $hostility_evil_tooltippable$"
-
   special_doctrine_is_gnostic_faith_name: "$tenet_gnosticism_name$"
   is_gnostic_faith_name: "$special_doctrine_is_gnostic_faith_name$"
   special_doctrine_is_gnostic_faith_desc: "$tenet_gnosticism_desc$"
-
+  special_doctrine_fire_worship_name: "Sacred Fire"
+  fire_worship_name: "$special_doctrine_fire_worship_name$"
+  special_doctrine_fire_worship_desc: "We are all united by our veneration of fire, the purest element and agent of divine glory. It is our sacred duty to keep the eternal fires burning in the world, to dispel falsehood and evil."
   doctrine_parameter_same_hof_hostility_override: "Considers other [faiths|E] that share their [head_of_faith|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
-
   TOO_FEW_SPOUSES_PIETY: "Занадто мало подружжя"
-
   CRUSADER_STATE_CRUSADER_TITLE_NAME: "Хрестоносець [target_kingdom.GetNameNoTierNoTooltip]"
   CRUSADER_STATE_FAITH_TITLE_NAME: "[title_recipient.GetFaith.GetAdjective|U] [target_kingdom.GetNameNoTierNoTooltip|U]"
-
   religion_the_gods: "боги"
-  religion_the_gods_2: "$religion_the_gods$ # Optional translation alt"
-  religion_the_gods_3: "$religion_the_gods$ # Optional translation alt"
+  religion_the_gods_2: "$religion_the_gods$ # Optional translation alt" #Optional translation alt
+  religion_the_gods_3: "$religion_the_gods$ # Optional translation alt" #Optional translation alt
   religion_the_spirits: "духи"
-  religion_the_spirits_2: "$religion_the_spirits$ # Optional translation alt"
-  religion_the_spirits_3: "$religion_the_spirits$ # Optional translation alt"
+  religion_the_spirits_2: "$religion_the_spirits$ # Optional translation alt" #Optional translation alt
+  religion_the_spirits_3: "$religion_the_spirits$ # Optional translation alt" #Optional translation alt
   religion_natural_order: "природний порядок"
   pantheon_term_has: "має"
   pantheon_term_have: "мають"
-
   FAITH_CREATION_DUCHY_OR_HIGHER_FIRST_NOT: "Ваша найвища посада [title|E] is #bold not#! Герцогство або вище"
-
   FAITH_HOSTILITY_OPINION: "$BULLET_WITH_TAB$ персонажа [opinion|E]: $VALUE|=+$"
   FAITH_HOSTILITY_COUNTY_OPINION: "$BULLET_WITH_TAB$ Максимальний штраф [county_opinion|E]: $VALUE|=+$"
   FAITH_HOSTILITY_NO_USURP: "$BULLET_WITH_TAB$ #bold Cannot#! [usurp|E] їх [titles|E]"
   FAITH_HOSTILITY_GHW: "$BULLET_WITH_TAB$ Може почати [great_holy_wars|E] проти них"
   FAITH_HOSTILITY_USURP: "$BULLET_WITH_TAB$ Може [usurp|E] їх [titles|E]"
   FAITH_HOSTILITY_HOLY_ORDER: "$BULLET_WITH_TAB$ можуть використовувати [holy_orders|E] проти них"
-
   #General God keys
   religionname_creator_name: "#D творець#!"
   religionname_creator_namepossessive: "#D творця#!"
@@ -978,9 +935,46 @@
   religionname_watergod_sheheit: "#D вона/він/це#!"
   religionname_watergod_herhisits: "#D її/його/цього#!"
   religionname_watergod_herhim: "#D їй/йому#!"
-
   take_vows_active_name: "Прийняти рішення про обітницю"
   hostility_righteous_tooltippable: "[GetHostilityLevelName( '(int32)0' )|V]"
   hostility_astray_tooltippable: "[GetHostilityLevelName( '(int32)1' )|V]"
   hostility_hostile_tooltippable: "[GetHostilityLevelName( '(int32)2' )|V]"
   hostility_evil_tooltippable: "[GetHostilityLevelName( '(int32)3' )|V]"
+  doctrine_pilgrimage_name: "Pilgrimage Attitude"
+  doctrine_pilgrimage_forbidden_name: "Forbidden"
+  doctrine_pilgrimage_forbidden_desc: "The presence of [ROOT.Faith.HighGodName] can be felt everywhere and the notion that certain places are more divine than others is nothing short of heresy."
+  doctrine_pilgrimage_encouraged_name: "Encouraged"
+  doctrine_pilgrimage_encouraged_desc: "This faith encourages its members to visit earthly locations deemed to be of spiritual significance as a means of demonstrating reverence for [ROOT.Faith.PantheonTerm]."
+  doctrine_pilgrimage_mandatory_name: "Mandatory"
+  doctrine_pilgrimage_mandatory_desc: "It is expected that all able-bodied [ROOT.Faith.GetAdherentNamePlural] complete a spiritual journey to a holy place as soon as they are able. Failing to do so represents a failure to submit oneself to [ROOT.Faith.HighGodName]."
+  doctrine_pilgrimage_mandatory_hajj_name: "Hajj"
+  doctrine_pilgrimage_mandatory_hajj_desc: "It is expected that all able-bodied Muslims complete a Hajj to Mecca during their lifetime. While special exemptions are often made, any [ROOT.Faith.GetAdherentNameNoTooltip] who fails to complete a Hajj will be looked upon with skepticism."
+  forbidden_from_pilgrimage_name: "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_forbidden_name$"
+  doctrine_parameter_forbidden_from_pilgrimage: "Does not have access to the [pilgrimage|E] [activity|E]"
+  can_go_on_pilgrimage_name: "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_encouraged_name$"
+  doctrine_parameter_can_go_on_pilgrimage: "Has access to the [pilgrimage|E] [activity|E]"
+  mandatory_pilgrimage_name: "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
+  doctrine_parameter_mandatory_pilgrimage: "The [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] grants additional bonuses and the [pilgrimage|E] [activity|E] grants extra [piety|E] upon completion"
+  mandatory_hajj_name: "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
+  doctrine_parameter_mandatory_hajj: "The [GetTrait('hajjaj').GetName( GetNullCharacter )] [trait|E] grants additional bonuses and the [hajj|E] [activity|E] grants extra [piety|E] upon completion"
+  doctrine_parameter_basic_pilgrimage_rewards: ""
+  special_doctrine_has_jizya_doctrine_name: "$tenet_tax_nonbelievers_jizya_name$"
+  special_doctrine_jizya_name: "$tenet_tax_nonbelievers_jizya_name$"
+  special_doctrine_jizya_desc: "$tenet_tax_nonbelievers_desc$"
+  has_jizya_doctrine_name: "$tenet_tax_nonbelievers_jizya_name$"
+  doctrine_funeral_name: "Funerary Tradition"
+  doctrine_funeral_stoic_name: "Stoic Burial"
+  doctrine_funeral_stoic_desc: "The body has died, but the soul lives on. Death is not a time for grief and lamentation, but rather a funeral is to honor the dead by committing their body to the earth in a quiet, humble ceremony."
+  doctrine_funeral_bewailment_name: "Bewailing Burial"
+  doctrine_funeral_bewailment_desc: "The soul has begun its long journey to [ROOT.Faith.PositiveAfterLife] and we will never see them again in the living world. It is imperative that all who knew the dead gather and offer their grief in a public show of bewailment. This both honors the dead and cleanses our souls of the grief felt by their departure."
+  doctrine_funeral_cremation_name: "Cremation"
+  doctrine_funeral_cremation_desc: "From ashes we came, to ashes we return. The body of our deceased is disposed of in a great funeral pyre, and the resulting ashes are spread across the earth to continue the journey of the dead."
+  doctrine_funeral_sky_burial_name: "$tenet_sky_burials_name$"
+  doctrine_funeral_sky_burial_desc: "$tenet_sky_burials_desc$"
+  doctrine_funeral_mummification_name: "Mummification"
+  doctrine_funeral_mummification_desc: "The body has ceased to function, but it is still the vessel by which the spirit will journey to [ROOT.Faith.PositiveAfterLife]. The physical form therefore must be as constant as the soul, awaiting the judgement of [ROOT.Faith.FateGodName]."
+  doctrine_parameter_burial_funeral: ""
+  doctrine_parameter_stoic_funeral: "The [funeral|E] [activity|E] offers more opportunities to gain [piety|E]"
+  doctrine_parameter_bewailment_funeral: "The [funeral|E] [activity|E] offers more opportunities to reduce [stress|E]"
+  doctrine_parameter_cremation_funeral: "The [funeral|E] [activity|E] costs greatly reduced [gold|E]"
+  doctrine_parameter_mummification_funeral: "The [funeral|E] [activity|E] costs more [gold|E] and yields powerful [artifacts|E] at the end of the activity"

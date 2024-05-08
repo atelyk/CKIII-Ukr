@@ -5,11 +5,9 @@
   intrigue_scheme_lifestyle.1001.a.tt: "#F Серед солдатів чутки розлітаються швидко... Якщо мої посланці не попадуться, я можу багато чого дізнатися.#!\n"
   intrigue_scheme_lifestyle.1001.b: "Ні, надто ризиковано."
   intrigue_scheme_lifestyle.1001.b.tt: "#F Не можна грати з солдатською вірністю.#!\n"
-
   intrigue_scheme_lifestyle.1002.t: "Дисципліна та вірність"
   intrigue_scheme_lifestyle.1002.desc: "Щойно мені донесли, що посланих мною солдатів викрили! Хто знає, можливо, прямо зараз [target.GetTitledFirstName] катує їх або гірше, допитує!"
   intrigue_scheme_lifestyle.1002.a: "Аби тільки не видали мої плани!"
-
   intrigue_scheme_lifestyle.3001.t: "Повсякденні звички"
   intrigue_scheme_lifestyle.3001.desc_agents: "Мої люди помітили, що [Select_CString(target.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName] не [Select_CString(target.IsFemale, 'має', 'має' )] певні звички.\n\nВарто до них придивитися, можливо, в них ключ до успіху..."
   intrigue_scheme_lifestyle.3001.desc: "Мені стало відомо, що [Select_CString(target.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))] [target.GetTitledFirstName] дотримується досить чіткого розкладу. Варто придивитися до [Select_CString(target.IsFemale, 'неї', 'нього' )] — можливо, в цьому ключ до успіху..."
@@ -18,27 +16,22 @@
   intrigue_scheme_lifestyle.3001.a.tt: "#F Затія, звичайно, ризикована ... #!"
   intrigue_scheme_lifestyle.3001.b: "Ризик занадто великий."
   intrigue_scheme_lifestyle.3001.b.tt: "#F [target.GetSheHe|U] може замітити стеження!#!"
-
   intrigue_scheme_lifestyle.3101.t: "Хто знає все"
   intrigue_scheme_lifestyle.3101.desc: "На слуг при дворі мало хто звертає увагу, адже вони постійно поруч: щось прибирають, незримо шастають коридорами, і слухають, слухають, слухають...\n\n[Select_CString(target.IsFemale, 'Моя', ' Мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstNamePossessive] тримає при дворі достатньо прислуги, і я можу цим скористатися."
   intrigue_scheme_lifestyle.3101.a: "Когось можна переконати поділитись інформацією з моїми людьми."
   intrigue_scheme_lifestyle.3101.a.tt: "#F Інформатори можуть розповісти щось цінне, але вони новачки в цій справі, і я, звичайно, дещо ризикую...#!"
   intrigue_scheme_lifestyle.3101.b: "Ризик занадто великий!"
   intrigue_scheme_lifestyle.3101.b.tt: "#F Я не можу довіряти таким людям!#!"
-
   intrigue_scheme_lifestyle.3102.desc: "Слуги, які повідомляли мені, чим займається [target.GetTitledFirstName], попалися!"
   intrigue_scheme_lifestyle.3102.a: "Краще було б їм мовчати!"
-
   intrigue_scheme_lifestyle.3201.t: "Листування"
   intrigue_scheme_lifestyle.3201.desc_animal: "Оце удача! [SCOPE.sC('target').GetTitledFirstName] шле листи з птахами, які дуже охочі до насіння з мого саду. Вони годуються тут досить довго, і я встигаю читати листування!"
   intrigue_scheme_lifestyle.3201.elope.desc: "Оце удача! Мої агенти знайшли лазівку до кабінету, де [target.GetLiege.Custom2('NamePossessiveCharacterIntroduction', target )] тримає недописані листи. Я можу прочитати все [target.GetLiege.GetHerHis] листування!"
   intrigue_scheme_lifestyle.3201.desc: "Оце удача! Мої агенти знайшли лазівку до кабінету, де [target.GetTitledFirstName] тримає недописані листи. Я можу прочитати все [SCOPE.sC('target').GetHerHis] листування!"
-
   intrigue_scheme_lifestyle.3201.a: "Не будемо зупинятись!"
   intrigue_scheme_lifestyle.3201.b: "[target.GetHerHis|U] посланці будуть їсти у мене з руки."
   intrigue_scheme_lifestyle.3201.b.tt: "Цей варіант доступний, тому що я маю модифікатор $modifier_hunt_friend_of_animal$"
   intrigue_scheme_lifestyle.3201.c: "Просто вдалий збіг обставин."
-
   intrigue_scheme_lifestyle.3301.t: "Інший шлях"
   intrigue_scheme_lifestyle.3301.desc_murder: "Мої люди виявили, що [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))] [target.GetTitledFirstName] завжди дивно реагує, якщо в розмові миготить [target.GetHerHis] [target.Custom2('RelationToMe', SCOPE.sC('secret_to_reveal_target'))] [secret_to_reveal_target.GetTitledFirstName]..."
   intrigue_scheme_lifestyle.3301.desc_lover: "Мої люди виявили, що [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))] [target.GetTitledFirstName] і [target.GetHerHis] [target.Custom2('RelationToMe', SCOPE.sC('secret_to_reveal_target'))] [secret_to_reveal_target.GetTitledFirstName] занадто часто залишаються наодинці..."
@@ -49,7 +42,6 @@
   intrigue_scheme_lifestyle.3301.a: "Якщо [target.GetSheHe] щось приховує, мені потрібно знати це!"
   intrigue_scheme_lifestyle.3301.b: "Я маю мету, і я її не залишу."
   intrigue_scheme_lifestyle.3301.b.tt: "#F Зі смертоносною точністю!#!"
-
   intrigue_scheme_lifestyle.3302.t: "Що приховує [SCOPE.sC('target').GetTitleAsNameNoTooltip]"
   intrigue_scheme_lifestyle.3302.desc_murder: "Одна ознака за іншою, дрібниця до дрібниці — і ось складається повна картина. [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('target'))] [SCOPE.sC('target').GetTitledFirstName] [Select_CString(target.IsFemale, 'здійснила', 'здійснив')] вбивство! І жертвою [Select_CString(secret_to_reveal_target.IsFemale, 'стала', 'став' )] [SCOPE.sC('target').GetHerHis] [Select_CString(secret_to_reveal_target.IsFemale, 'власна', 'власний' )] [SCOPE.sC('target').Custom2('RelationToMe', SCOPE.sC('secret_to_reveal_target'))] [SCOPE.sC('secret_to_reveal_target').GetTitledFirstName]!"
   intrigue_scheme_lifestyle.3302.desc_lover: "Одна ознака за іншою, дрібниця за дрібницею — і ось мої шпигуни збирають повну картину: [SCOPE.sC('secret_to_reveal_target').GetTitledFirstName] і [SCOPE.sC('target').GetTitledFirstName] коханці!"
@@ -58,7 +50,6 @@
   intrigue_scheme_lifestyle.3302.desc_fallback: "Одна ознака за іншою, дрібниця за дрібницею — і ось мої шпигуни збирають повну картину: [SCOPE.sC('target').GetTitledFirstName] справді щось приховує!"
   intrigue_scheme_lifestyle.3302.a: "О, це добре!"
   intrigue_scheme_lifestyle.3302.a.tt: "#F Я можу шантажувати [SCOPE.sC('target').GetHerHis], можу наказувати [SCOPE.sC('target').GetHerHim] #EMP все#! що завгодно!#!"
-
   intrigue_scheme_lifestyle.3401.t: "Лазівка"
   intrigue_scheme_lifestyle.3401.desc: "[target.GetTitledFirstNamePossessive] тримає при дворі найрізноманітніших людей. [target.Custom2('RelationToMe', SCOPE.sC('courtier_to_fool'))] [courtier_to_fool.GetTitledFirstName] — [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('courtier_to_fool'))] [courtier_to_fool.GetWomanMan], і спочатку в [courtier_to_fool.GetHerHis] компанії я поводжуся обережно, але невдовзі розумію, що [courtier_to_fool.GetSheHe] зовсім не уникає мене..."
   intrigue_scheme_lifestyle.3401.a: "Прошу, друже мій, розкажи про себе!"

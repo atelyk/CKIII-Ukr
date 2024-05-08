@@ -17,7 +17,6 @@
   forest_fighter_skill_desc: "битви у лісах"
   cautious_leader_skill_desc: "ретельно підготовлений наступ"
   organizer_skill_desc: "перекидання військ"
-
   trait_logistician_tooltip: "[GetTrait('logistician').GetName( ROOT.Char )]"
   trait_military_engineer_tooltip: "[GetTrait('military_engineer').GetName( ROOT.Char )]"
   trait_aggressive_attacker_tooltip: "[GetTrait('aggressive_attacker').GetName( ROOT.Char )]"
@@ -36,7 +35,6 @@
   forest_fighter_skill_tooltip: "[GetTrait('forest_fighter').GetName( ROOT.Char )]"
   cautious_leader_skill_tooltip: "[GetTrait('cautious_leader').GetName( ROOT.Char )]"
   organizer_skill_tooltip: "[GetTrait('organizer').GetName( ROOT.Char )]"
-
   warhorse_name_tencendur: "Тендендур"
   warhorse_name_bucephalus: "Буцефал"
   warhorse_name_seianian: "Кінь Сея"
@@ -62,7 +60,6 @@
   warhorse_name_prancer: "Танцівник"
   warhorse_name_abbot: "Аббат"
   warhorse_name_glitterhoof: "Гліттерхуф"
-
   horse_gender_her: "її"
   horse_gender_his: "його"
   horse_gender_him: "йому"

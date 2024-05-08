@@ -1,11 +1,9 @@
 ﻿l_english:
   WAR_DECLARED_OVERVIEW_DISMISS: "Зібрати загони!"
-  #WAR_DECLARED_OVERVIEW_DISMISS_TOOLTIP0": видалити це"
+  #WAR_DECLARED_OVERVIEW_DISMISS_TOOLTIP: "" delete this
   WAR_DECLARED_OVERVIEW_FLAVOR: "[WAR.Custom('WarDeclaredOpening')][WAR.Custom('WarDeclaredFlavor')]"
-
   war_declared_opening.neutral: "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateGreeting',ROOT.War.GetActiveCB.GetDefender)]\n\n"
   war_declared_opening.negative: "[ROOT.War.GetActiveCB.GetAttacker.Custom2('AppropriateGreetingNegative',ROOT.War.GetActiveCB.GetDefender)]\n\n"
-
   war_declared_flavor.zealous: "Надто довго тобі все сходило з рук! Сьогодні я принесу тобі священну відплату за всі твої злочини! [ROOT.War.GetActiveCB.GetAttacker.Custom('ZealousDoW')]"
   war_declared_flavor.zealous.mercifulgod: "Хай змилується над тобою [ROOT.Char.GetFaith.HighGodName], тому що від мене ти милосердя не діждешся!"
   war_declared_flavor.zealous.reincarnation: "Може твоє наступне життя буде не настільки жалюгідним."

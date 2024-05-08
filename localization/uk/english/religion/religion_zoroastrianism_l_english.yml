@@ -1,5 +1,4 @@
 ﻿l_english:
-
   #Common Zoroastrian Localization
   zoroastrianism_religion: "Зороастризм"
   zoroastrianism_religion_adj: "Зороастрійськ"
@@ -7,8 +6,8 @@
   zoroastrianism_religion_adherent_plural: "Зороастрійці"
   zoroastrianism_religion_desc: "Дотримуючись вчення Зороастра, зороастрійці вірять у володаря мудрості Ахура Мазду, який є джерелом усього добра, і який протистоїть брехні, яку представляє Ангра Майню. Зороастрієць шукає шляху Істини через добрі думки, добрі слова та добрі справи."
   zoroastrianism_high_god_name: "Ахура Мазда"
-  zoroastrianism_high_god_name_2: "$zoroastrianism_high_god_name$ # Optional translation alt"
-  zoroastrianism_high_god_name_3: "$zoroastrianism_high_god_name$ # Optional translation alt"
+  zoroastrianism_high_god_name_2: "$zoroastrianism_high_god_name$ # Optional translation alt" #Optional translation alt
+  zoroastrianism_high_god_name_3: "$zoroastrianism_high_god_name$ # Optional translation alt" #Optional translation alt
   zoroastrianism_high_god_name_possessive: "Ахура Мазди"
   zoroastrianism_high_god_name_alternate: "Володар мудрості"
   zoroastrianism_high_god_name_alternate_possessive: "Володаря мудрості"
@@ -23,12 +22,12 @@
   zoroastrianism_evil_god_angra_mainyu: "Ангра Майню"
   zoroastrianism_evil_god_daevas: "Деви"
   zoroastrianism_house_of_worship: "Вогняний Храм"
-  zoroastrianism_house_of_worship_2: "$zoroastrianism_house_of_worship$ # Optional translation alt"
-  zoroastrianism_house_of_worship_3: "$zoroastrianism_house_of_worship$ # Optional translation alt"
+  zoroastrianism_house_of_worship_2: "$zoroastrianism_house_of_worship$ # Optional translation alt" #Optional translation alt
+  zoroastrianism_house_of_worship_3: "$zoroastrianism_house_of_worship$ # Optional translation alt" #Optional translation alt
   zoroastrianism_house_of_worship_plural: "Вогняни храми"
   zoroastrianism_religious_symbol: "фаравахар"
-  zoroastrianism_religious_symbol_2: "$zoroastrianism_religious_symbol$ # Optional translation alt"
-  zoroastrianism_religious_symbol_3: "$zoroastrianism_religious_symbol$ # Optional translation alt"
+  zoroastrianism_religious_symbol_2: "$zoroastrianism_religious_symbol$ # Optional translation alt" #Optional translation alt
+  zoroastrianism_religious_symbol_3: "$zoroastrianism_religious_symbol$ # Optional translation alt" #Optional translation alt
   zoroastrianism_religious_text: "Авеста"
   zoroastrianism_religious_text_2: "$zoroastrianism_religious_text$ # Optional translation alt"
   zoroastrianism_religious_text_3: "$zoroastrianism_religious_text$ # Optional translation alt"
@@ -43,69 +42,68 @@
   zoroastrianism_priest_male_plural: "мобеди"
   zoroastrianism_priest_female: "мобедяр"
   zoroastrianism_priest_female_plural: "мобедяри"
+  zoroastrianism_alternate_priest_term: "Magi"
   zoroastrianism_alternate_priest_term_plural: "священство"
   zoroastrianism_bishop_male: "дастур"
   zoroastrianism_bishop_male_plural: "дастури"
   zoroastrianism_bishop_female: "дастуяр"
   zoroastrianism_bishop_female_plural: "дастуярки"
   zoroastrianism_divine_realm: "Рай"
-  zoroastrianism_divine_realm_2: "$zoroastrianism_divine_realm$ # Optional translation alt"
-  zoroastrianism_divine_realm_3: "$zoroastrianism_divine_realm$ # Optional translation alt"
+  zoroastrianism_divine_realm_2: "$zoroastrianism_divine_realm$ # Optional translation alt" #Optional translation alt
+  zoroastrianism_divine_realm_3: "$zoroastrianism_divine_realm$ # Optional translation alt" #Optional translation alt
   zoroastrianism_positive_afterlife: "рай"
-  zoroastrianism_positive_afterlife_2: "$zoroastrianism_positive_afterlife$ # Optional translation alt"
-  zoroastrianism_positive_afterlife_3: "$zoroastrianism_positive_afterlife$ # Optional translation alt"
+  zoroastrianism_positive_afterlife_2: "$zoroastrianism_positive_afterlife$ # Optional translation alt" #Optional translation alt
+  zoroastrianism_positive_afterlife_3: "$zoroastrianism_positive_afterlife$ # Optional translation alt" #Optional translation alt
   zoroastrianism_negative_afterlife: "пекло"
-  zoroastrianism_negative_afterlife_2: "$zoroastrianism_negative_afterlife$ # Optional translation alt"
-  zoroastrianism_negative_afterlife_3: "$zoroastrianism_negative_afterlife$ # Optional translation alt"
-
+  zoroastrianism_negative_afterlife_2: "$zoroastrianism_negative_afterlife$ # Optional translation alt" #Optional translation alt
+  zoroastrianism_negative_afterlife_3: "$zoroastrianism_negative_afterlife$ # Optional translation alt" #Optional translation alt
   zoroastrianism_creator_god_name: "$zoroastrianism_high_god_name$"
   zoroastrianism_creator_god_name_possessive: "$zoroastrianism_high_god_name_possessive$"
-  zoroastrianism_health_god_name: "$zoroastrianism_high_god_name$"
-  zoroastrianism_health_god_name_possessive: "$zoroastrianism_high_god_name_possessive$"
-  zoroastrianism_fertility_god_name: "$zoroastrianism_high_god_name$"
-  zoroastrianism_fertility_god_name_possessive: "$zoroastrianism_high_god_name_possessive$"
-  zoroastrianism_wealth_god_name: "$zoroastrianism_high_god_name$"
-  zoroastrianism_wealth_god_name_possessive: "$zoroastrianism_high_god_name_possessive$"
+  zoroastrianism_health_god_name: "Airyaman"
+  zoroastrianism_health_god_name_possessive: "Airyaman's"
+  zoroastrianism_fertility_god_name: "Ardwisur Anāhīd"
+  zoroastrianism_fertility_god_name_possessive: "Ardwisur Anāhīd's"
+  zoroastrianism_wealth_god_name: "Haurvatat"
+  zoroastrianism_wealth_god_name_possessive: "Haurvatat's"
   zoroastrianism_household_god_name: "$zoroastrianism_high_god_name$"
   zoroastrianism_household_god_name_possessive: "$zoroastrianism_high_god_name_possessive$"
-  zoroastrianism_fate_god_name: "$paganism_fate_god_name$"
-  zoroastrianism_fate_god_name_possessive: "$paganism_fate_god_name_possessive$"
-  zoroastrianism_knowledge_god_name: "$zoroastrianism_high_god_name$"
-  zoroastrianism_knowledge_god_name_possessive: "$zoroastrianism_high_god_name_possessive$"
-  zoroastrianism_war_god_name: "$zoroastrianism_high_god_name$"
-  zoroastrianism_war_god_name_possessive: "$zoroastrianism_high_god_name_possessive$"
-  zoroastrianism_trickster_god_name: "$christianity_trickster_god_name$"
-  zoroastrianism_trickster_god_name_possessive: "$christianity_trickster_god_name_possessive$"
-  zoroastrianism_night_god_name: "$zoroastrianism_high_god_name$"
-  zoroastrianism_night_god_name_possessive: "$zoroastrianism_high_god_name_possessive$"
-  zoroastrianism_water_god_name: "$zoroastrianism_high_god_name$"
-  zoroastrianism_water_god_name_possessive: "$zoroastrianism_high_god_name_possessive$"
-
+  zoroastrianism_fate_god_name: "Rashnu"
+  zoroastrianism_fate_god_name_possessive: "Rashnu's"
+  zoroastrianism_knowledge_god_name: "Mithra"
+  zoroastrianism_knowledge_god_name_possessive: "Mithra's"
+  zoroastrianism_war_god_name: "Warahrām"
+  zoroastrianism_war_god_name_possessive: "Warahrām's"
+  zoroastrianism_trickster_god_name: "Akoman"
+  zoroastrianism_trickster_god_name_possessive: "Akoman's"
+  zoroastrianism_night_god_name: "Mah"
+  zoroastrianism_night_god_name_possessive: "Mah's"
+  zoroastrianism_water_god_name: "Haurvatat"
+  zoroastrianism_water_god_name_possessive: "Haurvatat's"
+  zoroastrianism_death_deity_name: "Nasu"
+  zoroastrianism_death_deity_name_possessive: "Nasu's"
   #Mazdayasna
   mazdayasna: "Маздаясна"
   mazdayasna_adj: "Маздаяснійськ"
   mazdayasna_adherent: "Маздаян"
   mazdayasna_adherent_plural: "Маздяни"
   mazdayasna_desc: "Люди допомагають у боротьбі між Ахура Маздою та злими духами, Ангра Майню, добрими думками та життям. Це здійснюється через ритуальну чистоту, збереження природи та знищення злих створінь."
-
   #Behafaridism
   zurvanism: "Біхафаридизм"
   zurvanism_adj: "Бехафаріді"
   zurvanism_adherent: "Бехафаридит"
   zurvanism_adherent_plural: "Бегафарідити"
   zurvanism_desc: "Послідовники вчення Бехафаріда, $zurvanism_adherent_plural$, прагнуть співпраці з ісламським світом, проводячи численні реформи своєї віри у відповідь на мусульманську критику основного зороастризму. Серед цих реформ — заборона споживання алкоголю, сувора опозиція сімейним шлюбам і заохочення благодійності як міри використання свого багатства для суспільного блага."
-  #Zurvanism doctrine
+  #Zurvanism doctrine - FP3 update: removed from doctrine_asceticism and saved for possible future Fatalism tenet.
   tenet_zurvanism_name: "Зурванізм"
   tenet_zurvanism_desc: "Зурваністи вірять, що Ахура Мазда і Ангра Майню були рівноправними, але протилежними близнюками, народженими від Зурвана, Творця всього. Зурванізм сильно наголошує на допомозі Ахура Мазді шляхом викорінення зла та брехні."
-
-
+  zurvanism_creator_god_name: "Zurvān"
+  zurvanism_creator_god_name_possessive: "Zurvān's"
   #Gayomarthianism
   gayomarthianism: "Гайомартизм"
   gayomarthianism_adj: "Гайомартизм"
   gayomarthianism_adherent: "Гайомартіанін"
   gayomarthianism_adherent_plural: "Гайомартіані"
   gayomarthianism_desc: "Ґрунтуючись на ідеї, що Ахура Мазда своїми думками випадково створив злих духів, гейомартіанці відкидають непогрішимість Мудрого Господа, натомість наголошуючи на ритуальній практиці пізнання Істини в спілкуванні з Ахура Маздою."
-
   #Khurmazta
   khurmazta: "Хурмаздизм"
   khurmazta_adj: "Хормузтитськ"
@@ -115,21 +113,28 @@
   khurmazta_good_god_zravan: "Зраван"
   khurmazta_good_god_weshparkar: "Вешпаркар"
   khurmazta_good_god_adbad: "Адбад"
-
+  khurmazta_fertility_god_name: "Nana"
+  khurmazta_fertility_god_name_possessive: "Nana's"
+  khurmazta_high_god_name: "Khurmazta Bagh"
+  khurmazta_high_god_name_possessive: "Khurmazta Bagh's"
+  khurmazta_war_god_name: "Waseghn"
+  khurmazta_war_god_name_possessive: "Waseghn's"
+  khurmazta_fate_god_name: "Parn"
+  khurmazta_fate_god_name_possessive: "Parn's"
+  khurmazta_devil_name: "Shimnu"
+  khurmazta_devil_name_possessive: "Shimnu's"
   #Mazdakism
   mazdakism: "Маздакізм"
   mazdakism_adj: "Маздакитськ"
   mazdakism_adherent: "Маздакит"
   mazdakism_adherent_plural: "Маздакити"
   mazdakism_desc: "Пророк Маздак дотримувався слова Ахура Мазди і агітував за спільне володіння та загальну співпрацю між людьми для подолання Анґра Майню."
-
   #Khurramism
   khurramism: "Хуррамізм"
   khurramism_adj: "Хуррамітськ"
   khurramism_adherent: "Хурраміт"
   khurramism_adherent_plural: "Хурраміти"
   khurramism_desc: "У світі Світла й Темряви несправедливі правителі мають бути скинуті, щоб підтримати добро. Через таких пророків, як Маздак, Мухаммед і Абу Муслім, хурраміти вірять, що Божественне народжується в людстві. І одного дня воно повернеться, щоб повести їх як Месія."
-
   #Urartuism
   urartuism: "Аревордик"
   urartuism_adj: "Аревордійськ"
@@ -138,6 +143,10 @@
   urartuism_high_god_name: "Арамазд"
   urartuism_high_god_name_2: "$urartuism_high_god_name$ # Optional translation alt"
   urartuism_high_god_name_possessive: "Арамазда"
+  urartuism_fertility_god_name: "Anahit"
+  urartuism_fertility_god_name_possessive: "Anahit's"
+  urartuism_death_deity_name: "Spandaramet"
+  urartuism_death_deity_name_possessive: "Spandaramet's"
   urartu_good_god_the_sun: "Арев"
   urartu_good_god_mithra: "Міхр"
   urartu_good_god_zoroaster: "Зрадашт"
@@ -145,3 +154,24 @@
   urartu_good_god_vanatur: "Ванатур"
   urartuism_priest_male: "Хазарпет"
   urartuism_priest_male_plural: "Хазарпети"
+  #Afridunism, Daylamite "paganism"
+  afridunism: "Afridunism"
+  afridunism_adj: "Afridunist"
+  afridunism_adherent: "Afridunist"
+  afridunism_adherent_plural: "Afridunists"
+  afridunism_desc: "Steeped in Daylamite traditions as well as Persian paganism, many aspects of Afridunism predate even the ancient Zoroastrian creed. Adherents strive to live according to the rules laid down by the mythical hero Faridun, which emphasizes the absolute power of family leaders and a fierce spirit of independence."
+  afridunism_good_god_mithra: "Mithra"
+  afridunism_good_god_hvar_khshaita: "Hvar-Khshaita"
+  afridunism_war_god_name: "Verethragna"
+  afridunism_war_god_name_possessive: "Verethragna's"
+  afridunism_priest_male: "zautar"
+  afridunism_priest_male_plural: "zautars"
+  #Doctrines for FP3
+  doctrine_zoroastrian_branches_name: "Good and Evil"
+  doctrine_zoroastrian_branches_desc: "Do we support the established priesthood and their doctrine, to guard our faith against heresy - or is it actually they who are misguided and corrupt?"
+  doctrine_major_branch_behdin_name: "Behdin"
+  doctrine_major_branch_behdin_desc: "Though we might differ on some of the pecularities of practice, do we mainline Zoroastrians not agree on the fundamentals of loyalty to Ahura Mazda?"
+  doctrine_heretic_branch_zandik_name: "Korramdin"
+  doctrine_heretic_branch_zandik_desc: "The $doctrine_major_branch_behdin_name$ call us heretics, outcasts, and subversives. Though nothing binds us together but their scorn, righteousness dictates our resistance and their disdain hardens our hearts."
+  doctrine_parameter_hostility_override_doctrine_major_branch_behdin: "Considers other Behdin [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]."
+  doctrine_parameter_hostility_override_doctrine_heretic_branch_zandik: "Considers other Korramdin [faiths|E] to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"

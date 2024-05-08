@@ -12,7 +12,6 @@
   heresy.0010.b: "А знаєте, адже вони в чомусь мають рацію..."
   heresy.0010.notification.title: "Новий релігійний рух"
   heresy.0010.notification: "[heretic_ruler.GetFullName] створює нову [heretic_faith.GetAdjective]у течію!"
-
   heresy.0011.notification.heresy: "[convert_ruler.Custom2('HierarchicalStatus', me)|U] [Select_CString(convert_ruler.IsPlayer, 'приймаєте', 'приймає' )] єресь: [convert_ruler.GetShortUINameNoTooltip]"
   heresy.0011.notification.same_faith: "[convert_ruler.Custom2('HierarchicalStatus', me)|U] [Select_CString(convert_ruler.IsPlayer, 'приймаєте', 'приймає'  )] істинну віру: [convert_ruler.GetShortUINameNoTooltip]"
   heresy.0011.notification.other: "[convert_ruler.Custom2('HierarchicalStatus', me)|U] [Select_CString(convert_ruler.IsPlayer, 'змінюєте', 'змінює' )] віру: [convert_ruler.GetShortUINameNoTooltip]"

@@ -17,7 +17,6 @@
   treat_sambocade: "чизкейк"
   treat_sesame_cake: "кунжутний торт"
   treat_baked_banana: "запечений банан"
-
   treat_comfit_uppercase: "Комфорт"
   treat_roasted_almonds_uppercase: "Смажений мигдаль"
   treat_nougat_uppercase: "Нуга"
@@ -34,23 +33,19 @@
   treat_sambocade_uppercase: "Самбокада"
   treat_sesame_cake_uppercase: "Кунжутний торт"
   treat_baked_banana_uppercase: "Печений банан"
-
   education_learning_loc: "ученість"
   education_stewardship_loc: "управління"
   education_martial_loc: "військова справа"
   education_intrigue_loc: "інтрига"
   education_diplomacy_loc: "дипломатія"
-
   temper_anger: "гнів"
   temper_disappointment: "розчарований"
   temper_hesitation: "нерішучість"
   temper_horror: "жахи"
-
   prison_pet_rat: "щур"
   prison_pet_stone: "камінь"
   prison_pet_spoon: "ложка"
   prison_pet_cockroach: "тарган"
-
   saddle: "сідло"
   gown: "сукня"
   jacket: "куртка"
@@ -63,10 +58,8 @@
   tapestry: "гобелен"
   holy_bock: "[ROOT.Char.GetFaith.ReligiousText]"
   leatherbound_journal: "журнал у шкіряній палітурці"
-
   died_simply: "смерть"
   died_house_arrest: "помер під домашнім арештом"
-
   private_object_finest_leather_shoes: "найкраще шкіряне взуття"
   private_object_favorite_embroidered_cloak: "улюблений вишитий плащ"
   private_object_ceremonial_sword: "церемоніальний меч"
@@ -82,7 +75,6 @@
   private_object_precious_jewelry: "дорогоцінні прикраси"
   private_object_hairbrush: "гребінець"
   private_object_formal_gown: "офіційна сукня"
-
   a_whip: "батог"
   a_shoe: "черевики"
   a_rope: "мотузка"
@@ -92,7 +84,6 @@
   an_animal_skin: "шкіра тварини"
   a_candle: "свічка"
   a_razor_blade: "лезо бритви"
-
   capitalized_whip: "Батіг"
   capitalized_shoe: "Взуття"
   capitalized_rope: "Мотузка"
@@ -102,7 +93,6 @@
   capitalized_animal_skin: "Шкіра тварини"
   capitalized_candle: "Свічка"
   capitalized_razor_blade: "Лезо бритви"
-
   object_whips: "батоги"
   object_shoes: "взуття"
   object_ropes: "мотузки"
@@ -112,7 +102,6 @@
   object_animal_skins: "шкіри тварин"
   object_candles: "свічки"
   object_razor_blades: "леза бритв"
-
   whip: "батіг"
   shoe: "взуття"
   rope: "мотузка"

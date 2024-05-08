@@ -5,27 +5,21 @@
   parent.1001.desc: "[Select_CString(parent.IsFemale, 'Моя', 'Мій' )] [parent.Custom('MotherFather')] може багато розповісти про те, чим займаються $knight_culture_player_plural_no_tooltip_lowercase$ держави: починаючи від їх тренувань і закінчуючи тим, як краще готуватися до бою.\n\nНавіть самі $knight_culture_player_plural_no_tooltip$ визнають, що [parent.GetSheHe] говорить дуже розумні речі."
   parent.1001.a: "«То як тоді #EMP треба#! все влаштувати, [parent.Custom('MotherFather')]?»"
   parent.1001.b: "Тільки я вирішую, як вони битимуться!"
-
   parent.1002.desc: "[Select_CString(parent.IsFemale, 'Моя', 'Мій' )] [parent.Custom('MotherFather')] — [Select_CString(parent.IsFemale, 'мудра', 'мудрий' )] [parent.GetWomanMan], [Select_CString(parent.IsFemale, 'яка розуміє', 'який розуміє' )] потреби та бажання народу.\n\n[Select_CString(parent.IsFemale, 'Вона', 'Він' )] часто пропонує мені свою допомогу у переговорах із людьми."
   parent.1002.a: "Чесно кажучи, мені потрібна будь-яка порада."
   parent.1002.b: "«Я в змозі своїми силами керувати моїм двором, [Select_CString(parent.IsFemale, 'мамо', 'батьку' )]»."
-
   parent.1003.desc: "[Select_CString(parent.IsFemale, 'Моя', 'Мій' )] [parent.Custom('MotherFather')] іноді годинами вказує на дрібні деталі, що я втрачаю при дворі.\n\nДвоє слуг, що раніше билися один з одним, тепер мило розмовляють, каштелян поводиться тихіше, ніж зазвичай, канделябр пересунули на інший кінець зали..."
   parent.1003.a: "Краще знати, ніж не знати та пошкодувати про це."
   parent.1003.b: "«Я не дам тобі підгодовувати мою тривогу, [Select_CString(parent.IsFemale, 'мамо', 'батьку' )]»."
-
   parent.1004.desc: "Іноді мені здається, що [Select_CString(parent.IsFemale, 'моя', 'мій' )] [parent.Custom('MotherFather')] краще знає про вміст моєї скарбниці, ніж мій управитель. Крупиця золота коштує вдвічі більше, коли [parent.GetSheHe] каже мені, як нею розпорядитися!"
   parent.1004.a: "«Допоможи мені зробити розумний вибір, [Select_CString(parent.IsFemale, 'мамо', 'батьку' )]»."
   parent.1004.b: "Моя держава, моя скарбниця!"
-
   parent.1005.desc: "У моїй державі знайдеться чимало мудреців, але [Select_CString(parent.IsFemale, 'моя', 'мій' )] [parent.Custom('MotherFather')], без сумніву, переможе будь-кого з них у суперечці. [Select_CString(parent.IsFemale, 'Вона', 'Він' )] завжди може поглянути на речі зовсім інакше або поділитися крупинкою своєї мудрості!"
   parent.1005.a: "«Поділися зі мною своєю мудрістю, [Select_CString(parent.IsFemale, 'мамо', 'батьку' )]!»"
   parent.1005.b: "Блискучі промови, але чи мудрі вони?"
-
   parent.1006.t: "Рука, що спрямовує"
   parent.1006.desc: "[Select_CString(parent.IsFemale, 'Моя', 'Мій' )] [parent.Custom('MotherFather')] останнім часом цікавиться всім, що відбувається у володінні [county.GetNameNoTier].\n\n[Select_CString(parent.IsFemale, 'Вона навіть почала', 'Він навіть почав' )] вести листування з баронами та мерами, радячи їм, як правильно керувати володіннями!"
   parent.1006.a: "Гарна робота, [Select_CString(parent.IsFemale, 'мамо', 'батьку' )]!"
-
   parent.1007.t: "Посередництво [Select_CString(parent.IsFemale, 'матері', 'батька' )]"
   parent.1007.desc_opening: "[Select_CString(courtier.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('courtier'))] [courtier.GetTitledFirstName] дуже зрозуміло [Select_CString(parent.IsFemale, 'висловила', 'висловив' )] свою зневагу до мене.\n\n"
   parent.1007.courtier_1: "Нещодавно мені вдалося підслухати [courtier.GetHerHis] розповідь про якусь помилку, #EMP нібито#! допущеною мною на бенкеті. На бенкеті, де мене навіть не було!"
@@ -33,27 +27,22 @@
   parent.1007.desc_end: "\n\nЗавжди [Select_CString(parent.IsFemale, 'виступала', 'виступав' )] у ролі посередника, [Select_CString(parent.IsFemale, 'моя', 'мій' )] [parent.Custom('MotherFather')] [Select_CString(parent.IsFemale, 'запропонувала', 'запропонував' )] свою допомогу у примиренні."
   parent.1007.a: "Я завжди ціную твою допомогу, [Select_CString(parent.IsFemale, 'мамо', 'батьку' )]."
   parent.1007.b: "Я можу втримати їх у вузді самостійно!"
-
   parent.1009.t: "Нове знайомство"
   parent.1009.desc: "[Select_CString(new_courtier.IsFemale, 'Одна', 'Один' )] з давніх знайомих [Select_CString(parent.IsFemale, 'моєї матері', 'мого батька' )], [new_courtier.GetTitledFirstName], [Select_CString(new_courtier.IsFemale, 'прибула', 'прибув' )] по [parent.GetHerHis] запрошенню до двору.\n\n[Select_CString(parent.IsFemale, 'Моя', 'Мій' )] [parent.Custom('MotherFather')] без кінця натякає, який сприятливий вплив не на державу може мати [new_courtier.GetFirstNameNoTooltip], якщо дати [Select_CString(new_courtier.IsFemale, 'їй', 'йому' )] посаду при дворі."
   parent.1009.a: "Напевно, ми придумаємо, чим [new_courtier.GetHerHim] зайнятися."
   parent.1009.b: "Ні, [new_courtier.GetSheHe] не буде тут жити."
-
   parent.1010.t: "Відносини, які приносять спокій"
   parent.1010.desc: "Останнім часом тягар влади тисне на мене сильніше, ніж звичайно, і [Select_CString(parent.IsFemale, 'моя', 'мій' )] [parent.Custom('MotherFather')], схоже, [Select_CString(parent.IsFemale, 'помітила', 'помітив' )] це.\n\n[Select_CString(parent.IsFemale, 'Вона', 'Він' )] наполягає, що мені потрібно провести день у садах, запевняючи, що на цей час [parent.GetSheHe] зможе зайнятися моїми обов'язками."
   parent.1010.a: "Невеликий відпочинок — саме те, що мені потрібно."
   parent.1010.b: "Я не маю часу відпочивати!"
-
   parent.2002.t: "Качественное образование"
   parent.2002.desc: "Вже декілька днів [child.GetTitledFirstName] не [Select_CString(child.IsFemale, 'траплялася', 'траплявся' )] мені не очі, а невдовзі з'ясувалося, що [Select_CString(parent.IsFemale, 'моя надто багато на себе взяла', 'мій надто багато на себе взяв' )] [parent.Custom('MotherFather')] чудово [Select_CString(parent.IsFemale, 'знала', 'знав' )], де [child.GetSheHe]:\n«Я [Select_CString(parent.IsFemale, 'відіслала', 'відіслав' )] [child.GetHerHis], [child.GetHerHim] потрібно вчитися! Адже [child.GetHerHim] же ш буде краще, якщо про [Select_CString(child.IsFemale, 'неї', 'нього' )] позаботится [SCOPE.sCharacter('new_guardian').GetTitledFirstName]»."
   parent.2002.a: "#EMP Куди#! ти [Select_CString(parent.IsFemale, 'відправила', 'відправив' )] [Select_CString(child.IsFemale, 'мою дочку', 'мого сина' )]?!"
   child_sent_away_tt: "[child.GetTitledFirstNameNoTooltip] тепер навчатиметься у персонажа [new_guardian.GetTitledFirstNameNoTooltip]"
-
   parent.2003.t: "[Select_CString(parent.IsFemale, 'Моя дріб'язкова', 'Мій дріб'язковий' )] [SCOPE.sCharacter('parent').Custom('MotherFather')]"
   parent.2003.desc: "Мені здавалося, що [Select_CString(parent.IsFemale, 'моя', 'мій' )] [parent.Custom('MotherFather')] і [Select_CString(hated_courtier.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hated_courtier'))] [hated_courtier.GetTitledFirstName] ніколи не припинять ворогувати.\n\nЩо ж, перестали. За наказом [Select_CString(parent.IsFemale, 'моєї матері', 'мого батька' )] [hated_courtier.GetFirstNameNoTooltip] [Select_CString(hated_courtier.IsFemale, 'було вигнано', 'було вигнано' )] з моєї держави!"
   parent.2003.a: "Та як [parent.GetSheHe] сміє?! Це #EMP моя#! держава!"
   parent.2003.b: "От і спекалися біди."
-
   parent.2004.t: "Постійна незручність"
   parent.2004.opening: "[Select_CString(parent.IsFemale, 'Моя', 'Мій' )] [parent.Custom('MotherFather')] [Select_CString(parent.IsFemale, 'взяла', 'взяв' )] у звичку всюди за мною слідувати, озвучувати свою думку про кожну мою дію і постійно пропонувати свою пораду."
   parent.2004.malicious: "\n\n[Select_CString(parent.IsFemale, 'Вона', 'Він' )] постійно прискіпується до мене, стверджуючи, що це заради мого ж блага, і затято все заперечує, варто мені помітити випадкову посмішку на [parent.GetHerHis] губах."
@@ -69,7 +58,6 @@
   parent.2004.a: "Я велю [parent.GetHerHim] припинити!"
   parent.2004.b: "[Select_CString(parent.IsFemale, 'Вона настирлива', 'Він настирливий' )], але це приносить користь..."
   parent.2004.b.message: "Мене все влаштовує"
-
   parent.3001.t: "Під моїм крильцем"
   parent.3001.desc: "Від мене не сховалося, що [Select_CString(child.IsFemale, 'моя', 'мій' )] [child.Custom('GetDaughterSon')] [child.GetTitledFirstName] і [Select_CString(parent.IsFemale, 'моя', 'мій' )] [parent.Custom('MotherFather')] проводять багато часу разом.\n\nСхоже, [parent.GetTitledFirstNameNoTooltip] цікавиться, яким життям живе [SCOPE.sCharacter('child').GetFirstNameNoTooltip], і має намір брати в ній активну участь."
   parent.3001.a: "[Select_CString(parent.IsFemale, 'Моя', 'Мій' )] [parent.Custom('MotherFather')] дійсно піклується про [Select_CString(child.IsFemale, 'мою дочку', 'мого сина' )]!"

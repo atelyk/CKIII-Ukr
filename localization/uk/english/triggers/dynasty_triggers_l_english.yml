@@ -1,17 +1,15 @@
 ﻿l_english:
-
   HAS_DYNASTY_PRESTIGE_TRIGGER: "[dynasty|E] [DYNASTY.GetBaseName] має [dynasty_prestige|El] в кількості $NUM|V0$"
   NOT_HAS_DYNASTY_PRESTIGE_TRIGGER: "[dynasty|E] [DYNASTY.GetBaseName] не має [dynasty_prestige|El] в кількості $NUM|V0$"
-
   HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER: "У [Concept( 'dynasty', 'династії' )|E] [DYNASTY.GetBaseName] [dynasty_prestige_level|El] $COMPARATOR$ $NUM|V0$"
   NOT_HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER: "[dynasty_prestige_level|E] [Concept( 'dynasty', 'династії' )|El] [DYNASTY.GetBaseName] #bold не#! $COMPARATOR$ $NUM|V0$"
-
   HAS_DYNASTY_MODIFIER: "[dynasty|E] [DYNASTY.GetBaseName] має модифікатор $MODIFIER|V$"
-
   HAS_HOUSE_MODIFIER: "[house|E] [DYNASTY_HOUSE.GetName] має модифікатор $MODIFIER|V$"
   ADULT_HOUSE_MEMBERS_AT_LEAST: "Щонайменше $PERCENT|%$ дорослих членів [houses|El]:"
   ADULT_HOUSE_MEMBERS_COUNT_AT_LEAST: "Дорослі члени [houses|El] — не менше $COUNT$:"
-
   DYNASTY_PRESTIGE_LEVEL_TRIGGER: "[dynasty_prestige_level|E]: $NUM|V0$"
   HAS_DYNASTY_TRIGGER: "Is a member of a [dynasty|E]"
   DYNASTY_NUM_UNLOCKED_PERKS: "Number of unlocked perks: $NUM|V0$"
+  HAS_DYNASTY_PERK_NONE: "The [dynasty|E] has the [DYNASTY_PERK.GetName] Legacy"
+  NOT_HAS_DYNASTY_PERK: "The [DYNASTY.GetBaseName] [dynasty|E] does not have the [DYNASTY_PERK.GetName] Legacy"
+  HAS_DYNASTY_PERK: "The [DYNASTY.GetBaseName] [dynasty|E] has the [DYNASTY_PERK.GetName] Legacy"

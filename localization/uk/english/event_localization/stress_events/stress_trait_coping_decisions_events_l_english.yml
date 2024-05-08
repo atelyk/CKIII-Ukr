@@ -1,30 +1,23 @@
 ﻿l_english:
-
   stress_trait_coping_decisions.1001.t: "Боротьба зі стресом: наливай!"
   stress_trait_coping_decisions.1001.desc: "Ще однин келих, і мої плечі трохи розслабляються. #EMP Ось так#! мені і потрібно проводити час — тверезість приносить страждання."
   stress_trait_coping_decisions.1001.a: "Я... #EMP *гик*#! я вже почуваюся краще!"
-
   stress_trait_coping_decisions.1002.t: "Боротьба зі стресом: товариш по чарці"
   stress_trait_coping_decisions.1002.desc: "«[ROOT.Char.GetFirstNameNoTooltip]! Вітаю!»\n\nЗненацька [Select_CString(fellow_drunkard.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fellow_drunkard'))] [fellow_drunkard.GetTitledFirstName] сідає до мене з келихом в руці. Очевидно, [fellow_drunkard.GetSheHe] тут теж для того, щоб розслабитися: ми проводимо залишок ночі за спільним розпиттям. Мені вже декілька #EMP місяців#! не вдавалося так розслабитись!"
   stress_trait_coping_decisions.1002.a: "Пий, друже!"
-
   stress_trait_coping_decisions.1003.t: "Товариш по чарці."
   stress_trait_coping_decisions.1003.desc: "Я п'ю на самоті в таверні, коли раптом бачу, що [Select_CString(original_drunkard.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_drunkard'))] [original_drunkard.GetTitledFirstName] сидить на іншій стороні залу.\n\nЯ тут же підходжу, і ми проводимо решту ночі, випиваючи разом. [original_drunkard.GetSheHe|U] дійсно вміє проводити час!"
-
   stress_trait_coping_decisions.1004.t: "Боротьба зі стресом: сонний ранок"
   stress_trait_coping_decisions.1004.desc: "Я прокидаюся, моя голова лежить на м'якій подушці, а поруч зі мною лежить кілька теплих тіл. Гаряча мабуть була нічка! Я насилу згаду...\n\n#EMP Бе-е-е!#!\n\n...Хм. Розплющивши очі, я бачу дуже #EMP білу#! та #EMP пухнасту#! морду. Несподівано моя подушка встає і йде, а за нею мене покидають мене і інші. Я залишаюся на самоті лежати на сіні."
   stress_trait_coping_decisions.1004.a: "Що ж... Це була непогана вівц... нічка!"
-
   stress_trait_coping_decisions.1501.t: "Боротьба зі стресом: заспокійливий дим"
   stress_trait_coping_decisions.1501.desc: "Я відкидаюся назад в кріслі і спокійно тягнуся за наступним пиріжком. Приємний смак не сходить з язика, і всі мої тривоги зникають у тумані.\n\nМені не вдавалося досягти такого спокою багато #EMP тижнів#!. Просто... бути тут. З тарілкою пирогів з гашишем. І цього достатньо."
   stress_trait_coping_decisions.1501.a: "Більше мені нічого не потрібно."
-
   stress_trait_coping_decisions.2001.t: "Боротьба зі стресом: розпуста"
   stress_trait_coping_decisions.2001.desc_woman: "Мене обплітають руки та ноги, [ROOT.Char.Custom('AttractionWomanManIndef')] зверху, і в цей момент на мене хвилею накочує екстаз — та полегшення."
   stress_trait_coping_decisions.2001.desc_man: "Мене обплітають руки та ноги, [ROOT.Char.Custom('AttractionWomanManIndef')] притискається до мене, і в цей момент на мене хвилею накочує екстаз — та полегшення."
   stress_trait_coping_decisions.2001.desc_ending: "\n\nМій розум не був настільки спокійний багато #EMP тижнів#!, і водночас мій пульс пришвидшується! Чудово!"
   stress_trait_coping_decisions.2001.a: "Ще раз. Йди до мене, [ROOT.Char.Custom('AttractionGirlBoyPlural')]!"
-
   stress_trait_coping_decisions.2002.t: "Боротьба зі стресом: ціна пристрасті"
   stress_trait_coping_decisions.2002.desc_woman: "Я прокидаюся після чудової ночі, повної пристрасті. І ще [ROOT.Char.Custom('AttractionWomanMan')], що відмовляється йти з усіма, задовольняє мене, поки я не засну... #EMP Фух#!, це було #EMP щось#!!"
   stress_trait_coping_decisions.2002.desc_man: "Я прокидаюся після чудової ночі, повної пристрасті. І ще [ROOT.Char.Custom('AttractionWomanMan')], що відмовляється йти з усіма і задовольняє мене, поки я не засну... #EMP Фух#!, це було #EMP щось#!!"
@@ -33,11 +26,9 @@
   stress_trait_coping_decisions.2002.desc_ending: "Ох, прокляття, [ROOT.Char.Custom('AttractionWomanMan')]!"
   stress_trait_coping_decisions.2002.a: "Будь ласка... хто-небудь... принесіть мені одяг!"
   stress_trait_coping_decisions.2002.b: "[rival.GetFirstNameNoTooltip]! Змія!"
-
   stress_trait_coping_decisions.2501.t: "Боротьба зі стресом: самотність"
   stress_trait_coping_decisions.2501.desc: "Я замикаю за собою двері і роблю крок у тиху кімнату. Глибокий вдих. Та видих.\n\nУ слуг є наказ нікому не дозволяти мене турбувати, щоб не сталося. Мої плечі розслабляються, і я розумію: саме це мені потрібно."
   stress_trait_coping_decisions.2501.a: "Нарешті спокій!"
-
   stress_trait_coping_decisions.3001.t: "Боротьба зі стресом: випустити пару"
   stress_trait_coping_decisions.3001.desc_vassal: "«[vassal.GetTitledFirstName], [Select_CString(vassal.IsFemale, 'моя люба', 'мій любий' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))]!» — я [ROOT.Char.Custom('quirk_neg_adverb')] посміхаюсь.\n\n«Ви з народження [Select_CString(vassal.IsFemale, 'така', 'такий' )] [vassal.Custom('InsultAdjectiveArticle')] [vassal.Custom('InsultNoun')], чи це надбане?»"
   stress_trait_coping_decisions.3001.desc_has_vassals: "Як тільки васали розсідаються по місцях і [vassal.GetTitledFirstName] починає говорити, я [ROOT.Char.Custom('quirk_neg_adverb')] посміхаюсь.\n\n«[vassal.GetTitledFirstNameNoTooltip], вибачте, що перериваю вас, але ви завжди [Select_CString(vassal.IsFemale, 'така', 'такий' )] [vassal.Custom('InsultAdjectiveArticle')] [vassal.Custom('InsultNoun')]? А ви, [vassal_2.GetTitledFirstName], ви з народження [vassal_2.Custom('InsultNoun')] чи це надбане?»"
@@ -45,57 +36,45 @@
   stress_trait_coping_decisions.3001.desc: "Як тільки двір збирається, я [ROOT.Char.Custom('quirk_neg_adverb')] посміхаюсь — час настав.\n\n«Ви, так, ви! Ви з народження таке хамло, чи це надбане?»"
   stress_trait_coping_decisions.3001.a_vassal: "Яке у [Select_CString(vassal.IsFemale, 'неї', 'нього' )] стало обличчя!.."
   stress_trait_coping_decisions.3001.a: "І #EMP ви#!! Не думайте, що я вас не бачу!"
-
   stress_trait_coping_decisions.3501.t: "Боротьба зі стресом: заспокійливий біль"
   stress_trait_coping_decisions.3501.desc: "#EMP Тарах!#!\n\nБатіг обрушується на мою спину, і я здригаюся від просвітлення, що їм приноситься. Я відчуваю тільки біль, у моєму розумі немає нічого, окрім болю.\n\n#EMP Тарах!#!\n\n#EMP Тарах!#!"
   stress_trait_coping_decisions.3501.a: "Угх... Солодкий, солодкий біль!"
-
   stress_trait_coping_decisions.4001.t: "Боротьба зі стресом: ціна, що ми сплачуємо"
   stress_trait_coping_decisions.4001.desc: "Я ходжу по ринку у володінні [county.GetNameNoTierNoTooltip], голова йде навколо від збудження: тканини, прикраси, полотна та дрібнички... Я хочу все це!\n\nУ результаті я опиняюся перед прилавком, за яким стоїть [ROOT.Char.Custom('RandomWomanMan')], що добре розуміє мою скруту і обіцяє допомогти мені з вибором."
   stress_trait_coping_decisions.4001.a: "Дві штуки. Ні, зачекайте. #EMP Три!#!"
-
   stress_trait_coping_decisions.4501.t: "Боротьба зі стресом: дар дарування"
   stress_trait_coping_decisions.4501.desc: "[ROOT.Char.GetFaith.HouseOfWorship] залишається позаду: у мене полегшало в гаманці і на душі.\n\nОднієї лише думки про нужденних, яким можуть допомогти мої гроші, достатньо, щоб полегшити мій розум!"
   stress_trait_coping_decisions.4501.a: "[ROOT.Char.GetFaith.HighGodName] любить щедрість!"
-
   stress_trait_coping_decisions.5001.t: "Боротьба зі стресом: покаяння"
   stress_trait_coping_decisions.5001.desc_opening: "«Сьогодні ви зібралися тут, тому що я хочу у дечому зізнатися."
   stress_trait_coping_decisions.5001.desc_secret: "Я... Я [secret.Custom('SecretDescriptionFirstPerson')]»."
+  stress_trait_coping_decisions.5001.desc_sin: "I... I do not resist my [ROOT.Char.Custom('SinfulTrait')|l] side as much as would be proper.\""
   stress_trait_coping_decisions.5001.desc: "«Я... останнім часом мене не покидають гріховні думки. Вислухайте мене...»"
   stress_trait_coping_decisions.5001.desc_ending: "\n\nЗдивований гомін, що розноситься по кімнаті, не применшує полегшення, яке я відчуваю."
   stress_trait_coping_decisions.5001.a: "Мені стало набагато легше!"
-
   stress_trait_coping_decisions.5002.desc: "Я... Я [secret.Custom('SecretDescriptionFirstPerson')]. Ні, зачекайте... Це не я, це [secret_character.GetTitledFirstName]!»\n\nОбурений крик, що видає [Select_CString(secret_character.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_character'))], не применшує полегшення, яке я відчуваю."
   stress_trait_coping_decisions.5002.a: "Як би там не було... Мені стало набагато легше!"
-
   stress_trait_coping_decisions.5501.t: "Боротьба зі стресом: ненажерливість"
   stress_trait_coping_decisions.5501.desc: "Переді мною ставлять ще одну тарілку — тепер це [ROOT.Char.Custom('FavoriteTreat')], — і я відчуваю, як розслаблюється моя душа.\n\nНіщо так не знімає тягар з розуму, як гарна їжа!"
   stress_trait_coping_decisions.5501.a: "Де тут у вас [ROOT.Char.Custom('FavoriteTreat')]?!"
-
   stress_trait_coping_decisions.5502.t: "Боротьба зі стресом: несподіваний бенкет"
   stress_trait_coping_decisions.5502.desc: "Я чекаю, коли слуги принесуть мені обід, коли раптом у коридорі на мене натикається [ROOT.Char.Custom('lowly_servant_type')].\n\n[ROOT.Char.GetSheHe|U] намагається вибачитися, але нам не це потрібно, правда? Мені щойно попалася найкраща з можливих страв!\n\nЯ веду [ROOT.Char.GetHerHis] у підвал, де ніхто не почує криків. А потім я #EMP бенкетую#!!"
   stress_trait_coping_decisions.5502.a: "А нагорі на мене чекає десерт!"
-
   stress_trait_coping_decisions.6001.t: "Боротьба зі стресом: відмова від їжі"
   stress_trait_coping_decisions.6001.desc: "«Повідомте кухареві, що в найближчому майбутньому мені не знадобиться їжа».\n\nЩойно слова зриваються з моїх губ, як я відразу ж відчуваю полегшення: більше ніщо не буде мене відволікати, не буде потреби ковтати цю нестерпну їжу! Тепер я можу зосередитись на важливих речах."
   stress_trait_coping_decisions.6001.a: "Так, все гаразд."
-
   stress_trait_coping_decisions.6501.t: "Боротьба зі стресом: потік чорнил"
   stress_trait_coping_decisions.6501.desc: "Я хапаю перо і відкриваю щоденник.\n\nЗ кожним реченням, що лягає на папір, я відчуваю, як мій тягар стає все легшим. Ніщо не приносить такої ясності, як це заняття!"
   stress_trait_coping_decisions.6501.a: "Я ще раз вмочую перо..."
-
   stress_trait_coping_decisions.7001.t: "Боротьба зі стресом: довірча розмова"
   stress_trait_coping_decisions.7001.desc: "Після довгої розмови, що мали я та [Select_CString(confidante.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('confidant'))] [confidant.GetTitledFirstName], я відчуваю, як заспокоюються думки."
   stress_trait_coping_decisions.7001.desc_ending: "\n\nОднак, повернувшись до двору, я бачу заздрість на обличчях придворних... Зрештою, не кожному ж довіряє [confidant.GetTitlePossessive]..."
   stress_trait_coping_decisions.7001.a: "Але мій розум заспокоюється."
-
   stress_trait_coping_decisions.7002.desc: "Після довгої та стомлюючої розмови я відчуваю, як заспокоюються думки."
-
   stress_trait_coping_decisions.activity: "Stress Coping:"
   stress_trait_coping_decisions.7501.t: "Боротьба зі стресом: випустити з потом"
   stress_trait_coping_decisions.7501.desc: "Завершуючи чергове коло навколо місця, де стоїть [ROOT.Char.Custom('ResidenceBuilding')], я вже відчуваю, як разом із потом мене покидають турботи.\n\nДехто каже, що я біжу від проблем, але я відповідаю: я біжу назустріч рішенням!"
   stress_trait_coping_decisions.7501.a: "Ще одне коло!"
-
   stress_trait_coping_decisions.7502.t: "$stress_trait_coping_decisions.activity$ Heavier is More"
   stress_trait_coping_decisions.7502.desc: "'This is not enough!' I think to myself, as I put down the training [ROOT.Char.Custom('signature_weapon')]. I've been practicing non-stop but I'm not getting tired — I need a tougher challenge!\n\nYes... something bigger... or perhaps heavier!\n\nSomething sure to tire me out!"
   stress_trait_coping_decisions.7502.a: "[random_artifact.GetNameNoTooltip] will have to do!"
@@ -105,19 +84,17 @@
   stress_trait_coping_decisions.7502.d: "There's no need for improvement at this time."
   stress_trait_coping_decisions.7502.success: "The extra challenge invigorates you"
   stress_trait_coping_decisions.7502.failure: "You overestimate your own strength"
-
   stress_trait_coping_decisions.7503.t: "$stress_trait_coping_decisions.activity$ Friendly Competition"
   stress_trait_coping_decisions.7503.desc: "I'm in the middle of my training when I spot [random_knight.GetTitledFirstName], also exercising. I look [random_knight.GetHerHim] up and down — not only does [random_knight.GetSheHe] appear to be in good health, but also peak physical fitness. I would love to measure my prowess against [random_knight.GetHerHis], but in what way?\n\nShould I take multiple factors into account if I wish to win? Raw strength, or a mix that can include stamina or wits?"
   stress_trait_coping_decisions.7503.a: "Suggest that the two of you wrestle."
   stress_trait_coping_decisions.7503.a.tt: "You think overpowering by sheer prowess will win"
   stress_trait_coping_decisions.7503.b: "Challenge [random_knight.GetHerHim] to a sparring match."
   stress_trait_coping_decisions.7503.b.tt: "You think a mix of prowess and martial will lead to victory"
-  stress_trait_coping_decisions.7503.c: "How about a foot race?"""""
+  stress_trait_coping_decisions.7503.c: "How about a foot race?\"\"\"\""
   stress_trait_coping_decisions.7503.c.tt: "You think a mix of prowess and health will help you outlast your competition"
   stress_trait_coping_decisions.7503.d: "Focus on finishing your regular training regime."
   stress_trait_coping_decisions.7503.success: "You emerge victorious!"
   stress_trait_coping_decisions.7503.failure: "[random_knight.GetTitledFirstNameNoTooltip] wins the challenge"
-
   stress_trait_coping_decisions.7504.desc: "It's sometimes hard to find the motivation to remain consistent when exercising by myself.\n\nI could try to find myself a partner, who then would not only motivate me on bad days, but would also be someone that I can compare myself to when tracking my own progress.\n\nWhat kind of companion would suit me the most? Someone I can look up to, someone to keep me on my toes, or perhaps someone I know I should never aspire to be?"
   stress_trait_coping_decisions.7504.a: "I should train with someone who's prowess I envy. Like [ideal_character.GetFirstNameNoTooltip]!"
   stress_trait_coping_decisions.7504.b: "[similar_character.GetFirstNameNoTooltip] has a similar physique, and can mimic my routine."

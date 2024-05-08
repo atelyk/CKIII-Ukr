@@ -28,7 +28,6 @@
   spouse.0009.desc: "Попри всі мої спроби показати свою прихильність, [spouse.GetFirstName] відповідає мені холодною підозрою. Мабуть, я і [Select_CString(friend_in_common.IsFemale, 'наша спільна подруга', 'наш спільний друг' )] [friend_in_common.GetTitledFirstName] надто багато часу проводимо разом."
   spouse.0009.a: "Та як [spouse.GetSheHe] сміє?"
   spouse.0009.has_lover_tooltip: "[spouse.GetFirstNameNoTooltip] не може цього знати. Чи може?"
-
   spouse.1001.t: "Час, проведений разом"
   spouse.1001.desc: "Нехай [Select_CString(spouse.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )] і не надто [Select_CString(spouse.IsFemale, 'дорога', 'дорогий' )] мені, але чим більше часу я і [spouse.GetFirstName] проводимо разом, тим краще я починаю розуміти [SCOPE.sCharacter('spouse').GetHerHis]."
   spouse.1001.a: "Можливо, згодом я навіть зможу полюбити [SCOPE.sCharacter('spouse').GetHerHis]."
@@ -136,7 +135,6 @@
   spouse.2015.b: "А чи заслуговує [first_spouse.GetFirstNameNoTooltip] на довіру у цьому питанні?"
   spouse.3001.t: "Незгоди в шлюбі"
   spouse.3001.desc.opening: "Мало мені було інших проблем, тож тепер ще доводиться розбиратися з усім, що влаштовує мені [Select_CString(spouse.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )]!"
-  spouse.3001.desc.fallback0: Я завжди щось роблю недостатньо добре, і щодня на мене летять нові скарги."""
   spouse.3001.desc.fallback: "There are always things I do not do well enough, and a new complaint every day."
   spouse.3001.lazy: "[Select_CString(spouse.IsFemale, 'Вона', 'Він' )] ні в яку не хоче допомагати мені. Коли ж у мене найбільше справ, нерідко [spouse.GetSheHe] демонстративно спить або балакає прямо в мене на очах!"
   spouse.3001.wrathful: "В ім'я [ROOT.Char.GetFaith.HighGodNamePossessive], [spouse.GetHerHis] характер зводить мене з розуму. Поганий настрій, бійки, вічне невдоволення... Моє терпіння вже закінчується."
@@ -149,7 +147,6 @@
   spouse.3001.vengeful: "Визнаю, я просто людина та я маю свої недоліки, але [spouse.GetFirstName] просто складається з них! [Select_CString(spouse.IsFemale, 'Вона', 'Він' )] пам'ятає про всі зроблені мною помилки та постійно карає мене за них."
   spouse.3001.desc.end: "\n\nМожна подумати, що [spouse.GetSheHe] робить усе можливе, щоб перетворити моє життя на нескінченну муку!"
   spouse.3001.a: "За що ти мене так ненавидиш?!"
-
   spouse.3002.t: "Можливість відплатити"
   spouse.3002.desc: "Під час мого візиту [SCOPE.sCharacter('told_of_character').GetTitledFirstName] ненадовго [Select_CString(told_of_character.IsFemale, 'звернула', 'звернув' )] на мене увага. Це може бути підходящою можливістю натякнути [told_of_character.GetHerHim], ким насправді є [Select_CString(spouse.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )] [spouse.GetFirstName]."
   spouse.3002.a: "Дозвольте вам розповісти дещо, [told_of_character.GetFirstNameNoTooltip]."
@@ -160,7 +157,6 @@
   spouse.3002.a.bad: "Нечесні промови"
   spouse.3002.a.bad_tt: "#F [told_of_character.GetFirstNameNoTooltip] у гніві від того, що я намагаюся очорнити [Select_CString(spouse.IsFemale, 'свою дружину', 'свого чоловіка' )]#!"
   spouse.3002.b: "Я не можу ось так діяти за [Select_CString(spouse.IsFemale, 'її', 'його' )] спиною."
-
   spouse.3003.t: "Розмова, що викликає занепокоєння"
   spouse.3003.opening: "Під час недавнього візиту я і [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('spouse') )] персонажа [SCOPE.sCharacter('spouse').GetTitledFirstName], [initial_spouse.GetTitledFirstName], мали змістовну бесіду."
   spouse.3003.exceptional: "\n\nРаніше [spouse.GetFirstName] [Select_CString(spouse.IsFemale, 'була', 'був' )] досить пристойною людиною, але те, що [Select_CString(initial_spouse.IsFemale, 'розповіла, розповів' )] мені [SCOPE.sCharacter('initial_spouse').GetTitledFirstName], жахнуло мене!"

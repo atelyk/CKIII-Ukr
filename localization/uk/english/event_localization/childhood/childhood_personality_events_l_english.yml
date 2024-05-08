@@ -9,34 +9,29 @@
   child_personality.0001.a: "Добре, що я хоч би вмію ховатися. Дуже добре ховатись."
   child_personality.0001.b: "Я все одно не збираюся виходити з кімнати."
   child_personality.0001.c: "Може зробити так, щоб [Scope.sCharacter('bully').GetHerHis] за це повісили?"
-
   child_personality.0002.t: "Злочинець"
   child_personality.0002.guardian: "Прогулюючись вулицями, я і [Select_CString(guardian.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))] [guardian.GetTitledFirstName] наткнулися на стовп ганьби. Прикутий до нього чоловік благав дати води або ще якось полегшити його долю."
   child_personality.0002.no_guardian: "Прогулюючись вулицями ми натрапили на стовп ганьби. Прикована до нього людина благала дати води або ще якось полегшити її долю."
   child_personality.0002.a: "Цей злочинець не повинен навіть дивитись на мене!"
   child_personality.0002.b: "Я принесу йому води з криниці."
   child_personality.0002.c: "Води? Думаю, ця бурда підійде!"
-
   child_personality.0003.t: "Впіймали!"
   child_personality.0003.guardian: "[Select_CString(guardian.IsFemale, 'Моя', 'Мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))] [guardian.GetTitledFirstName] [Select_CString(guardian.IsFemale, ' спіймала ', 'спіймав')] мене на крадіжці з дорожньої скрині, власник якої, [SCOPE.sCharacter('robbed_guest').GetTitledFirstName], гостює зараз у замку. Погрожуючи покаранням, [guardian.GetFirstName] [Select_CString(guardian.IsFemale, 'зажадала', 'зажадав')] пояснень."
   child_personality.0003.no_guardian: "Мене застукали за крадіжкою з дорожньої скрині, власник якої - [SCOPE.sCharacter('robbed_guest').GetTitledFirstName], гість замку. Погрожуючи покаранням, [robbed_guest.GetFirstName] [Select_CString(robbed_guest.IsFemale, 'зажадала', 'зажадав')] пояснень."
   child_personality.0003.a: "Це така гра... мені кинув виклик один із хлопців."
   child_personality.0003.b: "Мені здавалося, що в мене все вийде... Я більше не буду."
   child_personality.0003.c: "У мене не більше прав, ніж у решти."
-
   child_personality.0004.t: "Натхнення при дворі"
   child_personality.0004.desc: "На мене справив сильне враження один $knight_culture_player_plural_no_tooltip_lowercase$ при дворі. Нарешті нас представили, і моє враження після цього не зменшилось. Я пам'ятатиму його слова до кінця своїх днів."
   child_personality.0004.desc_knight: "I am incredibly impressed by one of the household $knight_culture_player_plural_no_tooltip_lowercase$. I was finally introduced to [knight.GetHerHim] face to face, and I am no less impressed now. I will remember [knight.GetHerHis] words for the rest of my life."
   child_personality.0004.a: "«Віддай кожному по заслугам, і тобі віддасться»"
   child_personality.0004.b: "«Будь стараннішим, і зможеш навчитися чого завгодно»"
   child_personality.0004.c: "«Велич приходить з часом. Не проґав шанс»."
-
   child_personality.0005.t: "Час грати"
   child_personality.0005.desc: "Коли ми грались з іншими дітьми, [doing_push.GetFirstName] [Select_CString(doing_push.IsFemale, 'спробувала', 'спробував')] штовхнути мене!"
   child_personality.0005.a: "Я покажу, що буває з тими, хто штовхає мене!"
   child_personality.0005.b: "Ти чого штовхаєшся? Я просто хочу погратись з тобою."
   child_personality.0005.c: "Чекайте, мені щойно спала на думку інша гра!"
-
   child_personality.0006.t: "Відмова, що розбиває серце"
   child_personality.0006.desc_crush: "Дні і ночі безперервно [crush.GetTitledFirstName] не йде в мене з голови, і серце моє тремтить від радості щоразу, як я бачу [crush.GetHerHis] у залах замку!\n\nАле варто мені повідомити [crush.GetHerHim] про свої почуття, як [crush.GetSheHe] зі сміхом [Select_CString(crush.IsFemale, 'відкинула', 'відкинув')] мене, вщент розбивши моє серце, і [Select_CString(crush).IsFemale, 'пішла', 'пішов')] геть."
   child_personality.0006.desc: "Моє серце викрадено! І хто це зробив? [child.Custom('servant_for_romance')]! [Select_CString(servant_for_romance.IsFemale, 'Вона', 'Він')] кидає на мене погляди, і моє серце тремтить.\n\nАле варто мені сказати про свої почуття, як [child.Custom('servant_for_romance')] [Select_CString(servant_for_romance.IsFemale, 'відкинула', 'відкинув')] мене зі сміхом!"
@@ -45,13 +40,11 @@
   child_personality.0006.b: "Якщо це і є любов, то я не хочу мати з нею нічого спільного."
   child_personality.0006.c_crush: "І що, [crush.GetSheHe] правда думає, що я так просто здамся?"
   child_personality.0006.c: "Вони правда думають, що я так просто здамся?"
-
   child_personality.0007.t: "Правосуддя"
   child_personality.0007.desc: "[Select_CString(guardian.IsFemale, 'Моя', 'Мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))] [guardian.GetTitledFirstName] [Select_CString(guardian.IsFemale, ' вирішила ', 'вирішив')] обговорити зі мною смертний вирок, винесений дрібному злодюжці два дні тому.\n\n[Select_CString(guardian.IsFemale, 'Їй', 'Йому')] хотілося знати, як я ставлюся до такого суворого покарання за такий незначний злочин."
   child_personality.0007.a: "Це занадто. Покарання має відповідати злочину."
   child_personality.0007.b: "У праведній державі не повинно бути таких законів."
   child_personality.0007.c: "Ми маємо бути задоволені тим, що маємо."
-
   child_personality.0008.t: "Свято почуттів"
   child_personality.0008.desc: "Бенкет — це море нових вражень. Люди розмовляють, аромати різноманітних страв заповнюють мій ніс, і..."
   child_personality.0008.serving_wench: "\nНавіщо ця служниця щойно підморгнула?"
@@ -60,7 +53,6 @@
   child_personality.0008.a: "Все таке блискуче!"
   child_personality.0008.b: "Із дорослими так цікаво!"
   child_personality.0008.c: "Не можу перестати думати про блиск в очах слуги!"
-
   child_personality.0009.t: "Дитяча проповідь"
   child_personality.0009.desc: "Я дивлюся, як [Select_CString(child_preacher.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('child_preacher'))] [ROOT.Char.Custom2('RelationToMe ', SCOPE.sC('child_preacher'))] [child_preacher.GetTitledFirstName] розповідає іншим дітям про дії [SCOPE.sC('child_preacher').GetFaith.HighGodNamePossessive]. Вони посміхаються і сміються [child_preacher.GetHerHim] в обличчя, а потім починають [Select_CString(child_preacher.IsFemale, 'її', 'його')] штовхати. Незважаючи на глузування, [child_preacher.GetSheHe] намагається продовжувати розповідь доти, доки інші діти не лізуть на [Select_CString(child_preacher.IsFemale, 'неї', 'нього')] з кулаками."
   child_personality.0009.desc_fallback: "Я дивлюся, як мій друг розповідає іншим дітям про дії [ROOT.Char.GetFaith.HighGodNamePossessive]. Вони посміхаються і сміються, а потім починають штовхатися. Незважаючи на глузування, мій друг намагається продовжувати розповідь, поки інші діти не починають його бити."
@@ -69,134 +61,95 @@
   child_personality.0009.b: "Давайте всі зупинимося та поговоримо про це."
   child_personality.0009.c: "Це ось так ви обходитесь з тим, хто несе вам слово боже!?"
   child_personality.0009.d: "Зараз буде весело!"
-
   child_personality.0010.t: "Життя у моїх руках"
   child_personality.0010.desc: "[Select_CString(guardian.IsFemale, 'Моя', 'Мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))] [guardian.GetTitledFirstName] [Select_CString(guardian.IsFemale, ' привела ', 'привів')] мене в ліс погратись із луком. Я вільно бігаю по лісі, поки не помічаю поранену олениху, яка кульгаючи намагається втекти від мене."
   child_personality.0010.a: "Це буде моя найбільша здобич!"
   child_personality.0010.b: "Вона така повільна, що можна поранити її і чекати, поки вона спливе кров'ю."
   child_personality.0010.c: "[guardian.GetFirstNameNoTooltip] хоче випробувати мене?"
-
   child_personality.0011.t: "Об'єкт бажання"
   child_personality.0011.desc: "Вже давно [ROOT.GetCharacter.Custom('child_object_of_interest_indefinite')] займає всі мої думки, і [Select_CString(guardian.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE).sC('guardian'))] [guardian.GetTitledFirstName] обіцяє зробити мені такий подарунок через три місяці, якщо я буду старанніше вчитися."
   child_personality.0011.a: "Мені подобається, як я навчаюсь зараз."
   child_personality.0011.b: "Мабуть, мені вже нічого не хочеться."
   child_personality.0011.c: "Я вчитимуся старанніше!"
-
   child_personality.0012.t: "Бардак на бенкеті"
   child_personality.0012.desc: "Бенкет шумний, дорослі нудні, а їжа залишає бажати кращого.\n\n[Select_CString(guardian.IsFemale, 'Моя', 'Мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))] [guardian.GetFirstName], схоже, насолоджується тим, що відбувається, і у мене не виходить привернути [guardian.GetHerHis] увагу та сказати [guardian.GetHerHim], що я не хочу тут залишатися."
   child_personality.0012.a: "Я таємно виберусь назовні. Може тут є інші діти."
   child_personality.0012.b: "Надто багато народу! Час сховатися під столом."
   child_personality.0012.c: "Поки я тут, встигну наїстися."
-
   child_personality.0021.t: "Особистість у процесі становлення"
   child_personality.0021.desc: "Одна з нечисленних втіх у моєму ув'язненні — це можливість спостерігати за людьми, нехай крізь грати:"
   child_personality.0021.serving_wench: "– every morning I hope that I will get just one look at that one beautiful servant wench."
   child_personality.0021.servant_boy: "– every morning I hope that I will get just one look at that one handsome servant boy."
   child_personality.0021.desc_no_gender: "– every morning I hope that I will get just one look at one of the pretty servants."
   child_personality.0021.a: "Моя уява зробить решту..."
-
   child_personality.0022.desc: "Я звикаю до самотності. Нема з ким поговорити, ні з ким погратись, ні з ким вчитися. Одна думка про те, що інша людина торкається мене..."
   child_personality.0022.a: "У мене мурахи по шкірі біжать!"
-
   child_personality.0023.desc: "Я ніколи не знаю, коли наступного разу отримаю їжу, а якщо мені передають тарілку, я без вагань поглинаю її вміст, незважаючи на розмір порції.\n\nТільки з повним животом я почуваюся спокійніше."
   child_personality.0023.a: "Це одна з небагатьох доступних мені радостей!"
-
   child_personality.0024.desc: "Я ніколи не знаю, коли наступного разу отримаю їжу, а якщо мені передають тарілку, я змушую себе відмовитися від думок про їжу і задовольнятися тим, що в мене є.\n\nСпочатку було складно, але тепер це стало моєю другою натурою."
   child_personality.0024.a: "Головне – помірність."
-
   child_personality.0025.desc: "Зламана ложка, блискучий камінчик, розбита тарілка... Колись подібні дрібнички викликали б у мене лише сміх, але тепер я розумію, що будь-яка дрібниця чогось варта!"
   child_personality.0025.a: "Я зберу всі доступні скарби."
-
   child_personality.0026.desc: "Коли в тебе нічого немає, прояв доброти стає безцінним. Мені довелося засвоювати цей урок у тяжких умовах. Просто разюче, як часом на людину впливає простий прояв щедрості!"
   child_personality.0026.a: "Що моє, те... спільне!"
-
   child_personality.0027.desc: "Мої дні за ґратами ліниво тягнуться один за одним. Я прокидаюся, блукаю туди-сюди, якщо пощастить — їм... Не важливо, чи намагаюся я себе чимось зайняти чи ні. Не важливо, чи намагаюся я взагалі робити хоч щось."
   child_personality.0027.a: "Я просто піду спати далі."
-
   child_personality.0028.desc: "Мої дні за ґратами ліниво тягнуться один за одним. Я прокидаюся, блукаю туди-сюди, якщо пощастить — їм...\n\nЩоб наповнити свої дні хоч чимось, я даю собі завдання і виконую їх."
   child_personality.0028.a: "Головне – старанність!"
-
   child_personality.0029.desc: "Усміхнені вартові стежать за кожним моїм рухом, [Select_CString(imprisoner.IsFemale, 'ця', 'цей')] [imprisoner.Custom('InsultAdjective')] [imprisoner.Custom('InsultNoun')] [imprisoner.GetTitledFirstName] тримає мене під замком, щури шастають по кутах... У моїй душі наростає гнів, який стає сильнішим з кожним днем!"
   child_personality.0029.a: "Я... просто... АР-Р-Р!"
-
   child_personality.0030.desc: "Я мало що можу зробити, щоб змінити своє становище як щодо повсякденної рутини, так і в більш широкому сенсі. Нема чого робити і нічого сказати."
   child_personality.0030.a: "Я вмію це приймати."
-
   child_personality.0031.desc: "Я мало що можу зробити, щоб змінити своє становище як щодо повсякденної рутини, так і в більш широкому сенсі. Мені залишається лише сидіти і чекати, що буде."
   child_personality.0031.a: "Головне – терпіння."
-
   child_personality.0032.desc: "Якщо перебування за ґратами чогось мене й навчило, то це тому, що нічого не можна відкладати на потім. Ніколи не знаєш, що станеться за день, за годину, за хвилину! Чи не помру я раніше?"
   child_personality.0032.a: "Не можна гаяти відведений мені час!"
-
   child_personality.0033.desc: "Коли мене кинули сюди, для мене було загадкою, навіщо замикати мене за ґратами.\n\nАле з плином днів до мене прийшло розуміння: вони бояться мене, бояться того, чим я можу стати, а тому замкнули мене."
   child_personality.0033.a: "Ось чого я вартий!"
-
   child_personality.0034.desc: "Коли мене кинули сюди, для мене було загадкою, навіщо замикати мене за ґратами.\n\nАле з плином днів до мене прийшло розуміння: напевно, я чимось це заслуговую, а тому треба з вдячністю приймати всі подарунки долі."
   child_personality.0034.a: "Я не прошу багато."
-
   child_personality.0035.desc: "Якщо життя за ґратами чогось мене й навчило, то це тому, що нічого ніколи не дається задарма. Щоб отримати бажане, потрібно дурити. На щастя, моїх вартових легко провести!"
   child_personality.0035.a: "Тільки дурні кажуть правду."
-
   child_personality.0036.desc: "Якщо життя за ґратами чогось і навчило мене, то це тому, що люди без вагань вдаються до покарання, так що найкраще просто не давати їм причин для цього. А ще тепер я знаю, що хтось #EMP завжди#! спостерігає."
   child_personality.0036.a: "Все одно від брехні лише одні неприємності."
-
   child_personality.0037.desc: "Стражники біля моїх дверей сильні і злісні, вони стежать за кожним моїм кроком.\n\nАле варто мені спробувати сховатися, як щури - або що гірше - починають збиратися біля мене!"
   child_personality.0037.a: "Кожен день приносить все більше страхів..."
-
   child_personality.0038.desc: "Стражники біля моїх дверей сильні та злі, вони стежать за кожним моїм кроком. У темряві шастають щури, і кожен день приносить все більше страхів.\n\n[imprisoner.GetTitledFirstName] [Select_CString(imprisoner.IsFemale, 'повинна', 'повинен')] вигадати щось краще, якщо хоче налякати мене!"
   child_personality.0038.a: "Я нічого не боюсь."
-
   child_personality.0039.desc: "Вже давно мені доводилося бачити іншу людину, і я навіть не знаю, чи обтяжує мене це, чи радує.\n\nЗ одного боку, мені відчайдушно хочеться хоч #EMP якогось#! спілкування після довгого ув'язнення, але з іншого я вже й не знаю що казати..."
   child_personality.0039.a: "Люди лякають мене!"
-
   child_personality.0040.desc: "Проводити всі дні за ґратами так #EMP нудно#!! Однією з небагатьох радощів у житті стають розмови зі стражниками. Вони не самі розумні, але деякі з них напрочуд цікаві співрозмовники!"
   child_personality.0040.a: "О, будь ласка, розкажіть ще!"
-
   child_personality.0041.desc: "Одна думка про те, скільки всього проходить повз мене, поки я сиджу тут під замком, не дає мені спати ночами. Всі ці можливості, що пішли назавжди...\n\nКоли я нарешті виберуся з цієї прогнилої дири, я збираюся наздогнати втрачене!"
   child_personality.0041.a: "Ніщо мене не зупинить!"
-
   child_personality.0042.desc: "Перебування у в'язниці допомогло мені засвоїти важливий урок. Для життя потрібно не так вже й багато: багатство і розкіш не мають цінності самі по собі.\n\nКоли я нарешті виберуся звідси, я цінуватиму все, що маю!"
   child_personality.0042.a: "Ціна неважлива."
-
   child_personality.0043.desc: "Перебуваючи за ґратами, я остаточно розумію: по-справжньому довіряти можна лише собі. Зрештою, яке значення має думка інших? І якщо вже на те пішло, яке значення мають інші люди?"
   child_personality.0043.a: "Жодного!"
-
   child_personality.0044.desc: "Несправедливість, що оточує мене у в'язниці, як з боку варти, так і з боку інших в'язнів, викликає в мене кошмари.\n\nЯкщо ми не можемо обходитись один з одним по честі, то в чому тоді взагалі сенс?!"
   child_personality.0044.a: "Без законів ми анітрохи не кращі за звірів."
-
   child_personality.0045.desc: "Люди егоїстичні. Час за ґратами навчив мене цій істині. Несподівано гарна їжа? В'язні зроблять усе можливе, щоб забрати її один в одного. В'їдливий стражник, що змушує їх зректися [ROOT.Char.GetFaith.HighGodNamePossessive] заради ласощів? Жодних вагань."
   child_personality.0045.a: "Люди турбуються лише про себе."
-
   child_personality.0046.desc: "Єдиною незмінною частиною мого життя за ґратами залишається [ROOT.Char.GetFaith.HighGodNameAlternate]. Коли я впадаю в смуток, сумніваюся, [ROOT.Char.GetFaith.HighGodNameSheHe] завжди зі мною в моїх молитвах.\n\nЗ кожним днем я все сильніше зміцнююсь у думці, що по-справжньому важлива лише моя віра."
   child_personality.0046.a: "[ROOT.Char.GetFaith.HighGodName], хвала тобі!"
-
   child_personality.0047.desc: "Не має значення, куди я йду: сторожа завжди поруч, слідкує за мною. Навіть якщо мені здається, що я на самоті, вони не неодмінно мимоходом натякнуть, що бачили все. Що завжди стежать за мною."
   child_personality.0047.a: "Хтось завжди спостерігає..."
-
   child_personality.0048.desc: "[imprisoner.GetTitledFirstName] [Select_CString(imprisoner.IsFemale, 'сказала', 'сказав')], що мене одягатимуть і годуватимуть, так і було. Стражники обіцяли, що я ніколи не побачу денного світла, і так і було.\n\nЗа ґратами мені відкрилася правда про те, що люди зазвичай не брешуть."
   child_personality.0048.a: "Я їм вірю."
-
   child_personality.0049.desc: "За ґратами мало радості, і навіть невеликий прояв доброти тут багато що означає. Бачити радість у чужих очах, бачити, як зміцнюється дух іншої людини... Ніщо так не заспокоює."
   child_personality.0049.a: "Важлива лише доброта."
-
   child_personality.0050.desc: "Несправедливість, що оточує мене у в'язниці, як з боку варти, так і з боку інших в'язнів, викликає у мене кошмари. Або... це був кошмар. Я вже нічому не здивуюсь."
   child_personality.0050.a: "Кожен здатний на жорстокість."
-
   child_personality.0051.desc: "За ґратами мало приводів для радості. Стражники грубі і непривітні, [imprisoner.GetTitledFirstName] веде себе холодно чи вороже, а мої товариші по нещастю занадто страждають, щоб це приносило мені задоволення. Або... так мені здавалося. Коли хтось із них страждає, я відчуваю, як у моїй душі спалахує іскра колишньої радості."
   child_personality.0051.a: "Це відчуття... Я ще хочу!"
-
   child_personality.0052.desc: "Інші вирішують, що я їм, коли і де сплю, куди йду... У цій посправжньому моїй клітці залишаються лише мої переконання, і я нізащо не піддамся на вмовляння."
   child_personality.0052.a: "Я єдине джерело сталості у цьому місці."
-
   child_personality.0053.desc: "Я так давно перебуваю в ув'язненні, що вже й не пам'ятаю, як це керувати своїм життям і самостійно приймати рішення. Тепер мене можуть вибити з рівноваги навіть найочевидніші питання.\n\nІ хоча часом мені важко розібратися у власних уподобаннях, це відкриває переді мною безліч дверей!"
   child_personality.0053.a: "Хто знає, чого хочу?"
-
   child_personality.0054.desc: "Якщо хтось тебе кривдить і ти готовий прощати, тебе, напевно, образять знову. Стражники та інші в'язні навчили мене цьому.\n\nНа щастя, у в'язниці особливо нема чим зайнятися — тільки запам'ятовувати обличчя та імена."
   child_personality.0054.a: "[imprisoner.GetTitledFirstNameNoTooltip], я ще помщуся."
-
   child_personality.0055.desc: "Коли ти дні безперервно проводиш з одними і тими ж людьми, то починаєш розуміти, що світ не ділиться на чорне та біле. За людськими вчинками завжди криється причина, кожен старається, як може.\n\nНе вмій я прощати, у в'язниці мене оточували б одні вороги."
   child_personality.0055.a: "Пам'ять про образи приносить лише біль."
-
   child_personality.0061.t: "A Guardian's Influence"
   child_personality.0061.desc_opening: "I don't enjoy loneliness, yet I struggle to enjoy the company of others. There's always a feeling of worry that I'm making a fool of myself during social interactions."
   child_personality.0061.desc_shy: "Thus I feel a strong kinship with [guardian.GetTitledFirstNameNoTooltip], [ROOT.GetCharacter.Custom2('RelationToMe' , guardian)], who seem plagued by similar thoughts."
@@ -206,7 +159,6 @@
   child_personality.0061.a: "Could it be the cure for my shyness?"
   child_personality.0061.a.tt: "#EMP There's a chance that you improve your diplomacy and gain a proclivity to drink.#!"
   child_personality.0061.b: "No, my shyness is a trial from [ROOT.Char.GetFaith.HighGodName]! This must be [ROOT.Char.GetFaith.DevilName] tempting me!"
-
   my_ward_or_child: "My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] "
   child_personality.101.desc: "[child.GetTitledFirstName] [Select_CString(child.IsFemale, 'прийшла', 'прийшов')] до мене зі скаргою: [Select_CString(child.IsFemale, 'вона', 'він')] каже, що [bully.GetTitledFirstName] задирає [child.GetHerHis]."
   child_personality.101.desc_no_bully: "[child.GetTitledFirstName] came to me complaining about the [child.Custom('GetDaughterSon')] of a [child.Custom('lowly_servant_type')] bullying [child.GetHerHim]."
@@ -236,7 +188,6 @@
   child_personality.102.arrogant_change: "Злочинець зовсім не вартий твоєї уваги."
   child_personality.102.compassionate_change: "Ні дитинко, принеси бідоласі води, яку він просить."
   child_personality.102.callous_change: "Плюнь у нього. Вдар його. Іншого він не заслуговує."
-
   child_personality.103.desc: "Мене неприємно здивувало, коли [child.GetTitledFirstName] [Select_CString(child.IsFemale, 'попалась', 'попався' )] на спробі крадіжки з дорожньої скрині, власник якої, [robbed_guest.GetTitledFirstName], зараз гостює у замку."
   child_personality.103.deceitful: "\n[Select_CString(child.IsFemale, 'Вона', 'Він' )] стверджує, що це гра, яку почали інші діти, але мені ясно, що [child.GetSheHe] бреше."
   child_personality.103.honest: "\n[Select_CString(child.IsFemale, 'Вона', 'Він' )] [Select_CString(child.IsFemale, 'зізналась', 'зізнався' )], що [Select_CString(child.IsFemale, 'думала', 'думав' )], ніби це зійде [child.GetHerHim] з рук, але тепер [child.GetSheHe] знає, що це не так."
@@ -250,7 +201,6 @@
   child_personality.103.deceitful_change: "Ні, ми повинні приховати твою провину!"
   child_personality.103.honest_change: "Чесність відкриє тобі серця інших людей."
   child_personality.103.humble_change: "Всіма нами рухають закони, які куди сильніші за нас самих."
-
   child_personality.1041.t: "Щедрий дарунок"
   child_personality.1042.t: "Терпіння та праця"
   child_personality.1043.t: "На все свій час"
@@ -264,7 +214,6 @@
   child_personality.104.generous_change: "[Select_CString(child.IsFemale, 'Вона', 'Він' )] не [Select_CString(child.IsFemale, 'повинна', 'повинен' )] забувати, яку роль у [child.GetHerHis] величі грають оточуючі."
   child_personality.104.diligent_change: "[Select_CString(child.IsFemale, 'Вона', 'Він' )] [Select_CString(child.IsFemale, 'повинна', 'повинен' )] запам'ятати, що наполеглива праця завжди дає результат."
   child_personality.104.patient_change: "На все свій час, [Select_CString(child.IsFemale, 'дорогенька', 'дорогенький' )] [child.GetFirstNameNoTooltip]."
-
   child_personality.1051.t: "Легко злиться"
   child_personality.1052.t: "Спокійний характер"
   child_personality.1053.t: "Зміна цікавості"
@@ -375,90 +324,67 @@
   child_personality.2001.desc: "Мені подобається, коли я і [child.GetTitledFirstName] граємо разом. Я можу [child.GetHerHim] натякнути, що [child.GetSheHe] веде себе дивно, злегка штовхнувши [child.GetHerHis]."
   child_personality.2001.craven: "\n\nСлово честі, можна подумати, що [child.GetSheHe] ховається від мене."
   child_personality.2001.a: "[Select_CString(child.IsFemale, 'Вона що, боягузка', 'Він що, боягуз' )]?"
-
   child_personality.2002.t: "Під замком"
   child_personality.2002.lazy: "\n\nТепер [child.GetSheHe] просто цілими днями сидить замкнувшись у своїй кімнаті і нічого не робить."
   child_personality.2002.a: "[Select_CString(child.IsFemale, 'Вона нудна', 'Він нудний' )]."
-
   child_personality.2003.t: "Нерозумна вимога"
   child_personality.2003.arbitrary: "\n\nЧаша [child.GetHerHis] терпіння переповнилась: [child.GetSheHe] [Select_CString(child.IsFemale, 'побігла', 'побіг' )] до дорослих, вимагаючи повісити мене!"
   child_personality.2003.a: "Це жорстоко!"
-
   child_personality.2004.t: "Від ворожнечі до дружби"
   child_personality.2004.desc: "Мені здавалося, що [child.GetTitledFirstName] вдарить мене за випадковий поштовх під час гри, але [child.GetHerHis] гнів швидко минув.\n\nМи розговорилися, а потім продовжили гру. Це було так весело, що тепер ми граємо щодня!"
   child_personality.2004.a: "[child.GetFirstNameNoTooltip], мій добрий друг, поруч зі мною, і це не може не тішити."
-
   child_personality.2005.t: "Наполегливість"
   child_personality.2005.desc: "[child.GetTitledFirstName] стільки разів [Select_CString(child.IsFemale, 'просила', 'просиd' )] мене пограти чи погуляти з [Select_CString(child.IsFemale, 'нею', 'ним' )], що мені довелося прямо заявити, що я просто більше не хочу.\n\nСпочатку впавши в смуток, згодом [child.GetSheHe] ясно [Select_CString(child.IsFemale, 'дала', 'дав' )] зрозуміти, що продовжить домагатися моєї прихильності."
   child_personality.2005.a: "Пора б [Select_CString(child.IsFemale, 'їй', 'йому' )] зупинитись!"
   child_personality.2005.b: "Як мило, що [child.GetSheHe] не здається."
   child_personality.2005.c: "[child.GetFirstName]? А це взагалі хто?"
-
   child_personality.2006.t: "Мій рятівник"
   child_personality.2006.opening: "Варто мені спробувати навчити інших дітей тому, що я знаю про Бога, вони почали дражнити мене і розмахувати кулаками."
   child_personality.2006.bully: "І тільки [child.GetTitledFirstName], як би [child.GetSheHe] не [Select_CString(child.IsFemale, 'ставилася', 'ставився' )] [Select_CString(child.IsFemale, 'вирішила', 'вирішив' )] втрутитись і захистити мене."
   child_personality.2006.victim: "І тільки [child.GetTitledFirstName] [Select_CString(child.IsFemale, 'вирішила', 'вирішив' )] втрутитися і захистити мене, хоча мені раніше доводилося кривдити [child.GetHerHis]."
   child_personality.2006.desc: "Тільки [child.GetTitledFirstName] [Select_CString(child.IsFemale, 'вирішила', 'вирішив' )] втрутитися та захистити мене."
   child_personality.2006.a: "Відтоді ми зблизилися."
-
   child_personality.2007.t: "Зустріч"
   child_personality.2007.desc: "[child_preacher.GetTitledFirstName] розповідає іншим дітям про [child_preacher.GetFaith.HighGodNamePossessive], поступово виводячи мене з себе.\n\nВарто мені штовхнути [Select_CString(child_preacher.IsFemale, 'цю заучку', 'цього заучку' )], як [child.GetTitledFirstName] кидається на мене з кулаками, вимагаючи більше не кривдити [Select_CString(child_preacher.IsFemale, 'її', 'його' )]."
   child_personality.2007.a: "Та мені просто хотілося трохи розважитися, ідіот!"
-
   #Curious
   child_personality.3001.t: "Чому?"
   child_personality.3001.desc: "У світі стільки всього можна подивитися, понюхати та помацати! Звідки Ви? Чому небо синє? Що знаходиться за тим пагорбом? Будь ласка, будь ласка, я хочу піти та подивитися!"
   child_personality.3001.a: "Стільки запитань!"
-
   child_personality.3001.message: "[Select_CString(personality_child.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', personality_child)] [personality_child.GetTitledFirstName] завжди [Select_CString(personality_child.IsFemale, 'сповнена', 'сповнений' )] вопросов!"
-
   child_personality.3002.desc: "Жодної хвилини спокою! [Select_CString(personality_child.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , personality_child) ] [personality_child.GetTitledFirstName] [Select_CString(personality_child.IsFemale, 'сповнена', 'сповнений' )] запитань! Я намагаюся потурати [personality_child.GetHerHis] цікавості, але часом вона втомлює навіть мене."
   child_personality.3002.a: "Коли тато і мама дуже люблять одне одного."
-
   #Rowdy
   child_personality.3003.t: "Полум'я розгорається"
   child_personality.3003.desc: "[Select_CString(guardian.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guardian'))] [guardian.GetFirstName] постійно велить мені стояти тихо, хоч я й говорю [guardian.GetHerHim], що це неможливо! Мої руки і ноги ніби живуть своїм життям, і якщо я не слідуватиму за ними, то вони відваляться і втечуть без мене!"
   child_personality.3003.a: "Я роблю що хочу!"
-
   child_personality.3003.message: "[Select_CString(personality_child.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',personality_child)] [personality_child.GetTitledFirstName] постійно щось задумує!"
-
   child_personality.3004.t: "Починаючий порушник спокою"
   child_personality.3004.desc: "І хоча витівки, які вчиняє [Select_CString(personality_child.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , personality_child) ] [personality_child.GetTitledFirstName], стали звичною справою, [personality_child.GetHerHis] винахідливість не дає мені розслабитися. Якщо не витівка, то сварка, незадоволений наставник або розбиті коліна після пригоди, в якій щось пішло не так."
   child_personality.3004.a: "Ні хвилини спокою!"
-
   #Bossy
   child_personality.3005.t: "Правитель-початківець"
   child_personality.3005.desc: "[Select_CString(guardian.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guardian'))] [guardian.GetFirstName] весь час каже, щоб я зрідка [Select_CString(char.IsFemale, 'дозволяла', 'дозволяв' )] та іншим дітям вибирати, у що грати. Але як можна, якщо я завжди знаю, яка гра краща? Мені так набридло, що [guardian.GetSheHe] та інші дорослі кажуть мені, що робити!"
   child_personality.3005.a: "Вони не володарюють наді мною!"
-
   child_personality.3005.message: "[Select_CString(personality_child.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',personality_child)] [personality_child.GetTitledFirstName] точно знає чого хоче!"
-
   child_personality.3006.desc: "Немає межі бажанням, що виявляє [Select_CString(personality_child.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , personality_child) ] [personality_child.GetTitledFirstName].Чи не половину часу [personality_child.GetSheHe] каже мені, що робити, а не навпаки!"
   child_personality.3006.a: "Легко перетнути межу, що відокремлює грізного правителя від нестерпного."
-
   #Charming
   child_personality.3007.t: "Працюй розумом, а не старанністю"
   child_personality.3007.desc: "«Поводься добре і старанно працюй», — без кінця тлумачить мені [Select_CString(guardian.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guardian'))] [guardian.GetFirstName]. Я намагаюся, але часом це так нудно! Хіба не розумніше обманом отримати бажане?!"
   child_personality.3007.a: "До речі, людей так просто дурити!"
-
   child_personality.3007.message: "[Select_CString(personality_child.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',personality_child)] [personality_child.GetTitledFirstName] [Select_CString(personality_child.IsFemale, 'підступна й хитра', 'підступний і хитрий' )]."
-
   child_personality.3008.t: "Милі посмішки та маленька брехня"
   child_personality.3008.desc: "Як і решта дітей [personality_child.GetHerHis] віку, [Select_CString(personality_child.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , personality_child)] [personality_child.GetTitledFirstName] іноді бреше і випробовує межі дозволеного. Але завдяки зразковій поведінці [personality_child.GetSheHe] часто уникає підозр, а при затриманні [personality_child.GetHerHim] простіше вимолити прощення.\n\nЦікаво, як довго [personality_child.GetHerHim] вдасться продовжувати в тому ж дусі."
   child_personality.3008.a: "Я буду стежити за цим."
-
   #Pensive
   child_personality.3009.t: "Загублений у думках"
   child_personality.3009.desc: "[Select_CString(guardian.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guardian'))] [guardian.GetFirstName] каже, що мені слід грати з іншими дітьми. Але вони такі галасливі! Мені потрібна тиша, щоби чути свої думки!"
   child_personality.3009.a: "Є над чим подумати..."
-
   child_personality.3009.message: "[Select_CString(personality_child.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',personality_child)] [personality_child.GetTitledFirstName] часто занурюється у свої думки."
-
   child_personality.3010.t: "Загублений у думках"
   child_personality.3010.desc: "[Select_CString(personality_child.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , personality_child)] [personality_child.GetTitledFirstName] — надзвичайно спокійна дитина. Поки інші діти грають у свої дикі ігри, [personality_child.GetFirstNameNoTooltip] часто тікає у відокремлений куточок. [personality_child.GetSheHe|U] мало каже, але я впевнено можу сказати, що [personality_child.GetSheHe] постійно про щось розмірковує."
   child_personality.3010.a: "Цікаво, про що [personality_child.GetSheHe] думає?"
-
-
   #Keep traits tooltips
   child_personality.keeps_lustful_tt: "[child.GetFirstName] зберігає властивість «[GetTrait('lustful').GetName( child.Self )]»"
   child_personality.keeps_chaste_tt: "[child.GetFirstName] зберігає властивість «[GetTrait('chaste').GetName( child.Self )]»"
@@ -496,7 +422,6 @@
   child_personality.keeps_fickle_tt: "[child.GetFirstName] зберігає властивість «[GetTrait('fickle').GetName( child.Self )]»"
   child_personality.keeps_vengeful_tt: "[child.GetFirstName] зберігає властивість «[GetTrait('vengeful').GetName( child.Self )]»"
   child_personality.keeps_forgiving_tt: "[child.GetFirstName] зберігає властивість «[GetTrait('forgiving').GetName( child.Self )]»"
-
   child_personality.4011.t: "Потяг що зближує"
   child_personality.4011.desc_opening: "Затишно вмостившись у ліжку під хутрами, я провалююся в теплий сон, що огортає.\n\n"
   child_personality.4011.desc_1: "Переді мною стоїть [ROOT.Char.Custom('LocalAnimal')] у всій своїй пишності і закликає мене за собою туди: нас кличе [ROOT.Char.Custom('TerrainType')]. Ми досягаємо прогалини, і моє серце починає калатати, тіло тремтить, душа #EMP томиться#!. Я повертаюсь, але [ROOT.Char.Custom('LocalAnimal')] раптом зникає, а на тому ж місці у всій красі стоїть..."
@@ -506,21 +431,15 @@
   child_personality.4011.b: "... дівчинка."
   child_personality.4011.c: "... дівчинка. Чи то був хлопчик? Я не можу пригадати."
   child_personality.4011.d: "... людина. Щиро кажучи, добре, що це був лише сон."
-
   child_personality.4012.desc: "Мені казали, що це природно — відчувати потяг до деяких людей, що з часом мені захочеться дізнатися когось ближче.\n\nЯ все намагаюся розібратися в цій таємниці, але поки мені не вдалося просунутися далі усвідомлення того, що досліджувати цю таємницю цікавіше, коли поряд є інші [ROOT.Char.Custom('GirlBoyPlural')]."
   child_personality.4012.a: "[ROOT.Char.Custom('GirlBoyPlural')|U] найкращі!"
-
   child_personality.4013.desc: "Під час ігор з іншими дітьми мені вдалося зрозуміти, що мені не важливо, з ким об'єднуватися для тісніших ігор, з дівчатами або з хлопчиками. Більшість інших дітей, схоже, мають переваги, і деякі приділяють цьому дуже багато уваги, але я їх зовсім не розумію."
   child_personality.4013.a: "І дівчатка, і хлопчики такі цікаві!"
-
   child_personality.4014.desc: "Всі навколо мене так охоче поділяються на пари, посміхаючись і граючи в ігри з поцілунків та дотиків із іншими дітьми. І коли я не виявляю інтересу, це їх, як здається, бентежить. Деякі [dummy_opposite_gender.Custom('GirlBoyPlural')] кажуть мені, що вони подобаються мені більше."
   child_personality.4014.a: "Я насправді не розумію цього..."
-
   child_personality.4015.desc: "Я дивлюся, як [ROOT.Char.Custom('OppositeGenderedLowlyServantType')] проходить повз, спітнівши від праці і з розчервонілими щоками, і впадаю в ступор. Що це за почуття? Млосне?"
   child_personality.4015.a: "О, [dummy_opposite_gender.Custom('GirlBoyPlural')] такі чарівні!"
   child_personality.4015.b: "I know [crush.GetSheHe] is only a commoner... but oh, my heart!"
-
-
   #Reincarnation, by Mathilda Bjarnehed
   child_personality.9900.t: "Вилита копія"
   child_personality.9900.start.desc: "Люди весь час кажуть мені, що я виглядаю точнісінько як [Select_CString(ancestor.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', ancestor)] [ancestor.GetTitledFirstName]. Мені не доводилося зустрічатися з [Select_CString(ancestor.IsFemale, 'нею', 'ним' )], але всі посміхаються, коли я говорю так, і напевно, це добре.\n\n"
@@ -566,13 +485,11 @@
   child_personality.9900.dull.desc: "вдумлив[Select_CString(ROOT.char.IsFemale, 'а', 'ий' )],"
   child_personality.9900.shrewd.desc: "розумн[Select_CString(ROOT.char.IsFemale, 'а', 'ий' )] [ROOT.Char.Custom('GirlBoy')],"
   child_personality.9900.strong.desc: "дуже сильн[Select_CString(ROOT.char.IsFemale, 'а', 'ий' )],"
-
   child_personality.9900.end.desc: "прямо як [ROOT.Char.Custom2('RelationToMe', ancestor)] [ancestor.GetFirstNameNoTooltip]!"
   child_personality.9900.sinful.postscript.desc: "The more people talk about this, the worse I am treated. I have even been blamed for things I haven't done!"
   child_personality.9900.a.dull: "Я дійсно проводжу багато часу в роздумах."
   child_personality.9900.a: "Я примушу [ancestor.GetHerHis] пишатися мною!"
   child_personality.9900.a.sinful: "This isn't fair! Why should I be judged for [ancestor.GetHerHis] actions?"
-
   child_personality.9901.t: "Переродження"
   child_personality.9901.start.desc: "[child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] виглядає точнісінько як [child.GetHerHis] [child.Custom2('RelationToMe', ancestor)] [ancestor.GetTitledFirstName]! Але схожість не тільки зовнішня, вона куди глибша.\n\n[child.GetFirstNameNoTooltip]"
   child_personality.9901.dull.desc: "трішки [Select_CString(child.IsFemale, 'повільна', 'повільний' )], скажемо так,"

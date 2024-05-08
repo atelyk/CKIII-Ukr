@@ -80,8 +80,6 @@
   stewardship_duty_improved_paths_modifier: "Поліпшені шляхи"
   stewardship_duty_development_plans_modifier: "Плани розвитку"
   stewardship_duty_affirmed_rule_modifier: "Підтвердження влади"
-
-
   stewardship_domain_special_1500_excellent_quality_assessment: "Відмінна оцінка майна"
   stewardship_domain_special_1500_high_quality_assessment: "Якісна оцінка майна"
   stewardship_domain_special_1500_mediocre_quality_assessment: "Середня оцінка майна"
@@ -91,7 +89,6 @@
   stewardship_domain_special_1500_guild_services: "Знижка на послуги гільдій"
   stewardship_domain_special_1500_encouraged_travellers: "Заохочення мандрівників"
   stewardship_domain_special_1500_avoided_by_merchants: "Купці обходять стороною"
-
   stewardship_domain_county_worked_to_death_modifier: "Робота до смерті"
   stewardship_domain_county_worked_to_death_modifier_desc: "Принаймні, робота зроблена! Де вдячність за це?!"
   stewardship_domain_personal_ownership_modifier: "Особисті земельні володіння"
@@ -100,38 +97,26 @@
   stewardship_domain_crown_lands_modifier: "Порядок у тавернах"
   stewardship_domain_pecuniary_oversight_modifier: "Контроль над фінансами"
   stewardship_domain_expanded_public_works_modifier: "Розширення громадських робіт"
-
   stewardship_general_bartering_strategies_modifier: "Bartering Strategies"
   stewardship_general_bartering_strategies_modifier_desc: "Knows how to barter with a certain gravitas."
-
   ### Perks
-
   county_extorted_modifier: "Графство вижате насухо"
   county_extorted_modifier_desc: "Власник насухо вижав це графство."
-
   extorted_theocratic_vassals_modifier: "Експлуатація васальних релігійних діячів"
   extorted_theocratic_vassals_modifier_desc: "Цей персонаж має всю можливу користь з релігійних діячів своєї держави."
-
   extorted_vassals_modifier: "Експлуатація васалів"
   extorted_vassals_modifier_desc: "Цей персонаж отримує всю можливу користь зі своїх васалів."
-
   extorted_courtiers_modifier: "Експлуатація придворних"
   extorted_courtiers_modifier_desc: "Цей персонаж отримує всю можливу користь із здібностей своїх придворних."
-
   supported_local_business_modifier: "Supported Local Business"
   supported_local_business_modifier_desc: "This character has supported a local business."
-
   destroyed_market_stall_modifier: "Destroyed Market Stall"
   destroyed_market_stall_modifier_desc: "A simple market stall was torn down by the authorities in this county."
-
   stewardship_tax_exemption_modifier: "Merciful with Taxes"
   stewardship_tax_exemption_modifier_desc: "This character has made sacrifices to keep the common folk from starving."
-
   stewardship_tax_enforcement_modifier: "Infamous Administration"
   stewardship_tax_enforcement_modifier_desc: "This character's tax enforcers are known to collect... despite any human cost."
-
   stewardship_rampaging_knights_modifier: "Rampaging Knights"
-  stewardship_rampaging_knights_modifier_desc0": This character's enforcers eagerly assail villages and battlefields alike in search of advancement."
-
+  stewardship_rampaging_knights_modifier_desc: " This character's enforcers eagerly assail villages and battlefields alike in search of advancement."
   stewardship_stolen_taxes_modifier: "Stolen Taxes"
   stewardship_stolen_taxes_modifier_desc: "Warriors from another realm have robbed the peasantry."

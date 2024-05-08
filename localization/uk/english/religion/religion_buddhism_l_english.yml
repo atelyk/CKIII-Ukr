@@ -3,19 +3,18 @@
   buddhism_religion_adj: "Буддист"
   buddhism_religion_adherent: "Буддист"
   buddhism_religion_adherent_plural: "Буддисти"
-  buddhism_religion_desc: "Буддизм слідує вченням Гаутами Будди та подальших просвітлень"", для того, щоб подолати страждання існування, нав'язаного нескінченного циклу змін через смерть та відродження. Досягнення просвітлення є шляхом до звільнення від Самсари до неіснування в Нірвані."""
+  buddhism_religion_desc: "Буддизм слідує вченням Гаутами Будди та подальших просвітлень\"\", для того, щоб подолати страждання існування, нав'язаного нескінченного циклу змін через смерть та відродження. Досягнення просвітлення є шляхом до звільнення від Самсари до неіснування в Нірвані.\"\""
   buddhism_high_god_name: "Сіддхартха"
-  buddhism_high_god_name_2: "$buddhism_high_god_name$ # Optional translation alt"
+  buddhism_high_god_name_2: "$buddhism_high_god_name$ # Optional translation alt" #Optional translation alt
   buddhism_high_god_name_possessive: "Сіддхартхський"
   buddhism_high_god_alternate: "Просвітлений"
   buddhism_high_god_alternate_possessive: "Просвітлених"
   buddhism_samsara: "Самсара"
-  buddhism_samsara_2: "$buddhism_samsara$ # Optional translation alt"
-  buddhism_samsara_3: "$buddhism_samsara$ # Optional translation alt"
+  buddhism_samsara_2: "$buddhism_samsara$ # Optional translation alt" #Optional translation alt
+  buddhism_samsara_3: "$buddhism_samsara$ # Optional translation alt" #Optional translation alt
   buddhism_good_god_buddha: "Будда"
   buddhism_good_god_arhat: "Архат"
   buddhism_good_god_perfected_ones: "Праведник"
-
   buddhism_creator_god_name: "Татхагатагарбха"
   buddhism_creator_god_name_possessive: "Татхагатагарбхський"
   buddhism_health_god_name: "Вірудхака"
@@ -38,22 +37,21 @@
   buddhism_night_god_name_possessive: "$buddhism_knowledge_god_name_possessive$"
   buddhism_water_god_name: "$buddhism_wealth_god_name$"
   buddhism_water_god_name_possessive: "$buddhism_wealth_god_name_possessive$"
-
   buddhism_devil_name: "Мара"
   buddhism_devil_name_possessive: "Марський"
   buddhism_evil_god_tanha: "Танха"
   buddhism_evil_god_arati: "Араті"
   buddhism_evil_god_raga: "Рага"
   buddhism_house_of_worship: "храм"
-  buddhism_house_of_worship_2: "$buddhism_house_of_worship$ # Факультативний переклад"
-  buddhism_house_of_worship_3: "$buddhism_house_of_worship$ # Факультативний переклад"
+  buddhism_house_of_worship_2: "$buddhism_house_of_worship$ # Факультативний переклад" #Optional translation alt
+  buddhism_house_of_worship_3: "$buddhism_house_of_worship$ # Факультативний переклад" #Optional translation alt
   buddhism_house_of_worship_plural: "храми"
   buddhism_religious_symbol: "дхармачакра"
-  buddhism_religious_symbol_2: "$buddhism_religious_symbol$ # Факультативний переклад"
-  buddhism_religious_symbol_3: "$buddhism_religious_symbol$ # Факультативний переклад"
+  buddhism_religious_symbol_2: "$buddhism_religious_symbol$ # Факультативний переклад" #Optional translation alt
+  buddhism_religious_symbol_3: "$buddhism_religious_symbol$ # Факультативний переклад" #Optional translation alt
   buddhism_religious_text: "Буддхавачана"
-  buddhism_religious_text_2: "$buddhism_religious_text$ # Факультативний переклад"
-  buddhism_religious_text_3: "$buddhism_religious_text$ # Факультативний переклад"
+  buddhism_religious_text_2: "$buddhism_religious_text$ # Факультативний переклад" #Optional translation alt
+  buddhism_religious_text_3: "$buddhism_religious_text$ # Факультативний переклад" #Optional translation alt
   buddhism_religious_head_title: "лама"
   buddhism_religious_head_title_name: "Лама-Інкарнація"
   buddhism_devotee_male: "бхікшу"
@@ -62,37 +60,33 @@
   buddhism_devotee_female_plural: "черниці"
   buddhism_alt_priest_term: "спільнота"
   buddhism_divine_realm: "Нірвана"
-  buddhism_divine_realm_2: "$buddhism_divine_realm$ # Факультативний переклад"
-  buddhism_divine_realm_3: "$buddhism_divine_realm$ # Факультативний переклад"
+  buddhism_divine_realm_2: "$buddhism_divine_realm$ # Факультативний переклад" #Optional translation alt
+  buddhism_divine_realm_3: "$buddhism_divine_realm$ # Факультативний переклад" #Optional translation alt
   buddhism_negative_afterlife: "Нарака"
-  buddhism_negative_afterlife_2: "$buddhism_negative_afterlife$ # Факультативний переклад"
-  buddhism_negative_afterlife_3: "$buddhism_negative_afterlife$ # Факультативний переклад"
+  buddhism_negative_afterlife_2: "$buddhism_negative_afterlife$ # Факультативний переклад" #Optional translation alt
+  buddhism_negative_afterlife_3: "$buddhism_negative_afterlife$ # Факультативний переклад" #Optional translation alt
   buddhism_death_god_name: "Ямі"
   buddhism_death_god_name_possessive: "Ямський"
   buddhism_witchgod_mara: "$buddhism_trickster_god_name$"
   buddhism_witchgod_mara_possessive: "$buddhism_trickster_god_name_possessive$"
-
   #Ari
   ari: "Арі"
   ari_adj: "Арі"
   ari_adherent: "Арі"
   ari_adherent_plural: "Аріси"
   ari_desc: "Віра Арі поєднує елементи з тантричного Буддизму, поклоніння духу, традиційне поклоніння Нагі, а також Індуїзму. Поклонники Арі вважаються буддистами, хоча їх практики сприймаються як дещо неортодоксальні."
-
   #Theravada
   theravada: "Тхеравада"
   theravada_adj: "Тхеравада"
   theravada_adherent: "Тхеравадан"
   theravada_adherent_plural: "Тхеравадани"
   theravada_desc: "Шлях до просвітлення проходить через особистий досвід, роздуми та міркування. Гаутама Будда знайшов свій шлях до Нірвани, і єдиний спосіб знайти подібний шлях, полягає в тому, щоб переживати, вивчати та навчатися власному існуванні."
-
   #Mahayana
   mahayana: "Махаяна"
   mahayana_adj: "Махаяна"
   mahayana_adherent: "Махаяніст"
   mahayana_adherent_plural: "Махаяністи"
   mahayana_desc: "Вихід з Самсари - це не просто щось, що робиться особисто, це досвід який розповсюджується поміж розумними істотами. Досягнення стану будди - це один крок на далекому шляху для всіх розумних істот бути випущеними в Нірвану, і це є доброчесною метою Самсари."
-
   #Vajrayana
   vajrayana: "Ваджраяна"
   vajrayana_adj: "Ваджраяна"
@@ -100,9 +94,8 @@
   vajrayana_adherent_plural: "Ваджраяни"
   vajrayana_desc: "Мотивація переходу до стану Будди є надзвичайно важливою, і справжнього просвітлення можна досягти лише тоді, коли його шукати на благо всіх живих істот. Усі істоти народжуються з просвітленим розумом, але він затьмарюється існуванням. Практика бачити правду світу і всесвіту відкриває вроджене просвітлення."
   vajrayana_religious_text: "Буддійські тантри"
-  vajrayana_religious_text_2: "$vajrayana_religious_text$ # Факультативний переклад"
-  vajrayana_religious_text_3: "$vajrayana_religious_text$ # Факультативний переклад"
-
+  vajrayana_religious_text_2: "$vajrayana_religious_text$ # Факультативний переклад" #Optional translation alt
+  vajrayana_religious_text_3: "$vajrayana_religious_text$ # Факультативний переклад" #Optional translation alt
   vajrayana_creator_god_name: "Аді-Будда"
   vajrayana_creator_god_name_possessive: "Аді-Буддський"
   vajrayana_health_god_name: "Хаягріва"
@@ -121,7 +114,6 @@
   vajrayana_night_god_name_possessive: "Махакалський"
   vajrayana_water_god_name: "Вашудхара"
   vajrayana_water_god_name_possessive: "Вашудхарський"
-
   #Tibetan Buddhism
   lamaism: "Нангчос"
   lamaism_adj: "Нангчос"
@@ -129,12 +121,12 @@
   lamaism_adherent_plural: "Нангчоспа"
   lamaism_desc: "Буддизм в Тибеті відомий як Нангчос, або Дхарма Святих. У Тибетській імперії, Ваджраяна і Махаяна вірування та практики були синкретизовані з традиційними тибетськими віруваннями, практиками та божествами, причому різні школи також змагалися одна з одною за тимчасовий контроль."
   lamaism_house_of_worship: "гомпа"
-  lamaism_house_of_worship_2: "$lamaism_house_of_worship$ # Факультативний переклад"
-  lamaism_house_of_worship_3: "$lamaism_house_of_worship$ # Факультативний переклад"
+  lamaism_house_of_worship_2: "$lamaism_house_of_worship$ # Факультативний переклад" #Optional translation alt
+  lamaism_house_of_worship_3: "$lamaism_house_of_worship$ # Факультативний переклад" #Optional translation alt
   lamaism_house_of_worship_plural: "гомпы"
   lamaism_religious_text: "Нанчос Гьюбум"
-  lamaism_religious_text_2: "$lamaism_religious_text$ # Факультативний переклад"
-  lamaism_religious_text_3: "$lamaism_religious_text$ # Факультативний переклад"
+  lamaism_religious_text_2: "$lamaism_religious_text$ # Факультативний переклад" #Optional translation alt
+  lamaism_religious_text_3: "$lamaism_religious_text$ # Факультативний переклад" #Optional translation alt
   lamaism_religious_head_title: "Трізін"
   lamaism_devotee_male: "віруючий"
   lamaism_devotee_male_plural: "віруючий"
@@ -147,7 +139,6 @@
   lamaism_priest_term_plural: "Священник"
   lamaism_bishop: "лама"
   lamaism_bishop_plural: "лама"
-
   lamaism_creator_god_name: "Дангпьо Сангіє"
   lamaism_creator_god_name_possessive: "Дангпьо Сангійський"
   lamaism_health_god_name: "Хаягріва"

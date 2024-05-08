@@ -1,5 +1,4 @@
 ﻿l_english:
-
   #Common Islam Localization
   islam_religion: "Іслам"
   islam_religion_adj: "Мусульманин"
@@ -7,8 +6,8 @@
   islam_religion_adherent_plural: "Мусульмани"
   islam_religion_desc: "Іслам є остаточним одкровенням віри Авраама, яка керується словом Божим, яке було відкрито пророку Мухаммеду. Вона зосереджена на тому, щоб жити добрим життям у служінні єдиному милосердному Богові."
   islam_high_god_name: "Аллах"
-  islam_high_god_name_2: "$islam_high_god_name$ # Optional translation alt"
-  islam_high_god_name_3: "$islam_high_god_name$ # Optional translation alt"
+  islam_high_god_name_2: "$islam_high_god_name$ # Optional translation alt" #Optional translation alt
+  islam_high_god_name_3: "$islam_high_god_name$ # Optional translation alt" #Optional translation alt
   islam_high_god_name_possessive: "Аллаха"
   islam_high_god_name_alternate: "Бог"
   islam_high_god_name_alternate_possessive: "Божий"
@@ -24,15 +23,15 @@
   islam_death_deity_name: "Азраїл"
   islam_death_deity_name_possessive: "Азраїла"
   islam_house_of_worship: "мечеть"
-  islam_house_of_worship_2: "$islam_house_of_worship$ # Optional translation alt"
-  islam_house_of_worship_3: "$islam_house_of_worship$ # Optional translation alt"
+  islam_house_of_worship_2: "$islam_house_of_worship$ # Optional translation alt" #Optional translation alt
+  islam_house_of_worship_3: "$islam_house_of_worship$ # Optional translation alt" #Optional translation alt
   islam_house_of_worship_plural: "мечеті"
   islam_religious_symbol: "шахада"
-  islam_religious_symbol_2: "$islam_religious_symbol$ # Optional translation alt"
-  islam_religious_symbol_3: "$islam_religious_symbol$ # Optional translation alt"
+  islam_religious_symbol_2: "$islam_religious_symbol$ # Optional translation alt" #Optional translation alt
+  islam_religious_symbol_3: "$islam_religious_symbol$ # Optional translation alt" #Optional translation alt
   islam_religious_text: "Коран"
   islam_religious_text_2: "$islam_religious_text$ # Optional translation alt"
-  islam_religious_text_3: "$islam_religious_text$ # Optional translation alt"
+  islam_religious_text_3: "$islam_religious_text$ # Optional translation alt" #Optional translation alt
   islam_religious_head_title: "халіф"
   islam_religious_head_title_name: "халіфат"
   islam_devotee: "муршид"
@@ -47,10 +46,9 @@
   islam_positive_afterlife_3: "$islam_positive_afterlife$ # Optional translation alt"
   islam_negative_afterlife: "пекло"
   islam_negative_afterlife_2: "$islam_negative_afterlife$ # Optional translation alt"
-  islam_negative_afterlife_3: "$islam_negative_afterlife$ # Optional translation alt"
+  islam_negative_afterlife_3: "$islam_negative_afterlife$ # Optional translation alt" #Optional translation alt
   christianity_witchgodname_iblis: "Ібліс"
   christianity_witchgodname_iblis_possessive: "Ібліса"
-
   islam_creator_god_name: "$islam_high_god_name$"
   islam_creator_god_name_possessive: "$islam_high_god_name_possessive$"
   islam_health_god_name: "$islam_high_god_name$"
@@ -73,27 +71,23 @@
   islam_night_god_name_possessive: "$islam_high_god_name_possessive$"
   islam_water_god_name: "$islam_high_god_name$"
   islam_water_god_name_possessive: "$islam_high_god_name_possessive$"
-
   #Shia
   islam_shia_priest: "мулла"
   islam_shia_priest_plural: "мулли"
   islam_shia_religious_head_title: "Імам"
   islam_shia_religious_head_title_name: "Імамат"
-
   #Ash'ari
   ashari: "Аш'аризм"
   ashari_adj: "Аш'ар"
   ashari_adherent: "Аш'аріт"
   ashari_adherent_plural: "Аш'аріти"
   ashari_desc: "Ортодоксальна теологічна школа, яка стверджує, що Аллах створив кожну мить часу, але люди мають вільну волю вибирати між добром — те, що Бог наказав — і злом — те, що Бог забороняє."
-
   #Muwalladism
   muwalladi: "Муваладизм"
   muwalladi_adj: "Муваладі"
   muwalladi_adherent: "Мувалад"
   muwalladi_adherent_plural: "Мувалади"
   muwalladi_desc: "Далеко від центру арабського світу іберійські мусульмани пристосувалися до реалій правління регіоном із великим християнським та єврейським населенням, яке мало дивні чужі традиції."
-
   #Masmudism
   masmudi: "Альмохадізм"
   masmudi_adj: "Альмохад"
@@ -102,56 +96,48 @@
   masmudi_desc: "Реформістська гілка сунітського ісламу, що походить від берберських племен у північній Африці, рух Альмохаді вважав себе унітаристами та проповідував доктрину чистого монотеїзму."
   masmudi_religious_head_title: "Махді"
   masmudi_religious_head_title_name: "халіфат"
-
   #Mu'tazila
   mutazila: "Мутазилізм"
   mutazila_adj: "Мутазілі"
   mutazila_adherent: "Мутазиліт"
   mutazila_adherent_plural: "Мутазиліти"
   mutazila_desc: "Раціоналістична теологічна школа, яка стверджує, що Коран #EMP not#! вічно співіснує з Богом, оскільки спочатку був Бог, а потім його слово."
-
   #Maturidi
   maturidi: "Матуридизм"
   maturidi_adj: "Матурді"
   maturidi_adherent: "Матуридіт"
   maturidi_adherent_plural: "Матуріди"
   maturidi_desc: "Раціоналістична теологія, яка стверджує, що етика має об’єктивне існування, оскільки походить від вічних якостей Бога, і що люди, отже, повинні слідувати етичному вибору."
-
   #Quranism
   quranist: "Коранізм"
   quranist_adj: "Корані"
   quranist_adherent: "Кораніст"
   quranist_adherent_plural: "Кораністи"
   quranist_desc: "Буквальне тлумачення ісламу, яке наголошує на тому, що Коран є єдиним джерелом божественної мудрості, і його слід дотримуватися буквально, ігноруючи хадиси та фетви."
-
   #Ismaili
   ismaili: "Ісмаїлізм"
   ismaili_adj: "Ісмаїліти"
   ismaili_adherent: "Ісмаїліти"
   ismaili_adherent_plural: "Ісмаїліти"
   ismaili_desc: "Шиїтська віра, яка вважає, що лінія справжніх імамів — тих, хто пройнятий божественним знанням і непомильністю — проходить через Ісмаїла бін Джафара. Вони також відомі як севенери, оскільки Ісмаїл був сьомим імамом після Мухаммеда."
-
   #Qarmatians
   qarmatian: "Карма́тизм"
   qarmatian_adj: "Карма́т"
   qarmatian_adherent: "Карма́т"
   qarmatian_adherent_plural: "Карма́ти"
   qarmatian_desc: "Відгалуження ісмаїлізму, що містить елементи зороастризму. Кількість імамів була заздалегідь встановлена Богом до семи, і, отже, не могло бути більше імамів до того, як сьомий імам — Мухаммед ібн Ісмаїл — повернувся, щоб вести вірних."
-
   #Nizari
   nizari: "Нізаризм"
   nizari_adj: "Нізаріт"
   nizari_adherent: "Нізаріт"
   nizari_adherent_plural: "Нізаріти"
   nizari_desc: "Раціоналістична віра, яка наголошує на міркуванні в тлумаченні Корану та хадисів. Титул імама є спадковим, і вони простежують лінію спадкоємства до Алі."
-
   #Zayidi
   zayidi: "Заїдизм"
   zayidi_adj: "Заїди"
   zayidi_adherent: "Заїдит"
   zayidi_adherent_plural: "Заїдіти"
   zayidi_desc: "Справжній імам не є непогрішимим, він визначається своєю боротьбою проти корупції та зла. Таким чином, заїди визначаються своєю вірою в те, що Зайд ібн Алі був законним наступником імамату через його повстання проти Омейядів."
-
   #Imamism (Twelver)
   imami: "Імамізм"
   imami_adj: "Імамі"
@@ -160,20 +146,16 @@
   imami_desc: "Імамі вірять, що було пророковано, що дванадцять імамів очолить умму, і що дванадцятий імам, імам Заман, очікує повернення, щоб привести мусульман до Судного дня."
   islam_ayatollah: "аятола"
   islam_ayatollah_plural: "аятоли"
-
-  #
   ghulat: "Іхтілафізм"
   ghulat_adj: "Іхтілафізм"
   ghulat_adherent: "Іхтілафізміт"
   ghulat_adherent_plural: "Іхтілафізміти"
   ghulat_desc: "Іхтілафі вірять у божественну природу непогрішимих імамів, починаючи з Алі. Бог не тільки призначив і надихнув їх, але й частково знаходиться в них, щоб керувати їхніми діями, і, як наслідок, усією Уммою."
-
   alawite: "Алавізм"
   alawite_adj: "Алавіте"
   alawite_adherent: "Алавіт"
   alawite_adherent_plural: "Алавіти"
   alawite_desc: "Релігійні вчення алавітів таємні, а Коран є лише одним із їхніх священних текстів. На додаток до віри в правонаступництво імамів через Алі, алавіти також вірять у реінкарнацію, і що всі істоти були зірками, скинутими з неба, які тепер повинні знову заслужити своє місце, послідовно проживши низку праведних життів."
-
   #Alevis
   alevi: "Алевізм"
   alevi_adj: "Алеві"
@@ -181,13 +163,12 @@
   alevi_adherent_plural: "Алевіти"
   alevi_desc: "Алевіти вірять у правонаступництво Дванадцяти імамів, але також дотримуються багатьох інших традицій, як викладено в їхній збірці священних текстів, Буйрук. У алевітській традиції Бог є Істиною, а Мухаммед і Алі є проявами Його у світі."
   alevi_house_of_worship: "джемеві"
-  alevi_house_of_worship_2: "$alevi_house_of_worship$ # Optional translation alt"
-  alevi_house_of_worship_3: "$alevi_house_of_worship$ # Optional translation alt"
+  alevi_house_of_worship_2: "$alevi_house_of_worship$ # Optional translation alt" #Optional translation alt
+  alevi_house_of_worship_3: "$alevi_house_of_worship$ # Optional translation alt" #Optional translation alt
   alevi_house_of_worship_plural: "джемеви"
   alevi_religious_text: "Буйрук"
-  alevi_religious_text_2: "$alevi_religious_text$ # Optional translation alt"
-  alevi_religious_text_3: "$alevi_religious_text$ # Optional translation alt"
-
+  alevi_religious_text_2: "$alevi_religious_text$ # Optional translation alt" #Optional translation alt
+  alevi_religious_text_3: "$alevi_religious_text$ # Optional translation alt" #Optional translation alt
   #Druze
   druze: "Друзи"
   druze_adj: "Друз"
@@ -195,37 +176,32 @@
   druze_adherent_plural: "Друзи"
   druze_desc: "Віра друзов, яка походить з Гори Друзов, дотримується багатьох принципів ісмаїлізму, але також включає гностичні вірування в езотеричну теологію, зосереджену на Істині існування."
   druze_religious_text: "Послання премудрості"
-  druze_religious_text_2: "$druze_religious_text$ # Optional translation alt"
-  druze_religious_text_3: "$druze_religious_text$ # Optional translation alt"
-
+  druze_religious_text_2: "$druze_religious_text$ # Optional translation alt" #Optional translation alt
+  druze_religious_text_3: "$druze_religious_text$ # Optional translation alt" #Optional translation alt
   #Ibadi
   ibadi: "Ібадизм"
   ibadi_adj: "Ібаді"
   ibadi_adherent: "Ібад"
   ibadi_adherent_plural: "Ібаді"
   ibadi_desc: "Ібаді не вірять, що необхідно, щоб весь іслам керувався халіфом або імамом, якщо немає відповідного кандидата. Тому вони є мухаккіміти, не визнаючи гідними лідерами ні лінію Алі, ні наступників Абу Бакра."
-
   #Azariqa
   azariqa: "Азракізм"
   azariqa_adj: "Азракі"
   azariqa_adherent: "Азракіт"
   azariqa_adherent_plural: "Азракіти"
   azariqa_desc: "Не визнаючи гідного наступника Мухаммеда, азарики вважають своїм правом і обов'язком боротися з будь-яким лідером, який не підтримує цінності їх віри. Дійсно, будь-яка різниця в тлумаченні віри позначатиме людину як невірну."
-
   #Najdat
   najdat: "Надждатізм"
   najdat_adj: "Надждаті"
   najdat_adherent: "Надждат"
   najdat_adherent_plural: "Надждати"
   najdat_desc: "Прихильники надждатской гілки хаваріджив твердо вірять у встановлення мусульманського лідерства через консенсус віруючих. Керівник не непогрішний, але через громаду їх обирає Бог."
-
   #Sufri
   sufri: "Суфрізм"
   sufri_adj: "Суфрі"
   sufri_adherent: "Суфр"
   sufri_adherent_plural: "Суфрі"
   sufri_desc: "Суфрі вірять у божественне керівництво та лідерство через тлумачення слова Божого, а не успадкування. Воля Бога стає відомою як вираження волі Умми, якщо люди Умми добре обізнані з Кораном."
-
   #Hafizi
   hafizi: "Hafizi"
   hafizi_adj: "Hafizi"

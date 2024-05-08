@@ -4,7 +4,6 @@
   positive_desc_debug: "добре"
   negative_desc_debug: "погано"
   test_case_desc_in_event: "[Select_CString(other.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('other'))][Select_CString(ROOT.Char.IsFemale, 'а', 'ий' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other'))], [other.GetTitledFirstName]."
-
   positive_desc_loyal: "віддан"
   positive_desc_faithful: "вірн"
   positive_desc_principled: "принципов"
@@ -79,7 +78,6 @@
   positive_desc_venerable: "шанований"
   positive_desc_youthful: "молодеч"
   positive_desc_compliment_adjective: "[second.Custom('ComplimentAdjective')|U][Select_CString(second.IsFemale, 'а', 'ий' )]"
-
   negative_desc_traitorous: "зрадницьк"
   negative_desc_subversive: "згубн"
   negative_desc_useless: "нікчемн"
@@ -157,7 +155,6 @@
   negative_desc_careless: "легковажн"
   negative_desc_hubristic: "зухвал"
   negative_desc_insult_adjective: "[second.Custom('InsultAdjective')]"
-
   crime_kinslayer: "Братовбивця"
   crime_deviant: "Потяг до збочень"
   crime_cannibal: "людожер"
@@ -173,7 +170,6 @@
   crime_heathen: "язичник"
   crime_infidel: "невіруючий"
   crime_fallback: "злочинець"
-
   crime_kinslayer_desc: "зрадник сім'ї"
   crime_deviant_desc: "огидний грішник"
   crime_cannibal_desc: "мерзенна тварина."
@@ -189,7 +185,6 @@
   crime_heathen_desc: "нечестивий ідолопоклонник"
   crime_infidel_desc: "невірний біс"
   crime_fallback_desc: "невиправний диявол"
-
   crime_indef_deviant_desc: "$crime_deviant_desc$"
   crime_indef_cannibal_desc: "$crime_cannibal_desc$"
   crime_indef_sodomite_desc: "$crime_sodomite_desc$"

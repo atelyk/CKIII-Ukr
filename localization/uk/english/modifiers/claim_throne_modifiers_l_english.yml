@@ -1,22 +1,14 @@
 ﻿l_english:
   claim_throne_increased_responsibility: "Збільшена відповідальність"
   claim_throne_increased_responsibility_desc: "Мені вдалося проявити більшу відповідальність в управлінні державою, що зміцнило мою легітимність."
-
   claim_throne_bought_support_modifier: "Куплена підтримка"
-
   claim_throne_liege_ill_omens_modifier: "Сюзерен: погані передвісники"
-
   claim_throne_self_declared_modifier: "Повелитель Редисок"
-
   claim_throne_friend_support_modifier: "Підтримка від друга"
-
   claim_throne_preparing_for_struggle_modifier: "Підготовка до боротьби"
   claim_throne_preparing_for_struggle_modifier_desc: "Цей персонаж готується до неминучої боротьби зі своїм сюзереном."
-
   claim_throne_claimed_world_modifier: "Володар усіх овочів"
-
   claim_throne_rule_sword_modifier: "Armed Support"
-
   claim_throne_tricked_peasants_modifier: "Fooled the Peasants"
   claim_throne_tricked_nobles_modifier: "Fooled the Nobles"
   claim_throne_fooled_them_all_modifier: "Fooled them All"

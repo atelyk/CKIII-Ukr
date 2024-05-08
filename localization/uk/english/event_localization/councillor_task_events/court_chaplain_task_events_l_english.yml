@@ -1,23 +1,18 @@
 ﻿l_english:
   court_chaplain_task.0201.opening: "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
-
   court_chaplain_task.0301.desc: "Після довгих пошуків у документах давнішого і... менш надійного походження у мене з'явилося достатньо матеріалів, що доводять, що ви — [ROOT.Char.GetLadyLord|U] комітату [county.GetName]!\n\nБракує лише невеликої грошової винагороди..."
   court_chaplain_task.0301.a: "Нехай буде так!"
   court_chaplain_task.0301.b: "Ні, я не можу так вчинити."
   court_chaplain_task.0301.b.tt: "Усі підроблені документи будуть знищені"
-
   court_chaplain_task.0302.desc: "Після довгих пошуків у документах давнішого і... менш надійного походження у мене з'явилося достатньо матеріалів, що доводять, що ви — [ROOT.Char.GetLadyLord|U] комітату [county.GetName]!\n\nЩобільше, [duchy.GetName] відтепер ваша земля!"
   court_chaplain_task.0302.desc_heretic_addition: "Після довгих пошуків у документах давнішого і... менш надійного походження у мене з'явилося достатньо матеріалів, які доводять, що ви — по праву [ROOT.Char.GetLadyLord|U] комітату [county.GetName]! \n\nВраховуючи що [duchy_holder.GetFirstName] стверджує, ніби [duchy_holder.GetSheHe] — #EMP [duchy_holder.GetFaith.GetAdherentName]#!, думаю, ви можете висунути претензію та заявити, що [duchy.GetName] належить вам за священним правом!"
   court_chaplain_task.0302.a: "Заяви про мої права на комітат [county.GetNameNoTierNoTooltip]."
   court_chaplain_task.0302.b: "Так! [duchy.GetNameNoTierNoTooltip] — мої землі по праву!"
-
   court_chaplain_task.0311.t: "Претензія на комітат [county.GetNameNoTierNoTooltip]!"
   court_chaplain_task.0311.opening: "Ось уже кілька місяців [councillor.GetTitledFirstName], [councillor.GetCouncilTitle] [SCOPE.sC('councillor_liege').GetTitledFirstName], вишукує сумнівні договори та фальшиві історії."
   court_chaplain_task.0311.end: "\n\nІ тепер [councillor_liege.GetTitleTierName] [councillor_liege.GetFirstName] без докорів совісті діє так, ніби має законні права на комітат [county.GetName]!"
   court_chaplain_task.0311.a: "Це все брехня!"
-
   court_chaplain_task.0312.a: "[councillor_liege.GetFirstNameNoTooltip] не знає, що таке совість?!"
-
   court_chaplain_task.0313.t: "Претензія на комітат [county.GetNameNoTierNoTooltip]!"
   court_chaplain_task.1001.notification: "Проповідування нетрадиційної доктрини"
   court_chaplain_task.1002.notification: "Непереконлива риторика"
@@ -27,17 +22,14 @@
   court_chaplain_task.2101.notification: "Активне навернення"
   court_chaplain_task.2102.notification: "Засновано нові [councillor.GetFaith.HouseOfWorshipPlural]"
   court_chaplain_task.2103.notification: "Новонавернені добровольці"
-
   court_chaplain_task.3001.t: "Підрив громадського порядку"
   court_chaplain_task.3001.desc: "Мені здається, [Select_CString(councillor.IsFemale, 'моя', 'мій' )] [councillor.GetCouncilTitle], [councillor.GetFirstName], останнім часом про щось турбується. Тепер всі знають, що я... з'ясовую, чи немає у вас законного права претендувати на комітат [county.GetName]. Очевидно, багато вірних вам васалів незадоволені тим, що ви плетете подібні інтриги»."
   court_chaplain_task.3001.a: "Чому тебе помітили?"
   court_chaplain_task.3002.notification: "Звинувачення у підробці документів"
-
   court_chaplain_task.3003.opening: "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
   court_chaplain_task.3003.desc: "До мене дійшли відомості, що [Select_CString(councillor.IsFemale, 'ваша', 'ваш' )] [councillor.GetCouncilTitle], [councillor.GetFirstName], займається створенням підроблених документів, які дозволять вам претендувати на графство [county.GetName]. Молю вас, згадайте, що ви [ROOT.Char.GetTitleTierName] по праву, а не із корисливості."
   court_chaplain_task.3003.a: "Я знаю що роблю, [vassal.GetFirstNameNoTooltip]."
   court_chaplain_task.3003.b: "Пам'ятай своє місце, [vassal.GetTitledFirstNameNoTooltip]."
-
   court_chaplain_task.3004.opening: "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
   court_chaplain_task.3004.desc: "Мені стало відомо, що [Select_CString(councillor.IsFemale, 'ваша', 'ваш' )] [councillor.GetCouncilTitle] готує підроблені документи, що дозволяють претендувати на графство [county.GetName]. Ви думаєте, такі безчесні дії залишаться непоміченими?"
   court_chaplain_task.3004.a: "Але там же #EMP е#! основи для претензії."

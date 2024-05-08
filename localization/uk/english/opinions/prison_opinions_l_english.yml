@@ -1,5 +1,6 @@
 ﻿l_english:
   imprisoned_me: "У в'язниці"
+  imprisoned_me_past: "Imprisoned Me"
   imprisoned_close_relative: "Арешт близького родича"
   released_from_prison: "Визволення з в'язниці"
   demanded_claim_renouncement: "Вимагає відмовитись від претензій"
@@ -9,3 +10,5 @@
   ransomed_from_prison: "Цю людину нещодавно викупили"
   abductor_opinion: "Викрадач"
   attempted_murder_opinion: "Attempted Murder"
+  escaped_from_prison_opinion: "Escaped Prison"
+  escaped_from_prison_crime: "Escaped Prison"

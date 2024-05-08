@@ -5,4 +5,4 @@
   LV_RAISED: "[LevyView.GetRaisedCount|0] зібрано"
   LV_UNRAISED: "Не зібрано"
   LV_MAINTENANCE: "Утримання: [gold_i][LevyView.GetMaintenanceCost|2]/місяць"
-  LV_NO_COUNTERS: "Ополченці ніколи не [counter|El] іншим типам"
+  LV_NO_COUNTERS: "Ополченці ніколи не [counter|E] іншим типам"

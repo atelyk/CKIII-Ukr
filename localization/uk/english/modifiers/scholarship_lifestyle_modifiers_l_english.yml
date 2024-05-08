@@ -25,42 +25,29 @@
   tomb_defiler_modifier_desc: "Про правителя цих земель ходять тривожні чутки."
   wide_vocabulary_modifier: "Значний словниковий запас"
   exercise_modifier: "Тренування"
-
   introspective_rest_modifier: "Інтроспективний відпочинок"
   introspective_rest_modifier_desc: "Цей персонаж має звичку замикатися і спілкуватися з божественними силами. Турбувати категорично забороняється!"
-
   theology_dangerous_habits_modifier: "Небезпечні звички"
   theology_dangerous_habits_modifier_desc: "Гонитва за «видіннями» наклала свій відбиток на цього персонажа."
-
   mystic_suspicious_reputation_modifier: "Сумнівна репутація"
   mystic_suspicious_reputation_modifier_desc: "Цей персонаж займається... #EMP чимось#! за зачиненими дверима."
-
   mystic_great_openness_modifier: "Велика відкритість"
   mystic_great_openness_modifier_desc: "Цей персонаж радо запрошує людей."
-
   mystic_dangerous_to_know_modifier: "Небезпечно знати"
   mystic_dangerous_to_know_modifier_desc: "Цей персонаж планує щось дивне та незвичайне. Всі знають, що йому небезпечно переходити дорогу. Напевно."
-
   mystic_devout_protector_modifier: "Ревний захисник"
   mystic_devout_protector_modifier_desc: "Цей персонаж публічно оголосив про свою відданість безпеці та добробуту інших."
-
   divine_guidance_modifier: "Божественна настанова"
   divine_guidance_modifier_desc: "Цьому персонажу допомагають голоси з-за меж світу. Принаймні так кажуть."
-
   court_of_poetry_modifier: "Court of Poetry"
   court_of_poetry_modifier_desc: "This character's halls reverberate with refined words — the air they breathe is flowery with linguistic flourishes."
-
   beauty_of_language_modifier: "Beauteous Language"
   beauty_of_language_modifier_desc: "This character has found an endless joy in the elegant mystery of words: a passion meant to be shared."
-
   welcoming_inclusivist_modifier: "Welcoming Inclusivist"
   welcoming_inclusivist_modifier_desc: "This character firmly believes that our differences complement each other, and  that weakness is found in heedless uniformity."
-
   consorting_with_muslims_modifier: "Consorting with Muslims"
   consorting_with_muslims_modifier_desc: "This character is known to associate with heathens."
-
   rebuked_the_heathen_modifier: "Rebuking the Heathen"
   rebuked_the_heathen_modifier_desc: "This character has no truck with heathens, heretics, apostates, and others of #EMP unsavoury#! character."
-
   refused_heathen_knowledge_modifier: "Refusing Heathen Knowledge"
   refused_heathen_knowledge_modifier_desc: "This character prefers their books pious and pure."

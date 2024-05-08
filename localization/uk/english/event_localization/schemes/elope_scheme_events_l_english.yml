@@ -1,6 +1,5 @@
 ﻿l_english:
   ### OUTCOME EVENTS ###
-
   ##I am a player, do I want to take the risk?
   elope_event_title: "Втеча:"
   elope.0001.t: "$elope_event_title$ під захистом тіней"
@@ -12,14 +11,12 @@
   elope.0001.a.success: "У мене # все вийшло #!"
   elope.0001.a.failure_discover: "Моя спроба #N провалилася, мене викрили!"
   elope.0001.a.failure_hidden: "Моя спроба #N провалилася#!, але мене не викрили"
-
-#Success event owner
+  #Success event owner
   elope.1001.t: "$elope_event_title$ Кохання все переживе"
   elope.1001.start.desc: "Поки ми чекаємо, я не можу не уявляти, що буде, якщо все піде навперейми. Мене охоплює повна безпорадність - почуття, до якого я #EMP не #! хочу звикати. Я помічаю попереду світло факела, що рухається в моєму напрямку, і жестом наказую охороні причаїтися."
   elope.1001.start.desc_brave: "As we wait, I cannot help but wonder where [target.GetFirstName] is now. Did [target.GetSheHe] make it out okay? Will there be pursuers?\n\nI spot a torch ahead, moving in our direction, and gesture to my guards to hide."
   elope.1001.end.desc: "Світло наближається і ми вже можемо розрізнити два силуети. Наскільки можна побачити, в одного в руці меч. Інший же... мабуть, це #EMP [target.GetSheHe]#!!\n\nЯ біжу назустріч, і [Select_CString(target.IsFemale, 'моя', 'мій' )] [target.Custom('LoverPetName ')] кидається в мої обійми. Вони швидкі, але солодкі, як мед. Я беру [target.GetHerHis] за руку і втікаю."
   elope.1001.a: "Поспішай, кохання моє, [ROOT.Char.Custom('DefaultPriestTitle')] вже чекає!"
-
   #Success for target liege
   elope.1002.t: "Зникнення вночі"
   elope.1002.start.desc: "Різкий стукіт у двері вириває мене з обіймів сну. «[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetTitleAsNameNoTooltip]! Один із стражників знайдений мертвим, а [Select_CString(target.IsFemale, 'ваша', 'ваш' )] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] [Select_CString(target.IsFemale , 'пропала', 'пропав' )]!»"
@@ -33,7 +30,6 @@
   elope.1002.a.fallback: "Як [Select_CString(target.IsFemale, 'вона могла', 'він міг' )]?"
   elope.1002.a.vengeful: "[Select_CString(target.IsFemale, 'Ця підла', 'Цей підлий' )] [target.Custom('InsultNounSexual')] отримає по заслугах!"
   elope.1002.a.compassionate: "Сподіваюся, [target.GetSheHe] знайде своє щастя, що б не трапилося."
-
   #Success event for relatives of target and owner
   elope.1003.opening: "[target_keeper.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
   elope.1003.start.desc: "Я пишу, щоб повідомити, що"
@@ -45,28 +41,22 @@
   elope.1003.your_character_introduction.desc: "[owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!"
   elope.1003.end.desc: "Скажу чесно, це мене образило до глибини душі. Крім того, це забруднило честь твоєї родини. Якщо #EMP щаслива пара#! сподівається, що [capital.GetNameNoTooltip] стане їх притулком, я вірю, що ти напоумиш їх!"
   elope.1003.a: "Це катастрофа!"
-
-#Failure discovered event owner
+  #Failure discovered event owner
   elope.1011.t: "$elope_event_title$ Смолоскипи у темряві"
   elope.1011.middle.desc: "Я бачу два силуети, три, чотири... [ROOT.Char.GetFaith.HighGodName], це не на добро!"
   elope.1011.end.desc: "За моєю командою ми починаємо відступати через підлісок. Наші переслідувачі не ховаються і швидко наближаються.\n\n«Ти не зможеш ховатися вічно, [ROOT.Char.GetTitledFirstNameNoTooltip]! Ми зловили одного з твоїх людей, зловимо і тебе!»"
   elope.1011.a: "#EMP Тікаймо!#!"
-
   elope.1012.t: "Невдала втеча"
   elope.1012.desc: "[target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] [Select_CString(target.IsFemale, 'намагалася', 'намагався' )] бігти, але [target.GetHerHim] вдалося перешкодити! Капітан варти повідомляє, що [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] [Select_CString(owner.IsFemale, 'планувала', 'планував' )] викрасти [target.GetHerHis] і таємно одружитися.\n\nМало того , у [target.GetFirstNameNoTooltip] покоях [target.GetFirstNameNoTooltip], виявилися листи, що свідчать про те, що [target.GetFirstNameNoTooltip] зовсім не [Select_CString(target.IsFemale, 'заперечувала', 'заперечував' )]!"
   elope.1012.a: "[Select_CString(owner.IsFemale, 'Ця', 'Цей' )] [owner.Custom('InsultAdjective')] [owner.Custom('InsultNounSexual')]... [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] ніколи [Select_CString(owner.IsFemale, 'їй', 'йому' )] не дістанеться!"
   elope.1012.b: "Зрада! #EMP З цього моменту#! [target.GetFirstNameNoTooltip] не залишить свою кімнату!"
   elope.1012.c: "Я примушу їх страждати, згадайте моє слово!"
   elope.1012.d: "У мене голова від цього болить..."
-
-#Failure undiscovered for owner
+  #Failure undiscovered for owner
   elope.1021.end.desc: "\n\nЗа моєю командою ми відступаємо через кущі. Тільки завдяки успіху нам вдається дістатися до воза і зникнути вночі."
   elope.1021.a: "[target.GetFirstNameNoTooltip], кохання моє... Я молюся, щоб з тобою було все гаразд."
-
-
-### ONGOING EVENTS ###
-
-# Lover is doubting
+  ### ONGOING EVENTS ###
+  #Lover is doubting
   elope.2000.t: "Любов моя!"
   elope.2000.start.desc: "Ти кажеш мені не втрачати віри, але я більше не можу приховувати страху. Що якщо"
   elope.2000.target_relation.desc: "[Select_CString(discoverer.IsFemale, 'моя', 'мій' )] [target.Custom2('RelationToMeShort' , SCOPE.sC('discoverer'))] дізнається про наші плани? Я погано сплю і їм через силу. [discoverer.GetSheHe|U] починає турбуватися, можливо навіть щось підозрювати!"

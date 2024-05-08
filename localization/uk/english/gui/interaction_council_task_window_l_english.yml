@@ -1,10 +1,10 @@
 ﻿l_english:
   select_council_task_header: "Вимагати місця в раді"
-  COUNCIL_TASK_INTERACTION_NO_SELECTED_TASK: "@warning_icon!#X Завдання не обрано #!"
+  COUNCIL_TASK_INTERACTION_NO_SELECTED_TASK: "@warning_icon!#X Завдання не обрано#!"
   COUNCIL_TASK_INTERACTION_AUTO_FILLED: "@warning_icon!#X [ACTIVE_COUNCIL_TASK.GetPositionName] заповнюється автоматично#!"
   COUNCIL_TASK_INTERACTION_WINDOW_SELECT_TASK: "Вибрати місце у раді"
   COUNCIL_TASK_INTERACTION_WINDOW_SELECTED_TASK: "Обрана позиція: [CouncilTaskInteractionWindow.GetSelectedTask.GetPositionName]"
-  COUNCIL_TASK_INTERACTION_WINDOW_PLAYER_SKILLS_LABEL: "Навички, якими володіє [GetPlayer.GetShortUIName|U]"
+  COUNCIL_TASK_INTERACTION_WINDOW_PLAYER_SKILLS_LABEL: "Навички, якими володіє [GetPlayer.GetShortUINamePossessive|U]"
   COUNCIL_TASK_INTERACTION_CURRENT: "Зараз: [Character.GetUIName]"
   COUNCIL_TASK_INTERACTION_CURRENT_YOU: "Ваша поточна позиція"
   COUNCIL_TASK_INTERACTION_VACANT: "Зараз: вільно"

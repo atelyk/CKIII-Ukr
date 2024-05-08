@@ -1,83 +1,58 @@
 ﻿l_english:
-
   RECENT_HISTORY_TRIGGER: "Було $HISTORY|V$ в останні $DURATION$"
   NOT_RECENT_HISTORY_TRIGGER: "#bold Не#! було $HISTORY|V$ протягом $DURATION$"
   RECENT_HISTORY_TRIGGER_THIRD: "Титул #V [TITLE.GetName]#! був $HISTORY|V$ в останні $DURATION$"
   NOT_RECENT_HISTORY_TRIGGER_THIRD: "Титул #V [TITLE.GetName]#! #bold не#! бул $HISTORY|V$ протягом $DURATION$"
-
   IS_CONTESTED_TRIGGER: "Іде [war|El] за титул."
   NOT_IS_CONTESTED_TRIGGER: "#bold Не#! оспорюється у [Concept( 'war', 'війні' )|E]."
   IS_CONTESTED_TRIGGER_THIRD: "Іде [war|El] за титул #V [TITLE.GetName]#!."
   NOT_IS_CONTESTED_TRIGGER_THIRD: "Титул #V [TITLE.GetName]#! #bold немає#! оспорення у [Concept( 'war', 'війні' )|E]."
-
   PLACE_IN_LINE_OF_SUCCESSION_TRIGGER: "Місце у лінії спадкування $OPERATOR$ $VALUE|V0$"
   NOT_PLACE_IN_LINE_OF_SUCCESSION_TRIGGER: "Місце у лінії спадкування #bold не#! $OPERATOR$ $VALUE|V0$"
   PLACE_IN_LINE_OF_SUCCESSION_TRIGGER_THIRD: "Місце персонажа [CHARACTER.GetShortUINamePossessive|V] в лінії спадкування $OPERATOR$ $VALUE|V0$"
   NOT_PLACE_IN_LINE_OF_SUCCESSION_TRIGGER_THIRD: "В лінії спадкування [CHARACTER.GetShortUINamePossessive|V] займає місце #bold не#! $OPERATOR$ $VALUE|V0$"
-
   PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER: "Місце у лінії спадкування між $MINVALUE|V0$ та $MAXVALUE|V0$"
   NOT_PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER: "Місце в лінії спадкування #bold не#! між $MINVALUE|V0$ та $MAXVALUE|V0$"
   PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER_THIRD: "Місце персонажа [CHARACTER.GetShortUINamePossessive|V] в лінії спадкування між $MINVALUE|V0$ та $MAXVALUE|V0$"
   NOT_PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER_THIRD: "В лінії спадкування [CHARACTER.GetShortUINamePossessive|V] займає місце #bold не#! між $MINVALUE|V0$ та $MAXVALUE|V0$"
-
   TITLE_TIER_TRIGGER: "Ранг $COMPARATOR$ $TIER|V$"
   TITLE_TIER_TRIGGER_THIRD: "[TITLE.GetName]: ранг $COMPARATOR$ $TIER|V$"
-
-
-
-
   ROME_HOLDER_IS_CORRECT_FAITH: "Рим під [CHARACTER.GetFaith.GetAdjective]им управлінням"
   ROME_HOLDER_IS_NOT_CORRECT_FAITH: "Рим не під [CHARACTER.GetFaith.GetAdjective]им управлінням"
-
   ALEXANDRIA_HOLDER_IS_CORRECT_FAITH: "Олександрія під [CHARACTER.GetFaith.GetAdjective]им управлінням"
   ALEXANDRIA_HOLDER_IS_NOT_CORRECT_FAITH: "Олександрія не під [CHARACTER.GetFaith.GetAdjective]им управлінням"
-
   JERUSALEM_HOLDER_IS_CORRECT_FAITH: "Єрусалим під [CHARACTER.GetFaith.GetAdjective]им управлінням"
   JERUSALEM_HOLDER_IS_NOT_CORRECT_FAITH: "Єрусалим не під [CHARACTER.GetFaith.GetAdjective]им управлінням"
-
   ANTIOCHEIA_HOLDER_IS_CORRECT_FAITH: "Антіохія під [CHARACTER.GetFaith.GetAdjective]им управлінням"
   ANTIOCHEIA_HOLDER_IS_NOT_CORRECT_FAITH: "Антіохія не під [CHARACTER.GetFaith.GetAdjective]им управлінням"
-
   BYZANTION_HOLDER_IS_CORRECT_FAITH: "Константинополь під [CHARACTER.GetFaith.GetAdjective]им управлінням"
   BYZANTION_HOLDER_IS_NOT_CORRECT_FAITH: "Константинополь не під [CHARACTER.GetFaith.GetAdjective]им управлінням"
-
-
   HRE_HOLDER_IS_OF_MY_DYNASTY: "Правитель Священної Римської імперії належить до династії [CHARACTER.GetDynastyName]"
   HRE_HOLDER_IS_NOT_OF_MY_DYNASTY: "Правитель Священної Римської імперії не належить до династії [CHARACTER.GetDynastyName]"
-
   I_HAVE_THE_TITLE: "У вас є [title|El] [TARGET_TITLE.GetNameNoTier]"
   I_DO_NOT_HAVE_THE_TITLE: "У вас #bold немає#! [Concept( 'title', 'титулу' )|E] [TARGET_TITLE.GetNameNoTier]"
   HAS_THE_TITLE: "Має [title|El] [TARGET_TITLE.GetNameNoTier]"
   DOES_NOT_HAVE_THE_TITLE: "#bold Не#! має [Concept( 'title', 'титулу' )|E] [TARGET_TITLE.GetNameNoTier]"
   CHARACTER_HAS_THE_TITLE: "[CHARACTER.GetShortUIName|U] має [title|El] [TARGET_TITLE.GetNameNoTier]"
   CHARACTER_DOES_NOT_HAVE_THE_TITLE: "[CHARACTER.GetShortUIName|U] #bold не#! має [Concept( 'title', 'титулу' )|E] [TARGET_TITLE.GetNameNoTier]"
-
-
-
   MY_PRIMARY_TITLE_IS: "Ваш [primary_title|El] — [TARGET_TITLE.GetNameNoTier]"
   MY_PRIMARY_TITLE_IS_NOT: "Ваш [primary_title|El] #bold не#! [TARGET_TITLE.GetNameNoTier]"
   HAS_PRIMARY_TITLE: "Має [primary_title|El] [TARGET_TITLE.GetNameNoTier]"
   DOES_NOT_HAVE_PRIMARY_TITLE: "Не має [primary_title|El] [TARGET_TITLE.GetNameNoTier]"
   THEIR_PRIMARY_TITLE_IS: "[primary_title|E] персонажа [CHARACTER.GetShortUINamePossessive] — [TARGET_TITLE.GetNameNoTier]"
   THEIR_PRIMARY_TITLE_IS_NOT: "[primary_title|E] персонажа [CHARACTER.GetShortUINamePossessive] — #bold не#! [TARGET_TITLE.GetNameNoTier]"
-
   TITLE_IS_IN_REGION: "[PROVINCE.GetName] знаходиться в регіоні $REGION$"
   TITLE_IS_NOT_IN_REGION: "[PROVINCE.GetName] знаходиться #bold не#! в регіоні $REGION$"
-
   JERUSALEM_IS_SAME_FAITH: "Єрусалим [CHARACTER.GetFaith.GetAdjective]ий"
   JERUSALEM_IS_NOT_SAME_FAITH: "Єрусалим #bold не#! [CHARACTER.GetFaith.GetAdjective]ий"
-
   HIGH_PRIESTHOOD_ENOUGH_HOLY_SITES: "Ви контролюєте не менше 3 #L [CHARACTER.GetFaith.GetAdjective]их#! [Concept( 'holy_site', 'святинь' )|El]"
   HIGH_PRIESTHOOD_NOT_ENOUGH_HOLY_SITES: "Ви контролюєте менше 3 #L [CHARACTER.GetFaith.GetAdjective]их#! [Concept( 'holy_site', 'святинь' )|El]"
-
   CONSECRATE_BLOODLINE_HIGH_RELIGIOUS_HEAD_OPINION: "[CHARACTER.GetFaith.GetReligiousHead.GetShortUINamePossessive] має [opinion|El] про вас не нижче 75"
   NOT_CONSECRATE_BLOODLINE_HIGH_RELIGIOUS_HEAD_OPINION: ""
   CONSECRATE_BLOODLINE_TEMPORAL_RELIGIOUS_HEAD_OPINION: ""
   NOT_CONSECRATE_BLOODLINE_TEMPORAL_RELIGIOUS_HEAD_OPINION: ""
-
   CONSECRATE_BLOODLINE_ENOUGH_HOLY_SITES: "Ви контролюєте як мінімум одну #L [CHARACTER.GetFaith.GetAdjective]у#! [Concept( 'holy_site', 'святиню' )|El]"
   CONSECRATE_BLOODLINE_NOT_ENOUGH_HOLY_SITES: "Ви #bold не#! контролюєте ніяких #L [CHARACTER.GetFaith.GetAdjective]их#! [Concept( 'holy_site', 'святинь' )|El]"
-
   HAS_REVOCABLE_LEASE_TRIGGER: "Has a revocable lease"
   HAS_ORDER_OF_SUCCESSION_TRIGGER: "Has order of succession"
   HAS_TITLE_LAW_FLAG_TRIGGER: "Has title law: $LAW$"

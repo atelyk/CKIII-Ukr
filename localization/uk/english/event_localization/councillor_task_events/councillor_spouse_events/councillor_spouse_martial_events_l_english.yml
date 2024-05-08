@@ -1,22 +1,13 @@
 ﻿l_english:
   councillor_spouse_martial.0001.message: "[councillor.GetTitleAsName] надихає рекрутів"
-
   councillor_spouse_martial.0002.message: "Допомога в організації армії"
-
   councillor_spouse_martial.0003.message: "[Select_CString(councillor.IsFemale, 'Надихаюча', 'Надихаючий')] [councillor.GetTitleAsName]"
-
   councillor_spouse_martial.0004.message: "[councillor.GetTitleAsName] надихає лицарів"
-
   councillor_spouse_martial.0005.message: "Підтримка у переговорах із найманцями"
-
   councillor_spouse_martial.0006.message: "Наглядає за мною"
-
   councillor_spouse_martial.0007.message: "[councillor.GetTitleAsName] займається пораненими"
-
   councillor_spouse_martial.0008.message: "Страшна присутність"
-
   councillor_spouse_martial.0009.message: "Навчальний бій"
-
   councillor_spouse_martial.1001.t: "Супутник життя: день турніру"
   councillor_spouse_martial.1001.desc: "Сонце сяє, і турнір, який проводить [Select_CString(councillor.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))], обговорюють навіть селяни. Всі мої $knight_culture_player_plural_no_tooltip_lowercase$ вибухають радісними криками, коли [councillor.GetTitledFirstName] оголошує турнір на їх честь, і мені так-то потрібно просто сидіти і дивитися.\n\nАле я не збираюся!"
   councillor_spouse_martial.1001.a: "$knight_culture_player_plural_no_tooltip_lowercase$, я вітаю вас!"
@@ -24,13 +15,11 @@
   councillor_spouse_martial.1001.b: "Відмінна можливість, щоб [child.GetFirstNameNoTooltip] [Select_CString(child.IsFemale, 'отримала', 'отримав')] кілька вказівок!"
   councillor_spouse_martial.1001.b.education_tt: "Завдяки мені [SCOPE.sC('child').GetFirstNameNoTooltip] просувається у вивченні військової справи"
   councillor_spouse_martial.1001.c: "Це день у #EMP нашу#! честь!"
-
   councillor_spouse_martial.1002.t: "Супутник життя: діючи від мого імені"
   councillor_spouse_martial.1002.desc: "[Select_CString(councillor.IsFemale, 'Моя', 'Мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] витрачає досить багато часу, подорожуючи державою у супроводі своєї почесної варти. [councillor.GetHerHim|U] дозволено вирішувати багато питань від мого імені, а супроводжуючий [councillor.GetHerHis] військовий ескорт нагадує всім про моє право на владу."
   councillor_spouse_martial.1002.a: "[Select_CString(councillor.IsFemale, 'Моя', 'Мій')] [councillor.GetTitleAsNameNoTooltip] і я стоїмо на варті держави!"
   councillor_spouse_martial.1002.b: "Переконайтеся, що люди не забувають падати в ноги."
   councillor_spouse_martial.1002.c: "Всі повинні боятися мене і падати мені в ноги, [councillor.GetFirstNameNoTooltip]!"
-
   councillor_spouse_martial.1003.t: "Супутник життя: справа честі"
   councillor_spouse_martial.1003.desc: "[Select_CString(councillor.IsFemale, 'Моя', 'Мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('councillor'))]. Йдеться про конфлікт, у якому погрузли [attacker_vassal.GetTitledFirstName] і [defender_vassal.GetTitledFirstName].\n\n«Їхня війна безчесна, вони ганьблять вашу державу. Дозвольте мені зайнятися цим: я знаю, що зможу змусити їх укласти мир»."
   councillor_spouse_martial.1003.a: "Переконайтеся, що проблему вирішено. За будь-яку ціну."
@@ -38,12 +27,10 @@
   councillor_spouse_martial.1003.b.tt: "[attacker_vassal.GetFirstNameNoTooltip] та [defender_vassal.GetFirstNameNoTooltip] продовжать свою війну"
   councillor_spouse_martial.1003.c: "О, я у вас не сумніваюся."
   councillor_spouse_martial.1003.c.unlock_tt: "Цей варіант є доступним, тому що [SCOPE.sC('councillor').GetFirstNameNoTooltip] — геній стратегії"
-
   councillor_spouse_martial.1004.t: "Супутник життя: варта"
   councillor_spouse_martial.1004.desc: "Я дивуюсь, що за «грандіозний подарунок» [Select_CString(councillor.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] збирається зробити мені у дворі. Але все стає зрозумілим, коли [councillor.GetTitledFirstName] наказує групі солдатів вишикуватися переді мною і салютує мені: «Повний полк, зібраний у моїх землях. Вони готові служити вам».\n\nЦе #EMP воістину#! грандіозний подарунок!"
   councillor_spouse_martial.1004.a: "Більше військ для посилення армії!"
   councillor_spouse_martial.1004.b: "Вони будуть моєю особистою вартою."
-
   councillor_spouse_martial.1005.t: "Супутник життя: справити враження"
   councillor_spouse_martial.1005.desc: "[vassal.GetTitledFirstName] прибуває до столиці, володіння [capital.GetNameNoTier], щоб заплатити мені данину. Але [councillor.GetTitledFirstName] пропонує продемонструвати нашу військову міць, щоб заручитися вірністю васала на довгий час. «Будь-хто, побачивши могутню військову силу, двічі подумає, перш ніж зважитися на зраду», — зауважує [Select_CString(councillor.IsFemale), 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]."
   councillor_spouse_martial.1005.a: "Так, [vassal.GetFirstNameNoTooltip] буде бачити солдат за кожним рогом!"

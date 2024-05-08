@@ -1,12 +1,10 @@
 ﻿l_english:
   stress_threshold_cooldown_message: "Якщо після того, як мине [SCOPE.ScriptValue('stress_threshold_cooldown_duration_in_years')|V0] років ви все ще [Concept( 'stressed', 'відчуваєте стрес' )|E], то можете постраждати від [Concept( 'mental_break', 'нервового зриву' )|E]"
-
-  # System Messages
+  #System Messages
   stress_threshold.0010.toast: "[Concept( 'stress_level', 'Рівень стресу' )|E] підвищено"
   stress_threshold.0010.text: "Вас охопив [Concept( 'stress', 'стрес' )|E]"
   stress_threshold.0400.toast: "Ви перевищили свою межу [Concept( 'stress', 'стресу' )|E] і повернулися на 3-ій [Concept( 'stress_level', 'рівень стресу' )|E]"
-
-  # Level 1 Stress Events
+  #Level 1 Stress Events
   stress_threshold.1001.t: "Нервовий зрив: похмурі думки"
   stress_threshold.1001.desc: "Останнім часом мене мучить почуття провини та сорому. Усі мої гріхи, недоліки, невдачі... Похмурі думки відволікають від роботи і позбавляють сну ночами.\n\nПотрібно якось припинити ці страждання розуму, але що допоможе?"
   stress_threshold.1001.contrite.gain: "Потрібно сповідатися у всіх гріхах!"
@@ -22,7 +20,6 @@
   stress_threshold.1001.journaller.gain: "Потрібно записати мої страхи — це допоможе зосередитись."
   stress_threshold.1001.journaller.effect: "Я проведу ніч у кабінеті, на самоті."
   stress_threshold.1001.endure: "Я зберуся з силами і не піддамся цим поривам!"
-
   stress_threshold.1011.t: "Нервовий зрив: розпусні думки"
   stress_threshold.1011.desc: "Останнім часом мене постійно займають хтиві думки та еротичні фантазії. Коли рутина так стомлює, неважко загубитися у мріях.\n\nЦі пристрасті помітно впливають на мене, але що з ними робити?"
   stress_threshold.1011.rakish.gain: "Похід у бордель полегшить мені життя!"
@@ -37,7 +34,6 @@
   stress_threshold.1011.exercise.gain: "Можливо, варто пошукати новий спосіб розрядки..."
   stress_threshold.1001.exercise.effect: "Хороша розминка допоможе впоратися із пристрастю."
   stress_threshold.1011.endure: "Закушу губу і постараюся зосередитись!"
-
   stress_threshold.1501.t: "Нервовий зрив: байдужість"
   stress_threshold.1501.intro.desc: "З кожним днем мені все важче змушувати себе вилазити з ліжка і плестись до двору."
   stress_threshold.1501.helper.desc: "[scoped_helper.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] чекає на мене в обідній залі, але сьогодні [scoped_helper.GetHerHis] слова не приносять мені полегшення."
@@ -50,7 +46,6 @@
   stress_threshold.1501.d: "Вся їжа на смак, як попіл. Навіщо взагалі треба їсти?"
   stress_threshold.1501.e: "Я не дозволю похмурим думкам мене відволікти."
   stress_threshold.1501.f: "[scoped_ruler.GetFaith.GetAdherentName] — найбезглуздіше заняття у житті."
-
   stress_threshold.1502.t: "Нервовий зрив: роздратування"
   stress_threshold.1502.intro.desc: "Все треба пояснювати тисячу разів! У мене що, справ мало? Половина слуг не може добре виконувати накази, а друга половина взагалі їх не розуміє! Як [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] взагалі ще існує?"
   stress_threshold.1502.courtier.desc: "\n\nОсь, скажімо, [scoped_courtier.GetFirstName] останнім часом [Select_CString(scoped_courtier.IsFemale, 'стала взагалі нестерпною', 'став взагалі нестерпним' )]. Нескінченним ниттям [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('scoped_courtier'))] просто виводить мене з себе."
@@ -62,7 +57,6 @@
   stress_threshold.1502.e: "Доведеться потерпіти."
   stress_threshold.1502.f: "Може, вести щоденник моїх нещасть?"
   stress_threshold.1502.g: "[scoped_ruler.GetFaith.HighGodName], як хочеться випити!"
-
   stress_threshold.1503.t: "Нервовий зрив: порожньо на душі"
   stress_threshold.1503.desc: "Ніщо мене більше не тішить. Незважаючи на всі зусилля, ні щастя, ні спокою я не знаходжу. Наче чогось не вистачає.\n\nЧим же заповнити цю зяючу дірку, що висмоктує мою душу?"
   stress_threshold.1503.a.a: "Може, більше самоцвітів?"
@@ -73,7 +67,6 @@
   stress_threshold.1503.a.f: "Велична статуя, що зображує мої останні подвиги!"
   stress_threshold.1503.b: "Тільки [scoped_ruler.Custom('GetExpensiveMeal')] позбавить мене болю."
   stress_threshold.1503.e: "Якби тільки знати, що можна зробити..."
-
   stress_threshold.1504.t: "Нервовий зрив: нескінченна праця"
   stress_threshold.1504.desc: "Іноді мені здається, що тягар усього світу тисне мені на плечі. Я — [scoped_ruler.GetTitleAsName], мої володіння — [scoped_ruler.GetPrimaryTitle.GetNameNoTier], а моя праця нескінченна... Як знайти час на себе?"
   stress_threshold.1504.a: "Не можуть люди хоча б ненадовго дати мені спокій?"
@@ -82,7 +75,6 @@
   stress_threshold.1504.f: "Мене оточують дурні!"
   stress_threshold.1504.g: "Я спробую зібратись, записуючи свої думки."
   stress_threshold.1504.h: "Сідлайте коня, мені треба вирватися звідси!"
-
   stress_threshold.1601.t: "Нервовий зрив: нав'язливі думки"
   stress_threshold.1601.desc: "Я не можу зосередитись, мої думки бігають по колу! Мені потрібно слідкувати за... всім: [ROOT.Char.Custom('ResidenceBuilding')], мої війська, мої...\n\nЯк я можу заспокоїтися, якщо навіть думки зраджують мене?!"
   stress_threshold.1601.profligate.gain: "Якщо я куплю щось блискуче і думатиму про нього..."
@@ -114,7 +106,6 @@
   stress_threshold.1601.journaller.gain: "Перенесення думок на папір має внести ясність..."
   stress_threshold.1601.journaller.effect: "Переносячи думки на папір, я завжди трохи заспокоююсь!"
   stress_threshold.1601.endure_no_option: "Я... мені просто потрібно триматися. Я нічого не можу з цим вдіяти..."
-
   stress_threshold.1602.t: "Нервовий зрив: вируючі емоції"
   stress_threshold.1602.desc: "З кожним днем мої емоції стають все більш нестабільними. Всепоглинаючі веселощі миттєво змінюють глибоку скорботу. Моя свита і я все сильніше втомлюємося від цього.\n\nЯкби мені тільки вдалося знайти спосіб утихомирити бурю в моїй душі!"
   stress_threshold.1602.profligate.gain: "Можливо, якась новенька блискуча дрібничка допоможе мені зупинитися на чомусь одному."
@@ -145,15 +136,13 @@
   stress_threshold.1602.drunkard.effect: "Я завжди можу втопити свої емоції у склянці!"
   stress_threshold.1602.hashishiyah.gain: "Можливо, трохи гашишу принесе мені спокій."
   stress_threshold.1602.hashishiyah.effect: "Гашиш завжди допомагає зосередитись."
-
-  # Level 2 Stress Events
+  #Level 2 Stress Events
   stress_threshold.2001.t: "Нервовий зрив: невдячність"
   stress_threshold.2001.desc: "Скоти невдячні! Вони що, не знають, чим я жертвую заради них? Я без кінця працюю на благо держави, у відповідь чую лише скарги та нові вимоги! А тепер [victim.GetFirstNameNoTooltip] ще сумнівається у моїх наказах?!"
   stress_threshold.2001.arbitrary.gain: "Я — [ROOT.Char.GetTitleAsNameNoTooltip], моє слово — закон!"
   stress_threshold.2001.arbitrary.effect: "Я тут все вирішую!"
   stress_threshold.2001.imprison_victim: "Нехай [victim.GetFirstNameNoTooltip] вчиться подяки в підземеллі!"
   stress_threshold.2001.endure: "Мій обов'язок — виявити терпіння..."
-
   stress_threshold.2101.t: "Нервовий зрив: непривітність"
   stress_threshold.2101.desc: "Іноді мені здається, що [ROOT.Char.Custom('ResidenceBuilding')] — чуже мені місце. Я помічаю, як придворні кидають на мене косі погляди. Куди я не ввійду, у повітрі повисає незручне мовчання... що відбувається з моїм життям? Чому власний народ мене не приймає?"
   stress_threshold.2101.witch.gain: "Я ізгой, як і [ROOT.Char.GetFaith.WitchGodName]."
@@ -161,20 +150,18 @@
   stress_threshold.2101.drunkard.effect: "Здається, мій єдиний друг — вино."
   stress_threshold.2101.hashishiyah.effect: "Хоча б трубка мене не засуджує."
   stress_threshold.2101.endure: "Може, я все вигадую..."
-
   stress_threshold.2201.t: "Нервовий зрив: киплячий гнів"
   stress_threshold.2201.desc.insult: "«Нехай ти і [character_to_yell_at.GetTitleAsName], але ти все одно [character_to_yell_at.Custom('InsultAdjectiveArticle')] [character_to_yell_at.Custom('InsultNoun')]!»\n\n"
   stress_threshold.2201.desc: "Я відчуваю розгубленість, помітивши, як на мене дивиться [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('character_to_yell_at'))], але... у мені постійно палає така #EMP злість#!, а всі навкруги її тільки розпалюють...\n\n"
   stress_threshold.2201.desc_liege: "«Що на вас найшло, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Подібна поведінка неприйнятна."
   stress_threshold.2201.desc_vassal: "«Мій сюзерен, що означає така поведінка?!"
-  stress_threshold.2201.desc.calm0": And you're usually so calm...""
-  stress_threshold.2201.desc.ending0: """
+  stress_threshold.2201.desc.calm: " And you're usually so calm...\""
+  stress_threshold.2201.desc.ending: "\""
   stress_threshold.2201.a: "Ви чули мої слова!"
   stress_threshold.2201.save: "Скажіть, як би ви відреагували на такі нападки?"
   stress_threshold.2201.save_tt: "Я вдаю, що це була просто перевірка"
   stress_threshold.2201.liege: "Вибачте, мій сюзерен. Я краще контролюватиму себе."
   stress_threshold.2201.c: "Перепрошую. Я краще контролюватиму себе."
-
   stress_threshold.2202.t: "Киплячий гнів"
   stress_threshold.2202.desc.liege: "Неспровокована агресія, що обрушив на мене мій сюзерен [stress_character.GetTitledFirstName], стала для мене цілковитою несподіванкою."
   stress_threshold.2202.desc.vassal: "Неспровокована агресія, що обрушив на мене мій васал [stress_character.GetTitledFirstName], стала для мене цілковитою несподіванкою."
@@ -184,22 +171,19 @@
   stress_threshold.2202.desc.other: "так поводитися..."
   stress_threshold.2202.a: "Я відповім тим самим: «[stress_character.Custom('InsultNoun')|U]!»"
   stress_threshold.2202.b: "Значить, навіть [stress_character.GetSheHe] страждає... Це заспокоює."
-
-  # Level 3 Stress Events
+  #Level 3 Stress Events
   stress_threshold.3001.t: "Нервовий зрив: голоси"
   stress_threshold.3001.desc: "Двір загруз у брехні та фальші, але я знаю, хто завжди говорить правду.\n\nВони завжди зі мною. У мене в голові.\n\nВони кажуть, що знають правду...\n\nАле чи так це?"
   stress_threshold.3001.possessed.gain: "Так, лише голоси знають правду!"
   stress_threshold.3001.possessed.effect: "Так-так, вони знають правду, справжню правду..."
   stress_threshold.3001.naked_run: "Мені треба пробігтися голяка і демони покинуть мене!"
   stress_threshold.3001.endure: "Просто... не треба їх слухати..."
-
   stress_threshold.3101.t: "Нервовий зрив: все неправильно"
   stress_threshold.3101.desc: "Все... неправильно. Стіни неправильні. Підлога неправильна. Навіть повітря неправильне!\n\nЧому все неправильно? Хто це зробив? Хто зробив все неправильним?!"
   stress_threshold.3101.kill_victim: "Це все [victim.GetFirstNamePossessiveNoTooltip], я точно знаю!"
   stress_threshold.3101.lunatic.gain: "Білки... в стінах? Це все вони!"
   stress_threshold.3101.lunatic.effect: "Білки знову тиняються в стінах!"
   stress_threshold.3101.lunatic.tt: "#F Подати мені кирку!#!"
-
   stress_threshold.3201.t: "Нервовий зрив: надмірне навантаження"
   stress_threshold.3201.desc: "Для мене це занадто, який сенс взагалі намагатися?\n\nІ посеред вечері все починає просто... розпадатися. Мені потрібно прочитати нові записи про володіння [county.GetNameNoTierNoTooltip], вирішити кілька місцевих суперечок, мені потрібно...\n\n«З вами все гаразд, мій сюзерен?» — [Select_CString(vassal.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] обережно озвучує свою занепокоєння."
   stress_threshold.3201.depressed.gain: "Яка різниця? Я здаюсь."
@@ -209,7 +193,6 @@
   stress_threshold.3201.wrathful.effect: "«Я покажу тобі, у кого тут #EMP все гаразд#!, [vassal.Custom('InsultAdjective')] ти [vassal.Custom('InsultNoun')]!»"
   stress_threshold.3201.wrathful.effect.success: "[vassal.GetTitledFirstName] [Select_CString(vassal.IsFemale, 'побита', 'побитий' )] вами"
   stress_threshold.3201.wrathful.effect.failure: "[vassal.GetTitledFirstName] відбивається від вас"
-
   stress_threshold.3301.t: "Нервовий зрив: біль у серці"
   stress_threshold.3301.desc_man: "Першою ознакою того, що щось не в порядку, стає гострий біль у грудях. Я хитаючись підходжу до стіни, щоб спертися, коли біль поширюється на мою ліву руку. Починає паморочитися голова.\n\nЯ... В мене немає часу на це! Мені стільки потрібно зробити! Я намагаюся зробити крок і падаю на підлогу. Я намагаюся покликати на допомогу, але з моїх губ злітає лише слабкий стогін.\n\nБіль у грудях все наростає, темрява застилає очі, і я #EMP відчуваю#!, як зупиняється моє серце."
   stress_threshold.3301.desc_woman: "Першою ознакою того, що щось не в порядку, стає печія. Я пробую всі можливі способи — м'яку вовну на живіт, повільні прогулянки... Нічого.\n\nРаптом я не можу зробити глибокий вдих і намагаюся спертися об стіну. Що... Що відбувається? Я намагаюся покликати на допомогу, але мені вдається видати лише болісне зітхання.\n\nЯк же #EMP боляче#!! Гострий біль поширюється між лопатками, перетікає на ліву руку. Біль посилюється, і я сповзаю на підлогу.\n\nНевдовзі мене поглинає пітьма."

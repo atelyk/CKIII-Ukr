@@ -1,12 +1,10 @@
 ﻿l_english:
-
   ALL_SCHEMES: "Усі підступи:"
   ANY_SCHEME: "Будь-які підступи:"
   ALL_OF_MY_SCHEMES: "Усі ваші підступи:"
   ANY_OF_MY_SCHEMES: "Будь-які ваші підступи:"
   ALL_OF_THEIR_SCHEMES: "Усі підступи персонажа [CHARACTER.GetShortUINamePossessive]:"
   ANY_OF_THEIR_SCHEMES: "Будь-які підступи персонажа [CHARACTER.GetShortUINamePossessive]:"
-
   ALL_SCHEME_AGENTS: "Усі співучасники підступів [SCHEME.GetFullActionName]:"
   ANY_SCHEME_AGENT: "Будь-який співучасник підступів [SCHEME.GetFullActionName]:"
   scheme_progress_trigger: "Scheme Progress"
@@ -15,5 +13,4 @@
   scheme_power_resistance_difference_trigger: "Scheme power resistance difference"
   can_start_scheme_trigger: "Can start [scheme|E]"
   is_scheme_exposed_trigger: "Is [scheme|E] exposed"
-
   NOT_WANTS_TO_BE_SOULMATES: "[TARGET_CHARACTER.GetShortUIName] does not want to be soulmates"

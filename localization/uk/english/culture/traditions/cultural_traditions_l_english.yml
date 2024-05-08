@@ -1,5 +1,5 @@
 ﻿l_english:
-  # Ethoses
+  #Ethoses
   ethos_bellicose_name: "Bellicose"
   ethos_bellicose_desc: "This culture considers conflict and violence to be necessary states of existence; ingrained in its people is the idea that one should stand up and fight for their own. "
   ethos_stoic_name: "Stoic"
@@ -8,14 +8,13 @@
   ethos_bureaucratic_desc: "No culture lasts longer than its oldest record, І ця культура вірить в облік таким ретельним, щоб гарантувати безсмертя "
   ethos_spiritual_name: "Spiritual"
   ethos_spiritual_desc: "While some cultures turn to war and others to worldly knowledge, ця культура покладається на єдину константу впродовж усієї своєї історії - бога. Духовність - це єдиний шлях вперед у жорстокому і байдужому світі."
-  ethos_courtly_name: "Courtly"
+  ethos_courtly_name: "Ceremonious"
   ethos_courtly_desc_nhc: "The ceremony of court life is so integral to this culture that it forms a core part of people's social behavior. A place for everyone, і всі на своєму місці."
   ethos_egalitarian_name: "Egalitarian"
   ethos_egalitarian_desc: "Intolerance and isolationism may be the way for others, але ця культура визнає, що приймати відмінності набагато краще, ніж знищувати їх"
   ethos_communal_name: "Communal"
   ethos_communal_desc: "This culture values the bonds of community above all else, виховувати велику лояльність і відданість, працюючи разом для досягнення спільних цілей"
-
-  # Martial Customs
+  #Martial Customs
   martial_custom_equal_name: "Equal"
   martial_custom_equal_desc: "In this culture, Будь-яка працездатна людина в домі може стати на захист свого сеньйора, коли її покличуть"
   martial_custom_male_only_name: "Men Only"
@@ -23,8 +22,7 @@
   martial_custom_female_only_name: "Women Only"
   martial_custom_female_only_desc: "This culture considers only women to be physically strong and tough enough to fight in battle."
   ## ^The above descs mirror each other deliberately.
-  
-  # Traditions
+  #Traditions
   tradition_court_eunuchs_name: "Court Eunuchs"
   tradition_court_eunuchs_desc: "This culture makes extensive use of eunuchs at court, обіймають посади від домашньої прислуги до бюрократичних адміністраторів і навіть військових командирів. Чоловікам без бажання легко довіряти"
   tradition_byzantine_succession_name: "Byzantine Traditions"
@@ -285,9 +283,11 @@
   tradition_steppe_tolerance_name: "Steppe Tolerance"
   tradition_steppe_tolerance_desc: "Those who live on the Steppe will always have much in common with those who share their way of life. Strangers may worship differently але вони досі живуть у сідлі"
   tradition_nubian_warrior_queens_name: "Warrior Queens"
-  tradition_nubian_warrior_queens_desc: "Those who live in East Africa well remember the great Warrior Queens who once stood against invaders and forged kingdoms on the Kush. Our neighbors may insist on the superiority of males але ми відстежуємо наші роди через наших матерів, and the warcry of powerful Nubian women send these foreign "men" running home."
+  tradition_nubian_warrior_queens_desc: "Those who live in East Africa well remember the great Warrior Queens who once stood against invaders and forged kingdoms on the Kush. Our neighbors may insist on the superiority of males але ми відстежуємо наші роди через наших матерів, and the warcry of powerful Nubian women send these foreign \"men\" running home."
+  tradition_nubian_warrior_kings_name: "Warrior Kings"
+  tradition_nubian_warrior_kings_desc: "Those who live in East Africa well remember the great Warrior Kings who once stood against invaders and forged kingdoms on the Kush. Our neighbors may insist on the superiority of females, but we track our bloodlines through our fathers, and the warcry of powerful Nubian men send these foreign \"women\" running home."
   tradition_maritime_mangroves_name: "Maritime Mangroves"
-  tradition_maritime_mangroves_desc: "This culture has learned to sail swamplands other cultures find impassable. "They have used this to build unreachable bases from which to trade, рейд, and explore the world."
+  tradition_maritime_mangroves_desc: "This culture has learned to sail swamplands other cultures find impassable. \"They have used this to build unreachable bases from which to trade, рейд, and explore the world."
   tradition_mixed_governance_name: "Mixed Governance"
   tradition_mixed_governance_desc: "This culture considers each thought worth hearing and every new way of rule worth trying. Rulers encourage vassals to govern however they see fit."
   tradition_ritual_scarrification_name: "Ritual Scarification"
@@ -310,8 +310,10 @@
   tradition_caucasian_wolves_desc: "Having spent centuries making themselves a home around the Caucasian gates ця культура добре вжилася вдома з усім, що тягне за собою гірська війна»."
   tradition_artisans_name: "Expert Artisans"
   tradition_artisans_desc: "Children in this culture often carry on the profession of their parents, накопичуючи глибокі знання та навички у своєму ремеслі протягом багатьох поколінь"
-
-  # FP1 Traditions
+  #Debug Traditions
+  tradition_debug_name: "Mercurial Ways"
+  tradition_debug_desc: "This culture is known for its many eclectic & contradictory stances."
+  #FP1 Traditions
   tradition_fp1_coastal_warriors_name: "Coastal Warriors"
   tradition_fp1_coastal_warriors_desc: "We have always been drawn to the shoreline. The sting of sea air, плач чайок, the scent of smoked fish... what warrior would ever opt to live far from the water and its freedoms?"
   tradition_fp1_performative_honour_name: "Performative Honor"
@@ -322,8 +324,7 @@
   tradition_fp1_trials_by_combat_desc: "Words are a coward's substitute for weapons. Why leave justice to decrepit laws and corrupt magistrates when disputes can be settled faster and fairer with the blade?"
   tradition_fp1_the_right_to_prove_name: "The Right to Prove"
   tradition_fp1_the_right_to_prove_desc: "Though not all are born fighters, з правильним характером і сильною рукою-мечем, any can show themselves a warrior at heart and so become one in deed."
-
-  # Tradition effects - Base Title
+  #Tradition effects - Base Title
   culture_parameter_city_buildings_more_county_opinion: "[city|E] [holdings|E] give more [county_opinion|E] per level"
   culture_parameter_monastic_expectations: "[characters|E] of this [culture|E] are more likely to accept taking the Vows, особливо ваші неповнолітні діти"
   culture_parameter_temperate_trait_bonuses: "The [GetTrait('temperate').GetName( GetNullCharacter )] [traits|E] have additional bonuses"
@@ -332,14 +333,12 @@
   tradition_strong_kinship_desc: "This culture has a strong tradition of kinship within the extended family, чи клан. У важкі часи правитель завжди зможе покластися на своїх рідних"
   tradition_amharic_highlanders_name: "Amharic Highlanders"
   tradition_amharic_highlanders_desc: "The Amharic highlands are quite suitable for farming as long as one knows how to best approach the matter. For many generations this people have worked and lived in this environment, процвітаючи та розвиваючи власні традиції та звичаї."
-
-  culture_parameter_witenagemot_succession_enabled: "Can enact the #high $saxon_elective_succession_law$#! [succession_law|E]"
-  culture_parameter_scandinavian_elective_enabled: "Can enact the #high $scandinavian_elective_succession_law$#! [succession_law|E]"
-  culture_parameter_gender_equal_inheritance: "Can enact the #high $equal_law$#! [gender_law|E]"
-  culture_parameter_can_enact_high_partition_succession_law: "Can enact the #high $high_partition_succession_law$#! [succession_law|E]"
-
-  culture_parameter_female_preference_inheritance: "Can enact the #high $female_preference_law$#! [gender_law|E]"
-  culture_parameter_female_only_inheritance: "Can enact the #high $female_only_law$#! [gender_law|E]"
+  culture_parameter_witenagemot_succession_enabled: "Can enact the [GetLaw('saxon_elective_succession_law').GetName] [succession_law|E]"
+  culture_parameter_scandinavian_elective_enabled: "Can enact the [GetLaw('scandinavian_elective_succession_law').GetName] [succession_law|E]"
+  culture_parameter_gender_equal_inheritance: "Can enact the [GetLaw('equal_law').GetName] [gender_law|E]"
+  culture_parameter_can_enact_high_partition_succession_law: "Can enact the [GetLaw('high_partition_succession_law').GetName] [succession_law|E]"
+  culture_parameter_female_preference_inheritance: "Can enact the [GetLaw('female_preference_law').GetName] [gender_law|E]"
+  culture_parameter_female_only_inheritance: "Can enact the [GetLaw('female_only_law').GetName] [gender_law|E]"
   culture_parameter_can_blind_prisoners: "[rulers|E] can Blind [prisoners|E]"
   culture_parameter_can_castrate_prisoners: "[rulers|E] can Castrate [prisoners|E]"
   culture_parameter_children_can_be_born_in_the_purple: "[children|E] born to a [ruler|E] holding the $e_byzantium$ may gain the [GetTrait('born_in_the_purple').GetName( GetNullCharacter )] [trait|E] - Taking precedence in the [line_of_succession|E]"
@@ -352,11 +351,11 @@
   culture_parameter_cannot_divorce: "Cannot use any [divorce|E] [interactions|E]"
   culture_parameter_strong_traits_more_common: "The [GetTrait('strong').GetName( GetNullCharacter )] [trait|E] is more common"
   culture_parameter_minimum_prowess_for_knights: "[knights|E] #EMP must#! have at least [prowess_i]#V 12#! [prowess|E]"
-  culture_parameter_blademaster_trait_bonuses: "The [GetTrait('blademaster_2').GetName( GetNullCharacter )] [traits|E] have additional bonuses"
+  culture_parameter_blademaster_trait_bonuses: "The [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] [traits|E] have additional bonuses"
   culture_parameter_prowess_from_martial_education: "The [martial|E] [education|E] [traits|E] also grant [prowess|E]"
   culture_parameter_martial_education_more_valued: "The [martial|E] [education|E] [traits|E] are more valued"
   culture_parameter_high_prowess_ignores_knight_restrictions: "Most restrictions on who can be a [knight|E] are lifted for characters with [prowess_i]#V 10#! or more [prowess|E]"
-  culture_parameter_blademaster_traits_more_common: "[knights|E] gain [GetTrait('blademaster_2').GetName( GetNullCharacter )] [traits|E] more often in battles"
+  culture_parameter_blademaster_traits_more_common: "[knights|E] gain [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] [traits|E] more often in battles"
   culture_parameter_prowess_from_religious_traits: "[traits|E] such as [GetTrait('education_learning_3').GetName( GetNullCharacter )], [GetTrait('devoted').GetName( GetNullCharacter )] or [GetTrait('theologian').GetName( GetNullCharacter )] give [prowess|E]"
   culture_parameter_prowess_traits_more_valued: "The [GetTrait('education_martial_prowess_1').GetName( GetNullCharacter )], [GetTrait('education_martial_prowess_2').GetName( GetNullCharacter )], [GetTrait('education_martial_prowess_3').GetName( GetNullCharacter )] and [GetTrait('education_martial_prowess_4').GetName( GetNullCharacter )] [traits|E] are more valued"
   culture_parameter_culture_clergy_can_fight: "$doctrine_parameter_clergy_can_fight$"
@@ -408,6 +407,7 @@
   culture_parameter_can_recruit_winter_specialist: "Gain a [decision|E] to recruit Winter [commanders|E]"
   culture_parameter_can_recruit_forest_specialist: "Gain a [decision|E] to recruit Forest [commanders|E]"
   culture_parameter_can_recruit_open_specialist: "Gain a [decision|E] to recruit Open Terrain [commanders|E]"
+  culture_parameter_unlock_horse_pastures_building: "Can build [GetBuilding('horse_pastures_01').GetName] in [holdings|E] of this [culture|E]"
   culture_parameter_can_recruit_mountain_specialist: "Gain a [decision|E] to recruit Mountain [commanders|E]"
   culture_parameter_can_recruit_dry_specialist: "Gain a [decision|E] to recruit Dry Terrain [commanders|E]"
   culture_parameter_can_recruit_hill_specialist: "Gain a [decision|E] to recruit Hill [commanders|E]"
@@ -418,7 +418,7 @@
   culture_parameter_desert_warrior_trait_more_common: "The [GetTrait('desert_warrior').GetName( GetNullCharacter )] [commander_trait|E] is more common"
   culture_parameter_jungle_stalker_trait_more_common: "The [GetTrait('jungle_stalker').GetName( GetNullCharacter )] [commander_trait|E] is more common"
   culture_parameter_elephant_bonuses_for_rank_4_education: "[rulers|E] with the [GetTrait('education_diplomacy_4').GetName( GetNullCharacter )], [GetTrait('education_stewardship_4').GetName( GetNullCharacter )], [GetTrait('education_learning_4').GetName( GetNullCharacter )] or [GetTrait('education_martial_4').GetName( GetNullCharacter )] [traits|E] are considered a #EMP Gajapati#! and gain significant [elephant_cavalry|E] bonuses"
-  culture_parameter_build_bonuses_on_religious_traits: "[traits|E] such a [GetTrait('education_learning_2').GetName( GetNullCharacter )], [GetTrait('mystic_2').GetName( GetNullCharacter )], [GetTrait('humble').GetName( GetNullCharacter )] and #EMP especially#! [GetTrait('zealous').GetName( GetNullCharacter )] give [temple|E] construction bonuses"
+  culture_parameter_build_bonuses_on_religious_traits: "[traits|E] such a [GetTrait('education_learning_2').GetName( GetNullCharacter )], [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )], [GetTrait('humble').GetName( GetNullCharacter )] and #EMP especially#! [GetTrait('zealous').GetName( GetNullCharacter )] give [temple|E] construction bonuses"
   culture_parameter_more_fervor_on_church_construction: "Constructing [temples|E] grants much more [fervor|E]"
   culture_parameter_zealous_trait_more_common: "The [GetTrait('zealous').GetName( GetNullCharacter )] [trait|E] is more common"
   culture_parameter_patient_trait_more_common: "The [GetTrait('patient').GetName( GetNullCharacter )] [trait|E] is more common"
@@ -480,7 +480,10 @@
   culture_parameter_ai_more_likely_to_fortify: "[rulers|E] of this [culture|E] are more likely to construct [buildings|E] that increase [fort_level|E]"
   culture_parameter_next_level_guild_halls: "The #V $building_type_guild_halls_01$#! line of [buildings|E] can be constructed one [era|E] early"
   culture_parameter_ai_more_likely_to_city: "[rulers|E] of this [culture|E] are more likely to construct [city|E] [holdings|E]"
-  culture_parameter_culture_can_raid_at_sea_even_if_feudal: "Unlocks the ability to [raid|E] and to Raid over seas"
+  culture_parameter_culture_can_raid_at_sea_even_if_feudal: "[duchy|E]-[title_tier|E] and lower [rulers|E] may [raid|E] over seas, regardless of [government|E]"
+  culture_parameter_culture_can_raid_over_land_even_if_feudal: "[duchy|E]-[title_tier|E] and lower [rulers|E] may [raid|E] over land, regardless of [government|E]"
+  culture_parameter_culture_can_raid_at_sea_even_if_feudal_no_restrictions: "[rulers|E] may [raid|E] over seas, regardless of [government|E]"
+  culture_parameter_culture_can_raid_over_land_even_if_feudal_no_restrictions: "[rulers|E] may [raid|E] over land, regardless of [government|E]"
   culture_parameter_not_tribal_raiding_malus: "When returning from a successful [raid|E], non-[tribal|E] characters #EMP lose#! [EmptyScope.ScriptValue('not_tribal_raid_prestige_multiplier')|1] [prestige_i][prestige|E] per 1 [raid_loot|E] delivered"
   culture_parameter_refuses_vassalisation: "[independent|E] [rulers|E] will never accept the #high $offer_vassalization_interaction$#! [interaction|E]"
   culture_parameter_independent_ruler_defense_bonus: "When defending their [primary_title|E] or their independence in a [war|E], [independent|E] [rulers|E] of [duke|E] [rank|E] or lower receive an #P [EmptyScope.ScriptValue('determined_independence_defensive_advantage_value')|0]#! [advantage|E] bonus in [battle|E]"
@@ -489,7 +492,9 @@
   culture_parameter_grant_independence_prestige_and_renown_gain: "[independent|E] [rulers|E] that $grant_independence_interaction$ to their [vassals|E] gain [prestige_i][prestige|E] and [dynasty_prestige_i][dynasty_prestige|E]"
   culture_parameter_grant_independence_opinion_buff: "[vassals|E] of this [culture|E] that receive independence will be much better disposed towards their former [liege|E]"
   culture_parameter_gi_truces_last_longer: "[truces|E] formed as a result of a #high $grant_independence_interaction$#! [interaction|E] between a [liege|E] and their former [vassal|E] last longer"
-
+  culture_parameter_more_parochial_vassals: "$parochial_vassals$ are more common"
+  culture_parameter_byzantine_faction_differences: "[vassals|E] of this [culture|E] are less likely to join [dissolution_factions|E] against the [holder|E] of the #V $e_byzantium$#!"
+  culture_parameter_byzantine_faction_preffered_claimants: "[vassals|E] of this [culture|E] are much more likely to join [claimant_factions|E] against the [holder|E] of the #V $e_byzantium$#! if they are not the [preferred_heir|E]"
   culture_parameter_blindness_blocks_inheritance: "[GetTrait('blind').GetName( GetNullCharacter )] characters cannot inherit [titles|E]"
   culture_parameter_merciful_blinding: "Using the $blind_interaction$ [interaction|E] on [criminals|E] with a [banish_reason|E] or [execute_reason|E] grants [piety_i][piety|E]"
   culture_parameter_can_make_republican_vassals: "[rulers|E] of this [culture|E] can appoint up to #V [EmptyScope.ScriptValue('republican_vassal_interaction_limit')|0]#! [counts|E] to be overseers of local cities, turning them into [republican|E] [vassals|E]"
@@ -497,79 +502,64 @@
   culture_parameter_characters_are_better_court_musicians: "[characters|E] of this [culture|E] perform better when appointed to the #high $court_musician_court_position$#! [court_position|E]"
   culture_parameter_characters_are_better_food_tasters: "[characters|E] of this [culture|E] perform better when appointed to the #high $food_taster_court_position$#! [court_position|E]"
   culture_parameter_characters_are_better_court_poets: "[characters|E] of this [culture|E] perform better when appointed to the #high $court_poet_court_position$#! [court_position|E]"
-
-
   ### Decision loc
   recruit_winter_specialist_decision: "Recruit Winter Specialist"
   recruit_winter_specialist_decision_desc: "My hardy people, the [ROOT.Char.GetCulture.GetCollectiveNoun], are masters of the cold. Should I require an expert commander to guide my troops through the unforgiving winter, I need but to send word — there is no shortage of frost-bitten veterans willing to heed my call."
   recruit_winter_specialist_decision.tt: "A high-[martial|E] [commander|E] with the [GetTrait('winter_soldier').GetName( GetNullCharacter )] [trait|E] joins your [court|E]"
   recruit_winter_specialist_decision_tooltip: "$recruit_winter_specialist_decision.tt$"
   recruit_winter_specialist_decision_confirm: "$invite_knights_decision_confirm$"
-  
   recruit_forest_specialist_decision: "Recruit Forest Specialist"
   recruit_forest_specialist_decision_desc: "The [ROOT.Char.GetCulture.GetCollectiveNoun] treat the forest as their second home. It offers protection, shelter, and fuel for the hearth. If I need someone to guide my troops through the deep and treacherous forests, there's no shortage of willing hunters to heed the call."
   recruit_forest_specialist_decision.tt: "A high-[martial|E] [commander|E] with the [GetTrait('forest_fighter').GetName( GetNullCharacter )] [trait|E] joins your [court|E]"
   recruit_forest_specialist_decision_tooltip: "$recruit_forest_specialist_decision.tt$"
   recruit_forest_specialist_decision_confirm: "$invite_knights_decision_confirm$"
-  
   recruit_mountain_specialist_decision: "Recruit Mountain Specialist"
   recruit_mountain_specialist_decision_desc: "My tough people, the [ROOT.Char.GetCulture.GetCollectiveNoun], can navigate the most treacherous mountain pass. If I want to move and fight in the mountains, I can call upon a seasoned guide to help my army find its way."
   recruit_mountain_specialist_decision.tt: "A high-[martial|E] [commander|E] with the [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [trait|E] joins your [court|E]"
   recruit_mountain_specialist_decision_tooltip: "$recruit_mountain_specialist_decision.tt$"
   recruit_mountain_specialist_decision_confirm: "$invite_knights_decision_confirm$"
-  
   recruit_dry_specialist_decision: "Recruit Dry Terrain Specialist"
   recruit_dry_specialist_decision_desc: "The [ROOT.Char.GetCulture.GetCollectiveNoun] are used to the scorching heat of the sun, and travel far and wide under its scorching influence. If I wish to move my armies without having them perish in the heat, I should ask for their guidance."
   recruit_dry_specialist_decision.tt: "A high-[martial|E] [commander|E] with the [GetTrait('desert_warrior').GetName( GetNullCharacter )] [trait|E] joins your [court|E]"
   recruit_dry_specialist_decision_tooltip: "$recruit_dry_specialist_decision.tt$"
   recruit_dry_specialist_decision_confirm: "$invite_knights_decision_confirm$"
-  
   recruit_hill_specialist_decision: "Recruit Hill Specialist"
   recruit_hill_specialist_decision_desc: "The [ROOT.Char.GetCulture.GetCollectiveNoun] are at home in the hills and valleys where they herd their animals and fend off wild animals with ease. There's no shortage of skilled herders who would do just as well guiding an army."
   recruit_hill_specialist_decision.tt: "A high-[martial|E] [commander|E] with the [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [trait|E] joins your [court|E]"
   recruit_hill_specialist_decision_tooltip: "$recruit_hill_specialist_decision.tt$"
   recruit_hill_specialist_decision_confirm: "$invite_knights_decision_confirm$"
-  
   recruit_jungle_specialist_decision: "Recruit Jungle Specialist"
   recruit_jungle_specialist_decision_desc: "The jungle is harsh and treacherous to travel — but my people, the [ROOT.Char.GetCulture.GetCollectiveNoun], have mastered the art of traversing it. Seasoned explorers and guides stand at the ready to see my forces through this lush but deadly terrain."
   recruit_jungle_specialist_decision.tt: "A high-[martial|E] [commander|E] with the [GetTrait('jungle_stalker').GetName( GetNullCharacter )] [trait|E] joins your [court|E]"
   recruit_jungle_specialist_decision_tooltip: "$recruit_jungle_specialist_decision.tt$"
   recruit_jungle_specialist_decision_confirm: "$invite_knights_decision_confirm$"
-
   recruit_open_specialist_decision: "Recruit Plains Specialist"
   recruit_open_specialist_decision_desc: "In a sea of grass maneuver is almost entirely unrestricted, the [ROOT.Char.GetCulture.GetCollectiveNoun], have mastered the art of how to best make use of this mobility. Within the ranks of our own we would be able to quickly find commanders who would use our forces for envelopments and encirclements."
   recruit_open_specialist_decision.tt: "A high-[martial|E] [commander|E] with the [GetTrait('open_terrain_expert').GetName( GetNullCharacter )] [trait|E] joins your [court|E]"
   recruit_open_specialist_decision_tooltip: "$recruit_open_specialist_decision.tt$"
   recruit_open_specialist_decision_confirm: "$invite_knights_decision_confirm$"
-  
   commander_recruited.t: "Commander Recruited"
   commander_recruited.desc: "[new_commander.GetFullName] joined your court!"
-  
   recruit_gardener_decision: "Recruit Gardener"
   recruit_gardener_decision_desc: "We [ROOT.Char.GetCulture.GetCollectiveNoun] have extensive knowledge in shaping and caring for gardens of all types. There are plenty of skilled gardeners out there whose expertise I can put to great use."
   recruit_gardener_decision_tt: "A high-[stewardship|E] [courtier|E] with the [GetTrait('lifestyle_gardener').GetName( GetNullCharacter )] [trait|E] joins your [court|E]"
   recruit_gardener_decision_tooltip: "$recruit_gardener_decision_tt$"
   recruit_gardener_decision_confirm: "$invite_knights_decision_confirm$"
   gardener_recruited.t: "Gardener Recruited"
-
   ## Interactions Desc
   offer_vassalization_interaction_determined_independence_tt: "[recipient.GetShortUINamePossessive|U] [culture|E] has the #high $tradition_determined_independence_name$#! [culture_tradition|E]: $VALUE|+=0$"
   join_war_interaction_determined_independence: "[CHARACTER.GetUIName] does not share our [culture|E]"
   merciful_blinding_interaction_tt: "Blinding [recipient.GetUIName] instead of [executing|E] [recipient.GetHerHim] will be considered an act of mercy by [vassals|E] who are not part of [recipient.GetUINamePossessiveNoTooltip] [close_family|E], as [recipient.GetUINameNoTooltip] is a [claimant|E] to one of your [titles|E]"
   all_unrelated_vassals_to_recipient: "All vassals of [THIS.GetCharacter.GetShortUIName] who are not members of [recipient.GetShortUINamePossessive] [close_family|E]"
   merciful_blindings_disinherited: "[recipient.GetUIName] is [GetTrait('blind').GetName( recipient.Self )] and cannot inherit titles according to their [culture_tradition|E]s"
-
   ## Modifiers
   determined_independence_defender_bonus: "Determined to be Free"
   determined_independence_defender_bonus_desc: "This character, true to their cultural heritage, will fight for their independence with all the skill and strength they can muster."
-
   ## Opinions
   determined_independence_granted_opinion: "Granted Independence"
-
   ## Trait Loc
   trait_culture_disinherited: "Disinherited"
   trait_culture_disinherited_desc: "This character has been disinherited by the customs of their culture and cannot inherit any title."
-
   culture_parameter_courtiers_and_guests_less_likely_to_join_schemes: "[rulers|E] are less likely to have [courtiers|E] and [guests|E] join [hostile_schemes|E] against them"
   culture_parameter_cheaper_cbs: "[casus_belli|E] Cost: [prestige_i]#P -20%#!"
   culture_parameter_innovation_from_learning_traits: "[learning|E] [education_traits|E] and the [GetTrait('scholar').GetName( GetNullCharacter )] [trait|E] also give [cultural_fascination|E] Progress"
@@ -577,19 +567,19 @@
   culture_parameter_cannot_attack_truces: "Cannot attack through a [truce|E]"
   culture_parameter_facilitate_alliance_acceptance: "[alliance|E] Negotiation Acceptance: #P +50#!"
   culture_parameter_facilitate_white_peace: "[white_peace|E] Acceptance: #P +10#!"
-  culture_parameter_more_frequent_hunts: "Delay between [hunt|E] [activities|E]: #P -50% #!"
-  culture_parameter_cannot_hunt: "Cannot use the [hunt|E] [activity|E]"
-  culture_parameter_sacred_hunts: "Completing a [hunt|E] [activity|E] provides [piety_i][piety|E]"
-  culture_parameter_hunting_traits_more_common: "[characters|E] gain [GetTrait('hunter_2').GetName( GetNullCharacter )] [traits|E] more often"
-  culture_parameter_reveler_traits_more_common: "[characters|E] gain [GetTrait('reveler_2').GetName( GetNullCharacter )] [traits|E] more often"
-  culture_parameter_hunting_traits_more_valued: "[GetTrait('hunter_2').GetName( GetNullCharacter )] [traits|E] are seen as [prestige_i][prestigious|E]"
-  culture_parameter_hunting_traits_more_pious: "[GetTrait('hunter_2').GetName( GetNullCharacter )] [traits|E] are seen as [piety_i][pious|E]"
-  culture_parameter_reveler_traits_more_valued: "[GetTrait('reveler_2').GetName( GetNullCharacter )] [traits|E] are seen as [prestige_i][prestigious|E]"
+  culture_parameter_more_frequent_hunts: "Delay between [GetActivityType('activity_hunt').GetName] [activities|E]: #P -50% #!"
+  culture_parameter_cannot_hunt: "Cannot use the [GetActivityType('activity_hunt').GetName] [activity|E]"
+  culture_parameter_sacred_hunts: "Completing a [GetActivityType('activity_hunt').GetName] [activity|E] provides [piety_i][piety|E]"
+  culture_parameter_hunting_traits_more_common: "[characters|E] gain [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [traits|E] more often"
+  culture_parameter_reveler_traits_more_common: "[characters|E] gain [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [traits|E] more often"
+  culture_parameter_hunting_traits_more_valued: "[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait|E] is seen as [prestige_i][prestigious|E]"
+  culture_parameter_hunting_traits_more_pious: "[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait|E] is seen as [piety_i][pious|E]"
+  culture_parameter_reveler_traits_more_valued: "[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [trait|E] is seen as [prestige_i][prestigious|E]"
   culture_parameter_prestige_gain_on_building_complete_in_mountains: "Gain [prestige_i][prestige|E] when completing [buildings|E] in [holdings|E] with either #V Mountain#! or #V Desert Mountain#! [terrain|E]"
-  culture_parameter_more_frequent_feasts: "Delay between [feast|E] [activities|E]: #P -50% #!"
-  culture_parameter_refined_feasts: "Successful [feast|E] [activities|E] give more [prestige_i][prestige|E]"
-  culture_parameter_more_expensive_feasts: "[feast|E] [activity|E] Cost: [gold_i]#N +100%#!"
-  culture_parameter_renown_from_feasts: "Successful [feast|E] [activities|E] give [dynasty_prestige_i][dynasty_prestige|E]"
+  culture_parameter_more_frequent_feasts: "Delay between [GetActivityType('activity_feast').GetName] [activities|E]: #P -50% #!"
+  culture_parameter_refined_feasts: "Successful [GetActivityType('activity_feast').GetName] [activities|E] give more [prestige_i][prestige|E]"
+  culture_parameter_more_expensive_feasts: "[GetActivityType('activity_feast').GetName] [activity|E] Cost: [gold_i]#N +100%#!"
+  culture_parameter_renown_from_feasts: "Successful [GetActivityType('activity_feast').GetName] [activities|E] give [dynasty_prestige_i][dynasty_prestige|E]"
   culture_parameter_free_ritual_tenets: "The $tenet_carnal_exaltation_name$ and $tenet_ritual_celebrations_name$ [core_tenets|E] are free when creating a new [faith|E]"
   culture_parameter_better_ward_education: "[guardians|E] of this [culture|E] are more effective"
   culture_parameter_tells_stories: "Characters tell each other stories, increasing [skills|E]"
@@ -598,6 +588,7 @@
   culture_parameter_unlock_admiring_birds_activity: "Unlocks the $admiring_birds_decision$ [decision|E]"
   culture_parameter_desert_warrior_trait_is_better: "The [GetTrait('desert_warrior').GetName( GetNullCharacter )] [commander_trait|E] has additional [camel_cavalry|E] bonuses"
   culture_parameter_humble_trait_more_common: "The [GetTrait('humble').GetName( GetNullCharacter )] [trait|E] is more common"
+  culture_parameter_diligent_trait_more_common: "The [GetTrait('diligent').GetName( GetNullCharacter )] [trait|E] is more common"
   culture_parameter_content_trait_more_common: "The [GetTrait('content').GetName( GetNullCharacter )] [trait|E] is more common"
   culture_parameter_cheaper_guest_recruitment: "[guest|E] Recruitment Cost: [gold_i]#P -20%#!"
   culture_parameter_cheaper_court_positions: "[court_position|E] Salary Cost: [gold_i]#P -20%#!"
@@ -610,14 +601,16 @@
   culture_parameter_can_use_sparring_duel: "Can spar against own [knights|E] in [single_combat_fight|E] to gain [modifiers|E]"
   culture_parameter_no_limit_to_kingdom_level_holy_wars: "No limit to the number of [kingdom|E]-level [holy_wars|E] that can be declared by any one [ruler|E]"
   culture_parameter_cb_lower_piety_level_requirement: "All [casus_bellis|E] that require a specific [piety_level|E] require one less"
-
+  culture_parameter_can_host_joust_contests: "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_host_joust_contests_custom_effect_description_TOTO_DLC', 'can_host_joust_contests_custom_effect_description_NO_TOTO_DLC' )]"
+  can_host_joust_contests_custom_effect_description_TOTO_DLC: "Can hold a Joust [contest|E] in a [GetActivityType( 'activity_tournament' ).GetName]"
+  can_host_joust_contests_custom_effect_description_NO_TOTO_DLC: ""
   culture_parameter_just_trait_gives_bonuses: "The [GetTrait('just').GetName( GetNullCharacter )] [trait|E] has additional bonuses"
   culture_parameter_trade_port_building_bonuses: "The #V $building_type_common_tradeport_01$#! line of [buildings|E] will generate additional tax in [counties|E] of this [culture|E]"
   culture_parameter_peat_quarries_building_bonuses: "The #V $building_type_peat_quarries_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
   culture_parameter_trade_ports_give_control_growth: "The #V $building_type_common_tradeport_01$#! line of [buildings|E] will increase #V Control Growth#! in [counties|E] of this [culture|E]"
   culture_parameter_trade_ports_give_levies: "The #V $building_type_common_tradeport_01$#! line of [buildings|E] increase #V Levies#! in [counties|E] of this [culture|E]"
-  culture_parameter_mystic_trait_gives_bonuses: "The [GetTrait('mystic_2').GetName( GetNullCharacter )] line of [traits|E] have additional bonuses"
-  culture_parameter_mystic_trait_more_common: "The [GetTrait('mystic_2').GetName( GetNullCharacter )] line of [traits|E] are more common"
+  culture_parameter_mystic_trait_gives_bonuses: "The [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] line of [traits|E] have additional bonuses"
+  culture_parameter_mystic_trait_more_common: "The [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] line of [traits|E] are more common"
   culture_parameter_mendicant_mystics_may_appear: "Wandering mystics may appear at court, offering boons or criticisms"
   culture_parameter_enable_garden_duchy_building: "Rulers can construct the #high $building_type_royal_garden_01$#! [duchy_building|E]"
   culture_parameter_can_appoint_court_gardener: "Can appoint the #high $court_gardener_court_position$#! [court_position|E]"
@@ -627,7 +620,7 @@
   culture_parameter_number_of_consorts: "$doctrine_parameter_number_of_consorts$"
   culture_parameter_poet_trait_gives_bonuses: "The [GetTrait('poet').GetName( GetNullCharacter )] [trait|E] has additional bonuses"
   culture_parameter_poet_trait_more_common: "The [GetTrait('poet').GetName( GetNullCharacter )] [trait|E] is more common"
-  culture_parameter_piety_gain_on_building_complete_in_forest_taiga: "Gain [piety_i][piety|E] when completing [buildings|E] in [holdings|E] with either #V Forest#! or #V Taiga#! [terrain|E]"
+  culture_parameter_piety_gain_on_building_complete_in_forest_taiga: "Gain [piety_i][piety|E] when completing [buildings|E] in [holdings|E] with either #V Forest#!, #V Jungle#! or #V Taiga#! [terrain|E]"
   culture_parameter_piety_gain_on_building_complete_in_mountains: "Gain [piety_i][piety|E] when completing [buildings|E] in [holdings|E] with either #V Mountain#! or #V Desert Mountain#! [terrain|E]"
   culture_parameter_can_duel_rivals: "$UNLOCKS_ABILITY_TO_DUEL_RIVALS$"
   culture_parameter_cannot_fire_court_chaplain: "You cannot fire your [court_chaplain|E]"
@@ -638,7 +631,8 @@
   culture_parameter_enables_unite_africa_decision: "Enables the Unite Africa [decision|E] for cultures without an African [heritage|E]"
   culture_parameter_hunting_archery_building_bonuses: "The #V $building_type_hunting_grounds_01$#! line of [buildings|E] will improve #V Archers#!"
   culture_parameter_gregarious_trait_gives_bonuses: "The [GetTrait('gregarious').GetName( GetNullCharacter )] [trait|E] has additional bonuses"
-
+  culture_parameter_trade_ports_enabled_for_tribals: "The #V $building_type_common_tradeport_01$#! line of [buildings|E] can be constructed in coastal [tribe|E] [holdings|E]"
+  culture_parameter_trade_ports_stationed_maa_bonus: "The #V $building_type_common_tradeport_01$#! line of [buildings|E] provide additional bonuses to [stationed|E] [men_at_arms|E]"
   culture_parameter_building_barracks_piety_bonuses: "Characters of this [culture|E] gain [piety_i][piety|E] from the #V $building_type_barracks_01$#! line of [buildings|E]"
   culture_parameter_can_build_quarries_in_hills: "The #V $building_type_quarries_01$#! line of [buildings|E] can be constructed in [holdings|E] with Hill [terrain|E] in [counties|E] of this [culture|E]"
   culture_parameter_better_armory_buildings: "The #V $building_type_royal_armory_01$#! line of [buildings|E] have additional bonuses in [counties|E] of this [culture|E]"
@@ -648,12 +642,11 @@
   culture_parameter_landing_house_members_gives_renown: "Gain [dynasty_prestige_i][dynasty_prestige|E] when granting titles to [house|E] members"
   culture_parameter_piety_penalty_for_revoking_titles_from_house_members: "Lose [piety_i][piety|E] when revoking titles from [house|E] members"
   culture_parameter_penalty_for_revoking_titles_from_close_family: "Lose [prestige_i][prestige|E] when revoking titles from [close_family|E]"
-
   culture_parameter_wants_to_learn_liege_language: "[vassals|E] of this [culture|E] will often learn the [language|E] of their [liege|E]"
   culture_parameter_doesnt_care_about_culture_faith_in_factions: "[vassals|E] of this [culture|E] do not consider differing [faith|E] or [culture|E] when joining [factions|E]"
   culture_parameter_extra_learn_language_success_chance_vs_liege: "[GetScheme('learn_language').GetTypeName] [success_chance|E] vs. [liege|E]: #P +50%#!"
   culture_parameter_learns_more_languages: "[rulers|E] of this [culture|E] use the [GetScheme('learn_language').GetTypeName] [scheme|E] more often"
-  culture_parameter_trait_county_opinion_modifiers: "Certain [traits|E] such as [GetTrait('brave').GetName( GetNullCharacter )], [GetTrait('gregarious').GetName( GetNullCharacter )], [GetTrait('generous').GetName( GetNullCharacter )] or [GetTrait('blademaster_2').GetName( GetNullCharacter )] give [county_opinion|E]"
+  culture_parameter_trait_county_opinion_modifiers: "Certain [traits|E] such as [GetTrait('brave').GetName( GetNullCharacter )], [GetTrait('gregarious').GetName( GetNullCharacter )], [GetTrait('generous').GetName( GetNullCharacter )] or [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] give [county_opinion|E]"
   culture_parameter_unlock_schiltron_innovation: "This tradition allows a [culture|E] to unlock the $innovation_rectilinear_schiltron$ [innovation|E] in the $culture_era_late_medieval$ [era]"
   culture_parameter_unlock_valets_innovation: "This tradition allows a [culture|E] to unlock the $innovation_valets$ [innovation|E] in the $culture_era_late_medieval$ [era]"
   culture_parameter_unlock_sarawit_innovation: "This tradition allows a [culture|E] to unlock the $innovation_sarawit$ [innovation|E] in the $culture_era_high_medieval$ [era]"
@@ -667,14 +660,12 @@
   culture_parameter_language_success_chance_per_piety_level: "Each [piety_level|E] gives [GetScheme('learn_language').GetTypeName] [success_chance|E]"
   culture_parameter_rulers_want_to_learn_languages_of_coreligionists: "[rulers|E] of this [culture|E] want to learn [languages|E] spoken by co-religionists"
   culture_parameter_languages_speed_up_claims: "Each known [language|E] increases [fabricate_claim|E] speed by #P +10%#!"
-
   culture_parameter_more_expensive_weapon_inspiration: "It costs more [gold|E] to sponsor characters of this culture with a $weapon_inspiration$"
   culture_parameter_more_expensive_armor_inspiration: "It costs more [gold|E] to sponsor characters of this culture with an $armor_inspiration$"
   culture_parameter_more_expensive_book_inspiration: "It costs more [gold|E] to sponsor characters of this culture with a $book_inspiration$"
   culture_parameter_more_expensive_weaver_inspiration: "It costs more [gold|E] to sponsor characters of this culture with a $weaver_inspiration$"
   culture_parameter_more_expensive_adventure_inspiration: "It costs more [gold|E] to sponsor characters of this culture with an $adventure_inspiration$"
   culture_parameter_more_expensive_artisan_inspiration: "It costs more [gold|E] to sponsor characters of this culture with an $artisan_inspiration$"
-
   culture_parameter_improved_weapon_inspiration: "[characters|E] of this [culture|E] produce higher-quality [artifacts|E] when completing a #high Weapon#! [inspiration|E]"
   culture_parameter_improved_armor_inspiration: "Characters of this culture produce higher-quality Artifacts when completing an $armor_inspiration$"
   culture_parameter_improved_book_inspiration: "Characters of this culture produce higher-quality Artifacts when completing a $book_inspiration$"
@@ -697,21 +688,18 @@
   culture_parameter_marriage_acceptance_bonus: "[marriage|E] Acceptance: #P +10#!"
   culture_parameter_tribal_holding_fort_level_in_jungle_bonus: "[fort_level|E] for [tribes|E] in Jungle [terrain|E]: [fort_level_i]#P +[EmptyScope.ScriptValue('tribal_holding_fort_level_in_jungle_bonus_value')|0]#!"
   culture_parameter_castle_holding_fort_level_in_jungle_bonus: "[fort_level|E] for [castles|E] in Jungle [terrain|E]: [fort_level_i]#P +[EmptyScope.ScriptValue('castle_holding_fort_level_in_jungle_bonus_value')|0]#!"
-
   culture_parameter_close_family_better_councillors: "Base progress and [skill|E] impact on [councillor_tasks|E] is increased by #P +10%#! for [close_family|E] members"
   culture_parameter_close_family_better_court_positions: "[court_position|E] [aptitude|E] for [close_family|E] members: #P +20#!"
   culture_parameter_vassals_more_likely_accept_punishments: "[vassal|E] acceptance of rightful [criminal|E] punishments: #P +20#!"
-
-  # Tradition effects - FP1
+  #Tradition effects - FP1
   culture_parameter_more_levies_from_coastal_counties: "Coastal [counties|E] give more [levies|E]"
   culture_parameter_less_levies_from_inland_counties: "Inland [counties|E] give slightly less [levies|E]"
   culture_parameter_has_access_to_shieldmaidens: "[characters|E] of this [culture|E] may become [GetTrait('shieldmaiden').GetName(GetNullCharacter)]s if their [faithpossessive|E] [gender_doctrines|E] are biased against them"
   culture_parameter_has_access_to_trials_by_combat: "[crimes|E] by [characters|E] that you cannot [imprison|E] and who aren't your [liege|E] may be settled via [single_combat_fight|E]"
   culture_parameter_has_access_to_runestones: "[rulers|E] may raise runestones to commemorate certain major life events, earning [prestige_i][prestige|E]"
   culture_parameter_craven_trait_costs_prestige: "The [GetTrait('craven').GetName(GetNullCharacter)] [trait|E] drains monthly [prestige_i][prestige|E]"
-  culture_parameter_blademaster_traits_give_learning: "The [GetTrait('blademaster_1').GetName(GetNullCharacter)], [GetTrait('blademaster_2').GetName(GetNullCharacter)], and [GetTrait('blademaster_3').GetName(GetNullCharacter)] [traits|E] give [learning|E]"
-
-  # Triggers and Tooltips
+  culture_parameter_blademaster_traits_give_learning: "The [GetTrait('lifestyle_blademaster').GetName(GetNullCharacter)] [trait|E] gives [learning|E]"
+  #Triggers and Tooltips
   CULTURE_IS_NOT_PRESENT_IN_REALM_FOR_HYBRIDIZATION: "Target [culture|E] is #bold not#! present in at least one [county|E] in your realm"
   CULTURE_IS_PARENT_CULTURE: "Your [culture|E] is derived from the target Culture"
   CULTURE_IS_CHILD_CULTURE: "The target [culture|E] is derived from your Culture"
@@ -725,14 +713,12 @@
   ACCEPTANCE_BASELINE_CLOSE_PLURALISTS: "[cultures|E] are geographically close and share [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] majority [faiths|E]"
   ACCEPTANCE_BASELINE_FAITH: "[cultures|E] share a majority [faith|E]"
   TRADITION_ASTUTE_DIPLOMATS_ACCEPTANCE_MODIFIER: "$tradition_astute_diplomats_name$ [tradition|E]: $VALUE|=+0$"
-  CULTURE_HARD_TO_CONVERT_REASON: "$tradition_zealous_people_name$ [culture_tradition|E]"
+  CULTURE_HARD_TO_CONVERT_REASON: "$tradition_zealous_people_name$ [culture_tradition|E]: $VALUE|=+0$"
   TRADITION_RELIGION_BLENDING_CONVERSION_MODIFIER: "$tradition_religion_blending_name$ [culture_tradition|E]"
   TRADITION_HARDER_TO_CONVERT_CONVERSION_MODIFIER: "$CULTURE_HARD_TO_CONVERT_REASON$"
   TRADITION_BREAKDOWN_LAW_REALM_SIZE_COST: "$KEY$: $VALUE|=-0$ #Weak (from [traditions|E]: #P -50%#!)#!"
-
   faith_conversion_cost_tradition: "Current [traditions|E]"
   cheaper_tradition_from_faith: "Current [faith|E]"
-  
   tradition_female_only_inheritance_requirements: "You must have a [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] [faith|E] or the #V $heritage_akan_name$#!, #V $heritage_west_african_name$#!, #V $heritage_senegambian_name$#!, or #V $heritage_yoruba_name$#! [heritage|E]"
   no_eunuch_in_realms: "You must have at least one [vassal|E], [courtier|E], or [councillor|E], with the [GetTrait('eunuch').GetName( GetNullCharacter )] [trait|E]"
   no_eunuch_councillors_desc: "You do not have a [councillor|E] with the [GetTrait('eunuch').GetName( GetNullCharacter )] [trait|E]"
@@ -742,7 +728,8 @@
   20_percent_churches: "The [culture|E] does not have a [temple|E] in #V 20%#! of its [counties|E]"
   must_be_feudal_or_clan: "You must have the [feudal|E] or [clan|E] [government|E]"
   only_one_marriage_tradition_allowed: "Only one [marriage|E] [tradition|E] is allowed and the following cannot be combined: $tradition_monogamous_name$, $tradition_polygamous_name$, and $tradition_concubines_name$"
-  
+  no_warrior_culture: "$tradition_fp3_beacon_of_learning_name$ is incompatible with $tradition_warrior_culture$"
+  no_philosopher_culture: "$tradition_fp3_beacon_of_learning_name$ is incompatible with $tradition_philosopher_culture_name$"
   culture_in_winter_geographical_region_trigger_desc: "The [culture|E] is not present in a [region|E] with winter"
   culture_in_non_sedentary_geographical_region_trigger_desc: "The [culture|E] is not present in the [GetGeographicalRegion('world_steppe').GetName]"
   #culture_in_britannia_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
@@ -773,10 +760,8 @@
   culture_not_pacifist_trigger_desc: "The [culture|E] has the $tradition_pacifism_name$ [tradition|E]"
   culture_not_warlike_trigger_desc: "The [culture|E] has one or more [war|E] focused [traditions|E]:"
   rulers_following_different_faiths_trigger_desc: "You do not have at least #V 2#! [vassals|E] of your [culture|E] that follows a different [faith|E]"
-  
-  # NOTE: when localising ethos stuff, try to use the order they appear in in 00_ethos.txt. This minimises overlap without us having to localise every possible variation."
-
-  # Single lines.
+  #NOTE: when localising ethos stuff, try to use the order they appear in in 00_ethos.txt. This minimises overlap without us having to localise every possible variation.
+  #Single lines.
   not_bellicose_desc: "The [culture|E] does not have the $ethos_bellicose_name$ [ethos|E]"
   not_stoic_desc: "The [culture|E] does not have the $ethos_stoic_name$ [ethos|E]"
   not_bureaucratic_desc: "The [culture|E] does not have the $ethos_bureaucratic_name$ [ethos|E]"
@@ -785,8 +770,7 @@
   not_egalitarian_desc: "The [culture|E] does not have the $ethos_egalitarian_name$ [ethos|E]"
   not_communal_desc: "The [culture|E] does not have the $ethos_communal_name$ [ethos|E]"
   northern_germanic_heritage_trigger: "The [culture|E] must be of Northern Germanic [heritage|E]"
-
-  # Double lines.
+  #Double lines.
   not_bellicose_or_communal_desc: "The [culture|E] does not have the $ethos_bellicose_name$ or $ethos_communal_name$ [ethos|E]"
   not_bellicose_or_stoic_desc: "The [culture|E] does not have the $ethos_bellicose_name$ or $ethos_stoic_name$ [ethos|E]"
   not_bellicose_or_bureaucratic_desc: "The [culture|E] does not have the $ethos_bellicose_name$ or $ethos_bureaucratic_name$ [ethos|E]"
@@ -800,38 +784,34 @@
   not_spiritual_or_communal_desc: "The [culture|E] does not have the $ethos_spiritual_name$ or $ethos_communal_name$ [ethos|E]"
   not_spiritual_or_egalitarian_desc: "The [culture|E] does not have the $ethos_spiritual_name$ or $ethos_egalitarian_name$ [ethos|E]"
   requires_tribal_or_clan_government_trigger: "You do not have [tribal_government|E] or [clan_government|E]"
-
-  # Triple lines.
+  not_stoic_or_courtly_desc: "The [culture|E] does not have the $ethos_stoic_name$ or $ethos_courtly_name$ [ethos|E]"
+  #Triple lines.
   turkic_or_mongolic_and_capital_in_steppe_trigger: "The [culture|E] must be either Turkic or Mongolic [heritage|E], or your capital must be in the Steppe"
   ## Bellicose.
   not_bellicose_egalitarian_or_communal_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_egalitarian_name$ or $ethos_communal_name$ [ethos|E]"
   not_bellicose_egalitarian_or_courtly_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_egalitarian_name$ or $ethos_courtly_name$ [ethos|E]"
   not_bellicose_egalitarian_or_bureaucratic_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_egalitarian_name$ or $ethos_bureaucratic_name$ [ethos|E]"
-  not_bureaucratic_egalitarian_or_stoic_desc: "The [culture|E] does not have the $ethos_bureaucratic_name$, $ethos_stoic_name$ or $ethos_egalitarian_name$ [ethos|E]"
+  not_bellicose_egalitarian_or_stoic_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_stoic_name$ or $ethos_egalitarian_name$ [ethos|E]"
   not_bellicose_stoic_or_communal_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_stoic_name$ or $ethos_communal_name$ [ethos|E]"
   not_bellicose_stoic_or_bureaucratic_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_stoic_name$ or $ethos_bureaucratic_name$ [ethos|E]"
   not_bellicose_courtly_or_communal_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_courtly_name$ or $ethos_communal_name$ [ethos|E]"
   not_bellicose_stoic_or_courtly_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_stoic_name$ or $ethos_courtly_name$ [ethos|E]"
   not_bellicose_spiritual_or_stoic_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_spiritual_name$ or $ethos_stoic_name$ [ethos|E]"
   not_bellicose_bureaucratic_or_spiritual_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_bureaucratic_name$ or $ethos_spiritual_name$ [ethos|E]"
-
+  not_bellicose_egalitarian_or_spiritual_desc: "The [culture|E] does not have the $ethos_bellicose_name$, $ethos_egalitarian_name$ or $ethos_spiritual_name$ [ethos|E]"
   ## Stoic.
-
   ## Bureaucratic.
   not_bureaucratic_courtly_or_egalitarian_desc: "The [culture|E] does not have the $ethos_bureaucratic_name$, $ethos_courtly_name$ or $ethos_egalitarian_name$ [ethos|E]"
   not_bureaucratic_spiritual_or_egalitarian_desc: "The [culture|E] does not have the $ethos_bureaucratic_name$, $ethos_spiritual_name$ or $ethos_egalitarian_name$ [ethos|E]"
-
+  not_bureaucratic_courtly_or_spiritual_desc: "The [culture|E] does not have the $ethos_bureaucratic_name$, $ethos_courtly_name$ or $ethos_spiritual_name$ [ethos|E]"
   ## Spiritual.
-
   ## Courtly.
   not_courtly_communal_or_spiritual_desc: "The [culture|E] does not have the $ethos_courtly_name$, $ethos_communal_name$ or $ethos_spiritual_name$ [ethos|E]"
   not_courtly_communal_or_stoic_desc: "The [culture|E] does not have the $ethos_courtly_name$, $ethos_communal_name$ or $ethos_stoic_name$ [ethos|E]"
   not_courtly_or_spiritual_desc: "The [culture|E] does not have the $ethos_courtly_name$ or $ethos_spiritual_name$ [ethos|E]"
-
   ## Egalitarian.
   not_egalitarian_stoic_or_bureaucratic_desc: "The [culture|E] does not have the $ethos_egalitarian_name$, $ethos_stoic_name$ or $ethos_bureaucratic_name$ [ethos|E]"
   not_egalitarian_or_courtly_desc: "The [culture|E] does not have the $ethos_egalitarian_name$ or $ethos_courtly_name$ [ethos|E]"
-
   ## Communal.
   not_communal_or_spiritual_desc: "The [culture|E] does not have the Communal or Spiritual [ethos|E]"
   not_communal_bureaucratic_or_stoic_desc: "The [culture|E] does not have the $ethos_communal_name$, $ethos_bureaucratic_name$, or $ethos_stoic_name$ [ethos|E]"
@@ -840,13 +820,9 @@
   not_communal_spiritual_or_stoic_desc: "The [culture|E] does not have the Communal, Spiritual or Stoic [ethos|E]"
   not_communal_egalitarian_or_courtly_desc: "The [culture|E] does not have the $ethos_communal_name$, $ethos_egalitarian_name$ or $ethos_courtly_name$ [ethos|E]"
   not_communal_or_courtly_desc: "The [culture|E] does not have the $ethos_communal_name$ or $ethos_courtly_name$ [ethos|E]"
-
-
-
   winter_soldier_affinity_desc: "The [culture_head|E] does not have the [GetTrait('winter_soldier').GetName( GetNullCharacter )] [trait|E]"
   forest_fighter_affinity_desc: "The [culture_head|E] does not have the [GetTrait('forest_fighter').GetName( GetNullCharacter )] [trait|E]"
   rough_terrain_expert_affinity_desc: "The [culture_head|E] does not have the [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [trait|E]"
-  
   ## Tradition Cost Modifier Descs
   replacing_tradition_cost_penalty_desc: "Replacing an existing [tradition|E] #weak (+[EmptyScope.ScriptValue('tradition_replacement_cost_factor_tooltip')|0]%)#!"
   winter_percentage_desc: "The [culture|E] does not have #V 30%#! of its [counties|E] in a wintery [region|E]"
@@ -898,14 +874,14 @@
   90_percent_cities_desc: "You do not have a [city_holding|E] in at least #V 90%#! of the [counties|E] that share your [culture|E] within your [realm|E]"
   non_tolerated_cultures_desc: "[culture|E] [counties|E] in your [realm|E] must not border any Culture that they have #V 40%#! or more [cultural_acceptance|E] with"
   has_other_cultures_in_realm_desc: "You must not have any [counties|E] of another [culture|E] in your [realm|E]"
-  rulers_with_hunter_lifestyle_desc: "The [culture|E] does not have #V 5#! [rulers|E] with [GetTrait('hunter_2').GetName( GetNullCharacter )] [traits|E]"
-  rulers_with_reveler_lifestyle_desc: "The [culture|E] does not have #V 5#! [rulers|E] with [GetTrait('reveler_2').GetName( GetNullCharacter )] [traits|E]"
+  rulers_with_hunter_lifestyle_desc: "The [culture|E] does not have #V 5#! [rulers|E] with [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [traits|E]"
+  rulers_with_reveler_lifestyle_desc: "The [culture|E] does not have #V 5#! [rulers|E] with [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [traits|E]"
   rulers_with_peasant_leader_desc: "The [culture|E] does not have #V 2#! [rulers|E] with the [GetTrait('peasant_leader').GetName( GetNullCharacter )] [trait|E]"
   rulers_with_adulterer_desc: "The [culture|E] has #V 5#! or more [rulers|E] with the [GetTrait('adulterer').GetName( GetNullCharacter )] [trait|E]"
   march_building_desc: "The [culture|E] does not have any [county|E] with a #V $building_march_01$#! [duchy_building|E]"
   rulers_with_reaver_desc: "The [culture|E] does not have #V 3#! [rulers|E] with the [GetTrait('reaver').GetName( GetNullCharacter )] [trait|E]"
   rulers_with_poet_desc: "The [culture|E] does not have #V 3#! [rulers|E] with the [GetTrait('poet').GetName( GetNullCharacter )] [trait|E]"
-  rulers_with_mystic_desc: "The [culture|E] does not have #V 3#! [rulers|E] with [GetTrait('mystic_2').GetName( GetNullCharacter )] [traits|E]"
+  rulers_with_mystic_desc: "The [culture|E] does not have #V 3#! [rulers|E] with [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] [traits|E]"
   rulers_with_lifestyle_herbalist_desc: "The [culture|E] does not have #V 3#! [rulers|E] with the [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [trait|E]"
   rulers_following_different_faiths_desc: "You do not have at least #V 5#! [vassals|E] of your [culture|E] that follows a different [faith|E]"
   culture_head_cavalry_desc: "You do not have a [regiment|E] of [light_cavalry|E], [heavy_cavalry|E], or [archer_cavalry|E] of at least #V 8#! in size"
@@ -927,7 +903,6 @@
   culture_acceptance_cost_desc: "The [culture|E] does not have at least #V [EmptyScope.ScriptValue('xenophilic_acceptance_cost_value')|0]%#! [cultural_acceptance|E] with #V [EmptyScope.ScriptValue('xenophilic_nr_of_cultures_cost_value')|0]#! other cultures"
   lack_iberian_heritage_or_language_penalty_desc: "The [culture|E] lacks $heritage_iberian_name$ [heritage|E] #EMP and#! the [culture_head|E] does not speak the $language_iberian_name$ [language|E]"
   lack_martial_learning_or_chess_board_penalty_desc: "You have neither at least [EmptyScope.ScriptValue('very_high_skill_rating')|0] [martial|E], at least [EmptyScope.ScriptValue('very_high_skill_rating')|0] [learning|E], nor an [artifact|E] that would let you play [board_games|E]"
-
   culture_head_lacks_storytelling_traits_desc: "You do not have the [GetTrait('poet').GetName( GetNullCharacter )], [GetTrait('arrogant').GetName( GetNullCharacter )], or [GetTrait('journaller').GetName( GetNullCharacter )] [traits|E]"
   rulers_lacks_storytelling_traits_desc: "The [culture|E] does not have at least #V 5#! [rulers|E] with the [GetTrait('poet').GetName( GetNullCharacter )], [GetTrait('arrogant').GetName( GetNullCharacter )], or [GetTrait('journaller').GetName( GetNullCharacter )] [traits|E]"
   culture_head_lacks_archer_maa_desc: "The [culture_head|E] does not have at least [EmptyScope.ScriptValue('longbow_competitions_minimum_archer_maa_value')|0] [archer|E] [men_at_arms|E]"
@@ -941,16 +916,14 @@
   councillor_with_negative_opinion_desc: "You must not have any [councillors|E] with negative [opinion|E]"
   is_at_war_desc: "You are participating in a [war|E]"
   prestige_level_desc: "Your [prestige_level|E] must be below @prestige_level_3_icon! [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]"
-
   culture_emergence_events.0001.t: "Cultural Intermingling"
   culture_emergence_events.0001.desc: "I am [ROOT.Char.GetCulture.GetName], but the people of my capital, the [capital_county_scope.GetBaseName], are [hybdridization_offer_culture.GetName]. As of late, I have seen my [hybdridization_offer_culture.GetNameNoTooltip] subjects emulating me and my [ROOT.Char.GetCulture.GetNameNoTooltip] ways.\n\nThey are blending our traditions. Some are old, some are new - but the most important thing is that they are more accepting of my rule!\n\nPerhaps this development should be encouraged?"
   culture_emergence_events.0001.a: "If they act like me, then I shall act like them. Soon we will be as if one."
   culture_emergence_events.0001.b: "Their admiration is enough!"
-  cultural_acceptance_gain_event: "From Events" # TODO AO does 'Events in the realm of [hybridizer.GetUIName]' work?"
+  cultural_acceptance_gain_event: "From Events" #TODO AO does 'Events in the realm of [hybridizer.GetUIName]' work?
   new_hybrid_culture_tt: "A [hybrid_culture|E] will appear that share a combination of [traditions|E] and [culture_pillars|E] from both the [ROOT.Char.GetCulture.GetName] and [hybdridization_offer_culture.GetName] [cultures|E]."
   culture_emergence_events.0001.existing_hybrid: "You and your lands will adopt the [existing_hybrid_culture.GetName] [culture|E]"
   culture_emergence_events.0001.new_hybrid: "You and your lands will adopt a newly emerged [hybrid_culture|E]"
-  
   culture_emergence_events.0002.t: "A New Identity"
   culture_emergence_events.0002.desc: "My people, the [ROOT.Char.GetCulture.GetCollectiveNoun], are a proud and wide-spread people.\n\nHowever similar we are, I cannot deny that my subjects have started to act differently from [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] elsewhere. Sometimes there's even conflict between visiting [ROOT.Char.GetCulture.GetNameNoTooltip] groups and those under my rule.\n\nWe are developing a new identity, we are [ROOT.Char.GetCulture.GetNameNoTooltip] - but at the same time we are not. Perhaps this development should be encouraged?"
   culture_emergence_events.0002.a: "We will build a new, stronger identity!"
@@ -958,20 +931,19 @@
   new_divergent_culture_tt: "A [divergent_culture|E] will appear that share most [traditions|E] and [culture_pillars|E] as the [ROOT.Char.GetCulture.GetName] [culture|E], but with a new [ethos|E] and some Traditions replaced."
   culture_emergence_events.0002.new_divergence: "You and your lands will adopt a newly emerged [divergent_culture|E]"
   culture_emergence_events.vassals: "[vassals|E] might or might not join in"
-  
   culture_emergence_events.0003.desc: "[culture_check_2.GetName]\n[duchy_title.GetName]\n[diverge_dummy.GetFullName]"
-  
-  realm_culture_size_diff: "Difference in size within the [realm|E]" # TODO AO This string should ideally print the names, but it errors like crazy"
+  realm_culture_size_diff: "Difference in size within the [realm|E]" #TODO AO This string should ideally print the names, but it errors like crazy
   hybrid_cost_from_acceptance: "From [cultural_acceptance|E]"
   culture_size_in_realm: "Number of controlled [culture|E] [counties|E]"
-  ai_cultural_hybridization_decision_tooltip: "
-  ai_cultural_hybridization_decision_desc: "
-  ai_cultural_hybridization_decision_confirm: "
-
-  culture_not_female_only_tt: "Your culture has a [tradition|E] that enables Female Only succession and your [faith|E] does not have the [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName] [doctrine|E]"
-  
+  ai_cultural_hybridization_decision_tooltip: ""
+  ai_cultural_hybridization_decision_desc: ""
+  ai_cultural_hybridization_decision_confirm: ""
+  culture_not_female_only_tt: "Your culture has a [tradition|E] that enables [GetLaw('female_only_law').GetName] [succession|E] and your [faith|E] does not have the [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName] [doctrine|E]"
+  culture_not_male_only_tt: "Your culture has a [tradition|E] that enables [GetLaw('male_only_law').GetName] [succession|E] and your [faith|E] does not have the [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] [doctrine|E]"
   female_only_law_faith_or_culture_trigger: "Your [faith|E] does not have the [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] [doctrine|E] and your [culture|E] does not have a [culture_tradition|E] that allow [GetLaw('female_only_law').GetName]"
+  male_only_law_faith_or_culture_trigger: "Your [faith|E] does not have the [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName] [doctrine|E] and your [culture|E] does not have a [culture_tradition|E] that allow [GetLaw('male_only_law').GetName]"
   female_preference_law_faith_or_culture_trigger: "Your [faith|E] does not have the [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] or the [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] [doctrines|E] and your [culture|E] does not have a [culture_tradition|E] that allow [GetLaw('female_preference_law').GetName]"
+  male_preference_law_faith_or_culture_trigger: "Your [faith|E] does not have the [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] or the [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName] [doctrines|E] and your [culture|E] does not have a [culture_tradition|E] that allow [GetLaw('male_preference_law').GetName]"
   equal_law_culture_faith_or_innovation_trigger: "Your [faith|E] does not have the [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] [doctrine|E] and your [culture|E] does not have a [culture_tradition|E] that allow [GetLaw('equal_law').GetName]."
   martial_customs_trigger_maleonly_malepref_or_equal: "You do #bold not#! have the [GetLaw('male_only_law').GetName], [GetLaw('male_preference_law').GetName] or [GetLaw('equal_law').GetName] [law|E]"
   martial_customs_trigger_malepref_felamepref_or_equal: "You do #bold not#! have the [GetLaw('male_preference_law').GetName], [GetLaw('equal_law').GetName] or [GetLaw('female_preference_law').GetName] [law|E]"
@@ -984,7 +956,6 @@
   culture_parameter_martial_custom_male_only_combatant: "Only men can be [commanders|E] and $knight_culture_player_plural$"
   culture_parameter_martial_custom_equal_combatant: "Both men and women can be [commanders|E] and $knight_culture_player_plural$"
   culture_parameter_martial_custom_female_only_combatant: "Only women can be [commanders|E] and $knight_culture_player_plural$"
-
   gardening_buildings_percentage_desc: "The [culture|E] does not have at least #V 10#! [counties|E] with one of the following [building|E] lines: #high $building_type_plantations_01$#!, #high $building_type_orchards_01$#! or #high $building_type_cereal_fields_01$#!"
   not_numerous_close_family_desc: "You do not have at least #V 10#! living [close_family|E] members"
   not_strong_opinion_close_family_desc: "You do not have enough [close_family|E] members with at least #V 80#! [opinion|E] of you"
@@ -993,8 +964,6 @@
   has_a_special_mine_desc: "The [culture|E] does not have a mine [special_building|E] in any of its [counties|E]"
   #has_courtier_or_guest_with_inspiration_desc: "The [culture|E] does not have at least #V 3#! [rulers|E] who has a [character|E] with (or had) an [inspiration|E] in their [court|E]"
   has_courtier_or_guest_with_inspiration_desc: "The [culture|E] does not have at least #V 3#! [courts|E] with a [character|E] who has, or had, an [inspiration|E]"
-
-  
   appoint_podesta_interaction: "Appoint as Republican Overseer"
   appoint_podesta_desc: "Appoint [recipient.GetShortUINameNoTooltip] to oversee the growing city of [recipient.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], turning [recipient.GetHerHim] into a Republican vassal."
   REQUEST_REPUBLIC_TEXT: "Greetings, my [actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))]. For some time it has become apparent the most wealthy part of the land you rule is urban commune within it. I invite you to take on the task of overseeing this growing Republic in my name."
@@ -1013,19 +982,17 @@
   sparring_sprained_ankle_modifier: "Sparring: Sprained Ankle"
   culture_tradition_events.0002.t: "Spar with [GetPlayer.Custom( 'KnightCultureNoTooltip' )]: Conclusion"
   culture_tradition_events.0002.desc: "I put my weapon down and turn to [recipient.GetTitledFirstName], giving [recipient.GetHerHim] a customary round of applause. [recipient.GetSheHe|U] does the same.\n\n"
-  culture_tradition_events.0002.desc_actor_victor_good: "Well fought, my [actor.GetTitleTierName|U]! You bested me fair-and-square." [recipient.GetFirstNameNoTooltip] says.\n"This practice will surely serve us well, should there be war in the future of [actor.GetPrimaryTitle.GetNameNoTierNoTooltip]."\n\nThis was invigorating, I feel fit and ready!"
-  culture_tradition_events.0002.desc_actor_victor_bad: "Well fought, my [actor.GetTitleTierName|U], I am throughly defeated." [recipient.GetFirstNameNoTooltip] whimpers.\n"Though remember, do not let this victory go to your head. I am not your enemy, they are still out there."\n\nBah! I feel just fine!"
-  culture_tradition_events.0002.desc_recipient_victor_good: "Well fought, my [actor.GetTitleTierName|U], I win this round!" [recipient.GetFirstNameNoTooltip] says with a sporting tone. "Now we are ready to face anything!"\n\nIndeed we are, perhaps I should consider my next conquest?"
-  culture_tradition_events.0002.desc_recipient_victor_bad: "Well fought, my [actor.GetTitleTierName|U]. I am sorry if I caused you harm. For a brief moment I was in a trance — me and my weapon were as one..." [recipient.GetFirstNameNoTooltip] says apologetically.\n"Perhaps you need a bit of rest?"\n\nNonsense, I am fit as a butcher's dog!"
+  culture_tradition_events.0002.desc_actor_victor_good: "Well fought, my [actor.GetTitleTierName|U]! You bested me fair-and-square.\" [recipient.GetFirstNameNoTooltip] says.\n\"This practice will surely serve us well, should there be war in the future of [actor.GetPrimaryTitle.GetNameNoTierNoTooltip].\"\n\nThis was invigorating, I feel fit and ready!"
+  culture_tradition_events.0002.desc_actor_victor_bad: "Well fought, my [actor.GetTitleTierName|U], I am throughly defeated.\" [recipient.GetFirstNameNoTooltip] whimpers.\n\"Though remember, do not let this victory go to your head. I am not your enemy, they are still out there.\"\n\nBah! I feel just fine!"
+  culture_tradition_events.0002.desc_recipient_victor_good: "Well fought, my [actor.GetTitleTierName|U], I win this round!\" [recipient.GetFirstNameNoTooltip] says with a sporting tone. \"Now we are ready to face anything!\"\n\nIndeed we are, perhaps I should consider my next conquest?"
+  culture_tradition_events.0002.desc_recipient_victor_bad: "Well fought, my [actor.GetTitleTierName|U]. I am sorry if I caused you harm. For a brief moment I was in a trance — me and my weapon were as one...\" [recipient.GetFirstNameNoTooltip] says apologetically.\n\"Perhaps you need a bit of rest?\"\n\nNonsense, I am fit as a butcher's dog!"
   culture_tradition_events.0002.a: "A good bout!"
   culture_tradition_events.0002.b: "I might have lost, but it was good training!"
-  
   FROM_CULTURE_TRADITIONS: "From [culture_traditions|E]: $VALUE|=+0$"
   CULTURE_FORBIDS_DIVORCE: "Your [culture_traditions|E] forbid [divorce|E]"
   more_expensive_court_positions: "[court_position|E] Salary Cost: [gold_i]#N +25%#![SelectLocalization( HasDlcFeature( 'royal_court' ), 'more_expensive_amenities_text', '' )]"
   more_expensive_amenities_text: "\n$EFFECT_LIST_BULLET$[court_amenity|E] Cost: [gold_i]#N +25%#!"
   TOTAL_TRADITION_SLOTS: "Max [culture_traditions]"
-  
   cannot_combine_tradition_trigger_desc: "The [culture|E] already has the [tradition|E]"
   cannot_have_tradition_warrior_culture: "$cannot_combine_tradition_trigger_desc$ #high $tradition_warrior_culture_name$#!"
   cannot_have_tradition_seafaring: "$cannot_combine_tradition_trigger_desc$ #high $tradition_seafaring_name$#!"
@@ -1047,43 +1014,38 @@
   cannot_have_tradition_byzantine_succession: "$cannot_combine_tradition_trigger_desc$ #high $tradition_byzantine_succession_name$#!"
   cannot_have_vegetarianism_and_sacred_hunts: "The [tradition|E] #high $tradition_vegetarianism_name$#! cannot be combined with #high $tradition_sacred_hunts_name$#!"
   cannot_have_vegetarianism_and_hunters: "The [tradition|E] #high $tradition_vegetarianism_name$#! cannot be combined with #high $tradition_hunters_name$#!"
-  
   remove_marriage_traditions: "The [culture_scope.GetName] [culture|E] loses any [marriage|E]-altering [traditions|E] that conflict with the [doctrines|E] of [faith_scope.GetName]"
   culture_tradition_events.0100.t: "A Clash of Culture and Faith"
   culture_tradition_events.0100.desc: "A missive from [head_of_faith.GetTitledFirstName] has arrived. It starts off with pleasantries, and outlines the importance I hold in the eyes of the [culture_scope.GetName] people.\n\n"
-  culture_tradition_events.0100.tradition_monogamous: "You must understand that for as long as your people practice monogamy, you are in violation of [faith_scope.GetAdjective] doctrine! I only wish for your salvation. The duty of every good [faith_scope.GetAdjectiveNoTooltip] cannot be fulfilled with but one spouse." the missive reads."
-  culture_tradition_events.0100.tradition_polygamous: "Your practice of polygamy is in strict opposition of [faith_scope.GetAdjective] doctrine, and a sin in the eyes of [faith_scope.HighGodName]! I only wish for your salvation. Please, lead your people into the light and shed yourselves of excess spouses!" the missive reads."
-  culture_tradition_events.0100.tradition_concubines: "Your practice of concubinage is not supported by [faith_scope.GetAdjective] doctrine, only through proper marriage will [faith_scope.HighGodName] smile upon your people! I only wish for your salvation. Set aside your concubines, for the good of us all." the missive reads."
+  culture_tradition_events.0100.tradition_monogamous: "You must understand that for as long as your people practice monogamy, you are in violation of [faith_scope.GetAdjective] doctrine! I only wish for your salvation. The duty of every good [faith_scope.GetAdjectiveNoTooltip] cannot be fulfilled with but one spouse.\" the missive reads."
+  culture_tradition_events.0100.tradition_polygamous: "Your practice of polygamy is in strict opposition of [faith_scope.GetAdjective] doctrine, and a sin in the eyes of [faith_scope.HighGodName]! I only wish for your salvation. Please, lead your people into the light and shed yourselves of excess spouses!\" the missive reads."
+  culture_tradition_events.0100.tradition_concubines: "Your practice of concubinage is not supported by [faith_scope.GetAdjective] doctrine, only through proper marriage will [faith_scope.HighGodName] smile upon your people! I only wish for your salvation. Set aside your concubines, for the good of us all.\" the missive reads."
   culture_tradition_events.0100.end: "\n\nA dilemma indeed... which do I value more? The customs of my people, or the doctrines of our faith?"
   culture_tradition_events.0100.a: "We must uphold [faith_scope.GetAdjectiveNoTooltip] doctrine."
   culture_tradition_events.0100.b: "The customs of my people are more important!"
-
   culture_tradition_events.0101.t: "A Mystic's Mind"
-  culture_tradition_events.0101.desc: "It's rare enough for me to get a chance for a quiet meal without sycophants or matters of state interrupting, but tonight I've managed it. A nice, calm dinner, and a chance to rest my social muscles.\n\nWithin seconds, the door bursts off its hinges with a tragic inevitability, and a [mendicant_mystic.GetFaith.PriestNeuter] barges into the room. [mendicant_mystic.GetSheHe|U] carries gnarled-walking stick, still covered in splinters from battering down the door in a single swing.\n\n"Noble [ROOT.Char.GetTitleAsNameNoTooltip], I come with an offer! For a small stipend, I, #EMP [mendicant_mystic.GetFirstName]#!, will share knowledge of our people's ancient ways with the children of your court!""
+  culture_tradition_events.0101.desc: "It's rare enough for me to get a chance for a quiet meal without sycophants or matters of state interrupting, but tonight I've managed it. A nice, calm dinner, and a chance to rest my social muscles.\n\nWithin seconds, the door bursts off its hinges with a tragic inevitability, and a [mendicant_mystic.GetFaith.PriestNeuter] barges into the room. [mendicant_mystic.GetSheHe|U] carries gnarled-walking stick, still covered in splinters from battering down the door in a single swing.\n\n\"Noble [ROOT.Char.GetTitleAsNameNoTooltip], I come with an offer! For a small stipend, I, #EMP [mendicant_mystic.GetFirstName]#!, will share knowledge of our people's ancient ways with the children of your court!\""
   culture_tradition_events.0101.a: "Of course, noble [mendicant_mystic.GetFaith.PriestNeuter]. Please put the beating stick down."
-  culture_tradition_events.0101.a.tt: "All available [children|E] at [court|E] receive a boost to their on-going [education|E]"
+  culture_tradition_events.0101.a.tt: "All available [children|E] at [court|E] receive a boost to their ongoing [education|E]"
   culture_tradition_events.0101.b: "Isn't this a little much for [mendicant_mystic.GetFaith.HighGodNamePossessive] work?"
   culture_tradition_events.0101.b.tt.success: "You argue the mystic down"
   culture_tradition_events.0101.b.tt.failure: "The mystic leaves your court in disgust"
   culture_tradition_events.0101.c: "Be gone, beggar, I'm trying to eat my dinner!"
-
   culture_tradition_events.0111.t: "A Mystic's Speech"
-  culture_tradition_events.0111.desc: "... is why we must submit ourselves to the beneficence of [mendicant_mystic.GetFaith.HighGodName] every moment of every day of our lives. Do you see? Shall I continue?"\n\nTwo. Straight. Hours.\n\nI don't even know how [mendicant_mystic.GetName] found [mendicant_mystic.GetHerHis] way into my chambers, but the [mendicant_mystic.GetFaith.PriestNeuter] has been lecturing me on the finer points of [mendicant_mystic.GetFaith.GetName] theology for #EMP two. Straight. Hours.#!\n\nAt long last, the [mendicant_mystic.GetWomanMan] falls silent, looking at me for a response. I feel my eye begin to twitch."
+  culture_tradition_events.0111.desc: "... is why we must submit ourselves to the beneficence of [mendicant_mystic.GetFaith.HighGodName] every moment of every day of our lives. Do you see? Shall I continue?\"\n\nTwo. Straight. Hours.\n\nI don't even know how [mendicant_mystic.GetName] found [mendicant_mystic.GetHerHis] way into my chambers, but the [mendicant_mystic.GetFaith.PriestNeuter] has been lecturing me on the finer points of [mendicant_mystic.GetFaith.GetName] theology for #EMP two. Straight. Hours.#!\n\nAt long last, the [mendicant_mystic.GetWomanMan] falls silent, looking at me for a response. I feel my eye begin to twitch."
   culture_tradition_events.0111.a: "Such inspiring words!"
   culture_tradition_events.0111.b: "You've said your piece, now let me say mine..."
   culture_tradition_events.0111.a.tt.success: "You demolish the mystic's argument"
   culture_tradition_events.0111.a.tt.failure: "You stumble over your words"
   culture_tradition_events.0111.c: "Who let this vagabond into my home? Guards! HELP!"
-
   culture_tradition_events.0121.t: "A Mystic's Service"
-  culture_tradition_events.0121.desc: "Almost uncharacteristically for [mendicant_mystic.GetHerHis] profession, [mendicant_mystic.GetFirstName] has waited patiently in an antechamber till I could give [mendicant_mystic.GetHerHim] an audience.\n\nThe [mendicant_mystic.GetFaith.PriestNeuter] seems nervous when I enter, but launches into a hasty speech the second I arrive regardless.\n\n"My [ROOT.Char.GetLadyLord], I have been a mendicant for some time now, and though it is [mendicant_mystic.GetFaith.HighGodNamePossessive] work, it as taxing for mind and body as it is nourishing for the soul."\n\n"If you would have me, I would hang up my wanderer's staff and serve you at court as best I am able. W-will you take me in?"
+  culture_tradition_events.0121.desc: "Almost uncharacteristically for [mendicant_mystic.GetHerHis] profession, [mendicant_mystic.GetFirstName] has waited patiently in an antechamber till I could give [mendicant_mystic.GetHerHim] an audience.\n\nThe [mendicant_mystic.GetFaith.PriestNeuter] seems nervous when I enter, but launches into a hasty speech the second I arrive regardless.\n\n\"My [ROOT.Char.GetLadyLord], I have been a mendicant for some time now, and though it is [mendicant_mystic.GetFaith.HighGodNamePossessive] work, it as taxing for mind and body as it is nourishing for the soul.\"\n\n\"If you would have me, I would hang up my wanderer's staff and serve you at court as best I am able. W-will you take me in?"
   culture_tradition_events.0121.a: "I can certainly use a [mendicant_mystic.GetWomanMan] of your talents..."
   culture_tradition_events.0121.b: "A loyal [mendicant_mystic.GetFaith.PriestNeuter] you say..."
   culture_tradition_events.0121.c: "Looking like that, #EMP smelling#! like that, and you want to live here?"
-
   culture_tradition_events.0131.t: "A Mystic's Wrath"
-  # Big credit to the greatest NPC of 2011.
-  culture_tradition_events.0131.desc: "[ROOT.Char.GetTitleAsNameNoTooltip]? You're barely a worm, #EMP writhing in the filth#! of your own corruption! Repent your sins beneath [mendicant_mystic.GetFaith.HighGodName]! [mendicant_mystic.GetFaith.HighGodName] the Mighty! [mendicant_mystic.GetFaith.HighGodName] the Unerring! [mendicant_mystic.GetFaith.HighGodName] the Unassailable!"\n\nDamn and blast this irritating [mendicant_mystic.GetFaith.PriestNeuter]. It was bad enough when [mendicant_mystic.GetSheHe] was on the street corner! If I #EMP ever#! figure out who let [mendicant_mystic.GetFirstName] into my #EMP home#!, I'll have their eyes; [mendicant_mystic.GetSheHe]'s been here less than ten minutes and I've already got a cluster headache coming on.\n\nI can't take much more of the mendicant's tirade, I've got to act swiftly while there's a natural break in [mendicant_mystic.GetHerHis] rant."
+  #Big credit to the greatest NPC of 2011.
+  culture_tradition_events.0131.desc: "[ROOT.Char.GetTitleAsNameNoTooltip]? You're barely a worm, #EMP writhing in the filth#! of your own corruption! Repent your sins beneath [mendicant_mystic.GetFaith.HighGodName]! [mendicant_mystic.GetFaith.HighGodName] the Mighty! [mendicant_mystic.GetFaith.HighGodName] the Unerring! [mendicant_mystic.GetFaith.HighGodName] the Unassailable!\"\n\nDamn and blast this irritating [mendicant_mystic.GetFaith.PriestNeuter]. It was bad enough when [mendicant_mystic.GetSheHe] was on the street corner! If I #EMP ever#! figure out who let [mendicant_mystic.GetFirstName] into my #EMP home#!, I'll have their eyes; [mendicant_mystic.GetSheHe]'s been here less than ten minutes and I've already got a cluster headache coming on.\n\nI can't take much more of the mendicant's tirade, I've got to act swiftly while there's a natural break in [mendicant_mystic.GetHerHis] rant."
   culture_tradition_events.0131.a: "#EMP My#! sins? Let's talk about #EMP you#!."
   culture_tradition_events.0131.a.tt.success: "You prove the mystic an utter hypocrite"
   culture_tradition_events.0131.a.tt.failure: "The mystic shows you to be a fool"
@@ -1091,11 +1053,42 @@
   culture_tradition_events.0131.b.tt.success: "The mystic helps you to overcome your failings"
   culture_tradition_events.0131.b.tt.failure: "You are overcome by mental anguish"
   culture_tradition_events.0131.c: "#EMP Writhing in filth?#! Throw this lunatic into the nearest cess pit!"
-
   culture_tradition_events.0141.t: "A Mystic's Bargain"
-  culture_tradition_events.0141.desc: "Don't you see, my [ROOT.Char.GetLadyLord], how you risk your soul with this... [ROOT.Char.GetFaith.GetName] idea? Allow me to bring you into the light of true [mendicant_mystic.GetFaith.GetAdjective] belief and rescue you from eternal misery!"\n\nAs a mendicant [mendicant_mystic.GetFaith.PriestNeuter], [mendicant_mystic.GetFirstName] is used to preaching to unbelieving [ROOT.Char.GetCulture.GetName] folk, but techniques that work on the peasantry do not necessarily hold water with the noblesse.\n\nSilence falls between us, and I find myself gazing deeply into the [mendicant_mystic.GetWomanMan]'s eyes, watching the lights of hope and hunger dance and flicker behind them."
+  culture_tradition_events.0141.desc: "Don't you see, my [ROOT.Char.GetLadyLord], how you risk your soul with this... [ROOT.Char.GetFaith.GetName] idea? Allow me to bring you into the light of true [mendicant_mystic.GetFaith.GetAdjective] belief and rescue you from eternal misery!\"\n\nAs a mendicant [mendicant_mystic.GetFaith.PriestNeuter], [mendicant_mystic.GetFirstName] is used to preaching to unbelieving [ROOT.Char.GetCulture.GetName] folk, but techniques that work on the peasantry do not necessarily hold water with the noblesse.\n\nSilence falls between us, and I find myself gazing deeply into the [mendicant_mystic.GetWomanMan]'s eyes, watching the lights of hope and hunger dance and flicker behind them."
   culture_tradition_events.0141.a: "I find your words compelling, [mendicant_mystic.GetFaith.PriestNeuter]."
   culture_tradition_events.0141.b: "Allow me to elucidate the merits of [ROOT.Char.GetFaith.GetNameNoTooltip] beliefs..."
   culture_tradition_events.0141.b.tt.success: "You illuminate [mendicant_mystic.GetFirstNameNoTooltip]"
   culture_tradition_events.0141.b.tt.failure: "You remain at loggerheads"
   culture_tradition_events.0141.c: "Your [mendicant_mystic.GetFaith.HighGodName]! How many levies has [mendicant_mystic.GetFaith.HighGodNameSheHe|U] got?"
+  #EP2 Traditions
+  tradition_ep2_avid_falconers_name: "Avid Falconers"
+  tradition_ep2_avid_falconers_desc: "The art of breeding, training, and hunting with raptors like falcons and hawks is one of most prestigious past-times among this culture's elite."
+  culture_parameter_falconer_traits_more_common: "[characters|E] gain more Falconer [trait_level_track_xp|E]"
+  culture_parameter_forest_hunt_success_chance: "Increased [hunt_success_chance|E] in [GetTerrain( 'forest' ).GetName] and [GetTerrain( 'taiga' ).GetName]"
+  culture_parameter_hills_hunt_success_chance: "Increased [hunt_success_chance|E] in [GetTerrain( 'hills' ).GetName]"
+  culture_parameter_desert_hunt_success_chance: "Increased [hunt_success_chance|E] in [GetTerrain( 'desert' ).GetName] and [GetTerrain( 'oasis' ).GetName]"
+  culture_parameter_steppe_hunt_success_chance: "Increased [hunt_success_chance|E] in [GetTerrain( 'steppe' ).GetName]"
+  culture_parameter_mountains_hunt_success_chance: "Increased [hunt_success_chance|E] in [GetTerrain( 'mountains' ).GetName] and [GetTerrain( 'desert_mountains' ).GetName]"
+  culture_parameter_drylands_hunt_success_chance: "Increased [hunt_success_chance|E] in [GetTerrain( 'drylands' ).GetName] and [GetTerrain( 'desert' ).GetName]"
+  culture_parameter_jungle_hunt_success_chance: "Increased [hunt_success_chance|E] in [GetTerrain( 'jungle' ).GetName]"
+  culture_parameter_wetlands_hunt_success_chance: "Increased [hunt_success_chance|E] in [GetTerrain( 'wetlands' ).GetName] and [GetTerrain( 'floodplains' ).GetName]"
+  can_host_joust_contests_name: "[GetCultureTradition('tradition_chanson_de_geste').GetName] or [GetCultureTradition('tradition_chivalry').GetName]"
+  #CE1 Traditions
+  tradition_ce1_ritual_washing_name: "Water Rituals"
+  tradition_ce1_ritual_washing_desc: "The purifying properties of water are an essential part of life for this culture and the ritual of ablution occupies a prominent position in their society."
+  culture_parameter_better_disease_resistance: "[characters|E] of this [culture|E] are less likely to get infected by [epidemics|E]"
+  doesnt_employ_court_physician_desc: "The [culture|E] does not have #high 5#! [rulers|E] employing a [GetCourtPositionType('court_physician_court_position').GetName()]"
+  cheaper_tradition_physician_or_whole_of_body: "You have the [GetTrait('lifestyle_physician').GetName( GetNullCharacter )] or [GetTrait('whole_of_body').GetName( GetNullCharacter )] [traits|E]"
+  cheaper_tradition_norse_washing: "$heritage_north_germanic_name$ [heritage|E]"
+  culture_parameter_always_unlock_legendary_hunting_lodge: "[SelectLocalization( HasDlcFeature( 'legends' ), 'culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC', 'culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC' )]"
+  culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC: ""
+  culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC: "[rulers|E] of this [culture|E] can always construct a $building_type_legendary_hunting_lodge$ after completing a [legend|E]"
+  culture_parameter_less_plague_spread_culture: "[characters|E] of this [culture|E] have a higher chance of [epidemics|E] not spreading into their lands"
+  #BP2 Traditions
+  tradition_noble_adoption_name: "Noble Adoption"
+  tradition_noble_adoption_desc: "Adopting orphaned children into noble houses is commonplace in this society. The blood of the covenant is thicker than the water of the womb."
+  culture_parameter_allows_adoption: "[characters|E] of this [culture|E] are able to offer [adoption|E] to [children|E] who are not directly related to any [rulers|E]"
+  culture_parameter_free_adoption: "[characters|E] of this [culture|E] can [adopt|E] without spending any [prestige|E] or [dynasty_prestige|E]"
+  traditionalist_discount_desc: "The [culture|E] was led towards traditionalism by its [culture_head|E]"
+  culture_parameter_more_hostage_acceptance: "[characters|E] of this [culture|E] are more willing to send away, take, and return [hostages|E]"
+  culture_parameter_more_hostage_acceptance_for_vassals: "[characters|E] of this [culture|E] are more willing to send away, take, and return [hostages|E] with their [liege|E]"

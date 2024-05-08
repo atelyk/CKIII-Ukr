@@ -1,24 +1,39 @@
 ﻿l_english:
   handhands_hand: "рука"
   handhands_hands: "руки"
-
   fistfists_fist: "кулак"
   fistfists_fists: "кулаки"
-
   armarms_arm: "рука"
   armarms_arms: "руки"
-
+  footfeet_foot: "foot"
+  footfeet_feet: "feet"
   eyeeyes_eye: "око"
   eyeeyes_eyes: "очі"
-
   maskface_mask: "маска"
   maskface_face: "обличчя"
-
-  # Grammatical Stuff
+  #Grammatical Stuff
   articleblank_article: "на "
   articleblank_articlevowel: "і "
   articleblank_blank: ""
-
   maskface_behind: "позаду"
   maskface_in: "в"
   maskface_across: "через"
+  #Substitution Stuff
+  senseobserve_eye: "eye"
+  senseobserve_taste: "taste"
+  #frostbite event
+  bodypart_nose: "nose"
+  bodypart_ear: "ear"
+  bodypart_ears: "ears"
+  bodypart_finger: "finger"
+  bodypart_fingers: "fingers"
+  bodypart_hand: "hand"
+  bodypart_hands: "hands"
+  bodypart_arm: "arm"
+  bodypart_arms: "arms"
+  bodypart_leg: "leg"
+  bodypart_legs: "legs"
+  bodypart_foot: "foot"
+  bodypart_feet: "feet"
+  bodypart_toe: "toe"
+  bodypart_toes: "toes"

@@ -1,13 +1,14 @@
 ﻿l_english:
   GREAT_HOLY_WAR_WINDOW_TITLE: "[GreatHolyWar.GetName]"
   GREAT_HOLY_WAR_NAME: "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')] за титул [GREAT_HOLY_WAR.GetTargetTitle.GetBaseName]"
+  GREAT_HOLY_WAR_NAME_NO_TOOLTIP: "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')] for the [GREAT_HOLY_WAR.GetTargetTitle.GetBaseNameNoTooltip]"
   GREAT_HOLY_WAR_INVALID_NAME: "Такої ВСВ немає"
   PLEDGED_ATTACKERS_LABEL: "Приєдналися до атакуючих — [GreatHolyWar.GetAttackerStrength] ([GreatHolyWar.GetStrengthBalance|%V0])"
   PLEDGED_DEFENDERS_LABEL: "Приєдналися до оборонців — [GreatHolyWar.GetDefenderStrength] ([GreatHolyWar.GetInverseStrengthBalance|%V0])"
   GHW_ATTACKERS_VS_DEFENDERS: "[GreatHolyWar.GetAttackerStrength] проти [GreatHolyWar.GetDefenderStrength]"
   GHW_TT_ATTACKERS_VS_DEFENDERS: "#T $GHW_RELATIVE_STRENGTH$\n#![soldiers|E] з боку нападників: [GreatHolyWar.GetAttackerStrength]\n[soldiers|E] з боку оборонців: [GreatHolyWar.GetDefenderStrength]"
   GHW_RELATIVE_STRENGTH: "Відносна військова міць"
-#  GHW_SEE_PARTICIPANTS: "Переглянути учасників"
+  #GHW_SEE_PARTICIPANTS: "See Participants"
   GHW_WAR_CHEST_LABEL: "[war_chest|E]"
   pledge_attacker: "[great_holy_war.GetFaith.Custom('GHWName')] — приєднався, граючи як [great_holy_war.ghw_target_kingdom.GetName]"
   pledge_defender: "[great_holy_war.GetFaith.Custom('GHWName')] — протистоять навалі, граючи як [great_holy_war.ghw_target_kingdom.GetName]"
@@ -21,7 +22,6 @@
   GHW_ATTACKER_SCORES: "Участники в нападі:"
   GHW_DEFENDER_SCORES: "Участники в обороні:"
   GHW_CONCEPT: "[GreatHolyWar.GetFaith.GetAdjective] [great_holy_war|El]"
-
   GHW_NOT_ATTACKER_PLEDGED: "#Weak Якщо ви приєднаєтеся до атакуючих:\n$EFFECT_LIST_BULLET$ Ви вирішите, хто стане [beneficiary|El]ом і зможе отримати титул у королівстві;\n$EFFECT_LIST_BULLET$ Ви зможете отримати частину військової скарбниці;\n$EFFECT_LIST_BULLET$ Ви отримаєте частину золота з військової скарбниці, коли розпочнеться похід;\n$EFFECT_LIST_BULLET$ Ваші війни з іншими учасниками походу завершаться після його початку.#!"
   GHW_NOT_DEFENDER_PLEDGED: "#weak Якщо я приєднаюся до захисників:\n$EFFECT_LIST_BULLET$ - Я можу отримати [Concept( 'piety', 'благочестя' )|El] та [prestige|El] з військової скарбниці;\n$EFFECT_LIST_BULLET$ - Війни з іншими учасниками походу завершаться після його початку.#!"
   GHW_PLEDGED: "Я на боці тих, хто обороняється. У разі перемоги я можу здобути частину військової скарбниці — її розмір залежатиме від мого внеску у війну."
@@ -48,18 +48,15 @@
   GHW_SCORE_TT: "#T Частка: [GreatHolyWarWindow.GetScore( Character.Self ).GetScorePercent|0V]%#!"
   GHW_NO_SCORE: "Немає частки"
   GHW_NO_SCORE_TT: "#T [spiritual_head_of_faith|E] не може отримати [Concept( 'contribution', 'внесок' )|E] або частку#!"
-
   GHW_WAR_CHEST_PIETY_TOOLTIP: "#T [Concept( 'piety', 'благочестя' )|E] [Concept( 'war_chest', 'військової скарбниці' )|E]#!\nВ [Concept( 'war_chest', 'військовій скарбниці' )|E]: [GetLocalPlayerPietyTextIcon][GreatHolyWar.GetWarChestPiety|0V]\nМоя частка: [GetLocalPlayerPietyTextIcon][GreatHolyWarWindow.GetPietyForCharacter( GetPlayer )|V]"
   GHW_WAR_CHEST_PRESTIGE_TOOLTIP: "#T [war_chest|El]: [prestige|El]#!\n[war_chest|E]: @prestige_icon![GreatHolyWar.GetWarChestPrestige|0V]\nМоя частка: @prestige_icon![GreatHolyWarWindow.GetPrestigeForCharacter( GetPlayer )|V]"
   GHW_WAR_CHEST_GOLD_TOOLTIP: "#T [war_chest|E]: [gold|El]#!\n[war_chest|E]: @gold_icon![GreatHolyWar.GetWarChestGold|0V]\nМоя частка: @gold_icon![GreatHolyWarWindow.GetGoldForCharacter( GetPlayer )|V]"
-
   GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_HEADER_YES: "#T Опиратимуться: [papal_recipient|El]#!"
   GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_HEADER_NO: "#T Підтримати: [papal_recipient|El]#!"
   GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_BODY_YES: "[GREAT_HOLY_WAR.GetName]: якщо ваш внесок у війну є найбільшим, то ваш бенефіціар отримає головний титул. Цей варіант зменшить кількість золота, яку ви отримаєте із військової скарбниці у разі перемоги."
   GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_BODY_NO: "[GREAT_HOLY_WAR.GetName]: якщо ваш внесок у війну найбільший, то [Select_CString( GREAT_HOLY_WAR.GetDesignatedWinner.IsValid, GREAT_HOLY_WAR.GetDesignatedWinner.GetTitledFirstName, 'кандидат Папи' )] отримає оспорюваний титул. Цей варіант дасть вам право на більшу частку золота з військової скарбниці у разі перемоги."
   GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_PROMPT_YES: "#I ЛКМ — заперечити#!"
   GHW_SET_OVERRIDE_DESIGNATED_WINNER_TT_PROMPT_NO: "#I ЛКМ — підтримати#!"
-
   GHW_PLEDGE_TT_HEADER: "#T Пообіцяти військову підтримку#!"
   GHW_UNPLEDGE_TT_HEADER: "#T Відкликати військову підтримку#!"
   GHW_PLEDGE_TT_BODY: "[GREAT_HOLY_WAR.GetFaith.Custom('GHWName')]! Я приєднуюсь! Учасники отримають частину запасів, які зберігає [war_chest|El], а їх [beneficiary|El] може отримати [GREAT_HOLY_WAR.GetTargetTitle.GetName]"
@@ -80,6 +77,5 @@
   GHW_MY_SCORE_OTHER_TT: "[GreatHolyWarWindow.GetScoreBreakdown( Character.Self )]"
   GHW_RANK_NONE: "-"
   GHW_FORMAT_RANK: "$NUM|O$"
-
   ghw_heir_to_a_title: "Є [Concept( 'heir', 'спадкоємцем' )|E] [Concept( 'title', 'титулу' )|E]"
   ghw_married_to_a_ruler: "Перебуває [Concept( 'married', 'у шлюбі' )|E] з [Concept( 'ruler', 'правителем' )|E]"

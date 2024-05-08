@@ -28,19 +28,17 @@
   martial_strategy.4010.d.tt_crit_success: "Your $royal_architect_court_position$ masterfully improves the walls of [crumbling_holding.GetNameNoTierNoTooltip]"
   martial_strategy.4010.d.tt_success: "Your $royal_architect_court_position$ successfully rebuilds the walls of [crumbling_holding.GetNameNoTierNoTooltip]"
   martial_strategy.4010.d.tt_botch: "Your $royal_architect_court_position$ completely botches the reconstruction"
-
-# Tactics?
-# By Isabella Welch
-
+  #Tactics?
+  #By Isabella Welch
   martial_strategy.7000.t: "Tactics?"
   martial_strategy.7000.desc_opening: "While I am in the midst of drilling my"
   martial_strategy.7000.desc_elephantry: "elephantry"
   martial_strategy.7000.desc_cavalry: "heavy cavalry"
-  martial_strategy.7000.desc_middle0": [worried_knight.GetTitledFirstName] approaches me as I sit atop my steed. [worried_knight.GetSheHe|U] avoids my gaze and stares at the ground. After much hesitation, [worried_knight.GetSheHe] speaks up: \n\nMy [ROOT.Char.GetLadyLord|U], all we ever seem to do with our """
+  martial_strategy.7000.desc_middle: " [worried_knight.GetTitledFirstName] approaches me as I sit atop my steed. [worried_knight.GetSheHe|U] avoids my gaze and stares at the ground. After much hesitation, [worried_knight.GetSheHe] speaks up: \n\n\"My [ROOT.Char.GetLadyLord|U], all we ever seem to do with our "
   martial_strategy.7000.desc_war_elephant: "war elephants"
   martial_strategy.7000.desc_armored_horse: "armored horses"
-  martial_strategy.7000.desc_cont: "is charge them directly at the enemy in a straight line. Is it not time we attempted another approach?""
-  martial_strategy.7000.a0: Ha! Good one, [worried_knight.GetTitledFirstNameNoTooltip]!"""
+  martial_strategy.7000.desc_cont: "is charge them directly at the enemy in a straight line. Is it not time we attempted another approach?\""
+  martial_strategy.7000.a: "Ha! Good one, [worried_knight.GetTitledFirstNameNoTooltip]!"
   martial_strategy.7000.b: "Fool! It is the [ROOT.Char.GetCulture.GetNameNoTooltip] way to charge in a straight line!"
   martial_strategy.7000.c: "Fool! Have you ever tried to steer a war elephant?"
   martial_strategy.7000.d: "Fool! There is no finer stratagem known to man."

@@ -25,9 +25,6 @@
   studied_the_battle_of_thermopylae: "Дослідити битву при Термопілах"
   studied_the_battle_of_teutoburg_forest: "Вивчити битву в Тевтобурзькому лісі"
   studied_an_old_battle: "Вивчення стародавньої битви"
-
-
-
   respected_expertise: "Шанований експерт"
   faced_my_fears: "Зустріч зі своїми страхами"
   respected_vigor: "Проявлене прагнення"
@@ -66,7 +63,6 @@
   warfare_almost_tamed_wild_horse_modifier_desc: "Цей персонаж має деякий досвід приручення норовливих коней"
   warfare_tamer_of_horses_modifier: "Приборкувач норовливих коней"
   warfare_tamer_of_horses_modifier_desc: "Цей персонаж приручає норовливих коней у вільний час"
-
   horse_story_modifier: "Бойовий кінь"
   horse_story_modifier_desc: "This character has a well-trained warhorse that follows their every command"
   horse_strength_modifier: "Міцний бойовий кінь"
@@ -101,17 +97,13 @@
   horse_practice_modifier_desc: "This character takes every opportunity to train their warhorse"
   cursed_horse_modifier: "Підступний кінь"
   cursed_horse_modifier_desc: "This character is plagued by a cursed and devious warhorse"
-
   martial_authority_2050_right_hand_person_modifier: "Має праву руку"
-
   martial_strategy_reduced_capital_levy_modifier: "Дезертирство"
   martial_strategy_claimed_divine_right_modifier: "Самопроголошене божественне право"
-
   repurposed_billhook_halberd: "Improvised Halberds"
   repurposed_billhook_halberd_desc: "This character has devised a way to create cheap halberds out of common farming equipment."
   repurposed_billhook_dagger: "Improvised Daggers"
   repurposed_billhook_dagger_desc: "This character has devised a way to create cheap daggers out of common farming equipment."
   repurposed_billhook_billhook: "Invested in Billhooks"
   repurposed_billhook_billhook_desc: "This character has an interest in farming equipment, and invests in them accordingly."
-
   martial_chivalry_stolen_livestock_modifier: "Stolen Livestock"

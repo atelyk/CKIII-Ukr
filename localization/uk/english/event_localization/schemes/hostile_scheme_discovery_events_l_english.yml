@@ -14,7 +14,6 @@
   hostile_scheme_discovery.1001.b: "Кинути [agent.GetHerHis] у в'язницю!"
   hostile_scheme_discovery.1001.c: "Правда чи ні, але [agent.GetFirstNameNoTooltip] не буде [Select_CString(agent.IsFemale, 'звинувачена', 'звинувачений' )]."
   hostile_scheme_discovery.1001.c.tt: "[agent.GetFirstNameNoTooltip] залишиться на волі."
-
   hostile_scheme_discovery.1002.t: "Schemer Discovered!"
   hostile_scheme_discovery.1002.intro: "My [spymaster.GetCouncilTitle] has come to me with grave news: it is [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]"
   hostile_scheme_discovery.1002.intro_no_spymaster: "Grave news have reached me: [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]"
@@ -24,7 +23,6 @@
   hostile_scheme_discovery.1002.steal_back_artifact: "that is plotting to steal an artifact from"
   hostile_scheme_discovery.1002.fallback: "that is plotting against"
   hostile_scheme_discovery.1002.a: "The [owner.Custom('InsultAdjective')] fiend!"
-
   hostile_scheme_discovery.2001.intro: "[Select_CString(spymaster.IsFemale, 'Моя', 'Мій' )] [spymaster.GetCouncilTitle] приносить сумні новини. Хтось"
   hostile_scheme_discovery.2001.intro_no_spymaster: "До мене дійшли страшні звістки. Поки не відомо, хто саме,"
   hostile_scheme_discovery.2001.murder: "задумав убивство! І його ціль -"
@@ -33,20 +31,17 @@
   hostile_scheme_discovery.2001.elope: "але хтось плете підступи, щоб влаштувати втечу, в якій братиме участь"
   hostile_scheme_discovery.2001.steal_back_artifact: "someone is trying to steal from"
   hostile_scheme_discovery.2001.target_other: "[Select_CString(Select_CString(target.IsFemale, 'моя', 'мій')) [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName]!"
-  hostile_scheme_discovery.2001.target_spymaster: "[target.GetHerHim]!\n\nThey don't know who they're dealing with, my [ROOT.Char.GetLadyLord]. They think that they can kill #EMP me#!? I will show them. Oh yes I will."""""
+  hostile_scheme_discovery.2001.target_spymaster: "[target.GetHerHim]!\n\nThey don't know who they're dealing with, my [ROOT.Char.GetLadyLord]. They think that they can kill #EMP me#!? I will show them. Oh yes I will.\"\"\"\""
   hostile_scheme_discovery.2001.target_me: "я!"
   hostile_scheme_discovery.2001.a: "Ми повинні зупинити негідника!"
-
   hostile_scheme_discovery.3001.t: "Змовника викрито!"
   hostile_scheme_discovery.3001.intro: "[court_owner.GetTitledFirstNamePossessive] [Select_CString(court_owner.IsFemale, 'дізналася', 'дізнався' )], що [agent.GetTitledFirstName] [Select_CString(Select_CString(agent.IsFemale, 'брала участь', 'брав участь' )] у змові у н[SCOPE.sC('court_owner').GetHerHis] при дворі !"
   hostile_scheme_discovery.3001.imprisoned: "\n\n[court_owner.GetTitleAsName] [Select_CString(court_owner.IsFemale, 'посадила', 'посадив')] [SCOPE.sC('court_owner').GetHerHis] під замок."
   hostile_scheme_discovery.3001.accused: "\n\nТепер [agent.GetSheHe] втратить загальну довіру і буде мені [Select_CString(Select_CString(agent.IsFemale, 'некорисна', 'безкорисний' )])."
   hostile_scheme_discovery.3001.a: "Будь [Select_CString(court_owner.IsFemale, 'проклята', 'проклятий' )] [court_owner.GetTitledFirstNameNoTooltip] та [court_owner.GetHerHis] [spymaster.GetCouncilTitle]!"
-
   hostile_scheme_discovery.3002.t: "Підступи розкриті"
   hostile_scheme_discovery.3002.desc: "Мій план - [scheme.GetFullActionName] - розкритий!\n\nПро мою участь у ньому поки ніхто не знає, але це ускладнить його виконання."
   hostile_scheme_discovery.3002.a: "Прокляття!"
-
   hostile_scheme_discovery.3003.t: "Involvement Discovered"
   hostile_scheme_discovery.3003.desc: "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has discovered that I am the mastermind behind the plot"
   hostile_scheme_discovery.3003.murder: "to murder [target.GetHerHim]!"
@@ -55,7 +50,6 @@
   hostile_scheme_discovery.3003.steal_back_artifact: "to steal an artifact from [target.GetHerHim]!"
   hostile_scheme_discovery.3003.fallback: "against [target.GetHerHim]!"
   hostile_scheme_discovery.3003.a: "There must have been a misunderstanding!"
-
   hostile_scheme_discovery.4001.t: "Підступи розкриті!"
   hostile_scheme_discovery.4001.opening: "[Select_CString(target.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstName] [Select_CString(target.IsFemale, ' була', 'був' )] метою грандіозного плану, але підступи розкриті!"
   hostile_scheme_discovery.4001.end: "\n\nТепер слуги перешіптуються, що я навіть власним домом правити не можу без брудних трюків."

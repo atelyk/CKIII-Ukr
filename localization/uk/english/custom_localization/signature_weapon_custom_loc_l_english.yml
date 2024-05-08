@@ -1,85 +1,68 @@
 ﻿l_english:
-  # Standard Signature Weapon Loc
+  #Standard Signature Weapon Loc
   signature_weapon_name: "[ROOT.Var('signature_weapon_scope').Artifact.GetName]"
   signature_weapon_type: "[ROOT.Char.Custom('signature_weapon')]"
-
   signature_weapon_sword: "меч"
   signature_weapon_sword_draw: "підношу"
   signature_weapon_sword_draws: "підносить"
   signature_weapon_sword_drawing: "підняття"
   signature_weapon_sword_drawn: "піднятий"
-
   signature_weapon_mace: "булава"
   signature_weapon_mace_lift: "здіймаю"
   signature_weapon_mace_lifts: "підйомники"
   signature_weapon_mace_lifting: "підйомники"
   signature_weapon_mace_lifted: "піднятий"
-
   signature_weapon_axe: "сокира"
   signature_weapon_axe_heft: "підношу"
   signature_weapon_axe_hefts: "підносить"
   signature_weapon_axe_hefting: "підняття"
   signature_weapon_axe_hefted: "піднятий"
-
   signature_weapon_hammer: "молот"
   signature_weapon_hammer_raise: "здіймаю"
   signature_weapon_hammer_raises: "здіймає"
   signature_weapon_hammer_raising: "піднесення"
   signature_weapon_hammer_raised: "піднесений"
-
   signature_weapon_spear: "спис"
   signature_weapon_spear_couch: "виставляю"
   signature_weapon_spear_couches: "виставляє"
   signature_weapon_spear_couching: "виставлення"
   signature_weapon_spear_couched: "виставлений"
-
   signature_weapon_dagger: "кинджал"
   signature_weapon_dagger_brandish: "розмахую"
   signature_weapon_dagger_brandishes: "розмахує"
   signature_weapon_dagger_brandishing: "розмахування"
   signature_weapon_dagger_brandished: "brandished"
-
   signature_weapon_a_quick_slash: "швидкий удар з плеча"
   signature_weapon_a_mighty_heave: "могутній замах"
   signature_weapon_a_fast_thrust: "стрімкий випад"
-
   signature_weapon_slash: "розсікати до глибокого прорізу"
   signature_weapon_crush: "розтрощити кістки"
   signature_weapon_pierce: "проткнути глибоко всередину"
-
   signature_weapon_slash_present: "розсікає до глибокого прорізу"
   signature_weapon_crush_present: "розтрощує кістки"
   signature_weapon_pierce_present: "протикає глибоко всередину"
-
   article_a: "a"
   article_an: "an"
-
-  # Non-Lethal Attacks
+  #Non-Lethal Attacks
   signature_weapon_attempted_heavy_slash: "powerful cleave"
   signature_weapon_attempted_heavy_crush: "crushing thwack"
   signature_weapon_attempted_heavy_pierce: "piercing thrust"
-
   signature_weapon_attempted_light_slash: "quick slash"
   signature_weapon_attempted_light_crush: "rapid thump"
   signature_weapon_attempted_light_pierce: "thrusting jab"
-
   signature_weapon_attempted_heavy_plural_slash: "powerful cleaves"
   signature_weapon_attempted_heavy_plural_crush: "crushing thwacks"
   signature_weapon_attempted_heavy_plural_pierce: "piercing thrusts"
-
   signature_weapon_attempted_light_plural_slash: "quick slashes"
   signature_weapon_attempted_light_plural_crush: "rapid thumps"
   signature_weapon_attempted_light_plural_pierce: "thrusting jabs"
-
   signature_weapon_flourish_whirling: "whirling"
   signature_weapon_flourish_flailing: "flailing"
   signature_weapon_flourish_swinging: "swinging"
-
   signature_weapon_flourish_whirls: "whirls"
   signature_weapon_flourish_flails: "flails"
   signature_weapon_flourish_swings: "swings"
-
-  # Various Verb Types
+  #Various Verb Types
   signature_weapon_attack_verb_hew: "hew"
   signature_weapon_attack_verb_smash: "smash"
   signature_weapon_attack_verb_stab: "stab"
@@ -89,7 +72,6 @@
   signature_weapon_attack_verb_hews: "hews"
   signature_weapon_attack_verb_smashes: "smashes"
   signature_weapon_attack_verb_stabs: "stabs"
-
   signature_weapon_attack_verb_bite: "bite"
   signature_weapon_attack_verb_crack: "crack"
   signature_weapon_attack_verb_puncture: "puncture"
@@ -99,69 +81,54 @@
   signature_weapon_attack_verb_biting: "biting"
   signature_weapon_attack_verb_cracking: "cracking"
   signature_weapon_attack_verb_puncturing: "puncturing"
-
   signature_weapon_attack_verb_rend: "rend"
   signature_weapon_attack_verb_annihilate: "annihilate"
   signature_weapon_attack_verb_skewer: "skewer"
-
   signature_weapon_attack_verb_carve: "carve"
   signature_weapon_attack_verb_mangle: "mangle"
   signature_weapon_attack_verb_chop: "chop"
   signature_weapon_attack_verb_carves: "carves"
   signature_weapon_attack_verb_mangles: "mangles"
   signature_weapon_attack_verb_chops: "chops"
-
   signature_weapon_attack_verb_plunge: "plunge"
   signature_weapon_attack_verb_drive: "drive"
   signature_weapon_attack_verb_plunges: "plunges"
   signature_weapon_attack_verb_drives: "drives"
   signature_weapon_attack_verb_plunging: "plunging"
   signature_weapon_attack_verb_driving: "driving"
-
   signature_weapon_attack_verb_cutting: "cutting"
-
-  # Weapon Descriptors
+  #Weapon Descriptors
   signature_weapon_haft: "haft"
   signature_weapon_pommel: "pommel"
-
   signature_weapon_point: "point"
   signature_weapon_head: "head"
   signature_weapon_edge: "edge"
-
   signature_weapon_end_wood: "wood"
   signature_weapon_end_metal: "metal"
-
   signature_weapon_tip_adjective_sharp: "sharp"
   signature_weapon_tip_adjective_heavy: "heavy"
-
   signature_weapon_breaks_blade_bends: "blade bends"
   signature_weapon_breaks_haft_snaps_in_two: "haft snaps in two"
   signature_weapon_breaks_haft_bends: "haft bends"
-
   signature_weapon_breaks_bends_the_blade: "bends the blade"
   signature_weapon_breaks_snaps_the_haft_in_two: "snaps the haft in two"
   signature_weapon_breaks_bends_the_haft: "bends the haft"
-
   signature_weapon_breaks_bending_the_blade: "bending the blade"
   signature_weapon_breaks_snapping_the_haft: "snapping the haft"
   signature_weapon_breaks_bending_the_haft: "bending the haft"
-
   signature_weapon_breaks_bend_the_blade: "bend the blade"
   signature_weapon_breaks_snap_the_haft: "snap the haft"
   signature_weapon_breaks_bend_the_haft: "bend the haft"
-
   signature_weapon_breaks_bent_the_blade: "bent the blade"
   signature_weapon_breaks_snapped_the_haft: "snapped the haft"
   signature_weapon_breaks_bent_the_haft: "bent the haft"
-
-  # Generic deaths
+  #Generic deaths
   signature_weapon_killed_crush: "crush"
   signature_weapon_killed_run_through: "run through"
   signature_weapon_killed_cut_down: "cut down"
   signature_weapon_killed_gut: "gut"
   signature_weapon_killed_crushed: "crushed"
   signature_weapon_killed_gutted: "gutted"
-
   signature_weapon_killed_crush_me: "crush me"
   signature_weapon_killed_run_me_through: "run me through"
   signature_weapon_killed_cut_me_down: "cut me down"
@@ -170,7 +137,6 @@
   signature_weapon_killed_run_herhim_through: "run [second.GetHerHim] through"
   signature_weapon_killed_cut_herhim_down: "cut [second.GetHerHim] down"
   signature_weapon_killed_gut_herhim: "gut [second.GetHerHim]"
-
   signature_weapon_killed_crushing_me: "crushing me"
   signature_weapon_killed_running_me_through: "running me through"
   signature_weapon_killed_cutting_me_down: "cutting me down"
@@ -179,13 +145,11 @@
   signature_weapon_killed_running_herhim_through: "running [second.GetHerHim] through"
   signature_weapon_killed_cutting_herhim_down: "cutting [second.GetHerHim] down"
   signature_weapon_killed_gutting_herhim: "gutting [second.GetHerHim]"
-
   signature_weapon_killed_crushes_me: "crushes me"
   signature_weapon_killed_runs_me_through: "runs me through"
   signature_weapon_killed_cuts_me_down: "cuts me down"
   signature_weapon_killed_guts_me: "guts me"
-
-  # Groin-centric deaths
+  #Groin-centric deaths
   signature_weapon_killed_pulverise_my_waist: "pulverize my waist"
   signature_weapon_killed_unseam_me_groin_to_neck: "unseam me groin to neck"
   signature_weapon_killed_split_my_groin_in_two: "split my groin in two"
@@ -207,8 +171,7 @@
   signature_weapon_killed_stabbing_herhim_repeatedly_in_the_groin: "stabbing [second.GetHerHim] #EMP repeatedly#! in the groin"
   signature_weapon_killed_aftermath_forcing_herhis_hip_bones_through_herhis_thigh: "forcing [second.GetHerHis] hip bones through [second.GetHerHis] thigh"
   signature_weapon_killed_aftermath_fountaining_blood_from_herhis_crotch: "fountaining blood from [second.GetHerHis] crotch"
-
-  # Head-centric deaths
+  #Head-centric deaths
   signature_weapon_killed_crush_my_skull: "crush my skull"
   signature_weapon_killed_cut_my_throat: "cut my throat"
   signature_weapon_killed_hack_off_my_head: "hack off my head"
@@ -221,7 +184,6 @@
   signature_weapon_killed_cutting_herhis_throat: "cutting [second.GetHerHis] throat"
   signature_weapon_killed_hacking_off_herhis_head: "hacking off [second.GetHerHis] head"
   signature_weapon_killed_stabbing_herhim_in_the_brain: "stabbing [second.GetHerHim] in the brain"
-
   signature_weapon_killed_shatter_my_jaw: "shatter my jaw"
   signature_weapon_killed_hack_out_my_throat: "hack out my throat"
   signature_weapon_killed_shatters_my_jaw: "shatters my jaw"
@@ -235,12 +197,10 @@
   signature_weapon_killed_hacking_out_my_throat: "hacking out my throat"
   signature_weapon_killed_shattering_herhis_jaw: "shattering [second.GetHerHis] jaw"
   signature_weapon_killed_hacking_out_herhis_throat: "hacking out [second.GetHerHis] throat"
-
-  # Rear Head-centric deaths
+  #Rear Head-centric deaths
   signature_weapon_killed_stab_herhim_in_the_base_of_the_skull: "stab [second.GetHerHim] in the base of the skull"
   signature_weapon_killed_split_herhis_skull_in_two: "split [second.GetHerHis] skull in two"
-
-  # Torso-centric deaths
+  #Torso-centric deaths
   signature_weapon_killed_crushes_my_sternum: "crushes my sternum"
   signature_weapon_killed_punches_through_my_sternum: "punches through my sternum"
   signature_weapon_killed_hews_into_my_sternum: "hews into my sternum"
@@ -259,7 +219,6 @@
   signature_weapon_killed_crushing_herhis_sternum: "crushing [second.GetHerHis] sternum"
   signature_weapon_killed_punching_through_herhis_sternum: "punching through [second.GetHerHis] sternum"
   signature_weapon_killed_hewing_into_herhis_sternum: "hewing into [second.GetHerHis] sternum"
-
   signature_weapon_attack_verb_sliding_between_my_ribs: "sliding between my ribs"
   signature_weapon_attack_verb_stoving_in_my_ribs: "stoving in my ribs"
   signature_weapon_attack_verb_hacking_through_my_ribs: "hacking through my ribs"
@@ -269,8 +228,7 @@
   signature_weapon_attack_verb_stab_between_herhis_ribs: "stab between [second.GetHerHis] ribs"
   signature_weapon_attack_verb_stove_in_herhis_ribs: "stove in [second.GetHerHis] ribs"
   signature_weapon_attack_verb_hack_through_herhis_ribs: "hack through [second.GetHerHis] ribs"
-
-  # Rear Torso-centric deaths
+  #Rear Torso-centric deaths
   signature_weapon_killed_snaps_my_spine: "snaps my spine in two"
   signature_weapon_killed_impales_my_spine: "impales my spine"
   signature_weapon_killed_hacks_my_spine_in_two: "hacks my spine in two"

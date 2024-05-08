@@ -12,7 +12,6 @@
   guest_description.stewardship.desc: "Управитель ([stewardship|El]: #V [ROOT.Char.GetSkill('stewardship' )]#!)"
   guest_description.intrigue.desc: "Інтриган ([intrigue|El]: #V [ROOT.Char.GetSkill('intrigue' )]#!)"
   guest_description.learning_start.desc: "Лікар"
-
   guest_description.learning_physician_trait_1.desc: "([learning|El]: #V [ROOT.Char.GetSkill('learning' )]#!, [GetTrait('physician_1').GetName( ROOT.Char )])"
   guest_description.learning_physician_trait_2.desc: "([learning|El]: #V [ROOT.Char.GetSkill('learning' )]#!, [GetTrait('physician_2').GetName( ROOT.Char )])"
   guest_description.learning_physician_trait_3.desc: "([learning|El]: #V [ROOT.Char.GetSkill('learning' )]#!, [GetTrait('physician_3').GetName( ROOT.Char )])"

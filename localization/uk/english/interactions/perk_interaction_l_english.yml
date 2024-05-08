@@ -1,13 +1,11 @@
 ﻿l_english:
   claim_throne_interaction: "Заявити права на трон #weak (підступи)#!"
   claim_throne_interaction_message: "Throne Claimed"
-
   demand_payment_interaction: "Вимагати оплати"
   demand_payment_interaction_desc: "Змусити персонажа [recipient.GetShortUINameNoTooltip] відплатитися золотом за ваш [Concept( 'hook', 'вплив' )|E]"
   demand_payment_interaction_message: "Обов'язки виконано"
   RECIPIENT_HAS_TOO_LITTLE_GOLD: "[CHARACTER.GetName] не має достатньо золота"
   demand_payment_too_little_gold_tt: "#N [recipient.GetFirstNameNoTooltip] не має достатньо золота#!\nЯ отримаю менше, ніж очікувалося #F ([gold_i][SCOPE.ScriptValue('demand_payment_current_gold_value')|0]/[gold_i][SCOPE.ScriptValue('demand_payment_gold_to_pay')|0])#!"
-
   buy_claim_interaction: "Купити претензію"
   buy_claim_interaction_desc: "Витратити [Concept( 'piety', 'благочестя' )|E], щоб отримати [Concept( 'claim', 'претензію' )|E] на один із доступних вам титулів, яким володіє [recipient.GetShortUINameNoTooltip] #weak ([buy_claim|E])#!"
   buy_claim_interaction.message: "Претензія на титул [target.GetName]!"
@@ -15,7 +13,6 @@
   BUY_CLAIM_ALREADY_KING_OR_EMPEROR: "Ви не можете купити [Concept( 'claim', 'претензію' )|E] на [Concept( 'kingdom', 'королівство' )|E], якщо ви вже [Concept( 'king', 'король' )|E] чи [Concept( 'emperor', 'імператор' )|E]"
   BUY_CLAIM_ALREADY_EMPEROR: "Ви не можете купити [Concept( 'claim', 'претензію' )|E] на [Concept( 'kingdom', 'королівство' )|E], якщо ви вже [Concept( 'emperor', 'імператор' )|E]"
   BUY_CLAIM_RELIGIOUS_TITLE: "Ви не можете купити [Concept( 'claim', 'претензію' )|E] на релігійний титул"
-
   challenge_to_single_combat_interaction: "Challenge Rival to Fight"
   challenge_to_single_combat_interaction_desc: "Challenge your [rival|E] to a [single_combat_duel|E], inflicting [stress|E] if you win"
   challenge_to_single_combat_interaction.enter_non_lethal_bout.tt: "A non-lethal [single_combat_fight|E] will commence immediately"
@@ -25,6 +22,5 @@
   challenge_to_single_combat_interaction.challenge_rejected.tt: "The coward fears your blade"
   UNLOCKS_ABILITY_TO_DUEL_RIVALS: "May challenge [rivals|E] to [single_combat_fight|E], inflicting [stress|E] if you win"
   CTSC_RELATIVE_PROWESS: "Relative [prowess|E]: $VALUE|=+0$"
-
   buy_artifact_claim_interaction: "Buy Artifact Claim"
   buy_artifact_claim_interaction_desc: "Spend [piety|E] or [prestige|E] to gain a [personal_artifact_claim|E] on another character's [artifact|E] #weak ([buy_artifact_claim|E])#!"

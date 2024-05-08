@@ -39,7 +39,6 @@
   pervert: "збоченець"
   fool: "дурень"
   venemous_animal_loc: "[ROOT.Char.Custom('VenomousCreature')]"
-
   #InsultAdjective
   insult_nickname_two_faced: "дволикий"
   cold_hearted: "безсердечний"
@@ -83,7 +82,6 @@
   lumbering_female: "$lumbering$"
   goat_shagging_male: "трахкає кіз"
   goat_shagging_female: "$goat_shagging_male$"
-
   #InsultAdjectiveArticle
   insult_nickname_two_faced_article: "дволикість"
   cold_hearted_article: "безсердечний"
@@ -113,7 +111,6 @@
   loathsome_article: "гидкий"
   abhorrent_article: "мерзенний"
   vile_article: "відворотний"
-
   #InsultBehavior
   cold_hearted_behavior: "безсердечність"
   evil_behavior: "грішність"
@@ -130,7 +127,6 @@
   cocky_behavior: "зухвалість"
   reclusive_behavior: "манірність"
   heartless_behavior: "нечулість"
-
   #InsultSentence
   insult_sentence_arrogant: "ви самі зробили себе і вихваляє лише свого творця"
   insult_sentence_lustful: "Я відчуваю себе таким нещасним, коли я не з тобою, — майже наскільки ж, як у вашій компанії"
@@ -139,7 +135,6 @@
   insult_sentence_beauty_bad: "Я чув, ти любиш природу, попри те, що вона з вами зробила"
   insult_sentence_shiver: "ви тремтите — шукаєш куди б втекти"
   insult_sentence_evening: "у мене був чудовий вечір із гарною компанією - до цього самого моменту"
-
   #PointOfRidicule
   foolishness: "дурість"
   sensitive_soul: "вразливість"
@@ -162,15 +157,13 @@
   ghostly_pallor: "примарна блідість"
   disgusting_wheezing: "огидні хрипи"
   insistent_whining: "нав'язливе ниття"
-
   #InsultNounSexual
   whore: "повія"
   debaucher: "розпусник"
   harlot: "блудниця"
   pig: "свиня"
   skirt_chaser: "бабій"
-
-  # Female versions requested by other languages
+  #Female versions requested by other languages
   coward_female: "боягузка"
   boar_female: "кабаниха"
   cox_comb_female: "шалапeтка"
@@ -258,3 +251,11 @@
   insult_shunt_female: "нетяма"
   insult_blunt_female: "тупий"
   impotent_female: "безплідна"
+  insult_noun_clumsy_oaf: "$oaf_insult$"
+  insult_noun_clumsy_buffoon: "$buffoon$"
+  insult_noun_clumsy_dimwit: "dimwit"
+  insult_noun_clumsy_nimrod: "nimrod"
+  insult_adjective_clumsy_clumsy: "clumsy"
+  insult_adjective_clumsy_stumbling: "stumbling"
+  insult_adjective_clumsy_blundering: "blundering"
+  insult_adjective_clumsy_fumbling: "fumbling"

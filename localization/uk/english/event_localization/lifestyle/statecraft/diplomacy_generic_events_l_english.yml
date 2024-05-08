@@ -1,11 +1,8 @@
 ﻿l_english:
-
   diplomacy_lifestyle_rank_up_indication: "Я можу отримати [perk|El] [diplomacy_lifestyle|El]"
-
   ###################
-  # Standard Events #
+  #Standard Events #
   ###################
-
   #Social Manipulation (Put a vassal in their place by manipulating them), by Mathilda Bjarnehed
   diplomacy_generic.0012.t: "Соціальні маніпуляції"
   diplomacy_generic.0012.start.desc: "Коли це сталося вперше, мені було не до того, але [disobedient_subject.Custom2('MyCharacterIntroduction', ROOT.Char)] стає все нахабнішим. [disobedient_subject.GetHerHis|U] спроби кинути мені виклик більше не залишаються непоміченими"
@@ -16,25 +13,22 @@
   make_invisible_option.tt: "Ви думаєте, що [disobedient_subject.GetFirstName] [Select_CString(disobedient_subject.IsFemale, 'не впевнена в собі, млява чи їй', 'не впевнений у собі, млявий чи йому' )] просто бракує амбітності"
   diplomacy_generic.0012.b: "Якщо висміяти [disobedient_subject.GetHerHis] [disobedient_subject.Custom('PointOfRidicule')], це змусить [SCOPE.sC('disobedient_subject').GetHerHis] замовкнути."
   ridicule_option.tt: "Ви думаєте, що [disobedient_subject.GetFirstName] часто соромиться, і надто звертає увагу на думку оточення"
-  diplomacy_generic.0012.c: "Якщозабути" відправити [disobedient_subject.GetHerHim] запрошення, [disobedient_subject.GetSheHe] абсолютно розгубиться."""
+  diplomacy_generic.0012.c: "Якщозабути\" відправити [disobedient_subject.GetHerHim] запрошення, [disobedient_subject.GetSheHe] абсолютно розгубиться.\"\""
   withhold_information_option.tt: "Ви думаєте, що [disobedient_subject.GetFirstName] [Select_CString(disobedient_subject.IsFemale, 'слабовільна', 'слабовільний' )] або просто цурається навколишніх людей"
   diplomacy_generic.0012.d: "[disobedient_subject.GetSheHe|U] отримає нездійсненні завдання."
   impossible_task_option.tt: "Ви думаєте, що [disobedient_subject.GetFirstName] зробить все можливе, щоб виконати завдання"
   diplomacy_generic.0012.e: "У всіх проблемах можна звинуватити [SCOPE.sC('disobedient_subject').GetHerHis]."
   shame_option.tt: "Ви думаєте, що [disobedient_subject.GetFirstName] [Select_CString(disobedient_subject.IsFemale, 'сумлінна', 'сумлінний' )] або принаймні хоче, щоб про [Select_CString(disobedient_subject.IsFemale, 'неї', 'нього' )] добре думали"
-  diplomacy_generic.0012.f0: Якщо прокоментувати [disobedient_subject.GetHerHis] [disobedient_subject.Custom('ObjectifiedFeature')], це зіб'є [disobedient_subject.GetHerHis] з пантелику."""
   diplomacy_generic.0012.f: "Commenting on [disobedient_subject.GetHerHis] [disobedient_subject.Custom('ObjectifiedFeature')] will throw [disobedient_subject.GetHerHim] off."
   objectification_option.tt: "Ви припускаєте, що [disobedient_subject.GetFirstName] часто стає об'єктом бажань через свою зовнішність"
   diplomacy_generic.0012.g: "Злегка прикрита загроза фізичної розправи допоможе розібратися."
   threat_option.tt: "Ви припускаєте, що [disobedient_subject.GetFirstName] [Select_CString(disobedient_subject.IsFemale, 'боягузлива', 'боягузливий' )] або хоче зберегти мир"
   diplomacy_generic.0012.h: "«Я [Select_CString(ROOT.Char.IsFemale, 'ваша', 'ваш' )] #EMP [ROOT.Char.GetTitleAsName]#!, і ви смієте кидати мені виклик?!»"
   diplomacy_generic.0012.tt: "Не дуже дипломатично, проте дуже ефективно..."
-
   diplomacy_generic.0012.good_outcome.desc: "[disobedient_subject.GetTitledFirstNameNoTooltip] піддається на ваші маніпуляції"
   diplomacy_generic.0012.bad_outcome.desc: "[disobedient_subject.GetTitledFirstNameNoTooltip] не дає себе обдурити"
   diplomacy_generic.0012.terrible_outcome.desc: "[disobedient_subject.GetTitledFirstNameNoTooltip] виявляється розумнішим за вас"
   diplomacy_generic.0012.failure.desc: "[disobedient_subject.GetTitledFirstName] не піддається вашим маніпуляціям"
-
   diplomacy_generic.0013.t: "Маріонетка на ниточках"
   diplomacy_generic.0013.make_invisible.desc: "Схоже, [Select_CString(suppressor.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] [suppressor.GetTitledFirstName] більше не цікавиться моєю думкою. Варто мені почати говорити, як [suppressor.GetSheHe] перебиває мене чи відволікається. Іноді здається, що [suppressor.GetSheHe] слухає тільки для того, щоб пізніше повторити мої ідеї, видавши їх за свої..."
   diplomacy_generic.0013.ridicule.desc: "Що мені зробити, щоб [Select_CString(suppressor.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suppressor'))] [Select_CString(suppressor.IsFemale, 'сприймала', 'сприймав' )] мене серйозно? Щоразу, як я починаю говорити, [suppressor.GetTitledFirstName] перебиває мене і висміює мої ідеї або [disobedient_subject.Custom('PointOfRidicule')]."
@@ -47,7 +41,6 @@
   diplomacy_generic.0013.a.success.tt: "[suppressor.GetTitledFirstNameNoTooltip] піддається на ваші маніпуляції"
   diplomacy_generic.0013.a.failure.tt: "[suppressor.GetTitledFirstNameNoTooltip] маніпулює вами"
   diplomacy_generic.0013.b: "Можливо, я заслуговую на подібне ставлення..."
-
   diplomacy_generic.0014.t: "$diplomacy_generic.0012.t$: майстер придушення"
   diplomacy_generic.0014.make_invisible.desc: "Як тільки [disobedient_subject.GetTitledFirstName] підвищує голос, щоб заговорити, я позіхаю, переводячи погляд на щось інше, або ж відкрито перебиваю [disobedient_subject.GetHerHis]. Коли інші починають наслідувати мій приклад, [disobedient_subject.GetTitledFirstNameNoTooltip] втрачати впевненість у собі."
   diplomacy_generic.0014.ridicule.desc: "Мої презирливі зауваження, в яких мимохіть згадуються [SCOPE.sC('disobedient_subject').GetTitledFirstName] і [SCOPE.sC('disobedient_subject').GetHerHis] [disobedient_subject.Custom('PointOfRidicule')], схоже, досягли своєї мети! З тих пір, як інші почали наслідувати моєму прикладу, [disobedient_subject.GetTitledFirstNameNoTooltip] виявляє все менше самовпевненості."
@@ -59,7 +52,6 @@
   diplomacy_generic.0014.end.desc: "Тепер [disobedient_subject.GetSheHe] буде мовчати, опустивши голову."
   diplomacy_generic.0014.a.cruel: "[disobedient_subject.GetSheHe|U] двічі подумає, перш ніж знову кидати мені виклик!"
   diplomacy_generic.0014.a.compassionate: "Можливо, це було жорстоко, але це слід було зробити."
-
   diplomacy_generic.0015.t: "$diplomacy_generic.0012.t$: від ляльковода до маріонетки"
   diplomacy_generic.0015.make_invisible.desc: "Як тільки [disobedient_subject.GetTitledFirstName] підвищує голос, щоб заговорити, я позіхаю і перекладаю погляд на свої папери. Мені здавалося, що інші наслідують мій приклад, але натомість вони приєдналися до розмови. Коли ж мені нарешті вдалося придушити гордість, [disobedient_subject.GetFirstName] вже [Select_CString(disobedient_subject.IsFemale, 'взяла', 'взяв' )] все в свої руки, і про мої слова незабаром забули."
   diplomacy_generic.0015.ridicule.desc: "Як з'ясувалося, [SCOPE.sC('disobedient_subject').GetTitledFirstName] набагато розумніше, ніж мені здавалося. Після мого зауваження, покликаного вразити [disobedient_subject.GetHerHis] [disobedient_subject.Custom('PointOfRidicule')], [disobedient_subject.GetSheHe] тут же [Select_CString(disobedient_subject.IsFemale, 'повернула', 'повернув' )] ситуацію на свою користь, зазначивши, що відповідати на серйозне питання уїдливими зауваженнями дріб'язково."

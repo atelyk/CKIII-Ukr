@@ -13,7 +13,8 @@
   a_doll: "лялька"
   child_object_of_interest_indefinite_set: "[ROOT.Char.Custom('child_favorite_toy_indefinite')]"
   child_object_of_interest_indefinite_random: "[ROOT.Char.Custom('child_object_of_interest_indefinite_random')]"
-
+  child_children_singular: "child"
+  child_children_plural: "children"
   wooden_knight: "$knight_culture_player_no_tooltip_lowercase$ з дерева"
   toy_boat: "іграшковий човник"
   wooden_sword: "дерев'яний меч"
@@ -26,7 +27,6 @@
   stick_horse: "лошатко"
   child_object_of_interest_set: "[ROOT.Char.Custom('child_object_of_interest')]"
   child_object_of_interest_random: "[ROOT.Char.Custom('child_object_of_interest_random')]"
-
   wooden_knight_plural: "wooden warrior"
   toy_boat_plural: "toy boats"
   wooden_sword_plural: "wooden swords"

@@ -1,43 +1,37 @@
 ﻿l_english:
   fabricate_hook_header: "Підробити вплив:"
   fabricate_hook_hook_gained_on_you: "@warning_icon [owner.GetShortUIName] has fabricated a [hook|El] on you!"
-
   fabricate_hook_outcome.0001.t: "$fabricate_hook_header$Секрет"
   fabricate_hook_outcome.0001.desc: "[target.GetTitledFirstName], схоже, щось приховує. На щастя для мене: тепер не доведеться вигадувати, як отримати [target.GetHerHis] у свої руки."
   fabricate_hook_outcome.0001.a: "Достатньо лише натякнути [target.GetHerHim], що я знаю..."
   fabricate_hook_outcome.0001.b: "Я зберігатиму це ближче до серця."
   fabricate_hook_outcome.0001.c: "О, а от про це мають знати всі!"
-
   fabricate_hook_outcome.1001.t: "$fabricate_hook_header$Компрометуюча ситуація"
   fabricate_hook_outcome.1001.desc: "Кожному з нас приходиться #EMP іноді#! оголюватися. Важче домогтися того, щоб натовп жонглерів у потрібний момент вломився в покої, що займає [target.GetTitledFirstName], і щоб навколо було достатньо слуг, які потім говорити про подальший хаос.\n\nПідозрюю, що [target.GetFirstNameNoTooltip] зробить будь-що, щоб не дати мені підкинути дров у вогонь чуток..."
   fabricate_hook_outcome.1001.a: "Пошліть за трупою!"
   fabricate_hook_outcome.1001.a.flavor: "Фу, спілкуватися з лицедіями... Знову."
   fabricate_hook_outcome.1001.b: "Мені варто все ретельно продумати."
   fabricate_hook_outcome.1001.c: "То була велика помилка."
-
   fabricate_hook_outcome.1002.t: "$fabricate_hook_header$Послання, що викриває"
   fabricate_hook_outcome.1002.desc: "Перехопивши гінця, якого [Select_CString(target.IsFemale, 'відправила', 'відправив' )] [target.GetTitledFirstName], я отримую чудову нагоду.\n\nСкопіювавши печатку, я зможу скласти підроблений лист, який погрожує підняти податки, і пустити цей текст серед [target.GetHerHis] васалів. Принаймні пригрозити цим..."
+  fabricate_hook_outcome.1002.desc.vassals: "By copying the [target.GetTitleAsNamePossessive] seal, I can fabricate a letter threatening increased taxes and circulate it among [target.GetHerHis] vassals. Or at least threaten to..."
+  fabricate_hook_outcome.1002.desc.no_vassals: "By copying the [target.GetTitleAsNamePossessive] seal, I can fabricate a letter threatening increased taxes and circulate it among [target.GetHerHis] courtiers. Or at least threaten to..."
   fabricate_hook_outcome.1002.a: "«Це #EMP ваш! підпис, чи не так?"
-
   fabricate_hook_outcome.1003.t: "$fabricate_hook_header$Відчайдушний порятунок"
   fabricate_hook_outcome.1003.desc: "Хіба не чудово було б, якби [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'вважала', 'вважав' )] себе в боргу переді мною не зі страху, а з подяки? Скажімо, якщо я врятую [target.GetHerHis] від нападу злісних розбійників під час подорожі? Та-ак, злісних розбійників, зовсім як ті, що чекають за брамою замку...\n\nЯ з'явлюся зі своєю вартою в останній момент, прожену їх, і [target.GetFirstNameNoTooltip] буде [Select_CString(target.IsFemale, 'зобов'язана', 'зобов'язаний' )] мені життям."
   fabricate_hook_outcome.1003.a: "Так просто, але так переконливо!"
-
   fabricate_hook_outcome.1004.t: "$fabricate_hook_header$Брудні слова"
   fabricate_hook_outcome.1004.desc: "Я запускаю гидкі чутки, в яких фігурує [target.GetTitledFirstName]. Ніщо з цього не є правдою, і хтось повинен довести їхню брехливість.\n\nТак цей #EMP хтось#! заручиться підтримкою врятованого!"
   fabricate_hook_outcome.1004.a: "Потрібно виступити проти цієї несправедливості!"
   fabricate_hook_outcome.1004.a.flavor: "Мій [ROOT.Char.GetFaith.PriestNeuter] цього не оцінить."
   fabricate_hook_outcome.1004.a.flavor_sacred_shadows: "Мій [ROOT.Char.GetFaith.PriestNeuter] буде у захваті!"
-
   fabricate_hook_outcome.1005.t: "$fabricate_hook_header$Варварство, зате ефективно"
   fabricate_hook_outcome.1005.desc: "Прості рішення найчастіше виявляються найкращими. Навіщо всі ці інтриги та маніпуляції, якщо досить грубої сили — і [target.GetTitledFirstName] буде танцювати під мою дудку?\n\nКілька громил і пари листів із погрозами має вистачити."
   fabricate_hook_outcome.1005.a: "Писар! Нам потрібно скласти кілька листів!"
   fabricate_hook_outcome.1005.a.flavor: "«Моя улюблена жертва…»"
-
   fabricate_hook_outcome.2001.t: "$fabricate_hook_header$Хитрий прийом"
   fabricate_hook_outcome.2001.desc: "За допомогою брудних хитрощів [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'підлаштувала', 'підлаштував' )] все так, щоб отримати важіль тиску на мене!\n\nЯ можу скільки завгодно стверджувати, що все це брехня і обман: у мене немає іншого вибору, крім як змиритися і робити, що мені велять"
   fabricate_hook_outcome.2001.a: "Мені здавалося, що ви до такого не опуститеся, [owner.GetFirstNameNoTooltip]."
-
   fabricate_hook_outcome.3001.t: "$fabricate_hook_header$Втрата переваги"
   fabricate_hook_outcome.3001.desc: "[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'дізналася', 'дізнався' )], що я намагаюся отримати на н[target.GetHerHis] вплив нечесними методами!\n\nПотрібно зробити все можливе, щоб урятувати свою репутацію!"
   fabricate_hook_outcome.3001.a: "Мої спроби щось провернути на цьому закінчаться..."

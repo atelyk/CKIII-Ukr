@@ -4,18 +4,16 @@
   LifestyleFocus_stewardship: "управління"
   LifestyleFocus_intrigue: "інтрига"
   LifestyleFocus_learning: "вченість"
-
-#STATECRAFT
+  #STATECRAFT
   statecraft_ongoing.4010.nobility: "шляхта"
   statecraft_ongoing.4010.clan: "клан"
   statecraft_ongoing.4010.chieftains: "вожді"
   statecraft_ongoing.4010.clergy: "[ROOT.Char.GetFaith.AltPriestTermPlural]"
   statecraft_ongoing.4010.citizenry: "громадяни"
-
-#GOVERNANCE
+  #GOVERNANCE
   governance_ongoing.1040.blacksmithsguild: "Гільдія зброярів"
   governance_ongoing.1040.merchantsguild: "Гільдія торговців"
-  governance_ongoing.1055.outofwedlock0": поза шлюбом"
+  governance_ongoing.1055.outofwedlock: " out of wedlock"
   governance_ongoing.1055.null: ""
   governance_ongoing.1062.gardener: "садівник"
   governance_ongoing.1062.poet: "придвірний поет"

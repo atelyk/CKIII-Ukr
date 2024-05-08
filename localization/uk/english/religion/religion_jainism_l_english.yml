@@ -5,7 +5,7 @@
   jainism_religion_adherent_plural: "Джейни"
   jainism_religion_desc: "Джайни прагнуть слідувати за двадцятьма чотирма вчителями, тиртанкарами, щоб вийти з вічного циклу смерті й переродження світу, досягнувши всезнання, Кевала Джнани. Відмова від насильства та хороше життя є центром джайнізму, оскільки головна молитва стверджує, що функція душ полягає в тому, щоб допомагати одна одній"
   jainism_high_god_name: "Тірханкари"
-  jainism_high_god_name_2: "$jainism_high_god_name$ # Optional translation alt"
+  jainism_high_god_name_2: "$jainism_high_god_name$ # Optional translation alt" #Optional translation alt
   jainism_high_god_name_possessive: "Тірханкар"
   jainism_high_god_shehe: "вони"
   jainism_high_god_herselfhimself: "самі"
@@ -21,15 +21,15 @@
   jainism_evil_god_hellish_beings: "Пекельні істоти"
   jainism_evil_god_ignorance: "Незнання"
   jainism_house_of_worship: "храм"
-  jainism_house_of_worship_2: "$jainism_house_of_worship$ # Optional translation alt"
-  jainism_house_of_worship_3: "$jainism_house_of_worship$ # Optional translation alt"
+  jainism_house_of_worship_2: "$jainism_house_of_worship$ # Optional translation alt" #Optional translation alt
+  jainism_house_of_worship_3: "$jainism_house_of_worship$ # Optional translation alt" #Optional translation alt
   jainism_house_of_worship_plural: "храми"
   jainism_religious_symbol: "Ахімса"
-  jainism_religious_symbol_2: "$jainism_religious_symbol$ # Optional translation alt"
-  jainism_religious_symbol_3: "$jainism_religious_symbol$ # Optional translation alt"
+  jainism_religious_symbol_2: "$jainism_religious_symbol$ # Optional translation alt" #Optional translation alt
+  jainism_religious_symbol_3: "$jainism_religious_symbol$ # Optional translation alt" #Optional translation alt
   jainism_religious_text: "Агами"
-  jainism_religious_text_2: "$jainism_religious_text$ # Optional translation alt"
-  jainism_religious_text_3: "$jainism_religious_text$ # Optional translation alt"
+  jainism_religious_text_2: "$jainism_religious_text$ # Optional translation alt" #Optional translation alt
+  jainism_religious_text_3: "$jainism_religious_text$ # Optional translation alt" #Optional translation alt
   jainism_religious_head_title: "Ачар'я"
   jainism_religious_head_title_name: "Ачар'ят"
   jainism_devotee_male: "муні"
@@ -42,14 +42,14 @@
   jainism_bishop: "упадха'я"
   jainism_bishop_plural: "упадха'ї"
   jainism_divine_realm: "Девлока"
-  jainism_divine_realm_2: "$jainism_divine_realm$ # Optional translation alt"
-  jainism_divine_realm_3: "$jainism_divine_realm$ # Optional translation alt"
+  jainism_divine_realm_2: "$jainism_divine_realm$ # Optional translation alt" #Optional translation alt
+  jainism_divine_realm_3: "$jainism_divine_realm$ # Optional translation alt" #Optional translation alt
   jainism_positive_afterlife: "Сіддхасіла"
-  jainism_positive_afterlife_2: "$jainism_positive_afterlife$ # Optional translation alt"
-  jainism_positive_afterlife_3: "$jainism_positive_afterlife$ # Optional translation alt"
+  jainism_positive_afterlife_2: "$jainism_positive_afterlife$ # Optional translation alt" #Optional translation alt
+  jainism_positive_afterlife_3: "$jainism_positive_afterlife$ # Optional translation alt" #Optional translation alt
   jainism_negative_afterlife: "Нарака"
-  jainism_negative_afterlife_2: "$jainism_negative_afterlife$ # Optional translation alt"
-  jainism_negative_afterlife_3: "$jainism_negative_afterlife$ # Optional translation alt"
+  jainism_negative_afterlife_2: "$jainism_negative_afterlife$ # Optional translation alt" #Optional translation alt
+  jainism_negative_afterlife_3: "$jainism_negative_afterlife$ # Optional translation alt" #Optional translation alt
   jainism_death_deity: "Смерть"
   jainism_death_deity_possessive: "Смерті"
   jainism_death_deity_shehe: "воно"
@@ -59,7 +59,6 @@
   witchgod_shehe_they: "вони"
   witchgod_herhis_their: "їх"
   witchgod_herhim_them: "їм"
-
   jainism_creator_god_name: "Джива"
   jainism_creator_god_name_possessive: "Джіви"
   jainism_health_god_name: "Бгаґіратха"
@@ -82,14 +81,12 @@
   jainism_night_god_name_possessive: "Супарсванатха"
   jainism_water_god_name: "Бгаґіратха"
   jainism_water_god_name_possessive: "Бгаґіратхі"
-
   #Digambara
   digambara: "Дігамбара"
   digambara_adj: "Дігамбара"
   digambara_adherent: "Дігамбара"
   digambara_adherent_plural: "Дігамбари"
   digambara_desc: "Кевала Джнана звільняє тіло від усіх фізичних потреб. Однак душа може бути звільнена лише повністю оголеною, тому ченці Дігамбара повинні жити без одягу."
-
   #Svetambara
   svetambara: "Светамбара"
   svetambara_adj: "Светамбара"
@@ -100,7 +97,6 @@
   svetambara_devotee_male_plural: "аскети"
   svetambara_devotee_female: "аскетка"
   svetambara_devotee_female_plural: "аскетка"
-
   #Yapaniya
   yapaniya: "Япанія"
   yapaniya_adj: "Япанія"

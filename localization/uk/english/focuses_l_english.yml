@@ -1,13 +1,9 @@
 ﻿l_english:
-
-
-  # these three strings are proper
+  #these three strings are proper
   intrigue_rigueint: "Ригаїнт"
   intrigue_9_14_20_18_9_7_21_5: "9 14 20 18 9 7 21 5"
   intrigue_lqwuljxh: "Лрхулжг"
   #trust me
-
-
   #Diplomacy
   diplomacy_lifestyle_name: "Дипломатія"
   diplomacy_lifestyle_desc: "Фокус на розумінні людей та їхніх мотивів, пошук спільної мови з іншими державами, вміння добитися відданості підданих."
@@ -27,7 +23,6 @@
   diplomacy_majesty_focus_desc: "Основа королівської величі — слава, пошана до обрядів і традицій."
   diplomacy_majesty_focus_effect_desc: "Зосередившись на величі, персонаж отримує:"
   majesty_name: "Август"
-
   #Martial
   martial_lifestyle_name: "Військова справа"
   martial_lifestyle_desc: "Фокус на управлінні державою, благородних подвигах і стратегічних дослідженнях, які допомагають вигравати війни."
@@ -50,7 +45,6 @@
   martial_chivalry_focus_desc: "Перемогу приносить не кров і не золото, а честь."
   martial_chivalry_focus_effect_desc: "Зосередження на лицарстві дає:"
   chivalry_name: "Галантність"
-
   #Intrigue
   intrigue_lifestyle_name: "Інтриги"
   intrigue_lifestyle_desc: "Фокус на маніпуляціях людьми, таємницях і підступних змовах, які дозволять втілити будь-які плани."
@@ -70,7 +64,6 @@
   intrigue_intimidation_focus_effect_desc: "Зосередившись на залякуванні, персонаж отримує:"
   intrigue_intimidation_focus_desc: "Погрози, приховані та явні, відкривають шлях до справжньої влади."
   intimidation_name: "Тортури"
-
   #Stewardship
   stewardship_lifestyle_name: "Управління"
   stewardship_lifestyle_desc: "Фокус на правосудді, управлінні землями та поповненні скарбниці."
@@ -91,7 +84,6 @@
   stewardship_wealth_focus_desc: "Війна, честь, вірність... мета завжди одна: золото!"
   stewardship_wealth_focus_effect_desc: "Зосередившись на багатстві, персонаж отримує:"
   wealth_name: "Скупість"
-
   #Learning
   learning_lifestyle_name: "Наука"
   learning_lifestyle_desc: "Фокус на освоєнні всіх доступних знань. Вам рукою подати до мудрості та святості, і навіть до таємниць самого життя."
@@ -111,16 +103,15 @@
   learning_scholarship_focus_desc: "Знання про тих, хто жив раніше, про нині живих і про вічні істини."
   learning_scholarship_focus_effect_desc: "Зосередившись на вченості, персонаж отримує:"
   scholarship_name: "Вчений"
-
   education_rank_1_percentage: "10%"
   education_rank_2_percentage: "20%"
   education_rank_3_percentage: "30%"
   education_rank_4_percentage: "40%"
-
+  education_rank_5_percentage: "50%"
   ### EDUCATION
-  FOCUS_NO_AGE: "Дитина молодше $AGE$ не може мати [education_focus|El]"
-  FOCUS_MAX_CHANGES: "[education_focus|E] можна змінити лише один раз"
-  # Education Focuses
+  FOCUS_NO_AGE: "#X @warning_icon!A child of less than $AGE$ cannot have an [education_focus|E]#!"
+  FOCUS_MAX_CHANGES: "#X @warning_icon!The [education_focus|E] can only be changed once#!"
+  #Education Focuses
   education_diplomacy_modifier: "Дипломатична освіта"
   education_martial_modifier: "Військова освіта"
   education_stewardship_modifier: "Управлінська освіта"

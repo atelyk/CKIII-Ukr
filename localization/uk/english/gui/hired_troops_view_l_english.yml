@@ -1,7 +1,6 @@
 ﻿l_english:
   HIRED_TROOPS_VIEW_HEADER: "Найняти солдатів"
   HIRED_TROOPS_VIEW_GO_TO_MILITARY_VIEW_TT: "#T Повернутися до вікна війська#!"
-
   HIRED_TROOPS_VIEW_LIST_MC_BUTTON_TOOLTIP: "#T [MercenaryCompany.GetName] #!\n#I Натисніть, щоб переглянути деталі#!"
   HIRED_TROOPS_VIEW_LIST_MC_NUMBER_OF_SOLDIERS: "[soldiers|E] — [MercenaryCompany.GetCurrentSoldiers]"
   HIRED_TROOPS_VIEW_LIST_HO_HEADER: "#L [GetPlayer.GetFaith.GetAdjective]і#! [holy_orders|El]"
@@ -9,7 +8,6 @@
   HIRED_TROOPS_VIEW_LIST_HO_NUMBER_OF_SOLDIERS: "[soldiers|E] — [HolyOrder.GetCurrentSoldiers]"
   HIRED_TROOPS_VIEW_LIST_HO_NO_HOS: "Немає #L [GetPlayer.GetFaith.GetAdjective]их#! священних орденів"
   HIRED_TROOPS_VIEW_LIST_NO_WAR: "#T Найманці у резерві#!\nВ мирний час найняті [mercenaries|El] лишатимуться в резерві до початку війни. Коли прийде час, вони зберуться автоматично."
-
   HIRED_TROOPS_VIEW_MC_CULTURE: "[HiredTroop.GetMercenaryCompany.GetCulture.GetName]ий загін [Concept( 'mercenary', 'найманців' )|E]"
   HIRED_TROOPS_VIEW_HO_NUM_HOLDINGS: "Володіння: [GetDataModelSize(HiredTroop.GetHolyOrderLeasedTitles)]"
   HIRED_TROOPS_VIEW_MC_CAPITAL: "Столиця: [HiredTroop.GetMercenaryCompany.GetHomeCounty.GetNameNoTier]"
@@ -23,7 +21,6 @@
   HIRED_TROOPS_VIEW_HIRE: "Найняти"
   HIRED_TROOPS_VIEW_HIRED_BY_ME: "Ваші найманці"
   HIRED_TROOPS_VIEW_HIRED_BY_ME_LEFT: "У вашому розпорядженні, "
-  HIRED_TROOPS_VIEW_MC_EXTEND_INFO0: Продовжити до $TIME$ за $COST$"""
   HIRED_TROOPS_VIEW_MC_EXTEND_INFO: "Продовжити до $TIME$ за $COST$"
   HIRED_TROOPS_VIEW_MC_EXTEND: "Продовжити"
   HIRED_TROOPS_VIEW_NOT_AVAILABLE: "#X Недоступно#!"
@@ -35,7 +32,6 @@
   HIRED_TROOPS_VIEW_KNIGHT_LIST_TITLE: "#T [HiredTroop.GetTitle.GetHolder.Custom('KnightCulturePlural')]#!"
   HIRED_TROOPS_VIEW_KNIGHT_LIST_ENTRY: "$BULLET_WITH_TAB$[CHARACTER.GetName] (@skill_prowess_icon![CHARACTER.GetProwess])"
   HIRED_TROOPS_VIEW_PLEDGED_TO_GREAT_HOLY_WAR: "Беруть участь у Великій священній війні"
-
   HOLY_ORDER_HIRE_LIMIT_REACHED: "@warning_icon!#X Ви вже найняли інший [holy_order|El]#!"
   HIRED_TROOPS_ALREADY_HIRED: "@warning_icon!#X Вони вже найняті#!"
   HIRED_TROOPS_ALREADY_HIRED_BY_PLAYER: "@warning_icon!#X Вони вже найняті гравцем#!"
@@ -50,7 +46,6 @@
   MERCENARY_COMPANY_HIRE_NOT_AT_WAR: "@warning_icon!#X Ви повинні вести [Concept( 'war', 'війну' )|E], щоб отримати [Concept( 'mercenary', 'найманців' )|E]#!"
   MERCENARY_COMPANY_EXTEND_NOT_AT_WAR: "@warning_icon!#X Ви повинні вести [Concept( 'war', 'війну' )|E], щоб отримати [Concept( 'mercenary', 'найманців' )|E]#!"
   MERENCARY_COMPANY_ON_HOLD: "У резерві"
-
   MERCENARY_COMPANY_COST_BANKRUPTCY: "@warning_icon!#X Ви не можете найняти цей [Concept( 'mercenary_company', 'загін найманців' )|El] — ваш [debt|El] стане занадто великим#!"
   MERCENARY_COMPANY_COST_BANKRUPTCY_HIRED: "@warning_icon!#X Ви не можете продовжити договір з цим [Concept( 'mercenary_company', 'загоном найманців' )|El] — ваш [debt|El] стане занадто великим#!"
   MERCENARY_COMPANY_COST_DEBT: "@warning_icon!#X Якщо ви наймете цей [Concept( 'mercenary_company', 'загін найманців' )|E], то опинитеся в [Concept( 'debt', 'боргу' )|E]#!"

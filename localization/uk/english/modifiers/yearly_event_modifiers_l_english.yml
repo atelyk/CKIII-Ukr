@@ -22,26 +22,19 @@
   yearly_pious_liege_modifier_desc: "Релігійні васали можуть розраховувати, що цей сюзерен буде чинити відповідно до релігійного вчення"
   yearly_befriending_fellow_vassals_modifier: "Дружба з іншими васалами"
   yearly_befriending_fellow_vassals_modifier_desc: "Цей персонаж намагається вибудувати стосунки з іншими васалами свого сюзерена"
-
   yearly_reduced_theocracy_tax_modifier: "Знижений податок на теократії"
   yearly_reduced_theocracy_levies_modifier: "Молитва за мир"
-
   yearly_0011_friends_in_high_places: "Друзі у верхах"
   yearly_0011_friends_in_high_places_desc: "Цьому персонажу вдалося завести друзів у правлячих колах..."
-
   cagots_separated_modifier: "Каготи відокремлені"
   cagots_separated_modifier_desc: "Їх відселили в окремі каготерії, подалі від решти людей."
-
   cagots_left_in_peace_modifier: "Каготів лишили у спокої"
   cagots_left_in_peace_modifier_desc: "Решта населення впевнена, що вирішувати питання з каготами потрібно було рішучіше..."
-
   lunatic_accepting_of_others_modifier: "Уява, що розігралася"
   lunatic_accepting_of_others_modifier_desc: "Персонаж мріє про світ, де всі живуть у спокої."
-
   all_work_no_play_persian_modifier: "Працюй без відпочинку"
-
   poisonous_plants: "Cultivating Poisonous Plants"
-  poisonous_plants_desc: "This character is culvating a wide range of plants, some would appear poisonous..."
+  poisonous_plants_desc: "This character is cultivating a wide range of plants. Some would appear poisonous..."
   impressive_flowers: "Cultivating Impressive Flowers"
   impressive_flowers_desc: "This character is cultivating a multitude of colorful and impressive flowers."
   useful_herbs: "Cultivating Medicinal Herbs"

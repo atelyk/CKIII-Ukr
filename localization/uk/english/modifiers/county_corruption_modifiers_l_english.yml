@@ -21,10 +21,9 @@
   county_corruption_uncooperative_guilds_modifier_desc: "[county_corruption|E]\nМісцеві гільдії не прагнуть до співпраці з нами"
   county_corruption_lackluster_administration_modifier: "Неефективна адміністрація"
   county_corruption_lackluster_administration_modifier_desc: "[county_corruption|E]\nМи більше не можемо фінансувати належне управління графством!"
-
   gain_county_corruption.message.low_control: "Низький контроль"
   gain_county_corruption.message.deficit: "В боргах"
   gain_county_corruption.message.county_corruption: "Корупція"
   gain_county_corruption.message.desc: "[county_corruption|E]:\n$EFFECT$"
   remove_county_corruption.message.marshal_removal: "Посилений контроль"
-  #remove_county_corruption.message0": Delete This"
+  #remove_county_corruption.message: "" Delete This

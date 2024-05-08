@@ -5,15 +5,13 @@
   faith_creation.1001.desc.reformation: "[reformer.GetTitledFirstName], [Select_CString(reformer.IsFemale, 'яку', 'якого' )] багато хто поважає [reformed_faith.GetAdherentNamePlural], [Select_CString(reformer.IsFemale, 'організувала', 'організував' )] зустріч, на якій [reformer.Custom('DefaultPriestTitlePlural')] з усієї землі мають обговорити свої погляди та сформулювати офіційну доктрину язичницької віри."
   faith_creation.1001.desc.schism.personal: "[old_faith.GetAdjective]і [old_faith.AltPriestTermPlural] збилися зі шляху, їм більше не можна дозволяти вести нас. Тому нехай зберуться обрані [reformer.Custom('DefaultPriestTitlePlural')]: час обговорити майбутнє нашої віри."
   faith_creation.1001.desc.reformation.personal: "Мені нарешті вдалося зробити так, щоб усі важливі [reformer.Custom('DefaultPriestTitle')] світу зібралися разом, обговорили наші вірування та визначили офіційну доктрину, яка надалі буде основою нашої конфесії."
-
-#Pick one line from this set (Outlook)
+  #Pick one line from this set (Outlook):
   faith_creation.1001.desc.outlook.ghw: "\n\nПалкі [reformer.Custom('DefaultPriestTitlePlural')] вже говорять про те, що їм потрібні [reformed_faith.GHWNamePlural], щоб поширити їх нову віру по всьому світу, і"
   faith_creation.1001.desc.outlook.pacifism: "\n\nЦі [reformed_faith.GetAdjectiveNoTooltip]і [reformer.Custom('DefaultPriestTitlePlural')] засудили насильство та кровопролиття, заявляючи, що війни приводять лише до страждань та ненависті, і"
   faith_creation.1001.desc.outlook.dogmatic: "\n\nЦі [reformer.Custom('DefaultPriestTitlePlural')] оголосили, що [reformed_faith.GetNameNoTooltip] — єдина істинна віра, і"
   faith_creation.1001.desc.outlook.accepting: "\n\nЦі [reformed_faith.GetAdjectiveNoTooltip]та [reformer.Custom('DefaultPriestTitlePlural')] закликають до взаємодопомоги та терпимості навіть у відносинах з невіруючими, та"
   faith_creation.1001.desc.outlook.fallback: "\n\nЦі [reformed_faith.GetAdjectiveNoTooltip]й [reformer.Custom('DefaultPriestTitlePlural')] спокійно й прагматично ставляться до інших конфесій та"
-
-#And one line from this second set (Beliefs)
+  #And one line from this second set (Beliefs):
   faith_creation.1001.desc.belief.sacrifice: "заявляють, що єдиний спосіб вшанувати [reformed_faith.HighGodNamePossessive] — влаштувати людське жертвопринесення!"
   faith_creation.1001.desc.belief.indulgent: "закликають послідовників потурати плотським бажанням та жити повним життям."
   faith_creation.1001.desc.belief.incest: "дозволяють близьким родичам одружуватися, заявляючи, що сімейні узи священні, а такі шлюби благословенні."
@@ -24,15 +22,13 @@
   faith_creation.1001.desc.belief.nature: "виявляють неймовірну повагу до самої природи і захищають її від тих, хто хотів би використати її заради особистої вигоди."
   faith_creation.1001.desc.belief.community: "сформували закриті спільноти, які об'єднали культурні традиції різних послідовників. Туди входять [reformed_faith.GetAdherentNamePluralNoTooltip], які неохоче приймають чужинців."
   faith_creation.1001.desc.belief.fallback: "просять усіх послідовників залишити в минулому старі чвари та об'єднатися заради блага нової віри."
-
-#End with a reference to
+  #End with a reference to
   faith_creation.1001.desc.temporal: "\n\n[reformer.GetFirstNameNoTooltip] has chosen to personally lead this burgeoning [reformed_faith.GetAdjectiveNoTooltip] movement and has assumed the title of [reformed_faith.ReligiousHeadName], an exalted position that [reformer.GetSheHe] is expected to pass down to [reformer.GetHerHis] heir."
   faith_creation.1001.desc.temporal.personal: "\n\nЯ хочу особисто очолити зароджуваний [reformed_faith.GetAdjectiveNoTooltip]й рух та взяти титул «[reformed_faith.ReligiousHeadName]», найвищу посаду, яку потім успадкують мої наступники."
   faith_creation.1001.desc.spiritual: "\n\n[reformed_faith.GetAdjectiveNoTooltip]і [reformer.Custom('DefaultPriestTitlePlural')]вирішили, що [reformed_hof.GetFirstNameNoTooltip] тепер [reformed_faith.ReligiousHeadName] і може визначати релігійні доктрини та вирішувати внутрішні суперечки у всьому [reformed_faith.GetAdjectiveNoTooltip]у світі."
   faith_creation.1001.desc.spiritual.sameold: "\n\nThe [reformed_faith.GetAdjectiveNoTooltip] [reformer.Custom('DefaultPriestTitlePlural')] have chosen to keep [reformed_hof.GetFirstNameNoTooltip] as their [reformed_faith.ReligiousHeadName], [reformer.GetSheHe] will continue to determine religious doctrine and arbitrate inter-faith disputes for the entire [reformed_faith.GetAdjectiveNoTooltip] world."
   faith_creation.1001.desc.no_head: "\n\nЗародження, що зароджується, вирішило не призначати главу релігії. Натомість кожен [reformer.Custom('DefaultPriestTitle')] особисто визначатиме, за якими вченнями житиме його [reformed_faith.HouseOfWorship]."
   faith_creation.1001.desc.no_holy_sites: "\n\n[reformed_faith.GetAdherentNamePluralNoTooltip] з нетерпінням чекають, коли виповниться пророцтво і прийде [reformed_faith.ReligiousHeadName], великий лідер, який об'єднає їх і розпочне новий золотий вік [reformed_faith.GetAdjectiveNoTooltip]ї віри."
-
   faith_creation.1001.o.frightened: "[ROOT.Char.GetFaith.random_GoodGodNames], захисти! Нехай ці кровожерливі [second.Custom('GetUnbelieverNamePlural')] не чіпатимуть нас!"
   faith_creation.1001.o.heretical: "Ці єретики заплатять за свої злочини проти [ROOT.Char.GetFaith.HighGodNamePossessive]!"
   faith_creation.1001.o.crusader: "Почнеться [ROOT.Char.GetFaith.GHWName], і тоді ці [second.Custom('GetUnbelieverNamePlural')] дізнаються своє місце!"
@@ -40,7 +36,6 @@
   faith_creation.1001.o.uninterested: "Не важливо, у що вірять ці [second.Custom('GetUnbelieverNamePlural')]."
   faith_creation.1001.o.getreaction: "[ROOT.Char.Custom2('GetFaithCreationReaction', reformer)]"
   faith_creation.1001.o.personal: "Світ побачить, що [ROOT.Char.GetFaith.HighGodName] любить нас!"
-
   faith_creation.1010.t: "[HoF.GetFirstNameNoTooltip] тепер [faith.ReligiousHeadName|U]!"
   faith_creation.1010.desc.start: "Хоча ніхто не сумнівався в істинності нашої віри, у роки, коли ми обходилися без духовного лідера, нам довелося важко. Але тепер це випробування добігло кінця, і"
   faith_creation.1010.desc.temporal.personal: "[faith.AltPriestTermPlural] нарешті погодилися визнати, що я [faith.ReligiousHeadName|U]."
@@ -48,8 +43,6 @@
   faith_creation.1010.desc.spiritual: "[faith.AltPriestTermPlural], зібравшись, ухвалили, що [HoF.GetFirstName] — [faith.ReligiousHeadName|U]."
   faith_creation.1010.desc.end: "\n\nТепер, коли віряни зібралися під єдиним прапором, схоже, [faith.GetNameNoTooltip] вступає в золоте століття."
   faith_creation.1010.desc.end.personal: "\n\nТепер, коли віруючі зібралися під прапором, я наведу [faith.GetNameNoTooltip] в золотий вік!"
-
   faith_creation.1010.a: "Нехай славиться [faith.HighGodName]!"
-
   faith_creation.1011.message.title: "Засновано титул глави релігії"
   faith_creation.1011.message.desc: "Позбавлені раніше ватажка, [faith.GetAdjective]ие [faith.AltPriestTermPlural] дійшли згоди: тепер [HoF.GetFirstName] їх [faith.ReligiousHeadName]"

@@ -1,5 +1,5 @@
 ﻿l_english:
-  # LAKES
+  #LAKES
   lake_hjalmaren: "Єльмарен"
   lake_vattern: "Веттерн"
   lake_vanern: "Венерн"
@@ -7,8 +7,7 @@
   lake_onega: "Онега"
   lake_ladoga: "Ладога"
   lake_ilmen: "Озеро Ільмень"
-
-  # MAJOR RIVERS
+  #MAJOR RIVERS
   river_thames: "Темза"
   river_humber: "Гумбер"
   river_sognefjord: "Согне-фіорд"
@@ -60,8 +59,7 @@
   river_kaveri: "Кавері"
   river_irrawaddy_delta: "Дельта Іраваді"
   river_irrawaddy: "Іраваді"
-
-  # SEA ZONES
+  #SEA ZONES
   sea_malaren: "Меларен"
   sea_adriatic_sea: "Адріатичне море"
   sea_strait_otranto: "Протока Отранто"

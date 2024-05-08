@@ -1,7 +1,7 @@
 ﻿l_english:
   SW_TT_TIMER: "#T Наступна подія [Concept( 'siege', 'облоги' )|E]: #V $DAYS$#!#!\nНова подія $TOTAL$"
   SW_TT_TIMER_FROZEN: "Не буде жодної події під час [Concept( 'siege', 'облоги' )|E].\n"
-  #SW_TT_CLOSE0": видалити це"
+  #SW_TT_CLOSE: "" delete this
   SW_TT_GARRISON: "#T [garrison|E]: #V [soldiers|El], [Siege.GetDefenderMen|0]#!#! \nУ тих, що беруть в облогу, має бути більше солдатів, ніж у гарнізоні, щоб [siege|El] просувалася"
   SW_TT_RECENT_ACTION: ""
   SW_TT_ACTION: "#T Подія облоги: $NAME|V%$#!\n$EFFECT$"
@@ -43,7 +43,7 @@
   SIEGE_ACTION_DISEASE_EFFECT: "Щоденний [Concept( 'siege_progress', 'прогрес' )|E]: $VALUE|+=0%$"
   SIEGE_ACTION_DESERTION_EFFECT: "[siege_progress|E]: $VALUE|+=0$"
   SIEGE_ACTION_NO_EFFECT: "#weak Немає ефекту на [Concept( 'siege', 'облогу' )|E]#!"
-  SW_MOVING_OR_IN_COMBAT: "@warning_icon!#X Армії переміщуються або йде [battle|El]#!"
+  SW_MOVING_OR_IN_COMBAT: "@warning_icon!#X Armies moving or in a [battle|E]#!"
   SW_TOO_FEW_SOLDIERS: "@warning_icon!#X Недостатньо солдат#!"
   SW_TT_OPEN_ARMY_WINDOW: "#T Оберіть всі ваші [armies|El] облоги#!"
   SW_TT_SHOW_HOLDING: "#T Оберіть [holding|El]#!"
@@ -64,7 +64,7 @@
   SW_TT_LOOT: "#T Здобич: [gold_i][Siege.GetProvince.GetRaidLoot|0]\n#![realm|E], яке керую облогою, отримає цю здобич, якщо [siege|El] пройде успішно."
   SW_TIME_LEFT_TT: "#T Максимум часу, що залишилося\n#![SiegeWindow.GetTimeLeft]"
   SIEGE_GO_TO_HOLDING: "#T Відкрити володіння#!"
-  SIEGE_CANT_ASSAULT_NO_BREACH: "@warning_icon!#X Щоб почати штурм, необхідно пробити мур#!"
+  SIEGE_CANT_ASSAULT_NO_BREACH: "@warning_icon!#X The walls must be breached to start an assault#!"
   SIEGE_ASSAULT_TT_INFO: "Штурм додасть $PROG|1+=$ до прогресу облоги та призведе до щоденних втрат у розмірі $MEN|0-$"
   SW_ASSAULTING_TEXT_ATTACKER: "Штурм!"
   SW_ASSAULTING_TEXT_DEFENDER: "Напад!"

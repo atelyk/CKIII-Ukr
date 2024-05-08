@@ -2,7 +2,6 @@
   tutorial_lesson_button_skip: "Пропустити урок"
   tutorial_lesson_button_next: "Далі"
   tutorial_lesson_button_continue: "Продовжити"
-
   tutorial_lesson_button_complete: "Я розумію"
   tutorial_lesson_button_read_later: "Читати пізніше"
   tutorial_lesson_button_refuse: "Ніколи!"
@@ -14,7 +13,6 @@
   tutorial_lesson_button_come_again: "Будь ласка, повторіть"
   TUTORIAL_STEP_INSTRUCTIONS: "#low Щоб продовжити:#!"
   skip_to_next_topic: "Перейти до наступної теми"
-
   lesson_step_1_of_2: "1/2"
   lesson_step_2_of_2: "2/2"
   lesson_step_1_of_3: "1/3"
@@ -69,27 +67,25 @@
   lesson_step_8_of_10: "8/10"
   lesson_step_9_of_10: "9/10"
   lesson_step_10_of_10: "10/10"
-
-#Lesson names
-  lesson_basics: "I - Основи"
-  lesson_basics_map: "ІІ — Мапа"
-  lesson_basics_character: "III - Персонаж"
+  #Lesson names
+  lesson_basics: "I — Основи"
+  lesson_basics_map: "II — Мапа"
+  lesson_basics_character: "III — Персонаж"
   lesson_basics_resources: "IV — Ресурси"
   lesson_basics_lifestyles: "V — Спосіб життя"
   lesson_basics_interacting: "VI — Взаємодія"
   lesson_basics_succession: "VII — Династія"
-  lesson_basics_marriage: "VIII - Шлюб"
+  lesson_basics_marriage: "VIII — Шлюб"
   lesson_basics_titles: "IX — Титули"
-  lesson_basics_holdings: "Х — Володіння"
+  lesson_basics_holdings: "X — Володіння"
   lesson_basics_vassals: "XI — Вассали"
   lesson_basics_domain: "XII — Домен"
   lesson_basics_council: "XIII — Рада"
   lesson_basics_schemes: "XIV — Схеми"
-  lesson_basics_culture: "Культура #reactive advice now"
-  lesson_basics_religion: "Релігія #reactive advice now"
+  lesson_basics_culture: "Культура" #reactive advice now
+  lesson_basics_religion: "Релігія" #reactive advice now
   lesson_basics_war: "XV — Війна"
   lesson_basics_unpause: "XVI — Зняти з паузи"
-
   lesson_declare_war: "Оголосити війну"
   lesson_raise_troops: "Зібрати армії"
   lesson_army_movement: "Рух армії"
@@ -99,30 +95,26 @@
   lesson_warscore: "Бойовий рахунок"
   lesson_winning_wars: "Перемога у війнах"
   lesson_losing_wars: "Поразка у війнах"
-
-
-  # Basics
-  lesson_basics_welcome: "Ласкаво просимо в гру Crusader Kings"
+  #Basics
+  lesson_basics_welcome: "Ласкаво просимо в гру Crusader Kings III"
   lesson_welcome_desc: "Ви - середньовічний правитель! Землі навколо самі просяться до ваших рук, і тільки вам вирішувати яким способом вони дістануться вам: шляхом війни чи дипломатії, або ж за допомогою вигідного шлюбу...\n\n#TUT Crusader Kings - це не один зі спосібів «перемогти», це різні сюжетні ходи для стврення вашої власної унікальної та захопливої історії.#!"
-
   #Camera & Map
   lesson_basics_camera: "Камера ($lesson_basics$)"
   lesson_basics_camera_desc: "Щоб переміщати камеру по карті використовуйте клавіші W,A,S, D, або підведіть курсору до краю екрану. Натисніть клавішу Home для миттєвого переміщення до [Concept( 'realm_capital', 'столиці вашої держави' )|E].\n\nДля наближення і віддалення карти використовуйте колесо прокрутки миші. \n\n#TUT В залежності від рівня наближення буде показуватися різна інформація: [Concept( 'detail_zoom', 'детальна карта' )|E], [Concept( 'political_zoom', 'політична карта' )|E] і [Concept( 'paper_zoom', 'паперова карта' )|E].\n\nЗбільште масштаб, щоб керувати [Concept( 'holdings', 'землями' )|E]. При віддаленні карти відкриється режим огляду всіх [Concept( 'realms', 'держав' )|E].#!"
   lesson_basics_paused_intro: "Пауза ($lesson_basics$)"
-  lesson_basics_paused_intro_desc: "Crusader Kings охоплює сотні років і безліч поколінь. Прямо зараз плин час зупинений, так як гра #EMP поставлена на паузу#!.\n\n#TUT В цій частині навчання ми залишимо гру на паузі і пояснимо деякі ігрові терміни.#!"
+  lesson_basics_paused_intro_desc: "Crusader Kings III охоплює сотні років і безліч поколінь. Прямо зараз плин час зупинений, так як гра #EMP поставлена на паузу#!.\n\n#TUT В цій частині навчання ми залишимо гру на паузі і пояснимо деякі ігрові терміни.#!"
   lesson_basics_tooltips_in_tooltips: "Підказки другого рівня ($lesson_basics$)"
   lesson_basics_tooltips_in_tooltips_desc: "Інколи на екрані з'являється ось такий синій [highlighted_text|el]. Наведіть курсор миші на ці слова, щоб дізнатися більше.\n\n#TUT Деякі такі посилання приводять до інших виділених слів, які дають ще більше відомостей. «[duchy|e]» веде до «[Concept( 'county', 'графства' )|El]», а звідти пряма дорога до «[Concept( 'barony', 'баронства' )|El]».#!\n"
   lesson_basics_tooltips_in_tooltips_hover_word: "Наведіть курсор на [highlighted_text|El]"
   lesson_basics_tooltips_in_tooltips_hover_word_deeper: "Наведіть курсор на виділену фразу в спливаючій підказці $game_concept_highlighted_text$"
   lesson_basics_tooltips_in_tooltips_complete: "$lesson_basics_tooltips_in_tooltips$"
   lesson_basics_tooltips_in_tooltips_complete_desc: "$lesson_basics_tooltips_in_tooltips_desc$"
-
-  #  @test_flower! [pic|E]"
+  #@test_flower! [pic|E]"
   lesson_basics_web_of_titles: "Правителі  ($lesson_basics_map$)"
-  lesson_basics_web_of_titles_desc: "А тепер поговоримо про #EMP гру#!! Перед вами карта, де відбуваються всі події: світ розбитий на великі і малі землі, кожна з яких комусь належить відповідно до [Concept( 'titles', 'титулом' )|E].\n\n#TUT Ваші $game_concept_titles$ представлені у вигляді геральдичних щитів.\n\nЗначок [realms|e] залежить від [Concept( 'primary_title', 'першого титула' )|E] її правителя — це ваш найбільш важливий і престижний $game_concept_title$.#!"
+  lesson_basics_web_of_titles_desc: "А тепер поговоримо про #EMP гру#!! Перед вами карта, де відбуваються всі події: світ розбитий на великі і малі землі, кожна з яких комусь належить відповідно до [Concept( 'titles', 'титула' )|E].\n\n#TUT Ваші $game_concept_titles$ представлені у вигляді геральдичних щитів.\n\nЗначок [realms|e] залежить від [Concept( 'primary_title', 'першого титула' )|E] її правителя — це ваш найбільш важливий і престижний $game_concept_title$.#!"
   #\n\n@coa_icon!"
   lesson_basics_realm: "Кордони ($lesson_basics_map$)"
-  lesson_basics_realm_desc: "Натисніть на портрет вашого персонажа (він зараз виділений), щоб побачити межі [Concept( ''realm_capital'', ''столиці вашої держави'' )|El] ($cn_luimneach$). Крім того, ви побачите кордони всієї вашої [realms|El]. Ваш [primary_title|El] називається Манстер, і те ж ім'я носить ваша $game_concept_realm$.\n\nВи також володієте титулом ерла Томонда.\n\n#TUT Якщо віддалити карту, на цьому регіоні з'явиться напис «Манстер», оскільки ви найсильніший правитель всієї цієї області.#!"
+  lesson_basics_realm_desc: "Натисніть на портрет вашого персонажа (він зараз виділений), щоб побачити межі [Concept( 'realm_capital', 'столиці вашої держави' )|El] ($cn_luimneach$). Крім того, ви побачите кордони всієї вашої [realms|El]. Ваш [primary_title|El] називається Манстер, і те ж ім'я носить ваша $game_concept_realm$.\n\nВи також володієте титулом ерла Томонда.\n\n#TUT Якщо віддалити карту, на цьому регіоні з'явиться напис «Манстер», оскільки ви найсильніший правитель всієї цієї області.#!"
   lesson_basics_map_modes: "Правління ($lesson_basics_map$)"
   lesson_basics_map_modes_desc: "Ви як [ruler|El] можете володіти обмеженою кількістю земель: якщо їх стане більше, вам буде потрібна допомога ваших [Concept( 'vassals', 'васалів' )|El] — інших землевласників (тобто власників [Concept( 'titles', 'титулів' )|El]), які мешкають у вашій [Concept( 'realm', 'державі' )|El].\n\n#TUT Щоб знайти власні володіння, тобто ваш [domain|El], натисніть клавішу Home і наблизьте карту. Синіми ярликами будуть відмічені що належать вам [baronies|El] (зараз це лише $cn_luimneach$).\n\nЕрлством $c_ormond$ володіє ваш васал."
   ### What makes a ruler
@@ -134,20 +126,17 @@
   lesson_basics_traits_1: "Риси ($lesson_basics_character$)"
   lesson_basics_traits_1_desc: "Всі персонажі мають [Concept( 'traits', 'риси' )|El], які можуть впливати на [skills|El] і реакцію персонажа на події. Риси представлені у вікні персонажа у вигляді значків.\n\nДеякі риси розкривають характер персонажа, наприклад «[GetTrait('fickle').GetName( GetNullCharacter )]», «[GetTrait('calm').GetName( GetNullCharacter )]» або «[GetTrait('generous').GetName( GetNullCharacter )]». Інші риси відображають життєвий досвід персонажа, наприклад [tutorial_education_trait|El] або [commander_traits|El].\n\n#TUT Риси вашого персонажа:\n$EFFECT_LIST_BULLET$ @temperate_icon! [GetTrait('temperate').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ @wrathful_icon! [GetTrait('wrathful').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ @impatient_icon! [GetTrait('impatient').GetName( GetNullCharacter )]\nЯк бачите, ваш персонаж доволі помірний. Крім того, він чекає помірності від інших, і швидко шаленіє, якщо очікування не виправдовуються.\n\nЯкщо персонаж діє всупереч рисам особистості, це викликає [stress|El].#!"
   lesson_basics_traits_2: "Риси ($lesson_basics_character$)"
-  lesson_basics_traits_2_desc: "Інколи [traits|El] визначають, як інші [characters|el] реагують на #EMP вас#!.\n\nКогось вражає риса «@brave_icon![Gettrait('brave').GetName( GetNullCharacter )]», а персонаж, якого відрізняє «@lustful_icon![Gettrait('lustful').GetName( GetNullCharacter )]», швидше за все, стане героєм пікантних пліток...\n\n#TUT Риси впливають на мораль і пожадливість інших персонажів — і, відповідно, на їхню дружелюбність або ворожість.#!"
+  lesson_basics_traits_2_desc: "Інколи [traits|El] визначають, як інші [characters|el] реагують на #EMP вас#!.\n\nКогось вражає риса «@brave_icon![GetTrait('brave').GetName( GetNullCharacter )|l]», а персонаж, якого відрізняє «@lustful_icon![GetTrait('lustful').GetName( GetNullCharacter )|l]», швидше за все, стане героєм пікантних пліток...\n\n#TUT Риси впливають на мораль і пожадливість інших персонажів — і, відповідно, на їхню дружелюбність або ворожість.#!"
   lesson_basics_opinion: "Думка ($lesson_basics_character$)"
-  lesson_basics_opinion_desc: "Всі (так, #EMP всі#!) [characters|El] мають думку один про одного, і це впливає на їхню поведінку.\n\nЯкщо думка про вас дуже  #N низька#!, люди можуть повстати проти вас або відмовити вам в допомозі. Якщо ж ви доб'єтеся #P високої#! думки оточення, то дехто погодиться вплутатися заради вас в [murder_scheme|El] і легше піддаватимуться [Concept( 'seduction', ''звабленню'' )|El]...\n\n#TUT Ваша манера спілкування часто впливає на думку оточення.#!"
-
+  lesson_basics_opinion_desc: "Всі (так, #EMP всі#!) [characters|El] мають думку один про одного, і це впливає на їхню поведінку.\n\nЯкщо думка про вас дуже  #N низька#!, люди можуть повстати проти вас або відмовити вам в допомозі. Якщо ж ви доб'єтеся #P високої#! думки оточення, то дехто погодиться вплутатися заради вас в [murder_scheme|El] і легше піддаватимуться [Concept( 'seduction', 'звабленню' )|El]...\n\n#TUT Ваша манера спілкування часто впливає на думку оточення.#!"
   ### Resources
   lesson_basics_resources_1: "[gold_i|E] Золото ($lesson_basics_resources$)"
   lesson_basics_resources_1_desc: "Для досягнення цілей необхідне [gold|El]. Окрім іншого, воно йде на оплату [Concept( 'buildings', 'будівництва' )|El], збір [Concept( 'armies', 'армій' )|El] і підкупи. Ваші [holdings|El] і [vassals|El] автоматично дають вам $game_concept_gold$ у вигляді [Concept( 'tax', 'податків' )|El]. Знатні васали і цінні володіння приносять більше податків.\n\nАле гроші — це не все. Інколи для успіху необхідний визначений [prestige|El] або (коли справа стосується релігії) [Concept( 'piety', 'благочестя' )|El].\n\n#TUT Поточні показники золота, престижу і благочестя зображені на панелі у верхньому правому кутку.#!\n"
   lesson_basics_resources_2: "[prestige_i|E] Престиж ($lesson_basics_resources$)"
-  lesson_basics_resources_2_desc: "[prestige|E] показує, наскільки вас поважають в суспільстві. Престиж автоматично зростає з часом (наприклад, при накопиченні [Concept( 'titles', ''титулів'' )|El]). Крім того, персонаж може підвищити престиж активно, наприклад уклавши [marrying|El] з представником престижної династії або вдалий [Concept( 'ally', 'союз' )|El] в час [wars|El]).\n\nЗ накопиченням балів престижу зростає ваш [prestige_level|El]. Чим він вищий, тим краще ставляться до вас інші [characters|El] і тим сильніший ваш військовий потенціал.\n\n#TUT Для деяких дій (наприклад, щоб оголосити війну) престиж необхідно #EMP витрачати#!. Коли ви використовуєте власне ім'я для досягнення своїх цілей, ніхто вас за це не засуджує!\n\nЯкщо ви витрачаєте бали престижу, це не знижує загальний рівень вашого престижу."
+  lesson_basics_resources_2_desc: "[prestige|E] показує, наскільки вас поважають в суспільстві. Престиж автоматично зростає з часом (наприклад, при накопиченні [Concept( 'titles', 'титулів' )|El]). Крім того, персонаж може підвищити престиж активно, наприклад уклавши [marrying|El] з представником престижної династії або вдалий [Concept( 'ally', 'союз' )|El] в час [wars|El]).\n\nЗ накопиченням балів престижу зростає ваш [prestige_level|El]. Чим він вищий, тим краще ставляться до вас інші [characters|El] і тим сильніший ваш військовий потенціал.\n\n#TUT Для деяких дій (наприклад, щоб оголосити війну) престиж необхідно #EMP витрачати#!. Коли ви використовуєте власне ім'я для досягнення своїх цілей, ніхто вас за це не засуджує!\n\nЯкщо ви витрачаєте бали престижу, це не знижує загальний рівень вашого престижу."
   lesson_basics_resources_3: "[piety_i|E] Благочестя ($lesson_basics_resources$)"
-  lesson_basics_resources_3_desc: "Значне [Concept( 'piety', 'благочестя' )|El] спрощує спілкування з вищим духівництвом. Ви $catholic_adherent$, [Concept( 'head_of_faith', 'глава вашої конфесії' )|El] — Папа.\n\nБлагочестя підвищується пасивно (наприклад, завдяки [Concept( 'skill', 'навичці' )|El] [Concept( 'learning', '«Вченість»' )|El] і [Concept( 'virtuous', ''доброчесним'' )|El] [Concept( ''traits'', ''рисам'' )|El]), і активно — за релігійні діяння (например [pilgrimage|El]).\n\nТакож у вас є [piety_level|El], який зростає у міру накопичення благочестя і позитивно впливає на персонажа.\n\n#TUT Подібно до престижу $game_concept_piety$ можна #EMP витрачати#!, наприклад, на оголошення священних воєн або створення нової конфесії.\n\nЦе — звичайне вживання благочестя, і думка інших персонажів про вас при цьому не знижується.#!"
-
-  #TODO_CD; highlight martial lifestyle, but discuss with UX first as the lifestyle boxes are instanced, and an individual one can't be easily highlighted.
-  # Lifestyles
+  lesson_basics_resources_3_desc: "Значне [Concept( 'piety', 'благочестя' )|El] спрощує спілкування з вищим духівництвом. Ви $catholic_adherent$, [Concept( 'head_of_faith', 'глава вашої конфесії' )|El] — Папа.\n\nБлагочестя підвищується пасивно (наприклад, завдяки [Concept( 'skill', 'навичці' )|El] [Concept( 'learning', '«Вченість»' )|El] і [Concept( 'virtuous', 'доброчесним' )|El] [Concept( 'traits', 'рисам' )|El]), і активно — за релігійні діяння (например [pilgrimage|El]).\n\nТакож у вас є [piety_level|El], який зростає у міру накопичення благочестя і позитивно впливає на персонажа.\n\n#TUT Подібно до престижу $game_concept_piety$ можна #EMP витрачати#!, наприклад, на оголошення священних воєн або створення нової конфесії.\n\nЦе — звичайне вживання благочестя, і думка інших персонажів про вас при цьому не знижується.#!"
+  #Lifestyles
   lesson_basics_lifestyles_1: "Спосіб життя ($lesson_basics_lifestyles$)"
   lesson_basics_lifestyles_1_desc: "[character|E] вибирає не лише [traits|El], але і [lifestyle|El]. Існує всього п'ять способів життя — за видами навичок.\n\n$game_concept_lifestyles$ представляють ваші основні інтереси, а [focuses|El] дозволяють зосередитися на чомусь визначеному.\n\nКаждый $game_concept_focus$ дає унікальний бонус і підвищує вірогідність виникнення пов'язаних з ним ситуацій."
   lesson_basics_lifestyle_open_window_tt: "Настиніть накнопку «Спосіб життя» (виділено)"
@@ -158,8 +147,7 @@
   lesson_basics_lifestyle_choose_focus_tt: "Вибрати фокус"
   lesson_basics_lifestyles_2_b: "$lesson_basics_lifestyles_2$"
   lesson_basics_lifestyles_2_b_desc: "Як ви, напевно, здогадалися, після вибору [Concept( 'focus', 'фокусу' )|El] ваш [character|El] почне поступово отримувати [lifestyle_experience|El]. $lesson_basics_lifestyles_2_reuse$#!"
-
-# Interacting
+  #Interacting
   lesson_basics_interacting_1: "Інші персонажі ($lesson_basics_interacting$)"
   lesson_basics_interacting_1_desc: "Отже, [focus|El] вибраний. Пора поговорити про інших людей! Скоро ви побачите, що ключова особливість цієї гри — спілкування з іншими [Concept( 'character', 'персонажами' )|El]: ви можете взаємодіяти з тими, що оточують самими різними способами.\n\n#TUT Натисніть на портрет будь-якого персонажа (можна на власного) правою кнопкою миші, щоб відкрити список можливих взаємодій. Серед іншого, ви можете укласти шлюб або почати [Concept( 'scheme', 'підступи' )|El]. Таким же чином починаються [wars|El], але про це пізніше.#!"
   lesson_basics_open_character_view_tt: "Відкрийте вікно вашого персонажа"
@@ -169,15 +157,13 @@
   lesson_basics_send_gift_tt: "Спробуйте виконати дію #TUT_KW «Надіслати подарунок»#! на своєму [Concept( 'heir', 'спадкоємцеві' )|E] (виберіть його і підтвердіть!)"
   lesson_basics_interacting_3: "Подарунок надіслано ($lesson_basics_interacting$)"
   lesson_basics_interacting_3_desc: "Чуово! Ви успішно #P підвищили#! чиюсь [opinion|El] про вас.\n\nДеякі модифікатори думки, наприклад родинні узи, не мають терміну дії. Інші з часом пропадають. Так, спогади про грошовий подарунок незабаром згаснуть...\n\n#TUT Наведіть курсор мишки на показник думки іншого персонажа, і побачите, з чого він складається. Вся справа в шлюбному союзі? Або в кругленькій сумі золотом? А може, персонажеві просто імпонує ваша щирість?#!"
-
-# Generational Gameplay
+  #Generational Gameplay
   lesson_basics_many_lives_1: "Гра за сім'ю ($lesson_basics_succession$)"
   lesson_basics_many_lives_1_desc: "А тепер поговорімо про вашу династію. З часом ваш [character|El] постаріє і неминуче помре — якщо, звичайно, якийсь «нещасний випадок» або жахлива хвороба не прискорять події.\n\n#TUT Але історія на цьому не закінчиться — #N кінець гри#! настане лише в тому випадку, якщо ви не залишите спадкоємця династії!#!"
   lesson_basics_many_lives_2: "Спадкоємець ($lesson_basics_succession$)"
   lesson_basics_many_lives_2_no_GUI_highlight: "$lesson_basics_many_lives_2$"
   lesson_basics_many_lives_2_desc: "[dynasty|E] жива, поки у неї є [heirs|El]. Після смерті одного персонажа ви просто продовжуєте гру за іншого, який називається «[player_heir|El]».\n\nВ залежності від того, яке [succession|El] застосовується у вашій [Concept( 'realm', 'державі' )|El], це, швидше за все, буде хтось з ваших дітей. Ймовірно, той, кого ви готували до ролі [Concept( 'ruler', 'правителя' )|El].\n\n#TUT У вашої [dynasties|El] є власний герб (зараз він виділений). Натисніть на нього, щоб отримати детальнішу інформацію.\n\nЗараз це не обов'язково, але якщо одного дня вам захочеться більше дізнатися про власну династію — ви знаєте, де шукати.\n\n#!"
-
-# Succession Laws
+  #Succession Laws
   lesson_basics_succession_laws: "Succession Laws ($lesson_basics_succession$)"
   lesson_basics_succession_laws_desc: "[succession_laws|E] визначають, як після смерті [Concept( 'character', 'персонажа' )|El] діляться між [Concept( 'heirs', 'спадкоємцями' )|El] [titles|El] і ресурси. Зараз у вас лише один спадкоємець, але хай це вас не бентежить!\n\n#TUT Може так статися, що, прийнявши роль нового персонажа, ви зрозумієте, що передчасна смерть колишнього правителя була зовсім не випадковою…#!"
   lesson_basics_succession_tab_tt: "Ознайомтеся з вкладкою «Успадкування»"
@@ -187,8 +173,7 @@
   lesson_basics_renown_no_GUI_highlight: "$lesson_basics_renown$"
   lesson_basics_renown_no_GUI_highlight_2: "$lesson_basics_renown$"
   lesson_basics_renown_desc: "Коли хтоcь із членів [dynasties|El] отримує $game_concept_dynasty_prestige$, зростає загальний [Concept( 'dynasty_prestige', 'престиж династії' )|E]. Цей показник відображає погану або добру славу всієї вашої династії, а не окремих її представників.\n\nПри його значному зростанні підвищується [dynasty_prestige_level|El], який зачіпає багато поколінь ваших нащадків. Ви — [dynast|El] (наймогутніший представник династії) і можете використовувати славу для здобуття [Concept( 'dynasty_perks', 'перків династії' )|E], що впливають на всіх її членів.\n\n#TUT На відміну від престижу, слава зберігається після смерті персонажа.\n\nЩоб проглянути спадщину династії, натисніть на герб вашої (або чиєїсь) династії.#!"
-
-# Marriage
+  #Marriage
   lesson_basics_marriage_concept_1: "Шлюб ($lesson_basics_marriage$)"
   lesson_basics_marriage_concept_1_desc: "Ваша [dynasty|E] не існує без сім'ї. Добре, якщо вам вдасться укласти [Concept( 'married', 'шлюб' )|E], але врахуйте: кохання не гарантується. @arrange_marriage_icon!"
   lesson_basics_marriage_concept_2: "Пошуки пари ($lesson_basics_marriage$)"
@@ -202,9 +187,9 @@
   lesson_basics_marriage_view_tt: "Виберіть #TUT_KW Знайти пару#!"
   lesson_basics_find_spouse_concept: "Вибір пари ($lesson_basics_marriage$)"
   lesson_basics_find_spouse_concept_desc: "Choosing #TUT_KW Find Spouse#! opens a list of potential [spouses|E] — they hail from [courts|E] all over the world!\n\nChoosing #TUT_KW Arrange Marriage#! also opens a list of potential [spouses|E], but only with people from the [court|E] of the Character you clicked.\n\n#TUT Your own Character is visible on the left, because this Marriage needs #EMP your#! approval. Whoever is the [liege|E] of the other spouse will appear on the right side, as the union will need their approval as well.\n\n#TUT_KW Arrange Marriage#! can be useful for match-making between your [courtiers|E] or for setting up a specific marriage [alliance|E]. For now, #TUT_KW Find Spouse#! is more relevant for our purposes.#!"
-  lesson_basics_arrange_marriage_concept: "Влаштувати шлюб（$lesson_basics_marriage$）"
+  lesson_basics_arrange_marriage_concept: "Влаштувати шлюб（$lesson_basics_marriage$)"
   lesson_basics_arrange_marriage_concept_desc: "\n\n#TUT Це згодиться для створення пар серед [Concept( 'courtiers', 'придворних' )|E] або влаштування особливого шлюбного [Concept( 'alliance', 'союзу' )|E].#!"
-  lesson_basics_choosing_a_spouse: "Фільтри персонажів $lesson_basics_marriage$ []"
+  lesson_basics_choosing_a_spouse: "Фільтри персонажів ($lesson_basics_marriage$)"
   lesson_basics_choosing_a_spouse_no_GUI_highlight: "$lesson_basics_choosing_a_spouse$"
   lesson_basics_choosing_a_spouse_desc: "При виборі [Concept( 'spouse', 'подружжя' )|El] слід враховувати безліч чинників. Щоб спростити процес, ви можете відфільтрувати список потенційного подружжя, враховуючи [alliances|El], [skills|El], особисті [traits|El], очікувану [fertility|El] і так далі.\n\nДеякі риси [congenital|El], отже можуть передаватися у спадок, і можуть перейти дітям персонажа.\n\n#TUT Щоб змінити вибір, натисніть на кнопку #TUT_KW Прибрати персонажів#!, розташованій між персонажами, яких ви маєте намір одружити. Нічого не станеться, поки ви не натиснете #TUT_KW Відправити пропозицію#!. #!"
   send_marriage_proposal_button_name: "Відправити пропозицію"
@@ -216,12 +201,10 @@
   lesson_basics_already_married_desc: "Готуючись до [Concept( 'marriage', 'шлюбу' )|E] [Concept( 'characters', 'персонажів' )|E], заздалегідь ознайомтеся з подробицями майбутнього союзу і розгляньте додаткові умови — наприклад, чи буде шлюб [Concept( 'matrilineal', 'матрилінійним' )|E].\n\n#TUT Ваш персонаж вже в шлюбі — відмінно!#!"
   lesson_basics_marriage_final_notes: "Вітаємо! ($lesson_basics_marriage$)"
   lesson_basics_marriage_final_notes_desc: "Чудово! Бажаємо довгих і щасливих років разом!\n\nУ цьому уроці радимо вам #TUT_KW знайти дружину#! й для вашого сина.\n\n#TUT Щойно ваш син одружується, він почне плодити членів вашої сім'ї (вони стануть [Concept( 'heirs', 'спадкоємцями' )|El] держави з вашої [dynasties|El].#!"
-
-# Dynasty & House
+  #Dynasty & House
   lesson_basics_dynasty_and_house: "Династія і дім ($lesson_basics_titles$)"
   lesson_basics_dynasty_and_house_desc: "Сім'я важлива! [player_heir|E] завжди походить з вашої [dynasties|El], а найчастіше — і з вашого дому.\n\n#TUT В майбутньому варто уважніше придивлятися до рідних і стежити, яка в #EMP них#! [Concept( 'line_of_succession', 'лінія успадкування' )|El]. Якщо дозволяють [succession_laws|El], можна успадковувати [titles|El] (а також землі та [Concept( 'vassals', 'васалів' )|El]) своїх родичів.#!"
-
-# Titles &  Holdings
+  #Titles &  Holdings
   lesson_basics_landed_titles: "Земля і титули ($lesson_basics_titles$)"
   lesson_basics_landed_titles_desc: "Не всі представники вашої [dynasties|El] стануть землевласниками, але в кожного клаптика землі на карті #EMP є#! власник.\n\nІнколи це ви, інколи — хтось з ваших [Concept( 'vassals', 'васалів' )|El], а інколи взагалі інша держава (які також мають васалів або є ними)."
   lesson_basics_de_jure_titles: "Титули ($lesson_basics_titles$)"
@@ -242,40 +225,34 @@
   lesson_basics_buildings_complete_desc: "Відмінно! Звичайно, [Concept( 'building', 'споруди' )|E] не будуть готові миттєво — $cn_luimneach$ не відразу будувався…\n\n#TUT Коли будівництво завершиться, ви отримаєте всі переваги, які дає вибрана споруда.#!"
   lesson_basics_taxes: "Податки ($lesson_basics_holdings$)"
   lesson_basics_taxes_desc: "Всі [holdings|El] приносять [Concept( 'holder', 'власнику' )|El] [taxes|El]. Якщо власник — [vassal|El], він також платить податки своєму [Concept( 'liege', 'сюзерену' )|El].\n\nПодатки приносять [gold_i] [Concept( 'gold', 'золото' )|E] і є вашим основним джерелом [Concept( 'income', 'доходу' )|El]!\n\n#TUT [obligations|E] впливають на розмір податків. [Concept( 'wars', 'Військовий час' )|E] може змінити ваш [control|El] над [Concept( 'county', 'графством' )|El], який, у свою чергу, впливає на податкові надходження.#!"
-
-#Vassals
+  #Vassals
   lesson_basics_vassals_concept: "Васали ($lesson_basics_vassals$)"
   lesson_basics_realm_view_tt: "Відкрийте вікно «Держава» у правій частині екрану (виділено)"
   lesson_basics_vassals_tab_tt: "Перегляньте вкладку «Васали»"
   lesson_basics_vassals_concept_desc: "Ви — [ruler|El] і, швидше за все, станете [Concept( 'liege', 'сюзереном' )|El] як мінімум одного [Concept( 'vassals', 'васала' )|El]. Так називаються правителі вашій [realms|El], що заприсягнулися вам на вірність.\n\n#TUT Васали приносять вам гроші ([taxes|El]) і солдат ([levies|El]).\n\nПерсонаж може бути одночасне сюзереном і васалом.#!"
   lesson_basics_vassals_concept_complete_2: "$lesson_basics_vassals_concept$"
-
   lesson_basics_vassals_concept_great_job: "$lesson_basics_vassals_concept$"
   lesson_basics_vassals_concept_great_job_desc: "У цьому списку — ваші поточні [vassals|El], а також додаткова інформація про них.\n\nНа чолі списку — $game_concept_ruler$ Ормонду, чия територія показана на карті — це ерлство ([title|El] [Concept( 'title_tier', 'рівня' )|El] «[county|El]») в межах вашої [realms|El]).\n\n#TUT Тут наводяться детальніші дані: наприклад поточне [opinion|El] васала про вас, [Concept( 'powerful_vassal', 'могутній' )|El] це васал чи ні, а також [taxes|El] і [levies|El], які він вам збирає.#!"
   lesson_basics_vassals_concept_greyed_out: "$lesson_basics_vassals_concept$"
   lesson_basics_vassals_concept_greyed_out_desc: "Тут ви можете міняти [feudal_contracts|El], які визначають, які [taxes|El] і [levies|El] надає вам феодальний [vassal|El]."
-
   lesson_basics_happy_vassals: "$lesson_basics_vassals_concept$"
   lesson_basics_happy_vassals_desc: "Є сенс піклуватися про благополуччя васалів. Коли [vassals|El] щасливі, вони не влаштовують [schemes|El] і не організовують против вас [factions|El].\n\nНавіть якщо ваш [character|El] — неймовірно могутній [ruler|El], не допускайте, щоб вся [realm|El] повстала проти вас. Ненависного правителя чекають [Concept( 'depose', 'повалення' )|El], [war|El] або [Concept( 'murder', 'смерть' )|El] уві сні — у будь-якому випадку довго його правління не триватиме.\n\n#TUT Деякі васали можуть засідати у вашій [Concept( 'council', 'раді' )|El] та виконувати [councillor_tasks|El], тому [opinion|El] і довіра таких васалів особливо важливі.#!"
   lesson_basics_vassal_limit: "Ліміт вссалів ($lesson_basics_vassals$)"
   lesson_basics_vassal_limit_desc: "Кількість [Concept( 'vassals', 'васалів' )|El], яких ви можете зібрати під своїм крилом, перш ніж [realm|El] стане некерованою, обмежене. Перевищення [Concept( 'vassal_limit', 'максимальної кількості васалів' )|El] впливає на [taxes|El] і [levies|El].\n\nПід час вчення такого не станеться, але коли ви почнете будувати власне королівство, не допускайте дуже різкого зростання.\n\n#TUT Якщо максимум все ж перевищений, ви можете роздати васалам титули низького рангу. Інколи ви можете навіть [create|El] #EMP нові#! титули вищого рівня для зміцнення влади в регіоні та об'єднання підлеглих титулів.#!"
-
-# Domain
+  #Domain
   lesson_basics_domain_1: "Держава і домен ($lesson_basics_domain$)"
   lesson_basics_domain_1_desc: "Ваша #EMP [realm|El]#! об'єднує ваші землі і [titles|El] — як ваші, так і ваших [Concept( 'vassals', 'васалів' )|El]. Зараз ваші землі — це [Concept( 'counties', 'графства' )|El] (в Ірландії — ерлства) $c_thomond$ і $c_ormond$.\n\nКоли йдеться про #EMP [Concept( 'domain', 'домен' )|El]#!, маються на увазі особисто ваші землі, тобто Томонд.\n\n#TUT Деякі події стосуються лише вашого домену (Томонд), інші ж впливають на всю державу, тобто [duchy|El] (або «мале королівство») Манстер.#!"
   lesson_basics_domain_1_b: "Держава і домен ($lesson_basics_domain$)"
   lesson_basics_domain_1_b_desc: "Приклад: на [county|El] Ессекс напали #EMP каннібали#!, і кількість доступних солдатів там різко скоротилася. [holder|E] Ессексу дізнається про ці події, оскільки все відбувається в його [Concept( 'domain', 'домені' )|El]. [liege|E] залишиться в невіданні. \n\n#TUT Ессекс є частиною [realms|El] #EMP сюзерена#! графа Ессексу, і сюзерен дізнається про те, що відбувається, лише в тому випадку, якщо натисне на графство на карті і побачить відповідний модифікатор. Або якщо помітить, що васал присилає менше ополченців."
   lesson_basics_domain_2: "$lesson_basics_domain_1$"
   lesson_basics_domain_2_desc: "Не забувайте про обмеження на особисті володіння: досягнувши [Concept( 'domain_limit', 'ліміту домена' )|El], ви почнете отримувати штрафи.\n\n#TUT Коли ліміт домену перевищено, варто #TUT_KW подарувати титули#! дружнім [Concept( 'characters', 'персонажам' )|El], зробивши їх своїми [Concept( 'vassals', 'васалами' )|El].\n\nПоки що вам нічого роздавати, але в майбутньому ця функція буде доступною в меню «$game_concept_character$» при настиканні правою кнопкою мишки на портрет персонажа.#!"
-
-# Council
+  #Council
   lesson_basics_council_concept: "Рада ($lesson_basics_council$)"
   lesson_basics_council_concept_desc: "Керування [Concept( 'realm', 'державою' )|El] — справа нелегка. [ruler|E] повинен покладатися на [Concept( 'council', 'раду' )|El]. В неї можуть увійти або [vassals|El], або члени вашого [Concept( 'court', 'двору' )|El], які стануть вашими довіреними радниками.\n\n#TUT Кожен з них втілює визначений [skill|El]. Одружені [rulers|E] можуть залучати на допомогу [Concept( 'spouse', 'подружжя' )|El].#!"
   lesson_basics_council_view_tt: "Відкрийте вікно «Рада» (виділено)"
   lesson_basics_council_tasks: "Завдання ради ($lesson_basics_council$)"
   lesson_basics_council_tasks_desc: "[councillors|E] можуть отримувати завдання, причому їхні повноваження доволі широкі!\n\nЩоб змінити завдання радника, натисніть кнопку поряд з його портретом у вікні ради.\n\n#TUT Пост радника доволі престижний, тому [powerful_vassals|El] чекають, що ви запропонуєте їм цю посаду. Обмануті сподівання їх дуже засмутять.#!"
-
-# Schemes & Hooks
+  #Schemes & Hooks
   lesson_basics_schemes_concept: "Підступи ($lesson_basics_schemes$)"
   lesson_basics_schemes_concept_complete: "$lesson_basics_schemes_concept$"
   lesson_basics_schemes_concept_desc: "[schemes|E] — це довготривалі дії, направлені на інших персонажів. Вони можуть бути як ворожими ([murder|El] або [abduction|El] цілі), так і більш соціальними, наприклад [befriend_scheme|El]."
@@ -288,39 +265,33 @@
   lesson_basics_schemes_sway_desc: "[scheme|E] «Вплив» підвищує ( 'opinion', 'думку' )|El] про вашого персонажа. Глянемо детальніше!"
   lesson_basics_schemes_sway_complete: "$lesson_basics_schemes_concept$"
   lesson_basics_schemes_sway_complete_desc: "Відмінно! [scheme|E] запущені, і з часом ситуація так чи інакше розвиватиметься. Час, необхідний для досягнення результату, залежить від [Concept( 'success_chance', 'шансу успіху' )|E], на який впливають відповідні [Concept( 'skills', 'навички' )|E] (в даному випадку — «[diplomacy|E]»).\n\n#TUT Якщо ви передумали займатися підступами, то у будь-який момент можете припинити: натисніть кнопку #TUT_KW «Відмовитися від підступів»#! поряд з їхньою назвою.#!"
-  tutorial_basic_schemes_start_swaying_tt: "Натисніть правою кнопкою мишки на вашого [Concept( 'court_chaplain', 'придворного капеллана' )|E] («$councillor_court_chaplain_theocrat_duchy$») і виберіть #TUT_KW «Впливе» (підступи)#"
+  tutorial_basic_schemes_start_swaying_tt: "Натисніть правою кнопкою мишки на вашого [Concept( 'court_chaplain', 'придворного капеллана' )|E] («$councillor_court_chaplain_theocrat_duchy$») і виберіть #TUT_KW «Впливе» (підступи)#!"
   lesson_basics_hooks: "Таємниці ($lesson_basics_schemes$)"
   lesson_basics_hooks_desc: "Іноді [schemes|El] породжують [secrets|El]: якщо ви застигнете когось за замахом на [murder|El], ця людина зробить все, щоб ви мовчали.\n\nВи також можете [Concept( 'blackmail', 'шантажувати' )|El] вбивцю, щоб у вас з'явився [hook|El]! $game_concept_hooks$ є послугою, яку зобов'язаний надати вам визначений [character|El] на ваше прохання або примус.\n\nПротягом гри ви виявите немало способів придбати $game_concept_hooks$ на різних персонажів. Експериментуйте!\n\n#TUT Уявімо, що у вас на гачку опинився хтось з ваших [Concept( 'vassals', 'васалів' )|El]...#!"
   lesson_basics_hooks_complete: "Вплив ($lesson_basics_schemes$)"
   lesson_basics_hooks_complete_desc: "[weak_hook|E] дозволяє добитися кількох речей. Серед іншого — збільшити [obligations|El] за [Concept( 'feudal_contract', 'договором' )|El] з васалами.\n\n#TUT Щоб перейти в меню змін васального договору, відкрийте у вікні держави список васалів або натисніть правою кнопкою мишки на портрет і виберіть #TUT_KW «Змінити васальний договір»#!.\n\nЗверніть увагу, що відразу варіант #TUT_KW «Змінити васальний договір»#! не видно: при великій кількості доступних взаємодій в меню з'являються лише найпоширеніші.\n\nЩоб знайти інші взаємодії, натисніть кнопку «Ще 1...» в категорії $interaction_category_vassal$.#!"
-
-# Culture
+  #Culture
   lesson_basics_culture_open_view: "Cultures"
-  lesson_basics_culture_open_view_desc: "Every [character|E] and [county|E] belongs to a [culture|E]. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_open_view_desc_INGAME', '' )]"
+  lesson_basics_culture_open_view_desc: "Every [character|E] and [county|E] belongs to a [culture|E]. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_open_view_desc_INGAME', ' )]"
   lesson_basics_culture_open_view_desc_INGAME: "\n\nYour current [ruler|E] is a part of the [GetPlayer.GetCulture.GetNameNoTooltip] Culture, which shown in the bottom left."
   lesson_basics_culture_open_view_trigger: "Open the Culture View (highlighted)"
-
   lesson_basics_culture_elements: "Cultures"
-  lesson_basics_culture_elements_desc: "A [culture|E] is defined by its [ethos|E], [culture_pillars|E], and [traditions|E]. Each determines various benefits or penalties to all members of the Culture.\n\nThe #V Ethos#! describes the core values of a Culture. It is the main determiner of what Traditions are available to a Culture. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_elements_desc_INGAME', '' )]\n\n#V Cultural Pillars#! reflect the origins of a Culture, and also cannot be changed. They have a strong impact on the [cultural_acceptance|E] of other cultures, but otherwise are of lesser importance than the Ethos.\n\nThe #V Traditions#! of a Culture are more flexible, but can still be incredibly important to a culture. Unlike the Ethos and Pillars, Traditions can be changed by the Culture Head, which is our next topic."
+  lesson_basics_culture_elements_desc: "A [culture|E] is defined by its [ethos|E], [culture_pillars|E], and [traditions|E]. Each determines various benefits or penalties to all members of the Culture.\n\nThe #V Ethos#! describes the core values of a Culture. It is the main determiner of what Traditions are available to a Culture. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_elements_desc_INGAME', ' )]\n\n#V Cultural Pillars#! reflect the origins of a Culture, and also cannot be changed. They have a strong impact on the [cultural_acceptance|E] of other cultures, but otherwise are of lesser importance than the Ethos.\n\nThe #V Traditions#! of a Culture are more flexible, but can still be incredibly important to a culture. Unlike the Ethos and Pillars, Traditions can be changed by the Culture Head, which is our next topic."
   lesson_basics_culture_elements_desc_INGAME: "The Ethos of your Culture, the [GetPlayer.GetCulture.GetCollectiveNounNoTooltip], is [GetPlayer.GetCulture.GetEthos.GetName]."
   lesson_basics_culture_culture_head: "Cultures (Culture Head)"
-  lesson_basics_culture_culture_head_desc: "The [culture_head|E] is the [ruler|E] of a [culture|E] with the largest [realm|E]. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_culture_head_desc_INGAME', '' )]\n\nThe Culture Head can establish new Traditions for their Culture.\n\nThey also play an important part in the technological and societal development of their Culture, which we will look at now."
+  lesson_basics_culture_culture_head_desc: "The [culture_head|E] is the [ruler|E] of a [culture|E] with the largest [realm|E]. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_culture_head_desc_INGAME', ' )]\n\nThe Culture Head can establish new Traditions for their Culture.\n\nThey also play an important part in the technological and societal development of their Culture, which we will look at now."
   lesson_basics_culture_culture_head_desc_INGAME: "[SelectLocalization(ObjectsEqual(GetPlayer, GetPlayer.GetCulture.GetCultureHead), 'lesson_basics_culture_culture_head_desc_YOU', 'lesson_basics_culture_culture_head_desc_OTHER' )]"
   lesson_basics_culture_culture_head_desc_YOU: "You are the Culture Head of your Culture."
   lesson_basics_culture_culture_head_desc_OTHER: "[GetPlayer.GetCulture.GetCultureHead.GetName] is the Culture Head of your Culture."
-
   lesson_basics_culture_innovations_open: "Cultures (Innovations)"
   lesson_basics_culture_innovations_open_desc: "Your [culture|E] determines which [innovations|E] you have access to, shown in the Innovations tab."
   lesson_basics_culture_open_innovations_tab_trigger: "Open the Innovations Tab (highlighted)"
-
   lesson_basics_culture_innovations: "Cultures (Innovations)"
-  lesson_basics_culture_innovations_desc: "[innovations|E] are the inventions and adaptations a [culture|E] can discover over time. $game_concept_innovations$ give new bonuses, [buildings|E], and [men_at_arms|E] for all members of the $game_concept_culture$.\n\nInnovations are grouped into [eras|E], so most Innovations are simply not available in the early parts of the game. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_innovations_desc_INGAME', '' )]"
+  lesson_basics_culture_innovations_desc: "[innovations|E] are the inventions and adaptations a [culture|E] can discover over time. $game_concept_innovations$ give new bonuses, [buildings|E], and [men_at_arms|E] for all members of the $game_concept_culture$.\n\nInnovations are grouped into [eras|E], so most Innovations are simply not available in the early parts of the game. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_innovations_desc_INGAME', ' )]"
   lesson_basics_culture_innovations_desc_INGAME: "Your Culture is currently in the [GetPlayer.GetCulture.GetCultureEra.GetName] Era."
-
   lesson_basics_culture_innovations_spread: "Cultures (Innovations)"
   lesson_basics_culture_innovations_spread_desc: "[innovations|E] are usually discovered very slowly. However, The [culture_head|E] can also make a [culture|E] discover an Innovation faster, by choosing it as the Culture's [fascination|E] (highlighted).\n\n#I When you are the Culture Head, you can click on an Innovation to set it as the new Fascination.#!\n\nCultures also discover Innovations faster if they are already discovered by neighboring Cultures."
-
-# Religion
+  #Religion
   lesson_basics_religion_1: "[GetLocalPlayerPietyTextIcon] Конфесія ($lesson_basics_religion$)"
   lesson_basics_religion_1_read_only: "$lesson_basics_religion_1$"
   lesson_basics_religion_1_desc: "Всі [characters|El] належать до [Concept( 'faith', 'конфесій' )|El], які утворюють [Concept( 'religion', 'релігію' )|El]. Ваша конфесія — $catholicism$, а релігія — $christianity_religion$.\n\nКонфесії відрізняються одна від одної — глянемо на них уважніше"
@@ -332,8 +303,7 @@
   lesson_basics_religion_4: "Нова конфесія ($lesson_basics_religion$)"
   lesson_basics_religion_4_no_GUI_highlight: "$lesson_basics_religion_4$"
   lesson_basics_religion_4_desc: "Ви можете створити нову [Concept( 'faith', 'конфесію' )|El] у відповідному вікні. На створення [Concept( 'doctrines', 'доктрин' )|El] і [Concept( 'core_tenets', 'основних догматів' )|El] витрачається [Concept( 'piety', 'благочестя' )|El] відповідно до догматів поточної конфесії.\n\nВаш перший [character|El] може не думати про це, але досвідченим гравцям експерименти з конфесіями можуть приносити масу задоволення!\n\n#TUT Члени сім'ї та [vassals|El], чия [opinion|El] про вас достатньо висока, і в яких розвинена навичка «[learning|El]», швидше за все, перейдуть в нову конфесію, але ті, хто не навернеться, вважатимуть вас єретиком.#!"
-
-# War
+  #War
   lesson_basics_warfare: "Війна ($lesson_basics_war$)"
   lesson_basics_warfare_desc: "[war|E] — найважливіший елемент в Crusader Kings. Про неї можна говорити довго, але наразі ми торкнемося лише кількох моментів.\n\n#TUT Останні подробиці ви дізнаєтесь по ходу гри.#!"
   lesson_basics_levies: "Війна ($lesson_basics_war$)"
@@ -344,14 +314,12 @@
   lesson_basics_rally_points_desc: "Коли починається [war|El], ви можете скликати в цьому вікні [armies|El] — натисніть кнопку «$RAISE_ALL$».\n\nКоли війна закінчується, солдатів потрібно розпустити, перш ніж починати нову кампанію.\n\n#TUT [rally_points|El] — місця, куди [levies|El] і [men_at_arms|El] прибувають для несення служби під вашим керівництвом.#!"
   lesson_basics_casus_belli: "Війна ($lesson_basics_war$)"
   lesson_basics_casus_belli_desc: "Щоб розв'язати [Concept( 'war', 'війну' )|El], необхідний законний привід — так званий [casus_belli|El] проти іншого [Concept( 'ruler', 'правителя' )|El].\n\nЄ різні варіанти здобуття казус беллі: наприклад, володіння [de_jure|El] [Concept( 'titles', 'титулами' )|El], що дають вам статус [Concept( 'rightful_liege', 'законного сюзерена' )|El] ціли. Деякі [claims|El] ви можете отримувати у спадок, також можна розв'язувати [holy_wars|El] проти сусідів-невірних.\n\nЦі два приводи поширено найбільше, але в грі є десятки інших $game_concept_casus_bellis$, які ви виявите і зможете застосувати!\n\n#TUT Також претензіями вас може забезпечити [court_chaplain|El], виконуючи [councillor_tasks|El] #EMP «[fabricate_claim|El]»#!."
-
-# UNPAUSING!! ":"D Do this when the player is actually supposed to unpause"
+  #UNPAUSING!! :D Do this when the player is actually supposed to unpause
   lesson_basics_pausing_2: "Майже готово ($lesson_basics_unpause$)"
   lesson_basics_pausing_2_desc: "Залишилося лише кілька важливих дрібниць — і можна буде зняти гру з паузи!\n\nПерш за все необхідно пам'ятати, що гра може йти на п'яти різних швидкостях (клавіші 1-5): у будь-який момент ви можете змінити швидкість гри або зупинити її.\n\n#BOLD По-друге, гра ставиться на паузу автоматично, коли відбуваються особливо важливі події.#!\n\n#TUT Не соромтеся грати на малих швидкостях, прискорюватися під час затишшя і сповільнюватися під час війни.\n\nЗазвичай ми радимо призупиняти гру під час роботи з меню і ухвалення важливих рішень.#!"
   lesson_basics_pausing_3: "Запуск гри ($lesson_basics_unpause$)"
   lesson_basics_pausing_3_desc: "Щоб годинник знову пішов, зніміть гру з паузи (натисніть #EMP пробіл#! або натисніть мишкою на кнопку «Грати»).\n\nПідуть дні, місяці й роки. Армії, яким наказано рухатися, вирушать, на екрані почнуть відбуватися події, листи відправляться до адресатів, а [characters|El] почнуть старіти.\n\n#TUT Знайдіть зручну для вас швидкість на даний момент. Згодом її можна буде змінювати за бажанням."
-
-  # Actual Warfare
+  #Actual Warfare
   lesson_declare_war_step_1: "Що тепер?"
   lesson_declare_war_step_1_complete: "$lesson_declare_war_step_1$"
   lesson_declare_war_step_1_desc: "Отже, для першого завдання нагадаємо вашому сусідові — ерлу графства $c_desmond$, — хто його [rightful_liege|El]... Якщо при цьому ваша [realm|El] розшириться, хай буде так!\n\nВикористовуйте розглянуту раніше систему взаємодій, виберіть сусіда на карті та оголосіть війну [Concept( 'ruler', 'правителю' )|El] Десмонда. Швидше за все, у вас вже є законний [casus_belli|El] — його [title|El] [de_jure|El] є частиною вашої держави.\n\n#TUT Зараз ми перейдемо від теорії до практики, та поглянемо що ж відбувається на війні.#!"
@@ -368,9 +336,9 @@
   lesson_battle_mechanics_step_1: "Битва!"
   lesson_battle_mechanics_step_1_desc: "Результат [Concept( 'battle', 'битви' )|El] двох [Concept( 'army', 'армій' )|El] залежить від ряду чинників: розміру [Concept( 'levies', 'ополчення' )|El] на кожній стороні, типу і наявності [Concept( 'men_at_arms', 'гвардії' )|El] в кожній армії, [Concept( 'commanders', 'командирів' )|El] і навіть [Concept( 'terrain', 'типу місцевості' )|El].\n\n#TUT Більше подробиць чекає вас у вікні «Битва» — щоб відкрити його, натисніть на армію."
   lesson_siege_mechanics_step_1: "Облога!"
-  lesson_siege_mechanics_step_1_desc: "Ваша [army|El]атакує ворожі [holdings|El]! Натисніть по виділеному значку (з наконечниками копій), щоб простежити за її успіхами.\n\n$game_concept_sieges$ потрібні для перемоги в більшості воєн, вони підвищують ваш [war_score|El].\n\nКожного разу, коли [Concept( 'siege', 'облога' )|E] проходить успішно (для перемоги потрібно декілька атак, які відображуються в нижньому лівому кутку), область стає [Concept( 'occupied', 'окупованою' )|El], а її зображення на карті заштриховується.\n\n#TUTКолір штрихування залежить від кольору загарбника на карті. Наприклад, ваш колір — зелений, і окуповані вами області відмічені зеленими штрихами.\n\n$game_concept_holding$, окуповане королівством $k_france$, буде заштриховано синім, території, зайняті королівством $k_england$, — червоним і так далі."
+  lesson_siege_mechanics_step_1_desc: "Ваша [army|El]атакує ворожі [holdings|El]! Натисніть по виділеному значку (з наконечниками списів), щоб простежити за її успіхами.\n\n$game_concept_sieges$ потрібні для перемоги в більшості воєн, вони підвищують ваш [war_score|El].\n\nКожного разу, коли [Concept( 'siege', 'облога' )|E] проходить успішно (для перемоги потрібно декілька атак, які відображуються в нижньому лівому кутку), область стає [Concept( 'occupied', 'окупованою' )|El], а її зображення на карті заштриховується.\n\n#TUTКолір штрихування залежить від кольору загарбника на карті. Наприклад, ваш колір — зелений, і окуповані вами області відмічені зеленими штрихами.\n\n$game_concept_holding$, окуповане королівством $k_france$, буде заштриховано синім, території, зайняті королівством $k_england$, — червоним і так далі."
   lesson_warscore_step_1: "Бойовий рахунок"
-  lesson_warscore_step_1_desc: "Зрозуміти, хто перемагає на [Concept( 'war', 'війне' )|El], допоможе [war_score|El] у нижньому правому кутку екрану. Він змінюється від #N -100#! до #P 100#! відповідно до виграних і програних [Concept( 'battles', 'битв' )|El] і [Concept( 'sieges', 'облог' )|El], а також зайнятими територіями.\n\n#TUT Бойовий рахунок #P 100#!$game_concept_war_score$ дозволяє силоміць змусити противника прийняти вашу [peace_offer|El].\n\nІ навпаки, при рахунку #N -100#! до прийняття пропозиції миру змусять вже #EMP вас#!."
+  lesson_warscore_step_1_desc: "Зрозуміти, хто перемагає на [Concept( 'war', 'війні' )|El], допоможе [war_score|El] у нижньому правому кутку екрану. Він змінюється від #N -100#! до #P 100#! відповідно до виграних і програних [Concept( 'battles', 'битв' )|El] і [Concept( 'sieges', 'облог' )|El], а також зайнятими територіями.\n\n#TUT Бойовий рахунок #P 100#!$game_concept_war_score$ дозволяє силоміць змусити противника прийняти вашу [peace_offer|El].\n\nІ навпаки, при рахунку #N -100#! до прийняття пропозиції миру змусять вже #EMP вас#!."
   lesson_warscore_step_2: "Результат війни"
   lesson_warscore_step_2_desc: "Є три варіанти результату [wars|El]: $MODIFIER_NEWLINE_WITH_BULLET$[victory|El]$MODIFIER_NEWLINE_WITH_BULLET$[white_peace|El]$MODIFIER_NEWLINE_WITH_BULLET$[defeat|El]\n\n#TUT Щоб детально дізнатися про наслідки кожного з цих варіантів залежно від використаного [casus_belli|El], натисніть правою кнопкою мишки на ворожого [Concept( 'ruler', 'правителя' )|El] і виберіть #TUT_KW «Запропонувати мир»#!.#!"
   lesson_winning_wars_step_1: "Перемога близько"
@@ -388,4 +356,4 @@
   lesson_war_final_notes_invalidated_step_1_desc: "Ви все ще тут! Чудово! На диво, війна все ж припинилась.$lesson_war_final_notes_reuse$"
   lesson_guided_final_notes_mission_step_1: "Що далі?"
   lesson_guided_final_notes_mission_step_1_desc: "Ви вже ознайомились з основами, тож можете робити безліч речей, адже в Crusader Kings ви встановлюєте власні цілі.\n\n Якщо хочете пораду, ми рекомендуємо вам спробувати стати королем або королевою Ірландії! До речі, [war|E] це не єдиний шлях..."
-  lesson_open_war_overview_tt: "Відкрийте перспективуВійна" (виділено)"""
+  lesson_open_war_overview_tt: "Відкрийте перспективуВійна (виділено)"

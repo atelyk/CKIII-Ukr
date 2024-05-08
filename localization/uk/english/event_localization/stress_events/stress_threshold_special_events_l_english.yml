@@ -21,7 +21,6 @@
   stress_threshold_special.1001.frozen_grief: "Потрібно жити далі. Думаю, [deceased_character.GetSheHe] [Select_CString(deceased_character.IsFemale, 'хотіла', 'хотів' )] би цього."
   stress_threshold_special.1001.lunatic: "Але [deceased_character.GetSheHe] не [Select_CString(deceased_character.IsFemale, 'померла', 'помер' )]! [deceased_character.GetSheHe|U] тут, зі мною..."
   stress_threshold_special.1001.lunatic.flavor: "...і [deceased_character.GetSheHe] залишиться зі мною навіки!"
-
   stress_threshold_special.2001.t: "Нервовий зрив: пригнічені бажання"
   stress_threshold_special.2001.beginning: "Як же мені не вистачає колишньої розпусти та гулянки. Як же давно ніхто не ділив зі мною ложі! Одинокі ночі зводять мене з розуму.\n\n"
   stress_threshold_special.2001.consort: "Я знаю, [ROOT.Char.Custom2('RelationToMe', target)] [target.GetFirstName] прийме мене у своєму ліжку з розкритими обіймами. [target.GetSheHe|U] хоче мене, сумнівів немає... і як мені не вистачає [target.GetHerHis]!"

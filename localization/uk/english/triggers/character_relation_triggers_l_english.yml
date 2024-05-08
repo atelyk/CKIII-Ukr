@@ -1,5 +1,4 @@
 ﻿l_english:
-
   IS_AT_WAR_WITH_TRIGGER: "Воює з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   NOT_IS_AT_WAR_WITH_TRIGGER: "#bold Не#! [Concept( 'war', 'воює' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   I_AM_AT_WAR_WITH_TRIGGER: "Ви [Concept( 'war', 'воюєте' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
@@ -7,39 +6,31 @@
   NOT_I_AM_AT_WAR_WITH_TRIGGER: "Ви #bold не#! [Concept( 'war', 'воюєте' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   THEY_ARE_AT_WAR_WITH_TRIGGER: "[CHARACTER.GetShortUIName|V] воює з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   NOT_THEY_ARE_AT_WAR_WITH_TRIGGER: "[CHARACTER.GetShortUIName|V] #bold не#! [Concept( 'war', 'воює' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
-
   IS_ALLIED_TO_TRIGGER: "[allied|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   NOT_IS_ALLIED_TO_TRIGGER: "#bold Не#! [Concept( 'allied', 'в союзі' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   I_AM_ALLIED_TO_TRIGGER: "Ви уклали [Concept( 'allied', 'союз' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   NOT_I_AM_ALLIED_TO_TRIGGER: "У вас #bold немає#! [Concept( 'allied', 'союзу' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   THEY_ARE_ALLIED_TO_TRIGGER: "[CHARACTER.GetShortUIName|V] у союзі з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   NOT_THEY_ARE_ALLIED_TO_TRIGGER: "[CHARACTER.GetShortUIName|V] #bold не#! [Concept( 'allied', 'в союзі' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
-
   IS_ALLIED_IN_WAR_GLOBAL: "[allied|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V] на [Concept( 'war', 'війні' )|E]"
   NOT_IS_ALLIED_IN_WAR_GLOBAL: "#bold Не#! [Concept( 'allied', 'в союзі' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V] на [Concept( 'war', 'війні' )|E]"
   IS_ALLIED_IN_WAR_FIRST: "Ви та [TARGET_CHARACTER.GetShortUIName|V] — [Concept( 'allied', 'союзники' )|E] на [Concept( 'war', 'війні' )|E]"
   NOT_IS_ALLIED_IN_WAR_FIRST: "Ви #bold не#! [Concept( 'allied', 'в союзі' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V] на [Concept( 'war', 'війні' )|E]"
   IS_ALLIED_IN_WAR_THIRD: "[CHARACTER.GetShortUIName|V] в союзі з персонажем [TARGET_CHARACTER.GetShortUIName|V] на [Concept( 'war', 'війні' )|E]"
   NOT_IS_ALLIED_IN_WAR_THIRD: "[CHARACTER.GetShortUIName|V] #bold не#! в союзі з персонажем [TARGET_CHARACTER.GetShortUIName|V] на [Concept( 'war', 'війні' )|E]"
-
   THEY_ARE_LIEGE_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|V] — сюзерен або сюзерен сюзерена"
   NOT_THEY_ARE_LIEGE_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|V] — #bold не#! сюзерен і #bold не#! сюзерен сюзерена"
   THEY_ARE_MY_LIEGE_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|V] — ваш [liege|El] або сюзерен вашого сюзерена"
   NOT_THEY_ARE_MY_LIEGE_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|V] — #bold не#! ваш [liege|El] і #bold не#! сюзерен вашого сюзерена"
   THEY_ARE_THEIR_LIEGE_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|V] — [liege|El] персонажа [CHARACTER.GetShortUINamePossessive] чи сюзерен [CHARACTER.GetHerHis] сюзерена"
   NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|V] — #bold не#! [liege|El] персонажа [CHARACTER.GetShortUINamePossessive] і #bold не#! сюзерен [CHARACTER.GetHerHis] сюзерена"
-
   THEY_ARE_VASSAL_OR_BELOW: "[TARGET_CHARACTER.GetShortUIName|V] — васал"
   NOT_THEY_ARE_VASSAL_OR_BELOW: "[TARGET_CHARACTER.GetShortUIName|V] — #bold не#! васал"
-
   IS_ATTRACTED_TO_WOMEN_TRIGGER: "Приваблюють жінки"
   NOT_IS_ATTRACTED_TO_WOMEN_TRIGGER: "#bold Не#! приваблюють жінки"
-
   IS_ATTRACTED_TO_MEN_TRIGGER: "Приваблюють чоловіки"
   NOT_IS_ATTRACTED_TO_MEN_TRIGGER: "#bold Не#! приваблюють чоловіки"
-
   HAS_SEXUALITY_TRIGGER: "$SEXUALITY|V$"
-
   IS_ATTRACTED_TO: "Приваблює [TARGET_CHARACTER.GetShortUIName]"
   HAS_RELATION_CRUSH_ON_TARGET: "Has a crush on [TARGET_CHARACTER.GetShortUIName]"
   HAS_RELATION_BULLY_BY_TARGET: "Bullied by [TARGET_CHARACTER.GetShortUIName]"
@@ -47,7 +38,8 @@
   NUM_OF_RELATION_VICTIM_TRIGGER: "Number of bully victims is $COMPARATOR$ $NUM|V0$"
   HAS_RELATION_VICTIM_BY_TARGET: "Being bullied by [TARGET_CHARACTER.GetShortUIName]"
   NUM_OF_RELATION_LOVER_TRIGGER: "Number of lovers is $COMPARATOR$ $NUM|V0$"
-  HAS_RELATION_RIVAL_WITH_TARGET: "Rivals with [TARGET_CHARACTER.GetShortUIName]"
+  HAS_RELATION_RIVAL_WITH_TARGET: "Rival of [TARGET_CHARACTER.GetShortUIName]"
+  NOT_HAS_RELATION_RIVAL_WITH_TARGET: "Not rival of [TARGET_CHARACTER.GetShortUIName]"
   NUM_OF_RELATION_RIVAL_TRIGGER: "Number of Rivalries is $COMPARATOR$ $NUM|V0$"
   NOT_NUM_OF_RELATION_RIVAL_TRIGGER: "You need more [rivals|E]"
   NUM_OF_RELATION_NEMESIS_TRIGGER: "Number of Nemesis is $COMPARATOR$ $NUM|V0$"
@@ -61,15 +53,12 @@
   NUM_OF_RELATION_CRUSH_TRIGGER: "Number of Crushes is $COMPARATOR$ $NUM|V0$"
   NUM_OF_RELATION_SOULMATE_TRIGGER: "Number of Soulmates is $COMPARATOR$ $NUM|V0$"
   HAS_RELATION_POSSIBLE_PARENT_OF_TARGET: "Could possibly be the parent of [TARGET_CHARACTER.GetShortUIName]"
-
   HAS_RELATION_NEMESIS_WITH_TARGET: "Views [TARGET_CHARACTER.GetShortUIName] as their nemesis"
   HAS_RELATION_SOULMATE_WITH_TARGET: "Is soulmates with [TARGET_CHARACTER.GetShortUIName]"
   HAS_RELATION_MENTOR_WITH_TARGET: "[TARGET_CHARACTER.GetShortUIName] is a mentor to [CHARACTER.GetShortUIName]"
   HAS_RELATION_GUARDIAN_OF_TARGET: "[TARGET_CHARACTER.GetShortUIName] is the guardian of [CHARACTER.GetShortUIName]"
-
   HAS_ANY_RELATION_WITH_TARGET: "Has any relationships with [TARGET_CHARACTER.GetShortUIName]"
   HAS_MOTHER_TRIGGER: "Has a mother"
   HAS_FATHER_TRIGGER: "Has a father"
-
   HAS_ARTIFACT_TRIGGER: "Owns any artifacts"
   NOT_HAS_ARTIFACT_TRIGGER: "Has no artifacts"

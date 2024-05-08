@@ -22,16 +22,13 @@
   book_the_norse_sagas: "Скандинавська сага"
   book_family_history: "історія моєї родини"
   book_ancient_myths: "стародавні міфи"
-
   #WorldDeadline
   world_deadline_6000_years: "кінець Світу настане через шість тисяч років після його створення"
   world_deadline_432000_age: "ця епоха скінчиться через чотириста тридцять дві тисячі років"
-  world_deadline_1000_age0: ця епоха скінчиться через тисячу років"""
   world_deadline_1000_age: "this age will end after one thousand years"
   world_deadline_21000_age: "ця епоха скінчиться через двадцять одну тисячу років"
   world_deadline_3000_period: "цей період буде останнім і триватиме три тисячоліття"
-
-  # Virtues
+  #Virtues
   virtue_choice_brave: "відвага"
   virtue_choice_just: "справедливість"
   virtue_choice_temperate: "стриманість"

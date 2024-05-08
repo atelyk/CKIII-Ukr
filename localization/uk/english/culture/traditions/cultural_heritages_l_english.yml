@@ -1,7 +1,6 @@
 ﻿l_english:
-  heritage_generic_label_desc: "Кожна [heritage|E] визначає спільне походження пов’язаних [cultures|E]' звичаїв і манер, або як щось, від чого вони походять, або як те, що було прийнято разом."
+  heritage_generic_label_desc: "Кожна [heritage|E] визначає спільне походження пов’язаних [cultures|E]' звичаїв та манер, або як щось, від чого вони походять, або як те, що було прийнято разом."
   heritage_arabic_name: "Арабськ"
-
   heritage_arabic_collective_noun: "Араби"
   heritage_berber_name: "Берберськ"
   heritage_berber_collective_noun: "Бербери"
@@ -23,6 +22,8 @@
   heritage_dravidian_collective_noun: "Дравіди"
   heritage_somalian_name: "Кушитськ"
   heritage_somalian_collective_noun: "Кушити"
+  heritage_bantu_name: "Bantu"
+  heritage_bantu_collective_noun: "Bantu"
   heritage_east_african_name: "Східноафриканськ"
   heritage_east_african_collective_noun: "Східноафриканські народи"
   heritage_central_african_name: "Центральноафриканськ"
@@ -81,3 +82,12 @@
   heritage_tocharian_collective_noun: "Тохари"
   heritage_vlach_name: "$vlach$"
   heritage_vlach_collective_noun: "$vlach_collective_noun$"
+  #Dead heritages
+  heritage_gothic_name: "Gothic"
+  heritage_gothic_collective_noun: "Goths"
+  heritage_egyptian_name: "Egyptian"
+  heritage_egyptian_collective_noun: "Egyptians"
+  heritage_hunnic_name: "Hunnic"
+  heritage_hunnic_collective_noun: "Huns"
+  heritage_ancient_greek_name: "Hellenic"
+  heritage_ancient_greek_collective_noun: "Hellenic"

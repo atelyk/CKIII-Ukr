@@ -1,6 +1,7 @@
 ﻿l_english:
+  HEALTH_VALUE_FORMAT_ALREADY_DEAD: "#N The Reaper Approaches#!"
   HEALTH_VALUE_FORMAT_CATASTROPHIC_PENALTY: "#N Катастрофічний штраф#!"
-  HEALTH_VALUE_FORMAT_EXTREME_PENALTY: "#N Величезний штраф#! # Replaced with Critical"
+  HEALTH_VALUE_FORMAT_EXTREME_PENALTY: "#N Величезний штраф#! # Replaced with Critical" #Replaced with Critical
   HEALTH_VALUE_FORMAT_CRITICAL_PENALTY: "#N Критичний штраф#!"
   HEALTH_VALUE_FORMAT_SEVERE_PENALTY: "#N Серйозний штраф#!"
   HEALTH_VALUE_FORMAT_MAJOR_PENALTY: "#N Значний штраф#!"

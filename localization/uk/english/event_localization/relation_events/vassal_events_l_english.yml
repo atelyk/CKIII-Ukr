@@ -5,34 +5,27 @@
   vassal.1001.a.tt: "#F [religious_liege.GetFirstNameNoTooltip] запам'ятає мою обіцянку і завинить мені [favor|El], якщо я дотримуюсь слова протягом десяти років#!"
   vassal.1001.b_zealous: "За кого ви себе маєте, розмірковуючи про волю [ROOT.Char.GetFaith.HighGodNamePossessive]?!"
   vassal.1001.b: "Нам такого не треба."
-
   vassal.1010.desc: "«Цього разу ви себе перевершили, [ROOT.Char.GetFirstNameNoTooltip]. Це справді чудова будівля». — [Select_CString(religious_liege.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))] [religious_liege.GetTitledFirstName] [religious_liege.Custom('quirk_pos_present')], показуючи на [religious_liege.GetFaith.HouseOfWorship].\n\n«Безсумнівно, [religious_liege.GetFaith.HighGodName] тішиться вашим успіхам не менше, ніж я!»"
   vassal.1010.a: "Я існую, щоб виконувати волю [religious_liege.GetFaith.HighGodNamePossessive]."
-
   vassal.1020.desc_religious: "«Повірити не можу, що така побожна людина не дотрималась обіцянки… А це ж [religious_liege.GetFaith.HouseOfWorship], місце, де возвеличують ім'я [religious_liege.GetFaith.HighGodNamePossessive]!»"
   vassal.1020.desc_not_as_religious: "«Ви збрехали мені, [ROOT.Char.GetFirstNameNoTooltip]… А це ж [religious_liege.GetFaith.HouseOfWorship], місце, де возвеличують ім'я [religious_liege.GetFaith.HighGodNamePossessive]!»"
   vassal.1020.desc: "\n\n[Select_CString(religious_liege.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_liege'))] [religious_liege.GetTitledFirstName] [religious_liege.Custom('quirk_neg_present')], не приховує свого розчарування."
   vassal.1020.a: "Людині властиво помилятися!"
   vassal.1020.a_religious: "Надіюсь, [religious_liege.GetFaith.HighGodName] мені пробачить..."
   vassal.1020.a.tt: "#F Можливо, мені варто було виконати обіцянку і побудувати [THIS.Char.GetFaith.HouseOfWorship]...#!"
-
   vassal.1101.desc: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], мені стало відомо, що у ваших володіннях може розташовуватися [religious_vassal.GetFaith.HouseOfWorship]».\n\n[Select_CString(religious_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))], [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('religious_vassal'))] [religious_vassal.GetTitledFirstName], [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('religious_vassal'))], і продовжує: «Якщо ви зведете таку споруду, ви, звісно, отримаєте вдячність [religious_vassal.GetFaith.HighGodNameAlternatePossessive]… І мою»."
   vassal.1101.a.tt: "#F [religious_vassal.GetFirstNameNoTooltip] запам'ятає мою обіцянку і завинить [favor|El], якщо я дотримаю слова протягом десяти років#!"
-
   vassal.1110.desc: "«Цього разу ви себе перевершили, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]. Це справді чудова будівля». — [Select_CString(religious_liege.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))] [religious_vassal.GetTitledFirstName] [religious_vassal.Custom('quirk_pos_present')], вказуючи на [religious_vassal.GetFaith.HouseOfWorship].\n\n«Безсумнівно, [religious_vassal.GetFaith.HighGodName] тішиться вашим успіхам не менш, ніж я!»"
   vassal.1110.a: "I live to serve [religious_vassal.GetFaith.HighGodName]."
-
   vassal.1120.desc_religious: "«Повірити не можу, що така набожна людина не дотрималася обіцянки… А це ж [religious_vassal.GetFaith.HouseOfWorship], місце, де возвеличують ім'я [religious_liege.GetFaith.HighGodNamePossessive]!»"
   vassal.1120.desc_not_as_religious: "«Ви збрехали мені, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]… А це ж [religious_vassal.GetFaith.HouseOfWorship], місце, де возвеличують ім'я [religious_liege.GetFaith.HighGodNamePossessive]!»"
   vassal.1120.desc: "[Select_CString(religious_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('religious_vassal'))] [religious_vassal.GetTitledFirstName] [religious_vassal.Custom('quirk_neg_present')] і хитає головою.\n\n«Нехай пробачить вас [religious_vassal.GetFaith.HighGodNameAlternate]»."
   vassal.1120.a: "Людині властиво помилятися!"
   vassal.1120.a.tt: "#F Можливо, мені варто було виконати обіцянку і побудувати [THIS.Char.GetFaith.HouseOfWorship]...#!"
-
   vassal.2001.t: "Навчання молоді"
   vassal.2001.desc: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], думаю, [Select_CString(child_to_educate.IsFemale, 'юна', 'юний' )] [child_to_educate.GetFirstName] зможе багато чому навчитися під вашим керівництвом».\n\n[vassal_proposing_education.GetTitledFirstName] чекає мого рішення, і [Select_CString(vassal_proposing_education.IsFemale, 'її', 'його' )] [vassal_proposing_education.Custom2('RelationToMe', SCOPE.sC('child_to_educate'))] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('child_to_educate'))], а потім махає нам рукою."
   vassal.2001.a: "Звісно, нехай [child_to_educate.Custom('GirlBoy')] вчиться у мене."
   vassal.2001.b: "[Select_CString(child_to_educate.IsFemale, 'Ваша', 'Ваш' )] [child_to_educate.Custom('GetDaughterSon')] — ваша відповідальність!"
-
   vassal.2101.t: "Палкий прихильник бенкетів"
   vassal.2101.desc: "«Вже кілька місяців васали нашої держави не збиралися на бенкет, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetTitleTierName]».\n\nЯ буквально відчуваю, як [ROOT.Char.Custom2('QuirkNounPosOrNeg', SCOPE.sC('party_vassal'))] сочиться з н[party_vassal.GetHerHis], коли [party_vassal.GetTitledFirstName] продовжує: «Якщо виправити цю прикрість найближчим часом, ви неодмінно виграєте від цього, як і ті з нас, хто цінує гарний бенкет!»"
   vassal.2101.a: "Обіцяю, що бенкет відбудеться найближчим часом!"
@@ -43,22 +36,18 @@
   vassal.2101.b_greedy: "Ви знаєте, скільки це коштує?!"
   vassal.2101.b_lazy: "Я думаю, що колись врешті-решт дійду до цього..."
   vassal.2101.b_shy: "Бенкет? З людьми? Ой навряд..."
-
   vassal.2110.desc: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], цього разу ви себе перевершили!»\n\n[Select_CString(party_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('party_vassal'))] [party_vassal.GetTitledFirstName], схоже, досі відходить від бенкету, але настрій у [Select_CString(party_vassal.IsFemale, 'неї', 'нього' )] все одно чудовий."
   vassal.2110.a: "Безумовно, цей бенкет запам'ятають надовго!"
-
   vassal.2120.desc_party: "«Хто б міг подумати, що [ROOT.Char.GetWomanMan], [Select_CString(ROOT.char.IsFemale, 'яка', 'який' )] так цінує гарні розваги, не дотримуватиметься обіцянки… Ви мене розчарували»."
   vassal.2120.desc_regular: "«Хто б міг подумати, що [Select_CString(ROOT.char.IsFemale, 'така', 'такий' )] [party_vassal.Custom2('DescriptorPositive', ROOT.Char)] [ROOT.Char.GetWomanMan], як ви, не дотримуватиметься обіцянки… Ви мене розчарували»."
   vassal.2120.desc: "\n\n[Select_CString(party_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('party_vassal'))] [party_vassal.GetTitledFirstName] [party_vassal.Custom('quirk_neg_present')] і хитає головою."
   vassal.2120.a: "Це зовсім вилетіло з моєї голови!"
-
   vassal.2201.t: "Грошова допомога"
-  vassal.2201.desc: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetTitleTierName], я не [Select_CString(vassal_loan_holder.IsFemale, 'могла', 'міг' )] не помітити, що вам би не завадила грошова допомога».\n\n[Select_CString(vassal_loan_holder.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_loan_holder'))] [vassal_loan_holder.GetTitledFirstName] [vassal_loan_holder.Custom('quirk_pos_present')], пропонує позичити мені коштів.": a loan to ease the burden on my treasury.""""
+  vassal.2201.desc: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetTitleTierName], я не [Select_CString(vassal_loan_holder.IsFemale, 'могла', 'міг' )] не помітити, що вам би не завадила грошова допомога».\n\n[Select_CString(vassal_loan_holder.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_loan_holder'))] [vassal_loan_holder.GetTitledFirstName] [vassal_loan_holder.Custom('quirk_pos_present')], пропонує позичити мені коштів.\": a loan to ease the burden on my treasury.\"\"\""
   vassal.2201.a: "Я ціную вашу допомогу, [vassal_loan_holder.GetFirstNameNoTooltip]."
   vassal.2201.a.money_loan_tooltip: "[vassal_loan_holder.GetFirstNameNoTooltip] позичить мені [gold_i] #bold [THIS.Var('amount_to_loan_root').GetValue]#! золота."
   vassal.2201.a.repay_loan: "Щоб виплатити борг, доведеться скористатися взаємодією #bold Виплатити позику#!."
   vassal.2201.b: "Я не #EMP настільки#! у відчаї!"
-
   vassal.2205.desc_inherited: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], [Select_CString(original_lender.IsFemale, 'моя покійна', 'мій покійний' )] [vassal_loan_holder.Custom2('RelationToMe', SCOPE.sC('original_lender'))] колись [Select_CString(original_lender.IsFemale, 'позичила', 'позичив' )] вам гроші».\n\n[vassal_loan_holder.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('vassal_loan_holder'))], а потім продовжує: «Як [vassal_loan_holder.GetHerHis] спадкоємець, я прошу вас повернути цей борг»."
   vassal.2205.desc_inherited_loan: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], колись [Select_CString(original_loaner.IsFemale, 'ваша покійна', 'ваш покійний' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_loaner'))] [Select_CString(original_loaner.IsFemale, 'позичила', 'позичив' )] у мене кошти».\n\n[vassal_loan_holder.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('vassal_loan_holder'))], а потім продовжує: «Ви, як [vassal_loan_holder.GetHerHis] спадкоємець, зобов'язані повернути цей борг»."
   vassal.2205.desc_all_new_char: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], колись [Select_CString(original_lender.IsFemale, 'моя покійна', 'мій покійний' )] [vassal_loan_holder.Custom2('RelationToMe', SCOPE.sC('original_lender'))] [Select_CString(original_lender.IsFemale, 'запропрнувала', 'запропонував' )], щоб [Select_CString(original_loaner.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_loaner'))] [Select_CString(original_loaner.IsFemale, 'позичила', 'позичив' )] у [Select_CString(original_lender.IsFemale, 'неї', 'нього' )] золото».\n\n[vassal_loan_holder.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('vassal_loan_holder'))], а потім продовжує: «Ви, як [vassal_loan_holder.GetHerHis] спадкоємець, повинні сплатити цей борг»."
@@ -72,7 +61,6 @@
   vassal.2205.b: "Не турбуйте мене такими дрібницями."
   vassal.2205.c_greedy: "Кого я обманюю? Золото - велика втіха!"
   vassal.2205.c: "Однак грошей було багато..."
-
   vassal.2301.t: "[Select_CString(skilled_vassal.IsFemale, 'Моя талановита', 'Мій талановитий' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('skilled_vassal'))]"
   vassal.2301.desc_opening: "[skilled_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] чудово себе [Select_CString(skilled_vassal.IsFemale, 'показала', 'показав' )],"
   vassal.2301.desc_diplomacy: "особливо в питаннях дипломатії."
@@ -88,39 +76,32 @@
   vassal.2301.b_intrigue: "Я думаю, це #EMP мені#! варто розв'язувати такі делікатні питання."
   vassal.2301.b_learning: "І я маю куди більші знання, щоб розібратися з цим."
   vassal.2301.c: "Васали не повинні дозволяти собі такі вільності."
-
   vassal.2401.t: "Проблиск надії"
-  vassal.2401.desc_family: """Послухай, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_needs_gold'))], мені потрібні гроші""."
+  vassal.2401.desc_family: "\"\"Послухай, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_needs_gold'))], мені потрібні гроші\"\"."
   vassal.2401.desc_other: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetTitleTierName]… Мені потрібні гроші»."
   vassal.2401.desc: "\n\nСпіймавши мій погляд, [Select_CString(vassal_needs_gold.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_needs_gold'))] [vassal_needs_gold.GetTitledFirstName] [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', SCOPE.sC('vassal_needs_gold'))] продовжує: «Я навіть [Select_CString(vassal_needs_gold.IsFemale, 'готова', 'готовий' )] укласти угоду… Будь ласка, я знаю, ви можете допомогти мені!»"
   vassal.2401.a: "[possible_county.GetNameNoTierNoTooltip] в обмін на золото — розумна пропозиція, чи не так?"
   vassal.2401.b: "Адже у вас #EMP вкрай#! вигідний договір..."
   vassal.2401.c: "Ви не можете розібратися зі своїм власним золотом?"
-
   vassal.2451.t: "Найкращий договір"
   vassal.2451.desc: "[Select_CString(negotiating_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('negotiating_vassal'))] [negotiating_vassal.GetTitledFirstName] [Select_CString(negotiating_vassal.IsFemale, 'підійшла', 'підійшов' )] до мене, [ROOT.Char.Custom2('QuirkAdjectivePosOrNeg', SCOPE.sC('negotiating_vassal'))] посміхаючись.\n\n«Я [Select_CString(negotiating_vassal.IsFemale, 'була б дуже вдячна', 'був би дуже вдячний' )], якби ми змогли переглянути мій васальний договір, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetTitleTierName]. Звичайно, я підтверджу свою вдячність силами моєї землі і моєї скарбниці.»."
   vassal.2451.a: "Мене #EMP дуже#! цікавить [possible_county.GetNameNoTierNoTooltip]…"
   vassal.2451.b: "Мою скарбницю не завадило б поповнити, це точно."
   vassal.2451.c: "Жодних угод, [negotiating_vassal.GetFirstNameNoTooltip]."
-
   vassal.2501.t: "Прагнення до миру"
   vassal.2501.desc: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], ця війна… — зітхає [Select_CString(peaceful_vassal.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('peaceful_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('peaceful_vassal'))] [peaceful_vassal.GetTitledFirstName]. — Військам доводиться нелегко, як і всім нам. [Select_CString(peaceful_vassal.IsFemale, 'Повинна', 'Повинен' )] визнати, я сумніваюся у її результаті».\n\nМожливо, мені варто розвіяти [peaceful_vassal.GetHerHis] зростаючі сумніви?"
   vassal.2501.a: "Можливо, варто не так сильно тиснути на н[peaceful_vassal.GetHerHis]?"
   vassal.2501.b: "Нагадайте, хто тут [ROOT.Char.GetTitleTierName]?!"
   vassal.2501.c: "Навчіться тримати свої сумніви при собі."
-
   vassal.2601.t: "Жага війни"
   vassal.2601.desc: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord]! [holder_of_claim.GetTitledFirstName] — адже у вас є привід атакувати [Select_CString(holder_of_claim.IsFemale, 'її', 'його' )] володіння, але ви не дієте… — [Select_CString(warmongering_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('warmongering_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmongering_vassal'))] [warmongering_vassal.GetTitledFirstName] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('warmongering_vassal'))], а потім продовжує: — Чому? Ми надто довго насолоджувалися миром, настав час скористатися нагодою!»"
   vassal.2601.a: "Ви маєте рацію, [warmongering_vassal.GetFirstNameNoTooltip]!"
   vassal.2601.a.tt: "#F [warmongering_vassal.GetFirstName] запам'ятає мою обіцянку#!"
   vassal.2601.b: "Ніхто не змусить мене діяти передчасно."
-
   vassal.2610.desc: "«Вы поступили правильно, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]. [Select_CString(recipient.IsFemale, 'Ця', 'Цей' )] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('recipient'))] [recipient.GetTitledFirstName] дізнається, на що ми здатні! [claim_to_fight_for.GetNameNoTier] буде належати вам!»"
   vassal.2610.a: "Ми виграємо цю війну!"
-
   vassal.2620.desc: "[Select_CString(warmongering_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('warmongering_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmongering_vassal'))] [warmongering_vassal.GetTitledFirstName] [warmongering_vassal.Custom('quirk_neg_present')].\n\n«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], [holder_of_claim.GetTitledFirstName] досі не [Select_CString(holder_of_claim.IsFemale, 'пізнала', 'пізнав' )] ваш гнів і міць ваших військ. Навіщо ви обіцяли мені війну, яку не збиралися починати?»"
   vassal.2620.a: "Просто стільки всього навалилося..."
-
   vassal.2701.t: "[ROOT.Char.Custom('CommanderTraitBeingTaughtNoTooltip')]"
   vassal.2701.desc: "[Select_CString(teacher.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('teacher'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('teacher'))] [teacher.GetTitledFirstName] славиться своїми знаннями у військовій справі, особливо в тих його областях, в яких я знаюся найгірше."
   vassal.2701.a: "Ви навчите мене [teacher.GetFirstNameNoTooltip]?"
@@ -128,38 +109,31 @@
   vassal.2701.a.random_list.success: "Навчання було успішним"
   vassal.2701.a.random_list.failure: "Навчання не було вдалим"
   vassal.2701.c: "У мене є справи важливіші!"
-
   vassal.2702.desc_success_inclination: "«Ви мене дивуєте, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]!»\n\nМої природні здібності до наук, яким мене навчає [teacher.GetTitledFirstName], не є несподіванкою, але мене це все одно тішить."
   vassal.2702.desc_success_no_inclination: "«Ви мене дивуєте, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]!»\n\nПопри відсутність здібностей до військової справи, я сприймаю все, чого мене вчить [teacher.GetTitledFirstNamePossessive], з жадібністю, що дивує навіть мене."
   vassal.2702.desc_failure: "Попри всі старання, все, що показує чи розповідає [teacher.GetTitledFirstName], здається мені безглуздям. Ця витівка приречена на провал."
   vassal.2702.a: "Нарешті я розумію, у чому взагалі річ!"
   vassal.2702.b: "Або [teacher.GetSheHe] поганий вчитель, або я не придатний для цього."
-
   vassal.2801.t: "Вимога сюзерена"
   vassal.2801.desc: "«[ROOT.Char.GetTitledFirstNameNoTooltip], я не міг не помітити, що у володінні [develop_county.GetNameNoTier] вже досить давно не відбувається жодних покращень, хоча у вас є для цього все необхідне»."
   vassal.2801.a: "Я негайно займуся цим!"
   vassal.2801.b: "Якби ви зняли з мене частину інших зобов'язань..."
-
   vassal.2901.t: "[claim_to_propose.GetNameNoTier|U]"
   vassal.2901.desc: "«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetTitleTierName], зараз вам належить дещо... шматок землі, який по праву має бути моїм».\n\n[Select_CString(claim_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('claim_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('claim_vassal'))] [claim_vassal.GetTitledFirstName] [Select_CString(claim_vassal.IsFemale, 'прибула', 'прибув' )] до мене, вимагаючи передати [Select_CString(claim_vassal.IsFemale, 'їй', 'йому' )] володіння [SCOPE.sTitle('claim_to_propose').GetName]."
   vassal.2901.a: "Подивимося, що можна зробити."
   vassal.2901.a.tt: "#F [claim_vassal.GetFirstNameNoTooltip] пам'ятатиме мою обіцянку і буде вдячною, якщо я виконаю її!#!"
   vassal.2901.b: "[claim_to_propose.GetNameNoTierNoTooltip] належить мені!"
   vassal.2901.z: "Ви отримаєте те, що просите."
-
   vassal.2910.desc: "«Дякую вам, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetTitleTierName]!»\n\n[Select_CString(recipient.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('recipient'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('recipient'))] [recipient.GetTitledFirstName] радіє отриманому титулу, а мене тішить нове зобов'язання."
   vassal.2910.a: "Все має свою ціну!"
-
   vassal.2911.desc: "[Select_CString(claim_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('claim_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('claim_vassal'))] лютює. [Select_CString(claim_vassal.IsFemale, 'Вона нарешті зрозуміла', 'Він нарешті зрозумів' )], що моя обіцянка передати [claim_vassal.GetHerHim] володіння [claim_to_propose.GetName] була лише порожніми словами."
   vassal.2911.a: "Я не маю зобов'язань виконувати такі абсурдні прохання."
-
   vassal.3001.t: "Біда, що навалилася"
   vassal.3001.desc_child: "[Select_CString(vassal_to_ask.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] живе в любові, яку дарують [vassal_to_ask.GetHerHim] [vassal_to_ask.GetHerHis] численні [vassal_to_ask.Custom('ChildChildrenGender')]. Це нагадує мені про холод, що панує у моєму власному домі, холод, розсіяти котрий могло б народження ще однієї дитиниа."
   vassal.3001.desc_no_child: "[Select_CString(vassal_to_ask.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] живе в любові, яку дарують [vassal_to_ask.GetHerHim] [vassal_to_ask.GetHerHis] численні [vassal_to_ask.Custom('ChildChildrenGender')]. Це нагадує мені про порожні кімнати і тихі коридори мого будинку."
   vassal.3001.desc: "\n\nЗвичайно ж, ми намагалися, [Select_CString(spouse.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))] [spouse.GetFirstName] і я, але, мабуть, ми щось робимо не так..."
   vassal.3001.a: "Можливо, [vassal_to_ask.GetFirstNameNoTooltip] може дати нам кілька підказок!"
   vassal.3001.b: "Це надто особиста справа."
-
   vassal.3002.desc: "«[ROOT.Char.GetFirstNameNoTooltip], у вас є [ROOT.Char.Custom('ChildChildrenGender')], а ось мені не пощастило. Ви могли б дати мені пораду… як це виправити?»\n\nВухам своїм не вірю! [Select_CString(liege_with_trouble.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('liege_with_trouble'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('liege_with_trouble'))] [liege_with_trouble.GetTitledFirstName] просить мене підказати, що треба робити у спальні!"
   vassal.3002.a: "Що скажете щодо сушених свинячих яєчок та вина?"
   vassal.3002.a.critical_success: "Моя порада привела до разючих результатів"
@@ -172,7 +146,6 @@
   vassal.3002.d: "Думаю, кілька особистих #EMP уроків#! підуть вам на користь."
   vassal.3002.d.tt_success: "[liege_with_trouble.GetSheHe|U] [Select_CString(liege_with_trouble.IsFemale, 'зацікавлена', 'зацікавлений' )] у особистих уроках"
   vassal.3002.d.tt_failure: "[liege_with_trouble.GetSheHe|U] [Select_CString(bird_sender.IsFemale, 'ображена', 'ображений' )]"
-
   vassal.3003.desc_good_counsel: "[Select_CString(vassal_to_ask.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] [Select_CString(vassal_to_ask.IsFemale, 'дала', 'дав' )] мені зілля, заявивши: «Ви відразу ж помітите різницю, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]!»\n\nМене турбує, що [vassal_to_ask.GetTitledFirstName] не хоче розповідати про інгредієнти зілля, але я вже відчуваю, як життєва сила струмує по моїх венах!"
   vassal.3003.desc_bad_counsel: "[Select_CString(vassal_to_ask.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal_to_ask'))] [vassal_to_ask.GetTitledFirstName] [Select_CString(vassal_to_ask.IsFemale, 'дала', 'дав' )] мені зілля, заявивши: «Ви відразу ж помітите різницю, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]!»\n\nМене турбує, що [vassal_to_ask.GetTitledFirstName] не хоче розповідати про інгредієнти зілля, і, відчуваючи скорочення моїх теплих гуморів, я проклинаю [vassal_to_ask.GetHerHis] погану пораду!"
   vassal.3003.desc_making_a_move_on_spouse: "«Пришліть [Select_CString(spouse.IsFemale, 'свою дружину', 'свого чоловіка' )] до мене, [ROOT.Char.GetLadyLord], і я навчу [spouse.GetHerHis], як краще задовольняти вас»."
@@ -184,14 +157,12 @@
   vassal.3003.spouse.tt: "Збільшена Фертильність"
   vassal.3003.c: "Так, особисте керівництво, мабуть, не завадить."
   vassal.3003.d: "Яка зухвалість!"
-
   vassal.3004.desc_spouse: "Ефективність нашого особистого уроку може бути спірною, але [spouse.GetTitledFirstName] безперечно ні на що не скаржиться.\n\nМожливо, [spouse.GetSheHe] дещо [Select_CString(liege_with_trouble.IsFemale, 'засвоїла', 'засвоїв'' )], якщо [spouse.GetHerHis] [spouse.Custom2('RelationToMe', SCOPE.sC('liege_with_trouble'))] достатньо [Select_CString(spouse.IsFemale, 'везуча', 'везучий' )]!.."
   vassal.3004.desc_refused: "[liege_with_trouble.GetTitledFirstName] [Select_CString(liege_with_trouble.IsFemale, 'відмовилася', 'відмовився' )] від моєї допомоги!\n\nСподіваюсь, [liege_with_trouble.GetHerHis] [liege_with_trouble.Custom2('RelationToMe', SCOPE.sC('spouse'))] більш [Select_CString(spouse.IsFemale, 'везуча', 'везучий' )] у їхній спальні!.."
   vassal.3004.desc: "Ефективність нашого особистого уроку може бути спірною, але [liege_with_trouble.GetTitledFirstName] точно ні на що не скаржиться.\n\nМожливо, [liege_with_trouble.GetSheHe] дещо [Select_CString(liege_with_trouble.IsFemale, 'засвоїла', 'засвоїв'' )], якщо [liege_with_trouble.GetHerHis] [liege_with_trouble.Custom2('RelationToMe', SCOPE.sC('spouse'))] достатньо [Select_CString(spouse.IsFemale, 'везуча', 'везучий' )]!.."
   vassal.3004.a: "Це [liege_with_trouble.GetSheHe] багато втрачає!"
   vassal.3004.b: "Запропонувати свої навички — це менше, що я можу!"
   vassal.3004.c: "[spouse.GetFirstNameNoTooltip] добре все засвоює!"
-
   vassal.5010.opening: "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
   vassal.5010.desc: "Можливо, не мені питати, але я хочу знати, чому ви дозволяєте ворогам нашої віри безкарно займатися своїми брудними справами. У нас є і можливість, і право кинути на них справедливу відплату [ROOT.Char.GetFaith.HighGodNamePossessive]. Саме так ми й маємо вчинити!"
   vassal.5010.a: "У найближчі пів року ми рушимо на них війною!"
@@ -199,19 +170,16 @@
   vassal.5010.b: "Всьому свій час..."
   vassal.5010.b.tt: "#F Я обіцяю все і нічого.#!"
   vassal.5010.c: "Та як ви смієте! [ROOT.Char.GetTitleTierName] краще за вас знає, що потрібно робити!"
-
   vassal.5020.t: "Порушено благочестиву обітницю"
   vassal.5020.desc: "Минуло шість місяців з моєї обіцянки надіслати війська проти ворогів віри. [vassal.GetTitledFirstName] не буде в захваті від того, що це так і не було зроблено."
   vassal.5020.a: "Можливо, мені не варто було поспішати з обіцянками."
   vassal.5020.b: "Слова, що вітер."
-
   vassal.5050.desc: "Дозвольте просити, щоб у мудрості своїй ви розглянули мої претензії на володіння [claim.GetName]. [Select_CString(claimed_title_holder.IsFemale, 'Узурпаторша', 'Узурпатор' )] [claimed_title_holder.GetTitledFirstName] не сміє сидіти там, насміхаючись з прав моєї династії. Молю вас, [ROOT.Char.GetLadyLord], підтримайте свого вірного васала і скликайте військо, якщо [claimed_title_holder.GetTitledFirstName] не визнає мою претензію мирно!"
   vassal.5050.a: "Я зобов'язуюсь виступити від вашого імені протягом року!"
   vassal.5050.a.tt: "#F Я обіцяю, що [vassal.GetTitledFirstName] отримає бажане.#!"
   vassal.5050.b: "Всьому свій час..."
   vassal.5050.b.tt: "#F Я діятиму тоді й тільки тоді, коли побачу в цьому вигоду для себе.#!"
   vassal.5050.c: "Я маю більш термінові справи."
-
   vassal.5060.t: "Порушена обіцянка"
   vassal.5060.desc: "Минув рік із моєї обіцянки, що я піду війною за володіння [claim.GetName], як того просить [vassal.GetTitledFirstName]. [vassal.GetTitledFirstName] буде не в захваті від того, що я нічого не роблю, щоб виконати обіцяне."
   vassal.5060.a: "Мабуть, не варто було давати таку обіцянку."

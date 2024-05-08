@@ -10,7 +10,6 @@
   bishop.1001.c.success: "Мені вдається довести святість нашого шлюбу"
   bishop.1001.c.failure: "[bishop.GetTitledFirstNameNoTooltip] не [Select_CString(bishop.IsFemale, 'переконана', 'переконаний' )]"
   bishop.1001.d: "Звісно, про це можна... забути?"
-
   bishop.1011.desc_opening: "Ваша участь у такій фракції, як [faction.GetNameNoTooltip], метою якої є [targeting.GetTitledFirstName], негідно. Якщо ви не покинете її, мені доведеться вжити рішучих заходів."
   bishop.1011.desc_cannibal: "\n\nСкажімо, [Select_CString(cannibal_food.IsFemale, 'ваша', 'ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('cannibal_food'))] [cannibal_food.GetTitledFirstName] виглядає дуже апетитно. Буде #EMP шкода#!, якщо з [Select_CString(cannibal_food.IsFemale, 'нею', 'ним' )] що-небудь трапиться..."
   bishop.1011.desc_beating: "\n\nПоблизу тиняється група фанатиків, які без будь-якої жалості вершили боже правосуддя. [Select_CString(to_beat_up.IsFemale, 'Ваша', 'Ваш' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('to_beat_up'))] [to_beat_up.GetTitledFirstName] досі любить гуляти вулицями на самоті, чи не так?.."
@@ -24,6 +23,5 @@
   bishop.1011.c.success: "[bishop.GetTitledFirstNameNoTooltip] розуміє мої мотиви"
   bishop.1011.c.failure: "[bishop.GetTitledFirstNameNoTooltip] не [Select_CString(bishop.IsFemale, 'вражена', 'вражений' )]"
   bishop.1011.c.failure.tt: "[bishop.GetSheHe|U] вживає рішучих заходів"
-
   bishop.1012.title: "Таємниче зникнення"
   bishop.1012.desc: "[cannibal_food.GetTitledFirstName] [Select_CString(cannibal_food.IsFemale, 'зникла', 'зник' )], залишивши по собі лише калюжу крові..."

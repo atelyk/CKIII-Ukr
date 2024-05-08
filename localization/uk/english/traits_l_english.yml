@@ -1,6 +1,14 @@
 ﻿l_english:
-#Reasons
-  ALREADY_CONTAINTS_TRAIT: "@warning_icon!#X $CHARACTER_NAME$ вже має рису [TRAIT.GetName( CHARACTER.Self )]#!"
+  TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE: "Requires [TraitLevelTrackEntry.GetXpRequired|V0]+ [trait_level_track_xp|E]\n[TraitLevelTrackEntry.GetModifierDescription( Character.Self )][AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)1' ), 'MODIFIER_PREVIOUS_LEVELS_APPLY_NEWLINE' )]"
+  TRAIT_LEVEL_TRACK_ENTRY_DESC: "#V Level [TraitLevelTrackEntry.GetLevel]#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
+  TRAIT_LEVEL_TRACK_ENTRY_DESC_TT: "\n\n#S Level [TraitLevelTrackEntry.GetLevel]#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
+  TRAIT_LEVEL_TRACK_TT: "#T [TraitLevelTrack.GetName]#!\nCurrent Level: [Character.GetTraitTrackLevel( Trait.Self, TraitLevelTrack.Self )|V] #weak ([ComplexBar.GetCurrentValue] [trait_level_track_xp|E])#!\n#flavor [TraitLevelTrack.GetDescription]#![AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)0' ), 'TRAIT_LEVEL_TRACK_ENTRY_DESC_TT' )]"
+  TRAIT_LEVEL_TRACK_SHORT_TT: "#T [TraitLevelTrack.GetName] [Trait.GetName( Character.Self )]#!\n#flavor [TraitLevelTrack.GetDescription]#!"
+  TRAIT_LEVEL_TRACK_PROGRESS_TOOTLIP: "#T [TraitLevelTrack.GetName]#!\nCurrent [trait_level_track_xp|E]: [ComplexBar.GetNextValue|0V]\n#flavor [TraitLevelTrack.GetDescription]#!"
+  TRAIT_LEVEL_TRACKS_HEADER: "[Trait.GetNameNoTooltipWithDefault( Character.Self )] [trait_level_track|E]"
+  TRAIT_LEVEL_TRACK_HEADER: "#V #bold [TraitLevelTrack.GetName]#!#!\n#flavor [TraitLevelTrack.GetDescription]#!\n"
+  #Reasons
+  ALREADY_CONTAINTS_TRAIT: "@warning_icon!#X $CHARACTER_NAME$ already has the trait [TRAIT.GetName( CHARACTER.Self )]#!"
   CONTAINTS_OPPOSITE_TRAIT: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ already has the opposite trait [TRAIT_2.GetName( CHARACTER.Self )]#!"
   IS_POTENTIAL_TRAIT_FALSE: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ is blocked from possessing it#!"
   TRAIT_AGE_NOT_IN_RANGE_TOO_YOUNG: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ is younger than $TRAIT_AGE|V$ #weak (is $CHARACTER_AGE|V$)#!#!"
@@ -9,20 +17,22 @@
   ALREADY_HAS_TRAIT_IN_GROUP: "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] can't be added because $CHARACTER_NAME$ already has the a trait in the [TRAIT_GROUP.GetName] group #weak ([TRAIT_2.GetName( CHARACTER.Self )])#!#!"
   SEX_MALE: "Чоловік"
   SEX_FEMALE: "Жінка"
-
-#Education Traits
-  trait_education_intrigue_1: "Інтриган-Аматор"
-  trait_education_intrigue_1_desc: "Інтриган-Аматор має певну освіту у мистецтві інтриг, проте жодних навичок у цьому мистецтві він не здобув."
-  trait_education_intrigue_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] має певну освіту у мистецтві інтриг, проте жодних навичок у цьому мистецтві не має."
-  trait_education_intrigue_2: "Чудовий Дурилюд"
-  trait_education_intrigue_2_desc: "Чудовий Дурилюд має освіту в мистецтві інтриги, але ще багато чому має навчитися, перш ніж помилки та промахи стануть скоріше винятком, ніж нормою."
-  trait_education_intrigue_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] має освіту в мистецтві інтриги, але ще багато чому має навчитися, перш ніж помилки та промахи стануть скоріше винятком, ніж нормою."
-  trait_education_intrigue_3: "Intricate Webweaver"
-  trait_education_intrigue_3_desc: "The Intricate Webweaver is a master of intrigue, manipulation, and secrecy."
-  trait_education_intrigue_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a master of intrigue, manipulation, and secrecy."
-  trait_education_intrigue_4: "Elusive Shadow"
-  trait_education_intrigue_4_desc: "The Elusive Shadow has excelled as a master of intrigue, and the shroud of secrecy around them is second to none."
-  trait_education_intrigue_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has excelled as a master of intrigue, and the shroud of secrecy around [ROOT.GetCharacter.GetHerHim] is second to none."
+  #Education Traits
+  trait_education_intrigue_1: "Любитель інтриг"
+  trait_education_intrigue_1_desc: "Любитель інтриг має певну освіту з мистецтва інтриг, але будь-які знання в цьому мистецтві вислизнули від цього персонажа."
+  trait_education_intrigue_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] має певну освіту з мистецтва інтриги, але будь-які справжні знання в цьому мистецтві вислизнули від [ROOT.GetCharacter.GetHerHim]."
+  trait_education_intrigue_2: "Яскравий хитрун"
+  trait_education_intrigue_2_desc: "Яскравий хитрун має освіту з мистецтва інтриги, але йому ще багато чому треба навчитися, перш ніж помилки та промахи стануть скоріше винятком, ніж нормою."
+  trait_education_intrigue_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] має освіту з мистецтва інтриги, але йому ще багато чому треба навчитися, перш ніж помилки та промахи стануть винятком, а не нормою."
+  trait_education_intrigue_3: " Хитромудрий Павутинець"
+  trait_education_intrigue_3_desc: "Хитромудрий Павутинець - майстер інтриг, маніпуляцій та секретності."
+  trait_education_intrigue_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] - майстер інтриг, маніпуляцій та таємниць."
+  trait_education_intrigue_4: "Невловима тінь"
+  trait_education_intrigue_4_desc: "Невловима Тінь досконало володіє майстерністю інтриги, а покрив таємниці навколо них не має собі рівних."
+  trait_education_intrigue_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] чудово вміє плести інтриги, а саван таємниці навколо [ROOT.GetCharacter.GetHerHim] не має собі рівних."
+  trait_education_intrigue_5: "Підступний ляльковод"
+  trait_education_intrigue_5_desc: "Підступний ляльковод - це нашіптування вітру, тінь за стіною. Їхній ніж служить там, де не допоможуть слова."
+  trait_education_intrigue_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] - нашіптування вітру, тінь за стіною. Їхній ніж служить там, де не допоможуть слова."
   trait_education_diplomacy_1: "Naive Appeaser"
   trait_education_diplomacy_1_desc: "The Naive Appeaser has been somewhat educated in the art of diplomacy but is nevertheless more often an embarrassment to themselves and those around them than not."
   trait_education_diplomacy_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been somewhat educated in the art of diplomacy but is nevertheless more often an embarrassment to [ROOT.GetCharacter.GetHerselfHimself] and those around [ROOT.GetCharacter.GetHerHim] than not."
@@ -35,18 +45,24 @@
   trait_education_diplomacy_4: "Grey Eminence"
   trait_education_diplomacy_4_desc: "As familiar with the nuances of diplomacy as the back of their hand, the Grey Eminence is a master of the art."
   trait_education_diplomacy_4_character_desc: "As familiar with the nuances of diplomacy as the back of [ROOT.GetCharacter.GetHerHis] hand, [ROOT.GetCharacter.GetFirstNameNoTooltip] is a master of the art."
+  trait_education_diplomacy_5: "Virtuoso Arbitrator"
+  trait_education_diplomacy_5_desc: "The Virtuoso Arbitrator's silver tongue can charm the hardest hearts and open the most barricaded of doors."
+  trait_education_diplomacy_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] silver tongue can charm the hardest hearts and open the most barricaded of doors."
   trait_education_stewardship_1: "Indulgent Wastrel"
   trait_education_stewardship_1_desc: "The Indulgent Wastrel received an education in stewardship to study the flow of money, but unfortunately the flow seems to go only one way..."
   trait_education_stewardship_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] received an education in stewardship to study the flow of money, but unfortunately the flow seems to go only one way..."
   trait_education_stewardship_2: "Thrifty Clerk"
   trait_education_stewardship_2_desc: "The Thrifty Clerk is adequate when it comes to investments and administrations, but blunders in the art of stewardship are still the norm."
   trait_education_stewardship_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is adequate when it comes to investments and administrations, but blunders in the art of stewardship are still the norm."
-  trait_education_stewardship_3: "Fortune Builder"
-  trait_education_stewardship_3_desc: "The Fortune Builder possesses a keen sense for all matters relating to stewardship and is an administrative force to be reckoned with."
-  trait_education_stewardship_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] possesses a keen sense for all matters relating to stewardship and is an administrative force to be reckoned with."
+  trait_education_stewardship_3: "Будівельник долі"
+  trait_education_stewardship_3_desc: "Будівельник долі\" має гострий нюх на всі питання, пов'язані з управлінням, і є адміністративною силою, з якою слід рахуватися.2"
+  trait_education_stewardship_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] має гострий нюх на всі питання, що стосуються управління, і є адміністративною силою, з якою слід рахуватися."
   trait_education_stewardship_4: "Midas Touched"
   trait_education_stewardship_4_desc: "The Midas Touched is followed by success after success in the art of stewardship, displaying an indisputable mastery of the art."
   trait_education_stewardship_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is followed by success after success in the art of stewardship, displaying an indisputable mastery of the art."
+  trait_education_stewardship_5: "Golden Sovereign"
+  trait_education_stewardship_5_desc: "The Golden Sovereign can take a failing enterprise to prosperity with the merest shred of attention, riches springing from where once there was insolvency."
+  trait_education_stewardship_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] can take a failing enterprise to prosperity with the merest shred of attention, riches springing from where once there was insolvency."
   trait_education_martial_1: "Misguided Warrior"
   trait_education_martial_1_desc: "The Misguided Warrior has received an education in the art of war, but is more likely to hurt themselves than their enemies."
   trait_education_martial_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has received an education in the art of war, but is more likely to hurt [ROOT.GetCharacter.GetHerselfHimself] than [ROOT.GetCharacter.GetHerHis] enemies."
@@ -59,6 +75,9 @@
   trait_education_martial_4: "Brilliant Strategist"
   trait_education_martial_4_desc: "The battlefield is the domain of the Brilliant Strategist, and no martial matter is beyond their knowledge."
   trait_education_martial_4_character_desc: "The battlefield is the domain of [ROOT.GetCharacter.GetFirstNameNoTooltip], and no martial matter is beyond [ROOT.GetCharacter.GetHerHis] knowledge."
+  trait_education_martial_5: "Exalted Warlord"
+  trait_education_martial_5_desc: "The Exalted Warlord overcomes seemingly insurmountable odds on the battlefield with consummate ease, turning whole campaigns with a single deft maneuver."
+  trait_education_martial_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] overcomes seemingly insurmountable odds on the battlefield with consummate ease, turning whole campaigns with a single deft maneuver."
   trait_education_martial_prowess_1: "Bumbling Squire"
   trait_education_martial_prowess_1_desc: "The Bumbling Squire is only technically a knight, remembering little from their formal training."
   trait_education_martial_prowess_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is only technically a knight, remembering little from [ROOT.GetCharacter.GetHerHis] formal training."
@@ -71,6 +90,9 @@
   trait_education_martial_prowess_4: "Famous Champion"
   trait_education_martial_prowess_4_desc: "The Famous Champion is known, respected, and perhaps even feared throughout the realm as a paragon of their culture's warrior practices."
   trait_education_martial_prowess_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known, respected, and perhaps even feared throughout the realm as a paragon of [ROOT.Char.GetCulture.GetName] warrior practices."
+  trait_education_martial_prowess_5: "Quicksilver Blade"
+  trait_education_martial_prowess_5_desc: "The Quicksilver Blade's proficiency in combat is spoken of in hushed tones, their name enough to pause even the most grizzled veteran."
+  trait_education_martial_prowess_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] proficiency in combat is spoken of in hushed tones, their name enough to pause even the most grizzled veteran."
   trait_education_learning_1: "Conscientious Scribe"
   trait_education_learning_1_desc: "Despite an education focused on learning the Conscientious Scribe shows little aptitude for the subject — at least they can read..."
   trait_education_learning_1_character_desc: "Despite an education focused on learning, [ROOT.GetCharacter.GetFirstNameNoTooltip] shows little aptitude for the subject — at least [ROOT.GetCharacter.GetSheHe] can read..."
@@ -83,109 +105,95 @@
   trait_education_learning_4: "Mastermind Philosopher"
   trait_education_learning_4_desc: "The Mastermind Philosopher possesses an uncanny insight into all subjects of higher learning."
   trait_education_learning_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] possesses an uncanny insight into all subjects of higher learning."
-
-#Lifestyle Traits
-  trait_diplomat: "Diplomat"
+  trait_education_learning_5: "Erudite Oracle"
+  trait_education_learning_5_desc: "The Erudite Oracle's knowledge of the divine and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles."
+  trait_education_learning_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] knowledge of the divine and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles."
+  #Lifestyle Traits
+  trait_diplomat: "Дипломат"
   trait_diplomat_desc: "The Diplomat navigates the perilous waters of social interactions deftly, and achieves their goals with dazzling charisma and conviction while mediating between the highest rulers of the land."
   trait_diplomat_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] navigates the perilous waters of social interactions deftly, and achieves [ROOT.GetCharacter.GetHerHis] goals with dazzling charisma and conviction while mediating between the highest rulers of the land."
-
-  trait_family_first: "Family First"
+  trait_family_first: "Сім'я завжди головна"
   trait_family_first_neutral: "Family Hierarch"
-  trait_family_first_male: "Patriarch"
-  trait_family_first_female: "Matriarch"
-  trait_family_first_desc: "A person who is truly dedicated to their family, and the prosperity of their House."
+  trait_family_first_male: "Патріарх"
+  trait_family_first_female: "Матріарх"
+  trait_family_first_desc: "Людина, яка по-справжньому віддана своїй родині та процвітанню свого Призвища."
   trait_family_first_character_desc: "A [ROOT.Char.GetWomanMan] who is truly dedicated to [ROOT.Char.GetHerHis] family, and the prosperity of [ROOT.Char.GetHerHis] House."
-
-  trait_august: "August"
-  trait_august_desc: "They are honored as a true ruler, worthy of the empires of old!"
-  trait_august_character_desc: "[ROOT.Char.GetSheHe|U] is honored as a true ruler, worthy of the empires of old!"
-
+  trait_august: "Август"
+  trait_august_desc: "Їх вшановують як справжніх правителів, гідних древніх імперій!"
+  trait_august_character_desc: "[ROOT.Char.GetSheHe|U] вшановується як справжній правитель, гідний древніх імперій!"
   trait_reveler_1: "Eager Reveler"
   trait_reveler_1_desc: "The Eager Reveler has sampled the intoxicating life of carousing and debauchery and is hungry for more."
   trait_reveler_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has sampled the intoxicating life of carousing and debauchery and is hungry for more."
   trait_reveler_2: "Famous Reveler"
-  trait_reveler_2_desc: "The Famous Reveler is the life of every gathering, attracting both debauchery and glamor."
+  #trait_reveler_2_desc: "The Famous Reveler is the life of every gathering, attracting both debauchery and glamor."
   trait_reveler_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the life of every gathering, attracting both debauchery and glamor."
   trait_reveler_3: "Legendary Reveler"
-  trait_reveler_3_desc: "Food, drink, intoxication of both body and mind — the Legendary Reveler denies themselves nothing and is the nexus of every feast."
+  #trait_reveler_3_desc: "Food, drink, intoxication of both body and mind — the Legendary Reveler denies themselves nothing and is the nexus of every feast."
   trait_reveler_3_character_desc: "Food, drink, intoxication of both body and mind — [ROOT.GetCharacter.GetFirstNameNoTooltip] denies [ROOT.GetCharacter.GetHerselfHimself] nothing and is the nexus of every feast."
   trait_blademaster_1: "Aspiring Blademaster"
   trait_blademaster_1_desc: "Deft in personal combat — the Aspiring Blademaster knows which end to stick them with."
   trait_blademaster_1_character_desc: "Deft in personal combat — [ROOT.GetCharacter.GetFirstNameNoTooltip] knows which end to stick them with."
   trait_blademaster_2: "Blademaster"
-  trait_blademaster_2_desc: "The Blademaster is a formidable and respected opponent in all kinds of combat."
+  #trait_blademaster_2_desc: "The Blademaster is a formidable and respected opponent in all kinds of combat."
   trait_blademaster_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a formidable and respected opponent in all kinds of combat."
   trait_blademaster_3: "Legendary Blademaster"
-  trait_blademaster_3_desc: "The prowess of the Legendary Blademaster is the stuff of stories."
+  #trait_blademaster_3_desc: "The prowess of the Legendary Blademaster is the stuff of stories."
   trait_blademaster_3_character_desc: "The prowess of [ROOT.GetCharacter.GetFirstNameNoTooltip] is the stuff of stories."
   trait_hunter_1: "Novice Hunter"
   trait_hunter_1_desc: "The Novice Hunter deftly answers the call of both the wild and the bow."
   trait_hunter_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] deftly answers the call of both the wild and the bow."
   trait_hunter_2: "Hunter"
-  trait_hunter_2_desc: "The Hunter navigates the wilds with uncanny precision and knowledge."
+  #trait_hunter_2_desc: "The Hunter navigates the wilds with uncanny precision and knowledge."
   trait_hunter_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] navigates the wilds with uncanny precision and knowledge."
   trait_hunter_3: "Master Hunter"
-  trait_hunter_3_desc: "The Master Hunter lives for the kill."
+  #trait_hunter_3_desc: "The Master Hunter lives for the kill."
   trait_hunter_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] lives for the kill."
-
   trait_strategist: "Strategist"
   trait_strategist_desc: "A dedicated student of the art of war, who can turn any situation to their advantage."
   trait_strategist_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a dedicated student of the art of war, capable of turning any situation to their advantage."
-
   trait_overseer: "Overseer"
   trait_overseer_desc: "The guidance, firmness of hand, and authority to ensure problems are solved properly."
-
   trait_gallant: "Gallant"
   trait_gallant_desc: "True nobility comes not only from one's blood, but from actions tempered by a spirit like gleaming steel."
-
   trait_architect: "Architect"
   trait_architect_desc: "The works of an experienced builder will stand for centuries."
-
   trait_administrator: "Administrator"
   trait_administrator_desc: "To organize, administrate, and raise efficiency — the Administrator will get it done."
   trait_administrator_character_desc: "To organize, administrate, and raise efficiency — [ROOT.GetCharacter.GetFirstNameNoTooltip] will get it done."
-
   trait_avaricious: "Avaricious"
   trait_avaricious_desc: "Gold, gold, gold! Can there be any higher calling, any goal more noble, than the pursuit of wealth?"
-
   trait_schemer: "Schemer"
   trait_schemer_desc: "To understand and manipulate the things that drive other people — and exploit them!"
   trait_schemer_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] lives to understand and manipulate the things that drive other people — and exploit them!"
-
   trait_seducer: "Seducer"
   trait_seducer_female: "Seductress"
   trait_seducer_desc: "It is not difficult to desire. The true challenge is #EMP to be#! desired."
-
   trait_torturer: "Torturer"
   trait_torturer_desc: "Inflicting pain. Holding someone's life in your hands. This is true power."
-
   trait_whole_of_body: "Whole of Body"
   trait_whole_of_body_desc: "Know yourself, know your limitations, and know the full extent of your reach."
-
   trait_scholar: "Scholar"
   trait_scholar_desc: "Philosophy, nature, and knowledge. Understanding the world is the only way to rule it."
-
   trait_theologian: "Theologian"
   trait_theologian_desc: "Divinity holds the answer to every question, from what resides in the hearts of men, to the mysteries of life."
-
-  trait_mystic_female_1: "Wise Woman"
-  trait_mystic_male_1: "Wise Man"
+  trait_mystic_female_1: "Мудра жінка"
+  trait_mystic_male_1: "Мудрий чоловік"
   trait_mystic_1_desc: "This character is known for their unconventional, but practical, approach to religion."
   trait_mystic_1_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] is known for [ROOT.Char.GetHerHis] unconventional, but practical, approach to religion."
   trait_mystic_2: "Mystic"
-  trait_mystic_2_desc: "This character is known for their unusual methods for achieving religious ascension."
+  #trait_mystic_2_desc: "This character is known for their unusual methods for achieving religious ascension."
   trait_mystic_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] is known for [ROOT.Char.GetHerHis] unusual methods for achieving religious ascension."
   trait_mystic_3: "Miracle Worker"
-  trait_mystic_3_desc: "Incense, chants, and odd cantrips – this character works miracles through unconventional means."
+  #trait_mystic_3_desc: "Incense, chants, and odd cantrips – this character works miracles through unconventional means."
   trait_mystic_3_character_desc: "Incense, chants, and odd cantrips – [ROOT.Char.GetFirstNameNoTooltip] works miracles through unconventional means."
   trait_physician_1: "Novice Physician"
   trait_physician_1_desc: "This character is trained in the art of healing."
   trait_physician_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is trained in the art of healing."
   trait_physician_2: "Physician"
-  trait_physician_2_desc: "This character has plenty of experience tending to the sick and wounded."
+  #trait_physician_2_desc: "This character has plenty of experience tending to the sick and wounded."
   trait_physician_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has plenty of experience tending to the sick and wounded."
   trait_physician_3: "Renowned Physician"
-  trait_physician_3_desc: "This character's healing skills are well known in scholarly circles."
+  #trait_physician_3_desc: "This character's healing skills are well known in scholarly circles."
   trait_physician_3_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] healing skills are well known in scholarly circles."
   lifestyle_herbalist: "Herbalist"
   lifestyle_herbalist_desc: "This character is well versed in herbs, botany, and medical practices related to plants."
@@ -193,20 +201,19 @@
   lifestyle_gardener: "Gardener"
   lifestyle_gardener_desc: "This character knows everything there is to know about gardens, plants, and how to tend to them."
   lifestyle_gardener_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] knows everything there is to know about gardens, plants, and how to tend to them."
-
-#Personality Traits
-  trait_chaste: "Chaste"
-  trait_chaste_desc: "This character dislikes intimate contact, avoiding the temptations of the flesh."
-  trait_chaste_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] dislikes intimate contact, avoiding the temptations of the flesh."
-  trait_lustful: "Lustful"
-  trait_lustful_desc: "Carnal desires burn hot in this character's core."
-  trait_lustful_character_desc: "Carnal desires burn hot in [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] core."
-  trait_temperate: "Temperate"
-  trait_temperate_desc: "According to this character, it's best to enjoy things in moderation."
-  trait_temperate_character_desc: "According to [ROOT.GetCharacter.GetFirstNameNoTooltip], it's best to enjoy things in moderation."
-  trait_gluttonous: "Gluttonous"
-  trait_gluttonous_desc: "This character scoffs at moderation; they want it #EMP all#!."
-  trait_gluttonous_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] frowns at moderation; [ROOT.GetCharacter.GetSheHe] wants it #EMP all#!."
+  #Personality Traits
+  trait_chaste: "Цнотливвсть"
+  trait_chaste_desc: "Цей персонаж не любить інтимних контактів, уникаючи тілесних спокус."
+  trait_chaste_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] не любить інтимних контактів, уникаючи тілесних спокус."
+  trait_lustful: "Хтивівість"
+  trait_lustful_desc: "Плотські бажання палають у серці цього персонажа."
+  trait_lustful_character_desc: "У ядрі [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] палають хтиві бажання."
+  trait_temperate: "Стриманність"
+  trait_temperate_desc: "Цей персонаж дотримується стриманості у всьому, що його оточує."
+  trait_temperate_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip], дотримується стриманості у всьому, що його оточує."
+  trait_gluttonous: "Нестриманність"
+  trait_gluttonous_desc: "Цей персонаж насміхається з стриманості; він хоче #EMP все#!."
+  trait_gluttonous_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] насміхається з стриманості; [ROOT.GetCharacter.GetSheHe] він хоче #EMP все#!."
   trait_generous: "Generous"
   trait_generous_desc: "Acts of benevolence and charity are no strangers to this character."
   trait_generous_character_desc: "Acts of benevolence and charity are no strangers to [ROOT.GetCharacter.GetFirstNameNoTooltip]."
@@ -300,6 +307,9 @@
   trait_forgiving: "Forgiving"
   trait_forgiving_desc: "This character is quick to move on from most things."
   trait_forgiving_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is quick to move on from most things."
+  trait_eccentric: "Eccentric"
+  trait_eccentric_desc: "This character's behavior is seen by others to be erratic and irrational, but there appears to be some method to the madness."
+  trait_eccentric_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] behavior is seen by others to be erratic and irrational."
   trait_rowdy: "Rowdy"
   trait_rowdy_desc: "This child is always on the move, full of energy and mischief. When they are up to something, it is not uncommon for others to get hurt."
   trait_rowdy_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] is always on the move, full of energy and mischief. When [ROOT.Char.GetSheHe] is up to something, it is not uncommon for others to get hurt."
@@ -315,26 +325,21 @@
   trait_bossy: "Bossy"
   trait_bossy_desc: "This child can often be seen ordering other children around. While they are concerned with getting things done the right way, getting things done #EMP their#! way is equally important."
   trait_bossy_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] can often be seen ordering other children around. While [ROOT.Char.GetSheHe] is concerned with getting things done the right way, getting things done #EMP [ROOT.Char.GetHerHis]#! way is equally important."
-
   trait_loyal: "Loyal"
   trait_loyal_desc: "This person takes their relations more seriously than most."
   trait_loyal_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] takes [ROOT.GetCharacter.GetHerHis] relations more seriously than most."
-
   TRAIT_FLAG_DESC_join_factions_less: "Less likely to join [factions|E] against their [liege|E]"
   TRAIT_FLAG_DESC_join_factions_more: "More likely to join [factions|E] against their [liege|E]"
-
   trait_disloyal: "Disloyal"
-  trait_disloyal_desc: "Where most people see a relationship this person sees an opportunity."
-  trait_disloyal_character_desc: "Where most people see a relationship [ROOT.GetCharacter.GetFirstNameNoTooltip] sees an opportunity."
-
-#Stress traits
+  trait_disloyal_desc: "Where most people see a relationship, this person sees an opportunity."
+  trait_disloyal_character_desc: "Where most people see a relationship, [ROOT.GetCharacter.GetFirstNameNoTooltip] sees an opportunity."
+  #Stress traits
   trait_drunkard: "Drunkard"
   trait_drunkard_desc: "This character has taken to the bottle, and is continuously looking for its bottom."
   trait_drunkard_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken to the bottle, and is continuously looking for its bottom."
   trait_hashishiyah: "Hashishiyah"
   trait_hashishiyah_desc: "This character is dependent on the consumption of hashish to deal with the stress of everyday life."
   trait_hashishiyah_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is dependent on the consumption of hashish to deal with the stress of everyday life."
-
   trait_rakish: "Rakish"
   trait_rakish_desc: "This character spends so much time in the brothel that it has become their second home."
   trait_rakish_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] spends so much time in the brothel that it has become [ROOT.GetCharacter.GetHerHis] second home."
@@ -371,11 +376,10 @@
   trait_athletic: "Athletic"
   trait_athletic_desc: "Regular exercise helps this character keep a level head and burn off stress."
   trait_athletic_character_desc: "Regular exercise helps [ROOT.GetCharacter.GetFirstNameNoTooltip] keep a level head and burn off stress."
-
-#Health traits
-  trait_pregnant: "Pregnant"
-  trait_pregnant_desc: "This character is with child."
-  trait_pregnant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been with child for [SCOPE.ScriptValue('pregnancy_month')] months."
+  #Health traits
+  trait_pregnant: "Вагітність"
+  trait_pregnant_desc: "Цей персонаж вагітний."
+  trait_pregnant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] вагітна вже [SCOPE.ScriptValue('pregnancy_month')] місяців."
   trait_depressed_1: "Melancholic"
   trait_depressed_1_desc: "This character has a hard time seeing the good in life."
   trait_depressed_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a hard time seeing the good in life."
@@ -461,16 +465,19 @@
   trait_sickly_desc: "This character is suffering from a sickly disposition."
   trait_sickly_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is suffering from a sickly disposition."
   trait_scarred: "Scarred"
+  trait_scarred_2: "Gnarled"
+  trait_scarred_3: "Mangled"
   trait_scarred_desc: "Visibly wearing the memories of battles or accidents, this character is noticeably scarred."
   trait_scarred_character_desc: "Visibly wearing the memories of battles or accidents, [ROOT.GetCharacter.GetFirstNameNoTooltip] is noticeably scarred."
+  trait_track_scarred: "Scarred"
+  trait_track_scarred_desc: "A scar is often seen as a sign of bravery, but there is always a tipping point to that allure..."
   trait_eunuch: "Eunuch"
   trait_eunuch_desc: "This character has been intentionally castrated."
   trait_eunuch_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been intentionally castrated."
   trait_blind: "Blind"
   trait_blind_desc: "Through an #EMP accident#! or since birth, this character can see nothing."
   trait_blind_character_desc: "Through an #EMP accident#! or since birth, [ROOT.GetCharacter.GetFirstNameNoTooltip] can see nothing."
-
-#Physical Traits
+  #Physical Traits
   trait_beauty_bad_1: "Homely"
   trait_beauty_bad_1_desc: "This character is not pleasant to look at."
   trait_beauty_bad_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is not pleasant to look at."
@@ -485,29 +492,29 @@
   trait_beauty_good_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is pleasant to look at."
   trait_beauty_good_2: "Attractive"
   trait_beauty_good_male_2: "Handsome"
-  trait_beauty_good_female_2: "Pretty"
-  trait_beauty_good_2_desc: "This character has been blessed with a pleasing physique."
-  trait_beauty_good_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been blessed with a pleasing [ROOT.Char.Custom('FemaleMale')] physique."
-  trait_beauty_good_3: "Beautiful"
-  trait_beauty_good_3_desc: "Enthralling, mesmerizing, and lovely; this character outshines most with their beauty."
-  trait_beauty_good_3_character_desc: "Enthralling, mesmerizing, and lovely; [ROOT.GetCharacter.GetFirstNameNoTooltip] outshines most with [ROOT.GetCharacter.GetHerHis] beauty."
+  trait_beauty_good_female_2: "Гарність"
+  trait_beauty_good_2_desc: "Цей персонаж був благословенний приємною статурою."
+  trait_beauty_good_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] був благословенний приємною [ROOT.Char.Custom('FemaleMale')]."
+  trait_beauty_good_3: "Вродливість"
+  trait_beauty_good_3_desc: "Захоплюючий, чарівний і милий; цей персонаж затьмарює своєю красою усіх."
+  trait_beauty_good_3_character_desc: " Захоплюючий, чарівний та милий; [ROOT.GetCharacter.GetFirstNameNoTooltip] затьмарює своєю красою [ROOT.GetCharacter.GetHerHis]."
   trait_intellect_bad_1: "Slow"
   trait_intellect_bad_1_desc: "A lot of things pass this character by unnoticed."
   trait_intellect_bad_1_character_desc: "A lot of things pass [ROOT.GetCharacter.GetFirstNameNoTooltip] by unnoticed."
-  trait_intellect_bad_2: "Stupid"
-  trait_intellect_bad_2_desc: "This character is #EMP not#! blessed with intellect."
+  trait_intellect_bad_2: "Вумність"
+  trait_intellect_bad_2_desc: "Цей персонаж #EMP не#! обдарований інтелектом."
   trait_intellect_bad_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is #EMP not#! blessed with intellect."
   trait_intellect_bad_3: "Imbecile"
   trait_intellect_bad_3_desc: "Dull and witless, this character is a simpleton."
   trait_intellect_bad_3_character_desc: "Dull and witless, [ROOT.GetCharacter.GetFirstNameNoTooltip] is a simpleton."
-  trait_intellect_good_1: "Quick"
-  trait_intellect_good_1_desc: "This character catches on quick."
-  trait_intellect_good_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] catches on quick."
-  trait_intellect_good_2: "Intelligent"
-  trait_intellect_good_2_desc: "This character is smarter than most."
-  trait_intellect_good_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is smarter than most."
-  trait_intellect_good_3: "Genius"
-  trait_intellect_good_3_desc: "A towering intellect and wits to match, this character is brilliant."
+  trait_intellect_good_1: "Кмітливий"
+  trait_intellect_good_1_desc: "Цей персонаж дуже швидко засвоює інформацію."
+  trait_intellect_good_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] легко засвоює."
+  trait_intellect_good_2: "Розумний"
+  trait_intellect_good_2_desc: "Цей персонаж розумніший за інших."
+  trait_intellect_good_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] розумніший за інших."
+  trait_intellect_good_3: "Геніальність"
+  trait_intellect_good_3_desc: "Цей персонаж має неабиякий інтелект та дотепність, він є геніальний."
   trait_intellect_good_3_character_desc: "A towering intellect and wits to match, [ROOT.GetCharacter.GetFirstNameNoTooltip] is brilliant."
   trait_physique_bad_1: "Delicate"
   trait_physique_bad_1_desc: "The body of this character is not as strong as it could be."
@@ -592,15 +599,18 @@
   trait_bleeder: "Bleeder"
   trait_bleeder_desc: "Any kind of wound might prove fatal to this character since their sanguine humors are in a hurry to escape their body."
   trait_bleeder_character_desc: "Any kind of wound might prove fatal to [ROOT.GetCharacter.GetFirstNameNoTooltip] since [ROOT.GetCharacter.GetHerHis] sanguine humors are in a hurry to escape [ROOT.GetCharacter.GetHerHis] body."
-
-#Fame Traits
+  #Fame Traits
   trait_celibate: "Celibate"
   trait_celibate_desc: "This character has sworn themselves to celibacy."
   trait_celibate_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has sworn [ROOT.GetCharacter.GetHerselfHimself] to celibacy."
   trait_pilgrim: "Pilgrim"
+  trait_pilgrim_2: "Experienced Pilgrim"
+  trait_pilgrim_3: "Prolific Pilgrim"
   trait_pilgrim_desc: "This character has completed a pilgrimage to a holy site."
   trait_pilgrim_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has completed a pilgrimage to a holy site."
-  	#Christian version of Faith Warrior
+  trait_pilgrim_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has traveled extensively on pilgrimage and is known as something of an expert in pilgrim travel groups."
+  trait_pilgrim_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is well-known in holy circles as a true [ROOT.GetCharacter.GetWomanMan] of the world. Other Pilgrims often look to [ROOT.GetCharacter.GetFirstNameNoTooltip] for guidance in both spiritual and navigational matters."
+  #Christian version of Faith Warrior
   trait_crusader: "Crusader"
   trait_crusader_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has done [ROOT.GetCharacter.GetHerHis] Christian duty and participated in a Crusade."
   trait_excommunicated: "Excommunicated"
@@ -611,42 +621,43 @@
   trait_devoted_female: "Nun"
   trait_devoted_desc: "This character has dedicated their life to the service of a higher power."
   trait_devoted_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has dedicated [ROOT.GetCharacter.GetHerHis] life to the service of a higher power."
-  	#Child version of Devoted
+  #Child version of Devoted
   trait_devoted_child: "Promised to the Clergy"
   trait_devoted_child_desc: "This child is promised to the clergy, and will eventually dedicate their life to the service of a higher power."
   trait_devoted_child_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is promised to the clergy, and will eventually dedicate [ROOT.GetCharacter.GetHerHis] life to the service of a higher power."
-  	#Indian versions of Devoted
+  #Indian versions of Devoted
   trait_devoted_buddhism_male: "Bhikkhu"
   trait_devoted_buddhism_female: "Bhikkhuni"
   trait_devoted_hinduism_male: "Sanyasi"
   trait_devoted_hinduism_female: "Sanyasini"
   trait_devoted_jainism_male: "Muni"
   trait_devoted_jainism_female: "Aryika"
-  	#Muslim version of Faith Warrior
+  #Muslim version of Faith Warrior
   trait_mujahid: "Mujahid"
   trait_mujahid_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has done [ROOT.GetCharacter.GetHerHis] Islamic duty and participated in a Jihad."
-  	#Muslim version of Pilgrim
+  #Muslim version of Pilgrim
   trait_hajji: "Hajji"
   trait_hajjah: "Hajjah"
   trait_hajjaj_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has completed the Hajj, a pilgrimage to the House of Allah in Mecca."
-  	#Muslim male & female versions of Blood of the Prophet, respectively
+  trait_hajjaj_neutral_desc: "This character has completed the Hajj, a pilgrimage to the House of Allah in Mecca."
+  #Muslim male & female versions of Blood of the Prophet, respectively
   trait_sayyid: "Sayyid"
   trait_sayyida: "Sayyida"
   trait_sayyid_desc: "Coursing through the veins of this character is the Blood of the Prophet."
   trait_sayyid_character_desc: "Coursing through the veins of [ROOT.GetCharacter.GetFirstNameNoTooltip] is the Blood of the Prophet."
-  	#Zoroastrian version of Savior
+  #Zoroastrian version of Savior
   trait_saoshyant: "Saoshyant"
   trait_saoshyant_desc: "This character is here to deliver us all and perhaps bring about Frashokereti, the final renovation of the world."
   trait_saoshyant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is here to deliver us all and perhaps bring about Frashokereti, the final renovation of the world."
-  	#Zoroastrian version of Divine Blood
+  #Zoroastrian version of Divine Blood
   trait_saoshyant_descendant: "Saoshyant Descendant"
   trait_saoshyant_descendant_desc: "This character is a direct descendant of the Saoshyant."
   trait_saoshyant_descendant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a direct descendant of the Saoshyant."
-  	#The Chakravarti
+  #The Chakravarti
   trait_chakravarti: "Chakravarti"
   trait_chakravarti_desc: "This character has united the center of the world, and is the rightful ruler of its entirety."
   trait_chakravarti_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has united the center of the world, and is the rightful ruler of its entirety."
-  	#Greatest of Khans
+  #Greatest of Khans
   trait_greatest_of_khans: "Greatest of Khans"
   trait_greatest_of_khans_desc: "This character has been proclaimed the ruler of the universe itself, by right of conquest."
   trait_greatest_of_khans_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been proclaimed the ruler of the universe itself, by right of conquest."
@@ -669,8 +680,12 @@
   trait_faith_warrior_desc: "This character has participated in a Great Holy War."
   trait_faith_warrior_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has participated in a Great Holy War."
   trait_saint: "Saint"
+  trait_venerated_ancestor: "Venerated Ancestor"
   trait_saint_desc: "Exceptionally holy; the saint is a beacon of light for everyone religious."
   trait_saint_character_desc: "Exceptionally holy; the saint is a beacon of light for everyone religious."
+  trait_legend: "Living Legend"
+  trait_legend_character_desc: "Renowned for [ROOT.GetCharacter.GetHerHis] heroic life, [ROOT.GetCharacter.GetFirstNameNoTooltip] is known to all as a living legend."
+  trait_legend_desc: "Renowned for their heroic life, this character is known to all as a living legend."
   trait_order_member: "Order Member"
   trait_order_member_desc: "This character serves in a militarized Holy Order."
   trait_order_member_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] serves in a militarized Holy Order."
@@ -751,7 +766,6 @@
   trait_adventurer: "Adventurer"
   trait_adventurer_desc: "This character has lead a life of bravery and action as an adventurer."
   trait_adventurer_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has lead a life of bravery and action as an adventurer."
-
   trait_education_republican_knowledge: "Republican Knowledge"
   trait_education_republican_knowledge_1: "Town Dweller"
   trait_education_republican_knowledge_1_desc: "This character has been initiated to the management of cities."
@@ -765,20 +779,18 @@
   trait_education_republican_knowledge_4: "Republican Heir"
   trait_education_republican_knowledge_4_desc: "This character has mastered the arcane art of city management."
   trait_education_republican_knowledge_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has mastered the arcane art of city management."
-
-  	# Female version of Child of Concubine
+  #Female version of Child of Concubine
   trait_child_of_concubine: "Child of Concubine"
   trait_child_of_concubine_desc: "This character was born of a concubine."
   trait_child_of_concubine_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] was born of a concubine."
-  	# Male version of Child of Concubine
+  #Male version of Child of Concubine
   trait_child_of_male_concubine_desc: "This character was fathered by a concubine."
   trait_child_of_male_concubine_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] was fathered by a concubine."
-  	#Witch
+  #Witch
   trait_witch: "Witch"
   trait_witch_desc: "This character dabbles in subjects many would consider occult."
   trait_witch_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] dabbles in subjects many would consider occult."
-
-#Revolting Leader Traits
+  #Revolting Leader Traits
   #Peasnt Leaders
   trait_peasant_leader: "Peasant Leader"
   trait_peasant_leader_desc: "This character is a jumped up peasant who revolted against their betters."
@@ -787,8 +799,7 @@
   trait_heresiarch: "Heresiarch"
   trait_heresiarch_desc: "This character is the local leader of a heretical sect."
   trait_heresiarch_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the local leader of a heretical sect."
-
-#Commander Traits
+  #Commander Traits
   trait_logistician: "Logistician"
   trait_logistician_desc: "If there is one thing the Logistician knows, it is how to make supplies last — and last well."
   trait_logistician_character_desc: "If there is one thing [ROOT.GetCharacter.GetFirstNameNoTooltip] knows, it is how to make supplies last — and last well."
@@ -840,12 +851,10 @@
   trait_winter_soldier: "Winter Soldier"
   trait_winter_soldier_desc: "This character is molded by the bitter cold, and knows how to turn it to their advantage."
   trait_winter_soldier_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is molded by the bitter cold, and knows how to turn it to [ROOT.GetCharacter.GetHerHis] advantage."
-
-# Commander Traits (cultural traditions)
+  #Commander Traits (cultural traditions)
   trait_sea_raider: "Sea Raider"
   trait_sea_raider_desc: "The Sea Raider has no fear of the harshness of the elements at sea, and employs a combination of daring and skillful navigation to strike without warning against unprotected coasts."
   trait_sea_raider_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has no fear of the harshness of the elements at sea, and employs a combination of daring and skillful navigation to strike without warning against unprotected coasts."
-
   #State traits
   trait_disinherited: "Disinherited"
   trait_disinherited_desc: "This character has been disinherited by the [dynast|E] and cannot inherit any title from any other Dynasty member."
@@ -853,14 +862,18 @@
   trait_denounced: "Denounced"
   trait_denounced_desc: "This character has been denounced by their [dynast|E] and can now be imprisoned by any other Dynasty member."
   trait_denounced_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been denounced by [ROOT.GetCharacter.GetHerHis] [dynast|E] and can now be imprisoned by any other Dynasty member."
-
+  trait_decadent: "Accused of Decadence"
+  trait_decadent_desc: "This character has been accused of decadence by their [house_head|E]. Whether the claims are true or not, their reputation and credibility is significantly tarnished."
+  trait_decadent_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has been accused of decadence by [ROOT.GetCharacter.GetHerHis] [house_head|E]. Whether the claims are true or not, [ROOT.GetCharacter.GetHerHis] reputation and credibility is significantly tarnished."
+  trait_extolled: "Extolled by House"
+  trait_extolled_desc: "This character has had their virtues extolled by their [house_head|E]. Whether the attention is deserved or not, they now have a hard time staying away from the prying eyes of the public."
+  trait_extolled_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has had [ROOT.GetCharacter.GetHerHis] virtues extolled by [ROOT.GetCharacter.GetHerHis] [house_head|E]. Whether the attention is deserved or not, [ROOT.GetCharacter.GetSheHe] now has a hard time staying away from the prying eyes of the public."
   genetic_desc: "This Trait is [congenital|E]"
   inheritable_desc: "Can be inherited"
   trait_crusader_king: "Crusader King"
   trait_crusader_king_male_desc: "A great warrior King who has carved his own kingdom out of the lands of the infidels."
   trait_crusader_king_female_desc: "A great warrior Queen who has carved her own kingdom out of the lands of the infidels."
   trait_crusader_king_fallback_desc: "A great warrior-monarch who has carved their kingdom out of the lands of infidels."
-
   trait_augustus: "Augustus"
   trait_augustus_desc: "This character is the current ruler of the restored Roman Empire and commands the respect an office of such magnitude is due."
   trait_augustus_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the current ruler of the restored Roman Empire and commands the respect an office of such magnitude is due."
@@ -872,8 +885,7 @@
   TRAIT_INHERITANCE_POSSIBLE_ONE: "#weak As at least one parent has this Trait, it #underline might#! get inherited.#!"
   TRAIT_INHERITANCE_POSSIBLE_BOTH: "#weak As both parents have this Trait, it #underline might#! get inherited.#!"
   TRAIT_INHERITANCE_UPGRADE_POSSIBLE: "#weak This Trait #underline might#! intensify, resulting in [TRAIT.GetName( CHARACTER.Self )].#!"
-
-  # Crusader names
+  #Crusader names
   trait_crusader_bon: "Kailash Guardian"
   trait_crusader_buddhism: "Atoner"
   trait_crusader_christianity: "Crusader"
@@ -895,8 +907,7 @@
   trait_crusader_west_african_roog: "Takhar's Arbiter"
   trait_crusader_zoroastrianism: "Gond-i Shahanshah"
   trait_crusader_zunism: "Warrior of the Sun"
-
-  # Crusader King names
+  #Crusader King names
   trait_crusader_king_bon_male: "Kailash King"
   trait_crusader_king_bon_female: "Kailash Queen"
   trait_crusader_king_buddhism: "High Aasaan"
@@ -927,53 +938,45 @@
   trait_crusader_king_fallback_male: "Holy King"
   trait_crusader_king_fallback_female: "Holy Queen"
   trait_crusader_king_fallback_dead: "Holy Monarch"
-
-  # Court type traits
+  #Court type traits
   trait_diplomatic_court_1: "Diplomatic Courtier"
   trait_diplomatic_court_1_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a bustling [GetCourtType('court_diplomatic').GetName] filled with emissaries and diplomats."
   trait_diplomatic_court_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a bustling [GetCourtType('court_diplomatic').GetName] filled with emissaries and diplomats."
   trait_diplomatic_court_2: "Valued Diplomatic Courtier"
   trait_diplomatic_court_2_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a truly grand [GetCourtType('court_diplomatic').GetName], rubbing elbows with famed emissaries and prominent diplomats."
   trait_diplomatic_court_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a truly grand [GetCourtType('court_diplomatic').GetName], rubbing elbows with famed emissaries and prominent diplomats."
-
   trait_warlike_court_1: "Warlike Courtier"
   trait_warlike_court_1_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a rowdy [GetCourtType('court_warlike').GetName] populated by warriors and tacticians."
   trait_warlike_court_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a rowdy [GetCourtType('court_warlike').GetName] populated by warriors and tacticians."
   trait_warlike_court_2: "Valued Warlike Courtier"
   trait_warlike_court_2_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a truly grand [GetCourtType('court_warlike').GetName], involving themselves with noble warriors and acclaimed tacticians."
   trait_warlike_court_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a truly grand [GetCourtType('court_warlike').GetName], involving [ROOT.GetCharacter.GetHerselfHimself] with noble warriors and acclaimed tacticians."
-
   trait_administrative_court_1: "Administrative Courtier"
   trait_administrative_court_1_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in an organized [GetCourtType('court_administrative').GetName] home to many bureaucrats and officials."
   trait_administrative_court_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in an organized [GetCourtType('court_administrative').GetName] home to many bureaucrats and officials."
   trait_administrative_court_2: "Valued Administrative Courtier"
   trait_administrative_court_2_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a truly grand [GetCourtType('court_administrative').GetName], observing the daily toil of efficient bureaucrats and influential officials."
   trait_administrative_court_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a truly grand [GetCourtType('court_administrative').GetName], observing the daily toil of efficient bureaucrats and influential officials."
-
   trait_intrigue_court_1: "Intrigue Courtier"
   trait_intrigue_court_1_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a taciturn [GetCourtType('court_intrigue').GetName] hosting smooth-talking envoys and keen-eyed retainers."
   trait_intrigue_court_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a taciturn [GetCourtType('court_intrigue').GetName] hosting smooth-talking envoys and keen-eyed retainers."
   trait_intrigue_court_2: "Valued Intrigue Courtier"
   trait_intrigue_court_2_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a truly grand [GetCourtType('court_intrigue').GetName], where they have learned to stay on their toes among the many silver-tongued envoys and perceptive retainers."
   trait_intrigue_court_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in a truly grand [GetCourtType('court_intrigue').GetName], where [ROOT.GetCharacter.GetSheHe] has learned to stay on [ROOT.GetCharacter.GetHerHis] toes among the many silver-tongued envoys and perceptive retainers."
-
   trait_scholarly_court_1: "Scholarly Courtier"
   trait_scholarly_court_1_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in an erudite [GetCourtType('court_scholarly').GetName] full of learned men and intellectuals."
   trait_scholarly_court_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in an erudite [GetCourtType('court_scholarly').GetName] full of learned men and intellectuals."
   trait_scholarly_court_2: "Valued Scholarly Courtier"
   trait_scholarly_court_2_desc: "This character has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in an erudite [GetCourtType('court_scholarly').GetName] full of astute learned men and esteemed intellectuals."
   trait_scholarly_court_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has spent at least [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] years living in an erudite [GetCourtType('court_scholarly').GetName] full of astute learned [ROOT.GetCharacter.GetWomenMen] and esteemed intellectuals."
-
   ##############
   #Trait Groups#
   ##############
-
   #Mental Groups
   trait_depressed: "Depressed"
   trait_lunatic: "Lunatic"
   trait_possessed: "Possessed"
-
-#Physical Groups
+  #Physical Groups
   trait_beauty_bad: "Homely Characters"
   trait_beauty_good: "Beautiful Characters"
   trait_intellect_bad: "Slow Thinkers"
@@ -981,31 +984,56 @@
   trait_physique_bad: "Fragile Characters"
   trait_physique_good: "Physical Specimens"
   trait_wounded: "Injured"
-
-#Education Groups
+  #Education Groups
   trait_education_intrigue: "Students of Intrigue"
   trait_education_diplomacy: "Students of Diplomacy"
   trait_education_stewardship: "Students of Stewardship"
   trait_education_martial: "Students of Warfare"
   trait_education_learning: "Students of Knowledge"
   trait_education_martial_prowess: "Students of Knighthood"
-
-#Lifestyle Groups
-  trait_lifestyle_reveler: "Revelers"
-  trait_lifestyle_blademaster: "Blademasters"
-  trait_lifestyle_hunter: "Hunters"
-  trait_lifestyle_mystic: "Mystics"
-  trait_lifestyle_physician: "Physicians"
+  #Tiered Traits
+  trait_lifestyle_reveler: "Reveler"
+  trait_lifestyle_blademaster: "Blademaster"
+  trait_lifestyle_hunter: "Hunter"
+  trait_lifestyle_mystic: "Mystic"
+  trait_lifestyle_physician: "Physician"
   trait_lifestyle_herbalist: "Herbalist"
   trait_lifestyle_gardener: "Gardener"
-
-  # Fame Groups
+  #Fame Groups
   trait_kinslayer: "Kinslayers"
-  #trait_child_of_concubine":"trait_child_of_concubine"
-
-# Court Type Groups
+  #trait_child_of_concubine: "trait_child_of_concubine"
+  #Court Type Groups
   trait_diplomatic_court: "Diplomatic Courtiers"
   trait_warlike_court: "Warlike Courtiers"
   trait_administrative_court: "Administrative Courtiers"
   trait_intrigue_court: "Intrigue courtiers"
   trait_scholarly_court: "Scholarly Courtiers"
+  #EP2
+  trait_tourney_participant: "Hastiluder"
+  trait_tourney_participant_desc: "This character has participated in martial games, sharpening their skills in warfare and personal combat."
+  trait_tourney_participant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has participated in martial games, sharpening their skills in warfare and personal combat."
+  trait_track_foot: "Foot"
+  trait_track_foot_desc: "The human body is the ultimate tool, and mastering it will bring you the world."
+  trait_track_horse: "Horse"
+  trait_track_horse_desc: "Beast and rider in perfect harmony, glorious and free beneath the endless blue sky."
+  trait_track_bow: "Bow"
+  trait_track_bow_desc: "The sinews in both bowstring and archer, united to send the arrow striking home."
+  trait_track_wit: "Wit"
+  trait_track_wit_desc: "Strength fades, beauty withers, but a sharp mind will carry you through the darkest of situations."
+  #REWORKED LIFESTYLES
+  trait_lifestyle_hunter_desc: "This character has taken up the call of the wild."
+  trait_lifestyle_hunter_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken up the call of the wild."
+  trait_track_hunter: "Venator"
+  trait_track_hunter_desc: "The sound of the horns, the dogs, the prey! By bow or stable, there is no thrill to compare with bringing down a savage beast!"
+  trait_track_falconer: "Falconer"
+  trait_track_falconer_desc: "There is no nobler pursuit than the sport of hunting with hawk and falcon."
+  trait_track_lifestyle_mystic: "Mystic"
+  trait_track_lifestyle_mystic_desc: "The mysteries of the world, both physical and otherwise, are laid bare with enough musing."
+  trait_track_pilgrim: "Pilgrim"
+  trait_track_pilgrim_desc: "Calloused feet, aching limbs, weathered face. It is all a small price to pay for doing your holy duty."
+  trait_track_lifestyle_reveler: "Reveler"
+  trait_track_lifestyle_reveler_desc: "A drink and a laugh, all with good company. What more is there to life?"
+  trait_track_lifestyle_blademaster: "Blademaster"
+  trait_track_lifestyle_blademaster_desc: "Years of life spent mastering a weapon, that its resultant grace might one day save a life and end another."
+  trait_track_lifestyle_physician: "Physician"
+  trait_track_lifestyle_physician_desc: "Stem the flow of blood there, open a vein there. Those humors will soon be balanced!"

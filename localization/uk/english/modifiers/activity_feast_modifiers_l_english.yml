@@ -19,96 +19,69 @@
   feast_bad_reaction_to_food: "Погана реакція на їжу"
   feast_had_good_fight_modifier: "Гарна бійка"
   feast_loyal_servantry_modifier: "Вірні слуги"
-
   i_am_corteous_guest_modifier: "Чемний гість"
   i_am_corteous_guest_modifier_desc: "Ця людина надзвичайно ввічлива й уважна до господарів гостин, ким би вони не були."
-
   feast_higher_standards_modifier: "Високі стандарти люб'язності"
   feast_higher_standards_modifier_desc: "Певні речі мають лишатися за межею гідності благородної людини."
-
   feast_scholarly_confidence_modifier: "Самовпевненість ученого"
   feast_scholarly_confidence_modifier_desc: "Це не пиха, якщо це правда."
-
   feast_gratifying_complaints_modifier: "Приємні скарги"
   feast_gratifying_complaints_modifier_desc: "Якщо будь-що йде не так, варто відразу почати жалітися."
-
   feast_life_reaffirmed_modifier: "Життя покращується"
   feast_life_reaffirmed_modifier_desc: "Випадкова зустріч зі стравою на бенкеті повернула цьому персонажу жагу до життя."
-
   feast_reinvigorated_by_friend_modifier: "Підтримка друга"
   feast_reinvigorated_by_friend_modifier_desc: "Час, проведений із дорогими нам людьми, знову наповнює життя сенсами."
-
   feast_practiced_secrecy_modifier: "Практична таємниця"
   feast_practiced_secrecy_modifier_desc: "Приховування деяких таємниць вимагає значних умінь."
-
   feast_showed_great_restraint_modifier: "Здатність до стриманості"
   feast_showed_great_restraint_modifier_desc: "Важливо розуміти, коли час піддатися, а коли — відмовити."
-
   feast_bad_form_with_rival_modifier: "Суперник зірвав бенкет"
   feast_bad_form_with_rival_modifier_desc: "Світ був би прекрасним місцем без #EMP деяких людей.#!"
-
   feast_had_interesting_conversation_modifier: "Цікава розмова"
   feast_had_interesting_conversation_modifier_desc: "Гарна бесіда на цікаву тему змушує розум працювати."
-
   feast_bought_more_drink_modifier: "Боротьба зі спрагою"
   feast_bought_more_drink_modifier_desc: "Кожен чуйний господар зобов'язаний забезпечити своїх гостей достатньою кількістю питва!"
-
   feast_good_food_modifier: "Вишукана їжа"
   feast_good_food_modifier_desc: "Приємна їжа — задоволення і розуму, і душі!"
-
   feast_household_efforts_modifier: "Управління домогосподарством"
   feast_household_efforts_modifier_desc: "Глава цього домогосподарства чудово управляє відносинами між гостями та двором."
-
   feast_raucous_entertainment_modifier: "Бурхливі розваги"
   feast_raucous_entertainment_modifier_desc: "Здоровий сміх подовжує життя, якщо жарт був успішний."
-
   feast_suspicious_of_food_modifier: "Підозра до їжі"
   feast_suspicious_of_food_modifier_desc: "Одного разу обпікшись, тепер двічі перевіряє, як приготована їжа."
-
   feast_display_of_ruthlessness_modifier: "Відкритий вияв безжальності"
   feast_display_of_ruthlessness_modifier_desc: "Показавши своє холодне серце та сталеву волю, ця людина справила незабутнє враження."
-
   feast_bird_based_exercise_modifier: "Вправи із птахами"
   feast_bird_based_exercise_modifier_desc: "Цей персонаж винайшов новий цікавий спосіб практики витривалості."
-
   feast_livestock_at_feast_modifier: "Жвавий бенкет"
   feast_livestock_at_feast_modifier_desc: "Бенкет насправді починається тоді, коли до столу запрошують худобу."
-
+  feast_spilled_stew_modifier: "Spilled Stew"
+  feast_spilled_stew_modifier_desc: "This character has generously hosted a feast which was literally swimming in food."
   feast_blew_off_steam_modifier: "Розрядка"
   feast_blew_off_steam_modifier_desc: "Цей персонаж давно вже так не відпочивав!"
-
   feast_hearty_diet_modifier: "Ситна дієта"
   feast_hearty_diet_modifier_desc: "Якісна їжа може полегшити найгірші хвороби."
-
   feast_obsessed_with_garum_modifier: "Одержимий гарумом"
   feast_obsessed_with_garum_modifier_desc: "Він до всього гарний!"
-
   feast_moonlight_shadow_modifier: "Moonlight Shadow"
   feast_moonlight_shadow_modifier_desc: "You certainly carried things away."
-
   feast_observed_modifier: "Observed"
   feast_observed_modifier_desc: "The hairs at the back of your neck were not wrong."
-
   feast_honorable_soul_modifier: "Honorable Soul"
   feast_honorable_soul_modifier_desc: "You resisted the urge to pilfer."
-
   feast_truth_bender_modifier: "Truth Bender"
   feast_truth_bender_modifier_desc: "You tweaked reality. Just a smidge."
-
   feast_untruthful_modifier: "Untruthful"
   feast_untruthful_modifier_desc: "Rumor has it you are spouting non-truths."
-
   feast_came_clean_modifier: "Came Clean"
   feast_came_clean_modifier_desc: "Everybody has issues – coming clean turned your weakness into a strength."
-
   feast_admitted_to_theft_modifier: "Admitted To Stealing"
   feast_admitted_to_theft_modifier_desc: "Such poor behavior."
-
   feast_dutiful_ruler_modifier: "Dutiful Ruler"
   feast_dutiful_ruler_modifier_desc: "You made sure the correct perpetrator was brought to justice."
-
   feast_benevolent_ruler_modifier: "Benevolent Ruler"
   feast_benevolent_ruler_modifier_desc: "You showed forgiveness."
-
   feast_sneakily_defaced_artifact_modifier: "Defaced Artifact"
   feast_sneakily_defaced_artifact_modifier_desc: "You sneakily defaced an artifact."
+  feast_7201_goh_honoured_modifier: "Highly Esteemed"
+  feast_7201_goh_honoured_modifier_desc: "This character has been publically honored at a noble's feast."

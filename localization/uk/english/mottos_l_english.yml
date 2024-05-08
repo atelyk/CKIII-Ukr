@@ -23,7 +23,6 @@
   motto_son_of_x: "$1$ у крові нашій"
   motto_x_over_y: "$1$ понад усе"
   motto_the_ancient_x_is_ours: "$1$ здавна в наших венах"
-  motto_may_god_x_y_knight0: $1$ тебе [CHARACTER.Custom('GetAppropriateGodname')], $2$ лицар"""
   motto_may_god_x_y_knight: "May [CHARACTER.Custom('GetAppropriateGodname')] $1$ $2$ Knight"
   motto_may_x_join_my_coa: "$1$ на гербі"
   motto_until_our_x_engulfs_the_world: "Доки $1$ роду нашого не поглине світ"
@@ -46,8 +45,7 @@
   motto_x_guides_us: "$1$ Guides Us"
   motto_house_was_forged_by_x: "House [CHARACTER.GetHouse.GetBaseNameNoTooltip] was Forged by $1$"
   motto_founder_shares_x: "[CHARACTER.GetFirstName] Shares $1$"
-
-  # Unique Pool (too cool to skip, but no good to randomize)
+  #Unique Pool (too cool to skip, but no good to randomize)
   motto_unique_pool: "$1$"
   motto_thus_should_law_be_followed: "Thus Should Law Be Followed"
   motto_from_near_and_far: "From Near and Far"
@@ -61,7 +59,7 @@
   motto_one_after_another: "One After Another"
   motto_go_and_die: "Go Where You Want, Die Where You Must"
   motto_mourn_rejoice: "Often Mourning, Seldom Rejoicing"
-  motto_trust_them: "Trust Them # I really don't. This is a real motto though!"
+  motto_trust_them: "Trust Them # I really don't. This is a real motto though!" #I really don't. This is a real motto though!
   motto_disarmed_man: "None Shall Freely Attack a Disarmed Man"
   motto_drink_your_blood: "Drink Your Blood, [CHARACTER.Custom('GetDaughterSon')|U] of [CHARACTER.GetHouse.GetBaseNameNoTooltip]"
   motto_from_great_men: "From Great [CHARACTER.GetWomenMen|U] Come the Strong and Good"
@@ -79,8 +77,7 @@
   motto_iron_gold: "By Iron, Not Gold"
   motto_hold_fast: "Hold Fast"
   motto_handsome_enough: "Good and Handsome Enough"
-
-  # Various specific godly things
+  #Various specific godly things
   motto_various_godly_things: "$1$"
   motto_christ_protects_us: "Christ Protects Us"
   motto_christs_promises: "So We Can be Worthy of Christ's Promises"
@@ -93,8 +90,7 @@
   motto_salvation_through_christ: "Христос є спасіння"
   motto_help_o_god: "Допоможи, Боже!"
   motto_sing_of_heavenly_things: "Заспіваємо ми Богові славу та хвалу"
-
-  # Immaterial Nouns
+  #Immaterial Nouns
   motto_goodness: "Добродія"
   motto_honor: "Честь"
   motto_truth: "Істина"
@@ -152,8 +148,7 @@
   motto_enlightenment: "Enlightenment"
   motto_compassion: "Compassion"
   motto_inspiration: "Inspiration"
-
-  # Immaterial Adjectives
+  #Immaterial Adjectives
   motto_honorable: "Honorable"
   motto_truthful: "Truthful"
   motto_triumphant: "Triumphant"
@@ -183,8 +178,7 @@
   motto_cunning: "Cunning"
   motto_brave: "Brave"
   motto_calm: "Calm"
-
-  # the Immaterial Adjectives
+  #the Immaterial Adjectives
   motto_the_honorable: "the Honorable"
   motto_the_truthful: "the Truthful"
   motto_the_triumphant: "the Triumphant"
@@ -214,8 +208,7 @@
   motto_the_cunning: "мудрований"
   motto_the_brave: "хоробрий"
   motto_the_calm: "спокійний"
-
-  # Immaterial Adjectives + a or an
+  #Immaterial Adjectives + a or an
   motto_an_honorable: "поважний"
   motto_a_truthful: "правдивий"
   motto_a_triumphant: "величний"
@@ -245,8 +238,7 @@
   motto_a_cunning: "мудрований"
   motto_a_brave: "хоробрий"
   motto_a_calm: "спокій"
-
-  # Noble Act
+  #Noble Act
   motto_defend: "Захист"
   motto_protect: "Захистити"
   motto_avenge: "Помститися"
@@ -277,16 +269,14 @@
   motto_respect_verb: "Respect"
   motto_honor_verb: "Honor"
   motto_trust_verb: "Trust"
-
-  # Weapon
+  #Weapon
   motto_sword_word: "Sword"
   motto_axe: "Axe"
   motto_spear: "Spear"
   motto_bow: "Bow"
   motto_lance: "Lance"
   motto_hammer: "Hammer"
-
-  # the Weapon
+  #the Weapon
   motto_the_sword_word: "the Sword"
   motto_the_axe: "the Axe"
   motto_the_spear: "the Spear"
@@ -294,15 +284,13 @@
   motto_the_lance: "the Lance"
   motto_the_hammer: "the Hammer"
   motto_the_pen: "the Pen"
-
-  # Appropriate Godname
+  #Appropriate Godname
   motto_god: "God"
   motto_the_perfected_ones: "the Perfected Ones"
   motto_the_divine: "the Divine"
   motto_the_gods: "the Gods"
   motto_custom_loc_god: "[CHARACTER.GetFaith.HighGodName]"
-
-  # Creature
+  #Creature
   motto_wolf: "Wolf"
   motto_bear: "Bear"
   motto_eagle: "Eagle"
@@ -321,8 +309,7 @@
   motto_gazelle: "Gazelle"
   motto_hippopotamus: "Hippopotamus"
   motto_reindeer: "Reindeer"
-
-  # the Creature
+  #the Creature
   motto_the_wolf: "the Wolf"
   motto_the_bear: "the Bear"
   motto_the_eagle: "the Eagle"
@@ -341,8 +328,7 @@
   motto_the_gazelle: "the Gazelle"
   motto_the_hippopotamus: "the Hippopotamus"
   motto_the_reindeer: "the Reindeer"
-
-  # Annoying Action Verb
+  #Annoying Action Verb
   motto_irritate: "Irritate"
   motto_irk: "Irk"
   motto_vex: "Vex"
@@ -353,8 +339,7 @@
   motto_defy: "Defy"
   motto_mock: "Mock"
   motto_face: "Face"
-
-  # Negative Nouns
+  #Negative Nouns
   motto_envy: "Envy"
   motto_doubt: "Doubt"
   motto_malice: "Malice"
@@ -363,8 +348,7 @@
   motto_cruelty: "Cruelty"
   motto_greed: "Greed"
   motto_wrath: "Wrath"
-
-  # Negative Adjectives
+  #Negative Adjectives
   motto_envious: "Envious"
   motto_doubtful: "Doubtful"
   motto_malicious: "Malicious"
@@ -372,8 +356,7 @@
   motto_greedy: "Greedy"
   motto_wrathful: "Wrathful"
   motto_fearful: "Fearful"
-
-  # Norse-specific
+  #Norse-specific
   motto_odins_wisdom: "Odin's Wisdom"
   motto_odins_brilliance: "Odin's Brilliance"
   motto_odins_frenzy: "Odin's Frenzy"
@@ -415,18 +398,16 @@
   motto_mimirs_knowledge: "Mimir's Knowledge"
   motto_hodurs_trustiness: "Hodur's Trustiness"
   motto_ratatoskrs_two_front_teeth: "Ratatoskr's Two Front Teeth"
-
-  # Scripted
+  #Scripted
   dynn_Briain_motto: "The Strong Hand From Above"
   dynn_Habsburg_motto: "A.E.I.O.U."
   dynn_Canossa_motto: "When the Dog Will End His Bone, House Canossa Will End"
   dynn_Hauteville_motto: "God's Hand Made Wonders, God's Hand Made Me"
   dynn_Renart_motto: "Cunning as the Fox"
   dynn_Tengil_motto: "All makt åt Tengil, vår befriare!"
-  	#Paraphrasing Alfred the Great
+  #Paraphrasing Alfred the Great:
   dynn_Wessex_motto: "What punishments may befall us when we do not cherish or transmit learning?"
-
-  # Scripted (Easter Egg)
+  #Scripted (Easter Egg)
   dynn_Oltner_motto: "Hungry Like the Duck"
   dynn_Anward_motto: "Words Can Bring Down Empires"
   dynn_Tisander_motto: "We may Forgive, but never Forget"
@@ -442,7 +423,6 @@
   dynn_Bjarnehed_motto: "..."
   dynn_Vilberg_motto: "Advance in All Directions"
   dynn_Olbers_motto: "Acceptable"
-  dynn_skjaeran_motto: "Less is More"
   dynn_Depre_motto: "From the Ashes a Fire Shall be Woken"
   dynn_Lane_motto: "We Choose Violence"
   dynn_Tiger_motto: "Enjoy the Silence"
@@ -504,10 +484,8 @@
   dynn_Beaumont_vanity_motto: "O' woe, what's this?"
   dynn_andriamasinavalona_motto: "The border of my rice fields is the sea"
   dynn_Shefket_vanity_motto: "In Vino Veritas"
-
+  dynn_Strom_motto: "Wish you were Beer"
   dynn_brantevik_vanity_motto: "Those who dwell among the beauties and mysteries of the earth are never alone or weary of life"
-
-
   dynn_Cortell_vanity_motto: "Family is unity, unity is fortitude"
   dynn_Arvidsson_Radestig_motto: "Valhalla Can Wait"
   dynn_Newcombe_motto: "Words Words Words"
@@ -518,12 +496,26 @@
   dynn_Astrup_Hallkvist_motto: "Swords, not Words"
   dynn_Voleau_motto: "When it's not one, it's the other"
   dynn_Berg_Hulthen_vanity_motto: "It's fine"
-  dynn_Stokic_motto: "The naked man fears no pickpocket!"
-
+  dynn_Stokic_motto: "Whilom, the ear attentive outweighs the mouth loquacious."
+  dynn_markovic_motto: "Life is short, eat dessert first... and second."
   dynn_Uhl_motto: "I lean on my spear and drink"
   dynn_Cantalini_motto: "We've Made A Huge Mistake"
   dynn_Melosso_motto: "Life will get better, but it will never be good"
   dynn_Kowalczyk_motto: "Any choice is right, so long as it's willed. That's the truth."
   dynn_Jorstedt_motto: "If you do not like what is being said, change the conversation"
-  dynn_Pazos_motto: "Tu quid?"
+  dynn_Pazos_motto: "Nescit Cedere"
   dynn_Matsdotter_motto: "Zephyrus est Optimus"
+  dynn_Ribeiro_motto: "Life is as it is, not as you will it"
+  dynn_Granholm_motto: "Orsa company promises nothing definite"
+  dynn_Bean_motto: "You Speak First"
+  dynn_Hedberg_motto: "We're always better together"
+  dynn_Versekys_motto: "To hell with it!"
+  dynn_Drake_motto: "Aquila Non Captat Muscas"
+  dynn_Husen_motto: "Keep your head up and trot along"
+  dynn_Lopez_motto: "No Mead For Me, Please!"
+  dynn_verdugo_motto: "The earth is alive"
+  dynn_Velasquez_motto: "Every turd has its flies"
+  dynn_Passoni_motto: "Always Eat and Feast"
+  dynn_Mannetje_motto: "Cras Est Alius Dies"
+  dynn_Le_Jensen_motto: "Try hard, go far, in the end it will matter"
+  dynn_bure_motto: "Virtue is true honour"

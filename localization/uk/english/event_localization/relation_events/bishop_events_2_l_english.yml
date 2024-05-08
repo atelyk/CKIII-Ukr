@@ -15,7 +15,6 @@
   tooltip.bishop.c.2001.fail: "[scoped_prisoner.GetTitledFirstName] йде у повній безпеці"
   bishop.2001.failure.c.desc.tt: "[scoped_prisoner.GetFirstName] уникає моїх вбивць!"
   bishop.2001.d: "Це [Select_CString(scoped_prisoner.IsFemale, 'моя в'язня', 'мій в'язень' )], і [scoped_prisoner.GetSheHe] залишиться в моїй темниці!"
-
   bishop.2002.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]а сім'я"
   bishop.2002.desc.b: "Я піднімаю руку, щоб [scoped_relative.GetFirstName] [Select_CString(scoped_relative.IsFemale, 'звернула', 'звернув' )] на мене увагу, але [Select_CString(scoped_relative.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_relative'))] лише кидає на мене збентежений погляд, а потім стрімко йде геть."
   bishop.2002.desc.c: "Я оглядаю тих, хто зібрався за обіднім столом, намагаючись почати розмову, але всі зніяковіло дивляться на мене і відводять погляд."
@@ -27,7 +26,6 @@
   bishop.2002.failure.a.desc.tt: "Мої рідні відмовилися прислухатись до мене."
   bishop.2002.b: "Чи допоможе публічне каяття?"
   bishop.2002.c: "Я не дозволю, щоб [scoped_bishop.GetCouncilTitle|U] [Select_CString(scoped_bishop.IsFemale, 'ставила', 'ставив' )] під сумнів мою владу!"
-
   bishop.2003.t: "Священник простих людей"
   bishop.2003.desc: "І дня не минає, щоб [scoped_bishop.GetCouncilTitle] [scoped_bishop.GetFirstName] не [Select_CString(scoped_bishop.IsFemale, 'виставила', 'виставив' )] мене на посміховисько у своїх проповідях.\n\n[Select_CString(scoped_bishop.IsFemale, 'Ця одержима', 'Цей одержимий' )] [scoped_bishop.Custom('InsultNoun')] вважає, що керує мною [ROOT.Char.GetFaith.DevilName], і не заспокоїться, доки не налаштує проти мене селян."
   bishop.2003.a: "Пожертви та кілька покаянь заспокоять [scoped_bishop.GetHerHis]..."
@@ -39,3 +37,8 @@
   bishop.2002.everypiousrelative.custom: "Усі мої благочестиві [scoped_bishop.GetFaith.GetAdjective]і [family_members|El]"
   bishop.2003.countyunrest.custom: "Кожне [scoped_bishop.GetFaith.GetAdjective]е [county|E] в моєму [Concept( 'domain', 'домені' )|E]"
   bishop.2003.everytheocrat.custom: "Всі [scoped_bishop.GetFaith.GetAdjective]і [theocratic_vassals|El]"
+  bishop.2004.t: "In the Eyes of Zealots"
+  bishop.2004.desc: "My [scoped_bishop.GetCouncilTitle] [scoped_bishop.GetFirstName] has complained about my supposed 'lack of piety' during every sermon as of late.\n\nApparently [scoped_bishop.GetSheHe] has gone so far as to call me an 'impious [root_scope.Custom('InsultNoun')]', and my more zealous vassals are starting to listen to [scoped_bishop.GetHerHim]..."
+  bishop.2004.theologian: "These are blatant lies and slander!"
+  bishop.2004.a: "I suppose another 'donation in good faith' might help..."
+  bishop.2004.b: "Bah! Let them believe what they will."

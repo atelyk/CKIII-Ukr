@@ -1,7 +1,6 @@
 ﻿l_english:
   HEADER_CRUSADER_KINGS_3: "#credits_title CRUSADER KINGS III#!"
   TITLE_CREATIVE_DIRECTOR: "#credits_subheader Креативний директор#!"
-
   HEADER_PROJECT_LEADS: "#credits_header КЕРІВНИКИ ПРОЄКТУ#!"
   TITLE_PROJECT_LEAD_GAME_DIRECTOR: "#credits_subheader Директор гри#!"
   TITLE_PROJECT_LEAD_SENIOR_PRODUCER: "#credits_subheader Старший продюсер#!"
@@ -15,7 +14,10 @@
   TITLE_STUDIO_ART_DIRECTOR: "#credits_subheader Художній керівник студії#!"
   TITLE_DESIGN_DIRECTOR: "#credits_subheader Директор по дизайну#!"
   TITLE_PRODUCTION_DIRECTOR: "#credits_subheader Директор з виробництва#!"
-
+  TITLE_PRODUCTION_LEAD: "#credits_subheader Production Lead#!"
+  TITLE_CCP_CREATOR: "#credits_subheader Content Creator Pack Developer#!"
+  TITLE_GAME_DESIGN_DEPUTY: "#credits_subheader Game Design Deputy#!"
+  TITLE_CODE_OWNER: "#credits_subheader Code Owner#!"
   HEADER_DESIGN: "#credits_header ДИЗАЙН#!"
   TITLE_GAME_DESIGN: "#credits_subheader Дизайн гри#!"
   TITLE_ADDITIONAL_DESIGN: "#credits_subheader Додатковий дизайн#!"
@@ -23,13 +25,11 @@
   TITLE_CONTENT_DESIGN: "#credits_subheader Контент-дизайн#!"
   TITLE_EXTERNAL_CONTENT_DESIGN: "#credits_subheader Дизайн зовнішнього контенту#!"
   TITLE_ADDITIONAL_CONTENT_DESIGN: "#credits_subheader Додатковий дизайн контенту#!"
-
   HEADER_PROGRAMMING: "#credits_header ПРОГРАМУВАННЯ#!"
   TITLE_PROGRAMMERS: "#credits_subheader Програмісти#!"
   TITLE_LEAD_AI_PROGRAMMERS: "#credits_subheader Провідні програмісти AI відділу#!"
   TITLE_AI_PROGRAMMERS: "#credits_subheader AI Програмісти#!"
   TITLE_ADDITIONAL_PROGRAMMERS: "#credits_subheader Додаткові програмісти#!"
-
   HEADER_ART: "#credits_header ART ВІДДІЛ#!"
   TITLE_ART_DIRECTOR: "#credits_subheader Art-Директор#!"
   TITLE_ADDITIONAL_ART_DIRECTION: "#credits_subheader Додаткове Art керівництво#!"
@@ -45,12 +45,10 @@
   TITLE_VFX: "#credits_subheader Візуальні ефекти#!"
   TITLE_LIGHTING_ARTIST: "#credits_subheader Художник з освітлення#!"
   TITLE_OUTSOURCING_ARTIST: "#credits_subheader Художник з аутсорсингу#!"
-
   HEADER_FREELANCE_ART: "#credits_header ФРІЛАНСЕРИ-МИТЦІ#!"
   TITLE_LOADING_SCREEN_ILLUSTRATIONS: "#credits_subheader Завантаження екранних ілюстрацій#!"
   TITLE_ILLUSTRATIONS: "#credits_subheader Ілюстрації#!"
   TITLE_COAT_OF_ARMS: "#credits_subheader Герби#!"
-
   HEADER_AUDIO: "#credits_header ЗВУК#!"
   TITLE_AUDIO_PRODUCER: "#credits_subheader Аудіо продюсер#!"
   TITLE_AUDIO_DIRECTOR: "#credits_subheader Звукорежисер#!"
@@ -59,14 +57,12 @@
   TITLE_AUDIO_MANAGER: "#credits_subheader Аудіо менеджер#!"
   TITLE_COMPOSITION_AND_PRODUCTION: "#credits_subheader Склад і виробництво#!"
   TITLE_LIVE_RECORDING: "#credits_subheader Живий запис#!"
-
   HEADER_MUSIC: "#credits_header Музика#!"
   TITLE_HEAD_OF_MUSIC: "#credits_subheader Керівництво музичного відділу#!"
   TITLE_MUSIC_COMPOSER_AND_PRODUCER: "#credits_subheader Музичний Композитор і Продюсер#!"
   TITLE_ADDITIONAL_MUSIC: "#credits_subheader Додаткова музика#!"
   TITLE_MUSICIANS: "#credits_subheader Музиканти#!"
   TITLE_KALABALIK: "#credits_subheader Калабалик#!"
-
   HEADER_QA: "#credits_header Забезпечення якості#!"
   TITLE_EMBEDDED_QA_TESTERS: "#credits_subheader Тестери з відділу Якості#!"
   TITLE_QA_MANAGER: "#credits_subheader Менеджер з контролю якості#!"
@@ -74,25 +70,26 @@
   TITLE_PROJECT_COORDINATOR: "#credits_subheader Координатор проєкту#!"
   TITLE_QA_TESTERS: "#credits_subheader Тестери з відділу Якості#!"
   TITLE_TEST_AUTOMATION_ENGINEER: "#credits_subheader Інженер з автоматизації тестування#!"
-
   HEADER_PRODUCT_AND_MARKETING: "#credits_header ПРОДУКТ ТА МАРКЕТИНГ#!"
   TITLE_PRODUCT_MANAGER: "#credits_subheader Менеджер по продукції#!"
   TITLE_PRODUCT_MARKETING_MANAGER: "#credits_subheaderМенеджер з маркетингу продукту#!"
   TITLE_CONTENT_PRODUCER: "#credits_subheader Продюсер контенту#!"
   TITLE_COMMUNITY_MANAGER: "#credits_subheader Менеджер спільноти#!"
+  TITLE_COMMUNITY: "#credits_subheader Community#!"
   TITLE_COMMUNITY_DEVELOPER: "#credits_subheader Розвиток спільноти#!"
   TITLE_COMMUNITY_AMBASSADOR: "#credits_subheader Представники спільноти#!"
   TITLE_PARTNER_ACCOUNT_MANAGER: "#credits_subheader Менеджер по роботі з партнерами#!"
+  TITLE_PARTNER_MARKETING_MANAGER: "#credits_subheader Partner Marketing Manager#!"
   TITLE_PERFORMANCE_MARKETING_MANAGER: "#credits_subheader Менеджер з Перформанс Маркетингу#!"
   TITLE_PR: "#credits_subheader ПІАР#!"
   TITLE_PR_LEAD: "#credits_subheader Керівник PR#!"
+  TITLE_PR_MANAGER: "#credits_subheader PR Manager#!"
   TITLE_ANALYTICS: "#credits_subheader Аналітика#!"
   TITLE_USER_RESEARCH: "#credits_subheader Дослідження користувачів#!"
   TITLE_LOCALIZATION_MANAGER: "#credits_subheader Менеджер з локалізації#!"
   TITLE_COMPATIBILITY_TESTING: "#credits_subheader Перевірка сумісності#!"
   HEADER_PRODUCTION_HEIRS: "#credits_header СПАДКОЄМЦІ ВИРОБНИЦТВА#!"
   HEADER_SPECIAL_MENTION: "#credits_header ОСОБЛИВА ЗГАДКА#!"
-
   HEADER_PARADOX_DEVELOPMENT_STUDIO: "#credits_header PARADOX DEVELOPMENT STUDIO#!"
   TITLE_COO: "#credits_subheader ГОЛОВНИЙ ОПЕРАЦІЙНИЙ ДИРЕКТОР#!"
   TITLE_EVP_CREATIVE_DIRECTION: "#credits_subheader Творче керівництво EVP#!"
@@ -137,7 +134,6 @@
   TITLE_QA_EMBEDDED: "#credits_subheader Внутрішній контроль якості#!"
   TITLE_QA_TEAM_LEAD: "#credits_subheader Керівник групи Якості#!"
   TITLE_QA_PROJECT_COORDINATOR: "#credits_subheader Координатор проєкту Якості#!"
-
   HEADER_PARADOX_INTERACTIVE: "#credits_header PARADOX INTERACTIVE#!"
   HEADER_MANAGEMENT: "#credits_header УПРАВЛІННЯ#!"
   TITLE_BUSINESS_OWNER: "#credits_subheader Власник бізнесу#!"
@@ -187,6 +183,7 @@
   TITLE_USER_RESEARCH_ADMINISTRATOR: "#credits_subheader Адміністратор відділу дослідження користувачів#!"
   TITLE_DATA_SCIENTISTS: "#credits_subheader Фахівці за даними#!"
   TITLE_VICE_PRESIDENT_SALES: "#credits_subheader Віце-президент із продажу#!"
+  TITLE_SALES: "#credits_subheader Sales#!"
   TITLE_COMMERCIAL_MANAGERS: "#credits_subheader Комерційні менеджери#!"
   TITLE_TRADE_MARKETING_MANAGER: "#credits_subheader Менеджер рекламного відділу#!"
   TITLE_ECOMMERCE_MANAGER: "#credits_subheader Менеджер електронної комерції#!"
@@ -223,7 +220,6 @@
   TITLE_JUNIOR_USER_ACQUISITION_MANAGER_MOBILE: "#credits_subheader Молодший менеджер із залучення користувачів у мобільні ігри#!"
   TITLE_PAID_MEDIA: "#credits_subheader Платні медіа#!"
   TITLE_PROJECT_SENIOR_LOCALIZATION_PRODUCER: "#credits_subheader Старший продюсер локалізації#!"
-
   HEADER_EXTERNAL_ART_PARTNERS: "#credits_header ЗОВНІШНІ ART ПАРТНЕРИ#!"
   TITLE_3D_ART: "#credits_subheader 3D-Графіка#!"
   HEADER_EXTERNAL_TECHNOLOGY_PARTNERS: "#credits_header ЗОВНІШНІ ТЕХНОЛОГІЧНІ ПАРТНЕРИ#!"
@@ -244,6 +240,10 @@
   TITLE_LQA_TEST_LEAD: "#credits_subheader Керівник тестування контролю якості локалізації#!"
   TITLE_LQA_TEAM: "#credits_subheader Команда контролю якості локалізації#!"
   HEADER_LOCALIZATION_VENDORS_FREELANCERS: "#credits_header ПІДРЯДНИКИ ТА ФРИЛАНСЕРИ ЛОКАЛІЗАЦІЇ#!"
+  TITLE_LOCALIZATION_SERVICE_PROVIDER: "#credits_subheader Localization Service Provider#!"
+  TITLE_TRANSLATOR: "#credits_subheader Translator#!"
+  TITLE_LEAD_EDITOR: "#credits_subheader Lead Editor#!"
+  TITLE_REVIEWER: "#credits_subheader Reviewer#!"
   TITLE_GENERAL_ADMIN_MANAGEMENT: "#credits_subheader Генеральний адміністратор та менеджмент#!"
   TITLE_FRENCH: "#credits_subheader Французька#!"
   TITLE_SIMPLIFIED_CHINESE: "#credits_subheader Спрощена китайська#!"
@@ -258,29 +258,28 @@
   TITLE_LOCALIZATION_TOOLS: "#credits_subheader Інструменти локалізації#!"
   TITLE_SPANISH: "#credits_subheader Іспанська#!"
   HEADER_BETA_TESTERS: "#credits_header БЕТА-ТЕСТЕРИ#!"
-
+  TITLE_TEAM: "#credits_subheader Team#!"
   HEADER_LICENSES: "#credits_header ЛІЦЕНЗІЇ#!"
   TITLE_LICENCE_NOTIFICATION_HEADER: "#credits_subheader Ліцензійний заголовок повідомлення#!"
-
   HEADER_SPECIAL_THANKS: "#credits_header Особлива подяка всім учасникам форуму, партнерам та тим, хто підтримував нас. Ваша підтримка безцінна!#!"
-
-
+  TITLE_SPECIAL_THANKS: "#credits_subheader Special Thanks#!"
   HEADER_CRUSADER_KINGS_3_NORTHERN_LORDS: "#credits_title CRUSADER KINGS III: NORTHERN LORDS#!"
   TITLE_VIKING_CHOIR: "#credits_subheader Viking Choir#!"
-
   HEADER_CRUSADER_KINGS_3_AZURE: "#credits_title CRUSADER KINGS III: AZURE#!"
   HEADER_CRUSADER_KINGS_3_ROYAL_COURT: "#credits_title CRUSADER KINGS III: ROYAL COURT#!"
-
   HEADER_PARADOX_DEVELOPMENT_STUDIO_RED: "#credits_header Paradox Development Studio Red#!"
   HEADER_PARADOX_THALASSIC: "#credits_header Paradox Thalassic#!"
-
   HEADER_CRUSADER_KINGS_3_FATE_OF_IBERIA: "#credits_title CRUSADER KINGS III: FATE OF IBERIA#!"
   HEADER_PARADOX_DEVELOPMENT_STUDIO_BLACK: "#credits_header Paradox Development Studio Black#!"
   TITLE_PROJECT_LOCALIZATION_PRODUCER: "#credits_subheader Продюсер локалізації#!"
   TITLE_RELEASE_ENGINEER: "#credits_subheader Реліз-інженер#!"
   TITLE_TECHNICAL_ANIMATOR: "#credits_subheader Технічний аніматор#!"
   TITLE_MUSIC_BUSINESS_DIRECTOR: "#credits_subheader Бізнес-директор з музики#!"
-
   HEADER_CRUSADER_KINGS_3_FRIENDS_AND_FOES: "#credits_title CRUSADER KINGS III: FRIENDS & FOES#!"
-
-  HEADER_CRUSADER_KINGS_3_ROBE":"#credits_title CRUSADER KINGS III: ROBE#!"
+  HEADER_CRUSADER_KINGS_3_ROBE: "#credits_title CRUSADER KINGS III: ROBE#!"
+  HEADER_CRUSADER_KINGS_3_TOURS_AND_TOURNAMENTS: "#credits_title CRUSADER KINGS III: TOURS AND TOURNAMENTS#!"
+  HEADER_CRUSADER_KINGS_3_WARDS_AND_WARDENS: "#credits_title CRUSADER KINGS III: WARDS AND WARDENS#!"
+  TITLE_EMBEDDED_QA_ANALYST: "#credits_subheader Embedded QA Analyst#!"
+  HEADER_CRUSADER_KINGS_3_LEGACY_OF_PERSIA: "#credits_title CRUSADER KINGS III: LEGACY OF PERSIA#!"
+  HEADER_CRUSADER_KINGS_3_NORTH_AFRICAN_ATTIRE: "#credits_title CRUSADER KINGS III: NORTH AFRICAN ATTIRE#!"
+  HEADER_CRUSADER_KINGS_3_LEGENDS_OF_THE_DEAD: "#credits_title CRUSADER KINGS III: LEGENDS OF THE DEAD#!"

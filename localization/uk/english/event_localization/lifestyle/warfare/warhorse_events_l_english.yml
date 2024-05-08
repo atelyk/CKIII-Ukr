@@ -4,7 +4,6 @@
   warhorse.0001.a: "Ім'я, натхненне історією!"
   warhorse.0001.b: "У міфології вистачає грізних імен!"
   warhorse.0001.c: "Це просто кінь, і ім'я буде відповідним."
-
   warhorse.0002.desc: "Надихнувшись знаменитими кіньми полководців та героїв минулого, я назву свого скакуна на честь одного з них."
   warhorse.0002.a: "Тенцендур, на честь коня Карла Великого!"
   warhorse.0002.b: "Буцефал, на честь коня Олександра Великого!"
@@ -14,7 +13,6 @@
   warhorse.0002.f: "Veillantif — like Roland's horse!"
   warhorse.0002.g: "Incitatus — Emperor Caligula's favorite!"
   warhorse.0002.go_back: "Хм, подумаємо про іншу тему..."
-
   warhorse.0003.desc: "Міфи різних народів багаті на визначні події — і на імена коней."
   warhorse.0003.llamrei: "Llamrei — after the horse of King Arthur!"
   warhorse.0003.sleipnir: "Sleipnir — same as the steed that carried Oden!"
@@ -30,13 +28,11 @@
   warhorse.0003.balius: "Balius — one of Achilles' own!"
   warhorse.0003.xanthos: "Xanthos — the name of Achilles' other horse would fit better!"
   warhorse.0003.boreas: "Boreas — the ancient Greek god of the north wind!"
-
   warhorse.0004.desc: "Коня слід назвати, як називають звичайних тварин."
   warhorse.0004.a: "Бойовий кінь"
   warhorse.0004.b: "Аббат"
   warhorse.0004.c: "Танцюрист"
   warhorse.0004.d: "Гліттерхуф"
-
   warhorse.1001.t: "[ROOT.Char.Custom('WarhorseStoryName')|U]: [ROOT.Char.Custom('HorseStoryMareStallion')|U], що заслуговує на довіру"
   warhorse.1001.desc: "Мій кінь, [ROOT.Char.Custom('WarhorseStoryName')], став досить відомим, і, почувши про цю тварину, до мене звернувся уславлений берейтор, пропонуючи свої послуги.\n\n«Натомість я прошу зовсім небагато»."
   warhorse.1001.a: "[ROOT.Char.Custom('HorseStoryHerHim')|U] потрібно стати сильнішим."
@@ -49,15 +45,12 @@
   warhorse.1001.f.tt: "Your $master_of_horse_court_position$ starts training [THIS.Char.Custom('WarhorseStoryName')]"
   warhorse.1001.f.failure: "You overestimated your $master_of_horse_court_position$"
   warhorse.1001.f.failure.tt: "[m_horse.GetTitledFirstNameNoTooltip] fails at training [ROOT.Char.Custom('WarhorseStoryName')]."
-
   warhorse.1002.desc: "[ROOT.Char.Custom('WarhorseStoryName')] добре вчиться, результат уже видно!"
   warhorse.1002.a: "Вдале вкладення грошей!"
-
   warhorse.1101.t: "[ROOT.Char.Custom('WarhorseStoryName')|U]: сонячний день"
   warhorse.1101.desc: "Я прямую до стайні, та [ROOT.Char.Custom('WarhorseStoryName')] вітає мене радісним іржанням. [ROOT.Char.Custom('HorseStorySheHe')|U], схоже, радіє гарній погоді й не проти розім'ятися - як і я."
   warhorse.1101.a: "Мені потрібно використати кожну можливість для тренувань!"
   warhorse.1101.b: "Було б злочином не насолодитися таким добрим днем!"
-
   warhorse.1201.t: "[ROOT.Char.Custom('WarhorseStoryName')|U]: хвороба"
   warhorse.1201.desc: "Коли [ROOT.Char.Custom('WarhorseStoryName')] насилу виходить зі стійла, тягнучи ноги й опустивши голову, у мене не залишається сумнівів: [ROOT.Char.Custom('HorseStoryMareStallion')] хворіє.\n\nГоловний конюх запевняє, що від цієї хвороби є ліки, але вони дорого коштують."
   warhorse.1201.a: "Я заплачу будь-яку ціну!"
@@ -65,26 +58,21 @@
   warhorse.1201.b_good: "[THIS.Char.Custom('WarhorseStoryName')] справляється із хворобою"
   warhorse.1201.b.tt: "[THIS.Char.Custom('HorseStorySheHe')|U] тепер менше вам довіряє"
   warhorse.1201.b_bad: "[THIS.Char.Custom('WarhorseStoryName')] вмирає від хвороби"
-
   warhorse.1301.t: "[ROOT.Char.Custom('WarhorseStoryName')|U]: любитель коней"
   warhorse.1301.desc: "[horse_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] з ніг до голови оглядає мого скакуна, схвально киваючи головою.\n\n«Ось це [ROOT.Char.Custom('HorseStoryMareStallion')], [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetTitleTierName]! Для мене було б честю, якби ви дозволили мені проїхатись»."
   warhorse.1301.a: "Прошу!"
   warhorse.1301.a.tt: "[THIS.Char.Custom('WarhorseStoryName')] славиться своєю лютістю, а [horse_vassal.GetFirstNameNoTooltip] не відрізняється особливою майстерністю. Чи не постраждає [SCOPE.sC('horseStory_vassal').GetSheHe]?"
   warhorse.1301.b: "[ROOT.Char.Custom('WarhorseStoryName')] тільки для мене!"
-
   warhorse.1401.t: "[ROOT.Char.Custom('WarhorseStoryName')|U]: жахливий кінь"
   warhorse.1401.desc: "З настанням темряви я опиняюся у стайні в цілковитій самоті. Лише [ROOT.Char.Custom('HorseStoryMareStallion')] [ROOT.Char.Custom('WarhorseStoryName')], переступаючи ногами, порушує нічну тишу. Є щось дивне в [ROOT.Char.Custom('HorseStoryHerHis')] погляді, щось... #EMP лякаюче#!.\n\n[ROOT.Char.Custom('HorseStoryHerHis')|U] погляд переслідує мене, коли я повертаюся до виходу: я ще довго не можу забути холодок, що пробіг по моїй спині."
   warhorse.1401.a: "Це безглуздо - [ROOT.Char.Custom('HorseStorySheHe')] всього лише кінь."
   warhorse.1401.a.tt: "#F Але чому ви не можете забути [THIS.Char.Custom('HorseStoryHerHis')] погляд?#!"
   warhorse.1401.b: "Ця тварина проклята, позбавтеся її!"
-
   warhorse.1402.desc: "Побиті копитами ноги, руки покусані, а тіло все в синцях від падінь... [ROOT.Char.Custom('WarhorseStoryName')] радісно ірже, майже скинувши мене на спис солдата, і я не знаю, скільки ще витримаю."
   warhorse.1402.a: "Коню не перемогти мене!"
   warhorse.1402.b: "[ROOT.Char.Custom('WarhorseStoryName')] закінчить свою історію на цьому."
-
   warhorse.1499.desc: "У мене не йде з голови, як [ROOT.Char.Custom('HorseStoryMareStallion')] [ROOT.Char.Custom('WarhorseStoryName')] дивиться на мене: я не можу позбутися страху. Все відбувається, коли ми повертаємось із невеликої прогулянки. [ROOT.Char.Custom('HorseStorySheHe')|U] викидає мене з сідла, коли ми проїжджаємо повз скелястий виступ, і я падаю головою прямо на гострий камінь. Біль засліплює мене, і останнє, що я чую, це гучне іржання. А потім все стихає…"
   warhorse.1499.a: "[ROOT.Char.Custom('WarhorseStoryName')]... за що?"
-
   warhorse.8001.t: "[ROOT.Char.Custom('WarhorseStoryName')|U]: кінець життя"
   warhorse.8001.desc: "[ROOT.Char.Custom('WarhorseStoryName')] старіє. [ROOT.Char.Custom('HorseStoryHerHis')|U] крок уже не такий швидкий, як раніше, вогонь у [ROOT.Char.Custom('HorseStoryHerHis')] очах згасає.\n\nЯкщо я хочу продовжити [ROOT.Char.Custom('HorseStoryHerHis')] рід, потрібно знайти [ROOT.Char.Custom('HorseStoryHerHim')] підходящу пару."
   warhorse.8001.a: "[ROOT.Char.Custom('HorseStoryOppositeMareStallion')] - це в першу чергу сила."
@@ -92,10 +80,8 @@
   warhorse.8001.c: "Найголовніша якість, яку може мати [ROOT.Char.Custom('HorseStoryOppositeMareStallion')], це витривалість."
   warhorse.8001.d: "Знайдіть найлютішого скакуна в цих землях!"
   warhorse.8001.e: "Ні, нехай проведе свої останні дні у спокої."
-
   warhorse.8002.t: "[ROOT.Char.Custom('WarhorseStoryName')|U]: коло життя"
   warhorse.8002.desc: "[ROOT.Char.Custom('WarhorseStoryName')] вмирає, але залишає після себе сильне потомство! Я вже бачу [ROOT.Char.Custom('HorseStoryHerHis')] риси у лошаті. До певної міри мій друг все ще зі мною."
   warhorse.8002.a: "Спочивай з миром, [ROOT.Char.Custom('WarhorseStoryName')]."
-
   warhorse.8003.desc: "На стайні на мене чекають сумні звістки. [ROOT.Char.Custom('WarhorseStoryName')] вмирає цієї ночі, залишивши порожнечу в моєму серці."
   warhorse.8003.a: "О [ROOT.Char.Custom('WarhorseStoryName')], мені буде тебе не вистачати!"

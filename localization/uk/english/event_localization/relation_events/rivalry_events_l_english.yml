@@ -3,11 +3,9 @@
   rivalry.0001.desc: "«[ROOT.Char.GetTitledFirstNameNoTooltip], в минулому у нас були розбіжності, але погодьтеся: що було, то пройшло?»\n\n[rival.Custom2('MyCharacterIntroduction', ROOT.Char)|U] вказує спочатку на мене, потім — на себе: «Що б не було між нами... почнімо все спочатку!»"
   rivalry.0001.a: "Так, давайте."
   rivalry.0001.b: "Ви готові плазувати переді мною?! Най славиться [ROOT.Char.GetFaith.HighGodName]!"
-
   rivalry.0002.t: "Зарити сокиру війни"
   rivalry.0002.desc: "Тепер з плином часу все здається таким дивним! Ненависть, відчайдушне бажання завдати болю...\nЗаради чого?\n\n[rival_response.GetTitledFirstName] більше не здається мені ворогом."
   rivalry.0002.a: "Що було, то загуло."
-
   rivalry.0003.t: "Негідний супротивник"
   rivalry.0003.imprisoned.desc: "Коли мені повідомили, що [nemesis.GetTitledFirstName] [Select_CString(nemesis.IsFemale, 'опинилась', 'опинився' )] за ґратами,"
   rivalry.0003.incapable.desc: "Коли мені повідомили, що [nemesis.GetTitledFirstName] після нещасного випадку може лише пускати слину, не встаючи з ліжка,"
@@ -17,7 +15,6 @@
   rivalry.0003.uncompassionate.desc: "Але згодом [nemesis.GetHerHis] жалюгідний стан мені #EMP набрид#!. Мені не приносить задоволення катувати покірливу забиту мишу."
   rivalry.0003.a: "Час закінчити цей розділ."
   rivalry.0003.b: "Я ніколи [nemesis.GetHerHis] не пробачу! Нізащо!"
-
   rivalry.1001.t: "Завжди поблизу"
   rivalry.1001.desc.opening: "[rival.GetTitledFirstName] безперервно псує мені життя.\n\n"
   rivalry.1001.malicious: "Деколи мені здається, що [rival.GetSheHe] знищує все, що я роблю, та ще й посміхається при цьому!"
@@ -30,7 +27,6 @@
   rivalry.1001.levelheaded: "[Select_CString(rival.IsFemale, 'Вона', 'Він' )] ніколи не втрачає нагоди підірвати мій авторитет або завдати мені болючої образи."
   rivalry.1001.desc.fallback: "Іноді здається, що всюди, де я йду, відразу з'являється і [rival.GetTitledFirstName]. [Select_CString(rival.IsFemale, 'Вона', 'Він' )] немов тінь, що затьмарює кожен мій день."
   rivalry.1001.a: "Прокляття на тебе, [rival.GetFirstName]!"
-
   rivalry.1010.t: "Злочини"
   rivalry.1010.desc: "Мене завжди дратувала [rival.Custom('InsultBehavior')], що так часто виявляє [SCOPE.sCharacter('rival').GetTitledFirstName], але"
   rivalry.1010.desc.patient: "При всій моїй терпеливості навіть мені може допекти [rival.Custom('InsultBehavior')], що так часто виявляє [SCOPE.sCharacter('rival').GetTitledFirstName], і"
@@ -45,21 +41,17 @@
   rivalry.1010.b.badfailure.tt: "#F Моє авторство було розкрито #!"
   rivalry.1010.c: "Висловити [SCOPE.sCharacter('rival').GetHerHim] в обличчя все, що я думаю про [rival.GetHerHis] поведінку!"
   rivlary.1010.c.tt: "#F [rival.GetTitledFirstName] відреагує на вашу догану #!"
-
   rivalry.1011.t: "Злі слова"
   rivalry.1011.desc.poem: "Нещодавно з'явилася нова поема, в якій висміююсь я і моя [ROOT.GetCharacter.Custom('quirk_neg_noun')]. Я не можу довести, що за цією спробою очорнити мене стоїть [from_rival.GetTitledFirstName], але текст буквально кричить про [from_rival.GetHerHis] причетність."
   rivalry.1011.desc.rumors: "При дворі вже якийсь час ходять обурливі чутки, в центрі яких моя особистість - особливо моя [ROOT.GetCharacter.Custom('quirk_neg_noun')]. Куди я не піду, всюди мене зустрічають злий шепіт і жорстокі глузування. Ця підла тактика не здивувала мене, адже саме таким чином і діє зазвичай [from_rival.GetTitledFirstName]!"
   rivalry.1011.a: "Я відплачу [from_rival.GetHerHim] за це!"
-
   rivalry.1012.t: "Безглузді фантазії"
   rivalry.1012.desc.poem: "Мені щойно повідомили, що [from_rival.GetTitledFirstName] [Select_CString(from_rival.IsFemale, 'склала', 'склав' )] злобну поему, щоб висміяти мене! Але вона настільки убого написана, що тепер [Select_CString(from_rival.IsFemale, 'сама', 'сам' )] [from_rival.GetFirstName] [Select_CString(from_rival.IsFemale, 'стала', 'став' )] об'єктом глузувань: як можна було витратити стільки гарного пергаменту на цю нісенітницю!"
   rivalry.1012.desc.rumors: "Мені щойно повідомили, що [from_rival.GetTitledFirstName] [Select_CString(from_rival.IsFemale, 'намагалася', 'намагався' )] поширювати злі чутки про огидні речі, якими я нібито займаюся за зачиненими дверима. [Select_CString(from_rival.IsFemale, 'Ця', 'Цей' )] [from_rival.Custom('quirk_neg_adjective')][Select_CString(from_rival.IsFemale, 'а тварина', 'ий мерзотник' )], мабуть, має якесь збочене уявлення про мене: чутки вийшли настільки безглуздими і неймовірними, що всі від них просто відмахнулися. Натомість усі шепочуться про те, що [from_rival.GetFirstName] [Select_CString(from_rival.IsFemale, 'скотилася', 'скотився' )] до ганебних і жалюгідних вчинків."
   rivalry.1012.a: "Катюзі по заслузі."
-
   rivalry.1013.t: "Чутки розходяться"
   rivalry.1013.desc: "Мені вдалося успішно розпустити при дворі скандальні чутки, головним героєм яких є [rival.GetTitledFirstName]. Схоже, тепер це нова улюблена тема для пліток та домислів. Мені повідомили, що [rival.GetTitledFirstName] все сильніше сердиться і нервується, намагаючись покласти їм кінець!"
   rivalry.1013.a: "Можливо, це нарешті покаже [rival.GetHerHim] [rival.GetHerHis] місце."
-
   rivalry.1014.t: "Чутки не прижилися!"
   rivalry.1014.desc.start: "Ніхто не приймає серйозні чутки про те, чим займається [rival.GetTitledFirstName]. Люди вважають їх дикими і безглуздими і швидше сміються"
   rivalry.1014.desc.hidden: "над їх автором, говорячи, що це"
@@ -67,32 +59,26 @@
   rivalry.1014.desc.end: "шкода і по-дитячому і негідно опускатися до такої тактики."
   rivalry.1014.a: "Принаймні, мені вдалося замести сліди..."
   rivalry.1014.a.exposed: "Усе пішло не за планом."
-
   rivalry.1015.t: "Популярна поема"
   rivalry.1015.desc: "Мої дотепні рими та тонкі натяки, в яких жорстко висміюється [SCOPE.sCharacter('rival').GetTitledFirstName], поширилися по [SCOPE.sCharacter('rival').GetHerHis] двору, подібно до лісової пожежі! Незважаючи на всі свої зусилля, [SCOPE.sCharacter('rival').GetSheHe] ніяк не може покінчити з їх поширенням, і це лише посилює [SCOPE.sCharacter('rival').GetHerHis] сум'яття!"
   rivalry.1015.a: "Можливо, це нарешті покаже [rival.GetHerHim] [rival.GetHerHis] місце."
-
   rivalry.1016.t: "Поема не вдалася"
   rivalry.1016.desc: "Після написання кількох поем, у яких [Select_CString(rival.IsFemale, 'висміювалася', 'висміювався' )] [SCOPE.sCharacter('rival').GetTitledFirstName] и [Select_CString(rival.IsFemale, 'її', 'його' )] характер, мені залишалося лише поширити їх при дворі та чекати.\n\nНа жаль, схоже, моя творчість виявилася не надто популярною... Точніше, всі одностайно вважають ці поеми нісенітницею, що не варті навіть пергаменту, на якому вони написані!"
   rivalry.1016.desc.exposed: "Гірше того, оскільки всі знають, наскільки [Select_CString(rival.IsFemale, 'ненависна', 'ненависний' )] мені [rival.GetTitledFirstName], моє авторство виявилося розкрито!"
   rivalry.1016.a: "Добре, що вони не підписані."
   rivalry.1016.a.exposed: "І чому мені це здавалося гарною ідеєю?"
-
   rivalry.1017.t: "Нахабна образа!"
   rivalry.1017.desc: "Коли я [ROOT.GetCharacter.Custom('quirk_pos_adverb')] [Select_CString(ROOT.IsFemale, 'займалася', 'займався' )] своїми справами, [from_rival.GetTitledFirstName] [Select_CString(from_rival.IsFemale, 'підійшла і образила', 'підійшов і образив' )] мене.\n\n[from_rival.GetSheHe|U] [Select_CString(from_rival.IsFemale, 'заявила', 'заявив' )], що я [ROOT.GetCharacter.Custom('quirk_neg_adjective')] [ROOT.GetCharacter.Custom('InsultNoun')]!"
   rivalry.1017.a: "Я відповім на це новими образами!"
   rivalry.1017.b: "Ця брехлива тварюка відповість за свої слова на поєдинку!"
   rivalry.1017.b.tt: "#F Я доведу цій нікчемності, що я краще н[SCOPE.sCharacter('from_rival').GetHerHis] #!"
   rivalry.1017.c: "Я вчиню правильно, підставивши іншу щоку."
-
   rivalry.1018.t: "Заходи у відповідь"
   rivalry.1018.desc: "У відповідь на мої образи, покликані показати всім, що я думаю, [rival.GetTitledFirstName] [Select_CString(rival.IsFemale, 'вибухнула', 'вибухнув' )] потоком лайки та образ!\n\nБагато хто в державі сприйняв цей обмін лайками як дитячу витівку, і в результаті обидві сторони втратили обличчя."
   rivalry.1018.a: "Це все [rival.GetHerHis] вина! Чому [Select_CString(rival.IsFemale, 'вона така', 'він такий' )] [rival.Custom('quirk_neg_adjective')][Select_CString(rival.IsFemale, 'а', 'ий' )]?!"
-
   rivalry.1019.t: "Injuria Gratis"
   rivalry.1019.desc: "Після того як [rival.GetTitledFirstName] [Select_CString(rival.IsFemale, 'вислухала', 'вислухав' )] всі мої образи та повний перелік своїх недоліків, [rival.GetSheHe] нічого не [Select_CString(rival.IsFemale, 'змогла , 'зміг' )] відповісти на свій захист. Мені стало ясно, що відтепер [SCOPE.sCharacter('rival').GetSheHe] знатиме своє місце."
   rivalry.1019.a: "Мені було ясно, що [rival.GetSheHe] [Select_CString(rival.IsFemale, 'слабка', 'слабак')]!"
-
   rivalry.1020.t: "Поєдинок за образу!"
   rivalry.1020.desc: "Вислухавши, як я поливаю брудом [rival.GetHerHis] і [rival.GetHerHis] [rival.Custom('quirk_neg_noun')], [rival.GetTitledFirstName] [Select_CString(rival.IsFemale, 'порахувала', 'порахував' )] це за смертельну образу і [Select_CString(rival.IsFemale, 'викликала', 'викликав' )] мене на поєдинок, щоб відновити зневажену честь!"
   rivalry.1020.a: "Буде тобі поєдинок [rival.GetFirstNameNoTooltip]!"
@@ -101,32 +87,26 @@
   rivalry.1022.tt: "Перемога з великими труднощами"
   rivalry.1023.tt: "Майже перемога"
   rivalry.1024.tt: "Принизлива поразка"
-
   rivalry.1021.t: "Тріумфальна перемога"
   rivalry.1021.desc: "З початку поєдинку стає зрозуміло, що [from_rival.GetTitledFirstName] мені не рівня. Я продовжую тиснути, не даючи [from_rival.GetHerHim] прийти до тями. Незабаром [from_rival.GetSheHe] робить помилку і залишає пролом в обороні, і я не втрачаю можливості [ROOT.GetCharacter.Custom('SignatureWeaponCritical')] [from_rival.GetHerHis] руку, тим самим закінчуючи бій!\n\nВідмінно, що моя перемога вийшла швидкою та рішучою."
   rivalry.1021.a: "Мені вдалося довести, що я краще, ніж [SCOPE.sCharacter('duel_target').GetFirstNameNoTooltip]!"
-
   rivalry.1022.t: "Перемога з великими труднощами"
   rivalry.1022.desc: "Я і [from_rival.GetTitledFirstName] починаємо поєдинок, і я відразу розумію, що противник не настільки слабший, як мені здавалося. Якийсь час ми обмінюємося ударами та блоками, і нікому не вдається отримати перевагу.\n\nЗрештою ми обидва починаємо втомлюватися, в [from_rival.GetHerHis] захисті виникає пролом, що дозволяє мені [ROOT.GetCharacter.Custom('SignatureWeaponCritical')] [SCOPE.sCharacter('duel_target').GetHerHis] ногу та закінчити бій!"
   rivalry.1022.a: "Перемога доводить мою правоту."
-
   rivalry.1023.t: "Майже перемога"
   rivalry.1023.desc: "Коли [from_rival.GetTitledFirstName] і я починаємо поєдинок, я розумію, що [from_rival.GetSheHe] набагато серйозніший противник, ніж мені здавалося. Бій напружений, ми обмінюємося ударами і блоками, шукаючи вразливе місце один в одного.\n\nНарешті я починаю втомлюватися, ненадовго послаблюю захист, і [from_rival.GetFirstName] сповна цим користується: [ROOT.GetCharacter.Custom('signature_weapon')] в [from_rival.GetHerHis] руці стрімко опускається, щоб [ROOT.GetCharacter.Custom('SignatureWeaponCritical')] мою руку."
   rivalry.1023.desc.end: "У мене сильно плескає кров, і мені доводиться поступитися поєдинком."
   rivalry.1023.desc.death: "Мої рани даються взнаки, і я повільно сповзаю на землю."
   rivalry.1023.a: "Наступного разу я здолаю тебе, [from_rival.GetTitledFirstNameNoTooltip]!"
   rivalry.1023.a.death: "В очах темнішає..."
-
   rivalry.1024.t: "Принизлива поразка"
   rivalry.1024.desc: "Коли [from_rival.GetTitledFirstName] і я зустрічаємося, щоб розпочати наш поєдинок, [from_rival.GetSheHe] не втрачає часу і відразу переходить до справи, застигши мене зненацька! Я щосили намагаюся втриматися, але [SCOPE.sCharacter('duel_target').GetFirstName] своїми запеклими атаками не дає мені можливості прийти до тями.\n\nНевдовзі [from_rival.GetSheHe] пробиває мій захист, і [ROOT.GetCharacter.Custom('signature_weapon')] в [from_rival.GetHerHis] руці опускається, щоб [ROOT.GetCharacter.Custom('SignatureWeaponCriticalPresent')] мою ногу,"
   rivalry.1024.desc.end: "закінчуючи бій моєю ганебною поразкою. Я страждаю від сорому та приниження!"
   rivalry.1024.desc.death: "після чого я падаю на землю."
   rivalry.1024.a: "Мені доведеться з ганьбою кульгати додому."
-
   rivalry.1025.t: "Ганебна поведінка"
   rivalry.1025.desc: "[Select_CString(from_rival.IsFemale, 'Ця боягузлива', 'Цей боягузливий' )] [SCOPE.sCharacter('from_rival').GetTitledFirstName] [Select_CString(from_rival.IsFemale, 'відмовилася', 'відмовився' )] битися зі мною, незважаючи на завдану мені образу! Я не можу уявити нічого ганебнішого, ніж подібна грубість від людини, не готової відповісти за слова справою. Мені завжди було ясно, що у н[SCOPE.sCharacter('rival').GetHerHis] немає честі, і цей вчинок доводить це!"
   rivalry.1025.a: "Принаймні мені вдалося зберегти честь."
-
   rivalry.1030.t: "Втручання у шлюб"
   rivalry.1030.desc.happy: "Мене ображає, що [Select_CString(rival.IsFemale, 'моя суперниця', 'мій суперник' )] [rival.GetTitledFirstName] і [rival.GetHerHis] [rival_spouse.GetWifeHusband] [rival_spouse.GetTitledFirstName] насолоджуються подружнім життям. А от якщо посіяти зерно недовіри між ними та змусити сумніватися один у одному, [SCOPE.sCharacter('rival').GetTitledFirstName] понервується..."
   rivalry.1030.desc.neutral: "[Select_CString(rival.IsFemale, 'Моя суперниця', 'Мій суперник' )] [rival.GetTitledFirstName] і [rival.GetHerHis] [rival_spouse.GetWifeHusband] [rival_spouse.GetTitledFirstName] не мають любові один до одного, і це відкриває мені привабливу можливість. Якщо я зможу посіяти зерно підозри та недовіри між ними, то [rival.GetFirstName] буде настільки [Select_CString(rival.IsFemale, 'поглинена', 'поглинений' )] своїм неповноцінним шлюбом, що вже не зможе заважати моїм планам!"
@@ -139,7 +119,6 @@
   rivalry.1030.c.tt: "Відмовитися від цього — до певного часу"
   rivalry.1030.a_success: "Успішна фальсифікація"
   rivalry.1030.a_failure: "План провалився"
-
   rivalry.1031.t: "Свідчення невірності?"
   rivalry.1031.desc: "Сьогодні мені потрапив лист, адресатом якого є [Select_CString(rival_spouse.IsFemale, 'моя', 'мій' )] [my_spouse.GetWifeHusband] [my_spouse.GetFirstName]. Автор листа, романтичне захоплення [Select_CString(rival_spouse.IsFemale, 'моєї дружини', 'мого чоловіка' )], у подробицях описує їхню останню любовну пригоду і благає дати знати, коли вони знову можуть зустрітися!"
   rivalry.1031.desc.fooled: "\n\nАвтора листа не вдається визначити, і мій розум переповнюють припущення, з ким може зраджувати мені [Select_CString(rival_spouse.IsFemale, 'моя', 'мій')] [my_spouse.GetWifeHusband]!"
@@ -151,53 +130,42 @@
   rivalry.1031.b.tt: "Я спитаю, чи [Select_CString(rival_spouse.IsFemale, 'була', 'був' )] [my_spouse.GetTitledFirstName] [Select_CString(rival_spouse.IsFemale, 'невірною', 'невірним' )] мені"
   rivalry.1031.c: "Я вірю [Select_CString(rival_spouse.IsFemale, 'їй', 'йому' )], лист — підробка!"
   rivalry.1031.c.tt: "Я викину цього листа"
-
   rivalry.1032.t: "Звинувачення у невірності"
   rivalry.1032.desc: "Сьогодні [Select_CString(rival_spouse.IsFemale, 'моя', 'мій' )] [suspicious_spouse.GetWifeHusband] [suspicious_spouse.GetFirstName] [Select_CString(rival_spouse.IsFemale, 'прийшла', 'прийшев' )] до мене, стискаючи в руці листа, який, [Select_CString(rival_spouse.IsFemale, 'її', 'його' )] слів, написано моїм таємним прихилбником! Тепер [suspicious_spouse.GetSheHe] звинувачує мене в подружній невірності!"
   rivalry.1032.a: "Я не зраджую тобі, клянусь!"
   rivalry.1032.a.tt: "Я зроблю все, щоб [suspicious_spouse.GetFirstNameNoTooltip] [Select_CString(suspicious_spouse.IsFemale, 'повірила', 'повірив' )] у мою невинність"
   rivalry.1032.b: "Потрібно зізнатися, що я і [spouse_lover.GetTitledFirstNameNoTooltip] потай зустрічаємось!"
-
   rivalry.1033.t: "Заперечення гріха"
   rivalry.1033.desc: "Сьогодні я і [my_spouse.GetFirstName] серйозно поговорили про знайдений мною лист від [my_spouse.GetHerHis] таємної пасії. [Select_CString(rival_spouse.IsFemale, 'Неприємно здивована і скривджена', 'Неприємно здивований і скривджений' )] моїми образами, [my_spouse.GetSheHe] [Select_CString(rival_spouse.IsFemale, 'взялася', 'взявся' )] доводити свою невинність!"
   rivalry.1033.a: "Я вірю, що [my_spouse.GetFirstNameNoTooltip] каже правду!"
   rivalry.1033.a.tt: "Я закінчую це розслідування"
   rivalry.1033.b: "Брехня! Я продовжу розслідування та докопаюся до правди!"
-
   rivalry.1034.t: "Слізне зізнання"
   rivalry.1034.desc: "Після моїх звинувачень у таємному романі, заснованих на листі від таємного шанувальника, [my_spouse.GetFirstName] [Select_CString(rival_spouse.IsFemale, 'розплакалася', 'розплакався' )] і в сльозах [Select_CString(rival_spouse.IsFemale, 'зізналася', 'зізнався' )], що [my_spouse.GetSheHe] і [spouse_lover.GetTitledFirstName] влаштували інтрижку!"
   rivalry.1034.a: "Як [my_spouse.GetSheHe] [Select_CString(rival_spouse.IsFemale, 'могла', 'міг' )] так зі мною вчинити?!"
-
   rivalry.1035.t: "Підробка розкрита!"
   rivalry.1035.desc: "Провівши ціле розслідування, щоб встановити автора листа, який [my_spouse.GetFirstName] ніби [Select_CString(rival_spouse.IsFemale, 'отримала', 'отримав' )] від таємного залицяльника, я дізнаюся, що це підробка, за якою стоїть [Select_CString(instigator.IsFemale, 'ця', 'цей' )] [instigator.Custom('InsultAdjective')] [instigator.Custom('InsultNoun')] [instigator.GetTitledFirstName]!"
   rivalry.1035.a: "[Select_CString(instigator.IsFemale, 'Вона', 'Він' )] заплатить мені за те, що втягує у сварку мою сім'ю!"
-
   rivalry.1036.t: "Глухий кут"
   rivalry.1036.desc: "Вивчивши всі можливі зачіпки та вистеживши всіх можливих кандидатів на роль таємного шанувальника, мені так і не вдалося з'ясувати, від кого [rival_spouse.GetFirstName] [Select_CString(rival_spouse.IsFemale, 'отримала', 'отримав' )] цей лист."
   rivalry.1036.a: "Я все одно доглядатиму за [Select_CString(rival_spouse.IsFemale, 'нею', 'ним' )]..."
   rivalry.1036.b: "Це була підробка!"
-
   rivalry.1037.t: "Втручання у шлюб"
   rivalry.1037.desc: "Мої шпигуни повідомили, що [rival.GetTitledFirstName] та [rival.GetHerHis] [rival_spouse.GetWifeHusband] [rival_spouse.GetFirstName]стали значно частіше сваритися. Схоже, мій план посіяти недовіру між ними увінчався успіхом!"
   rivalry.1037.a: "Їхня лайка— насолода для моїх вух!"
-
   rivalry.1038.t: "Втручання у шлюб"
   rivalry.1038.desc: "Мої шпигуни повідомили, що [rival.GetTitledFirstName] [Select_CString(rival.IsFemale, 'зрозуміла', 'зрозумів' )], що мій лист фальшивий. Мій план, згідно з яким [SCOPE.sCharacter('rival').GetSheHe] та [rival.GetHerHis] [rival_spouse.GetWifeHusband] [rival_spouse.GetFirstName] повинні були перестати довіряти один одному, провалився!"
   rivalry.1038.a: "Я просто спробую щось інше..."
-
   rivalry.1039.t: "$rivalry.1037.t$"
   rivalry.1039.desc: "Мої шпигуни повідомили, що [my_spouse.GetTitledFirstName], мабуть, дійсно [Select_CString(my_spouse.IsFemale, 'мала', 'мав' )] інтрижку на стороні. Мій фальшивий лист змусив [my_spouse.GetHerHis] у всьому зізнатися!"
   rivalry.1039.a: "Ну що... це вже #EMP цікаво!"
-
   rivalry.2001.t: "Перешкода на шляху до дружби"
   rivalry.2001.desc: "[target_in_question.GetTitledFirstName] [Select_CString(target_in_question.IsFemale, 'відправила', 'відправив' )] мені лист, питаючи, як мені подобається [rival.GetTitledFirstName]. Схоже, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('rival') )] намагається стати ближче до н[target_in_question.GetHerHim]."
   rivalry.2001.a: "Ха, хіба це не очевидно?"
   rivalry.2001.b: "[target_in_question.GetFirstName] [Select_CString(target_in_question.IsFemale, 'повинна сама', 'повинен сам' )] вирішити."
-
   rivalry.2002.t: "Перешкода на шляху до дружби"
   rivalry.2002.desc: "Стільки зусиль задля того, щоб [target_in_question.GetTitledFirstName] [Select_CString(target_in_question.IsFemale, 'стала', 'став' )] краще до мене відноситися, і що ж з'ясовується?\n\nСаме [first_rival.GetTitledFirstName] поширює чутки, що ганьблять мене, і заважає моїм починанням!"
   rivalry.2002.a: "А [target_in_question.GetFirstName] вірить у те, що говорить [target_in_question.GetHerHim] [first_rival.GetFirstName]?"
-
   rivalry.3001.t: "Чим далі, тим гірше"
   rivalry.3001.desc.opening: "Мало того, що [rival.GetSheHe] втілює всі людські вади, так тепер [rival.GetTitledFirstName] ще й [Select_CString(rival.IsFemale, 'образила', 'образив' )] мене в обличчя!\n\n"
   rivalry.3001.malicious: "[Select_CString(rival.IsFemale, 'Вона відправила', 'Він відправив' )] гінця з повідомленням, щоб весь двір міг чути злі слова. «О [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.GetTitledFirstName]», — було написано на початку, а далі було лише гірше. От же ш [rival.Custom('InsultAdjective')] [rival.GetWomanMan]!"
@@ -210,18 +178,14 @@
   rivalry.3001.desc.fallback: "[Select_CString(rival.IsFemale, 'Вона при всіх звернулася', 'Він при всіх звернувся' )] до мене зі словами «[ROOT.Char.Custom('InsultAdjective')|U] [ROOT.Char.GetTitledFirstName]»!"
   rivalry.3001.desc.end: "\n\nЯ не можу так це залишити, [rival.GetSheHe] заплатить за свою образу."
   rivalry.3001.a: "Ну почекай, [rival.GetTitledFirstNameNoTooltip]!"
-
   rivalry.3002.t: "Ворог мого друга"
   rivalry.3002.desc: "[Select_CString(friend.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sCharacter('friend') )] [friend.GetTitledFirstName] останнім часом страждає від нападок: [rival.GetTitledFirstName] [Select_CString(rival.IsFemale, 'обрала', 'вибрав' )] [SCOPE.sCharacter('friend').GetHerHis] метою своїх підступів.\n\nЯк я можу залишити безкарним таке поводження з [Select_CString(friend.IsFemale, 'моєю подругою', 'моїм другом' )]?"
   rivalry.3002.a: "Я відкидаю тебе, [rival.GetTitledFirstNameNoTooltip]!"
   rivalry.3002.b: "[rival.GetTitledFirstName] не [Select_CString(rival.IsFemale, 'зобов'язана', 'зобов'язаний' )] знати про мої почуття."
-
   rivalry.3003.t: "Пацюки збираються"
   rivalry.3003.desc: "[first_friend.GetTitledFirstName] [Select_CString(ROOT.from.IsFemale, 'відкинула', 'відкинув' )]мене за те, що я і [first_friend.GetHerHis] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sCharacter('friend') )] [friend.GetTitledFirstName] — вороги."
   rivalry.3003.a: "Бе! Стадо баранів."
-
   rivalry.3004.t: "Найгірша людина на світі"
   rivalry.3004.opening: "Будь [rival.GetTitledFirstName] менш [Select_CString(rival.IsFemale, 'ненависна', 'ненависний' )] мені, ми б все одно не порозумілися!"
   rivalry.3004.fallback: "\n\nЗдається, у кожному випадку [SCOPE.sCharacter('rival').GetSheHe] чинить протилежно тому, що я вважаю правильним!"
   rivalry.3004.a: "Невже [rival.GetSheHe] робить так, тільки щоб зачепити мене?!"
-

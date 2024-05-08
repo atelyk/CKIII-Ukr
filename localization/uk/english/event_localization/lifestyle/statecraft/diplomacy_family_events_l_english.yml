@@ -1,9 +1,8 @@
 ﻿l_english:
   ###################
-  # Standard Events #
+  #Standard Events #
   ###################
-
-  # An Opportune Moment, by Mathilda Bjarnehed
+  #An Opportune Moment, by Mathilda Bjarnehed
   diplomacy_family.0007.t: "Вдалий момент"
   diplomacy_family.0007.desc: "Моя ретельно спланована вечеря йде як треба: все ж я та [voter.GetTitledFirstName] лишаємося наодинці. Вино та [voter.Custom('FavoriteTreat')] явно піднімає [voter.GetHerHis] настрій — я вже давно не бачив [voter.GetHerHis] настілько [Select_CString(voter.IsFemale, 'щасливою', 'щасливим' )].\n\nТепер я можу сподіватися на те, що [Select_CString(candidate.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('candidate'))] [candidate.GetTitledFirstName] отримає [voter.GetHerHis] підтримку..."
   diplomacy_family.0007.a: "Навести мої найвагоміші аргументи."
@@ -14,8 +13,7 @@
   diplomacy_family.0007.c: "Послуга за послугу, це ж чесно?"
   diplomacy_family.0007.b: "Цей мішечок золота здатний змінити [voter.GetHerHis] думку..."
   diplomacy_family.0007.placeholder.tt: "[voter.GetShortUIName|U] голосуватиме за те, щоб [candidate.GetShortUIName] [Select_CString(candidate.IsFemale, 'стала новою правителькою', 'став новим правителем' )] держави [title.GetNameNoTier]"
-
-  # A Flaw of Character, by Mathilda Bjarnehed
+  #A Flaw of Character, by Mathilda Bjarnehed
   diplomacy_family.0008.t: "Недоліки особистості"
   diplomacy_family.0008.start.desc: "Коли я полишу цей світ, моє місце займе [disagreeable_heir.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\nНа жаль, чутки про те, що [Select_CString(disagreeable_heir.IsFemale, 'вона', 'він' )]"
   diplomacy_family.0008.lazy.desc: "постійно провалюється в дрімоту"
@@ -35,8 +33,6 @@
   diplomacy_family.0008.b: "Замість того хвалити [disagreeable_heir.GetHerHis] гарні якості."
   diplomacy_family.0008.b.custom: "Усі васали"
   diplomacy_family.0008.c: "Сфокусуватися на собі та надихати власним прикладом."
-
-
   diplomacy_family.0009.desc: "[disagreeable_heir.GetTitledFirstName] [Select_CString(disagreeable_heir.IsFemale, 'прийняла', 'прийняв' )] мою пропозицію бути [disagreeable_heir.GetHerHis] наставником, хоча й без особливого захоплення.\n\nБоюся, що [disagreeable_heir.GetHerHis] гріхи занадто глибоко вкорінились. Але істинне одкровення допоможе [disagreeable_heir.GetHerHim] усвідомити, наскільки дурний подібний спосіб життя.\n\nЯк нам варто діяти?"
   diplomacy_family.0009.wronglessonstart.desc: "Я спостерігаю, як [disagreeable_heir.GetFirstName] виконує поставлене завдання, і в мою душу закрадаються сумніви. [disagreeable_heir.GetSheHe|U] навіть не намагається"
   diplomacy_family.0009.compassion.desc: "поставити себе на місце тих, кому менше пощастило в цьому житті,"
@@ -45,7 +41,6 @@
   diplomacy_family.0009.energy.desc: "правити замість мене,"
   diplomacy_family.0009.vengefulness.desc: "показати свою здатність пробачати,"
   diplomacy_family.0009.wronglessonend.desc: "і схоже, що [disagreeable_heir.GetSheHe] нічого не засвоїть з цього уроку.\n\n[disagreeable_heir.GetFirstNameNoTooltip] отримає ще один шанс, але, напевно, мені варто змінити підхід.\n\nЦього разу ми..."
-
   diplomacy_family.0009.rightlessonstart.desc: "Було сумно бачити, як [disagreeable_heir.GetFirstName] намагається"
   diplomacy_family.0009.rightlessonend.desc: "Сумніваюся, що [disagreeable_heir.GetSheHe] взагалі прикладає хоча б якісь зусилля!\n\nНапевно річ у тому, що [SCOPE.sC('disagreeable_heir').GetFirstNameNoTooltip] не цікавиться моїм уроком. Я спробую ще раз...\n\nПитання в тому, чи варто застосувати іншу тактику або покластися на наполегливість?"
   diplomacy_family.0009.a: "Відправитися до міста й поговорити з бідняками."
@@ -58,8 +53,6 @@
   diplomacy_family.0009.d.tt: "Урок підходить для тих, кому потрібно попрацювати над співчуттям"
   diplomacy_family.0009.e: "Пробачити того, хто завдав [Select_CString(disagreeable_heir.IsFemale, 'їй', 'йому' )] болю."
   diplomacy_family.0009.e.tt: "Урок підходить для тих, кому потрібно попрацювати над здатністю пробачати"
-
-
   diplomacy_family.0010.t: "$diplomacy_family.0008.t$: неочікуване розуміння"
   diplomacy_family.0010.start.desc: "Мені приємно бачити, як змінюється [disagreeable_heir.GetTitledFirstName]!"
   diplomacy_family.0010.compassion.desc: "Хоча спочатку здавалося, що все марно, історії бідолах зутрінутих нами, схоже, торкнулися якихось струн у [disagreeable_heir.GetHerHis] серці.\n\nПо дорозі додому [disagreeable_heir.GetSheHe] [Select_CString(disagreeable_heir.IsFemale, 'перебувала', 'перебував' )] у мовчазній задумі, і [Select_CString(disagreeable_heir.IsFemale, 'перестала бути такою', 'перестав бути таким' )]"
@@ -82,19 +75,16 @@
   diplomacy_family.0010.a: "Це важливе досягнення для нас!"
   diplomacy_family.0010.b: "Це був просто урок, не більше."
   diplomacy_family.0010.c: "Це лише перший крок! Потрібно працювати старанніше!"
-
   diplomacy_family.0011.t: "$diplomacy_family.0008.t$: впертість"
   diplomacy_family.0011.start.desc: "[disagreeable_heir.GetTitledFirstName] як і раніше,"
   diplomacy_family.0011.end.desc: "і це зводить мене з розуму! Попри всі мої старання, [disagreeable_heir.GetSheHe] нітрохи не [Select_CString(disagreeable_heir.IsFemale, 'змінилася', 'змінився' )].\n\nЯкщо [disagreeable_heir.GetHerHis] серце не бажає змін, то їх і не станеться."
   diplomacy_family.0011.a: "Я здаюсь..."
-
-  # Family Quarrel, by Petter Vilberg
+  #Family Quarrel, by Petter Vilberg
   diplomacy_family.2101.t: "Сварка"
   diplomacy_family.2101.desc: "[family_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] і [family_2.Custom2('HerHisCharacterIntroduction', family_1)] вже кілька днів сваряться. Навіть зараз я можу чути, як вони лаються у сусідній кімнаті...\n\n«Неймовірно! - кричить [family_1.GetFirstName]. — Як [family_2.Custom('InsultNoun')] на зразок тебе може вважати себе ідеалом чеснот династії [ROOT.Char.GetDynastyName]?! Адже я #EMP  куди#! краще відповідаю цьому опису!»"
   diplomacy_family.2101.a: "Жодних сварок усередині сім'ї!"
   diplomacy_family.2101.a.tt: "Ви входите в кімнату, щоб покласти край сварці"
   diplomacy_family.2101.b: "Нехай самі розбираються."
-
   diplomacy_family.2102.desc: "Коли я входжу до кімнати, [family_1.GetFirstName] повертається до мене. «Добре, що ти тут, [ROOT.Char.GetFirstNameNoTooltip]. Можливо, [family_2.Custom2('YourCharacterIntroduction', ROOT.Char)] прислухається до тебе? [family_2.GetSheHe|U] зовсім не сприймає мої аргументи!»"
   diplomacy_family.2102.a: "Так, ганьба на вас [family_2.GetFirstNameNoTooltip]!"
   diplomacy_family.2102.b: "Це ти ведеш себе неправильно, [family_1.GetFirstNameNoTooltip]."
@@ -103,9 +93,7 @@
   diplomacy_family.2102.c.failure: "Вони відмовляються слухати"
   diplomacy_family.2102.d: "Ха! #EMP Очевидно#!, що я найкращий представник династії [ROOT.Char.GetDynastyNameNoTooltip]!"
   diplomacy_family.2102.d.flavor: "Що ж, це точно покінчить з їхніми #EMP безперервними#! чварами..."
-
-  # Choosing Best Friend, by Flavio Verna
-
+  #Choosing Best Friend, by Flavio Verna
   diplomacy_family.2200.t: "Кращий друг"
   diplomacy_family.2200.desc: "Небагатьом щастить мати стільки друзів, скільки є в мене. Я ціную їх підтримку і відповідаю їм тим же, і все ж таки мені здається, що серед відважних душ, яких я вважаю моїми вірними супутниками, одна людина розуміє мене краще за інших."
   diplomacy_family.2200.a: "[friend_1.GetTitledFirstNameNoTooltip] мій найкращий друг."
@@ -115,15 +103,12 @@
   diplomacy_family.2200.c: "Хто, якщо не [friend_3.GetTitledFirstNameNoTooltip]?"
   diplomacy_family.2200.c.tt: "[friend_3.GetTitledFirstName] може стати вашим найкращим другом"
   diplomacy_family.2200.d: "Не варто вибирати улюбленців."
-
   diplomacy_family.2201.desc: "Лише недавно до мене прийшло розуміння того, наскільки сильно [ruler.GetFirstName] допомагає мені своїми порадами та підтримкою. Я починаю розуміти, що [ruler.GetSheHe] мій найближчий друг."
   diplomacy_family.2201.a: "Ми насправді споріднені духом."
   diplomacy_family.2201.b: "Ми друзі, звичайно ж, але на цьому все."
   diplomacy_family.2201.b.tt: "Ми залишимося тільки друзями"
   diplomacy_family.2201.a.tt: "Ми станемо справжніми друзями"
-
-  # Jealous relative vs lover's spouse, by Flavio Verna
-
+  #Jealous relative vs lover's spouse, by Flavio Verna
   diplomacy_family.2250.t: "[Select_CString(ruler.IsFemale, 'Ревнива', 'Ревнивий' )] [lover.Custom2('RelationToMeShort', SCOPE.sC('ruler'))]"
   diplomacy_family.2250.desc.intro: "Мені нестерпно бачити, як [Select_CString(lover.IsFemale, 'моя кохана', 'мій коханий' )] [ruler.Custom2('RelationToMeShort', SCOPE.sC('lover'))] [lover.GetFirstName] і [lover.GetHerHis] [spouse.Custom('InsultAdjective')] [spouse.GetWifeHusband] [spouse.GetTitledFirstName] проводять час разом."
   diplomacy_family.2250.desc.legal.pure: "\n\nДумка про те, як нечисті руки бруднять своїми дотиками [lover.GetHerHis] тіло просто нестерпне. Ми належимо до династії [ruler.GetHouse.GetName], ми повинні бути разом!"
@@ -143,7 +128,6 @@
   diplomacy_family.2250.c.b: "Мені потрібно розірвати цей шлюб!"
   diplomacy_family.2250.c.flavor: "[house_head|E] має владу анулювати шлюб, в якому залучений[lover.GetFirstName]"
   diplomacy_family.2250.d: "Мені доведеться навчитися жити з цим болем."
-
   diplomacy_family.2251.desc: "[spouse.GetTitledFirstName] подумає двічі, перш ніж [Select_CString(spouse.IsFemale, 'вона', 'він' )] і [lover.GetFirstName] знову торкнуться один одного. Обережними діями мені вдалося приховати справжню причину того, що сталося, і все ж таки буде безглуздо знову повертатися до цього питання надалі.\n\nРано чи пізно [spouse.GetFirstNameNoTooltip] наважиться проігнорувати мої загрози, але поки що мені можна заспокоїтися."
   diplomacy_family.2251.a: "Надіюсь, [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ruler.Custom2('RelationToMeShort', SCOPE.sC('lover'))] оцінить це."
   diplomacy_family.2252.desc: "«Як можна було поводитися так необдумано?!» — шипить на мене [lover.GetFirstName], не сміючи підвищувати голос навіть у моїх покоях.\n\nСхоже, [spouse.GetTitledFirstName] [Select_CString(spouse.IsFemale, 'проігнорувала', 'проігнорував' )] мої попередження, і тепер [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ruler.Custom2('RelationToMeShort', SCOPE.sC('lover'))] знає про нашу розмову.\n\n«Я не можу відмовитися від подружнього обов'язку заради тебе, [ruler.GetFirstNameNoTooltip]!» — з цими словами [lover.GetSheHe] квапливо йде."
@@ -152,13 +136,12 @@
   diplomacy_family.2253.desc.b: "Мій план спрацював бездоганно! [lover.GetFirstName] [Select_CString(lover.IsFemale, 'вільна', 'вільний' )], [Select_CString(spouse.IsFemale, 'ця неотесана', 'цей неотесаний' )] [spouse.Custom('InsultNoun')] [spouse.GetTitledFirstName] більше не лізе до наших справ. Наше щастя не має меж.\n\n[lover.GetSheHe|U] [Select_CString(lover.IsFemale, 'кинулася', 'кинувся' )] в мої покої, тільки-но отримавши мого листа, щоб висловити свою вдячність найкращим із можливих способів."
   diplomacy_family.2253.a: "Нарешті ми можемо бути разом – назавжди!"
   diplomacy_family.2253.b: "Чого не зробиш заради сім'ї..."
+  diplomacy_family.2253.c: "Everyone shall know about our love!"
   diplomacy_family.2254.desc.a: "У мене була надія, що [lover.GetFirstName] подякує мені за те, що на моє прохання [house_head.GetTitledFirstName] [Select_CString(house_head.IsFemale, 'влаштувала', 'влаштував' )] [lover.GetHerHim] розлучення, але все виявилося інакше.\n\n[lover.GetSheHe|U] розлючена від мого втручання в [lover.GetHerHis] подружнє життя і більше не бажає мати зі мною справ."
   diplomacy_family.2254.desc.b: "У мене була надія, що [lover.GetFirstName] буде вдячна мені за організацію [lover.GetHerHis] розлучення, але все виявилося інакше.\n\n[lover.GetSheHe|U] розлючена від мого втручання в [lover.GetHerHis] подружнє життя і більше не бажає мати зі мною справ."
   diplomacy_family.2254.a: "Мова не про нас, а про сім'ю!"
   diplomacy_family.2254.b: "Я... навіть не знаю що сказати..."
-
-  # Dealing with lackluster family member, by Flavio Verna
-
+  #Dealing with lackluster family member, by Flavio Verna
   diplomacy_family.2300.t: "Очищення династії"
   diplomacy_family.2300.desc.intro: "[bad_relative.GetFirstNamePossessive] самим своїм існуванням ображає ім'я нашої славної династії."
   diplomacy_family.2300.desc.a: "\n\n[Select_CString(bad_relative.IsFemale, 'Моя', 'Мій' )] [ruler.Custom2('RelationToMeShort', SCOPE.sC('bad_relative'))] — [Select_CString(bad_relative.IsFemale, 'ідіотка', 'ідіот' )], [Select_CString(bad_relative.IsFemale, 'яка ганьбить', 'який ганьбить' )] дім [ruler.GetDynastyName] кожним своїм словом."
@@ -177,11 +160,9 @@
   diplomacy_family.2300.d: "Усі ми інколи чинимо нерозсудливо."
   diplomacy_family.2301.desc: "Було непросто пробитися через цю черепушку, але, здається, [bad_relative.GetFirstName] все-таки хоч щось [Select_CString(bad_relative.IsFemale, 'зрозуміла', 'зрозумів' )] і тепер розчаровує навколишніх не так сильно..."
   diplomacy_family.2301.a: "Я роблю, що можу."
-
-  ##################	
-  # Special Events #
   ##################
-
+  #Special Events #
+  ##################
   #Successor's Squabble — Resolve a dispute between your heir and a powerful vassal, by Sean Hughes
   diplomacy_family_special.2200.t: "Сварка зі спадкоємцем"
   diplomacy_family_special.2200.desc: "Я спокійно насолоджуюся вечірнім відпочинком, коли [heir.Custom2('MyCharacterIntroduction', ROOT.Char)] приходить до мене засмучена.\n\n«[vassal.Custom2('YourCharacterIntroduction', ROOT.Char)|U] просто [Select_CString(vassal.IsFemale, 'нестерпна', 'нестерпний' )]! — вигукує [heir.GetSheHe]. — [vassal.GetSheHe|U] постійно повторює, що я не підходжу на роль наступника. Думає, [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlag')] сильніший за мене і з мене не вийде"
@@ -190,11 +171,11 @@
   diplomacy_family_special.2200.opposite_sex_title.desc: "[ROOT.Char.GetPrimarySpouse.GetTitleAsNameNoTooltip]"
   diplomacy_family_special.2200.ruler.desc: "правитель"
   diplomacy_family_special.2200.end.desc: "землі [ROOT.Char.GetPrimaryTitle.GetNameNoTier]!»"
+  diplomacy_family_special.2200.a: "Come sit with me, we shall discuss this matter."
   diplomacy_family_special.2200.a.tt: "З моєю допомогою [heir.GetFirstNameNoTooltip] навчиться відповідати на критику"
   diplomacy_family_special.2200.b: "Я і [vassal.GetTitledFirstNameNoTooltip] поговоримо про це."
   diplomacy_family_special.2200.b.tt: "[vassal.GetFirstNameNoTooltip] пояснить мені, чому критикує [Select_CString(heir.IsFemale, 'мою спадкоємницю', 'мого спадкоємця' )]"
   diplomacy_family_special.2200.c: "Чому ви докучаєте мені цими справами?"
-
   diplomacy_family_special.2201.desc: "Я і [heir.GetFirstName] відходимо убік, щоб поговорити наодинці. Я бачу що [vassal.GetTitledFirstName] і вся ця ситуація непокоїть [SCOPE.sC('heir').GetHerHis] і [heir.GetSheHe] [Select_CString(heir.IsFemale, 'готова', 'готовий' )] вислухати мою пораду."
   diplomacy_family_special.2201.a: "У вас більше спільного, ніж ви думаєте"
   diplomacy_family_special.2201.a.success: "[heir.GetFirstNameNoTooltip] і [vassal.GetFirstNameNoTooltip] знаходять спільну мову"
@@ -205,36 +186,27 @@
   diplomacy_family_special.2201.b.success.tt: "[heir.GetTitledFirstName] намагається розвинути у собі [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlagInvertedTraitLink')]"
   diplomacy_family_special.2201.b.failure.tt: "[heir.GetTitledFirstName] збереже [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlagTraitLink')]"
   diplomacy_family_special.2201.c: "Я примушу [SCOPE.sC('vassal').GetHerHis] пошкодувати за критику!"
-
   diplomacy_family_special.2202.desc: "Я і [vassal.GetTitledFirstName] домовляємося зустрітися та обговорити все те, чим його бентежить [Select_CString(heir.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('heir'))] [heir.GetTitledFirstName].\n\n«Все просто, [ROOT.Char.GetTitledFirstNameNoTooltip]. Мені не подобається сама думка, що моїм майбутнім сюзереном керує [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlag')]. Заради благополуччя держави я не приховуватиму свого невдоволення, нехай це і загрожує мені лихом.»."
   diplomacy_family_special.2202.a: "Але як же [heir.GetHerHis] хороші якості?"
   diplomacy_family_special.2202.a.success: "[vassal.GetFirstNameNoTooltip] і [heir.GetFirstNameNoTooltip] порозумілися"
   diplomacy_family_special.2202.a.failure: "[vassal.GetFirstNameNoTooltip] і [heir.GetFirstNameNoTooltip] не бажають примирення"
   diplomacy_family_special.2202.b: "Ви маєте рацію, [heir.GetFirstNameNoTooltip] — це суцільне розчарування."
   diplomacy_family_special.2202.c: "Це [Select_CString(heir.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('heir'))], і не вам критикувати [Select_CString(heir.IsFemale, 'її', 'його' )]!"
-
   diplomacy_family_special.2210.desc: "Після нашої розмови [vassal.GetTitledFirstName] [Select_CString(vassal.IsFemale, 'вирішила', 'вирішив' )] спробувати все виправити, щоб [heir.GetTitledFirstName] [Select_CString(heir.IsFemale, 'змінила', 'змінив' )] своє ставлення на краще, і для цього хоче наголосити на їх схожості, а не на відмінностях. Ця зміна виглядає дуже обнадійливою!"
   diplomacy_family_special.2210.a: "Це обіцяє гарне майбутнє!"
-
   diplomacy_family_special.2211.desc: "Незважаючи на всі мої спроби довести, що [vassal.GetTitledFirstName] і [heir.GetTitledFirstName] зійдуться, якщо тільки [vassal.GetSheHe] докладе зусиль, [Select_CString(vassal.IsFemale, 'ця ідіотка відмовилася', 'цей ідіот відмовився' )] визнати, що [SCOPE.sC('heir').GetTitledFirstName] має позитивні якості."
   diplomacy_family_special.2211.a: "[vassal.GetTitledFirstNameNoTooltip] просто пихатий грубіян!"
   diplomacy_family_special.2211.a.high_opinion: "Я очікував кращого від [vassal.GetTitledFirstNameNoTooltip]."
-
   diplomacy_family_special.2212.desc: "Після нашої розмови [heir.GetTitledFirstName] [Select_CString(heir.IsFemale, 'сказала', 'сказав' )], що постарається поводитися краще, коли [vassal.GetTitledFirstName] поруч.\n\nЯкщо вони будуть дивитися не на свої відмінності, а на те, що їх об'єднує, то ця пара може подружитися."
   diplomacy_family_special.2212.a: "Це обіцяє гарне майбутнє!"
-
   diplomacy_family_special.2213.desc: "Незважаючи на всі мої спроби довести, що [heir.GetTitledFirstName] і [vassal.GetTitledFirstName] зможуть порозумітися, якщо [heir.GetSheHe] спробує, [heir.GetFirstNameNoTooltip] [Select_CString(heir.IsFemale, 'відмовилася', 'відмовився' )] поводитися інакше.\n\nСхоже, ці двоє ще довго ворогуватимуть..."
   diplomacy_family_special.2213.a: "[heir.GetFirstNameNoTooltip] [Select_CString(heir.IsFemale, 'розчарувала', 'розчарував' )] мене."
-
   diplomacy_family_special.2220.desc: "Я і [heir.GetFirstName] докладно поговорили про те, що іноді [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlagInverted')] корисніше для держави, навіть якщо подібна поведінка і не приходить природно.\n\nСпочатку [SCOPE.sC('heir').GetSheHe] [Select_CString(heir.IsFemale, 'сумнівалася', 'сумнівався' )], але мені вдалося переконати [SCOPE.sC('heir').GetHerHis], що навіть ця властивість з часом може стати звичкою."
   diplomacy_family_special.2220.a: "Час покаже, до яких змін це призведе."
   diplomacy_family_special.2220.a.tt: "[heir.GetFirstName] спробує розвинути в собі [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlagInvertedTraitLink')]"
-
   diplomacy_family_special.2221.desc: "[heir.GetFirstName] неодноразово [Select_CString(heir.IsFemale, 'вислуховувала', 'вислуховував' )] мої умовляння про те, що в [heir.GetHerHis] ж інтересах розвинути в собі [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlag')]. Мені вдалося навіть навести безліч барвистих прикладів того, як інші використали [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlagInverted')] собі на користь.\n\nНезважаючи на це, [SCOPE.sC('heir').GetFirstName] не [Select_CString(heir.IsFemale, 'побажала', 'побажав' )] змінювати свою поведінку. Схоже, [heir.GetSheHe] має намір стояти на своєму, навіть якщо через це зіпсуються відносини з оточуючими."
   diplomacy_family_special.2221.a: "Чому [heir.GetSheHe] не може зрозуміти правдивість моїх слів?"
-
   diplomacy_family_special.2231.desc: "[heir.GetTitledFirstName] і [SCOPE.sC('vassal').GetTitledFirstName] почали свої стосунки з ворожнечі, але тепер, під моїм керівництвом, вони навчилися розуміти та довіряти одне одному. Ретельно вирощуючи ці якості, вони зуміли побудувати справжню дружбу!"
   diplomacy_family_special.2231.a: "Так, нам вдалося з усім розібратися!"
-
   diplomacy_family_special.2233.desc: "Я багато років прошу, щоб [heir.GetFirstName] [Select_CString(heir.IsFemale, 'змінила', 'змінив' )] поведінку, і ось тепер [heir.GetSheHe] нарешті  [Select_CString(heir.IsFemale, 'погодилася', 'погодився' )].\n\nСхоже, [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlagInverted')] тепер для н[heir.GetHerHis] друга натура, звичка, яка настільки вкорінилася, що [heir.GetHerHim] більше не потрібно докладати жодних зусиль, щоб підтримувати її."
   diplomacy_family_special.2233.a: "Добре що [heir.GetFirstNameNoTooltip] зростає як особистість."

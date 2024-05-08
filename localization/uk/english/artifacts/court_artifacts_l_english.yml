@@ -1,9 +1,8 @@
 ﻿l_english:
   ##############################
-  # Procedural court artifacts #
+  #Procedural court artifacts #
   ##############################
-
-  # Wall Decorations - Large
+  #Wall Decorations - Large
   artifact_wall_tapestry_name: "$artifact_name_prefix$ Гобелен"
   artifact_wall_tapestry_description: "Великий [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] гобелен [SCOPE.Custom('ArtifactQuality')] якості. [newly_created_artifact.GetFeatureText( 'tapestry_scene' )]"
   feature_tapestry_scene_religious: "Полотно зображує кілька видатних сцен, взятих з [Artifact.GetOwner.GetFaith.GetAdjectiveNoTooltip] канону."
@@ -21,19 +20,16 @@
   feature_tapestry_scene_hearing: "На полотні зображено прийом при дворі: [Artifact.GetOwner.GetTitledFirstName] велично сидить у центрі сцени, а васали, емісари, переможені вороги та слуги стоять у черзі, щоб віддати шану."
   feature_tapestry_scene_garden: "На полотні зображено прекрасний сад: зеленіє трава, квіти ростуть різнобарвні й пишні, а дерева, обвішані плодами, ніби сягають неба."
   create_artifact_tapestry_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(<variable>.IsFemale, 'створила', 'створив' )] великий гобелен [SCOPE.Custom('ArtifactQuality')] якості."
-
-  # Thrones
+  #Thrones
   artifact_throne_special: "$artifact_throne$"
   artifact_throne_name: "$artifact_name_prefix$ Трон"
   artifact_throne_description: "Царський трон [SCOPE.Custom('ArtifactQuality')] якості. Каркас виготовлений із суцільних [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] стовпів, а сидіння пом'якшене за допомогою [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] подушок."
   create_artifact_throne_tooltip: "[inspiration_owner.GetShortUIName] створив царський трон [SCOPE.Custom('ArtifactQuality')] якості"
-
-  # Sculptures
+  #Sculptures
   artifact_chest: "Скриня"
   artifact_chest_name: "$artifact_name_prefix$ Скриня"
   artifact_chest_description: "Скриня [SCOPE.Custom('ArtifactQuality')] якості. Вона зроблена з [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] дощок. [newly_created_artifact.GetFeatureText( 'wood_decoration' )]"
   create_artifact_chest_tooltip: "[inspiration_owner.GetShortUIName] створив скриню [SCOPE.Custom('ArtifactQuality')] якості"
-
   artifact_cabinet: "Шафа"
   artifact_cabinet_name: "$artifact_name_prefix$ Шафа"
   artifact_cabinet_description: "Шафа [SCOPE.Custom('ArtifactQuality')] якості. Вона зроблена з [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] панелей. [newly_created_artifact.GetFeatureText( 'wood_decoration' )]"
@@ -44,22 +40,19 @@
   artifact_table_name: "$artifact_name_prefix$ Стіл"
   artifact_table_description: "Стіл [SCOPE.Custom('ArtifactQuality')] якості. Він зроблений з [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] панелей. [newly_created_artifact.GetFeatureText( 'wood_decoration' )]"
   create_artifact_table_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(<variable>.IsFemale, 'створила', 'створив' )] стіл [SCOPE.Custom('ArtifactQuality')] якості."
-
-  # Decorations for wooden furniture.
+  #Decorations for wooden furniture.
   feature_wood_decoration_none: "Дерево відшліфовано до гладенької поверхні."
   feature_wood_decoration_varnish: "Дерево було покрите лаком, щоб надати йому насичений темний блиск."
   feature_wood_decoration_hsb_inlay: "Дерево було інкрустоване [Artifact.GetFeatureText( 'decoration_material_inlay_HSB' )] прикрасами."
   feature_wood_decoration_painted_pattern: "Дерево було пофарбовано [Artifact.GetFeatureText( 'decoration_pattern' )]."
-
-  # Thrones
+  #Thrones
   artifact_throne_charlemagne_name: "Трон Карла Великого"
   artifact_throne_charlemagne_description: "Простий, але велебний трон без прикрас. Створений з твердого мармуру, за чутками, плити були взяті з церкви Гробу Господнього в Єрусалимі."
   artifact_throne_solomon_name: "Трон Соломона"
   artifact_throne_solomon_description: "Показний трон, який за чутками, колись належав легендарному царю Соломону. Зроблений зі слонової кістки та позолочений золотом, трон також прикрашений багатьма дорогоцінними каменями, а металеві скульптури різних тварин прикрашають сходинки, що ведуть до нього."
   artifact_throne_stone_scone_name: "Скунський камінь"
   artifact_throne_stone_scone: "Просте сидіння з червоного піщаника, на якому з часів короля Кеннета I були короновані всі монархи Альби."
-
-  # Banner
+  #Banner
   artifact_wall_banner_battle_name: "[epic_loser.GetPrimaryTitle.GetAdjectiveNoTooltip] Бойовий стяг"
   artifact_wall_banner_battle_description: "Бойовий стяг армії [epic_loser.GetPrimaryTitle.GetName], був забраний у їхніх сил після битви за [epic_battle_location.GetName]."
   artifact_wall_banner_royal_name: "[target.GetAdjectiveNoTooltip] Королівський стяг"
@@ -70,13 +63,11 @@
   artifact_wall_banner_dynasty_description: "Це стяг династії [target.GetBaseName], символ авторитету кровної лінії та всіх її членів, створений на замовлення [newly_created_artifact.MakeScope.Var('banner_commissioner').Char.GetNameRegnal]."
   artifact_wall_banner_name: "[target.GetAdjectiveNoTooltip] Стяг"
   artifact_wall_banner_description: "Це стяг [target.GetAdjective], символ влади [target.GetHolder.GetTitleAsName]."
-
   artifact_wall_banner_kaviani_name: "Дерафш Кавіані"
   artifact_wall_banner_kaviani: "Це легендарний Дерафш Кавіані — королівський штандарт занепалої імперії Сасанідів. Символ самобутності та гордості для спадкоємців Перської імперії."
   artifact_wall_big_edessa_name: "Спас Нерукотворний"
   artifact_wall_big_edessa: "Це Манділіон, тканина із чудотворним зображенням обличчя Ісуса, перша ікона християнства. Його походження пов’язане з царем Едеси Абгаром."
-
-  # Shield
+  #Shield
   artifact_wall_shield: "Настінний щит"
   artifact_wall_shield_name: "$artifact_name_prefix$ Щит"
   artifact_wall_shield_description: "Дерев'яний щит [SCOPE.Custom('ArtifactQuality')] якості, виготовлений із міцних [newly_created_artifact.GetFeatureText( 'shaft_wood' )] дощок і скріплений разом обідком з [newly_created_artifact.GetFeatureText( 'head_metal' )]. Край інкрустований [newly_created_artifact.GetFeatureText( 'decoration_material_inlay_HSB' )] і розписані зображенням [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]."
@@ -87,10 +78,8 @@
   artifact_wall_hammer_description: "$artifact_hammer_description$"
   artifact_wall_mace_description: "$artifact_mace_description$"
   artifact_wall_dagger_description: "$artifact_dagger_description$"
-
   artifact_wall_cid_sword_name: "Тізона"
-  artifact_wall_el_cids_sword: "Це трифутовий меч із написом Тізона"". За чутками, його відбив у колишнього власника відомий полководець Ель Сід, сама присутність меча викликає почуття бойового благоговіння."""
-
+  artifact_wall_el_cids_sword: "Це трифутовий меч із написом Тізона\"\". За чутками, його відбив у колишнього власника відомий полководець Ель Сід, сама присутність меча викликає почуття бойового благоговіння.\"\""
   artifact_wall_sword_muhammad_name: "Меч Мухаммеда"
   artifact_wall_sword_muhammad: "Один із дев'яти справжніх мечів пророка Мухаммеда. Це [SCOPE.Custom('MuhammadSword')]."
   artifact_wall_sword_muhammad_aladb: "Аль-Адб — використовувався Мухаммедом у битвах Бадра й Ухуд"
@@ -104,8 +93,7 @@
   artifact_wall_sword_muhammad_alqadib: "Аль-Кадіб — меч, що залишився в домі Мухаммеда"
   artifact_wall_sword_attila_name: "Меч Господній"
   artifact_wall_sword_attila_description: "Легендарний меч вождя гунів Аттіли, Бич Божий. Також відомий як Меч Марса."
-
-  # Animals (used in ArtifactAnimalType)
+  #Animals (used in ArtifactAnimalType)
   animal_type_cat: "кіт"
   animal_type_dog: "пес"
   animal_type_fox: "лис"
@@ -123,8 +111,7 @@
   animal_type_unicorn: "єдиноріг"
   animal_type_dragon: "дракон"
   animal_type_lynx: "рись"
-
-  # Hides
+  #Hides
   artifact_hide_type_cat: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] улюблений кіт [ROOT.Char.Custom('CatStoryName')]"
   artifact_hide_type_dog: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] улюблений пес [ROOT.Char.Custom('DogStoryName')]"
   artifact_hide_type_fox: "прекрасна лисиця"
@@ -138,8 +125,7 @@
   artifact_hide_type_unicorn: "єдиноріг"
   artifact_hide_type_dragon: "дракон"
   artifact_hide_type_lynx: "рись"
-
-  # Skull
+  #Skull
   artifact_wall_animal_skull_wild_boar: "кабан з гострими як бритва бивнями"
   artifact_wall_animal_skull_wolf: "гострозубий великий вовк"
   artifact_wall_animal_skull_stag: "олень, що вихваляється вражаючою стійкою"
@@ -147,6 +133,7 @@
   artifact_wall_animal_skull_tiger: "смертельний тигр"
   artifact_wall_animal_skull_bear: "великий ведмідь"
   artifact_wall_animal_skull_aurochs: "масивний зубр"
+  artifact_wall_animal_skull_bison: "an imposing bison"
   artifact_wall_animal_skull_horse: "могутній бойовий кінь, взятий у померлої кобили [owner.GetNameNoTooltip]."
   artifact_wall_animal_skull_rabbit: "найстрашніша істота у всьому світі; кролик"
   feature_animal_hide_type_cat: "[Artifact.GetOwner.GetTitledFirstNamePossessiveNoTooltip] улюблений кіт [Artifact.GetOwner.Custom('CatStoryName')]"
@@ -165,22 +152,33 @@
   feature_animal_hide_type_unicorn: "єдиноріг"
   feature_animal_hide_type_dragon: "дракон"
   feature_animal_hide_type_lynx: "рись"
-
+  feature_animal_hide_type_hyena: "a hateful hyena"
+  feature_animal_hide_type_roe: "a swift roe"
+  feature_animal_hide_type_gazelle: "a nimble gazelle"
+  feature_animal_hide_type_antelope: "a fleet antelope"
+  feature_animal_hide_type_leopard: "a heartless leopard"
+  feature_animal_hide_type_bison: "a stalwart bison"
+  feature_animal_hide_type_elk: "a mighty elk"
+  artifact_animal_hide_name_legendary: "Hide of the [newly_created_artifact.Custom('GetLegendaryColor')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [location.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]"
+  artifact_animal_hide_name_adventurer: "Hide of the [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [location.GetBaronyNameExplicitlyNoTooltip]"
+  artifact_animal_hide_name_cat: "[owner.Custom('CatStoryNamePossessive')] Pelt"
+  artifact_animal_hide_name_dog: "[owner.Custom('DogStoryNamePossessive')] Pelt"
+  artifact_animal_hide_name_base: "[newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] Hide"
+  artifact_animal_hide_description: "The [SCOPE.Custom('ArtifactQuality')] tanned hide of [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], [newly_created_artifact.Custom('ArtifactSmallHideAcquisitionMethod')]."
   artifact_small_hide_name: "Шкура [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
   artifact_small_hide_description: "Дублена шкура [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], [newly_created_artifact.Custom('ArtifactSmallHideAcquisitionMethod')]. Шкура [SCOPE.Custom('ArtifactQuality')] якості."
   artifact_small_hide_acquisition_pet: "збережений в пам'ять про доброго друга та товариша протягом всього життя [ROOT.Artifact.GetOwner.GetTitleAsNamePossessiveNoTooltip]"
   artifact_small_hide_acquisition_hunt: "впольований в [ROOT.Artifact.GetOwner.MakeScope.Var('adventure_artifact_location').Title.Custom('TerrainTypeCountyScope')] of [ROOT.Artifact.GetOwner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTier]"
   create_artifact_small_hide_tooltip: "[inspiration_owner.GetShortUIName] здобув і віддубив шкуру з [SCOPE.Custom('ArtifactQuality')] результат"
-
   artifact_animal_hide_medium_name: "Шкура [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
   artifact_animal_hide_medium_description: "Дублена шкура [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], здобута в [location.GetName]. Шкура [SCOPE.Custom('ArtifactQuality')] якості."
   create_artifact_medium_hide_tooltip: "[inspiration_owner.GetShortUIName] здобута та віддублена шкура з [SCOPE.Custom('ArtifactQuality')] результат"
-
   artifact_animal_hide_big_name: "Шкура [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
   artifact_animal_hide_big_description: "Дублена шкура [newly_created_artifact.GetFeatureText( 'animal_hide_type' )], спійманий у [location.GetName]. Шкура має величезний розмір, а також має [SCOPE.Custom('ArtifactQuality')] якість."
   create_artifact_big_hide_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(<variable>.IsFemale, 'здобула та віддубила', 'здобув та віддубив' )] величезну шкуру [SCOPE.Custom('ArtifactQuality')] якості"
-
-  # Skull
+  #Skull
+  artifact_wall_skull_name_legendary: "Skull of the [newly_created_artifact.Custom('GetLegendaryColor')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [owner.MakeScope.Var('adventure_artifact_location').Province.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]"
+  artifact_wall_skull_name_adventurer: "Skull of the [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] of [owner.MakeScope.Var('adventure_artifact_location').Province.GetBaronyNameExplicitlyNoTooltip]"
   artifact_wall_skull_name: "Череп [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] [owner.MakeScope.Var('adventure_artifact_location').Title.GetNameNoTierNoTooltip]"
   artifact_wall_skull_description: "Вражаючий череп [newly_created_artifact.GetFeatureText( 'animal_skull_type' )], спольованих у [location.GetName]. Череп було [SCOPE.Custom('ArtifactAdverbQuality')] збережено та приєднано до [SCOPE.Custom('ArtifactAdverbWealth')] прикрашеного [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] кріпленням."
   artfact_animal_adjective: "[newly_created_artifact.Custom('ArtifactAnimalAdjective')|U]"
@@ -202,6 +200,8 @@
   artifact_animal_adjective_mighty: "могутній"
   feature_animal_skull_type_boar: "кабан з гострими як бритва бивнями"
   feature_animal_skull_type_wolf: "гострозубий великий вовк"
+  feature_animal_skull_type_hyena: "a sly smirk-mouthed hyena"
+  feature_animal_skull_type_lynx: "a dignified sharp-fanged lynx"
   feature_animal_skull_type_stag: "олень, що вихваляється вражаючою стійкою"
   feature_animal_skull_type_lion: "великий лев, цар звірів"
   feature_animal_skull_type_tiger: "смертельний тигр"
@@ -210,15 +210,20 @@
   feature_animal_skull_type_horse: "могутній кінь"
   feature_animal_skull_type_rabbit: "найстрашніша істота у всьому світі; кролик"
   feature_animal_skull_type_unicorn: "єдиноріг"
+  feature_animal_skull_type_elk: "a mighty many-tined elk"
+  feature_animal_skull_type_leopard: "a ferocious leopard"
+  feature_animal_skull_type_roe: "a prancing roe"
+  feature_animal_skull_type_gazelle: "a swift gazelle"
+  feature_animal_skull_type_antelope: "a leaping antelope"
+  feature_animal_skull_type_hart: "a proud hart"
+  feature_animal_skull_type_bison: "an imposing bison bull"
   create_artifact_wall_animal_skull_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(<variable>.IsFemale, 'здобула', 'здобув' )] вам вражаючий череп [newly_created_artifact.GetFeatureText( 'animal_skull_type' )]"
-
-  # Horn
+  #Horn
   artifact_wall_narwhal_horn_name: "Ріг єдинорога"
   artifact_wall_narwhal_horn: "Великий прямий блискучий білий ріг. За чутками, його забрали з тіла вбитого єдинорога. Ріг [SCOPE.Custom('ArtifactAdverbQuality')] збережено та приєднано до [SCOPE.Custom('ArtifactAdverbWealth')] прикрашеного [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] кріпленням."
-  #artifact_wall_rhino_horn_name":"Зуб Дракона"
-  #artifact_wall_rhino_horn":"Великий вигнутий ріг або зуб. Якщо це зуб, то великий розмір означає, що він, напевно, був від страшного звіра, швидше за все, дракона."
-
-  # Sculptures
+  #artifact_wall_rhino_horn_name: "Dragon's Tooth"
+  #artifact_wall_rhino_horn: "A large, curved horn or tooth. If it is a tooth, the large size means it must have come from a fearsome beast, most likely a dragon."
+  #Sculptures
   artifact_sculpture_name: "$artifact_name_prefix$ Статуя"
   artifact_sculpture_description: "[SCOPE.Custom('ArtifactArticleWealth')] статуя [owner.GetTitledFirstName], розвальована, а також [SCOPE.Custom('ArtifactAdverbQuality')] вирізьблена. [owner.GetTitleAsNameNoTooltip] відомий за [owner.GetHerHis] [owner.Custom('RulerSkill')]. [newly_created_artifact.GetFeatureText( 'sculpture_material' )] скульптури [SCOPE.Custom('ArtifactAdverbQuality')] роботи."
   artifact_sculpture_warrior: "неперевершена майстерність у бою"
@@ -235,26 +240,23 @@
   artifact_sculpture_religious_christian_description: "Вирізьблена та пофарбована статуя [owner.Custom('RandomSaint')]. В основі написана цитата з [owner.GetFaith.GetAdjective] [owner.GetFaith.ReligiousText]."
   artifact_statue_religious_jesus: "Розп'яття Христа"
   artifact_statue_religious_mary: "Діва Марія"
-  #artifact_sculpture_virgin_mary_description":"Вирізьблена та пофарбована статуя Діви Марії, матір Ісуса."
-  #artifact_sculpture_visnu_description":"Вирізьблена та пофарбована статуя Вішну Хранителя."
+  #artifact_sculpture_virgin_mary_description: "A carved and painted statue of the Virgin Mary, mother of Jesus."
+  #artifact_sculpture_visnu_description: "A carved and painted statue of Vishnu the Preserver."
   artifact_sculpture_animal_description: "[SCOPE.Custom('ArtifactArticleWealth')] статуя тварини, розфарбована та  [SCOPE.Custom('ArtifactAdverbQuality')] вирізьблена. Міфічні якості створіння алегорично натякають на [owner.GetTitleAsNameNoTooltip] та [Select_CString(<variable>.IsFemale, 'її', 'його' )] [owner.Custom('RulerSkill')]. Обробка [newly_created_artifact.GetFeatureText( 'sculpture_material' ) статуї має [SCOPE.Custom('ArtifactAdverbQuality')] якість."
   feature_sculpture_material_stone: "камінь"
   feature_sculpture_material_wood: "[Artifact.GetFeatureText( 'generic_material_wood' )]"
-
-
   artifact_sculpture_ark_of_covenant_name: "Ковчег Заповіту"
   artifact_sculpture_ark_of_covenant_description: "Великий кам'яна скриня, як кажуть, справжній Ковчег Заповіту, де зберігаються кам'яні таблиці даровані Моїсею Богом."
-  #artifact_sculpture_kali_description":"Вирізьблена та пофарбована статуя Калі, Чорної Богині."
-  #artifact_sculpture_ganesh_description":"Вирізьблена та розфарбована статуя Ганеша, того, хто знищує перешкоди."
+  #artifact_sculpture_kali_description: "A carved and painted statue of Kali, the Black Goddess."
+  #artifact_sculpture_ganesh_description: "A carved and painted statue of Ganesh the Remover of Obstacles."
   artifact_sculpture_armor_babr_name: "Бабр-е Баян"
   artifact_sculpture_armor_babr: "Це легендарний Бабр-е Баян, броня, що належала Ростаму, герою Персії."
   artifact_sculpture_cabinet_pentapyrgion_name: "Пентаполіс"
   artifact_sculpture_cabinet_pentapyrgion_description: "Ця вишукана шафка була зроблена імператором Теофілосом для розміщення різноманітних ваз, вінців та інших коштовностей в Хризотрікліні, приймальній залі великого палацу в Константинополі."
   create_artifact_epic_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(<variable>.IsFemale, 'доставила', 'доставив' )] [epic.GetName] з далеких земель."
   create_artifact_adventure_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(<variable>.IsFemale, 'доставила', 'доставив' )] [newly_created_artifact.GetName] з далеких земель."
-
-  # Pedestal Artifacts": "
-  # Box
+  #Pedestal Artifacts:
+  #Box
   artifact_box_small_name: "$artifact_name_prefix$ Скринька для коштовностей"
   artifact_box_medium_name: "$artifact_name_prefix$ Оздоблена шкатулка"
   artifact_box_small_description: "Скринька для коштовностей [SCOPE.Custom('ArtifactQuality')] якості. Виконана з [SCOPE.Custom('ArtifactAdverbWealth')] обробленого [newly_created_artifact.GetFeatureText( 'box_material' )]. [newly_created_artifact.GetFeatureText( 'box_decoration' )]. Ідеально підходить для зберігання дорогоцінностей та релігійних сувенірів."
@@ -274,7 +276,6 @@
   feature_box_material_teak: "$wood_teak$"
   feature_box_material_ebony: "$wood_ebony$"
   create_artifact_box_tooltip: "[inspiration_owner.GetShortUIName] produced a box of [SCOPE.Custom('ArtifactQuality')] craftsmanship"
-
   artifact_pedestal_crown_description: "$artifact_crown_description$"
   artifact_goblet_name: "$artifact_name_prefix$ Goblet"
   artifact_goblet_description: "Церемоніальний кубок [SCOPE.Custom('ArtifactQuality')] якості. Виконаний з [newly_created_artifact.GetFeatureText( 'goblet_material' )] та інкрустований [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )]"
@@ -285,7 +286,6 @@
   feature_goblet_material_ivory: "$hsb_ivory$"
   feature_goblet_material_glass: "$material_glass$"
   create_artifact_goblet_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(<variable>.IsFemale, 'створила', 'створив' )] кубок [SCOPE.Custom('ArtifactQuality')] якості"
-
   artifact_pedestal_rock_name: "Священний Камінь"
   artifact_pedestal_rock_description: "Незвичайний камінь, що, згідно з переказами, впав з неба та вважається священним у [owner.GetCulture.GetNameNoTooltip] культурі."
   artifact_pedestal_pouch_name: "$artifact_name_prefix$ Сумка"
@@ -293,8 +293,7 @@
   artifact_pedestal_scroll_name: "$artifact_name_prefix$ Закони"
   artifact_pedestal_scroll_description: "Офіційного вигляду сувій з основними законами [owner.GetPrimaryTitle.GetNameNoTooltip] визначеними [owner.GetTitledFirstNameNoTooltip]."
   artifact_pedestal_religious_head_letter_name: "Лист від [compliment_receiver.GetTitledFirstNameNoTooltip]"
-  artifact_pedestal_religious_head_letter_description: "Там написано: $learning_theology.3022.desc$""\n\nЛист призначається для [letter_receiver.GetTitledFirstName] і підписано [compliment_receiver.GetTitledFirstName]."""
-
+  artifact_pedestal_religious_head_letter_description: "Там написано: $learning_theology.3022.desc$\"\"\n\nЛист призначається для [letter_receiver.GetTitledFirstName] і підписано [compliment_receiver.GetTitledFirstName].\"\""
   artifact_pedestal_crucifix_name: "$artifact_name_prefix$ Розп'яття"
   artifact_pedestal_crucifix_description: "Дерев'яне розп'яття вишуканої майстерності - сумний вираз на обличчі Христа здатен навіть заклятого грішника змусити відчути покаяння."
   artifact_pedestal_cross_name: "$artifact_name_prefix$ Хрест"
@@ -306,11 +305,11 @@
   artifact_pedestal_skull_of_the_enemy_description: "Чистий та ідеально збережений людський череп, що колись належав [rival.GetTitledFirstNameNoTooltip], вилучений хірургічним шляхом, з огляду на особисті образи [owner.GetTitledFirstNameNoTooltip]."
   artifact_pedestal_skull_of_the_apostate_name: "Череп Відступника"
   artifact_pedestal_skull_of_the_apostate_description: "Чистий та ідеально збережений людський череп, що колись належав [rival.GetTitledFirstNameNoTooltip], вилучений хірургічним шляхом, через спосіб життя, що суперечив поглядам [owner.GetFaith.GetName]."
-  #artifact_pedestal_statuette_description":"Невеличка статуетка вишуканої роботи, що представляє [owner.Custom('StatuetteSubject')]."
-  #artifact_pedestal_statuette_minor_god":"другорядний бог [owner.GetFaith.GetNameNoTooltip]"
-  #artifact_pedestal_statuette_zoroastr":"Фаравахар"
-  #artifact_pedestal_statuette_lion":"величний лев"
-  #artifact_pedestal_statuette_griffin":"безстрашний грифон"
+  #artifact_pedestal_statuette_description: "A small statuette of exquisite workmanship, representing [owner.Custom('StatuetteSubject')]."
+  #artifact_pedestal_statuette_minor_god: "a minor god of [owner.GetFaith.GetNameNoTooltip]"
+  #artifact_pedestal_statuette_zoroastr: "a Faravahar"
+  #artifact_pedestal_statuette_lion: "a majestic lion"
+  #artifact_pedestal_statuette_griffin: "a fearsome griffin"
   artifact_pedestal_massive_diamond_name: "Діамант, що належить [owner.GetTitledFirstNameNoTooltip]"
   artifact_pedestal_massive_diamond: "Великий діамант, сяючий та відшліфований, з унікальною чистотою та розмірами."
   artifact_pedestal_crown_justinian_name: "Корона Юстиніана"
@@ -345,11 +344,9 @@
   artifact_pedestal_veil_veronica: "Аутентична плащаниця Вероніки: відріз полотна, на якому чудесним чиновм залишився відбиток лиця Ісуса під час Страстей. Вірять, що вона здатна лікувати Божою Благодаттю."
   artifact_pedestal_cornerstone_name: "Викрадений наріжний камінь"
   artifact_pedestal_cornerstone_name_desc: "Наріжний камінь здобутий в [rival.GetTitledFirstNamePossessive] [rival.Custom('FortifiedBuilding')]"
-  #artifact_pedestal_mosque_lamp_name":"Лампа з дорогоцінною олією"
-  #artifact_pedestal_mosque_lamp":"Розкішна лампа в мечеті - цінна лампада, зроблена зі скла та емалі і прикрашена позолотою."
-
-
-  # Books
+  #artifact_pedestal_mosque_lamp_name: "Precious Oil Lamp"
+  #artifact_pedestal_mosque_lamp: "A magnificent mosque lamp — a precious oil lamp made of enamelled glass and gilded."
+  #Books
   artifact_book_title: "[newly_created_artifact.GetFeatureText( 'book_title' )]"
   artifact_book_description: "[newly_created_artifact.Custom('ArtifactBookDescType')] [newly_created_artifact.GetFeatureText( 'book_decoration' )]."
   artifact_book_title_based_desc: "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] book detailing all the sacrifices and arduous work put in to enable [ROOT.Artifact.GetFeatureText( 'book_topic' )]. The lettering is [ROOT.Artifact.GetOwner.Custom('ArtifactQuality')] and it is [ROOT.Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated."
@@ -359,21 +356,17 @@
   artifact_book_other_desc_4: "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] book that shows [ROOT.Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] understanding of [ROOT.Artifact.GetFeatureText( 'book_subject' )] as it details [ROOT.Artifact.GetFeatureText( 'book_topic' )]."
   artifact_book_other_desc_5: "[ROOT.Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript [ROOT.Artifact.GetOwner.Custom('ArtifactBookContentQuality')] detailing [ROOT.Artifact.GetFeatureText( 'book_topic' )]. The pages are extensively illuminated and contain many illustrations, most notably of large snails."
   artifact_book_no_preface_desc: "[ROOT.Artifact.GetFeatureText( 'book_topic' )]"
-
   feature_book_cover_material_wood: "деревина"
   feature_book_cover_material_leather: "шкіра"
   feature_book_cover_material_velvet: "оксамит"
   feature_book_cover_material_gold: "золото"
   feature_book_cover_material_silver: "срібло"
   feature_book_cover_material_HSB_ivory: "слонова кістка"
-
   feature_book_decoration_gems: "Обкладинка виконана з [Artifact.GetFeatureText( 'book_cover_material' )] та прикрашена численними зображеннями [Artifact.GetFeatureText( 'decoration_pattern' )], а також доречними вставками [Artifact.GetFeatureText( 'decoration_material_gem' )]"
-  feature_book_decoration_gems_and_clasp0: $feature_book_decoration_gems$ закриваєтся за допомогою оздобних застібок."""
   feature_book_decoration_gems_and_clasp: "$feature_book_decoration_gems$, закриваєтся за допомогою оздобних застібок."
   feature_book_decoration_pattern_embroidered: "The cover is [Artifact.GetFeatureText( 'book_cover_material' )] that has been embroidered to display a repeating image of [Artifact.GetFeatureText( 'decoration_pattern' )]"
   feature_book_decoration_pattern_carved: "The cover is [Artifact.GetFeatureText( 'book_cover_material' )] that has been carved to display a repeating image of [Artifact.GetFeatureText( 'decoration_pattern' )]"
   feature_book_decoration_pattern_painted: "The cover is [Artifact.GetFeatureText( 'book_cover_material' )] that has been painted to display a repeating image of [Artifact.GetFeatureText( 'decoration_pattern' )]"
-
   feature_book_title_fallback: "$artifact_name_prefix_artifact_scope$ Book"
   feature_book_title_unification: "$artifact_name_prefix_artifact_scope$ To Unify a Realm"
   feature_book_title_creation: "$artifact_name_prefix_artifact_scope$ To Form a Realm"
@@ -389,6 +382,14 @@
   feature_book_title_blademaster: "$artifact_name_prefix_artifact_scope$ Weapons and Combat"
   feature_book_title_hunter_one: "$artifact_name_prefix_artifact_scope$ Guide to Hunting"
   feature_book_title_hunter_two: "$artifact_name_prefix_artifact_scope$ On the Beauty of Nature"
+  feature_book_title_hunter_three: "$artifact_name_prefix_artifact_scope$ Master of Game"
+  feature_book_title_hunter_four: "$artifact_name_prefix_artifact_scope$ Art of the Hunt"
+  feature_book_title_hunter_five: "$artifact_name_prefix_artifact_scope$ Book of Hunting"
+  feature_book_title_hunter_six: "$artifact_name_prefix_artifact_scope$ On Gentle and Wild Beasts"
+  feature_book_title_hunter_seven: "$artifact_name_prefix_artifact_scope$ Book of the Chase"
+  feature_book_title_hunter_eight: "$artifact_name_prefix_artifact_scope$ Birds of Prey"
+  feature_book_title_hunter_nine: "$artifact_name_prefix_artifact_scope$ Art of Hunting with Birds"
+  feature_book_title_hunter_ten: "$artifact_name_prefix_artifact_scope$ Nature and Care of Dogs"
   feature_book_title_mystic: "$artifact_name_prefix_artifact_scope$ Guide to the Esoteric"
   feature_book_title_herbalist: "$artifact_name_prefix_artifact_scope$ Herbs and Plants"
   feature_book_title_cannibal: "$artifact_name_prefix_artifact_scope$ Culinary Delights"
@@ -415,23 +416,20 @@
   feature_book_title_medicine_herbs_one: "$artifact_name_prefix_artifact_scope$ Healing Guide"
   feature_book_title_medicine_herbs_two: "Herbs and Other Potent Plants"
   feature_book_title_medicine_witch: "$artifact_name_prefix_artifact_scope$ Arcane Guide"
-
-# witch
+  #witch
   feature_book_title_witch_love_sorcery: "The Charms of [Artifact.GetFeatureText( 'book_subject' )]"
   feature_book_topic_witch_love_sorcery: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] book that holds the power and knowledge of [Artifact.GetFeatureText( 'book_subject' )]. It contains [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrated descriptions of charms and spells to induce love."
   feature_book_title_witch_curse_sorcery: "The Curses of [Artifact.GetFeatureText( 'book_subject' )]"
   feature_book_topic_witch_curse_sorcery: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] book that holds the power and knowledge of [Artifact.GetFeatureText( 'book_subject' )]. It contains [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrated descriptions of curses and potions to hinder your enemies."
   feature_book_title_witch_witch: "[Artifact.GetOwner.GetFaith.WitchGodName|U]"
-
-# martial
+  #martial
   feature_book_title_martial_military: "The $artifact_name_prefix_artifact_scope$ Art of War"
   feature_book_topic_martial_military: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] book on strategy and warfare, born from [Artifact.GetOwner.GetFirstNamePossessiveNoTooltip] long experience on the battlefield."
   feature_book_title_martial_duels: "$artifact_name_prefix_artifact_scope$ Manual of Martial Arts"
   feature_book_topic_martial_duels: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] manual containing training advice for dueling with every weapon known on the battlefield, tournaments, and jousting."
   feature_book_title_martial_chivalry: "The Book of [Artifact.GetOwner.GetCulture.GetNameNoTooltip] Chivalry"
   feature_book_topic_martial_chivalry: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] tome containing [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] advice and ruminations regarding chivalry and courtliness."
-
-# diplomacy
+  #diplomacy
   feature_book_title_diplomacy_dynasty: "The [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip] Chronicles"
   feature_book_topic_diplomacy_dynasty: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] chronicle detailing the history of the [Artifact.GetOwner.Custom('DynastyPrestigeLevel')] [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip] dynasty, first offered to [Artifact.GetOwner.GetTitledFirstNameNoTooltipRegnal]."
   feature_book_topic_diplomacy_dynasty_big: "A monumental chronicle detailing the history of the [Artifact.GetOwner.Custom('DynastyPrestigeLevel')] [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip] dynasty, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated and illustrated."
@@ -449,8 +447,7 @@
   feature_book_topic_diplomacy_poetry: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] collection of graceful and inspired poetry by the famous [author.GetTitledFirstNameNoTooltip] and dedicated to [Artifact.GetOwner.GetTitledFirstNameNoTooltip]."
   feature_book_title_diplomacy_jokes: "$artifact_name_prefix_artifact_scope$ Philogelos"
   feature_book_topic_diplomacy_jokes: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] collection of jokes. The humor shows a [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] understanding of tone and sentence structure, as well as a remarkable disrespect for intellectuals."
-
-# stewardship
+  #stewardship
   feature_book_title_stewardship_speculum: "$artifact_name_prefix_artifact_scope$ Speculum Principis"
   feature_book_topic_stewardship_speculum: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] treaty on the required virtues, knowledge and traits of the ideal ruler."
   feature_book_title_stewardship_admin: "$artifact_name_prefix_artifact_scope$ Administration of the Kingdom"
@@ -459,8 +456,7 @@
   feature_book_topic_stewardship_architect: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] compilation of [Artifact.GetOwner.GetCulture.GetName] architecture, both current and historical, flush with [Artifact.GetOwner.Custom('ArtifactWealth')] marginalia and informative illustrations."
   feature_book_title_stewardship_digest: "$artifact_name_prefix_artifact_scope$ Digest"
   feature_book_topic_stewardship_digest: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of the compendium of Roman law ordered by emperor Justinian."
-
-# intrigue
+  #intrigue
   feature_book_title_intrigue_poisons: "$artifact_name_prefix_artifact_scope$ Compendium of Poisons"
   feature_book_topic_intrigue_poisons: "A small, sinister book with a black-leather cover, containing detailed drawings of plants and step-by-step, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrated, instructions for preparing a wide selection of poisons."
   feature_book_title_intrigue_seduction: "$artifact_name_prefix_artifact_scope$ The Art of Love"
@@ -470,8 +466,7 @@
   feature_book_title_intrigue_punishment: "Crime and Punishment"
   feature_book_topic_intrigue_punishment: "An intimidating compendium of all forms of torture known to our age, described in gleeful detail by a true master of the field, [author.GetFirstNameNoTooltip]."
   feature_book_topic_intrigue_punishment_not_torturer: "An intimidating compendium of all forms of torture known to our age, described in gleeful detail and [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrated."
-
-# learning
+  #learning
   feature_book_title_learning_religious: "$artifact_name_prefix_artifact_scope$ [Artifact.GetOwner.GetFaith.ReligiousText|U]"
   feature_book_topic_learning_religious: "A [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated copy of the [Artifact.GetOwner.GetFaith.ReligiousText], written by an elegant hand."
   feature_book_topic_learning_religious_big: "A monumental copy of the [Artifact.GetOwner.GetFaith.ReligiousText], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated and elegantly written."
@@ -491,16 +486,14 @@
   feature_book_topic_learning_golden_legend: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] collection of hagiographies written in simple Latin, sure to be appreciated by everyone."
   feature_book_title_learning_anatomy: "Charting the Human Body"
   feature_book_topic_learning_anatomy: "This book contains [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] observations and [Artifact.GetOwner.Custom('ArtifactWealth')] illustrations detailing the anatomy of the human body."
-
-# medicine
+  #medicine
   feature_book_title_medicine_medicine: "$artifact_name_prefix_artifact_scope$ Medical Manuscript"
   feature_book_title_medicine_science: "$artifact_name_prefix_artifact_scope$ Herbolarium"
   feature_book_topic_medicine_science: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] herbolarium, collecting all the world's knowledge on herbs and their medical properties."
   feature_book_topic_medicine_science_big: "A monumental herbolarium, with detailed drawings of each plant and descriptions of its medical properties."
   feature_book_title_medicine_galen: "$artifact_name_prefix_artifact_scope$ Galen"
   feature_book_topic_medicine_galen: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript containing all the medical wisdom of the ancient philosopher and physician Galen."
-
-# alchemy
+  #alchemy
   feature_book_title_alchemy_the_great_book_of_mercy: "The Great Book of Mercy"
   feature_book_topic_alchemy_the_great_book_of_mercy: "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of Jabir ibn Hayyan's alchemical work The Great Book of Mercy, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrated and illuminated."
   feature_book_title_alchemy_the_book_of_seventy: "The Book of Seventy"
@@ -513,40 +506,33 @@
   feature_book_topic_alchemy_gold: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] tome containing [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] directions for transmuting gold from lead and other base metals. The reader is warned that results may vary."
   feature_book_title_alchemy_silver: "$artifact_name_prefix_artifact_scope$ Argyropoeia"
   feature_book_topic_alchemy_silver: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] tome containing [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] directions for transmuting silver from copper and other base metals. The reader is warned that results may vary."
-
-# relationships
+  #relationships
   feature_book_title_soulmate: "$artifact_name_prefix_artifact_scope$ Devotion"
   feature_book_topic_soulmate: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] and colorfully illuminated manuscript [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] conveying the devotion [Artifact.GetOwner.GetTitledFirstName] feels for [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] – immortalizing their love."
   feature_book_title_nemesis: "The Undying Hatred of [Artifact.GetOwner.GetTitledFirstName]"
   feature_book_topic_nemesis: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] conveying the hatred [Artifact.GetOwner.GetTitleAsName] feels for [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] – naming [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetHerHim] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom('InsultAdjectiveArticle')] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom('InsultNoun')] among many other things. The text is painstakingly illustrated to portray the [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetWomanMan] in as many unflattering situations as possible."
-
-# mystical animal
-  feature_book_title_mystical_animal: "The White [Artifact.GetOwner.Custom('LocalAnimal')|U]"
-  feature_book_topic_mystical_animal: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript gathering all local legends about the [Artifact.GetOwner.Custom('LocalAnimalDesc')] white [Artifact.GetOwner.Custom('LocalAnimal')] felled by [Artifact.GetOwner.GetTitledFirstName]. The lettering is [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] and the might of the [Artifact.GetOwner.GetTitleAsNameNoTooltip] unquestionable."
-
-# cannibal
+  #mystical animal
+  feature_book_title_mystical_animal: "The White [Artifact.GetOwner.Custom('GetAnimalType')|U]"
+  feature_book_topic_mystical_animal: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript gathering all local legends about the [Artifact.GetOwner.Custom('GetAnimalAdjective')] white [Artifact.GetOwner.Custom('GetAnimalType')] felled by [Artifact.GetOwner.GetTitledFirstName]. The lettering is [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] and the might of the [Artifact.GetOwner.GetTitleAsNameNoTooltip] unquestionable."
+  #cannibal
   feature_book_title_cannibal_recipes: "Fed up With People"
   feature_book_topic_cannibal_recipes: "A collection of [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] and unconventional recipes for cooking human flesh, filled with [Artifact.GetOwner.Custom('ArtifactWealth')] – and detailed – illustrations and marginalia."
-
-# animals
+  #animals
   feature_book_title_animals_your_cat: "$artifact_name_prefix_artifact_scope$ [Artifact.GetOwner.Custom('CatStoryName')|U]"
   feature_book_title_animals_your_dog: "$artifact_name_prefix_artifact_scope$ [Artifact.GetOwner.Custom('DogStoryName')|U]"
   feature_book_title_animals: "Inviting the Wild"
   feature_book_title_animals_no_name: "$artifact_name_prefix_artifact_scope$ Companion Pets"
-
   feature_book_topic_animals_your_cat: "This book contains [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] ruminations on the nature of [Artifact.GetFeatureText( 'book_subject' )] and details the life of a feline named [Artifact.GetOwner.Custom('CatStoryName')]. It is [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated and illustrated."
   feature_book_topic_animals_your_cat_no_name: "This book contains [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] ruminations on the nature of [Artifact.GetFeatureText( 'book_subject' )] and details the life of a feline beloved by [Artifact.GetOwner.GetTitledFirstName]. It is [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated and illustrated."
   feature_book_topic_animals_your_dog: "This book contains [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] ruminations on the nature of [Artifact.GetFeatureText( 'book_subject' )] and details the life of a dog named [Artifact.GetOwner.Custom('DogStoryName')]. It is [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated and illustrated."
   feature_book_topic_animals_your_dog_no_name: "This book contains [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] ruminations on the nature of [Artifact.GetFeatureText( 'book_subject' )] and details the life of a dog beloved by [Artifact.GetOwner.GetTitledFirstName]. It is [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated and illustrated."
   feature_book_topic_animals_animals: "This book contains [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] ruminations on the nature of [Artifact.GetFeatureText( 'book_subject' )]. It is [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated and illustrated."
-
-# childhood
+  #childhood
   feature_book_title_childhood_one: "$artifact_name_prefix_artifact_scope$ On Early Days"
   feature_book_topic_childhood_one: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] relegation of childhood. A disproportionate amount of time is spent detailing [Artifact.GetOwner.MakeScope.Var('book_artifact_author').Char.Custom('child_favorite_toy_plural')], but overall the quality is [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]."
   feature_book_title_childhood_two: "$artifact_name_prefix_artifact_scope$ On Youth"
   feature_book_topic_childhood_two: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] relegation of childhood. A disproportionate amount of time is spent detailing a [Artifact.GetOwner.Custom('child_object_of_interest_random')], but overall the quality is [Artifact.GetOwner.Custom('ArtifactBookContentQuality')]."
-
-# family_epic
+  #family_epic
   feature_book_title_family_epic_song: "The Ballad of [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U]"
   feature_book_title_family_epic_chronicle: "The [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U] Annals"
   feature_book_title_family_epic_poem: "The [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U] Verses"
@@ -555,15 +541,12 @@
   feature_book_title_family_epic_great_chronicle: "The [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U]ichronicon"
   feature_book_title_family_epic_great_poem: "The [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U] Romance"
   feature_book_topic_family_epic_great: "A truly epic [Artifact.GetOwner.Custom('CompositionType')] of the glorious [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip|U] family, commissioned by [Artifact.GetOwner.GetTitledFirstNameNoTooltipRegnal], and enriched by vibrant illustrations of [Artifact.GetOwner.GetHerHis] glorious ancestors and their deeds."
-
-#Fallback title
+  #Fallback title
   feature_book_title_tome: "$feature_book_title_fallback$"
-
-# misc
+  #misc
   feature_book_subject_language_manual: "languages"
   feature_book_title_language_manual: "Worn Language Manual"
   feature_book_topic_language_manual: "A collection of notes and scribbles written by [Artifact.GetOwner.GetFirstNamePossessive] departed father, a traveling merchant who took the time to understand his customers. It contains many helpful tips and tricks for learning the basics of a new language."
-
   feature_book_subject_martial: "warfare"
   feature_book_subject_diplomacy: "diplomacy"
   feature_book_subject_learning: "scholarly matters"
@@ -588,7 +571,6 @@
   feature_book_subject_lunatic: "discrepancies in reality"
   feature_book_subject_family_epic: "dynastic deeds"
   feature_book_subject_family_epic_great: "ancestral glory"
-
   feature_book_topic_martial_troop_compositions: "troop compositions"
   feature_book_topic_martial_military_strategies: "military strategies"
   feature_book_topic_martial_ancient_military_campaigns: "ancient military campaigns"
@@ -601,20 +583,19 @@
   feature_book_topic_stewardship_trade_routes: "trade routes"
   feature_book_topic_stewardship_best_practices_tax_collectors: "tax collection"
   feature_book_topic_stewardship_lawmaking: "lawmaking"
-  feature_book_topic_hunter_hunter: "the many varied ways to fell an animal"
+  feature_book_topic_hunter_hunter: "the many varied quarry and the methods for hunting them"
   feature_book_topic_hunter_nature: "[SCOPE.Custom('ArtifactArticleWealth')|U] manuscript flush with detailed illustrations and [SCOPE.Custom('ArtifactBookContentQuality')] insights in the art of hunting and the beauty of the natural world."
+  feature_book_topic_hunter_falconry: "the different birds of prey and their care and training"
+  feature_book_topic_hunter_dogs: "the types of hunting hounds and their application in hunting various game"
   feature_book_topic_mystic_mystic: "the uses of incense and chants"
   feature_book_topic_artifact_book_topic_cannibal: "the many delicacies hidden in the human body"
-
   feature_book_subject_witch_not_funded: "[Artifact.GetOwner.GetFaith.WitchGodName]"
   feature_book_subject_witch_tooltip: "[Character.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.WitchGodName]"
   feature_book_subject_witch: "[Artifact.GetOwner.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.WitchGodName]"
   feature_book_topic_witch_worship_horned_god: "how to worship [Artifact.GetOwner.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.WitchGodHerHim|U]"
   feature_book_topic_witch_artifact_book_topic_witch_bible: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript showing a [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] understanding of – and disdain for – the [Artifact.GetOwner.MakeScope.Var('book_subject_witch_scope').Char.GetFaith.ReligiousText], mocking the holy text and proclaiming devotion to [Artifact.GetFeatureText( 'book_subject' )]."
-
   feature_book_topic_lunatic_lunatic: "what the voices in your head truly mean"
   feature_book_topic_lunatic_voynich: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] and extensively illuminated manuscript filled to the brim with text, diagrams, and illustrations. Too bad that it's all written in an unknown cursive script that's impossible to read."
-
   feature_book_unification: "the unification of realms"
   feature_book_topic_unification: "the unification of the [Artifact.GetOwner.MakeScope.Var('relevant_title').Title.GetName]"
   feature_book_creation: "the creation of realms"
@@ -623,40 +604,33 @@
   feature_book_topic_restoration: "the restoration of the [Artifact.GetOwner.MakeScope.Var('relevant_title').Title.GetName]"
   feature_book_subject_empire: "empires"
   feature_book_subject_kingdom: "kingdoms"
-
   feature_book_topic_intrigue_the_art_of_love: "art of lovemaking"
   feature_book_topic_medicine_medicine: "the application of different potions and ointments"
   feature_book_topic_medicine_herbs: "the many varied uses for a handful of rare herbs and plants"
   feature_book_topic_medicine_witch: "potions, ointments, herbs, and alternative methods of worship"
-
   artifact_book_content_quality_excellent_article: "an excellent"
   artifact_book_content_quality_deep_article: "a deep"
   artifact_book_content_quality_insightful_article: "an insightful"
   artifact_book_content_quality_adequate_article: "an adequate"
   artifact_book_content_quality_modest_article: "a modest"
-
   artifact_book_content_quality_excellent: "excellent"
   artifact_book_content_quality_deep: "deep"
   artifact_book_content_quality_insightful: "insightful"
   artifact_book_content_quality_adequate: "adequate"
   artifact_book_content_quality_modest: "modest"
-
   artifact_book_content_quality_excellent_adverb: "excellently"
   artifact_book_content_quality_deep_adverb: "deeply"
   artifact_book_content_quality_insightful_adverb: "insightfully"
   artifact_book_content_quality_adequate_adverb: "adequately"
   artifact_book_content_quality_modest_adverb: "modestly"
-  # travel (currently not used)
-  #feature_book_title_travels":"Подорож [inspiration_owner.GetFirstNameNoTooltip]"
-  #feature_book_topic_travels":"[SCOPE.Custom('ArtifactArticleBookentity')|U] рахунок пригодницьких подорожей [inspiration_owner.GetTitledFirstNameNoTooltip] в таємничі землі [owner.Custom('GetFarRegion')]."
+  #travel (currently not used)
+  #feature_book_title_travels: "The Travels of [inspiration_owner.GetFirstNameNoTooltip]"
+  #feature_book_topic_travels: "[SCOPE.Custom('ArtifactArticleBookContentQuality')|U] account of the adventurous travels of [inspiration_owner.GetTitledFirstNameNoTooltip] to the mysterious lands of [owner.Custom('GetFarRegion')]."
   artifact_book_topic_travels_china: "Cathay"
   artifact_book_topic_travels_africa: "Sudan, beyond the Sahara Desert"
   artifact_book_topic_travels_india: "India"
   artifact_book_topic_travels_steppe: "the steppes"
-
-
-
-  # Reliquary
+  #Reliquary
   artifact_pedestal_reliquary_christian_name: "[SCOPE.Custom('ChristianRelicName')|U]"
   artifact_pedestal_reliquary_christian_description: "An elegant reliquary containing a holy relic: [SCOPE.Custom('ChristianRelic')|l]."
   artifact_pedestal_reliquary_islam_name: "[SCOPE.Custom('IslamRelic')|U]"
@@ -665,7 +639,7 @@
   artifact_pedestal_reliquary_buddhism_description: "An elegant reliquary containing a holy relic: [SCOPE.Custom('BuddhismRelic')|l]."
   artifact_pedestal_reliquary_judaism_name: "[SCOPE.Custom('JudaismRelicName')|U]"
   artifact_pedestal_reliquary_judaism_description: "An elegant reliquary containing a holy relic: [SCOPE.Custom('JudaismRelic')|l]."
-  artifact_pedestal_reliquary_christian_nail: "a nail from Jesus' cross"
+  artifact_pedestal_reliquary_christian_nail: "one of the nails from Jesus' cross"
   artifact_pedestal_reliquary_christian_nail_name: "Holy Nail"
   artifact_pedestal_reliquary_christian_cross: "a wooden fragment of the True Cross, on which Jesus was crucified"
   artifact_pedestal_reliquary_christian_cross_name: "Fragment of the True Cross"
@@ -700,8 +674,7 @@
   artifact_pedestal_skull_goblet_description: "Елегантний, але моторошний келих, зроблений з черепа [bp1_yearly_5601_dead_nemesis.GetFirstName]."
   artifact_skull_goblet_trinket_name: "Брелок з черепом"
   artifact_skull_goblet_trinket_description: "Елегантний, але моторошний келих, зроблений з черепа [bp1_yearly_5601_dead_nemesis.GetFirstName]."
-
-# ALCHEMY
+  #ALCHEMY
   feature_elixir_youth: "Elixir of Youth"
   feature_elixir_youth_desc: "an elixir potent enough to restore lost youth"
   feature_elixir_immortality: "Elixir of Immortality"
@@ -711,18 +684,26 @@
   feature_glass_decoration_painted_pattern: "The glass is painted with a repeating image of [Artifact.GetFeatureText( 'decoration_pattern' )]"
   feature_glass_decoration_mold_blowing_pattern: "The glass has been blown in a mold displaying a repeating image of [Artifact.GetFeatureText( 'decoration_pattern' )]"
   feature_glass_decoration_enamel_pattern: "The glass has been enamelled to display a repeating image of [Artifact.GetFeatureText( 'decoration_pattern' )]"
-
   create_artifact_alchemy_tooltip: "[inspiration_owner.GetShortUIName] produced an artifact of [SCOPE.Custom('ArtifactQuality')] craftsmanship"
   create_artifact_alchemy_elixir_tooltip: "[inspiration_owner.GetShortUIName] produced an elixir of [SCOPE.Custom('ArtifactQuality')] craftsmanship"
   create_artifact_alchemy_book_tooltip: "[inspiration_owner.GetShortUIName] produced [SCOPE.Custom('ArtifactArticleWealth')] book with [SCOPE.Custom('ArtifactQuality')] lettering"
-
   artifact_philosophers_stone_name: "Philosopher's Stone"
   artifact_philosophers_stone_description: "A box containing the mythical alchemical substance capable of transmuting base metals into gold. The [newly_created_artifact.GetFeatureText( 'box_material' )] box is of [SCOPE.Custom('ArtifactQuality')] craftsmanship. [newly_created_artifact.GetFeatureText( 'box_decoration' )]."
-
   artifact_panacea_name: "$artifact_name_prefix$ Panacea"
   artifact_panacea_description: "A cure for all known diseases and ailments. The [newly_created_artifact.GetFeatureText( 'box_material' )] box is of [SCOPE.Custom('ArtifactQuality')] craftsmanship. [newly_created_artifact.GetFeatureText( 'box_decoration' )]."
-
   artifact_elixir_name: "$artifact_name_prefix$ [newly_created_artifact.GetFeatureText( 'elixir_type' )|U]"
   artifact_elixir_description: "[SCOPE.Custom('ArtifactArticleWealth')] flask that supposedly contains [newly_created_artifact.Custom('ArtifactElixirTypeDesc')]. [newly_created_artifact.GetFeatureText( 'glass_decoration' )]."
-
   create_artifact_banner_tooltip: "[inspiration_owner.GetShortUIName] created a large banner of [SCOPE.Custom('ArtifactQuality')] craftsmanship"
+  artifact_bowl_name: "$artifact_name_prefix$ Bowl"
+  artifact_bowl_description: "An ornate bowl of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is made of [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] and engraved with motifs of [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]."
+  artifact_plate_name: "$artifact_name_prefix$ Plate"
+  artifact_plate_description: "A magnificent plate of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is cast from [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] and etched with [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]."
+  artifact_urn_name: "$artifact_name_prefix$ Urn"
+  artifact_urn_description: "An exquisite urn of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is made of [newly_created_artifact.GetFeatureText( 'generic_material_earthware' )] and encircled with depictions of [newly_created_artifact.GetFeatureText( 'decoration_pattern' )]."
+  artifact_statuette_name: "$artifact_name_prefix$ Statuette"
+  artifact_statuette_description: "An elegant miniature statue of [SCOPE.Custom('ArtifactQuality')] craftsmanship, depicting a mounted [host.Custom('MountedWarriorTerm')] at the tilt. It is cast of gold, and with impressive detail."
+  artifact_tun_barrel_name: "$artifact_name_prefix$ Wine Tun"
+  artifact_tun_barrel_description: "A huge [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] vessel of [SCOPE.Custom('ArtifactQuality')] craftsmanship, capable of storing hundreds of gallons of wine."
+  artifact_scepter_name: "$artifact_name_prefix$ Scepter"
+  artifact_scepter_description: "A [SCOPE.Custom('ArtifactQuality')], ornate decorative scepter forged of gold — a true mark of distinction."
+  artifact_scepter_pedestal: "Scepter"

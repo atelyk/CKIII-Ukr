@@ -2,9 +2,9 @@
   tribal.1001.t: "Суперник"
   tribal.1001.desc_old: "«Ти [Select_CString(ROOT.Char.IsFemale, 'стала старою та слабкою', 'став старим та слабким')], [ROOT.Char.GetTitledFirstNameNoTooltip];"
   tribal.1001.desc_weak: "«Ти #EMP [Select_CString(ROOT.Char.IsFemale, 'слабачка', 'слабак' )]#!, [ROOT.Char.GetTitledFirstNameNoTooltip];"
-  tribal.1001.desc_meak: "Ти безхребетний черв'як, [ROOT.Char.GetTitledFirstNameNoTooltip];"""
-  tribal.1001.desc_fallback: "Ти [Select_CString(ROOT.Char.IsFemale, 'негідна правителька', 'негідний правитель')], [ROOT.Char.GetTitledFirstNameNoTooltip];"""
-  tribal.1001.desc: "прийшов час тобі поступитися!\n\n[challenger.Custom2('MyCharacterIntroduction', ROOT.Char)|U] наближається до мене на очах у всього племені, виголошуючи свій виклик.\n\n""Тепер [ROOT.Char.GetPrimaryTitle.GetName] належитиме мені і правитиму."""""
+  tribal.1001.desc_meak: "Ти безхребетний черв'як, [ROOT.Char.GetTitledFirstNameNoTooltip];\"\""
+  tribal.1001.desc_fallback: "Ти [Select_CString(ROOT.Char.IsFemale, 'негідна правителька', 'негідний правитель')], [ROOT.Char.GetTitledFirstNameNoTooltip];\"\""
+  tribal.1001.desc: "прийшов час тобі поступитися!\n\n[challenger.Custom2('MyCharacterIntroduction', ROOT.Char)|U] наближається до мене на очах у всього племені, виголошуючи свій виклик.\n\n\"\"Тепер [ROOT.Char.GetPrimaryTitle.GetName] належитиме мені і правитиму.\"\"\"\""
   tribal.1001.a_child: "Підкрипи свої слова клинком, [challenger.Custom('GirlBoy')]!"
   tribal.1001.a: "Підкрипи свої слова клинком!"
   tribal.1001.a_champion: "[liege_champion.GetTitledFirstName] will fight for me\n"
@@ -16,51 +16,41 @@
   tribal.1001.b_success: "Мої образи звучать сильніше"
   tribal.1001.b_failure: "[challenger.GetSheHe|U] перевершує мене у красномовності"
   tribal.1001.c: "Я не битимусь з вами через це..."
-
   tribal.1002.desc: "Я [Select_CString(ROOT.Char.IsFemale, 'боялася', 'боявся')], що цей день прийде. Я не буду битись з тобою, [Select_CString(liege_to_challenge.IsFemale, 'моя', 'мій')] [liege_to_challenge.Custom2('RelationToMeShort', SCOPE.sC('challenger'))]».\n\n[liege_to_challenge.GetFirstName] поступається мені престолом з доброї волі. Трохи приголомшене таким поворотом подій плем'я кидається навперебій вітати мене."
   tribal.1002.a: "Я... Ем... Дякую."
-
   tribal.1003.desc_opening: "«Отже, тобі вистачило сміливості кинути мені виклик?!"
   tribal.1003.desc_old: "Сподіваюся, ти зможеш підкріпити свої слова сталлю, [challenger.Custom('GirlBoy')]!»"
+  tribal.1003.desc_young: "You'd better be able to back your words up with steel!\""
   tribal.1003.desc: "\n\n[liege_to_challenge.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [liege_to_challenge.Custom('SignatureWeaponActionThirdPerson')] зброю і робить крок до мене. Я бачу, що [liege_to_challenge.Custom('signature_weapon')] в [Select_CString(liege_to_challenge.IsFemale, 'її', 'його')] руках прагне моєї крові. Навколо нас уже зібрався увесь народ: повітря пронизують вигуки страху та нетерпіння. Я переминаюсь з ноги на ногу."
   tribal.1003.desc_liege_champion: "\n\nMy [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('liege_to_challenge'))] [liege_to_challenge.GetTitledFirstNamePossessive] chosen champion, [liege_champion.GetTitledFirstName], [liege_champion.Custom('SignatureWeaponActionThirdPerson')] [liege_champion.GetHerHis] [liege_champion.Custom('signature_weapon')] and takes a step towards me. The whole tribe gathers around us, excitement and fear heavy in the air, as I widen my stance and..."
   tribal.1003.a: "...[ROOT.Char.Custom('signature_weapon')] вже в моїй руці."
   tribal.1003.b: "...піднімаю руки вгору і видаю незграбний смішок."
-
   tribal.1004.desc_opening: "[Select_CString(liege_to_challenge.IsFemale, 'Моя', 'Мій')] [liege_to_challenge.Custom2('RelationToMeShort', SCOPE.sC('challenger'))] [challenger.GetFirstName] [challenger.Custom('SignatureWeaponActionThirdPerson')] зброю і робить крок до мене. Я бачу: [challenger.Custom('signature_weapon')] в [Select_CString(liege_to_challenge.IsFemale, 'її', 'його')] руках прагне моєї крові. Навколо нас уже зібрався увесь народ: повітря пронизують вигуки страху та нетерпіння.\n\n"
   tribal.1004.desc: "[ROOT.Char.Custom('signature_weapon')] наливається важкістю в моїх руках, але я атакую. #EMP Помах, ухилення, обманний маневр... Ох!#! [challenger.Custom('SignatureWeaponActionReaction')] [challenger.Custom('SignatureWeaponCriticalPresent')] мою ногу, і я падаю. [challenger.GetFirstNameNoTooltip] нависає з мене — все скінчено! Ніхто в натовпі більше не підбадьорює мене."
   tribal.1004.a: "Чорт би тебе побрав!"
-
   tribal.1005.desc: "[ROOT.Char.Custom('signature_weapon')] наливається важкістю в моїх руках, але я атакую.\n\n#EMP Помах, ухилення, обманний маневр...#! [ROOT.Char.Custom('SignatureWeaponActionReaction')] [ROOT.Char.Custom('SignatureWeaponCritical')] [challenger.GetHerHis] ногу! [challenger.GetFirstName] важко осідає, і я розумію, що бій закінчено."
   tribal.1005.a: "Сподіваюся, ти зможеш засвоїти цей урок!"
-
   tribal.1014.desc_opening: "My [liege_to_challenge.Custom2('RelationToMeShort', SCOPE.sC('challenger'))] [challenger.GetFirstName] [challenger.Custom('SignatureWeaponActionThirdPerson')] [challenger.GetHerHis] [challenger.Custom('signature_weapon')] and takes a step towards [liege_champion.GetTitledFirstName]. The whole tribe is gathered around us, excitement and fear heavy in the air.\n\n"
   tribal.1014.desc: "[liege_champion.GetTitledFirstName] raises [liege_champion.GetHerHis] [liege_champion.Custom('signature_weapon')] and attacks. #EMP Dodge, press on, feint— Ugh!#! With [challenger.Custom('SignatureWeaponActionReaction')] [challenger.GetFirstNameNoTooltip] [challenger.Custom('SignatureWeaponCriticalPresent')] [liege_champion.GetFirstNamePossessive] leg, and as [liege_champion.GetSheHe] stumbles I realize it is over. The tribe is not cheering for me anymore."
   tribal.1014.a: "Curse you!"
-
   tribal.1015.desc: "[liege_champion.GetTitledFirstName] raises [liege_champion.GetHerHis] [liege_champion.Custom('signature_weapon')] and attacks.\n\n#EMP Dodge, press on, feint...#! With [liege_champion.Custom('SignatureWeaponActionReaction')] [liege_champion.GetSheHe] [liege_champion.Custom('SignatureWeaponCriticalPresent')] [challenger.GetTitledFirstNamePossessive] leg, and as [challenger.GetSheHe] stumbles I know it is done."
   tribal.1015.a: "I hope you've learned your lesson!"
-
   tribal.1006.desc_old: "Подивимося, чим ти підтвердиш свої вимоги, [challenger.Custom('GirlBoy')]!»"
+  tribal.1006.desc_young: "You'd better be able to lay your claim with skill!\""
   tribal.1006.desc: "Як тільки [liege_to_challenge.Custom2('MyCharacterIntroduction', ROOT.Char)|U] оголошує словесний двобій, народ змикається навколо нас, щоб не пропустити жодного слова.\n\nКоли свист і гомін замовкають, [liege_to_challenge.GetFirstNameNoTooltip] робить крок уперед і прочищає горло.\n#EMP"
   tribal.1006.a: "І це мало мене зачепити? Зараз я тобі покажу!"
   tribal.1006.a_success: "Словесний двобій виграний"
   tribal.1006.a_failure: "Словесний двобій програний"
   tribal.1006.b: "Це... Це була помилка."
-
   tribal.1007.desc_ending: "#!\n\nНатовп оглушливо реве, і я розумію: мене обійшли."
   tribal.1007.a: "Чорт забирай!"
-
   tribal.1008.desc: "Весь народ зібрався, щоб помилуватися словесним двобоєм. Зрештою, я і [Select_CString(liege_to_challenge.IsFemale, 'моя', 'мій')] [liege_to_challenge.Custom2('RelationToMeShort', SCOPE.sC('challenger'))] [challenger.GetFirstName] стикаємося не кожен день. Коли збуджений гомін затихає, [challenger.GetFirstNameNoTooltip] робить крок уперед і прочищає горло.\n#EMP"
   tribal.1008.desc_ending: "#!\n\nНатовп шоковано і незграбно замовкає."
   tribal.1008.a: "І це мало мене зачепити? Забирайся."
-
   tribal.1010.desc: "Весь народ зібрався, щоб помилуватися поєдинком. Зрештою, я і [Select_CString(liege_to_challenge.IsFemale, 'моя', 'мій')] [liege_to_challenge.Custom2('RelationToMeShort', SCOPE.sC('challenger'))] [challenger.GetFirstName] не кожен день намагаємось вбити один одного, коли [challenger.GetSheHe] нарешті приходить, то починає виправдовуватися.\n\n«Я… Це… Це була помилка. Я ніколи б не [Select_CString(liege_to_challenge.IsFemale, 'насмілилась', 'насмілився')] йти проти твоєї волі. Прости мене»."
   tribal.1010.a: "Ти боягуз."
-
   tribal.1022.trigger_failure.challenger: "My [single_combat_duel|E] against [liege_to_challenge.GetFirstNameNoTooltip] has invalidated"
   tribal.1022.trigger_failure.liege_to_challenge: "My [single_combat_duel|E] against [challenger.GetFirstNameNoTooltip] has invalidated"
-
   tribal.1101.t: "Гольмґанґ"
   tribal.1101.desc: "Коли я входжу в будинок, [Select_CString(rival.IsFemale, 'моя суперниця', 'мій суперник')] [rival.GetTitledFirstName] піднімає голову. [victim.GetTitledFirstName] — [Select_CString(victim.IsFemale, 'моя', 'мій')] #EMP [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))]#! — валяється у [rival.GetHerHis] ніг у калюжі крові.\n\n«Як ти не вчасно, [ROOT.Char.GetFirstNameNoTooltip]. Я просто [Select_CString(rival.IsFemale, 'хотіла', 'хотів')] залишити тобі натяк!»\n\nСудячи з слабких стогонів, [victim.GetFirstNameNoTooltip] ще [Select_CString(victim.IsFemale, 'жива', 'живий')], але хто знає, як далеко [rival.GetFirstNameNoTooltip] б [Select_CString(rival.IsFemale, 'зайшла', 'зайшов')], якби я не [Select_CString(ROOT.Char.IsFemale, 'втрутилася', 'втрутився')]?"
   tribal.1101.a: "[rival.Custom('InsultNoun')|U]! Я викликаю тебе на гольмґанґ!"
@@ -70,20 +60,15 @@
   tribal.1101.b_success: "[friend.GetFirstNameNoTooltip] перемагає"
   tribal.1101.b_failure: "[rival.GetFirstNameNoTooltip] перемагає"
   tribal.1101.c: "А може... Ми вдамо, що нічого не сталося?"
-
   tribal.1102.desc_opening: "Люди приходять здалеку, щоб помилуватися хольмгангом. Незабаром [rival.GetTitledFirstName] і я зійдемося у смертельному поєдинку. Натовп вітає нас схвальним гулом.\n\n[ROOT.Char.Custom('signature_weapon')] вже в моїх руках, а мої очі застеляє кривава пелена.\n\n"
   tribal.1102.desc: "Момент настав! [rival.GetTitledFirstNameNoTooltip] незграбн відбиває удар, давши мені можливість атакувати. Я роблю [ROOT.Char.Custom('SignatureWeaponAction')], [ROOT.Char.Custom('signature_weapon')] кидається вперед — [ROOT.Char.Custom('SignatureWeaponActionReaction')]! Я [ROOT.Char.Custom('SignatureWeaponCritical')] [rival.GetHerHis] груди. [rival.GetSheHe|U] спливає кров'ю ще до того, як [rival.GetSheHe] тіло падає на землю."
   tribal.1102.a: "Саме це чекає на кожного, хто кине мені виклик!"
-
   tribal.1103.desc_opening: "Люди зібралися здалеку, щоб помилуватися хольмгангом. Незабаром [rival.GetTitledFirstName] та [friend.GetTitledFirstName] зійдуться у смертельному поєдинку. Я стою в гущі збудженого натовпу, приєднавши свій голос до сотень інших.\n\n[friend.GetTitledFirstNameNoTooltip] піднімає свою зброю - це [friend.Custom('signature_weapon')] - і кидається вперед. Повітря наповнюється дзвіном сталі.\n\n"
   tribal.1103.desc: "Раптово [friend.GetFirstNameNoTooltip] [friend.Custom('SignatureWeaponActionThirdPerson')]! [friend.Custom('signature_weapon')] розтинає повітря зі свистом, [friend.Custom('SignatureWeaponActionReaction')] — [friend.Custom('SignatureWeaponCriticalPresent')] — і я чую хрускіт грудної клітки [friend.GetHerHis] суперник [rival.GetTitledFirstNameNoTooltip] важко осідає на землю і за мить помирає."
-
   tribal.1104.desc: "Зненацька [rival.GetTitledFirstNameNoTooltip] [rival.Custom('SignatureWeaponActionThirdPerson')] своєю зброєю! Я не встигаю парирувати удар, і [rival.Custom('signature_weapon')] [rival.Custom('SignatureWeaponCriticalPresent')] моє плече. Від болю у мене темніє в очах... Коли я приходжу до тями, [rival.GetSheHe] загрозливо нависає наді мною.\n\n«Здавайся»."
   tribal.1104.a: "Я... Я здаюсь."
-
   tribal.1105.desc: "Раптово [rival.GetTitledFirstNameNoTooltip] [rival.Custom('SignatureWeaponActionThirdPerson')]: [rival.Custom('signature_weapon')] розсікає повітря, [friend.GetFirstNameNoTooltip] не встигає парирувати удар, і [rival.Get. ('SignatureWeaponCriticalPresent')] [friend.GetHisHer] плече. Мій друг видає крик болю і валиться на землю, а [rival.GetFirstNameNoTooltip] кидає на мене зневажливий погляд.\n\n«Здавайтеся»."
   tribal.1105.a: "Ми... Ми здаємося."
-
   tribal.1201.t: "Кінні перегони"
   tribal.1201.desc_opening: "Підготовка до перегонів тривала тижнями, і ось нарешті настав час змагатися!\n\n"
   tribal.1201.desc_warhorse: "Передчуваючи перемогу, я злітаю в сідло. [ROOT.Char.Custom('HorseStoryMareStallion')] [ROOT.Char.Custom('WarhorseStoryName')] тріпає вухами."
@@ -92,7 +77,6 @@
   tribal.1201.a: "Звичайно, я теж приєднаюся!"
   tribal.1201.a.tt: "Перемога принесла би престиж, але є ризик і програти!"
   tribal.1201.b: "Я просто насолоджуватимусь видовищем."
-
   tribal.1202.desc: "Пісні, танці, радісні крики... Скачки ще не почалися, а натовп уже гуде від захоплення!\n\nЯ проштовхуюсь до денника і раптом помічаю, як [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('villain_racer'))] [villain_racer.GetTitledFirstName] підходить до коней, ховаючи в руках щось гостре..."
   tribal.1202.a: "«Агов! Що це ти робиш?!»"
   tribal.1202.b: "Це не моя справа."
@@ -101,7 +85,6 @@
   tribal.1202.c.success: "Я трохи підрізаю [villain_racer.GetHerHis] узду"
   tribal.1202.c.tt: "Буде просто #EMP жахливо#!, якщо підпруга раптом лусне під час перегонів..."
   tribal.1202.c.failure: "[villain_racer.GetSheHe|U] зауважує, що хтось спробував підрізати [Select_CString(villain_racer.IsFemale, 'її', 'його')] узду"
-
   tribal.1203.desc_opening: "Я лечу степом разом із бігом хмар над головою і вершниками, що женуть поруч.\n\n"
   tribal.1203.desc_sabotaged_you: "#EMP *Хлоп!*#!\n\nНебо і земля раптом міняються місцями. Я відчайдушно намагаюся втриматись у сідлі і раптом розумію, що воно бовтається у коня під черевом! Мої ноги вислизають із стремен... Я вдаряюсь об землю головою — і навіть не встигаю скрикнути."
   tribal.1203.desc_sabotaged_racer: "Якийсь час [villain_racer.GetTitledFirstName] тримається позаду, але раптом різко пришпорює коня і намагається загородити дорогу. Раптом я чую крик і бачу, як [Select_CString(racer.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('racer'))] [racer.GetTitledFirstName] падає з коня і залишається лежати у калюжі крові. Не в силах відірвати очей, я дивлюся, як скакун намагається струсити сідло, яке тепер бовтається у нього під черевом."
@@ -119,7 +102,6 @@
   tribal.1203.e: "Мені здається, я досить близько, щоб стрибнути..."
   tribal.1203.success: "Мені вдається вибити [villain_racer.GetHerHim] з сідла"
   tribal.1203.failure: "Я вилітаю з сідла"
-
   tribal.1204.desc_slow: "Я нарешті добираюся до фінішу, хоча на це йде багато часу.\n\n"
   tribal.1204.desc_fast: "Натовп вибухає щасливими криками, коли я перетинаю фінішну межу.\n\n"
   tribal.1204.desc_racer: "[Select_CString(racer.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('racer'))] [racer.GetTitledFirstName] вже відзначає перемогу в оточенні натовпу, охоче приймаючи подарунки та знаки уваги. [racer.GetSheHe|U] радісно махає мені рукою."
@@ -128,7 +110,6 @@
   tribal.1204.desc_you_jumped_horses: "Люди обступають мене, намагаючись погладити мого коня і навперебій вітаючи нас. Хтось уже почав танцювати... Коли [racer.GetTitledFirstName] та [villain_racer.GetTitledFirstName] пересікають фінішну межу, ніхто не звертає на них уваги. Усі, хто зібрався, надто зайняті мною!"
   tribal.1204.a: "Так, я і справді найшвидший, дякую!"
   tribal.1204.b: "Наступного разу перемога стане моєю!"
-
   tribal.1301.t: "Згубна зустріч"
   tribal.1301.desc: "[capital.GetName] стоїть на річці, на берегах якої я іноді в задумі гуляю. Коли я нахиляюся до води, щоб вгамувати спрагу, [Select_CString(peasant.IsFemale, 'якась селянка', 'якийсь селянин' )] рішуче встає у мене на шляху - неймовірна зухвалість!\n\nЩойно я відкриваю рота, щоб наказати [peasant.GetHerHim] забратися геть, [peasant.GetSheHe] махає рукою у бік річки: «[Select_CString(ROOT.Char.IsFemale, 'Моя пані', 'Мій пане' )], там ховається крокодил!»\n\n[peasant.GetSheHe|U]... [peasant.GetSheHe|U] що, [Select_CString(peasant.IsFemale, 'намагалася', 'намагався')] мене #EMP захистити#!?"
   tribal.1301.a: "Дякую! Ось дещо для вашого села."
@@ -136,10 +117,8 @@
   tribal.1301.c: "Крокодил? Га! Немає там крокодилів."
   tribal.1301.d: "Що ж... Дякую. А тепер йди."
   tribal.1301.d.tt: "Я вирішую взяти до уваги [peasant.GetHerHis] попередження"
-
   tribal.1302.desc: "Я підходжу до річки, вирішивши, що [peasant.GetWomanMan] мені бреше, і складаю долоні човником. Поблизу немає нікого, крім настирливих комах!\n\nКоли я збираюся зробити ковток, щось миготить у товщі води, а потім... #EMP Біль#!. Нестерпний біль. Я з жахом дивлюся вниз і бачу гігантську пащу, в яку потрапила моя нога. По гострих зубах стікає червона кров."
   tribal.1302.a: "А-А-А-А! ЗАБЕРІТЬ ЙОГО!"
-
   tribal.1303.t: "Оаза"
   tribal.1303.desc: "[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] підходить до мене із задоволеною усмішкою: «[Select_CString(ROOT.Char.IsFemale, 'Моя пані', 'Мій пане' )], ми знайшли неподалік новий оазис, це справді благословенне місце. І [capital.GetName] зовсім поруч звідти... Як нам вчинити?»\n\nНовий оазис! Джерело води та життя - або хорошого прибутку."
   tribal.1303.a: "Оаза принесе нам процвітання – якщо залучити зрошення!"

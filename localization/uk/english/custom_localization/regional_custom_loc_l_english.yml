@@ -11,12 +11,19 @@
   tournament_sparring: "тренувальний бій"
   #FortifiedBuilding
   castle: "замок"
+  castles: "castles"
   mansion: "садиба"
+  mansions: "palaces"
   temple: "храм"
+  temples: "temples"
   #IndefiniteBodyOfWater
   body_of_water_a_lake: "озеро"
   body_of_water_an_oasis: "оаза"
   body_of_water_the_ocean: "океан"
+  body_of_water_a_river: "a river"
+  body_of_water_a_large_pond: "a large pond"
+  body_of_water_a_lagoon: "a lagoon"
+  body_of_water_a_watering_hole: "a watering hole"
   #RandomExampleName
   random_example_name_default: "Ранальд"
   #TerrainType
@@ -61,13 +68,22 @@
   animal_lynxes: "рисі"
   #LocalAnimalDesc
   animal_flighty_desc: "мінливість"
+  animal_proud_desc: "proud"
   animal_majestic_desc: "велич"
   animal_powerful_desc: "міць"
   animal_sly_desc: "хитрість"
   animal_quick_desc: "швидкість"
+  animal_swift_desc: "swift"
+  animal_devious_desc: "devious"
+  animal_despised_desc: "despised"
+  animal_loathsome_desc: "loathsome"
   animal_mystical_desc: "таємничість"
   animal_fabled_desc: "легендарність"
   animal_cunning_desc: "гострий розум"
+  animal_prancing_desc: "prancing"
+  animal_leaping_desc: "leaping"
+  animal_ferocious_desc: "ferocious"
+  animal_deadly_desc: "deadly"
   #Abortifacients
   abortifacient_pennyroyal: "блошина м'ята"
   abortifacient_catmint: "котяча м'ята"
@@ -109,7 +125,6 @@
   venomous_creature_scutter: "крадуться"
   venomous_creature_slither: "підповзають"
   venomous_creature_scamper: "кидаються"
-
   #Venomous Creature Type Plural
   venomous_creature_snake_plural: "змії"
   venomous_creature_spider_plural: "павуки"
@@ -123,7 +138,6 @@
   random_religious_text_the_small_book_on_theism: "Мала книга теїзму"
   random_religious_text_modern_philosophy: "Сучасна філософія"
   random_religious_text_stories_from_holy_book: "історії зі священної книги"
-
   #Random Entertainment texts
   random_entertainment_text_beowulf: "Беовульф"
   random_entertainment_text_niebelungenlied: "Пісня про Нібелунги"
@@ -134,7 +148,6 @@
   random_entertainment_text_travels_to_byzantium: "Подорож до Візантії"
   random_entertainment_text_digenes_akrites: "Дігеніс Акрітас"
   random_entertainment_text_riddle_poems: "Загадкові поеми"
-
   #Random Informative Texts
   random_informative_text_on_the_judgement_of_the_stars: "Книга Про суд зірок"
   random_informative_text_the_perfect_state: "Ідеальна держава"
@@ -143,13 +156,10 @@
   random_informative_text_the_improvement_of_the_moral_qualities: "Поліпшення моральних якостей"
   random_informative_text_armes_prydein: "Пророцтво Британії"
   random_informative_text_almagest: "Альмагест"
-
   #Musical Performer
   music_performer_troubadour: "менестрель"
-
   #Musical Perfromer Possessive
   music_performer_troubadour_possessive: "трубадур"
-
   #Regional drink
   wine: "вино"
   mead: "медовиця"
@@ -163,26 +173,22 @@
   arrack: "аррак"
   tea: "чай"
   soma: "сома"
-
   #Game
   deck_of_cards: "колода карт"
   pachisi_board: "пачісі"
   chess_set: "шахівниця"
-
   #Levies
   levies_men: "чоловіки"
   levies_women: "жінки"
   levies_people: "люди"
-
   #OutdoorsHidingPlace
   trees: "дерева"
   rocks: "каміння"
-
+  rock: "rock"
   #ObjectToClimb
   sand_dune: "піщана дюна"
   boulder: "валун"
   tree: "дерево"
-
   #Curses (should not be translated, but remain the same in every language of the game)
   curse_helvete: "пекло"
   curse_helvetes_javla_skit: "чортова срань"
@@ -227,7 +233,6 @@
   curse_diantre: "diantre"
   curse_peste: "peste"
   curse_mortecouille: "mortecouille"
-  curse_ventre_dieu0: ventre-dieu"""
   curse_ventre_dieu: "вентре-дью"
   curse_puterelle: "puterelle"
   curse_proklyatie: "proklyatie"
@@ -331,6 +336,7 @@
   horned_mythical_creature_erchitu: "ерчіту"
   horned_mythical_creature_hadhayosh: "гадгайош"
   horned_mythical_creature_bulgu: "бульґу"
+  horned_mythical_creature_catoblepas: "catoblepas"
   horned_mythical_creature_keewakw: "кі-вакв"
   #Regional Mythical Creatures
   #Britannia
@@ -418,3 +424,60 @@
   #Other/Fallback
   mythical_creature_other_cipactli_lower: "сіпактлі"
   mythical_creature_other_dragon_lower: "дракон"
+  #Root vegetables
+  root_vegetable_onion: "onion"
+  root_vegetable_okra: "okra"
+  root_vegetable_carrot: "carrot"
+  root_vegetable_parsnip: "parsnip"
+  root_vegetable_turnip: "turnip"
+  root_vegetable_yam: "yam"
+  root_vegetable_kokoro: "kokoro"
+  root_vegetable_ginger: "ginger"
+  root_vegetable_taro: "taro"
+  root_vegetable_onion_plural: "onions"
+  root_vegetable_okra_plural: "okras"
+  root_vegetable_carrot_plural: "carrots"
+  root_vegetable_parsnip_plural: "parsnips"
+  root_vegetable_turnip_plural: "turnips"
+  root_vegetable_yam_plural: "yams"
+  root_vegetable_kokoro_plural: "kokoros"
+  root_vegetable_ginger_plural: "ginger"
+  root_vegetable_taro_plural: "taro"
+  #RegionalFerociousAnimal
+  regional_ferocious_animal_bear: "bear"
+  regional_ferocious_animal_wolf: "wolf"
+  regional_ferocious_animal_boar: "boar"
+  regional_ferocious_animal_tiger: "tiger"
+  regional_ferocious_animal_leopard: "leopard"
+  regional_ferocious_animal_lion: "lion"
+  regional_ferocious_animal_gorilla: "gorilla"
+  regional_ferocious_animal_shape: "shape"
+  #RegionalEdibleAnimal
+  regional_edible_animal_hart: "hart"
+  regional_edible_animal_chicken: "chicken"
+  regional_edible_animal_hare: "hare"
+  regional_edible_animal_lamb: "lamb"
+  regional_edible_animal_pig: "pig"
+  regional_edible_animal_ox: "ox"
+  regional_edible_animal_boar: "boar"
+  regional_edible_animal_gazelle: "gazelle"
+  #RegionalEdibleMeat
+  regional_edible_meat_venison: "venison"
+  regional_edible_meat_chicken: "chicken"
+  regional_edible_meat_hare: "hare"
+  regional_edible_meat_lamb: "lamb"
+  regional_edible_meat_beef: "beef"
+  regional_edible_meat_pork: "pork"
+  #GetRandomRegionalSmallGame
+  animal_squirrel: "squirrel"
+  animal_otter: "otter"
+  animal_vole: "vole"
+  animal_beaver: "beaver"
+  animal_ferret: "ferret"
+  animal_ermine: "ermine"
+  animal_badger: "badger"
+  animal_rabbit: "rabbit"
+  animal_mole: "mole"
+  animal_snake: "snake"
+  animal_lizard: "lizard"
+  animal_gerbil: "gerbil"

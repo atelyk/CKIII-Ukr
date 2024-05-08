@@ -3,41 +3,33 @@
   disinherit_interaction: "Позбавити спадку"
   disinherit_interaction_desc: "$dynasty_interaction_header$Видалити персонажа [recipient.GetShortUINameNoTooltip] із [Concept( 'line_of_succession', 'лінії успадкування' )|E]"
   disinherit_interaction_notification: "Позбавлення спадку члена династії"
-
+  courtly_vassal_disapproves_disinheriting: "Every [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassal|E] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) loses #N 20#! [opinion|E] of [actor.GetShortUIName] for #V 10 years#! #weak (Disapproves of Disinheriting non-Disputed Heir)#!"
   restore_inheritance_interaction: "Відновити спадкування"
   restore_inheritance_interaction_desc: "$dynasty_interaction_header$Повернути персонажа [recipient.GetShortUINameNoTooltip] в [Concept( 'line_of_succession', 'лінію спадкування' )|E]\n\n#weak цей варіант доступний, оскільки [recipient.GetHerHis] [Concept( 'disinherited', 'позбавили спадку' )|E]"
   restore_inheritance_interaction_notification: "Відновлений спадкоємець"
-
   denounce_interaction: "Відмовити"
   denounce_interaction_desc: "$dynasty_interaction_header$[denounce|E] персонажа [recipient.GetShortUINameNoTooltip]\n\n#weak Це дасть членам нашої [Concept( 'dynasty', 'династії' )|E] [Concept( 'imprisonment_reason', 'привід ув'язнити' )|E] [recipient.GetHerHis]"
   denounce_interaction_notification: "Denounced Dynasty member"
-
   forgive_interaction: "Пробачити"
   denounced_change_to_forgiven: "#V Ставлення $denounced_opinion$#! #weak (-50)#! змінюється на #V $forgave_denounced_opinion$#! #weak (-25)#! (#P +25#! [opinion|El])"
   forgiven_changed_to_denounced: "#V Ставлення $forgave_denounced_opinion$#! #weak (-25)#! змінюється на #V $denounced_opinion$#! #weak (-50)#! (#N -25#! [opinion|El])"
   forgive_interaction_desc: "$dynasty_interaction_header$Retract the [denouncement|E] of [recipient.GetShortUINameNoTooltip]"
   forgive_interaction_notification: "Пробачений член династії"
-
   call_dynasty_member_to_war_interaction: "Прикликати члена династії до війни"
   call_dynasty_member_to_war_interaction_desc: "Прикликати на службу: нехай [recipient.GetShortUINameNoTooltip] послужить своїй[Concept( 'dynasty', 'династії' )|E] у війні"
   call_dynasty_member_to_war_interaction_extra_icon: "$hook_extra_icon$"
-
   dynast_legitimize_bastard_interaction: "Визнає бастарда #weak (династія)#!"
   dynast_legitimize_bastard_interaction_desc: "$dynasty_interaction_header$Оголосити, що [recipient.GetShortUINameNoTooltip] — [Concept( 'legitimized_bastard', 'узаконений бастард' )|E]\n\n#weak Цей варіант доступний, оскільки [recipient.GetSheHe] — [Concept( 'bastard', 'бастард' )|E] моєї [Concept( 'dynasty', 'династії' )|E]"
   dynast_legitimize_bastard_interaction_notification: "Визнаний бастард"
-
   dynast_claim_title_interaction: "Заявити права на титул"
   dynast_claim_title_interaction_desc: "$dynasty_interaction_header$[Concept( 'claim', 'Заявити претензію' )|E] на [Concept( 'title', 'титул' )|E], яким володіє [recipient.GetShortUINameNoTooltip]"
   dynast_claim_title_interaction_notification: "Поборюваний титул"
   ALREADY_HAVE_CLAIM_ON_THIS_TITLE: "You already have a claim on this title"
   ALREADY_HAVE_CLAIMS_ON_ALL_TITLES: "You already have claims on all of [TARGET_CHARACTER.GetShortUINamePossessive] titles"
-
   dynast_end_dynasty_wars_interaction: "Закінчити династичні війни"
   dynast_end_dynasty_wars_interaction_desc: "$dynasty_interaction_header$Вимагати, щоб [recipient.GetShortUINameNoTooltip] негайно [Select_CString(recipient.IsFemale, 'припинила', 'припинив')] усі наступальні війни проти членів нашої [Concept('dynasty', 'династії')|E]"
   dynast_end_dynasty_wars_interaction_notification: "Завершено династичну війну"
-
   recipient_secondary_legitimize_bastard_interaction: "Байстрюк"
-
   send_to_varangian_guard_interaction: "Send to the Varangian Guard #weak (Dynasty)#!"
   send_to_varangian_guard_interaction_desc: "$dynasty_interaction_header$Send [recipient.GetShortUINameNoTooltip] away to gain glory and fortune in the Varangian Guard. Who knows, it might even help build character!"
   send_to_varangian_guard_interaction_toast: "[recipient.GetShortUIName] left for the Varangian Guard"

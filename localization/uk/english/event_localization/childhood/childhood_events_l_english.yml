@@ -4,12 +4,11 @@
   childhood.0002.loud: "[Select_CString(crush.IsFemale, 'Вона', 'Він' )] зазвичай вимагає моєї уваги, але я не проти. Щораз, як я бачу [crush.GetHerHis], мій день стає кращим!"
   childhood.0002.quiet: "[Select_CString(crush.IsFemale, 'Вона', 'Він' )] зазвичай трохи соромиться, але все ж [crush.GetSheHe] робить кожну нашу зустріч особливою!"
   childhood.0002.fallback: "Щоразу, як я бачу [crush.GetHerHis], мій день стає кращим, і мені б хотілося, щоб ми могли грати завжди."
-  childhood.0002.end: "\n\nWhenever our eyes meet, my stomach fills up with butterflies... Oh, I wonder if [crush.GetSheHe] would like this [ROOT.Char.Custom('get_region_flower_type')] that I found?"
+  childhood.0002.end: "\n\nWhenever our eyes meet, my stomach fills up with butterflies... Oh, I wonder if [crush.GetSheHe] would like this [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')] that I found?"
   childhood.0002.a: "[crush.GetFirstNameNoTooltip], я не можу перестати думати про тебе!"
   childhood.0002.b: "No... we should just be friends."
   crush_returned: "[crush.GetFirstNameNoTooltip] likes you too!"
   crush_crushed: "[crush.GetFirstNameNoTooltip] only wants to be friends..."
-
   childhood.0004.t: "Квітуча дружба"
   childhood.0004.desc1: "Останнім часом я та [friend.GetTitledFirstName] багато гралися разом. На днях [friend.GetSheHe] навіть [Select_CString(friend.IsFemale, 'дозволила', 'дозволив' )], щоб [friend.GetHerHis] улюблена іграшка, [friend.Custom('child_favorite_toy')], якийсь час побула у мене! Ми гарно проводимо час та чудово ладнаємо!"
   childhood.0004.desc2: "[friend.GetTitledFirstName] і я останні дні проводимо багато часу разом, спілкуючись та граючись. Нам так весело разом!"
@@ -26,7 +25,6 @@
   childhood.0004.a_alt: "Let's swear an oath - friends #EMP forever!#!"
   childhood.0004.c_alt: "You're a #EMP fool#! for trusting me, #EMP [child.Custom('InsultNoun')]!#!"
   childhood.0004.d: "...you want the [friend.Custom('child_favorite_toy')] #EMP back#!? Not a chance!"
-
   childhood.0006.t: "Небажана увага"
   childhood.0006.opening: "[bully.GetTitledFirstName] вже довгий час мені набридає.\n\n"
   childhood.0006.mean: "[Select_CString(bully.IsFemale, 'Вона', 'Він' )], злюка, постійно дражниться та пхається."
@@ -45,7 +43,6 @@
   childhood.0006.b.death: "[bully.GetSheHe|U] beats you #EMP to death#!"
   childhood.0006.c: "Послухай-но, я заплачу тобі п'ять золотих, тільки йди геть."
   childhood.0006.c_leave: "[bully.GetSheHe|U] #EMP не#! відчеплюється"
-
   childhood.0008.t: "Керування гнівом"
   childhood.0008.desc: "[Select_CString(victim.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('victim'))] [victim.GetTitledFirstName] дратує мене.\n\n"
   childhood.0008.mean: "[Select_CString(victim.IsFemale, 'Вона', 'Він')] при кожному зручній можливості ображає мене і, схоже, отримує задоволення від болю, який завдає мені."
@@ -56,7 +53,6 @@
   childhood.0008.a: "Я навчу [victim.GetHerHim]!"
   childhood.0008.b: "При наступній нашій зустрічі я буду вести себе добре."
   childhood.0008.c: "Ох, як я #EMP ненавиджу#! [victim.GetHerHim]! [Select_CString(victim.IsFemale, 'Їй', 'Йому' )] карще було б... померти."
-
   childhood.0009.t: "Безневинність потурає"
   childhood.0009.opening: "Нарешті [victim.GetFirstName] починає усвідомлювати свою роль. Одна думка про це піднімає мені настрій.\n\n"
   childhood.0009.desc1: "Одна з моїх улюблених ігор перевірити, скільки разів можна [victim.GetHerHis] штовхнути без наслідків!"
@@ -64,12 +60,10 @@
   childhood.0009.desc3: "Тепер [victim.GetHerHis] [victim.Custom('child_favorite_toy')] у мене, і [victim.GetSheHe] [Select_CString(victim.IsFemale, 'вимушена', 'вимушений')] робити все, що я скажу!"
   childhood.0009.fallback: "[victim.GetHerHis|U] улюблена іграшка, [victim.Custom('child_favorite_toy')], виявилася у мене. Мені залишалося лише сховати її і подивитися, як [Select_CString(victim.IsFemale, 'засмучена власниця', 'засмучена власник')] намагається її розшукати. Це був чудовий тиждень!"
   childhood.0009.a: "Дуже весело!"
-
   childhood.0012.t: "Отримавши увагу"
   childhood.0012.desc: "Днями я і [crush_holder.GetTitledFirstName] грали разом, і [crush_holder.GetSheHe] [Select_CString(crush_holder.IsFemale, 'була дуже уважна', 'був дуже уважний')] до мене. Мені ще не доводилося відчувати такі почуття стосовно [Select_CString(crush_holder.IsFemale, 'неї', 'нього')], але, можливо, я починаю сприймати [crush_holder.GetHerHis] не просто як друга."
   childhood.0012.a: "[crush_holder.GetTitledFirstName], гадаю ти мені подобаєшся!"
   childhood.0012.b: "[crush_holder.GetTitledFirstName] просто друг."
-
   childhood.0013.t: "Дружнє спілкування"
   childhood.0013.desc: "Останнім часом я та [child.GetTitledFirstName] багато часу проводили разом.\n\n"
   childhood.0013.desc1: "Я навіть не заперечую, щоб моя улюблена іграшка, [child.Custom('child_favorite_toy')], якийсь час побула у [Select_CString(child.IsFemale, 'неї'', 'нього')]! Ми чудово ладнаємо і весело проводимо час!"
@@ -83,29 +77,24 @@
   childhood.0013.desc_fallback: "З [Select_CString(child.IsFemale, 'нею', 'ним') завжди весело: і під час забав, і коли треба щось обговорити!"
   childhood.0013.desc_end: "Я справді насолоджуюся [child.GetHerHis] компанією і думаю, що ми ще довго будемо разом."
   childhood.0013.a: "Яке щастя, що ми познайомились!"
-
   childhood.0910.t: "Постійні муки"
   childhood.0910.opening: "Те, що [bully.GetTitledFirstName] [Select_CString(bully.IsFemale, 'робила', 'робив')] зі мною в дитинстві, досі тисне на мене."
   childhood.0910.desc1: "Погляди, сміх, біль... Щоразу побачивши [Select_CString(bully.IsFemale, 'її', 'його')] у мене псується настрій.\n\nХоча [bully.GetSheHe] [Select_CString(bully.IsFemale, ' стала', 'став')] старше, я точно знаю: гарною людиною [bully.GetHerHim] не стати ніколи!"
   childhood.0910.desc2: "\n\nІноді я ніби наяву бачу: [ROOT.Char.Custom('child_favorite_toy')] опиняється на землі, і [bully.GetSheHe] нахабно регоче, втоптуючи мою улюблену іграшку в землю."
   childhood.0910.a: "Я ніколи [bully.GetHerHis] не пробачу!"
-
   childhood.0911.t: "Дитинство потурає"
   childhood.0911.desc_rival: "[victim.GetTitledFirstName] [Select_CString(victim.IsFemale, 'подорослішала', 'подорослішав')], але це не означає, що [victim.GetSheHe] [Select_CString(bully.IsFemale, 'пробачила', 'пробачив')] мене за все, що було в дитинстві.\n\nІ це правильно, оскільки моя ненависть до [Select_CString(victim.IsFemale, 'неї', 'нього')] теж лише посилилася!"
   childhood.0911.opening: "Цікаво, чи пам'ятає [victim.GetTitledFirstName], що [victim.GetHerHim] доводилося терпіти від мене, коли ми були дітьми."
   childhood.0911.desc1: "\n\nТепер, коли [victim.GetSheHe] [Select_CString(victim.IsFemale, 'подорослішала', 'подорослішав')], потрібно залишити дитячі слабкості в минулому і зосередитися на іншому."
   childhood.0911.desc2: "Я завжди пам'ятатиму, яке було у [Select_CString(victim.IsFemale, 'неї', 'нього')] обличчя, коли [victim.GetHerHis] іграшка, [victim.Custom('child_favorite_toy')], зламалася. Це було дивно!\n\nАле тепер [victim.GetSheHe] старше, і мені потрібно залишити в минулому ці дитячі слабкості і зосередитися на іншому."
   childhood.0911.a: "Ще побачимося [victim.GetTitledFirstName]."
-
   childhood.0998.t: "Зростання почуттів"
   childhood.0998.desc: "Я ніжно зберігаю спогади про час, який я і [crush.GetTitledFirstName] провели разом, коли були дітьми.\n\n[Select_CString(crush.IsFemale, 'Вона', 'Він')] завжди буде [Select_CString(crush.IsFemale, 'дорогою', 'дорогим')] мені навіть якщо між нами нічого не буде коли ми виростемо!"
   childhood.0998.a: "Мені пощастило знати [crush.GetHerHis]."
-
   childhood.0999.t: "Зростання почуттів"
   childhood.0999.desc: "Я ніжно зберігаю спогади про час, що я і [root_crush.GetTitledFirstName] провели разом, коли були молодші.\n\nНехай навіть [root_crush.GetSheHe] тепер [Select_CString(crush.IsFemale, 'вступила', 'вступив')] у доросле життя, [root_crush.GetSheHe] завжди буде [Select_CString(crush.IsFemale, 'дорогою', 'дорогим')] мені!"
   childhood.0999.desc_unrequited: "Нехай навіть [root_crush.GetSheHe] так і не [Select_CString(crush.IsFemale, 'відповіла', 'відповів')] на мої почуття..."
   childhood.0999.a: "Мені пощастило знати [crush.GetHerHis]."
-
   childhood.1000.t: "Міцна дружба"
   childhood.1000.desc: "[friend_to_crush.GetTitledFirstName] хороший друг!\n\nКоли ми разом, у мене на душі завжди світло. І [friend_to_crush.GetSheHe] розуміє мене, як ніхто інший.\n\nХоча ми хороші друзі, іноді я думаю, чи не перетворити нам наші стосунки на щось більше..."
   childhood.1000.a: "Думаю, [friend_to_crush.GetSheHe] мені подобається не лише як друг!"
@@ -114,7 +103,6 @@
   sweet_opinion: "Very Sweet"
   crush_crushed_hard: "[crush.GetFirstNameNoTooltip] більше не хоче дружити зі мною..."
   risks_childhood.1000: "There's no saying how [friend_to_crush.GetFirstNameNoTooltip] will react..."
-
   childhood.1001.t: "Останній бій"
   childhood.1001.opening: "Безперервні знущання, яким мене піддає [bully.GetTitledFirstName], повинні припинитися! [Select_CString(bully.IsFemale, 'Вона', 'Він')] безжально дражнить мене, штовхає і принижує.\n\n"
   childhood.1001.desc: "Так не може тривати далі! Час показати [bully.GetHerHim], з ким [bully.GetSheHe] [Select_CString(bully.IsFemale, 'зв'язалася', 'зв'язався')]."
@@ -126,41 +114,35 @@
   childhood.1001.b.success: "Завдяки моїй переконливості [bully.GetTitledFirstNameNoTooltip] перестане знущатися з мене"
   childhood.1001.c: "Я Проклинаю тебе, [bully.GetTitledFirstNameNoTooltip]."
   childhood.1001.d: "[adult_friend.GetFirstNameNoTooltip], ти дорослий, будь ласка, допоможи мені!"
-
   childhood.1002.t: "Підтримка [Select_CString(guardian_parent.IsFemale, 'матері', 'батька')]"
   childhood.1002.desc1: "Ай! Коли я і [friend.GetTitledFirstName] грались в саду, мені довелося впасти і подряпати коліно. [Select_CString(guardian_parent.IsFemale, 'Моя', 'Мій')] [guardian_parent.Custom('MotherFather')] [Select_CString(guardian_parent.IsFemale, 'прогулювалась', 'прогулювався')] на іншому кінці двору, насолоджуючись гарною погодою, і [friend.GetTitledFirstName] [Select_CString(friend.IsFemale, 'переконала', 'переконав')] мене сходити до [Select_CString(guardian_parent.IsFemale, 'неї', 'нього')]."
   childhood.1002.desc2: "Ай! Я і [ROOT.Char.Custom('child_favorite_toy')] грались, і мені довелося впасти і подряпати коліно. І майже відразу ж [Select_CString(guardian_parent.IsFemale, 'прийшла моя', 'прийшов мій')] [guardian_parent.Custom('MotherFather')], питаючи, чи все зі мною гаразд."
-  childhood.1002.desc2_add: "\n\nBe brave, [ROOT.Char.Custom('GetDaughterSon')]." [guardian_parent.GetSheHe|U] says. ""It'll be just fine, I'm here to help – just listen to what I have to say, and you'll learn how to avoid this happening again."""""
+  childhood.1002.desc2_add: "\n\nBe brave, [ROOT.Char.Custom('GetDaughterSon')].\" [guardian_parent.GetSheHe|U] says. \"\"It'll be just fine, I'm here to help – just listen to what I have to say, and you'll learn how to avoid this happening again.\"\"\"\""
   childhood.1002.desc3: "Мені належало досконально вивчити одну книгу, але вловлювати тонкощі теми стає все складніше.\n\nНезабаром мені доведеться переказати зміст [Select_CString(guardian_parent.IsFemale, 'моїй матері', 'моєму батькові')], але якщо я продовжу займатися самостійно, то ризикую застрягти з книгою на всю ніч."
   childhood.1002.a: "Будь ласка, допоможи мені, [guardian_parent.Custom('MotherFather')]!"
   childhood.1002.b: "Я впораюся без будь-якої допомоги."
   childhood.1002.b_1: "Ні до чого хорошого це не призвело"
   childhood.1002.b_2: "Я чудово справляюсь"
-
   childhood.1003.t: "Біль дорослішання"
   childhood.1003.desc1: "Я насолоджуюся погодою в саду, слухаючи, як [Select_CString(child.IsFemale, 'моя', 'мій')] [child.Custom('GetDaughterSon')] [child.GetTitledFirstName] та [child.GetHerHis] друг [friend.GetTitledFirstName] сміються граючись в саду. Раптом я помічаю, як [child.GetTitledFirstName] падає, розбиваючи коліно. [Select_CString(child.IsFemale, 'Вона', 'Він')] підходить до мене за порадою друга і просить допомогти з раною."
   childhood.1003.desc2: "Я гуляю по саду, насолоджуючись погодою, і раптом бачу, як [child.GetTitledFirstName] падає і розбиває коліно під час гри. Коли я підходжу до [Select_CString(child.IsFemale, 'неї', 'нього')] і питаю, чи все гаразд, [child.GetSheHe] просить мене допомогти з раною."
   childhood.1003.desc3: "[Select_CString(child.IsFemale, 'Моя', 'Мій')] [child.Custom('GetDaughterSon')] [child.GetTitledFirstName] на моє прохання [Select_CString(child.IsFemale, 'повинна була', 'повинен був')] прочитати складну книгу за пару днів. Напередодні призначеного терміну [child.GetSheHe] [Select_CString(child.IsFemale, 'прийшла', 'прийшов')] до мене з проханням про допомогу."
   childhood.1003.a: "Добре, що [child.GetSheHe] може на мене покластися!"
-
   childhood.1004.t: "Втомлений розум"
   childhood.1004.desc: "«Ти не дуже мало спиш?»\n\n[Select_CString(guardian_parent.IsFemale, 'Моя', 'Мій')] [guardian_parent.Custom('MotherFather')] тривожиться, а я згадую, що останнім часом не встигаю як слід виспатися. Я з усіх сил намагаюся надолужити в навчанні, і тому сном доводиться пожертвувати.\n\n[Select_CString(guardian_parent.IsFemale, 'Мати', 'Батько')] велить мені відпочити цього вечора і раніше лягти в ліжко, і я з радістю підкоряюся."
   childhood.1004.a: "Дякую, [guardian_parent.Custom('MotherFather')]!"
   childhood.1004.b: "A perfect opportunity to read in bed!"
   childhood.1004.c: "I'll stay up and make a gift for my [guardian_parent.Custom('MotherFather')]!"
-
   childhood.1005.t: "Втомлений розум"
   childhood.1005.desc: "«На що ти тільки витрачаєш свій час?»\n\n[Select_CString(guardian_parent.IsFemale, 'Моя', 'Мій')] [guardian_parent.Custom('MotherFather')] без кінця звинувачує мене. Я намагаюся виконувати всі завдання, однак [guardian_parent.GetSheHe], як здається, постійно [Select_CString(guardian_parent.IsFemale, 'незадоволена', 'незадоволений')] результатом."
   childhood.1005.a: "Я буду старатись!"
   childhood.1005.b: "Я і так роблю, що можу."
   childhood.1005.c: "#EMP You can't tell me what to do, [guardian_parent.Custom('MotherFather')]!#!"
-
   childhood.1006.t: "Коли стикаються протилежності"
   childhood.1006.desc: "[Select_CString(guardian_parent.IsFemale, 'Моя', 'Мій')] [guardian_parent.Custom('MotherFather')] не дає мені спокою. З тих самих пір, як [guardian_parent.GetSheHe] [Select_CString(guardian_parent.IsFemale, 'вирішила', 'вирішив')], що мені не вистачає старанності, [guardian_parent.GetSheHe] особисто стежить за тим, щоб у мене не було часу розслабитися.\n\n[Select_CString(guardian_parent.IsFemale, 'Вона', 'Він')] бурчить, що я намагаюся урвати трохи часу, щоб подрімати!"
   childhood.1006.a: "[Select_CString(guardian_parent.IsFemale, 'Моя', 'Мій')] [guardian_parent.Custom('MotherFather')] ніколи не заспокоїться!"
   childhood.1006.b: "I guess I'll try..."
   childhood.1006.c: "ZZZzzz#DIE1 zzz#!#DIE2 zzz...#!"
-
   childhood.1007.t: "Зростаюча тінь"
   childhood.1007.opening: "[bully.GetTitledFirstName] постійно дістає мене!\n\n"
   childhood.1007.young_malicious: "Я і [ROOT.Char.Custom('child_favorite_toy')] грали, а потім [bully.GetSheHe] [Select_CString(bully.IsFemale, 'влетіла', 'влетів')] в кімнату і [Select_CString(bully.IsFemale, ' вихопила ', 'вихопив')] іграшку у мене з рук."
@@ -181,7 +163,6 @@
   childhood.1007.d.success: "You turn the tables on [bully.GetFirstNameNoTooltip]"
   childhood.1007.d.failure: "[bully.GetFirstNameNoTooltip] doesn't relent"
   childhood.1007.c.toast: "[child.GetFirstNameNoTooltip] bullies you"
-
   childhood.1008.t: "Незвичайне заспокійливе"
   childhood.1008.opening: "[victim.GetTitledFirstName] накінець-то на щось [Select_CString(victim.IsFemale, 'погодилася', 'погодився')]!\n\nОстанні дні видалися нервовими, але [victim.GetSheHe] [Select_CString(victim.IsFemale, 'допомогла', 'допоміг')] мені заспокоїтися.\n\n"
   childhood.1008.1: "Ми зустрілися в коридорі, і коли [victim.GetSheHe] [Select_CString(victim.IsFemale, 'проходила', 'проходив')] повз мене, мені залишалося лише підставити [victim.GetHerHim] підніжку. Вираз на [victim.GetHerHis] обличчі в цей момент був неймовірний!"
@@ -190,7 +171,6 @@
   childhood.1008.a: "Корисно іноді випустити пару!"
   childhood.1008.b: "Let's follow that up with a good ol' beating!"
   childhood.1008.c: "[extra_bully.GetFirstNameNoTooltip]! Help me pick on this [victim.Custom('InsultAdjective')] [victim.Custom('InsultNoun')]!"
-
   childhood.1009.t: "Занепокоєння друга"
   childhood.1009.opening: "[friend.GetTitledFirstName] хороший друг. [Select_CString(friend.IsFemale, 'Вона помітила', 'Він помітив')], що мене щось гнітить, і [Select_CString(friend.IsFemale, 'переконала', 'переконав')] мене поділитися своїми думками.\n\n"
   childhood.1009.1: "«Навіщо ми прийшли у цей світ? Які [ROOT.Char.GetFaith.FateGodNamePossessive] має плани на нас?»"
@@ -201,7 +181,6 @@
   childhood.1009.b: "You're so kind, I want you to have my [ROOT.Char.Custom('child_favorite_toy')]!"
   gave_toy_opinion: "Gave Toy"
   childhood.1009.c: "You're so wise, [friend.GetFirstNameNoTooltip]. Tell me more!"
-
   childhood.1010.t: "Завжди в моїх думках"
   childhood.1010.opening: "[crush.GetTitledFirstName] ніяк не йде у мене з голови, [crush.GetHerHis] посмішка, [crush.GetHerHis] мова.\n\n"
   childhood.1010.returned: "Тільки усвідомлення того, що мої почуття взаємні, приносить мені величезну радість і спокій у душі."
@@ -214,7 +193,6 @@
   childhood.1010.e: "Oh, my heart is aflutter with glee and joy at the sight of you!"
   hopeless_romantic_modifier: "Hopeless Romantic"
   hopeless_romantic_modifier_desc: "This character believes strongly in romance and courtly love, and has done so since a young age.\n[GetScheme('courting').GetTypeName] [success_chance|E]: #P +10%#!"
-
   childhood.1011.t: "Серцю не накажеш"
   childhood.1011.opening: "Від мене не сховалося, що останнім часом [crush_returned.GetTitledFirstName] робить мені знаки уваги, цінуючи і мої жарти, і мою думку.\n\n"
   childhood.1011.returned: "Приємно відчувати, коли тебе цінують, і тепер я розумію, [Select_CString(crush_returned.IsFemale, 'якою милою', 'яким милим')] [crush_returned.GetTitledFirstName] може бути.\n\nТепер я навіть думаю, що мій інтерес до [Select_CString(crush_returned.IsFemale, 'неї', 'нього')] може бути не менше, ніж [Select_CString(crush_returned.IsFemale, 'її', 'його')] інтерес до мене!"
@@ -223,59 +201,49 @@
   childhood.1011.b: "[Select_CString(crush_returned.IsFemale, 'Вона', 'Він')] дратує мене."
   childhood.1011.c: "No, my heart belongs to [true_crush.GetFirstNameNoTooltip]!"
   heartbroken_opinion: "Heartbroken"
-
   childhood.1012.t: "Суворе покарання"
   childhood.1012.desc: "Я знаю, що останнім часом у мене були проблеми з навчанням і що [Select_CString(guardian_parent.IsFemale, 'моя', 'мій')] [guardian_parent.Custom('MotherFather')] [Select_CString(guardian_parent.IsFemale, 'розчарована ', 'розчарований')] в мені. Але для мене стало несподіванкою, що [Select_CString(guardian_parent.IsFemale, 'вона вирішила', 'він вирішив')] відібрати в мене мою улюблену іграшку!\n\n"
-  childhood.1012.desc_2: "Into the fireplace it goes." [guardian_parent.Custom('MotherFather')|U] says, hurling it into the open flames. ""Now perhaps you'll reconsider being such a worthless [ROOT.Char.Custom('GetDaughterSon')].""\n\n"""
+  childhood.1012.desc_2: "Into the fireplace it goes.\" [guardian_parent.Custom('MotherFather')|U] says, hurling it into the open flames. \"\"Now perhaps you'll reconsider being such a worthless [ROOT.Char.Custom('GetDaughterSon')].\"\"\n\n\"\""
   childhood.1012.desc2: "Найгірше те, що [guardian_parent.GetHerHis], схоже, зовсім не цікавлять мої біди."
   childhood.1012.desc3: "Найгірше те, що мої біди, як здається, приносять [guardian_parent.GetHerHim] задоволення."
   childhood.1012.a: "[Select_CString(guardian_parent.IsFemale, 'Вона', 'Він')] може бути [Select_CString(guardian_parent.IsFemale, 'такою жорстокою', 'таким жорстоким')]!"
   childhood.1012.b: "How... how #EMP could you!#! I hate you!"
   cruel_upbringing_modifier: "Cruel Upbringing"
   cruel_upbringing_modifier_desc: "This character has been raised with distrust and cruelty."
-
   childhood.1013.t: "[victim.Custom('child_favorite_toy')|U] ламається"
   childhood.1013.desc: "[Select_CString(victim.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('victim'))] [victim.GetFirstName] грається в саду, з [Select_CString( victim.IsFemale, 'нею', 'ним')] [victim.GetHerHis] [victim.Custom('child_favorite_toy')]. [victim.GetFirstName] весело сміється.\n\nУ [Select_CString( victim.IsFemale, 'неї', 'нього')] немає права бути [Select_CString(victim.IsFemale, 'такою щасливою', 'таким щасливим' )]! А ще [victim.Custom('child_favorite_toy')]... Що хорошого в цій безглуздій іграшці, яка розлітається на частини, ледве я вириваю її у [Select_CString( victim.IsFemale, 'неї', 'нього')] із рук і б'ю об землю?!"
   childhood.1013.a: "Потрібно було бачити [victim.GetHerHis] обличчя!"
   childhood.1013.b: "I... I can't believe what I've done... I've been a #EMP bad [ROOT.Char.Custom('GirlBoy')]!#!"
-
   childhood.1014.t: "[victim.Custom('child_favorite_toy')|U] ламається"
   childhood.1014.desc: "[bully.GetTitledFirstName] постійно наді мною знущається, і сьогодні по [Select_CString(bully.IsFemale, 'її', 'його')] милості зламана моя улюблена іграшка, [ROOT.Char.Custom('child_favorite_toy')]! Під час моєї гри [bully.GetSheHe] тихо [Select_CString(bully.IsFemale, 'підійшла', 'підійшов')], [Select_CString(bully.IsFemale, 'вихопила', 'вихопив')] іграшку у мене з рук і [ Select_CString(bully.IsFemale, 'втоптала', 'втоптал')] її в землю.\n\n«Пф, [ROOT.Char.Custom('child_favorite_toy')], та хто взагалі грається з таким сміттям?»"
   childhood.1014.a: "[Select_CString(bully.IsFemale, 'Вона жахлива', 'Він жахливий')]!"
-
   childhood.1015.t: "Дипломатичні рішення"
   childhood.1015.desc: "[educator.GetTitledFirstName] [Select_CString(educator.IsFemale, 'наполягала', 'наполіг' )], щоб я і [Select_CString(study_friend.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('study_friend'))] [study_friend.GetFirstName] брали участь у нинішніх переговорах про втручання корони у справи управління провінцією [province.GetName].\n\nПід час дискусії від мене не сховалося те що [province_holder.GetTitledFirstName] не розуміє, як варто діяти. Можливо, мені варто втрутитися, адже я вже якийсь час вивчаю цю тему."
   childhood.1015.a: "«Якби ви послухали мене на секунду...»"
   childhood.1015.b: "Потрібно мовчки слухати — мені ще багато чого належить навчитися."
   childhood.1015.b.tt: "[study_friend.GetFirstNameNoTooltip] і ви глибше пізнаєте тонкощі [Concept( 'diplomacy', 'дипломатії')|E]"
   childhood.1015.a.flavor: "Why are they laughing? My ideas are #MP great!#!"
-
   childhood.1016.t: "Військові справи"
   childhood.1016.desc: "[Select_CString(study_friend.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('study_friend'))] [study_friend.GetFirstName] і я під час навчання спостерігаємо за забавною битвою солдат.\n\n«Тепер оточіть їх і вдарте у фланг!» — кричить [commander.GetTitledFirstName], і я не встигаю схаменутися як роблю крок уперед, привертаючи увагу [commander.GetHerHis]."
   childhood.1016.a: "«Взагалі, я думаю, що атака в лоб буде більш доречною»."
   childhood.1016.b: "Я хитаю головою – моя справа спостерігати."
   childhood.1016.b.tt: "[study_friend.GetFirstNameNoTooltip] і ви глибше пізнаєте тонкощі [Concept( 'martial', 'військової справи')|E]"
-
   childhood.1017.t: "Що стосується зерна"
   childhood.1017.desc: "Вже кілька годин я і [province_holder.GetTitledFirstName] ведемо переговори про постачання зерна з провінції [province.GetName]. [Select_CString(study_friend.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('study_friend'))] [study_friend.GetFirstName] останні півгодини, поглядаючи у мій бік дає зрозуміти, що підтримує мене в моєму тяжкому становищі.\n\nКоли починається перерва, я помічаю відкриту облікову книгу на столі, за яким сидить [province_holder.GetTitledFirstName]. Вся сторінка списана нотатками про пшеницю. Зробивши лише кілька невеликих змін, я можу серйозно вплинути на продуктивність області."
   childhood.1017.a: "Цікаво, що станеться, якщо я зміню ці цифри?"
   childhood.1017.a.tt: "Іноді всі вчаться на власних помилках - ви і [study_friend.GetFirstNamePossessiveNoTooltip] просунетеся у вивченні такого предмета, як [Concept( 'stewardship', 'управління')|E]"
   childhood.1017.b: "Краще нічого не чіпати."
-
   childhood.1018.t: "Інтригуюча подія"
   childhood.1018.desc: "Якщо [educator.GetTitledFirstName] чомусь і [Select_CString(educator.IsFemale, 'намагалася', 'намагався')] мене навчити, то це тому, що іноді брехати необхідно.\n\nКоли ж [Select_CString(study_friend.IsFemale, 'моя', 'мій')] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('study_friend'))] [study_friend.GetFirstName] і я чуємо, як [province_holder.GetTitledFirstName] з провінції [province.GetName] розмірковує про те, як підганяє числа заради процвітання провінції, я починаю задумуватися про урок, що мені [Select_CString(educator.IsFemale, 'виклала', 'викладав') [educator.GetFirstName]."
   childhood.1018.a: "[educator.GetTitleAsNameNoTooltip] [Select_CString(educator.IsFemale, 'повинна', 'повинен')] дізнатися про це!"
   childhood.1018.a.tt: "[study_friend.GetFirstNameNoTooltip] і ви глибше пізнаєте тонкощі [Concept( 'intrigue', 'придворних інтриг')|E]"
   childhood.1018.b: "Їм би #EMP дійсно#! стали в нагоді додаткові гроші."
-
   childhood.1019.t: "Читати чи не читати"
   childhood.1019.desc: "[Select_CString(study_friend.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('study_friend'))] [study_friend.GetFirstName] і я отримали завдання доставити стопку книг гінцям із провінції [province.GetName]. Мені так хочеться забрати їх собі на пару хвилин — або пару днів...\n\nКажуть, якщо книги не доставити якнайшвидше, це позначиться на продуктивності цілої області! Втім, це лише підігріває нашу цікавість."
   childhood.1019.a: "Ми #EMP ретельно#! вивчимо ці книги."
   childhood.1019.a.tt1: "[study_friend.GetFirstNameNoTooltip] і ви успіх у вивченні [Concept( 'learning', 'наукових праць')|E]"
   childhood.1019.a.tt2: "[study_friend.GetFirstNameNoTooltip] і ви глибше пізнаєте тонкощі [Concept( 'stewardship', 'управління')|E]"
   childhood.1019.b: "Книги будуть доставлені вчасно!"
-
-
   childhood.2001.t: "Кошеня"
   childhood.2001.desc_educator: "Я граюсь на вулиці, і [educator.GetTitledFirstNamePossessive] доглядає мене, коли я раптом чую звук. Він тихий і слабкий, але я його чую!"
   childhood.2001.desc: "Я граю надворі, неподалік знаходться [ROOT.Char.Custom('TerrainType')], коли раптом чую звук. Він тихий і слабкий, але я його чую!"
@@ -285,13 +253,11 @@
   childhood.2001.c: "Цікаво, що всередині...!"
   gift_of_cat_opinion: "Given the Gift of Cat"
   gift_of_dog_opinion: "Given the Gift of Dog"
-
   childhood.2002.desc: "Я і [ward.GetTitledFirstName] гуляємо на вулиці, коли [ward.GetSheHe] раптом зникає. Але не встигаю я занепокоїтись, як [ward.GetSheHe] повертається з маленьким кошеням в руках!\n\n«[educator.GetFirstNameNoTooltip], [educator.GetFirstNameNoTooltip]! Дивіться, це подарунок вам!»"
   childhood.2002.a: "Дякую!"
   childhood.2002.b: "Фу, поверни його назад."
   childhood.2002.c: "Oh, you found #EMP my#! gift for #EMP you#!! And how do we handle debts?"
   childhood.2002.d: "Finally, something to torture!"
-
   childhood.2003.t: "Цуценя"
   childhood.2003.desc_educator: "Я і [educator.GetTitledFirstName] гуляємо разом, раптом я щось чую. Якийсь звук - тихий і слабкий."
   childhood.2003.desc_friend: "Я і [educator.GetTitledFirstName] граємось на вулиці, раптом я щось чую. Якийсь звук - тихий і слабкий."
@@ -301,30 +267,24 @@
   childhood.2003.b: "Ось, [friend.GetFirstNameNoTooltip], візьміть."
   childhood.2003.c: "[educator.GetTitledFirstNameNoTooltip] іноді здається [Select_CString(educator.IsFemale, 'такою одинокою', 'таким одиноким')]..."
   childhood.2003.d: "Цікаво, що всередині...!"
-
   childhood.2004.desc: "Я і [ward.GetTitledFirstName] гуляємо на вулиці, коли [ward.GetSheHe] раптом зникає. Але не встигаю я занепокоїтись, як [ward.GetSheHe] повертається з маленьким цуценям в руках!\n\n«[educator.GetFirstNameNoTooltip], [educator.GetFirstNameNoTooltip]! Дивіться, це подарунок вам!»"
-
   childhood.2005.desc: "Я і [ward.GetTitledFirstName] граємось на вулиці, коли [ward.GetSheHe] раптом зникає. Куди [ward.getSheHe] [Select_CString(ward.IsFemale, 'поділася', 'подівся')]? Я встигаю тільки озирнутися, коли [ward.GetSheHe] раптом повертається і простягає мені маленьке цуценя.\n\n«[friend.GetFirstNameNoTooltip]! Це тобі!»"
   childhood.2005.a: "Цуценя!!!"
   childhood.2005.b: "Фу, поверни його назад."
-
-  childhood.2006.desc: "I am out playing with [ward.GetTitledFirstName] when [ward.GetSheHe] suddenly disappears into the [ROOT.Char.Custom('TerrainType')]. Where did [ward.getSheHe] go? I turn in a circle, looking, and suddenly [ward.GetSheHe] reappears, holding a small kitten out towards me.\n\n[friend.GetFirstNameNoTooltip]! It's for you!"""""
+  childhood.2006.desc: "I am out playing with [ward.GetTitledFirstName] when [ward.GetSheHe] suddenly disappears into the [ROOT.Char.Custom('TerrainType')]. Where did [ward.getSheHe] go? I turn in a circle, looking, and suddenly [ward.GetSheHe] reappears, holding a small kitten out towards me.\n\n[friend.GetFirstNameNoTooltip]! It's for you!\"\"\"\""
   childhood.2006.a: "A kitty!!!"
   childhood.2006.b: "Ew, put it away."
-
   childhood.2010.t: "Expectations"
-  childhood.2010.desc_opening: "You are always there for me, and I hope you know that I am grateful.""\n\n"""
+  childhood.2010.desc_opening: "You are always there for me, and I hope you know that I am grateful.\"\"\n\n\"\""
   childhood.2010.desc_shy: "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approach me in a rare display of courage and openness."
   childhood.2010.desc_mean: "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approach me in a rare display of honesty."
   childhood.2010.desc_proud: "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approach me in a rare display of appreciation."
   childhood.2010.desc_fallback: "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approach me in a rare moment of contemplation."
   childhood.2010.a: "When I need it I expect you to be there for me, too."
   childhood.2010.b: "That is what it means to be a guardian."
-
   childhood.2011.desc: "[guardian.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has worked extra hard on my education as of late. I am grateful, but [guardian.GetSheHe] has also made it clear that I am expected to repay [guardian.GetHerHis] hard work further down the line; it is how it's done. I am sure [guardian.GetSheHe] is correct."
   childhood.2011.tt: "This furthers your education slightly"
   childhood.2011.a: "[guardian.GetSheHe|U] is my teacher after all."
-
   childhood.2100.t: "L is for Language"
   childhood.2100.desc: "My guardian, [educator.GetTitledFirstName], teaches me well. Sometimes I hear [educator.GetHerHim] speaking in [educator.GetCulture.GetLanguage.GetNameNoTooltip] — it's what [educator.GetSheHe] speaks at home, I think.\n\nWhile [educator.GetSheHe] mostly speaks [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] with me, [educator.GetSheHe] is also trying to teach me some of [educator.GetHerHis] mother tongue.\n\nKeeping two languages in my head is hard... but perhaps it's worth the effort?"
   childhood.2100.a: "I should listen and concentrate, perhaps I'll learn?"
@@ -333,20 +293,17 @@
   learn_language_ongoing.2100.a.success_parent: "[ward.Custom('GetDaughterSon')|U] learns Language!"
   learn_language_ongoing.2100.a.success_parent_desc: "[educator.GetFirstNamePossessiveNoTooltip] taught [ward.GetFirstName] the [educator.GetCulture.GetLanguage.GetName] [language|E]"
   learn_language_ongoing.2100.a.failure: "You fail to learn [educator.GetFirstNamePossessiveNoTooltip] language"
-
   childhood.2200.t: "Do You Speak My Lingo?"
   childhood.2200.desc: "As I follow along with [educator.GetNameNoTooltip], I find [educator.GetHerHim] speaking in the language of the court around me, and I’m strangely starting to understand it. If I put in the effort, I may become proficient in our court language!"
   childhood.2200.a: "I can talk just like the grown-ups!"
   childhood.2200.b: "This is boring, just speak [ROOT.Char.GetCulture.GetLanguage.GetName]!"
-
   childhood.2300.t: "The Languages in my Family Tree"
   childhood.2300.desc: "My [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('parent'))] occasionally inserts a word of [parent.GetCulture.GetLanguage.GetName] here and there, and I find myself understanding the language better. I'm sure that if I put in the effort, I may become proficient enough to talk to [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('parent'))] in a new way!"
   childhood.2300.a: "I can speak just like [parent.Custom('GetMamaPapa')]!"
   childhood.2300.b: "This is boring! Why learn [parent.GetCulture.GetLanguage.GetNameNoTooltip] anyway!?"
   childhood.2300.a.success_parent_desc: "[ward.GetFirstName] learned the [parent.GetCulture.GetLanguage.GetName] [language|E] through observation."
-
   childhood.2400.t: "Age of Reason"
-  childhood.2400.desc: "Educating [questioning_ward.GetFirstName] is rewarding, but not always easy. Just today [questioning_ward.GetSheHe] wanted to ask some simple questions about [ROOT.Char.GetFaith.GetName]"", but quickly [questioning_ward.GetHerHis] inquiries flared up into fierce doubts against our faith.\n\nIs [questioning_ward.GetFirstNameNoTooltip] perhaps #EMP questioning#! [ROOT.Char.GetFaith.GetNameNoTooltip]?"""
+  childhood.2400.desc: "Educating [questioning_ward.GetFirstName] is rewarding, but not always easy. Just today [questioning_ward.GetSheHe] wanted to ask some simple questions about [ROOT.Char.GetFaith.GetName]\"\", but quickly [questioning_ward.GetHerHis] inquiries flared up into fierce doubts against our faith.\n\nIs [questioning_ward.GetFirstNameNoTooltip] perhaps #EMP questioning#! [ROOT.Char.GetFaith.GetNameNoTooltip]?\"\""
   childhood.2400.a.neutral: "Let me assuage your doubts."
   childhood.2400.a.zealous: "I will erase these doubts from your mind."
   childhood.2400.a.toast.succ: "[questioning_ward.GetTitledFirstName] is convinced by your faith"
@@ -356,7 +313,6 @@
   childhood.2400.b.toast.fail: "[ROOT.Char.Custom('MyPriestTitle')|U] [realm_priest.GetFirstName] could not convince [questioning_ward.GetTitledFirstName]"
   childhood.2400.c: "You #EMP do#! have a point..."
   childhood.2400.d: "You were wrong to tell me this, [questioning_ward.GetFirstNameNoTooltip]."
-
   childhood.2410.desc.intro: "[questioning_ward.GetFirstNameNoTooltip] heaves a sigh of fresh air, as do I. As each of us share our nonbeliefs, the gap between "
   childhood.2410.desc.parentchild: "[ROOT.Char.Custom('MotherFather')] and [questioning_ward.Custom('GetDaughterSon')]"
   childhood.2410.desc.guardianward: "guardian and ward"

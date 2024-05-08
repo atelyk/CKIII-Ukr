@@ -1,0 +1,8 @@
+﻿l_english:
+  poi_special_buildings.visit: "Відвідали [province.GetHolding.GetSpecialBuildingType.GetName]"
+  poi_capitals.visit: "Відвідали столицю [province.GetTitle.GetDeFactoTopLiege.GetBaseName]"
+  poi_mausoleum_at_halicarnassus.visit: "Відвідали Мавзолей в Галікарнасі"
+  poi_lighthouse_of_alexandria.visit: "Відвідали Олександрійський маяк"
+  poi_grand_city.visit: "Відвідали велике місто [province.GetName]"
+  poi_natural_feature.visit: "Visited [province.GetHolding.GetSpecialBuildingType.GetName]"
+  poi_legend_capitals.visit: "Visited the origin place of [province.GetTitle.GetHolder.GetPromotedLegend.GetName]"

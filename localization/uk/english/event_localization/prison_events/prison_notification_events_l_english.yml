@@ -1,30 +1,23 @@
 ﻿l_english:
-  prison_notification.0001.t: "В ув'язненні!"
-  prison_notification.0001.desc: "[imprisoner.GetTitledFirstName] [Select_CString(imprisoner.IsFemale, 'захопила', 'захопив' )] мене й утримує проти моєї волі. Я більше не можу повернутись додому або йти, куди захочу."
-  prison_notification.0001.a: "Сподіваюся, що це ненадовго."
-
-  prison_notification.0002.t: "В ув'язненні!"
-  prison_notification.0002.desc: "[prisoner.GetTitledFirstName], [Select_CString(prisoner.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))] утримується проти волі. [imprisoner.GetTitledFirstName] [Select_CString(imprisoner.IsFemale, 'полонила', 'полонив' )] [prisoner.GetHerHis]."
-  prison_notification.0002.a: "Що можна зробити для [SCOPE.sC('prisoner').GetHerHim]?"
-
-  prison_notification.0003.message: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] в ув'язненні!"
-
-  prison_notification.1001.t: "В пітьмі"
-  prison_notification.1001.desc: "[actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'бросила', 'бросив' )] мене до підземелля! Я гнитиму тут, у темних тунелях, над якими височіє [actor.GetHerHis] [actor.Custom('FortifiedBuilding')]?"
-  prison_notification.1001.a: "Та [SCOPE.sC('actor').GetSheHe] гірше щурів, що тут снують!"
-  prison_notification.1001.a.tt: "Поки що я в підземеллі, мій [stress|El] поступово зростатиме — аж до небезпечних рівнів!"
-
+  prison_notification.0001.t: "Ув'язнено!"
+  prison_notification.0001.desc: "Мене захопив і утримує проти моєї волі [ув'язнений.GetTitledFirstName].\n\nЯ більше не можу повернутися додому або подорожувати так, як я хочу."
+  prison_notification.0001.a: "\"Сподіваюся, це не надовго\"."
+  prison_notification.0002.t: "Ув'язнено!"
+  prison_notification.0002.desc: " [prisoner.GetTitledFirstName], мій [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))], зараз утримується проти волі [prisoner.GetHerHis] [prisoner.GetTitledFirstName]."
+  prison_notification.0002.a: "Що можна зробити для [prisoner.GetHerHim]?"
+  prison_notification.0003.message: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] Ув'язнено!"
+  prison_notification.1001.t: "Поза світлом"
+  prison_notification.1001.desc: "[actor.GetTitledFirstName] кинув мене в підземелля! Невже я згнию тут, у вологих підземемеллях [actor.GetHerHis] [actor.Custom('FortifiedBuilding')]?"
+  prison_notification.1001.a: "[actor.GetSheHe|U] гірше, за щурів, що повзають тут унизу!"
+  prison_notification.1001.a.tt: "Перебуваючи у підземеллі, я повільно накопичую [stress|E], аж до критичного рівня!"
   prison_notification.1002.t: "Свіже повітря"
   prison_notification.1002.desc: "[actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'вирішила', 'вирішив' )] випустити мене з підземелля — тільки для того, щоб помістити під домашній арешт."
   prison_notification.1002.a: "Я прийму будь-яке милосердя."
   prison_notification.1002.a.tt: "Під домашнім арештом [stress|El] не збільшується."
-
   prison_notification.2001.t: "Знову на волі"
   prison_notification.2001.desc: "[imprisoner.GetTitledFirstName] більше не утримує мене проти волі: я можу повернутись додому або попрямувати, куди захочу."
   prison_notification.2001.a: "Мені здавалося, що я ніколи більше не побачу своєї землі."
-
   prison_notification.2002.t: "Знову на волі"
   prison_notification.2002.desc: "[Select_CString(prisoner.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))] [prisoner.GetTitledFirstName] [Select_CString(prisoner.IsFemale, 'була випущена', 'був випущений' )] із ув'язнення і знову [Select_CString(prisoner.IsFemale, 'вільна', 'вільний' )]. [imprisoner.GetTitledFirstName] більше не утримує [prisoner.GetHerHis]."
   prison_notification.2002.a: "Тримати когось у полоні — жорстокість."
-
   prison_notification.2003.message: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] на волі!"

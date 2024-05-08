@@ -7,11 +7,9 @@
   religious_interaction.1.different_faith: "на тій підставі, що [Select_CString(secondary_recipient.IsFemale, 'вона', 'він' )] не сповідує істинну віру."
   religious_interaction.1.eunuch: "через відсутність необхідних частин тіла."
   religious_interaction.1.a: "Вибач, [secondary_recipient.GetFirstNameNoTooltip]."
-
   religious_interaction.2.desc: "Після довгих молитов і роздумів я вирішую, що в інтересах нашого дому дарувати вам розлучення. Ви та [Select_CString(secondary_recipient.IsFemale, 'ваша', 'ваш' )] [secondary_recipient.GetWifeHusband] [secondary_recipient.GetFirstNameNoTooltip] більше не одружені"
   religious_interaction.2.infertility: "на підставі відмови консумувати шлюб."
   religious_interaction.2.adultery: "на підставі того, що вони порушили священні узи шлюбу і вдавалися до плотського гріха з іншими."
-
   religious_interaction.3.desc: "Розглянувши ваше прохання, я вирішую виконати його."
   religious_interaction.3.defensive_war: "Нехай ці гроші допоможуть вам захистити віру, бо їй загрожуює [war_target.GetTitledFirstName] та [war_target.GetHerHis] стрімкі [war_target.GetFaith.GetAdjective]і орди!"
   religious_interaction.2.offensive_war: "Нехай ці гроші дозволять виграти війну, що ведете ви та [war_target.GetTitledFirstName]!"
@@ -20,27 +18,22 @@
   religious_interaction.3.b: "Ці гроші принесуть мені перемогу!"
   religious_interaction.3.c: "Я скористаюся цим багатством з розумом."
   religious_interaction.3.d: "Це золото підлатає дірки в моїй казні!"
-
   religious_interaction.32.desc: "Розглянувши ваше прохання, я вирішую відхилити його."
   religious_interaction.32.a: "О ні!"
-
   religious_interaction.4.desc: "Як слід подумавши, я вирішую визнати вашу претензію на володіння [target.GetName]."
   religious_interaction.4.child: "Оскільки [secondary_recipient.GetTitledFirstName] ще дитина, ви маєте право втрутитися."
   religious_interaction.4.they_are_female: "Оскільки [secondary_recipient.GetTitledFirstName] — жінка, ви маєте право втрутитися."
   religious_interaction.4.they_are_male: "Оскільки [secondary_recipient.GetTitledFirstName] — чоловік, ви маєте право втрутитися."
   religious_interaction.4.fallback: "Було оприлюднено незаперечний доказ того, що ваші предки й справді правили цією землею в давнину."
   religious_interaction.4.a: "Я доведу, що гідний правитель!"
-
   religious_interaction.42.desc: "Розглянувши ваше прохання про претензію на титул [target.GetName], я вирішую відхилити її."
   religious_interaction.42.a: "Прокляття!"
-
   religious_interaction.5.child: "Ви належите до меншості,"
   religious_interaction.5.they_are_female: "Ви — жінка,"
   religious_interaction.5.they_are_male: "Ви — чоловік,"
   religious_interaction.5.fallback: "Вам явно не вистачає благочестя,"
   religious_interaction.5.outro: "і це серйозно турбує Церкву. Тому [actor.GetName] [Select_CString(actor.IsFemale, 'висунула', 'висунув' )] претензію на титул [target.GetName], і [actor.GetHerHis] прохання було задоволено."
   religious_interaction.5.a: "Це якесь знущання!"
-
   religious_interaction.6.opening: "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
   religious_interaction.6.desc: "After much prayer and deliberation, I have decided to grant your request to divorce [secondary_actor.GetFirstNameNoTooltip] and their [secondary_recipient.GetWifeHusband], [secondary_recipient.GetFirstNameNoTooltip],"
   religious_interaction.6.consanguinity: "on the grounds of consanguinity."
@@ -49,21 +42,18 @@
   religious_interaction.6.different_faith: "on the grounds of them not adhering to the true faith."
   religious_interaction.6.eunuch: "on the grounds of them not being adequately equipped."
   religious_interaction.6.a: "I am sorry, [secondary_recipient.GetFirstNameNoTooltip]."
-
   religious_interaction.1001.t.fatwa: "Випущено фетву!"
   religious_interaction.1001.t: "Законне відлучення!"
   religious_interaction.1001.desc: "[Select_CString(actor.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] [actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'досягла', 'досяг' )] того, що [actor.GetHerHis] [actor.GetFaith.PriestNeuterPlural] формально висунули мені звинувачення у гріху!\n\nЦе звинувачення можна законним чином використати для того, щоб позбавити мене влади над [recipient.GetFaith.GetAdjective]ими землями."
   religious_interaction.1001.a: "Не будь [actor.GetSheHe] моїм сюзереном, я б..."
   religious_interaction.1001.a.revoke_tt: "[actor.GetTitledFirstName] може [revoke|El] один з моїх титулів"
-
-  # Religious Head of Faith Interactions
+  #Religious Head of Faith Interactions
   religious_interaction.1010: "Похвально, що ви прагнете спокутувати свої гріхи. Я приймаю вашу щедру пожертву і дарую вам благословення."
   religious_interaction.1011: "Ваші провини надто серйозні, щоб їх можна було викупити золотом. Якщо ви дійсно хочете спокутати свої гріхи, змініть своє життя і доведіть мені, що ви дійсно шукаєте прощення. Тільки тоді я прийму вашу пожертву."
   religious_interaction.1020: "[actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'повідомила', 'повідомив' )] мені тривожні новини про ваші злодіяння."
   religious_interaction.1021: "Ви вважаєте, що ви [actor.GetFaith.GetAdherentName], але ваші дії показують, що ви не слідуєте шляху [actor.GetFaith.HighGodNamePossessive]. І оскільки я не можу дозволити вам приховувати свою аморальну поведінку за маскою [actor.GetFaith.GetAdjective]ої чесноти, мені доведеться відлучити вас. І нехай змилостивиться [actor.GetFaith.HighGodName] над вашою душею."
   religious_interaction.1022: "Мене дуже занепокоїла ваша розповідь про злочини, що творить [secondary_recipient.GetTitledFirstName]. З жалем доводиться визнати, що заради блага [actor.GetFaith.GetAdjective]ої віри [secondary_recipient.GetHerHis] необхідно відлучити."
   religious_interaction.1023: "Що ви отримаєте, якщо чесний [actor.GetFaith.GetAdherentName] буде відлучено?! [actor.GetFaith.GetAdjective]а віра — не інструмент для політичних ігор. Радійте, що я не відлучу вас за подібне прохання."
-  religious_interaction.10240: Бачу, ви дійсно покаялися у своїх гріхах і пішли на багато чого заради спокути. І хоча ваші гріхи проти [actor.GetFaith.GetAdjective]ої віри були справді жахливі, ваші недавні дії змусили мене повірити в те, що ви заслуговуєте на прощення.\n\nТому я знімаю з вас відлучення і знову вітаю у лавах [actor.GetFaith.GetAdjective]ої віри."""
   religious_interaction.1024: "I see that you have truly repented for your sins and have gone to great lengths to redeem yourself. Though your transgressions against the [actor.GetFaith.GetAdjective] faith were grievous indeed, your recent actions make me believe you deserve a another chance.\n\nIn light of this, I hereby lift your excommunication and welcome you back into the [actor.GetFaith.GetAdjective] faith."
   religious_interaction.1025: "Ви думаєте, я відлучаю людей просто так? Що нещирих вибачень вистачить, щоб заслужити на прощення? Просіть скільки завгодно, але ви не повернетеся до лона [actor.GetFaith.GetAdjective]ої віри, поки не доведете, що зреклися свого неправедного способу життя."
   religious_interaction.1030: "Після довгих роздумів я розумію: у ваших словах є істина та мудрість. Я приєднаюся до чернечого ордену і почну нове життя на службі [actor.GetFaith.HighGodNamePossessive]."
@@ -72,67 +62,79 @@
   religious_interaction.1000.negative: "Як невдало..."
   religious_interaction.1000.strong_negative: "Прокляття!"
   religious_interaction.1024.positive: "Добре що [recipient.GetFirstNameNoTooltip] [Select_CString(recipient.IsFemale, 'усвідомила', 'усвідомив' )] мудрість цього рішення."
-
   religious_interaction.2002.desc: "Я хочу йти за вами до світла істинної віри. [ROOT.Char.GetFaith.GetName] — моя нова конфесія!"
   religious_interaction.2002.a: "[ROOT.Char.GetFaith.HighGodName], слався!"
-
   religious_interaction.2003.desc: "Моя віра надто міцна, щоб похитнути її жалюгідними промовами простого смертного. Для мене важливіша нагорода, що готує мені [recipient.GetFaith.DivineRealm]."
   religious_interaction.2003.hooking_out: "\n\nА ще мені хотілося б нагадати, що ви у мене в боргу, і краще б не переслідувати мене за мої щирі переконання."
   religious_interaction.2003.a: "Я лише бажаю вам порятунку."
   religious_interaction.2003.b: "Ну що ж, розплата наздожене вас ще в цьому світі!"
   religious_interaction.2003.c: "Не думайте, що це зійде вам із рук!"
   religious_interaction.2003.d: "О, я думаю, ви повірите в те, у що скажу вам повірити."
-
   religious_interaction.2011.desc: "Хотілося б мені приєднатися до вас, але варто мені подумати скільки доведеться заплатити, щоб оновити [recipient.GetFaith.HouseOfWorshipPlural] і принести слово істинної віри моїм селянам...\n\nЯкщо ви допоможете мені оплатити цю роботу, я з радістю прославлю [ROOT.Char.GetFaith.HighGodNamePossessive] у своїх молитвах."
   religious_interaction.2011.a: "Все в ім'я віри."
   religious_interaction.2011.b: "Я не збираюся оплачувати ваш порятунок!"
   religious_interaction.2011.c: "Ви робитимете це не заради золота: є щось значно цінніше."
-
   religious_interaction.2012.desc: "Я бачу мудрість вашої віри, але сподіваюся, що ви розумієте: шлях з темряви до світла довгий і звивистий.\n\nМожливо, обіцянка підтримувати мене всіма засобами зробила б цей шлях трохи легшим."
   religious_interaction.2012.a: "Я підтримаю вас, і нехай [ROOT.Char.GetFaith.GetNameNoTooltip] процвітає всюди."
   religious_interaction.2012.b: "Я не торгуватимуся заради вашої душі!"
   religious_interaction.2012.c: "Спершу розплатіться зі мною по інших боргах."
-
   religious_interaction.2021.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
   religious_interaction.2021.desc: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]\nЧас вам піти за мною до світла, [Select_CString(recipient.IsFemale, 'моя', 'мій' )] [actor.Custom2('RelationToMe', SCOPE.sC('recipient'))]. З огляду на те, чим ви мені зобов'язані, я вимагаю негайно прийняти [actor.GetFaith.GetName]!"
   religious_interaction.2021.a: "Я... добре, [Select_CString(actor.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))]."
-
-#######################################
-### Sun trial by Mathilda Bjarnehed ###
-#######################################
-
-#I have been left in the sun to die!
+  #######################################################
+  ### Sun Trial by Mathilda Bjarnehed & Nick Meredith ###
+  #######################################################
+  #I have been left in the sun to die!
   religious_interaction.2100.t: "Правосуддя [imprisoner.GetFaith.HighGodNamePossessive|U]"
   religious_interaction.2100.desc: "Після [ROOT.Char.GetFaith.HighGodName] знає скільки днів у темній камері яскраве денне світло, яким зустрічає мене [capital.GetNameNoTitle], просто засліплює. Позаду залишається [imprisoner.Custom('FortifiedBuilding')], і стражники, які ведуть мене все далі від міських стін, виглядають майже урочисто.\n\nДо нас приєднуються [imprisoner.GetTitledFirstName] та [imprisoner.Custom('DefaultPriestTitlePlural')], і мета нашої маленької подорожі стає зрозумілою.\n\n«[ROOT.Char.GetFullNameNoTooltip], вас прив'яжуть до стовпа і залишать тут, і [imprisoner.GetFaith.HighGodName] вирішить вашу долю. Якщо ви невинні, ви виживете, а якщо ні, то згинете»."
+  religious_interaction.2100.descwaterlogged: "Whilst the sun shines brightly, the marshy ground I stand on squelches and sucks at my feet. I soon spot my imprisoner [imprisoner.GetTitledFirstName] approaching smugly but somewhat gingerly across the sodden turf, accompanied by several [imprisoner.Custom('DefaultPriestTitlePlural')].\n\n"
+  religious_interaction.2100.descpleasant: "The sun shines brightly, the ground I stand on looks healthy and lush. I soon spot my imprisoner [imprisoner.GetTitledFirstName] approaching — with something of an air of uncertainty — accompanied by several [imprisoner.Custom('DefaultPriestTitlePlural')].\n\n"
+  religious_interaction.2100.descforest: "The sun shines brightly, falling in dappled rays through the tree cover. I soon spot my imprisoner [imprisoner.GetTitledFirstName] fighting [imprisoner.GetHerHis] way through the thicket, accompanied by several [imprisoner.Custom('DefaultPriestTitlePlural')].\n\n"
+  religious_interaction.2100.descoasis: "The sun beats down in the desert, glancing off the surface of the oasis. I soon spot my imprisoner [imprisoner.GetTitledFirstName] splashing through its waters, accompanied by several [imprisoner.Custom('DefaultPriestTitlePlural')].\n\n"
+  religious_interaction.2100.deschostile: "As I lay my eyes on [imprisoner.GetTitledFirstName], flanked by a dozen [imprisoner.Custom('DefaultPriestTitlePlural')], the purpose of our little trip becomes clear.\n\n\"[ROOT.Char.GetFullNameNoTooltip]. You will be left here, tied to this stake, and [imprisoner.GetFaith.HighGodName] shall determine your fate. If you are innocent, you shall live, but if you are guilty, you shall perish.\""
+  religious_interaction.2100.middledefault: "\"For your transgressions, you shall be judged by almighty [imprisoner.GetFaith.HighGodName|U].\" [imprisoner.GetSheHe|U] booms. The guards step forward and lash my limbs to a stake; the [imprisoner.Custom('DefaultPriestTitlePlural')] begin a dirge, arms outstretched. The party then retreats. I am alone, expected to die of thirst."
+  religious_interaction.2100.middleoasis: "\"For your transgressions, you shall be judged by almighty [imprisoner.GetFaith.HighGodName|U].\" [imprisoner.GetSheHe|U] booms. The guards step forward and lash my limbs to a stake, chest-deep in the oasis; the [imprisoner.Custom('DefaultPriestTitlePlural')] begin a dirge, arms outstretched. The party then retreats. I am alone, expected to die of thirst."
+  religious_interaction.2100.endwaterlogged: "\n\nI glance around at my waterlogged surroundings."
+  religious_interaction.2100.endpleasant: "\n\nI glance around at my pleasant surroundings."
+  religious_interaction.2100.endforest: "\n\nI glance around at my green surroundings."
+  religious_interaction.2100.endoasis: "\n\nI glance down at the waters."
   religious_interaction.2100.a.believer: "[imprisoner.GetFaith.HighGodName|U] буде судити мене за справедливістю!"
   religious_interaction.2100.a.unbeliever: "Ви #EMP залишаєте#! мене тут?!"
+  religious_interaction.2100.a.confused: "Erm..."
   religious_interaction.2100.a.success: "Ви виживаєте після випробування"
   religious_interaction.2100.a.failure: "Ви гинете під променями сонця"
-
-#I have survived!
+  #I have survived!
+  religious_interaction.2101.t: "[imprisoner.GetFaith.HighGodNamePossessive|U] Mercy"
   religious_interaction.2101.start.desc: "Вода, мені потрібна вода! Моє горло, голова, моя шкіра — вони просто палають!\n\nНевже [ROOT.Char.GetFaith.DevilName] і справді тут, сміється з мого горя? Або ж це [ROOT.Char.GetFaith.WaterGodName] пропонує мені бутель із водою? Я п'ю і п'ю, але ніяк не можу вгамувати спрагу."
   religious_interaction.2101.end.desc: "\n\nКоли [imprisoner.GetTitledFirstName] повертається і моїх губ торкається фляга з водою, мій розум проясняється. [imprisoner.GetTitleAsNameNoTooltip] здається, [Select_CString(imprisoner.IsFemale, 'розчарована', 'розчарований' )] побачити мене [Select_CString(ROOT.Char.IsFemale, 'живой', 'живим' )], але така божественна воля."
+  religious_interaction.2101.desc.pleasant: "I have almost #EMP enjoyed#! my days lashed up outside. The birds have been singing, the sun has warmed my skin, and the splashes of rainfall have refreshed me and quenched my thirst.\n\nWhen [imprisoner.GetTitledFirstName] returns, [imprisoner.GetSheHe] is clearly angered by my sprightliness and general good spirits, but there is no escaping the terms that [imprisoner.GetSheHe] [imprisoner.GetHerselfHimself] had set: the divine has spoken!"
+  religious_interaction.2101.desc.oasis: "I have almost #EMP enjoyed#! my days suspended in the cooling waters of the oasis. Though the sun beats down fiercely, my ropes prove loose enough that I can lean down and drink deeply from the waters.\n\nWhen [imprisoner.GetTitledFirstName] returns, [imprisoner.GetSheHe] is clearly angered by my good health, but there is no escaping the terms that [imprisoner.GetSheHe] [imprisoner.GetHerselfHimself] had set: the divine has spoken!"
   religious_interaction.2101.a: "Я [Select_CString(ROOT.Char.IsFemale, 'невинна', 'невинний' )]!"
-
-#They survived...
+  #They survived...
   religious_interaction.2102.desc: "В останній день випробування ми бачимо, що [prisoner.GetTitledFirstName] непритомний, але ще дихає.\n\n«Це диво! — оголошує [ROOT.Char.Custom('DefaultPriestTitle')], підносячи руки до небес. — [ROOT.Char.GetFaith.HighGodName|U] показує нам свою волю! [Select_CString(prisoner.IsFemale, 'Ця', 'Цей' )] [prisoner.GetWomanMan] [Select_CString(prisoner.IsFemale, 'невинна', 'невинний' )]!»"
+  religious_interaction.2102.oasis: "As I approach [prisoner.GetTitledFirstName], splashing through the waters of the oasis in which [prisoner.GetSheHe] was tied to a stake in, we find [prisoner.GetHerHim] not just conscious but wholly healthy.\n\n\"It is a miracle!\" the [ROOT.Char.Custom('DefaultPriestTitle')] declares, hands raised towards the heavens. \"[ROOT.Char.GetFaith.HighGodName|U] has spoken! The [prisoner.GetWomanMan] is innocent!\"\n\nI grind my teeth in frustration as the [ROOT.Char.Custom('DefaultPriestTitlePlural')] untie [prisoner.GetFirstNameNoTooltip]. Why did we have to leave [prisoner.GetSheHe] #EMP here#!?!"
+  religious_interaction.2102.pleasant: "As I approach [prisoner.GetTitledFirstName], splashing through the waters of the oasis in which [prisoner.GetSheHe] was tied to a stake in, we find [prisoner.GetHerHim] not just conscious but practically #EMP grinning#!.\n\n\"It is a miracle!\" the [ROOT.Char.Custom('DefaultPriestTitle')] declares, hands raised towards the heavens. \"[ROOT.Char.GetFaith.HighGodName|U] has spoken! The [prisoner.GetWomanMan] is innocent!\"\n\nI grind my teeth in frustration as the [ROOT.Char.Custom('DefaultPriestTitlePlural')] untie [prisoner.GetFirstNameNoTooltip]. Why did we have to leave [prisoner.GetSheHe] #EMP here#!?!"
   religious_interaction.2102.a: "Така воля [ROOT.Char.GetFaith.HighGodNamePossessive|U]."
   religious_interaction.2102.b: "А мені здається, [prisoner.GetSheHe] скоріше [Select_CString(prisoner.IsFemale, 'мертва', 'мертвий' )]..."
   religious_interaction.2102.b.tt: "[ROOT.Char.GetFaith.HighGodName|U] не #EMP завжди#! судить правильно!"
   religious_interaction.2102.b.success: "Ваше втручання залишається непоміченим"
   religious_interaction.2102.b.failure: "Тепер усі знають, що ви вбивця"
-
-#I have died...
+  #I have died...
+  religious_interaction.2103.t: "[imprisoner.GetFaith.HighGodNamePossessive|U] Fury"
   religious_interaction.2103.end.desc: "\n\nЯкщо така [ROOT.Char.GetFaith.HighGodHerHis|U] воля, я, мабуть, цього заслуговую. Можливо, я... [Select_CString(ROOT.Char.IsFemale, 'порочна', 'порочний' )]."
+  religious_interaction.2103.desc.pleasant: "I was so cocksure, so foolish. Being out in the open for this long will brutalize any [ROOT.Char.GetWomanMan], I see that now. The sun beats down in the day, the wind howls and buffets me at night, and the skies remain horribly, mercilessly clear of any clouds.\n\nWater, water. It's all around me, locked away in nature's embrace, but there's not a drop I can drink. My head lolls hopelessly."
+  religious_interaction.2103.desc.waterlogged: "Though the wind buffets me and the sun beats down upon my skin, I am at least refreshed by the steady influx of water from the rain clouds that so deluge this area. I smile up at the sky as another cloudburst begins.\n\nSuddenly the world begins to lurch. Imperceptibly at first, then faster and faster. It takes me a few moments to realize that my stake has overbalanced and is now toppling directly into the pool in front of me!\n\nAs I impact the water I thrash madly to escape, but it's no use. All of my limbs are bound, and the weight of the log pushes me deeper into the shallow pool. I scream, but no sound escapes, and the water rushes into my mouth to fill the void."
+  religious_interaction.2103.desc.oasis: "As I serve my trial, the fierce sun beats down upon my skin. I am at least refreshed by the lap of water against my chest, suspended upright as I am in the waters of the oasis.\n\nSuddenly the world begins to lurch. Imperceptibly at first, then faster and faster. It takes me a few moments to realize that the soft sand underneath my stake has subsided, sending me toppling directly into the oasis in front of me!\n\nAs I impact the water I thrash madly to escape, but it's no use. All of my limbs are bound, and the weight of the log pushes me deeper into the waters. I scream, but no sound escapes, and the water rushes into my mouth to fill the void."
   religious_interaction.2103.a: "Зовсім немає... сил..."
-
-#They died!
+  religious_interaction.2103.b: " #DIE1 Bl-#! #DIE2 blub...#!"
+  #They died!
   religious_interaction.2104.desc: "В останній день випробування [prisoner.GetTitledFirstName] не ворушиться за нашого наближення. Один зі слуг підносить флягу до [prisoner.GetHerHis] губам, що розтріскалися, але вода просто стікає по підборідді.\n\n«[ROOT.Char.GetFaith.HighGodName|U] показує свою волю! — проголошує [ROOT.Char.Custom('DefaultPriestTitle')], підносячи руки до неба. — [Select_CString(prisoner.IsFemale, 'Ця', 'Цей' )] [prisoner.GetWomanMan] [Select_CString(prisoner.IsFemale, 'винна', 'винний' )]!»"
-
-##############################################
-### Literalist Debate by Ewan Cowhig Croft ###
-##############################################
-
+  religious_interaction.2104.desc.drowned: "As we approach where we left [prisoner.GetTitledFirstName] tied to a stake, it is quickly clear that something is wrong. [prisoner.GetHerHis|U] stake had presumably fallen forwards, directly into a pool we left [prisoner.GetHerHim] beside. The bindings we put on [prisoner.GetHerHis] limbs were clearly up to the task, and with the weight of the log pushing down on [prisoner.GetHerHim] [prisoner.GetSheHe] never stood a chance.\n\n\"[ROOT.Char.GetFaith.HighGodName|U] has spoken!\" The [ROOT.Char.Custom('DefaultPriestTitle')] declares, hands raised towards the heavens. \"The [prisoner.GetWomanMan] is guilty!\""
+  religious_interaction.2104.desc.oasisdrowned: "As we approach where we left [prisoner.GetTitledFirstName] tied to a stake, it is quickly clear that something is wrong. [prisoner.GetHerHis|U] stake had presumably fallen forwards, directly into the oasis we left [prisoner.GetHerHim] beside. The bindings we put on [prisoner.GetHerHis] limbs were clearly up to the task, and with the weight of the log pushing down on [prisoner.GetHerHim] [prisoner.GetSheHe] never stood a chance.\n\n\"[ROOT.Char.GetFaith.HighGodName|U] has spoken!\" The [ROOT.Char.Custom('DefaultPriestTitle')] declares, hands raised towards the heavens. \"The [prisoner.GetWomanMan] is guilty!\""
+  religious_interaction.2104.b.drowned: "Well, I suppose that's one way of looking at it..."
+  ##############################################
+  ### Literalist Debate by Ewan Cowhig Croft ###
+  ##############################################
   religious_interaction.2400.t: "Великий спір"
   religious_interaction.2400.desc: "Тремтячим від страху голосом [recipient.GetSheHe] зачитує мені гнівний лист, в якому [actor.GetTitledFirstName] викликає мене на публічну суперечку про чесноти та вади нашої спільної конфесії: [actor.GetSheHe] сумнівається, що я дотримуюсь догматів, на яких ґрунтується [recipient.GetFaith.GetNameNoTooltip].\n\nСлуга заїкається, проковтуючи слова, оскільки тон листа ясно дає зрозуміти, якої [actor.GetShortUINameNoTooltip] думки про моє благочестя."
   religious_interaction.2400.a: "Оце псина! Виклик прийнятий!"
@@ -141,32 +143,26 @@
   religious_interaction.2400.b: "Я не буду бруднити ім'я [recipient.GetFaith.HighGodNamePossessive] цим фарсом."
   religious_interaction.2400.b.tt: "[actor.GetShortUINameNoTooltip] дізнається про це"
   religious_interaction.2400.b_turned_down: "[recipient.GetShortUIName|U] не приймає мій виклик на дебати"
-
   used_literalist_debate_modifier: "Недавні дебати"
   used_literalist_debate_modifier_desc: "Цей персонаж нещодавно розпочав дебати про основи своєї віри."
   literally_debated_modifier: "Недавні дебати"
   literally_debated_modifier_desc: "Цього персонажа нещодавно втягнули у дебати про основи віри."
-
   religious_interaction.2401.desc_intro: "Я і мій опонент зустрічаємось у великій залі у володінні [debate_locale.GetNameNoTierNoTooltip] за нестійкими столами всього у футі один від одного в оточенні натовпу збуджених глядачів. Приглушений шепіт проноситься натовпом, і всі затихають, чекаючи початку дебатів.\n\n"
   religious_interaction.2401.desc_won: "Всього за годину [recipient.GetTitledFirstName] здається: я успішно ставлю під сумнів [recipient.GetHerHis] благочестя та [recipient.GetHerHis] уявлення про чесноти. Я завдаю удару по самій [recipient.GetHerHis] вірі у [actor.GetFaith.HighGodNamePossessive]. Натовп шаленіє, і [recipient.GetTitledFirstNameNoTooltip] біжить із зали після граду тухлих яєць і запліснілої капусти, що обрушився на [Select_CString(recipient.IsFemale, 'неї', 'нього' )]."
   religious_interaction.2401.desc_lost: "[recipient.GetTitledFirstName] негайно йде в напад, не залишаючи мені шансів виправдатися, і невдовзі натовп визначає переможця..\n\nКілька миттєвостей я хоробро стою під градом із гнилих овочів; коли ж хтось із селян кидає мені в голову живу курку, мені доводиться відступити."
   religious_interaction.2401.a_won: "Хіба [actor.GetFaith.HighGodName] не любить мене?"
   religious_interaction.2401.a_lost: "Цим людям не зрозуміти [actor.GetFaith.GetReligion.GetNameNoTooltip]!"
-
   religious_interaction.2402.desc_won: "Хоча на дебати [actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'викликала', 'викликав' )] мене з усією можливою самовпевненістю, [actor.GetHerHis] рішучість тане під натиском моїх принизливих слів і благочестивої критики. Незабаром приєднується натовп, і мій опонент біжить із зали під градом із гнилих овочів та одного особливо затятого півня."
   religious_interaction.2402.desc_lost: "Незважаючи на всі мої зусилля, [actor.GetTitledFirstName] не губиться і ясними аргументами відразу завойовує симпатії натовпу. [actor.GetSheHe|U] продовжує нападати на мене, понад годину перераховуючи всі мої мислимі гріхи. [actor.GetSheHe|U] навіть сумнівається у тому, що я щиро шаную [recipient.GetFaith.HighGodNamePossessive].\n\nЗрештою я відступаю під градом гнилих овочів, що обрушує на мене натовп."
-
   religious_interaction.2403.desc: "[victim.GetTitledFirstName] не має жодного шансу. Хоча [victim.GetSheHe] вважає, що [Select_CString(victim.IsFemale, 'готова', 'готовий' )], я відмахуюсь від [victim.GetHerHis] жалюгідних претензій, як від мух. Від кожного мого аргументу [victim.GetFirstNameNoTooltip] здригається, як від удару. Незабаром стає настільки очевидним, що [victim.GetSheHe] не може захистити свою точку зору, що навіть натовп змовкає.\n\n«...І саме тому, — кажу я, драматично здіймаючи руку і вказуючи пальцем у протилежний кінець кімнати, — ви ніколи...»\nЯ зупиняюся, усвідомивши, що [victim.GetFirstNameNoTooltip] відчайдушно намагається зітхнути, стискаючи"
   religious_interaction.2403.conclusion_either: "свої груди."
   religious_interaction.2403.conclusion_man: "свою руку."
   religious_interaction.2403.conclusion_woman: "свій живіт."
-  religious_interaction.2403.a.low_compassion: """Я бачу, ви обрали шлях боягуза""."
+  religious_interaction.2403.a.low_compassion: "\"\"Я бачу, ви обрали шлях боягуза\"\"."
   religious_interaction.2403.a.zealous: "«Схоже, [ROOT.Char.GetFaith.PantheonTerm] на моєму боці»."
-  religious_interaction.2403.a.stubborn: """Гей, це ще не все!"""
-  religious_interaction.2403.a: """Ви... з вами все гаразд?"""
+  religious_interaction.2403.a.stubborn: "\"\"Гей, це ще не все!\"\""
+  religious_interaction.2403.a: "\"\"Ви... з вами все гаразд?\"\""
   religious_interaction.2403.a.tt: "[victim.GetShortUIName] [Concept( 'character_death_dies', 'помирає' )|E] від серцевого нападу"
-
   religious_interaction.2500.desc: "Коли люди, подібні до тебе, прозрівають... Це [ROOT.Char.GetFaith.HighGodNameAlternate] шле нам знамення! Вітаємо тебе у лоні істинної віри."
   religious_interaction.2500.a: "Нехай славиться [ROOT.Char.GetFaith.HighGodName]!"
-
   religious_interaction.2501.desc: "Ти думаєш, [recipient.GetFaith.HighGodName] повірить цим жалюгідним політичним утискам і відверне караючу долоню? Та ти жартуєш!"

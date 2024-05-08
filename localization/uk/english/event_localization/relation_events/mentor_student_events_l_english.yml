@@ -2,11 +2,9 @@
   mentor_student.0001.t: "Згадуючи минуле"
   mentor_student.0001.desc: "«Так не може тривати, [ROOT.Char.GetFirstNameNoTooltip]!» — вигукує [Select_CString(mentor_to_loose.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName], [mentor_to_lose.Custom('quirk_neg_pp')].\n\n«Наші стосунки завершені, ми занадто різні, щоб у нас могло щось вийти. З цієї миті ми порізно.»."
   mentor_student.0001.a: "Дуже добре."
-
   mentor_student.0002.desc: "«Мені більше немає чому вас вчити».\n\n[Select_CString(mentor_to_loose.IsFemale, 'Моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName] [mentor_to_lose.Custom('quirk_pos_adverb')] посміхається та киває: «Ви багато чому навчилися, але, щоб просунутися далі, ви маєте йти своїм власним шляхом»."
   mentor_student.0002.a: "[Select_CString(mentor_to_loose.IsFemale, 'Вона і справді багато чого мене навчила', 'Він і справді багато чого мене навчив' )]!"
   mentor_student.0002.b: "Мені здається, що наші відносини стануть лише сильнішими."
-
   mentor_student.0003.t: "Сумніви"
   mentor_student.0003.desc: "[Select_CString(mentor_to_loose.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName] [mentor_to_lose.Custom('quirk_neg_adverb')] посміхається, розповідаючи мені про свої недавні #EMP перемоги#!.\n\nМожливо, мені ще є чому повчитися, але як людина [mentor_to_lose.GetFirstName] стає дедалі нестерпніше."
   mentor_student.0003.a: "Із цими стосунками покінчено."

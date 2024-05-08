@@ -1,12 +1,11 @@
 ﻿l_english:
   lover.0001.t: "Кінець пристрасті"
   lover.0001.desc_opening: "«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom('LoverPetName')], це... Просто нічого більше не виходить!»\n\n[Select_CString(lover.IsFemale, 'Моя коханка', 'Мій коханець' )] [lover.GetTitledFirstName] віддаляється від мене. —"
-  lover.0001.desc_murder: """Іскра, що згасає між нами... Як тільки подумаю, що ти можеш убити... Для мене це занадто!"""
+  lover.0001.desc_murder: "\"\"Іскра, що згасає між нами... Як тільки подумаю, що ти можеш убити... Для мене це занадто!\"\""
   lover.0001.desc: "«Іскра між нами, вона... вона ніби згасла»."
   lover.0001.a: "Погоджуся: нам час розійтися."
   lover.0001.b: "Але... Згадай старі добрі часи!"
   lover.0001.b.tt: "[lover.GetSheHe|U] дасть другий шанс нашим відносинам"
-
   lover.0002.t: "Кінець пристрасті"
   lover.0002.still_in_love: "У мене у вухах досі звучать [first_lover.GetHerHis] слова. Через те, як похмуро [Select_CString(ROOT.from.IsFemale, 'говорила', 'говорив' )] [first_lover.GetTitledFirstName], я ніяк не можу позбутися відчуття, що [first_lover.GetSheHe] [Select_CString(ROOT.from.IsFemale, 'намагалася', 'намагався' )] заподіяти мені біль.\n\n«Я… але я кохаю тебе!» — Мені довелося силою видавлювати ці слова. Мої благання не змусили [ROOT.From.GetCharacter.GetHerHis] змінити думки."
   lover.0002.still_likes: "Слова, з якими до мене [Select_CString(ROOT.from.IsFemale, 'звернулася', 'звернувся' )] [ROOT.From.GetCharacter.GetTitledFirstName], завдали мені біль, і мені було нелегко його приховати.\n\nЯкщо [first_lover.GetSheHe] думає, що для нас так буде краще, я не збираюся ускладнювати розрив."
@@ -31,7 +30,6 @@
   lover.0002.c: "Можливо так буде краще."
   lover.0002.d: "Нарешті! Слався, [ROOT.GetCharacter.GetFaith.FertilityGodName]!"
   lover.0002.e: "Я ніколи не пробачу [first_lover.GetHerHis] зради."
-
   lover.0003.t: "Занадто багато хорошого"
   lover.0003.desc.intro: "Мені й на думку не спадало, що [ROOT.Char.Custom('lover_reason')] може бути у надмірній кількості, але, схоже, це так! Іноді мені здається, що мій вільний час — це тільки"
   lover.0003.desc.twolovers: "[lover_1.Custom('lover_activity')] та [lover_2.Custom('lover_activity')]."
@@ -40,7 +38,7 @@
   lover.0003.desc.end2men: "чоловіки"
   lover.0003.desc.end2women: "жінки"
   lover.0003.desc.end2people: "люди"
-  lover.0003.desc.end30": will be the end of me!"
+  lover.0003.desc.end3: " will be the end of me!"
   lover_0003.a: "[lover_1.GetFirstNameNoTooltip] [Select_CString(lover_1.IsFemale, 'повинна', 'повинен' )] піти."
   lover_0003.b: "[lover_2.GetFirstNameNoTooltip] і я досягли кінця нашого шляху."
   lover_0003.c: "Я і [lover_3.GetFirstNameNoTooltip] більше не можемо продовжувати це."
@@ -48,53 +46,42 @@
   lover_0003.d.tt: "Ви використовуєте свої любовні вміння, щоб задовольняти своїх партнерів, не надто втомлюючись."
   lover_0003.e: "Нехай це зламає мене, але лише [ROOT.Char.Custom('lover_reason')] робить нас по-справжньому живими!"
   lover_0003.e.tt: "Ви робите все можливе для збереження стосунків."
-
   lover.0004.t: "Біль відмови"
   lover.0004.desc: "[first_lover.GetFirstName] і я стикалися з труднощами, не заперечуватиму, але [first_lover.GetHerHis] відмова стала для мене шоком. Не можу пояснити чому, але мені й на думку не спадало, що все може скінчитися ось так.\n\nЛють, обурення, жаль... апатія. Емоції переповнюють мене, а я сиджу в приголомшенні і не знаю, що робити."
   lover_0004.a: "[Select_CString(ROOT.from.IsFemale, 'Її', 'Його' )] [ROOT.Char.Custom('lover_reason')]... як же мені жити без цього?"
   attempt_to_regain_affection_tt: "Мені потрібно зробити щось рішуче, щоб повернути [first_lover.GetHerHis] любов!"
-
   lover.0005.t: "Ні фурії в пеклі"
   lover.0005.desc: "Мені було очевидно, що [lover.GetFirstName] не прийме моє рішення спокійно, але [lover.GetHerHis] реакція здивувала мене. Ні сліз, ні благання, ні проклять... Але очі зрадили [lover.GetHerHis] справжні почуття, і побачене до тремтіння налякало мене."
   lover_0005.a: "Боюся, що сьогодні в мене з'явився ворог."
-
   lover.0101.t: "В [SCOPE.sC('lover').GetHerHis] полоні"
   lover.0101.desc_dungeon: "Я насилу розрізняю ґрати через сльози, що застилають мої очі. Чому [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] так зі мною [Select_CString(lover.IsFemale, 'вчинила ', 'вчинив')]? [lover.GetTitledFirstName], [Select_CString(lover.IsFemale, 'моя', 'мій' )] [lover.Custom('LoverPetName')], будь ласка, випусти мене..."
   lover.0101.desc_house_arrest: "І хоча я йду тими ж залами, що й [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover. GetTitledFirstName], але наші серця ніколи не були настільки далекі один від одного. [Select_CString(lover.IsFemale, 'Моя', 'Мій' )] [lover.Custom('LoverPetName')], будь ласка, випусти мене..."
   lover.0101.a: "[Select_CString(lover.IsFemale, 'Моя кохана', 'Мій коханий' )] не [Select_CString(lover.IsFemale, 'вчинила', 'вчинив' )] би так зі мною!"
   lover.0101.b: "Це лише ще одна перешкода, яку нам потрібно подолати."
-
   lover.0102.t: "[Select_CString(imprisoned_lover.IsFemale, 'В'язня', 'В'язень')]"
   lover.0102.desc: "Хто міг би подумати, що до цього дійде? [Select_CString(imprisoned_lover.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('imprisoned_lover'))] [imprisoned_lover.GetTitledFirstName] цурається мене, і, хоча .GetSheHe] все ще в моїх руках, [imprisoned_lover.GetHerHis] любов до мене пройшла."
   lover.0102.a: "Любов, що [imprisoned_lover.GetSheHe] [Select_CString(imprisoned_lover.IsFemale, 'зберігала', 'зберігав' )], пройшла, але ось [Select_CString(imprisoned_lover.IsFemale, 'сама вона', 'сам він' )] нікуди не подінеться!"
-
   lover.0103.t: "Конфлікт почуттів"
   lover.0103.desc: "Подумати тільки, [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('lover'))] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [SCOPE.sC('lover').GetTitledFirstName] [Select_CString(lover.IsFemale, 'оголосила', 'оголосив' )] мені війну… Все, що нас об'єднувало, мої почуття до н[SCOPE.sC('lover').GetHerHim], все це повільно тоне у звуках бойових сурм."
   lover.0103.a: "Ніщо не встане у мене на заваді. Навіть ти, кохання моє!"
   lover.0103.b: "У воєнний час життя стає дорожчим, а кохання — солодшим."
   lover.0103.b.tt: "#F Я не прийматиму поспішних рішень у запалі битви!#!"
-
   lover.0104.desc: "З того часу, коли володіння [war_title.GetName] стало для мене дорожче, ніж [war_lover.GetTitledFirstName], [war_lover.GetSheHe] відмовляється дивитися на мене, і я побоююся, що ми навіки втратили одне одного."
   lover.0104.a: "У коханні та на війні всі засоби хороші."
-
   lover.0201.t: "Кінець інтрижки"
   lover.0201.desc: "«Добре, що ви все розумієте»,— каже мені [Select_CString(breaker.IsFemale, 'моя коханка', 'мій коханець' )].\n\nОх, [breaker.GetFirstName], якби так! Спершу ти шепочеш усі ці милі слова, а потім ти йдеш геть?"
   lover.0201.other_lover: "\n\n[Select_CString(other_lover.IsFemale, 'Ця', 'Цей' )] [other_lover.Custom('InsultNounSexual')], це все через [Select_CString(other_lover.IsFemale, 'неї', 'нього' )]?"
   lover.0201.a: "Так усе й мало статися."
-
   lover.0202.t: "[Select_CString(breaker.IsFemale, 'Моя власна', 'Мій особистий' )] [breaker.Custom('WifeHusband')]"
   lover.0202.desc: "Я... збентежений. [Select_CString(breaker.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('breaker'))] [breaker.GetFirstName] каже, що більше не хоче бути [Select_CString(breaker.IsFemale, 'моєю коханкою', 'моїм коханцем' )]. Невже нашої пристрасті недостатньо, щоб підтримувати сімейне вогнище?"
   lover.0202.a: "Що [breaker.GetSheHe] робить?"
-
   lover.0203.t: "Полегшення"
   lover.0203.desc: "«Справа не в тобі, це все я...» - Я не особливо прислухаюся до того, що говорить [breaker.GetFirstName]. Безперечно, [breaker.GetSheHe] тут, щоб покінчити з нашим романом, але я відчуваю від цього лише полегшення."
   lover.0203.a: "Так, так, мені дуже шкода. Йди вже."
-
   lover.0204.t: "[Select_CString(lover.IsFemale, 'Ображена', 'Ображений')] [lover.Custom('WomanManGirlBoy')]"
   lover.0204.desc: "«Та як ти смієш! Як ти смієш відкидати мене? Невже [Select_CString(other_lover.IsFemale, 'ця', 'цей' )] [other_lover.Custom('InsultNounSexual')] краще?!»\n\nЧутки розносяться швидко, і тепер я можу на власні очі спостерігати, як [lover.GetFirstName] реагує на цю новину. Очевидно, [lover.GetSheHe] ненавидить мене і може спробувати помститися."
   lover.0204.a: "[breaker.GetFirstName] [Select_CString(breaker.IsFemale, 'вибрала', 'вибрав' )] мене. Змирись."
-
-  # Ask lover to be exclusive (lover -> soulmate)":"
+  #Ask lover to be exclusive (lover -> soulmate)
   lover.3111.t: "[Select_CString(lover.IsFemale, 'Моя єдина і неповторна', 'Мій єдиний і неповторний')]"
   lover.3111.desc: "[Select_CString(lover.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [SCOPE.sC('lover').GetTitledFirstName] притискає мене до себе, і я насолоджуюся рідкісним щастям. Тільки подумати: це тривало б вічно, якби [SCOPE.sC('lover').GetSheHe] [Select_CString(lover.IsFemale, 'могла', 'міг' )] бути [Select_CString(lover.IsFemale, 'моєї і тільки моєї', 'моїм і тільки моїм' )] навіки…"
   lover.3111.a: "Пообіцяємо ніколи не любити нікого іншого!"
@@ -103,8 +90,7 @@
   lover.3111.a.tt: "#F Я запропоную, щоб ми присягнули один одному у вірності#!"
   lover.3111.b: "Мені не потрібен ніхто, крім н[SCOPE.sC('lover').GetHerHis]. Будь [Select_CString(lover.IsFemale, 'моєю', 'моїм' )] знову!"
   lover_0300_break_up_with_other_lovers_effect.tt: "Всі інші ваші васали"
-
-  # Send a love letter":"
+  #Send a love letter
   lover.3002.t: "Виразити словами"
   lover.3002.desc: "[lover.GetFirstName] будить у мені настільки сильні почуття, що вони буквально палять мене зсередини! Мені відчайдушно треба дати [lover.GetHerHim] знати про це!\n\nКохання, спрямуй мою руку, коли я виливатиму свої почуття на папір!"
   lover.3002.a: "Істина лише у поезії!"
@@ -113,73 +99,54 @@
   lover.3002.a_good: "Гарний любовний лист"
   lover.3002.a_competent: "Вмілий любовний лист"
   lover.3002.a_bad: "Поганий любовний лист"
-
-  # Terrible love letter":"
+  #Terrible love letter
   lover.3003.desc: "[first_lover.GetTitledFirstName] [Select_CString(first_lover.IsFemale, 'написала', 'написав' )] мені листа!\n\n[first_lover.Custom2('love_letter', ROOT.Char )]"
   lover.3003.desc_conclusion: "\n\nЩо це таке?.."
   lover.3003.a: "Мабуть, це найгірша поема зі всіх, що мені доводилося чути!"
-
   lover.3004.desc: "Схоже, мого листа було прийнято без захвату. Потрібно ще раз подивитись на нього...\n\n[first_lover.Custom2('love_letter', lover )]"
   lover.3004.a: "Невже все так погано?"
-
   lover.3005.desc_conclusion: "\n\nЦе... мило."
   lover.3005.a: "Принаймні [first_lover.GetSheHe] думає про мене."
-
-  lover.3006.desc: "Схоже, мого листа було тепло прийнято, хоч і було названо «простою спробою» поезії:\n\n[first_lover.Custom2('love_letter', lover )]":"\n\n[first_lover.Custom2('love_letter', SCOPE.sC('lover'))]"
+  lover.3006.desc: "Схоже, мого листа було тепло прийнято, хоч і було названо «простою спробою» поезії:\n\n[first_lover.Custom2('love_letter', lover )]\":\"\n\n[first_lover.Custom2('love_letter', SCOPE.sC('lover'))]"
   lover.3006.a: "Що ж, головне – увага!"
-
   lover.3007.desc_conclusion: "\n\nПоема, тільки для мене!"
   lover.3007.a: "Ах, як зворушливо!"
-
   lover.3008.desc: "Мій лист був тепло прийнятий! Схоже, [lover.GetTitledFirstName] [Select_CString(lover.IsFemale, 'переказала', 'переказав' )] його кільком людям.\n\n[first_lover.Custom2('love_letter', lover )]"
   lover.3008.a: "Моє красномовство робить свою справу!"
-
   lover.3009.desc_conclusion: "\n\nЦе чудово. І написано спеціально для мене!"
   lover.3009.a: "Я збережу ці слова у своєму серці!"
-
   lover.3010.desc: "[lover.GetTitledFirstName] [Select_CString(lover.IsFemale, 'відповіла', 'відповів' )] на мого листа, сказавши, що вже давно не [Select_CString(lover.IsFemale, 'чула', 'чув' )] таких чудових слів! Якщо подумати, це мене анітрохи не дивує:\n\n[first_lover.Custom2('love_letter', lover )]"
   lover.3010.a: "Мабуть, поет із мене навіть кращий, ніж [ROOT.Char.GetTitleAsNameNoTooltip]!"
-
-  lover.3112.desc: "«Мені не потрібний ніхто, крім тебе, [ROOT.Char.Custom('LoverPetName')]».\n\n[proposing_lover.GetTitledFirstName] притискає мене до себе, я відчуваю [proposing_lover.GetHerHis] дихання на своїй шиї, коли [proposing_lover.GetSheHe] просить пообіцяти ніколи і ні з ким не зраджувати [proposing_lover.GetHerHim].": to never take another lover but [proposing_lover.GetHerHim]."
+  lover.3112.desc: "«Мені не потрібний ніхто, крім тебе, [ROOT.Char.Custom('LoverPetName')]».\n\n[proposing_lover.GetTitledFirstName] притискає мене до себе, я відчуваю [proposing_lover.GetHerHis] дихання на своїй шиї, коли [proposing_lover.GetSheHe] просить пообіцяти ніколи і ні з ким не зраджувати [proposing_lover.GetHerHim].\": to never take another lover but [proposing_lover.GetHerHim]."
   lover.3112.a: "Мені не потрібний ніхто, крім тебе!"
   lover.3112.b: "Звісно, у мене #EMP ніколи#! не буде нікого іншого."
   lover.3112.b.tt: "#F Що поганого в брехні, що походить з кохання?#!"
   lover.3112.c: "Ти ж не серйозно?!"
   lover.3112.b.remain_together.tt: "[THIS.Char.GetShortUIName] залишається вашим [Concept( 'lover', 'коханцем' )|E]"
-
-  lover.3113.desc: """Так, звичайно, мені не потрібен ніхто, крім тебе, [ROOT.Char.Custom('LoverPetName')]!""\n\nМоє серце стискається, і мене охоплює хвиля любові та бажання, а потім я і [lover.GetTitledFirstName ] зливаємось у пристрасному поцілунку."
+  lover.3113.desc: "\"\"Так, звичайно, мені не потрібен ніхто, крім тебе, [ROOT.Char.Custom('LoverPetName')]!\"\"\n\nМоє серце стискається, і мене охоплює хвиля любові та бажання, а потім я і [lover.GetTitledFirstName ] зливаємось у пристрасному поцілунку."
   lover.3113.a: "Для мене лише ти маєш значення!"
   lover.3113.a.tt: "#F Я нікого не любитиму так, як [Select_CString(lover.IsFemale, 'її', 'його' )]!#!"
-
   lover.3114.desc: "«Ти мені подобаєшся, [ROOT.Char.GetFirstNameNoTooltip], але я поки що не можу пообіцяти тобі свою вірність».\n\n[lover.GetTitledFirstName] [lover.Custom('quirk_neg_present')], і ми дивимося один на одного в незручному мовчанні."
   lover.3114.a: "Як можна було так в [Select_CString(lover.IsFemale, 'ній', 'ньому' )] помилитися?"
-
-
   lover.0304.opening: "[Select_CString(second.IsFemale, 'Моя люба', 'Мій любий' )] [ROOT.Char.GetFirstNameNoTooltip],"
   lover.0304.desc: "Мені ніколи не хотілося такого кінця, але так вже трапилось. Пробач, але я кохаю іншу людину. Ми більше не можемо бути разом. Бажаю тобі всього щастя, що є у світі. Нехай оберігає тебе [ROOT.Char.GetFaith.HighGodName]."
   lover.0304.a: "Отже, все скінчено?"
-
-
   lover.1001.t: "Чутки та припущення"
   lover.1001.desc: "[Select_CString(lover.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sCharacter('snoopy_lover') )] [snoopy_lover.GetTitledFirstName] багато чує при дворі.\n\nНещодавно до н[snoopy_lover.GetHerHis] дійшла цікава історія про те, чим займається [Select_CString(secret_holder.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sCharacter('secret_holder') )] [secret_holder.GetTitledFirstName], коли ніхто не бачить..."
   lover.1001.a: "Це дуже корисна інформація, [ROOT.GetCharacter.Custom('LoverPetName')]."
-
   lover.1002.t: "Потягнути за ниточки"
   lover.1002.desc: "[Select_CString(lover.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom('LoverPetName')] [lover.GetTitledFirstName] багато знає про те, як продиратися крізь поєднання придворних відносин. [Select_CString(lover.IsFemale, 'Вона', 'Він' )] пропонує використовувати ці навички у переговорах, метою яких є [target.GetTitledFirstName]."
   lover.1002.a: "Чудова ідея!"
   lover.1002.b: "Я не можу допустити, щоб [lover.GetFirstNameNoTooltip] [Select_CString(lover.IsFemale, 'брала участь', 'брав участь' )] у цьому."
-
   lover.1003.t: "Люблячі обійми"
   lover.1003.desc: "[ROOT.Char.GetTitleTierName] — тягар, що тисне на мене все сильніше, і тільки теплі обійми, що розкриває мені [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('lover') )] [lover.GetTitledFirstName], помогают облегчить его.\n\n«Будь ласка, [ROOT.Char.Custom('LoverPetName')], дозволь допомогти тобі розслабитися»."
   lover.1003.a: "Що б ми робили один без одного, любов моя?"
   lover.1003.b: "Те що потрібно!"
-
   lover.1004.t: "Давай втечемо"
   lover.1004.desc: "[Select_CString(lover.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sCharacter('lover') )] [lover.GetTitledFirstName] [lover.Custom('quirk_pos_adverb')] посміхається, обіймаючи мене, і я знову згадую, чому так дорожу [Select_CString(lover.IsFemale, 'нею', 'ним' )].\n\nЯк добре було б на якийсь час виїхати, тільки ми вдвох..."
   lover.1004.a: "Мені казали, що [county.GetName] — чудове місце в цю пору року."
   lover.1004.a.tt: "#F Романтична подорож... Хто знає, що може статися?#!"
   lover.1004.b: "Спальня — цілком захопливий кінцевий пункт!"
-
   lover.1005.desc_opening_same_court: "«О [ROOT.Char.GetFirstNameNoTooltip]! Втекти від двору, нехай навіть і на якийсь час… Це схоже на сон».\n\n"
   lover.1005.desc_opening_other_court: "«О [ROOT.Char.GetFirstNameNoTooltip]! Зустрітися так, далеко від наших дворів… Це схоже на сон».\n\n"
   lover.1005.desc_object_of_importance: "Побачивши, що [SCOPE.sC('lover').GetTitledFirstName] усміхається, а [lover.GetHerHis] очі горять, я з радістю погоджуюсь знайти вільні місця в таверні у володінні [county.GetNameNoTier] — цей заклад прикрашає [ROOT.Char.Custom2('LoverSeductionObjectIndefinite', SCOPE.sC('lover'))]."
@@ -188,7 +155,6 @@
   lover.1005.a.tt: "#F Мою відсутність можуть помітити#!"
   lover.1005.b: "Візьмімо від цієї ночі все."
   lover.1005.c: "Хм, ця таверна, та й усе село… не завадило б тут усе покращити…"
-
   lover.1006.opening: "[lover.Custom2('AppropriateGreeting', ROOT.Char)]"
   lover.1006.desc_opening: "Я прошу, допоможи мені своїм талантом!"
   lover.1006.desc_chancellor: "Твої досягнення на дипломатичній ниві широко відомі..."
@@ -199,71 +165,56 @@
   lover.1006.desc_end: "і я думаю, ти станеш чудовим кандидатом на місце у моїй раді."
   lover.1006.a: "Звичайно, я допоможу тобі, [lover.GetFirstNameNoTooltip]!"
   lover.1006.b: "Я не маю часу засідати в раді."
-
   lover.1007.t: "Васал та [ROOT.Char.GetHerHis] сюзерен"
   lover.1007.desc: "[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom('LoverPetName')], ти заслуговуєш на самих зірок, — [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover.GetTitledFirstName] проводить рукою по моїй спині. Ми лежимо, притулившись один до одного в [lover.GetHerHis] ліжку. — На жаль, я можу дати тобі лише земні блага... Завтра насамперед я внесу поправки до умов твого васалітету»."
   lover.1007.a: "Ти занадто [Select_CString(lover.IsFemale, 'добра', 'добрий' )] до мене, [lover.GetFirstNameNoTooltip]!"
   lover.1007.b: "Лише #EMP невеликі! зміни, мій скарбе?"
   lover.1007.b_1: "Тепер мій договір ще кращий"
   lover.1007.b_2: "[lover.GetFirstNameNoTooltip] не в захваті від моєї жадібності"
-
   lover.1008.t: "[lover.GetTitleTierName] прибуває"
   lover.1008.desc: "[Select_CString(lover.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover.GetTitledFirstName] прибуває у володіння [capital.GetNameNoTier], і я поспішаю привітати [lover.GetHerHis], але бачу, що [lover.GetSheHe] вже [Select_CString(lover.IsFemale, 'оточена', 'оточений' )] сановниками та службовцями, які шумно запитують [SCOPE.sC('lover').GetHerHis] думку та просять про допомогу."
   lover.1008.a: "Розійдіться! [Select_CString(lover.IsFemale, 'Вона', 'Він' )] тут, щоб побачити мене!"
   lover.1008.b: "[Select_CString(lover.IsFemale, 'Її', 'Його' )] думка з цих питань буде дуже доречною..."
-
   lover.2001.t: "Під гнітом таємниці"
   lover.2001.desc: "Я дуже довго намагаюся вирахувати, хто б міг дізнатися про те, в якого роду стосунках я й [lover.GetTitledFirstName].\n\nМоє серце б'ється частіше, коли безневинні зауваження наповнюються змістом. Я намагаюся переконати себе, що все це мені лише здається."
   lover.2001.a: "Ніхто не знає. Точно говорю."
-
   lover.2002.t: "Тягар кохання"
   lover.2002.desc: "Я палаю від пристрасті до н[lover.GetHerHim], але [lover.GetTitledFirstName] вимагає стільки уваги та турботи, а це нелегко в такі часи!\n[Select_CString(lover.IsFemale, 'Вона', 'Він' )] знає, що я [ROOT.Char.Custom('my_title')], що в мене маса зобов'язань і справ і я, зрозуміло, не можу провести весь день з [Select_CString(lover.IsFemale, 'нею', 'ним' )]!"
   lover.2002.secret: "\n\nНавіть зберегти наш роман у таємниці виявилося непросто!"
   lover.2002.a: "Ні, [ROOT.GetCharacter.Custom('LoverPetName')], справа не в тому, що мені все одно!"
-
   lover.2003.t: "«Тягар» кохання"
   lover.2003.desc: "[Select_CString(lover.IsFemale, 'Вона', 'Він' )] звинувачує у всьому свої зобов'язання та справи — [first_lover.GetSheHe] же [first_lover.Custom('my_title')]! — але здається, що [first_lover.GetTitledFirstName] вже не дивиться на мене, як раніше.\n\nНевже я так багато прошу? Я просто хочу, щоб [Select_CString(lover.IsFemale, 'та', 'той' )], хто говорить, що кохає мене, [Select_CString(lover.IsFemale, 'знайшла', 'знайшов' )] мені трішки часу."
   lover.2003.a: "Я заслуговую на краще."
-
   lover.2004.t: "Порушена обіцянка"
   lover.2004.desc: "[Select_CString(lover.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover.GetTitledFirstName] наполягає, що шлюб, у якому перебувають [lover.GetSheHe] і [lovers_lover.GetTitledFirstName], суто політична необхідність, але посмішки, які від н[lover.GetHerHis] отримує [lover.GetHerHis] [lover.Custom2('RelationToMe',SCOPE.sC('lovers_lover'))], змушують мене замислитися..."
   lover.2004.a: "Я цього не потерплю — ми обіцяли, що ніколи не полюбимо нікого іншого!"
   lover.2004.a.tt: "Ви та [lover.GetShortUIName] поговоріть прямо"
   lover.2004.b: "Я вірю [lover.GetHerHim]."
   lover.2004.b.tt: "#F Моя любов не стане брехати мені!#!"
-
   lover.2005.desc: "«О [ROOT.Char.Custom('LoverPetName')], погляди, якими обмінюєтеся ти і [lovers_lover.GetTitledFirstName], це ж лише непорозуміння?»\n\n[Select_CString(original_lover.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('original_lover'))] [original_lover.GetTitledFirstName] турбується про клятву: після мого весілля ми поклялися зберігати вірність один одному…"
   lover.2005.a: "Не хвилюйся, любов моя, у мене немає нікого, крім тебе!"
   lover.2005.b: "У моєму шлюбі ти нічого не вирішуєш."
-
   lover.3103.desc_married: "Хоча [lover.GetFirstName] та [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('lovers_lover'))] [lovers_lover.GetTitledFirstName] і перебувають у шлюбі, [lover.GetSheHe] запевняє, що любить лише мене.\n\n«[lover.Custom('LoverPetName')|U], тобі нема про що турбуватися. Моє серце належить тобі, я ніколи не зможу полюбити когось ще»."
   lover.3103.a: "Зрештою [SCOPE.sC('lover').GetSheHe] [Select_CString(lover.IsFemale, 'віддала перевагу', 'віддав перевагу' )] мені, а решта байдуже."
-
   lover.3104.desc_married: "«Я не можу залишити [SCOPE.sC('lovers_lover').GetHerHis] — [lovers_lover.GetSheHe] [Select_CString(lovers_lover.IsFemale, 'моя', 'мій' )] [lovers_lover.Custom('WifeHusband')]! І навіть будь у мене можливість… Я дорожу [Select_CString(lovers_lover.IsFemale, 'нею', 'ним' )] не менше, ніж тобою, [lover.Custom('LoverPetName')]»."
   lover.3104.desc_ending: "\n\nСлова, які каже мені [SCOPE.sC('lover').GetTitledFirstName], ранять більше, ніж саме неприємне відкриття. Подумати тільки, [SCOPE.sC('lover').GetSheHe] мене відкидає!"
   lover.3104.a: "Принаймні [lovers_lover.GetSheHe] все ще мене хоче..."
   lover.3104.a.tt: "#F У числі інших ... #!"
   lover.3104.b: "Тоді я покінчу з цим!"
-
   lover.3105.t: "Ліжко, як [ROOT.Char.GetTitleTierName]"
-  lover.3105.desc: "«Мені й на думку не спадало, що ти можеш ось так зрадити мене, [ROOT.Char.GetFirstNameNoTooltip]…Мені не варто було дозволяти, щоб [ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('lover'))] на кшталт тебе [Select_CString(ROOT.char.IsFemale, 'виявилася', 'виявився' )] в моєму ложі».\n\Невже [Select_CString(discoverer.IsFemale, 'моя', 'мій' )] [discoverer.Custom('LoverPetName')], [Select_CString(discoverer.IsFemale, 'моя', 'мій' )] [discoverer.GetFirstName], кине мене через таку дрібницю?!"
+  lover.3105.desc: "«Мені й на думку не спадало, що ти можеш ось так зрадити мене, [ROOT.Char.GetFirstNameNoTooltip]…Мені не варто було дозволяти, щоб [ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('lover'))] на кшталт тебе [Select_CString(ROOT.char.IsFemale, 'виявилася', 'виявився' )] в моєму ложі».\n\\Невже [Select_CString(discoverer.IsFemale, 'моя', 'мій' )] [discoverer.Custom('LoverPetName')], [Select_CString(discoverer.IsFemale, 'моя', 'мій' )] [discoverer.GetFirstName], кине мене через таку дрібницю?!"
   lover.3105.a: "Принаймні, я маю [lovers_lover.GetFirstNameNoTooltip]!"
-
-
   lover.3201.t: "Ідеальний Подарунок"
   lover.3201.desc: "Переді мною [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('lover'))] відмінної якості: уявляю, як зрадіє такому подарунку [SCOPE.sC('lover').GetTitledFirstName].\n\n«Відмінна річ. Вам так не здається, [ROOT.Char.GetLadyLord]? — Старий торговець підморгує. - Відмінний подарунок для коханої людини»."
   lover.3201.a: "Так і є. Заверни як слід."
   lover.3201.b: "Так і є. Дай десять штук!"
   lover.3201.c: "Цей мотлох? Не сміши мене."
   lover.3201.c.tt: "#F Напевно я знайду інший спосіб показати [lover.GetHerHim], як сильно я люблю [SCOPE.sC('lover').GetHerHis]!#!"
-
-
   lover.3202.desc_exquisite_gift: "На моєму ліжку [ROOT.Char.Custom2('LoverSeductionObjectMultiple', SCOPE.sC('original_lover'))] — десять штук. Цю загадку я можу розгадати лише серцем."
   lover.3202.desc_ordinary_gift: "На моїй подушці лежить [ROOT.Char.Custom2('LoverSeductionObjectIndefinite', SCOPE.sC('original_lover'))]. Цю загадку я можу розгадати лише серцем."
   lover.3202.desc_ending: "\n\nО [original_lover.GetTitledFirstName], [original_lover.Custom('LoverPetName')] [Select_CString(original_lover.IsFemale, 'моя', 'мій' )], хіба можна мріяти про когось краще?"
   lover.3202.a: "Потрібно не забути подякувати [SCOPE.sC('original_lover').GetHerHis] за цей подарунок!"
   lover.3202.a.tt: "#F І моя #EMP подяка#! точно буде [SCOPE.sC('original_lover').GetHerHim] до смаку #!"
-
   lover.3203.t: "Моє кохання"
   lover.3203.desc: "Після насиченого дня належить непогано перекидатися. І як мені пощастило, що й [Select_CString(lover.IsFemale, 'моя', 'мій' )] [lover.Custom('ComplimentAdjective')][Select_CString(lover.IsFemale, 'а', 'ий' )] [lover.GetTitledFirstName], і [Select_CString(spouse.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('spouse'))] [spouse.GetTitledFirstName] відчинили мені двері своїх спалень!"
   lover.3203.a_not_beloved: "[Select_CString(spouse.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('spouse'))] — єдиний правильний вибір."
@@ -273,24 +224,20 @@
   lover.3203.b.failure: "Мене розкрили"
   lover.3203.b.tt_safe: "[spouse.GetFirstNameNoTooltip] не знає"
   lover.3203.c: "Я сильніший за ці бажання!"
-
   lover.3204.t: "Бажання здалеку"
   lover.3204.desc: "З кожним днем я все сильніше відчуваю, як далеко від мене [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover.GetTitledFirstName]. От би частіше бачити [lover.GetHerHis] [lover.Custom('quirk_pos_adjective')]у усмішку, відчувати тепло [lover.GetHerHis] тіла, відчувати цю насолоду...\n\n Бажання в мені не вщухає, і відстань між нами вбиває мене."
   lover.3204.a: "Все буде так, як захоче [ROOT.Char.GetFaith.HighGodName]."
   lover.3204.a.tt: "#F Я нічого не робитиму, нехай буде, що буде#!"
   lover.3204.b: "Чого хорошого в нашій розлуці?"
-
   lover.3205.opening: "[original_lover.Custom2('AppropriateGreeting', ROOT.Char)]"
   lover.3205.desc: "[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom('LoverPetName')], [ROOT.Char.Custom('ComplimentAdjective')][Select_CString(ROOT.char.IsFemale, 'а', 'ий' )] [ROOT.Char.GetTitledFirstName]!\n\nБоюся, що відстань, що розділяє нас, виявилася сильнішою за мене. Вибач, любов моя, і знай, що я жадаю твоєї любові та тепла, нехай навіть мені й доводиться розірвати наші стосунки."
   lover.3205.a: "Значить, ось усе й закінчилося..."
   lover.3205.a.tt: "#F [original_lover.GetSheHe|U] розбиває мені серце #EMP простим листом#!?!#!"
-
   lover.3206.t: "По той бік битви"
   lover.3206.desc: "О [lover.GetTitledFirstName], любов моя, невже нам вдалося пережити цю війну?\n\nТе, що [Select_CString(attacker.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('attacker'))] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('attacker'))] [attacker.GetTitledFirstName] [Select_CString(attacker.IsFemale, 'призвала', 'призвал' )] мене на війну, це одне, але змусити мене підняти зброю проти коханої людини..."
   lover.3206.a: "У коханні та на війні всі засоби хороші — нічого не можу з цим вдіяти."
   lover.3206.b: "Я спробую стримати [Select_CString(attacker.IsFemale, 'її', 'його' )]!"
   lover.3206.b.tt: "#F Все що завгодно, аби [lover.GetFirstNameNoTooltip] не [Select_CString(lover.IsFemale, 'постраждала', 'постраждав' )]!#!"
-
   lover.3207.t: "Любов на відстані"
   lover.3207.desc: "Нехай навіть я і [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover.GetTitledFirstName] далеко один від одного, наші серця є єдиними. Якщо я нагадаю [lover.GetHerHim] про свої почуття, це, сподіваюся, викличе у н[lover.GetHerHis] [lover.Custom('quirk_pos_adjective')]у посмішку, що так мені завжди подобалася..."
   lover.3207.a: "Я напишу поему про мої почуття до н[lover.GetHerHim]!"
@@ -298,7 +245,6 @@
   lover.3207.a.tt: "Якщо [lover.GetFirstNameNoTooltip] оцінить поему:"
   lover.3207.c: "[Select_CString(lover.IsFemale, 'Вона', 'Він')] вже знає, що значить для мене!"
   lover.3207.c.tt: "#F Звісно, [lover.GetSheHe] знає!..#!"
-
   lover.3208.opening: "[writing_lover.Custom2('AppropriateGreeting', ROOT.Char)]"
   lover.3208.desc_object: "Цей подарунок, [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('writing_lover'))], служить лише нагадуванням про моє бажання і мою вірність\n"
   lover.3208.a: "Це так мило!"
@@ -307,14 +253,11 @@
   lover.3208.a_great: "#F А у н[SCOPE.sC('writing_lover').GetHerHis] промовисті вірші!#!"
   lover.3208.a_amazing: "#F Читаю поему і відчуваю, як знову закохаюся в н[SCOPE.sC('writing_lover').GetHerHis]!#!"
   lover.3208.b: "Це найдурніша річ, що мені доводилось читати!"
-
   lover.3209.opening: "[lover.Custom2('AppropriateGreeting', ROOT.Char)]"
   lover.3209.desc: "Надіслана тобою поема зробила мій день яскравішим і ще сильніше розпалила в мені пристрасть. Я знаю, що ти думаєш про мене, і одне тільки це знання робить моє життя стерпним."
   lover.3209.a: "О [lover.GetFirstNameNoTooltip], мені так тебе бракує!"
-
   lover.3210.desc: "Будь ласка, не треба мені більше слати цю нісенітницю. Я все ще люблю тебе, незважаючи на відстань, що розділяє нас, і мені хотілося б зберегти ці почуття."
   lover.3210.a: "Можливо, поезія— це не моє..."
-
   lover.3211.t: "Зобразити кохання"
   lover.3211.desc: "[capital.GetNameNoTier] вітає талановитого живописця. Варто мені побачити ці чудові картини, як у моїх думках відразу [Select_CString(lover.IsFemale, 'виринула моя', 'виринув мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover.GetTitledFirstName].\n\nКартина стане чудовим подарунком, треба лише правильно підібрати тему..."
   lover.3211.a: "Темна алея перед світанком - дуже символічно!"
@@ -329,7 +272,6 @@
   lover.3211.e.tt: "#F Чим же ще вшанувати наше кохання, як не зображенням одного з перших записаних обговорень цього питання?#!"
   lover.3211.f: "У мене немає часу на такі надмірності."
   lover.3211.appreciate: "Якщо [lover.GetFirstNameNoTooltip] оцінить мій жест:"
-
   lover.3212.desc_opening: "О [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom('LoverPetName')] [ROOT.Char.GetFirstNameNoTooltip], прийми цей дар!\n\n"
   lover.3212.desc_lifestyle_schemer: "Картина зображує темну алею у володінні [capital.GetNameNoTier] у досвітній час, але я залишу символізм і натяки прихованими у темряві, щоб у тебе була можливість самостійно зрозуміти їх."
   lover.3212.desc_lifestyle_scholar: "Картина зображує Авраама і Сару, які стоять поруч, як і ми, і готові разом зустріти майбутнє. Сподіваюся, ти оціниш символічне значення цієї картини."
@@ -339,7 +281,6 @@
   lover.3212.a.perfect: "#F Мені ще не траплялося бачити картину, яка викликала б у мені такі почуття!#!"
   lover.3212.a: "Вона неперевершена!"
   lover.3212.b: "Картина жахлива, позбавтесь її!"
-
   lover.3213.desc_perfect: "Мені ще не доводилося бачити подібного взірця краси. Твоя картина торкнулася глибини моєї душі,"
   lover.3213.desc: "Я ціную надіслану тобою картину. Задум та талант її виконавця очевидні,"
   lover.3213.desc_lifestyle_schemer: "а тонкі деталі та символізм, заховані в темних кутах алеї, справді приховують глибинний сенс!"
@@ -348,10 +289,8 @@
   lover.3213.desc_lifestyle_administrator: "а галасливий ринок, повний людей та можливостей, здається таким живим!"
   lover.3213.desc_lifestyle_diplomat: "а подібне зображення знаменитого діалогу справді надихає!"
   lover.3213.a: "Добре, що [lover.GetSheHe] [Select_CString(lover.IsFemale, 'оцінила', 'оцінив' )] подарунок!"
-
   lover.3214.desc: "Я ціную сам жест, але надіслана тобою картина — один із найгірших зразків мистецтва, що мені доводилося бачити. Це якийсь жарт?"
   lover.3214.a: "А-ха-ха... ага. Жарт."
-
   lover.3215.t: "Заспівай свою хвалу"
   lover.3215.desc: "Оскільки я і [Select_CString(lover.IsFemale, 'моя кохана', 'мій коханий' )] [SCOPE.sC('lover').GetTitledFirstName] не можемо бути разом, я боюся, що [lover.GetSheHe] забуде, наскільки сильні мої почуття до н[lover.GetHerHim].\n\nЯкщо [lover.Custom('MusicalPerformer')] вирушить представляти мене у справі куртуазного кохання, зачаровуючи [SCOPE.sC('lover').GetHerHis] поемами, піснями та солодкими промовами на мою честь, то це точно нагадає [lover.GetHerHim] про мої почуття!"
   lover.3215.a: "Я негайно відправлю найкращого з найкращих!"
@@ -359,19 +298,15 @@
   lover.3215.b: "Та з цим кожен упорається, хіба ні?"
   lover.3215.c: "Я не покладатимуся на якогось менестреля у питаннях залицяння."
   lover.3215.c.tt: "#F Напевно мені видадуться інші, більш особисті можливості#!"
-
   lover.3216.desc: "[lover.Custom('MusicalPerformer')] прибуває до двору, офіційно, щоб розважати і радувати публіку, але незабаром він підходить до мене, щоб розкрити справжню мету свого візиту."
   lover.3216.desc_fancy_troubadour: "[lover.Custom('MusicalPerformer')] прибуває до двору, щоб представити нам свій божественний голос і поезію, що струмує подібно до річки. Незабаром він підходить до мене, щоб розкрити справжню мету свого візиту."
   lover.3216.desc_ending: "\n\n«Мене [Select_CString(original_lover.IsFemale, 'послала', 'послав' )] [original_lover.GetTitledFirstName], щоб передати вам [original_lover.GetHerHis] любов і розважати вас, [ROOT.Char.GetLadyLord]»."
   lover.3216.a: "Чарівно!"
   lover.3216.b: "Навіщо [SCOPE.sC('original_lover').GetHerHim] посилати когось іншого, щоб залицятися до мене замість себе?!"
-
   lover.3217.desc: "Надісланий тобою [lover.Custom('MusicalPerformer')] просто чарівний! Співає як птах і сплітає поезію так, ніби народився з прядкою в руці. Щодня він нагадує мені про твоє кохання, і моє життя стає яскравішим!"
   lover.3217.a: "Добре!"
-
   lover.3218.desc: "Ти насміхаєшся з мене, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom('LoverPetName')]? Надісланий тобою [lover.Custom('MusicalPerformer')] насилу потрапляє в ноти, і мені доводилося чути дитячі пісеньки, в яких було більше сенсу, ніж у його віршиках."
   lover.3218.a: "Так, #EMP не коштувало#! посилати вуличного менестреля!"
-
   lover.3219.t: "Особистий подарунок"
   lover.3219.desc: "[Select_CString(lover.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover.GetTitledFirstName] живе так далеко від моїх обіймів... Якби у н[SCOPE.sC('lover').GetHerHis] було щось на згадку про мене, мені було б набагато легше."
   lover.3219.a: "[Select_CString(lover.IsFemale, 'Вона', 'Він' )] отримає пасмо мого волосся."
@@ -382,7 +317,6 @@
   lover.3219.c.tt: "#F Я знаю, [lover.GetSheHe] буває дуже [Select_CString(lover.IsFemale, 'романтичною', 'романтичним' )].#!"
   lover.3219.d: "Я не маю часу на такі безглузді подарунки."
   lover.3219.d.tt: "#F У мене буде можливість краще показати [lover.GetHerHim], як сильно я сумую! #!"
-
   lover.3220.desc_opening: "Кожен день без тебе порожній, кожну мить без твоїх обіймів — мука для мене."
   lover.3220.desc_hair: "Щоб нагадати тобі про моє кохання за моєї відсутності, посилаю тобі особистий дар: пасмо мого волосся."
   lover.3220.desc_smallclothes: "Щоб нагадати тобі про моє кохання за моєї відсутності, посилаю тобі особистий дар: дещо з моєї білизни."
@@ -390,35 +324,29 @@
   lover.3220.a: "Чарівний подарунок!"
   lover.3220.b: "І що мені робити з цим?"
   lover.3220.b.tt_smallclothes: "#F Фу. Просто фу.#!"
-
   lover.3221.desc_opening: "Надісланий тобою подарунок швидко сподобався мені."
   lover.3221.desc_hair: "Мені буде легше переносити важкість розлуки тепер, коли частинка тебе поряд зі мною."
   lover.3221.desc_smallclothes: "Мені буде легше переносити важкість розлуки тепер, коли щось особисте нагадує мені про те, що нас об'єднує."
   lover.3221.desc_object: "Мені буде легше переносити важкість розлуки тепер, коли поряд є нагадування про наше спільне минуле."
   lover.3221.a: "Добре, що [SCOPE.sC('lover').GetHerHim] сподобався подарунок!"
-
   lover.3222.desc_opening: "Надісланий тобою подарунок і справді був дуже... особистим."
   lover.3222.desc_hair: "Не можу не запитати: що мені робити з цим волоссям? Це частина якогось магічного обряду?"
   lover.3222.desc_smallclothes: "Не можу не спитати: що змусило тебе надіслати мені таку вульгарну частину одягу?"
   lover.3222.desc_object: "Не можу не спитати: навіщо приділяти стільки уваги нашому минулому? Чому б не поглянути у майбутнє?"
   lover.3222.a: "Повірити не можу, що [lover.GetSheHe] не [Select_CString(lover.IsFemale, 'оцінила', 'оцінив' )] подарунок!"
-
   lover.7001.t: "[Select_CString(potential_lover.IsFemale, 'Моя', 'Мій' )] [SCOPE.sC('potential_lover').Custom2('ComplimentAdjective', ROOT.Char)][Select_CString(potential_lover.IsFemale, 'а подруга', 'ий друг' )]"
   lover.7001.desc: "Я і [SCOPE.sCharacter('potential_lover').GetTitledFirstName] розмовляємо, сидячи поряд, зараз нас особливо цікавить [potential_lover.Custom('herhis_subject_of_interest')]. Я бачу, як [SCOPE.sC('potential_lover').GetSheHe] [potential_lover.Custom('quirk_pos_adverb')] посміхається... Наші погляди перетинаються, я відчуваю, як моє серце починає битися частіше, і, судячи з рум'янцю на [potential_lover.GetHerHis] щоках, не тільки я відчуваю раптову незручність."
   lover.7001.a: "Я зроблю так, щоб ця мить тривала якнайдовше!"
   lover.7001.a.tt: "#F Можливо, ми могли б стати не просто друзями?#!"
   lover.7001.b: "Отже, про що ми говорили..."
   lover.7001.b.tt: "#F Я не хочу [potential_lover.GetSheHe] [Select_CString(potential_love.IsFemale, 'думала', 'думав' )], ніби ми можемо стати чимось більше, ніж просто друзями.#!"
-
   lover.7002.t: "[Select_CString(proposing_friend.IsFemale, 'Моя', 'Мій' )] [SCOPE.sC('proposing_friend').Custom2('ComplimentAdjective', ROOT.Char)][Select_CString(proposing_friend.IsFemale, 'а подруга', 'ий друг' )]"
   lover.7002.desc: "Я і [SCOPE.sCharacter('proposing_friend').GetTitledFirstName] розмовляємо, сидячи поряд: нас займає [ROOT.Char.Custom('subject_of_interest')]. Я посміхаюся та відчуваю на собі [proposing_friend.GetHerHis] погляд... Повітря буквально напоєне незручністю, і, судячи з рум'янцю на [SCOPE.sC('potential_lover').GetHerHis] щоках, не тільки я відчуваю це."
-
   lover.7003.t: "[Select_CString(potential_lover.IsFemale, 'Моя', 'Мій' )] [SCOPE.sC('potential_lover').Custom('InsultAdjective')] [Select_CString(potential_lover.IsFemale, 'суперниця', 'суперник' )]"
   lover.7003.desc: "[potential_lover.GetTitledFirstName] видає чергову тираду, загальний зміст якої зводиться до того, що [potential_lover.Custom('herhis_subject_of_interest')] —чудова штука. Мої думки витають десь далеко, але я не можу не помітити, що [potential_lover.GetSheHe], взагалі-то, досить [potential_lover.Custom2('ComplimentAdjective', ROOT.Char)][Select_CString(potential_lover.IsFemale, 'а', 'ий' )] [potential_lover.GetWomanMan].\n\nМи вже звикли до подібного, але раптом, коли наші погляди зустрічаються, я відчуваю, як у моєму серці тремтить щось інше, ніж ненависть...."
   lover.7003.a: "Що за чари на мене [Select_CString(potential_lover.IsFemale, 'наклала ця', 'наклав цей' )] [potential_lover.Custom('InsultNoun')]?!"
   lover.7003.a.tt: "#F Мені потрібно добре обдумати це дивне почуття...#!"
   lover.7003.b: "Напевно, це огида."
-
   lover.7004.t: "[Select_CString(proposing_rival.IsFemale, 'Моя', 'Мій' )] [SCOPE.sC('proposing_rival').Custom('InsultAdjective')] [Select_CString(proposing_rival.IsFemale, 'суперниця', 'суперник')"
   lover.7004.desc_opening: "Серед захоплюючої дискусії, предметом якої є [ROOT.Char.Custom('subject_of_interest')], я бачу, як хмуриться [proposing_rival.GetTitledFirstName] на іншому кінці кімнати.\n\n"
   lover.7004.desc_potential_lover_is_go: "Наші погляди зустрічаються, і, на мій подив, [proposing_rival.GetSheHe] [proposing_rival.Custom('quirk_pos_adverb')] посміхається. Як мені раніше вдавалося не помічати, що [proposing_rival.GetSheHe] [Select_CString(proposing_rival.IsFemale, 'така', 'такий' )] [proposing_rival.Custom2('ComplimentAdjective', ROOT.Char)][Select_CString(proposing_rival.IsFemale, 'а', 'ий' )] [proposing_rival.GetWomanMan]?"
@@ -426,21 +354,18 @@
   lover.7004.a: "Я усміхаюся у відповідь...?"
   lover.7004.a.tt: "#F Що це за раптовий спалах у моєму серці?#!"
   lover.7004.b: "Ох, дай мені спокій, [proposing_rival.GetFirstNameNoTooltip]."
-
   lover.7005.t: "[Select_CString(potential_lover.IsFemale, 'Моя кохана', 'Мій коханий' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sCharacter('potential_lover') )]"
   lover.7005.desc: "Від мене не сховалося, що [Select_CString(potential_lover.IsFemale, 'моя', 'мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sCharacter('potential_lover') )] [potential_lover.GetTitledFirstName] — дуже [Select_CString(potential_lover.IsFemale, 'приваблива', 'привабливий' )] [potential_lover.GetWomanMan]. Моє серце починає тремтіти, коли [potential_lover.GetSheHe] посміхається і [potential_lover.Custom('quirk_pos_present')]..."
   lover.7005.a: "Це нормально, коли об'єктом таких почуттів є [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('potential_lover') )]?"
   lover.7005.a.tt: "#F Що б це не було, я хочу ще!#!"
   lover.7005.b: "[Select_CString(potential_lover.IsFemale, 'Вона моя', 'Він мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sCharacter('potential_lover') )]. Візьми себе в руки, [ROOT.Char.GetFirstNameNoTooltip]!"
-
   lover.7006.t: "[Select_CString(proposing_family.IsFemale, 'Моя кохана', 'Мій коханий' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sCharacter('proposing_family') )]"
   lover.7006.desc: "[Select_CString(proposing_family.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sCharacter('proposing_family') )] [proposing_family.GetTitledFirstName] — дуже [proposing_family.Custom2('ComplimentAdjective', ROOT.Char)][Select_CString(proposing_family.IsFemale, 'а', 'ий' )] [proposing_family.GetWomanMan], це мені давно було відомо. Але останнім часом [proposing_family.GetSheHe] [Select_CString(proposing_family.IsFemale, 'почала', 'почав' )] витати в хмарах у моїй присутності, посміхатися миліше, ніж завжди, і дивиться на мене, коли думає, що я цього не помічаю..."
   lover.7006.a: "Так, мене [SCOPE.sC('proposing_family').GetSheHe] теж цікавить!"
   lover.7006.a.tt: "#F Але ж нічого не вийде... Подумайте, який скандал вибухне!#!"
   lover.7006.b: "Напевно, це просто кохання, яке [Select_CString(proposing_family.IsFemale, 'повинна', 'повинен' )] відчувати [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('proposing_family') )]."
-
   lover.8102.t: "$pilgrimage_header$ Consequences"
-  lover.8102.desc: "Excuse me," A familiar-looking peasant appears before me. As I rack my brain for where I might've met [brothel_worker.GetHerHim] before, [brothel_worker.GetSheHe] answers as if reading my mind.\n\n""We met at a brothel in [brothel_location.GetName]. You paid for my services." A shade of pink spreads across [brothel_worker.GetHerHis] cheeks.\n""For us to be reunited... It has to be fate that"
+  lover.8102.desc: "Excuse me,\" A familiar-looking peasant appears before me. As I rack my brain for where I might've met [brothel_worker.GetHerHim] before, [brothel_worker.GetSheHe] answers as if reading my mind.\n\n\"\"We met at a brothel in [brothel_location.GetName]. You paid for my services.\" A shade of pink spreads across [brothel_worker.GetHerHis] cheeks.\n\"\"For us to be reunited... It has to be fate that"
   lover.8102.desc.puppy_love: "I fell in love with you. Everything felt so right in your arms... Is there any room in your heart for someone like me?"
   lover.8102.desc.they_pregnant: "I'm pregnant with your child. The tea must've not contained the proper herbs. I don't want to raise the child alone."
   lover.8102.desc.you_pregnant: "you might be pregnant. The tea didn't contain the proper herbs and potency. I don't want you to raise the child alone."

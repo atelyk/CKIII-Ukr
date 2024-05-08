@@ -28,7 +28,6 @@
   fervor.1002.desc.arbitrary: "нехтує важливими справами, які [SCOPE.sC('sinful_theocrat').GetHerHim] не подобаються, вибираючи лише приємні."
   fervor.1002.desc.just: "незламно дотримується найсуворіших правил честі, від яких не відступає за жодних обставин!"
   fervor.1002.desc.cynical: "насправді не вірить у догмати власного вчення, використовуючи їх як зручний політичний інструмент."
-  fervor.1002.desc.zealous0: вірить у надприродне та світ духів, і переконання його не руйнує навіть відсутність раціональних доказів."""
   fervor.1002.desc.zealous: "was discovered to have an unshakable belief in the supernatural and spiritual worlds, despite lacking any rational evidence for such things."
   fervor.1002.desc.paranoid: "зневажає оточуючих неймовірною підозрілістю та недовірою, постійно вишукуючи змови проти власної персони!"
   fervor.1002.desc.trusting: "відрізняється дивовижною наївністю та довірливістю і не помічає навіть саму грубу брехню, яку згодовують [sinful_theocrat.GetHerHim] [sinful_theocrat.GetHerHis] помічники."
@@ -45,7 +44,6 @@
   fervor.1002.b: "Засудити [sinful_theocrat.GetHerHis] за гріхи!"
   fervor.1002.c: "Прилюдно захистити [sinful_theocrat.GetHerHis] — нехай навіть із ризиком для себе!"
   fervor.1002.d: "Може, краще промовчати..."
-
   #Exaltation Event Localization
   fervor.2002.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]ий захват"
   fervor.2002.desc.lustful: "[virtuous_theocrat.Custom('GetCouncilOrTitleName')] [virtuous_theocrat.GetFirstName] воістину надихає оточуючих: багато [virtuous_theocrat.GetWomenMen] дивляться на [Select_CString(virtuous_theocrat.IsFemale, 'неї', 'нього' )] як на об'єкт для наслідування, а молоді [virtuous_theocrat.GetFaith.GetAdherentNamePlural] [virtuous_theocrat.GetHerHis] просто бажають. \n\nІсторії про [virtuous_theocrat.GetHerHis] любовні пригоди розходяться, подібно до кіл на воді, і багато хто вважає [virtuous_theocrat.GetHerHis] втіленням нескінченного кохання, що посилає на нас [ROOT.Char.GetFaith.HighGodName]."
@@ -82,7 +80,6 @@
   fervor.2002.desc.paranoid: "Коли за кожним кутом ховаються єретики та святотатці, гострий і допитливий розум — найкраща зброя тих, кого веде [ROOT.Char.GetFaith.HighGodName].\n\n[virtuous_theocrat.Custom('GetCouncilOrTitleName')] [virtuous_theocrat.GetFirstName] надихає своїм прикладом незліченну кількість проповідників, обрушуючи на брехню всю міць розуму і ретельно стежачи за непорушністю нашої віри."
   fervor.2002.desc.trusting: "[virtuous_theocrat.Custom('GetCouncilOrTitleName')] [virtuous_theocrat.GetFirstName] в останні роки працює, не покладаючи рук, щоб усі знали: [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]а паства чесна та відкрита.\n\nЛише беззаперечна довіра іншим дозволяє домогтися чесності у відповідь."
   fervor.2002.desc.compassionate: "[virtuous_theocrat.Custom('GetCouncilOrTitleName')] [virtuous_theocrat.GetFirstName] — справжній зразок доброти, яку сповідує [ROOT.Char.GetFaith.HighGodName], і свою паству наставляє м'яко та співчутливо. Багато хто звертається до [Select_CString(virtuous_theocrat.IsFemale, 'неї', 'нього' )]"
-  за напуттям, знаючи, що їх завжди вислухають і нададуть посильну допомогу."
   fervor.2002.desc.callous: "[virtuous_theocrat.Custom('GetCouncilOrTitleName')] [virtuous_theocrat.GetFirstName] не вперше власним прикладом доводить соратникам і послідовникам, наскільки важливо для істинно віруючих повне відхилення від спокуси та болю.\n\nСвітські пристрасті минущі і незначні порівняно з небесною славою."
   fervor.2002.desc.sadistic: "[virtuous_theocrat.Custom('GetCouncilOrTitleName')] [virtuous_theocrat.GetFirstName] користується однаково повагою і страхом своєї пастви. [virtuous_theocrat.GetSheHe|U] жорстока людина, яка карає грішників дні і ночі безперервно, щоб через вищі страждання очистити їхні душі."
   fervor.2002.desc.sadistic.pope: "[virtuous_theocrat.Custom('GetCouncilOrTitleName')] [virtuous_theocrat.GetFirstName] користується рівною мірою повагою та страхом віруючих. [virtuous_theocrat.GetSheHe|U] — жорстока людина і невпинно карає грішників, щоб через вищі страждання очистити їхні душі."

@@ -3,12 +3,10 @@
   city_holding: "Місто"
   church_holding: "Храм"
   tribal_holding: "Плем'я"
-
   city_holding_concept_key: "[city|E]"
   church_holding_concept_key: "[temple|E]"
   castle_holding_concept_key: "[castle|E]"
   tribal_holding_concept_key: "[tribe|E]"
-
   GARRISON_TOOLTIP: "#T [garrison|E]: $VALUE|V$#!"
   BUILDING_VALUE: "$BUILDING|V$"
   BUILDING_VALUE_ENTRY: "$BUILDING|V$"
@@ -25,7 +23,6 @@
   DOMAIN_LIMIT_GRACE_PERIOD_EXPIRES: "(до [DATE.GetString|V])"
   DOMAIN_LIMIT_GRACE_PERIOD_EXPIRES_UNKNOWN: "(дата закінчення невідома)"
   VASSAL_LIMIT_OVERRUN_PENALTY: "@warning_icon!#X Перевищено [vassal_limit|El]#!"
-
   GOVERNMENT_WRONG_HOLDING_TYPE: "@warning_icon!#X Тип володінь не підходить для персонажа [CHARACTER.GetShortUIName], податки та ополчення надходити не будуть#!"
   SUPPLY_LIMIT_TOOLTIP: "#T [supply_limit|E]: $VALUE|V$#!"
   BASE_SUPPLY: "Базове постачання"
@@ -37,11 +34,7 @@
   COUNTY_HOLDING_MODIFIER_INCOME: "Дохід від володінь «$TYPE|V$» на території [counties|El]"
   COUNTY_DEVELOPMENT_TAX_MOD: "[county_development|E]: $VALUE|=+%0$"
   COUNTY_DEVELOPMENT_LEVY_MOD: "[county_development|E]: $VALUE|=+%0$"
-  IGNORED_DEVELOPMENT: "#weak $VALUE$#!"
-  COUNTY_DEVELOPMENT0: $VALUE$"""
-  COUNTY_DEVELOPMENT: "$VALUE$"
   SUPPLY_MINIMUM: "Мінімальне постачання"
-
   HOLDING_TT_CONSTRUCTING: "[BUILDING.GetName|V] — будівництво завершиться [DATE.GetString]"
   HOLDING_TT_CONSTRUCTING_HOLDING: "Constructing $BUILDING|V$ (finishing [DATE.GetString])"
   HOLDING_TT_UNDER_SIEGE: "Триває [siege|El]. Нападник — [CHARACTER.GetPrimaryTitle.GetName]"
@@ -51,7 +44,7 @@
   HOLDING_TT_GARRISON_BASE: "Base"
   HOLDING_TT_GARRISON_REINFORCEMENT: "#T [garrison_reinforcement|E]#!"
   HOLDING_TT_GARRISON_UNDER_SIEGE: "#N [siege|E]#!"
-  HOLDING_TT_GARRISON_UNDER_SIEGE_DESC: "@warning_icon!#X The [holding|E] is under [siege|E]#!"
+  HOLDING_TT_GARRISON_UNDER_SIEGE_DESC: "@warning_icon! #X The [holding|E] is under [siege|E]#!"
   HOLDING_TT_TAX: "[tax|E]: @gold_icon! [HOLDING.GetIncome|1V]"
   HOLDING_TT_LEVIES: "[levies|E]: @soldier_icon! [HOLDING.GetMaxLevySize|0]"
   HOLDING_TT_TITLE: "[title|E]: [Holding.GetProvince.GetTitle.GetName]"

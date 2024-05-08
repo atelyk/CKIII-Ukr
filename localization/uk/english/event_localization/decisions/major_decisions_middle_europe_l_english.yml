@@ -1,14 +1,12 @@
 ﻿l_english:
-
-# Forming the Swiss Confederation, by Flavio Verna
+  #Forming the Swiss Confederation, by Flavio Verna
   middle_europe_decisions.0001.t: "Швейцарська конфедерація"
   middle_europe_decisions.0001.desc: "Тривалий час містам навколо центральних Альп загрожували інші сили Імперії. Тепер, об'єднані під одним прапором, вони сформували взаємовигідні альянси і добилися статусу вільного імперського об'єднання.\n\nЗавдяки значному внеску моєї династії в історію швейцарських міст-держав мене обрали головою цього союзу, представником усіх кантонів нашої нової Швейцарської конференції. Чужинці нам більше не загрожуватимуть, натомість ми станемо сильною незалежною фігурою на шаховій дошці імперії."
   middle_europe_decisions.0001.a: "Ми одне ціле!"
   middle_europe_decisions.0002.desc.emperor: "Після довгих років боротьби та непростих політичних угод мені довелося дарувати швейцарським кантонам статус вільного імперського об'єднання.\n\nЦя співдружність альпійських міст об'єдналася у велику конфедерацію для захисту від нальотів бургундських та німецьких князів. Потрібно наглядати за новим об'єднанням, щоб воно не посіяло інакомислення серед сусідніх з ним бюргерів."
   middle_europe_decisions.0002.desc.vassals: "Нове формування, відоме як Швейцарська Конфедерація, виникло в Імперії. Вона являє собою конгломерат вільних імперських міст у центральних Альпах, що створили оборонний союз для захисту від своїх сусідів-виборщиків.\n\nНезалежна сила, з якою слід рахуватись, вони звільнилися від будь-яких старих домагань на їх землі, як з боку бургундців на заході, так і з боку німецьких князів з півночі.\n\nМені варто придивитись до цієї нової потенційної загрози в Імперії."
   middle_europe_decisions.0002.a: "Як незвично..."
-
-# Forming the Archduchy of Austria, by Flavio Verna
+  #Forming the Archduchy of Austria, by Flavio Verna
   middle_europe_decisions.0003.t: "Ерцгерцогство Австрія"
   middle_europe_decisions.0003.desc: "Завдяки моїм видатним досягненням по об'єднанню земель Австрії та колосальному впливу моєї династії у Священній Римській імперії [scoped_emperor.GetTitledFirstName] нарешті [Select_CString(scoped_emperor.IsFemale, 'визнала', 'визнав') главенство австрійського серед інших історичних німецьких курфюрстів.\n\nЗ цього дня мої наступники носитимуть особливий титул ерцгерцога, щоб виділятися на тлі дрібніших князів та княгинь Імперії."
   middle_europe_decisions.0003.a: "Austria erit in orbe ultima!"
@@ -18,16 +16,14 @@
   middle_europe_decisions.0004.desc.vassals: "Скориставшись впливом династії [scoped_ruler.GetDynastyName] на імперський трон, [scoped_ruler.GetFirstName] [Select_CString(scoped_ruler.IsFemale, 'добилась', 'добився' )] того, що [scoped_emperor.GetTitledFirstName] [Select_CString(scoped_emperor.IsFemale, 'дарувала', 'дарував' )] [scoped_ruler.GetHerHim] особливу честь.\n\nЗ цього дня Австрія вважатиметься ерцгерцогством, першим серед князівств Священної Римської імперії."
   middle_europe_decisions.0004.a: "Цілком заслужено."
   middle_europe_decisions.0004.b: "Як зручно..."
-
-# Reforming the Carolingian Empire, by Flavio Verna
+  #Reforming the Carolingian Empire, by Flavio Verna
   middle_europe_decisions.0005.t: "Мрія Карла Великого"
   middle_europe_decisions.0005.desc: "Європа знову єдина. Усі нащадки франків зібрані під одним прапором і разом стоять проти невірних на заході та язичників на сході.\n\nЗ милості [scoped_ruler.GetFaith.HighGodNamePossessive] моя сім'я отримала привілей носити корону відродженої імперії Каролінгів. І, на відміну від своїх попередників, ми не дозволимо династичним чварам розірвати на частини цю велику державу."
   middle_europe_decisions.0005.a: "Нехай славиться [scoped_ruler.GetFaith.HighGodName]!"
   middle_europe_decisions.0006.desc: "[scoped_ruler.GetTitledFirstName] і [scoped_ruler.GetHerHis] франкська армія просунулась настільки далеко вглиб Імперії, що [scoped_ruler.GetTitledFirstName] тепер стверджує, ніби є [Select_CString(scoped_ruler.IsFemale, 'істинною спадкоємицею', 'істинним спадкоємцем' )] Карла Великого, а Священна Римська імперія - лише жалюгідна подоба слави Каролінгів.\n\nТепер, коли [scoped_ruler.GetSheHe] контролює всі споконвічні землі та значну частину Західної Європи, важко спростувати подібні домагання."
   middle_europe_decisions.0006.a: "Та як [scoped_ruler.GetSheHe] сміє!"
   middle_europe_decisions.0006.b: "Цікаво, а ця імперія скільки протягне?"
-
-# Unifying the Burgundies, by Flavio Verna
+  #Unifying the Burgundies, by Flavio Verna
   middle_europe_decisions.0007.t: "Єдина Бургундія"
   middle_europe_decisions.0007.desc: "Усі бургундські землі об'єдналися під владою корони. Тепер, коли наші споконвічні землі більше не розділені дрібною ворожнечею, вони повернули собі почесне звання королівства.\n\nВже певний час [former_liege.GetTitledFirstName] навряд чи панує наді мною, і я не відчуваю почуття вірності до людини, яку вважаю швидше рівним собі, ніж сюзереном."
   middle_europe_decisions.0007.a: "Нам не потрібен нічий захист!"
@@ -35,8 +31,7 @@
   middle_europe_decisions.0008.desc.others: "Витративши кілька років на об'єднання бургундських земель, [scoped_ruler.GetFirstName] [Select_CString(scoped_ruler.IsFemale, 'вирішила', 'вирішив' )] коронуватися як [scoped_ruler.GetTitleTierName] Бургундії і оголосити, що [former_liege.GetTitledFirstName] більше не має влади над [Select_CString(scoped_ruler.IsFemale, 'нею', 'ним' )].\n\nЦей безсоромний акт зради навряд чи швидко забудеться..."
   middle_europe_decisions.0008.a: "[Select_CString(scoped_ruler.IsFemale, 'Вона', 'Він' )] просто зрадник!"
   middle_europe_decisions.0008.b: "Ну, хоч топографи будуть щасливі."
-
-# Empowering Sicilian Parliament, by Flavio Verna
+  #Empowering Sicilian Parliament, by Flavio Verna
   middle_europe_decisions.0010.t: "Асамблея суспільних станів"
   middle_europe_decisions.0010.desc: "Інфраструктура, залишена греками в провінціях Сицилія та Апулія, стане основою, завдяки якій [scoped_ruler.GetPrimaryTitle.GetName] перейде до більш освіченої форми правління.\n\nЗібравши представників трьох суспільних станів до єдиного дорадчого органу, що діє за римськими традиціями, я забезпечу стабільність і процвітання Середземномор'я у майбутніх століттях. Залишилося вирішити, де збиратиметься цей парламент."
   middle_europe_decisions.0010.a: "В Палермо, як у давнину!"
@@ -44,8 +39,7 @@
   middle_europe_decisions.0010.c: "Мені слід серйозно подумати над цим рішенням."
   middle_europe_decisions.0011.desc: "[scoped_ruler.GetTitledFirstName] [Select_CString(scoped_ruler.IsFemale, 'призначила', 'призначив' )] представників аристократії, духовенства та містян у новий парламент Королівства Сицилія.\n\nЗа допомогою цього дорадчого органу [scoped_ruler.GetTitleTierName] і [scoped_ruler.GetHerHis] наступники зможуть правити мудро та вміло на благо своїх підданих."
   middle_europe_decisions.0011.a: "Зрозуміло..."
-
-# Gothic Innovations, by Flavio Verna
+  #Gothic Innovations, by Flavio Verna
   middle_europe_decisions.0012.t: "Opus Francigenum"
   middle_europe_decisions.0012.desc: "Настає нове вік процвітання. [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] піднімається з темних століть, подібно до найяскравішого маяка мистецтв і філософії.\n\nНаші міста стають вируючими центрами торгівлі, ми будуємо нові чудові собори, здатні змагатися з кращими творами Римської імперії. Художники, музиканти та філософи стікаються до нас із усіх країв. Під освіченим заступництвом моєї династії [scoped_ruler.GetCulture.GetName]ому народу заздритиме вся Європа."
   middle_europe_decisions.0012.a: "Нехай триває наша велика праця!"
@@ -56,8 +50,7 @@
   middle_europe_decisions.0013.a: "У який же ж прекрасний час ми живемо!"
   middle_europe_decisions.0013.b: "Ха! Це довго не триватиме."
   middle_europe_decisions.0013.c: "Добре їм, мабуть..."
-
-# Restore Holy Roman Empire, by Ewan Cowhig Croft
+  #Restore Holy Roman Empire, by Ewan Cowhig Croft
   middle_europe_decisions.0015.t: "Імперія Заходу"
   middle_europe_decisions.0015.desc: "Надто довго титул римських імператорів Заходу не належав нікому. Сьогодні, коли я і [founder_hof.GetTitledFirstName] стоїмо віч-на-віч в оточенні моїх васалів і духовенства, це зміниться.\n\nМи звично обмінюємося молитвами та благословеннями та просимо [founder.GetFaith.HighGodNamePossessive] наділити мене силою і милосердям і допомогти мені правити імперією за [founder.GetFaith.HighGodHerHis|U] волею. Урочисто [founder_hof.GetTitledFirstNameNoTooltip] вручає мені корону та меч і покладає на мене турботу про все християнство.\n\nТиша вибухає гімнами, які заглушають лише вітальні вигуки моїх дворян.\n\nНарешті. Я правлю Священною Римською імперією."
   middle_europe_decisions.0015.a: "Спочатку Август, потім Карл Великий, а тепер і [founder.GetFirstNameNoTooltip]!"
@@ -66,7 +59,7 @@
   middle_europe_decisions.0016.b: "Германські варвари, #emphasis я#! імператор Риму!"
   middle_europe_decisions.0016.c: "Будемо сподіватись, що імперія виявиться мирною."
   middle_europe_decisions.0016.d: "Славне видовище!"
-  # Electorate of Saxony by James Beaumont
+  #Electorate of Saxony by James Beaumont
   establish_the_electorate_of_saxony_decision: "Заснувати курфюршество Саксонія"
   establish_the_electorate_of_saxony_decision_desc: "Східні землі занадто довго перебували поза досяжністю імперії. Ми повинні об'єднати ці землі в нову Саксонію, щоб зміцнити свою владу над регіоном."
   establish_the_electorate_of_saxony_decision_tooltip: "$establish_the_electorate_of_saxony_decision_desc$"

@@ -3,7 +3,6 @@
   perk_interaction.0002.same_faith: "З якоїсь немислимої причини [actor.GetFaith.AltPriestTermPlural] дозволили, щоб [actor.GetTitledFirstName] [Select_CString(actor.IsFemale, 'отримала', 'отримав' )] абсолютно не обґрунтовану претензію на титул [target.GetName]!"
   perk_interaction.0002.other_faith: "Шарлатани-священики [actor.GetFaith.GetAdjective]ої віри відкрито підтримали той факт, що [actor.GetTitledFirstName] незаконно претендує на титул [target.GetName]!"
   perk_interaction.0002.a: "Час прийде, і я [actor.GetHerHim] покажу..."
-
   perk_interaction.0102.actor_toast.t: "Your Bout against [recipient.GetFirstNameNoTooltip] has been Invalidated"
   perk_interaction.0102.recipient_toast.t: "Your Bout against [actor.GetFirstNameNoTooltip] has been Invalidated"
   perk_interaction.0102.bout_invalidated.tt: "Changing circumstances have forced you to cancel"

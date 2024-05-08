@@ -1,10 +1,10 @@
 ﻿l_english:
-  MEMORIES_WINDOW_HEADING: "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINameNoTooltip, 'Ніхто не')|U] пам'ятає"
+  MEMORIES_WINDOW_HEADING: "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINamePossessiveNoTooltip, 'Ніхто не')|U] пам'ятає"
   MEMORIES_WINDOW_ENTRY: "[CharacterMemory.GetDescription|U]."
   MEMORIES_WINDOW_COPY_ENTRY: "[CharacterMemory.GetCreationDate.GetString]\n[CharacterMemory.GetDescription|U].\n\n"
   MEMORIES_WINDOW_COPY_TO_CLIPBOARD: "$COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON$"
   CHARACTER_HAS_NO_MEMORIES: "[Select_CString( Character.IsAlive, 'Нічого суттєвого ще не сталося...', 'Ці спогади стерлися з часом...')]"
-  MEMORY_INFO: "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINameNoTooltip, 'Ніхто не)] пам'ятає ці важливі спогади. Спогади недовговічні, але водночас безцінні та незамінні. Згодом усі спогади згаснуть безповоротно."
+  MEMORY_INFO: "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINamePossessiveNoTooltip, 'Ніхто не')] пам'ятає ці важливі спогади. Спогади недовговічні, але водночас безцінні та незамінні. Згодом усі спогади згаснуть безповоротно."
   OPEN_MEMORIES_TOOLTIP: "#I Переглянути спогади цього персонажа#!"
   MEMORIES_WINDOW_PIN_IT: "Закріпити це вікно, щоб воно не перемикалося на інших персонажів"
   MEMORY_SORT_ORDER_TOOLTIP: "#T Змінити порядок сортування спогадів#!"

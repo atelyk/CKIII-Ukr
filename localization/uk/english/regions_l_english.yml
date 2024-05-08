@@ -1,18 +1,18 @@
 ﻿l_english:
   world_europe_west_britannia: "Британія"
   world_europe_west_germania: "Німеччина"
-  world_europe_west_francia: "Франція"
+  world_europe_west_francia: "Францiя"
   world_europe_west_iberia: "Іберія"
   world_europe_west: "Західна Європа"
   world_europe_north: "Північна Європа"
-  world_europe_south_east: "Південно-Східна Європа"
+  world_europe_south_east: "Південно-Східна Європа world_europe_south_italy: \"Італія"
   world_europe_south_italy: "Італія"
   world_europe_south: "Південна Європа"
   world_europe_east: "Східна Європа"
   world_asia_minor: "Мала Азія"
-  world_middle_east_jerusalem: "Єрусалим"
-  world_middle_east_arabia: "Аравія"
-  world_middle_east_persia: "Persia"
+  world_middle_east_jerusalem: "Сирія"
+  world_middle_east_arabia: "Арабія"
+  world_middle_east_persia: "Персія"
   world_india_deccan: "Декканська Індія"
   world_india_bengal: "Бенгальська Індія"
   world_india_rajastan: "Раджастан"
@@ -25,6 +25,7 @@
   world_steppe_tarim: "Таримський басейн"
   world_steppe_west: "Західний степ"
   world_steppe_east: "Східний степ"
+  world_central_asia: "Central Asia"
   world_steppe: "Степ"
   world_europe: "Європа"
   world_middle_east: "Середній Схід"
@@ -110,7 +111,10 @@
   custom_polabia: "Sorbia"
   ghw_region_britannia: "the British Isles"
   ghw_region_germany: "Germany"
-
+  ghw_region_anatolia: "Anatolia"
+  ghw_region_egypt_et_al: "Egypt"
+  israel_region: "Israel"
+  troy_region: "Troy"
   #FP1
   dlc_fp1_region_core_north_sea: "North Sea Heartlands"
   dlc_fp1_region_core_mainland_scandinavia: "Mainland Scandinavia"
@@ -118,11 +122,39 @@
   dlc_fp1_achievement_far_from_home: "Islands in the Indian Ocean"
   dlc_fp1_achievement_king_of_all_the_isles: "Islands in the Atlantic and Mediterranean"
   dlc_fp1_achievement_vladimirs_second_choice: "Russian"
-
   #FP2
   dlc_fp2_old_vasconia: "Old Vasconia"
   dlc_fp2_old_vasconia_pushed: "Old Vasconia"
   dlc_fp2_dlc_fp2_caucasian_iberia: "Caucasian Iberia"
-
+  #FP3
+  dlc_fp3_eastern_persian_frontier_regions: "Eastern Frontier"
+  dlc_fp3_greater_persian_frontier_regions: "Greater Persian Frontier"
   #EP1
   dlc_ep1_achievement_rise_of_the_ghurids: "Historical Ghurid Empire"
+  #Seazones
+  sea_atlantic_ocean: "the Atlantic Ocean"
+  sea_north_atlantic: "the Northern Atlantic Ocean"
+  sea_baltic_sea: "the Baltic Sea"
+  #sea_north_sea: "the North Sea" Entry in map_items_l_english
+  #sea_english_channel: "the English Channel" Entry in map_items_l_english
+  sea_irish_sea: "the Irish Sea"
+  sea_bay_of_biscay: "the Bay of Biscay"
+  sea_macaronesia: "Macaronesia"
+  sea_mediterranean_sea: "the Mediterranean"
+  sea_western_mediterranean_sea: "the Western Mediterranean"
+  sea_ionian_sea: "the Ionian Sea"
+  #sea_adriatic_sea: "the Adriatic Sea" Entry in map_items_l_english
+  sea_aegean_sea: "the Aegean Sea"
+  sea_black_sea: "the Black Sea"
+  sea_south_atlantic: "the Southern Atlantic Ocean"
+  sea_gulf_of_guinea: "the Gulf of Guinea"
+  sea_indian_ocean: "the Indian Ocean"
+  sea_bay_of_somalia: "the Bay of Somalia"
+  #sea_red_sea: "the Red Sea" Entry in map_items_l_english
+  sea_gulf_of_aden: "the Gulf of Aden"
+  #sea_persian_gulf: "the Persian Gulf" Entry in map_items_l_english
+  #sea_arabian_sea: "the Arabian Sea" Entry in map_items_l_english
+  #sea_bay_of_bengal: "the Bay of Bengal" Entry in map_items_l_english
+  sea_inland_steppe_seas: "the Aral-Caspian Seas"
+  sea_caspian_sea: "the Caspian Sea"
+  sea_aral_sea: "the Aral Sea"

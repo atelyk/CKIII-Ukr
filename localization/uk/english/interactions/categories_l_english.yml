@@ -1,7 +1,9 @@
 ﻿l_english:
   DIPLOMACY_ACTIONS: "дипломатичні дії"
   FRIENDLY_ACTIONS: "дружні дії"
+  CLAN_ACTIONS: "clan actions"
   HOSTILE_ACTIONS: "ворожі дії"
+  DIARCH_ACTIONS: "дії з в'язнями"
   VASSAL_ACTIONS: "дії з васалами"
   COURT_ACTIONS: "дії при дворі"
   IMPRISOMENT_ACTIONS: "дії з в'язнями"

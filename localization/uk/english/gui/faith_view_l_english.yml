@@ -65,7 +65,6 @@
   FAITH_CREATION_REFORM: "Реформувати конфесію"
   FAITH_CONVERSION_CONVERT: "Навернутися до конфесії"
   FAITH_MUST_BE_DIFFERENT_FROM_OLD: "@warning_icon!#X Ваша нова і стара [Concept( 'faith', 'конфесії' )|El] не можуть мати однакові [core_tenets|El] та [doctrines|El]#!"
-
   FAITH_CREATION_TOTAL_COST: "Вартість: [GetLocalPlayerPietyTextIcon][FaithCreationWindow.CalcPietyCost]"
   FAITH_CONVERSION_TOTAL_COST: "Вартість: [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyCost]"
   FAITH_CONVERSION_COST_MISSING: "#X Потрібно [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyMissing]"
@@ -85,13 +84,11 @@
   FAITH_WINDOW_FAITH_NAME_TOOLTIP: "Введіть назву нової [Concept( 'faith', 'конфесії' )|E] та її послідовників"
   FERVOR_YEARLY_CHANGE: "Щорічна зміна [Concept( 'fervor', 'прагнення' )|E]"
   FERVOR_TT: "#T Прагнення: [Faith.GetFervor|0]%\n#!#weak Реальні ефекти [Concept( 'fervor', 'прагнення' )|E] у [Concept( 'faith', 'конфесії' )|E] завжди залежать від прагнення протилежної конфесії. Це можна спостерігати, наприклад, у завданні [Concept( 'convert_county', 'навернути графство' )|E].#!\n\n[Faith.GetMonthlyFervorChangeDesc]"
-
   FAITH_DOCTRINES_IMPORTANT: "Головні [doctrines|El]"
   FAITH_DOCTRINES_MARRIAGE: "Шлюбні доктрини"
   FAITH_DOCTRINES_CRIMES: "Злочинні доктрини"
   FAITH_DOCTRINES_CLERGY: "Доктрини духовенства"
   FAITH_DOCTRINES_SPECIAL: "Особливі доктрини"
-
   RELIGIOUS_HEAD: "Нинішній [head_of_faith|El]"
   RELIGIOUS_HEAD_WITH_NAME: "[Faith.GetReligiousHead.GetUINameNoTooltip]"
   RELIGIOUS_HEAD_EMPTY_DESC: "Місце голови [Faith.GetAdjectiveNoTooltip|l]ої конфесії пустує"
@@ -106,7 +103,6 @@
   RELIGIOUS_HEAD_NO_HEAD: "[head_of_faith|E] відсутній"
   RELIGIOUS_HEAD_SPIRITUAL_HEAD: "[head_of_faith_spiritual|E] [head_of_faith|E]#E :#!"
   RELIGIOUS_HEAD_TEMPORAL_HEAD: "[head_of_faith_temporal|E] [head_of_faith|E]#E :#!"
-
   FAITH_BELIEFS: "Вірування"
   FAITH_HOLY_SITES: "Священні місця"
   FAITH_HOLY_SITE_EXPLANATION: "Кожне священне місце, яким володіє [Faith.GetAdjectiveNoTooltip]ий [ruler|El], дає бонус усім представникам конфесії"
@@ -115,13 +111,10 @@
   FAITH_CORE_TENETS_HEADING: "#E [core_tenets|E]#!"
   FAITH_SHOW_ALL: "Усі доктрини"
   FAITH_HIDE: "Сховати"
-
   base_fervor_increase: "Базове значення"
-
   ### Temp stuff
   TEMP_RELIGION_INFO: "#D Відкололася від православ'я у 605 році н. е.\nЗасновник: П'єр XIV де Кастельно#!"
   FAITH_FLAVOR_DESC: "$DESC|F$"
-
   FAITH_CREATION_BASIC_UI_DESC: "#weak Я маю унікальну можливість назавжди змінити нашу конфесію. Потрібно все ретельно спланувати: встановлені догми та принципи змінити вже неможливо.\n\nСвященнослужителі та богослови прибули до мого двору, щоб обговорити питання теології та спробувати записати повну, остаточну інтерпретацію наших усних традицій, але саме завдяки мені ця реформа взагалі стала можливою.#!\n\nМоє слово буде вирішальним у суперечці про те, якими будуть [core_tenets|El] та [doctrines|El] нової конфесії."
   RELIGION_SHOW_ONLY: "[Religion.GetAdjectiveNoTooltip]і [faiths|El]"
   RELIGION_SHOW_ALL_FAITHS_TT: "Показати всіх [Concept( 'vassal', 'васалів' )|E]"
@@ -132,7 +125,6 @@
   ORDER_FAITH_BY_FERVOR: "Прагнення"
   ORDER_FAITH_BY_RELIGION: "Релігія"
   ORDER_FAITH_BY_NAME: "Ім'я"
-
   FAITH_CREATION_THEOCRACY_INFO: "Теократія"
   FAITH_CREATION_HEAD_OF_FAITH_INFO: "Голова конфесії"
   SPIRITUAL_HEAD_CREATED: "$doctrine_parameter_spiritual_head_of_faith$"

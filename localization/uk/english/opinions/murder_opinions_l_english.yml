@@ -7,8 +7,6 @@
   attempted_murder_me_crime: "Спроба мого вбивства"
   murdered_close_relation_opinion: "Вбивця близького родича"
   murdered_someone_close_to_me_crime: "Murdered Someone Close to Me"
-
-
   executed_close_family: "Ця людина стратила родину"
   executed_close_family_crime: "Ця людина незаконно стратила родину"
   executed_vassal: "Страта мого васала"
@@ -19,10 +17,17 @@
   executed_close_relation_opinion: "Страчено близького родича"
   executed_my_countryman_modifier: "Страчено мого васала"
   executed_guest_modifier: "Страта іншого гостя"
-
+  executed_valuable_prisoner_modifier: "Executed Valuable Prisoner"
   tortured_family_member: "Тортури члена сім'ї"
   tortured_me: "Ця людина катувала мене"
   blinded_family_member: "Засліплення члена сім'ї"
   blinded_me: "Ця людина осліпила мене"
   castrated_family_member: "Кастрація члена сім'ї"
   castrated_me: "Ця людина каструвала мене"
+  abducted_me_crime: "Abducted Me"
+  abducted_close_family: "Abducted Family"
+  abducted_close_family_crime: "$abducted_close_family$"
+  attempted_abduct_close_family: "Attempted Family Abduction"
+  attempted_abduct_close_family_crime: "$attempted_abduct_close_family$"
+  attempted_abduct_me: "Attempted Abduction"
+  attempted_abduct_me_crime: "$attempted_abduct_me$"

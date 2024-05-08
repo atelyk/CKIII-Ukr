@@ -16,58 +16,52 @@
   fourth_line_text_set_2_A: "Слова одного хватило б мені."
   fourth_line_text_set_2_B: "Ти пробач, що несу ахінею."
   poetry_line_break: "\n"
-  # Lines from the Song of Roland
+  #Lines from the Song of Roland
   poetry.0002.t: "Поема!"
-  # First line
-  0002.blank_verse_line_1_A0": King Marsilies he lay at Sarraguce,"
-  0002.blank_verse_line_1_B0": Blancandrins was a pagan very wise,"
+  #First line
+  0002.blank_verse_line_1_A: " King Marsilies he lay at Sarraguce,"
+  0002.blank_verse_line_1_B: " Blancandrins was a pagan very wise,"
   0002.blank_verse_line_1_C: "Король наш Карл, великий імператор,"
   0002.blank_verse_line_1_D: "Надзвичайно радісний і гордий:"
-  # Second line
+  #Second line
   0002.blank_verse_line_2_A: "Пішов шукати прохолоди в сад плодовитий."
-  0002.blank_verse_line_2_B0":  In vassalage he was a gallant knight,"
-  0002.blank_verse_line_2_C0":  Full seven years hath sojourned in Spain,"
-  0002.blank_verse_line_2_D0":  Cordres he holds, the walls are tumbled down,"
-  # Third line
-  0002.blank_verse_line_3_A0": There on a throne he sate, of marble blue,"
-  0002.blank_verse_line_3_B0": First in prowess, he stood his lord beside."
-  0002.blank_verse_line_3_C0": Conquered the land, and won the western main,"
-  0002.blank_verse_line_3_D0": His catapults have battered town and tow'r."
-  # Fourth line
-  0002.blank_verse_line_4_A0":  Round him his men, full twenty thousand, stood."
-  0002.blank_verse_line_4_B0":  And thus he spoke: Do not yourself affright!"""
-  0002.blank_verse_line_4_C0":  Now no fortress against him doth remain,"
-  0002.blank_verse_line_4_D0":  Silver and gold and many a jeweled gown."
-
-
-
-# Lines from the Song of Roland for now
-
+  0002.blank_verse_line_2_B: "  In vassalage he was a gallant knight,"
+  0002.blank_verse_line_2_C: "  Full seven years hath sojourned in Spain,"
+  0002.blank_verse_line_2_D: "  Cordres he holds, the walls are tumbled down,"
+  #Third line
+  0002.blank_verse_line_3_A: " There on a throne he sate, of marble blue,"
+  0002.blank_verse_line_3_B: " First in prowess, he stood his lord beside."
+  0002.blank_verse_line_3_C: " Conquered the land, and won the western main,"
+  0002.blank_verse_line_3_D: " His catapults have battered town and tow'r."
+  #Fourth line
+  0002.blank_verse_line_4_A: "  Round him his men, full twenty thousand, stood."
+  0002.blank_verse_line_4_B: "  And thus he spoke: \"Do not yourself affright!"
+  0002.blank_verse_line_4_C: "  Now no fortress against him doth remain,"
+  0002.blank_verse_line_4_D: "  Silver and gold and many a jeweled gown."
+  #Lines from the Song of Roland for now
   poetry.0003.t: "Поема: [ROOT.GetCharacter.Custom('theme_announcement')|UD]"
-  # First line
+  #First line
   0003.line_1_A: "Все розорить [ROOT.GetCharacter.Custom('noun_specific_singular_one')|D]-завойовник."
   0003.line_1_B: "Царять [ROOT.GetCharacter.Custom('noun_abstract_plural_one')|D] нині — перший сорт."
   0003.line_1_C: "[ROOT.GetCharacter.Custom('noun_specific_singular_two')|D] король наш Карл, великий імператор,"
   0003.line_1_D: "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D] надзвичайно радісний і гордий."
-  # Second line
+  #Second line
   0003.line_2_A: "Ми прийняли [ROOT.GetCharacter.Custom('noun_abstract_singular_one')|D] на віру, без побоюваннь."
   0003.line_2_B: "[ROOT.GetCharacter.Custom('noun_abstract_plural_two')|D] розв'яже будь-яке питання."
   0003.line_2_C: "Відвоював [ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D] сім літ на землі іспанській."
   0003.line_2_D: "Взяв Кордову він штурмом, [ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D] вежі зніс."
-  # Third line
+  #Third line
   0003.line_3_A: "[ROOT.GetCharacter.Custom('noun_specific_singular_two')|D] твій недосяжний, я знаю."
   0003.line_3_B: "[ROOT.GetCharacter.Custom('two_syllable_number')|D]. Ось скільки років вже триває [ROOT.GetCharacter.Custom('noun_abstract_plural_two')|D]!"
   0003.line_3_C: "[ROOT.GetCharacter.Custom('noun_specific_singular_two')|D] весь цей гірський край до моря зайняв,"
   0003.line_3_D: "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D] балістами своїми стіни розвалив."
-  # Fourth line
+  #Fourth line
   0003.line_4_A: "Вони, можливо, не візьмуть мене ніколи [ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D]"
   0003.line_4_B: "Забудеться [ROOT.GetCharacter.Custom('noun_specific_plural_two')|D], і це прекрасно."
   0003.line_4_C: "[ROOT.GetCharacter.Custom('noun_specific_singular_two')|D], штурмом взяв усі міста та замки,"
   0003.line_4_D: "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D]  Silver and gold and many a jeweled gown."
   0003.poetry_from: "[actor.GetTitledFirstName]надсилає вам вірш \n\n"
-
-
-#NOBILITY THEME WORDS
+  #NOBILITY THEME WORDS
   theme_nobility: "дворянство"
   theme_romance: "романтика"
   nobility_crown: "вінець"
@@ -99,7 +93,7 @@
   nobility_virtue_plural: "гідності"
   nobility_elite: "еліта"
   nobility_elite_plural: "верхівки"
-#ROMANCE THEME WORDS
+  #ROMANCE THEME WORDS
   romance_love: "кохання"
   romance_love_plural: "пристрасті"
   romance_heart: "серце"
@@ -118,7 +112,7 @@
   romance_dance: "танок"
   romance_dance_plural: "кадрилі"
   romance_lust: "вогонь"
-#NUMBERS
+  #NUMBERS
   number_one: "Один"
   number_two: "Два"
   number_three: "Три"
@@ -131,4 +125,12 @@
   number_ten: "Десять"
   number_eleven: "Одинадцять"
   number_twelve: "Дванадцять"
+  number_thirteen: "thirteen"
+  number_fourteen: "fourteen"
+  number_fifteen: "fifteen"
+  number_sixteen: "sixteen"
+  number_seventeen: "seventeen"
+  number_eighteen: "eighteen"
+  number_nineteen: "nineteen"
   number_twenty: "Двадцять"
+  number_countless: "countless"

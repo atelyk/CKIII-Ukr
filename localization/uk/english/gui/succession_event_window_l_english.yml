@@ -10,8 +10,7 @@
   SUCCESSION_EVENT_WINDOW_LEAVE_GAME: "Покинути гру"
   SUCCESSION_EVENT_WINDOW_LEAVE_GAME_TT: "Вийти з мережевої гри"
   SUCCESSION_EVENT_WINDOW_CHANGE_CHARACTER: "Вибрати нового персонажа"
-
-  #Death Intro messages
+  #Death Intro messages:
   SUCCESSION_EVENT_WINDOW_DEAD_INTRO_DEFAULT_1: "[ROOT.Char.GetFullNameNoTooltip] віддає душу у віці [ROOT.Char.GetAge] років."
   SUCCESSION_EVENT_WINDOW_DEAD_INTRO_DEFAULT_2: "[ROOT.Char.GetFullNameNoTooltip] залишає свою смертну оболонку у віці [ROOT.Char.GetAge] років."
   SUCCESSION_EVENT_WINDOW_DEAD_INTRO_DEFAULT_3: "[ROOT.Char.GetFullNameNoTooltip] йде з життя у віці [ROOT.Char.GetAge] років."
@@ -29,11 +28,9 @@
   SUCCESSION_EVENT_WINDOW_DEAD_INTRO_HELLENIC_1: "[ROOT.Char.GetFullNameNoTooltip] перетинає річку Стікс у віці [ROOT.Char.GetAge] років."
   SUCCESSION_EVENT_WINDOW_DEAD_INTRO_EASTERN_1: "[ROOT.Char.GetFullNameNoTooltip] височіє над своєю матеріальною формою у віці [ROOT.Char.GetAge] років."
   SUCCESSION_EVENT_WINDOW_DEAD_INTRO_TRIBAL_1: "[ROOT.Char.GetFullNameNoTooltip] перетинає двері у світ духів у віці [ROOT.Char.GetAge] років."
-
-#Death Reason message
+  #Death Reason message:
   SUCCESSION_EVENT_WINDOW_DEAD_REASON_1: "[ROOT.Char.GetSheHe|U] [ROOT.Char.GetDeathReason]."
-
-#Death Outro messages
+  #Death Outro messages:
   SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_AGE_CHILD: "[ROOT.Char.GetHerHis|U] життя обірвалося так рано, а тому важко сказати, який би з [Select_CString(ROOT.Char.IsFemale, 'неї', 'нього' )] вийшов правитель."
   SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_AGE_OLD: "[Select_CString(ROOT.Char.IsFemale, 'Ця стара', 'Цей старий' )] [Select_CString(ROOT.Char.IsFemale, 'прожила', 'прожив' )] довге та плідне життя."
   SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_AGE_IMMORTAL: "[ROOT.Char.GetSheHe|U] помирає всупереч своєму, як здавалося, безсмертю."
@@ -104,8 +101,7 @@
   SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_COMPASSIONATE: "Про цю добру і співчутливу душу завжди пам'ятатимуть друзі."
   SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_PATIENT: "Ніколи [Select_CString(ROOT.Char.IsFemale, 'вона не підвищувала', 'він не підвищував' )] голос та [Select_CString(ROOT.Char.IsFemale, 'була', 'був' )] взірцем терпіння."
   SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_PERSONALITY_HUMBLE: "Через скромність [ROOT.Char.GetHerHis] ніколи не спокушали похвали за заслуги."
-
-#Heir message
+  #Heir message:
   SUCCESSION_EVENT_WINDOW_HEIR_UNDERAGE: "Отримавши владу [ROOT.Char.GetAge] років від народження, [ROOT.Char.GetSheHe] покладатиметься на раду в перші роки свого правління."
   SUCCESSION_EVENT_WINDOW_HEIR_USELESS: "Без навичок, що дозволили б утримати державу від розпаду, [ROOT.Char.GetHerHis] правління приречене на провал."
   SUCCESSION_EVENT_WINDOW_HEIR_MILITARY: "Багато хто очікує, що [ROOT.Char.GetSheHe] завдяки своїм військовим талантам приведе державу до численних перемог на полі бою."
@@ -191,13 +187,11 @@
   SUCCESSION_EVENT_WINDOW_HEIR_CRUSADER: "Колись [Select_CString(ROOT.Char.IsFemale, 'вона вела', 'він вів' )] воїнів віри проти іновірців. [ROOT.Char.GetFaith.HighGodName], безперечно, любить [ROOT.Char.GetHerHis]."
   SUCCESSION_EVENT_WINDOW_HEIR_THREE_SKILLS: "Маючи безліч талантів, [ROOT.Char.GetSheHe], безсумнівно, досягне любові своїх підданих."
   SUCCESSION_EVENT_WINDOW_HEIR_FIVE_SKILLS: "Маючи неймовірні знання про всі речі між небом та землею, [ROOT.Char.GetFirstNameNoTooltip] буде правити так, що це увійде до легенд."
-
   SUCCESSION_EVENT_WINDOW_HEIR_DREAD: "[ROOT.Char.GetSheHe] вже має репутацію нещадної та жорстокої людини."
   SUCCESSION_EVENT_WINDOW_HEIR_GENDER: "Дехто побоюється, що [Select_CString(ROOT.Char.IsFemale, 'жінка', 'чоловік' )] на троні знаменує майбутню смуту."
   SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_REVELER: "Через свою чарівність [ROOT.Char.GetSheHe] купається в любові своїх підданих: всі раді бачити такого люб'язного правителя."
   SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_ADMINISTRATOR: "Маючи таланти в управлінні, [ROOT.Char.GetSheHe] входить до найбільш здібних людей, які коли-небудь займали трон."
   SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_SCHOLAR: "[ROOT.Char.GetSheHe|U] славиться своїм інтересом до метафізики і може виявитися не найкращим кандидатом на вирішення щоденних нагальних проблем."
-
   SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_CALLOUS_LONER: "Славлячись своєю безсердечністю, [ROOT.Char.GetSheHe], як то кажуть, взагалі нічого не відчуває і нікого не любить."
   SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_VENGEFUL: "Васалам доведеться бути обережними поряд з цією дріб'язковою та злою душонкою."
   SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_DEPRESSED: "Ця сумна душа прагне спокою і, як здається, не має достатньо стійкості, щоб вести за собою своїх підданих."
@@ -208,7 +202,6 @@
   SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_CRIMINAL: "Безліч чуток оточує [ROOT.Char.GetHerHis]: одні страшніші за інші."
   SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_WITCH: "Ходять чутки, що [ROOT.Char.GetSheHe] змішує заборонені трави та насилає прокляття на своїх ворогів, [ROOT.Char.GetHerHim] буде непросто заслужити довіру своїх підданих."
   SUCCESSION_EVENT_WINDOW_HEIR_UNIMPRESSIVE: "Важко сказати, який з [Select_CString(ROOT.Char.IsFemale, 'неї', 'нього' )] вийде правитель, оскільки у [ROOT.Char.GetHerHis] поки що немає жодних досягнень."
-
   SUCCESSION_EVENT_WINDOW_GAME_OVER_INTRO: "Ваш рід перервався"
   SUCCESSION_EVENT_WINDOW_GAME_OVER_INTRO_UNLANDED: "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'втратила', 'втратив' )] всі свої титули, ставши [Select_CString(ROOT.Char.IsFemale, 'безземельною', 'безземельним' )]"
   SUCCESSION_EVENT_WINDOW_GAME_OVER_INTRO_BARON: "[ROOT.Char.GetFullNameNoTooltip] [Select_CString(ROOT.Char.IsFemale, 'втратила', 'втратив' )] всі свої титули, окрім баронств"
@@ -219,49 +212,46 @@
   SUCCESSION_EVENT_WINDOW_GAME_OVER_YEARS: "Ви провели з династією [ROOT.Char.GetDynasty.GetName] кілька років."
   SUCCESSION_EVENT_WINDOW_GAME_OVER_YEAR: "Ви провели з династією [ROOT.Char.GetDynasty.GetName] понад рік."
   SUCCESSION_EVENT_WINDOW_GAME_OVER_YEAR_SINGLE: "Ви провели з династією [ROOT.Char.GetDynasty.GetName] менше року."
-
   SUCCESSION_EVENT_WINDOW_GAME_OVER_MAX_SPLENDOR: "За цей час вона перетворилася на шановану всіма династію, про престиж якої складають легенди"
   SUCCESSION_EVENT_WINDOW_GAME_OVER_HIGH_SPLENDOR: "За цей час вона перетворилася на престижну династію"
   SUCCESSION_EVENT_WINDOW_GAME_OVER_MEDIUM_SPLENDOR: "За цей час вона перетворилася на помітну династію"
   SUCCESSION_EVENT_WINDOW_GAME_OVER_LOW_SPLENDOR: "За цей час вона не здобула слави і не залишила сліду в історії"
   SUCCESSION_EVENT_WINDOW_GAME_OVER_LOW_SPLENDOR_SHORT: "За цей час вона не здобула слави і не залишила сліду в історії"
   SUCCESSION_EVENT_WINDOW_GAME_OVER_MIN_SPLENDOR: "Весь цей час вона залишалася в невідомості і незабаром канула в забуття"
-
-#########################################
+  #########################################
   SUCCESSION_EVENT_WINDOW_DEAD_DESC: "[CHARACTER.Custom('DeathMessageIntro')] [CHARACTER.Custom('DeathMessageReason')] [CHARACTER.Custom('DeathMessageOutro')]"
   SUCCESSION_EVENT_WINDOW_HEIR_DESC: "[CHARACTER.GetTitledFirstNameNoTooltip] сходить на трон. [CHARACTER.Custom('HeirMessageInterface')]"
   SUCCESSION_EVENT_WINDOW_GAME_OVER_DESC: "[CHARACTER.Custom('GameOverMessageInterface')]. [CHARACTER.Custom('GameOverMessageInterfaceDuration')] [CHARACTER.Custom('GameOverMessageInterfaceSplendor')]."
   SUCCESSION_EVENT_WINDOW_END_DATE_DESC: "Досягнуто дату кінця гри\n\n[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceDuration')] [SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceSplendor')]."
-  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_SPANISH_DESC0": It was due to your rule and guidance that the Spanish Thrones united under one ruler."
-  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_SLAVS_DESC0": The Slavs have become an unstoppable power since your founding of Empire of $e_slavia$."
-  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_SOUTHERN_SLAVS_DESC0": It was under your guidance that the Southern Slavs reclaimed their identity."
-  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_WESTERN_SLAVS_DESC0": It was due to you that the Western Slavs became one again after centuries of scattered tribalism. "
-  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_BURGUNDY_DESC0": The Burgundians overcame their squabbles and became one under your guidance and rule."
-  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_ITALY_DESC0": It was due to your rule and guidance that the Empire of $e_italy$ united under one ruler."
-  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_AFRICA_DESC0": It was due to your hard work, diligence, and wise rule that the continent of Africa united under one rule."
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_PORTUGAL_DESC0": But have you truly died, while your founding of the Kingdom of $k_portugal$ will be forever remembered?"
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_CANARIAS_DESC0": Everyone across the islands know your name as the founder of the Kingdom of $k_canarias$."
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BOSNIA_DESC0": There is not so much as a horse in Bosnia who does not know your name after the Kingdom of $k_bosnia$ was created."
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ARMENIA_DESC0": Your name will live on eternally as the founder of the Empire of $e_armenia$."
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RUM_DESC0": The Kingdom of $k_rum$ was created by you, and as its founder, in a way it will always be yours."
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC0": It was due to your hard work and diligence that the Kingdom of $k_israel$ was created."
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC0": None thought it could be done, but you dominated the most contested holy region in the world as the Empire of $e_outremer$."
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC0": One may climb the Alps and still not see all that was yours after you founded the Kingdom of $k_switzerland$."
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_AUSTRIA_DESC0": Following your rule, the Archduchy is one of the most respected powers in Europe."
-  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ARAGON_DESC0": The Kingdom of $k_aragon$ was born along the twisting banks of the Aragón river, forever a testament to your glorious rule."
-  SUCCESSION_EVENT_WINDOW_END_DATE_RESTORED_ROMAN_EMPIRE_DESC0": Due to you, the cosmos knows that even if millennia pass with Rome in ashes, the $e_roman_empire$ will always return."
-  SUCCESSION_EVENT_WINDOW_END_DATE_RESTORED_DUMNONIA_DESC0": Because of you, the Cornish men and women rose to become the Kingdom of $k_cornwall$ once again."
-  SUCCESSION_EVENT_WINDOW_END_DATE_RESTORED_CAROLINGIAN_DESC0": What was but a dream for Charlemagne was real for you, restorer of the Kingdom of $e_france$."
-  SUCCESSION_EVENT_WINDOW_END_DATE_RESTORED_HOLY_ROMAN_EMPIRE_DESC0": You were a true embodiment of the lost glory of the $e_hre$, which, thanks to you, was founded once more."
-
+  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_SPANISH_DESC: " It was due to your rule and guidance that the Spanish Thrones united under one ruler."
+  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_SLAVS_DESC: " The Slavs have become an unstoppable power since your founding of Empire of $e_slavia$."
+  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_SOUTHERN_SLAVS_DESC: " It was under your guidance that the Southern Slavs reclaimed their identity."
+  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_WESTERN_SLAVS_DESC: " It was due to you that the Western Slavs became one again after centuries of scattered tribalism. "
+  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_BURGUNDY_DESC: " The Burgundians overcame their squabbles and became one under your guidance and rule."
+  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_ITALY_DESC: " It was due to your rule and guidance that the Empire of $e_italy$ united under one ruler."
+  SUCCESSION_EVENT_WINDOW_END_DATE_UNIFICATION_AFRICA_DESC: " It was due to your hard work, diligence, and wise rule that the continent of Africa united under one rule."
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_PORTUGAL_DESC: " But have you truly died, while your founding of the Kingdom of $k_portugal$ will be forever remembered?"
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_CANARIAS_DESC: " Everyone across the islands know your name as the founder of the Kingdom of $k_canarias$."
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_BOSNIA_DESC: " There is not so much as a horse in Bosnia who does not know your name after the Kingdom of $k_bosnia$ was created."
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ARMENIA_DESC: " Your name will live on eternally as the founder of the Empire of $e_armenia$."
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_RUM_DESC: " The Kingdom of $k_rum$ was created by you, and as its founder, in a way it will always be yours."
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ISRAEL_DESC: " It was due to your hard work and diligence that the Kingdom of $k_israel$ was created."
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_OUTREMER_DESC: " None thought it could be done, but you dominated the most contested holy region in the world as the Empire of $e_outremer$."
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_SWITZERLAND_DESC: " One may climb the Alps and still not see all that was yours after you founded the Kingdom of $k_switzerland$."
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_AUSTRIA_DESC: " Following your rule, the Archduchy is one of the most respected powers in Europe."
+  SUCCESSION_EVENT_WINDOW_END_DATE_CREATED_ARAGON_DESC: " The Kingdom of $k_aragon$ was born along the twisting banks of the Aragón river, forever a testament to your glorious rule."
+  SUCCESSION_EVENT_WINDOW_END_DATE_RESTORED_ROMAN_EMPIRE_DESC: " Due to you, the cosmos knows that even if millennia pass with Rome in ashes, the $e_roman_empire$ will always return."
+  SUCCESSION_EVENT_WINDOW_END_DATE_RESTORED_DUMNONIA_DESC: " Because of you, the Cornish men and women rose to become the Kingdom of $k_cornwall$ once again."
+  SUCCESSION_EVENT_WINDOW_END_DATE_RESTORED_CAROLINGIAN_DESC: " What was but a dream for Charlemagne was real for you, restorer of the Kingdom of $e_france$."
+  SUCCESSION_EVENT_WINDOW_END_DATE_RESTORED_HOLY_ROMAN_EMPIRE_DESC: " You were a true embodiment of the lost glory of the $e_hre$, which, thanks to you, was founded once more."
   SUCCESSION_EVENT_WINDOW_HEADING: "Ви померли"
   SUCCESSION_EVENT_WINDOW_HEADING_ALIVE: "Вас повалили"
   SUCCESSION_EVENT_WINDOW_HEADING_LINEAGE: "Рід персонажа [SuccessionEventWindow.GetPlayerHeir.GetShortUINameNotMeNoTooltip]"
   SUCCESSION_EVENT_WINDOW_HEADING_GAME_OVER: "Кінець гри"
   SUCCESSION_EVENT_WINDOW_HEADING_END_DATE_REACHED: "Кінець"
-  SUCCESSION_SUCCESSOR_TAB_TT: "#T Показати спадкоємця"
+  SUCCESSION_SUCCESSOR_TAB_TT: "#T Показати спадкоємця#!"
   SUCCESSION_TITLES_TAB_TT: "#T Показати титули\n#!$SUCCESSION_LOST_TITLES$"
-  SUCCESSION_LINEAGE_TAB_TT: "#T Показати походження"
+  SUCCESSION_LINEAGE_TAB_TT: "#T Показати походження#!"
   SUCCESSION_INHERITED_TITLES: "Успадковані титули"
   SUCCESSION_LOST_TITLES: "[Select_CString( EqualTo_int32( SuccessionEventWindow.GetNumberOfLostTitles, '(int32)0' ), '', '@warning_icon!')] Втрачено титулів при успадкуванні: [SuccessionEventWindow.GetNumberOfLostTitles]"
   SUCCESSION_LOST_TITLE_SHARE: "[SuccessionEventWindowLostTitlesItem.GetHeir.GetUINameNoTooltip]"

@@ -1,15 +1,12 @@
 ﻿l_english:
   court_event_title: "Роман:"
-
   #Modifiers
   court_competitor_modifier: "Романтичний конкурент"
-
-  #ONGOING MANAGEMENT": Player target opted out"
+  #ONGOING MANAGEMENT: Player target opted out
   court_ongoing.0001.t: "$court_event_title$: відмова"
   court_ongoing.0001.desc: "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [Select_CString(target.IsFemale, 'зупинила', 'зупинив' )] мої наміри! [target.GetSheHe|U] ясно [Select_CString(target.IsFemale, 'дала', 'дав' )] зрозуміти, що не цікавиться мною і навряд чи колись змінить почуття."
   court_ongoing.0001.a: "О горе мені!"
-
-  #START EVENT": Owner picks method"
+  #START EVENT: Owner picks method
   court_ongoing.0501.t: "$court_event_title$: зізнання у коханні"
   court_ongoing.0501.desc: "Досить приховувати свої почуття! Нехай [target.GetTitledFirstName] дізнається про все. Я хочу, щоб [target.GetSheHe] [Select_CString(target.IsFemale, 'запам'ятала', 'запам'ятав' )] цей день на все життя."
   court_ongoing.0501.a: "Заспівати любовну баладу."
@@ -18,8 +15,7 @@
   court_ongoing.0501.d: "Вразити [target.GetHerHis] перемогою у тренувальному бою."
   court_ongoing.0501.x: "Послухати інтуїцію."
   court_ongoing.0501.tt: "Ви заявляєте, що [target.GetShortUIName] навіки у вашому серці"
-
-  #START EVENT": For Target "
+  #START EVENT: For Target
   court_ongoing.0502.t: "$court_event_title$: зізнання у коханні"
   court_ongoing.court_start_song.start.0502.desc: "Я і придворні [ROOT.Char.Custom('LadiesLords')] гуляємо садом, коли до нас підходить [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]. Я відходжу вбік, даючи [owner.GetHerHim] дорогу, але, на мій подив, [owner.GetSheHe] перекриває мені шлях і встає на коліно!\n\nІ перш ніж я встигаю зреагувати як треба, [owner.GetTitledFirstNameNoTooltip] починає співати.\n\n"
   court_ongoing.court_start_song.bad.0502.desc: "На мій жах, [owner.GetWomanMan] переді мною не зуміє потрапити в ноти, навіть якщо від цього залежатиме [owner.GetHerHis] життя! Мені потрібен деякий час, щоб впізнати пісню: схоже, це відома [target.GetCulture.GetNameNoTooltip]а балада про кохання. [owner.GetSheHe|U] [Select_CString(owner.IsFemale, 'змінила', 'змінив' )] текст, щоб додати моє ім'я та опис моєї зовнішності, при цьому ще сильніше зламавши риму."
@@ -38,9 +34,7 @@
   court_ongoing.0502.b.incest: "Що? Ви ж [Select_CString(owner.IsFemale, 'моя', 'мій' )] #EMP [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('owner'))]#!!"
   court_ongoing.0502.b: "Припиніть ці дурниці #EMP негайно#!."
   court_ongoing.0502.a.tt: "[owner.GetShortUIName|U] намагатиметься завоювати моє серце"
-
-
-  #START EVENT": For Owner (target's reaction)"
+  #START EVENT: For Owner (target's reaction)
   court_ongoing.court_start_song.intro.0503.desc: "Мені попалася класична [target.GetCulture.GetNameNoTooltip]а балада про кохання, і [target.GetFirstName] цілком їй відповідає! Я раз за разом повторюю її — все має бути ідеально!\n\nЯ бачу, що [Select_CString(target.IsFemale, 'моя', 'мій' )] [target.Custom('LoverPetName')] прогулюється в саду в оточенні друзів. Моє серце б'ється як шалене, коли я опускаюся перед [Select_CString(target.IsFemale, 'нею', 'ним' )] на коліно та співаю."
   court_ongoing.court_start_song.success.0503.desc: "\n\n[target.GetFirstNameNoTooltip] червоніє, мов гранат, але не перериває мене. [target.GetHerHis|U] супутники виглядають задоволеними, а на деяких обличчях читаються ревнощі. Напевно, це хороший знак!\n\n«У вас чудовий голос, [ROOT.Char.GetLadyLord]», — каже [target.GetFirstNameNoTooltip], а потім поспіхом йде. [target.GetHerHis|U] друзі швидко дотримуються [Select_CString(target.IsFemale, 'її', 'його' )] прикладу. Я підводжуся, спостерігаючи, як вони зникають за кущами. Моє серце б'ється ще частіше, а коліна тремтять."
   court_ongoing.court_start_sneaky_love_letter.intro.0503.desc: "Моє освідчення в коханні може бачити лише одна людина — [target.GetTitledFirstName]. Що мені до решти?! Сторінка за сторінкою я виливаю душу і втілюю почуття в словах. Чорнило не встигають засохнути, а я вже мчусь до [target.GetHerHis] покоїв.\n\nАкуратно кладу листа в узголів'я. Чи насниться [target.GetHerHim] сьогодні про мене сон?"
@@ -58,8 +52,6 @@
   court_ongoing.0503.a: "[target.GetFirstNameNoTooltip] не зможе довго опиратися моїм чарам!"
   court_ongoing.0503.a.tt: "Мої любовні підступи, метою яких є [target.GetShortUIName], продовжаться"
   court_ongoing.0503.b: "А мені здавалося, що ми створені один для одного..."
-
-
   #Someone farted! by Mathilda Bjarnehed
   court_ongoing.1000.t: "$court_event_title$ непристойний запах"
   court_ongoing.1000.desc: "Мені вдалося добути запрошення на бенкет, і ось переді мною [location.GetNameNoTooltip]. Незабаром мене саджають за стіл — поруч зі мною буде [target.GetFirstName]. Незважаючи на мою завзятість, зав'язати розмову не вдається. Здається, через мій натиск співрозмовник просто не може підібрати слів.\n\nІ раптом хтось за нашим столом пердить з нелюдською силою! [target.GetFirstNameNoTooltip] завмирає під чужими поглядами. [target.GetHerHis|U] слід рятувати!"
@@ -71,22 +63,18 @@
   court_ongoing.1000.b.failure: "[target.GetFirstNameNoTooltip] дуже шкодує, що [scapegoat.GetTitledFirstNameNoTooltip] [Select_CString(scapegoat.IsFemale, 'опинилася', 'опинився' )] в такому становищі"
   court_ongoing.1000.b.tt: "Наслідки залежать від того, наскільки [target.GetFirstNameNoTooltip] вміє співчувати іншим"
   court_ongoing.1000.c: "Можливо, краще буде промовчати..."
-
   #Defend their honor through duel or diplomacy, by Mathilda Bjarnehed
   court_ongoing.1010.t: "$court_event_title$[Select_CString(target.IsFemale, 'гідна', 'гідний' )] [target.GetLadyLord]"
   court_ongoing.1010.desc: "«[insulter.GetFaith.HighGodName], [target.GetTitledFirstName] — цілковито [Select_CString(target.IsFemale, 'нестерпна', 'нестерпний' )] [target.Custom('InsultNoun')]! Знаєш, як [target.GetSheHe] [target.Custom('quirk_neg_present')]? Просто сміхотворно!»\n\n[insulter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] відкидає голову і заливається злісним сміхом.\n\n[target.GetFirstNameNoTooltip] продовжує розмову з друзями, але явно все чує. Мені не подобається, коли [target.GetHerHis] зачіпають."
   court_ongoing.1010.a: "Нахабна брехня! Оголюй меч, [insulter.Custom('InsultNoun')]!"
   court_ongoing.1010.b: "[target.GetLadyLord] заслуговує на вибачення."
   court_ongoing.1010.c: "Ох, [target.GetFirstNameNoTooltip]. [insulter.GetSheHe|U] жорстоко помиляється!"
-
   court_ongoing.1010.a.success: "[insulter.GetFirstNameNoTooltip] [Select_CString(insulter.IsFemale, 'переможена', 'переможений' )] вами на дуелі"
   court_ongoing.1010.a.failure: "[insulter.GetFirstNameNoTooltip] перемагає вас"
   court_ongoing.1010.b.success: "[insulter.GetFirstNameNoTooltip] погоджується вибачитися перед вами"
   court_ongoing.1010.b.failure: "[insulter.GetFirstNameNoTooltip] відмовляється слухати"
-
   court_ongoing.1011.desc: "[insulter.GetTitledFirstName] з глузливою усмішкою оголює клинок. О, з яким задоволенням я зітру цю посмішку у [Select_CString(insulter.IsFemale, 'неї', 'нього' )] з фізіономії!\n\nПісля дуелі [insulter.GetTitledFirstNamePossessiveNoTooltip] цілковито [Select_CString(insulter.IsFemale, 'принижена', 'принижений' )]. [Select_CString(insulter.IsFemale, 'Побита', 'Побитий' )], з червоними від сорому щоками, [insulter.GetSheHe] випльовує вибачення і шкутильгає геть зализувати рани.\n\n[target.GetTitledFirstName] сяє як сонце: «Ти справжній герой, [ROOT.Char.GetTitledFirstNameNoTooltip]! Прийми мою вічну подяку!»"
   court_ongoing.1011.a: "Для мене це честь, [target.GetLadyLord] [target.GetFirstNameNoTooltip]."
-
   #Fetch gift, by Mathilda Bjarnehed
   court_ongoing.1021.t: "Доказ відданості"
   court_ongoing.1021.desc: "«[target.GetLadyLord|U] [target.GetFirstName]! [Select_CString(target.IsFemale, 'Моя', 'Мій' )] [target.Custom('RomanticComplimentAdjective')][Select_CString(target.IsFemale, 'а', 'ий' )] [target.Custom('RomanticComplimentNoun')]!»\n\n[owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] схиляє коліна в пилюці переді мною, поклавши руку на серце: «Я мрію лише подарувати вам щастя та покрити славою ваше ім'я. Благаю, скажіть, як я можу довести своє кохання?»"
@@ -104,8 +92,7 @@
   court_ongoing.1021.orchid.success: "[owner.GetShortUINameNoTooltip] дарує вам рідкісну орхідею"
   court_ongoing.1021.orchid.failure: "[owner.GetShortUINameNoTooltip] відмовляється дарувати вам орхідею"
   court_ongoing.1021.x: "Досить! Це божевілля має скінчитися!"
-
-  #GIFT": wolf Pelt, by Mathilda Bjarnehed"
+  #GIFT: wolf Pelt, by Mathilda Bjarnehed
   court_ongoing.1022.t: "$court_event_title$ Сірий"
   court_ongoing.1022.start.desc: "«[Select_CString(target.IsFemale, 'Найдорожча', 'Найдорожчий' )] [target.GetLadyLord] [target.GetFirstName]! — Я із зітханням схиляю перед [Select_CString(target.IsFemale, 'нею', 'ним' )] коліна. — Я мрію лише подарувати вам щастя та покрити славою ваше ім'я. Благаю, скажіть, як я можу довести своє кохання?»\n\n"
   court_ongoing.1022.end.desc: "[target.GetTitledFirstNameNoTooltip] запинається, [target.GetHerHis] щоки червоніють. [ROOT.Char.GetFaith.HighGodName], сподіваюся, [target.GetSheHe] мовчить, сповнившись радості, а не [Select_CString(target.IsFemale, 'її', 'його' )] заціпило від збентеження!\n\n«Вбий вовка, принеси мені його шкуру, і ми продовжимо розмову»."
@@ -121,15 +108,12 @@
   court_ongoing.1022.c.master_of_hunt.success.tt: "You acquire a pelt at no cost, and no risk to you."
   court_ongoing.1022.c.master_of_hunt.failure: "[master_of_hunt.GetFirstNameNoTooltip] finds a wolf pelt to purchase"
   court_ongoing.1022.d: "«Мені шкода, але я не можу цього зробити»"
-
   court_ongoing.1023.desc: "З моєї псарні зник один з моїх улюблених собак. Минулої ночі ловчі вирушили на пошуки, але повернулися з порожніми руками. «Не уявляю, як [dog_gender.GetHerHim] вдалося вибратися», — зітхає [Select_CString(dummy_gender.IsFemale, 'сивоволоса', 'сивоволосий' )] [dummy_gender.GetWomanMan]. «Собака не вміє відчиняти ворота…»\n\n«[ROOT.Char.GetLadyLord] [ROOT.Char.GetFirstNameNoTooltip]!» Я обертаюсь. Переді мною з широкою посмішкою стоїть [owner.GetTitledFirstNamePossessive]. У руках у [Select_CString(target.IsFemale, 'неї', 'нього' )] лискуча шкура…"
   court_ongoing.1023.a: "Залиште мене. Мені треба подумати..."
   court_ongoing.1023.b: "Вбивця! Бачити тебе більше не бажаю!"
-
   court_ongoing.1024.desc: "Під покровом ночі я пробираюся на псарню і невдовзі бачу ідеальну жертву. «Іди сюди, звірятко», — шепочу я, розмахуючи соковитою ковбасою перед твариною, яка нічого не підозрює…\n\nАле коли [target.GetTitledFirstName] бачить шкуру в моїх руках, відбувається щось непередбачуване. Я розумію, що [target.GetSheHe] все [Select_CString(target.IsFemale, 'зрозуміла', 'зрозумів' )]. «Ти… вбивця! Цей собака був мені як дитя!»"
   court_ongoing.1024.a: "Я... Гадки не маю, про що ви!"
-
-  #GIFT": PET, by Mathilda Bjarnehed"
+  #GIFT: PET, by Mathilda Bjarnehed
   court_ongoing.1030.t: "$court_event_title$ Гарний господар собаку не вижене"
   court_ongoing.1030.desc: "Зовні ллє як із відра. [Select_CString(target.IsFemale, 'Моя', 'Мій' )] [target.Custom('ComplimentAdjective')][Select_CString(target.IsFemale, 'а', 'ий' )] [target.GetTitledFirstName] дивиться в каламутне вікно та зітхає.\n\n«Часом [location.GetNameNoTooltip] гнітить мене. І нема кому скрасити мені ці довгі похмурі дні...»"
   court_ongoing.1030.a: "Розумна кішка подарує [target.GetHerHim] щастя."
@@ -139,14 +123,11 @@
   court_ongoing.1030.b.success: "[target.GetShortUINameNoTooltip] у захваті від собаки"
   court_ongoing.1030.b.failure: "[target.GetShortUINameNoTooltip] не в захваті від собаки"
   court_ongoing.1030.c: "«Не бійся, я завжди буду поруч!»"
-
   court_ongoing.1031.start.desc: "«Я довго [Select_CString(ROOT.Char.IsFemale, 'думала', 'думав' )], [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom('LoverPetName')], — каже [owner.GetTitledFirstName] і обережно ставить мені на стіл кошик. — Хто стане відповідним товаришем для такої вірної, енергійної та товариської людини, як ти? І тут мене осяяло: собака і тільки собака!»\n\n[owner.GetFirstNameNoTooltip|U] знімає з кошика покривало, під яким ховається крихітне щеня! У веселому збудженні той стрибає до мене, спіткнувшись об край кошика."
   court_ongoing.1031.a: "Ой який! Я тебе нікуди не відпущу!"
   court_ongoing.1031.b: "Це… вельми несподівано."
-
   court_ongoing.1032.desc: "«Я довго [Select_CString(ROOT.Char.IsFemale, 'думала', 'думав' )], [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom('LoverPetName')], — каже [owner.GetTitledFirstName] і обережно ставить мені на стіл кошик. — Хто може стати ідеальним товаришем для такої розумної та незалежної людини, як ти? І тут мене осяяло: кішка і тільки кішка!»\n\n[owner.GetFirstNameNoTooltip|U] знімає з кошика покривало, під яким ховається крихітне кошеня.! Воно дивиться на мене величезними очима і починає пирхати."
-
-  #GIFT": Necklace, by Mathilda Bjarnehed"
+  #GIFT: Necklace, by Mathilda Bjarnehed
   court_ongoing.1040.t: "$court_event_title$ Блиск золота"
   court_ongoing.1040.end.desc: "[target.GetFirstNameNoTooltip] дивиться на мене тривалим поглядом. «[necklace_owner.GetLadyLord|U] [necklace_owner.GetFirstNamePossessiveNoTooltip] [Select_CString(necklace_owner.IsFemale, 'роздобула', 'роздобув' )] собі миле намисто, — каже [target.GetFirstNameNoTooltip] і кивком вказує туди, де стоїть [necklace_owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U]. — Але на моїй шиї воно виглядало б ще гарніше.»"
   court_ongoing.1040.a: "Замовити копію намиста."
@@ -154,13 +135,12 @@
   court_ongoing.1040.c: "Вкрасти його."
   court_ongoing.1040.c.success: "Вам вдається винести намисто"
   court_ongoing.1040.c.failure: "Вас знаходять у покоях, де проживає [necklace_owner.GetFirstNamePossessiveNoTooltip]"
-
   court_ongoing.1040.d: "[target.GetFirstNamePossessiveNoTooltip], у вас чудовий смак."
-
-  #GIFT": Flower, by Mathilda Bjarnehed"
+  #GIFT: Flower, by Mathilda Bjarnehed
   court_ongoing.1050.t: "$court_event_title$ Рідкісна квітка"
   court_ongoing.1050.start.desc: "[Select_CString(target.IsFemale, 'Моя', 'Мій' )] [target.Custom('LoverPetName')] і я прогулюємося в саду, і я вказую на навколишню зелень: «При всій красі немає жодної квітки, здатної затьмарити вас, [target.GetLadyLord]».\n\n«Одна таки є, — каже [target.GetSheHe] з хитрою посмішкою. —Рідкісна орхідея, яку приховує [orchid_origin.GetNameNoTierNoTooltip]. Її майже неможливо виростити у саду."
   court_ongoing.1050.monastery.desc: "Руїни монастиря у володінні [orchid_location.GetNameNoTooltip] — єдине місце у цих землях, де вона росте»."
+  court_ongoing.1050.temple.desc: "The abandoned [target_host.GetFaith.HouseOfWorship] garden in [orchid_location.GetNameNoTooltip] is the only place where it thrives in these regions.\""
   court_ongoing.1050.a: "Певно, я знайду торговця, готового продати мені квітку."
   court_ongoing.1050.b: "«Заради вас я вирушу до руїн!»"
   court_ongoing.1050.b.success: "Ви знаходите орхідею серед руїн"
@@ -176,9 +156,6 @@
   court_ongoing.1050.d: "«Поговорюють, ці руїни прокляті...»"
   court_ongoing.1050.e: "«Безперечно, всі вони тьмяніють на тлі вашого прекрасного обличчя!»"
   court_ongoing.1050.f: "«Можливо, одного разу я її побачу»."
-
-
-
   #COMPLIMENT POEM, by Mathilda Bjarnehed
   court_ongoing.1100.t: "$court_event_title$ Поетична вільність"
   court_ongoing.1100.desc: "[target.GetTitledFirstName] — [Select_CString(target.IsFemale, 'найпрекрасніша', 'чарівний' )] з людей! В [target.GetHerHis] присутності часто не можу підібрати слова — будь-які компліменти здаються занадто грубими. Можливо, підкреслити [target.GetHerHis] чесноти вдасться у поетичній формі?\n\nОпишу [target.GetHerHis]…"
@@ -186,7 +163,6 @@
   court_ongoing.1100.success.tt: "[target.GetFirstNameNoTooltip] реагує позитивно"
   court_ongoing.1100.neutral.tt: "[target.GetFirstNameNoTooltip] не реагує"
   court_ongoing.1100.failure.tt: "[target.GetFirstNameNoTooltip] реагує негативно"
-
   court_ongoing.1100.compassionate: "Велике та добре серце."
   court_ongoing.1100.bold: "Люту безстрашність."
   court_ongoing.1100.honorable: "Доброчесність та благородство."
@@ -200,22 +176,17 @@
   court_ongoing.1100.extroverted: "Чарівні манери."
   court_ongoing.1100.dominant: "Наполегливість."
   court_ongoing.1100.fallback: "Поезія — не моя сильна сторона."
-
   court_ongoing.1101.t: "Одержувач: [target.Custom('RomanticComplimentAdjective')][Select_CString(target.IsFemale, 'а', 'ий' )] [target.GetTitledFirstNameNoTooltip],"
   court_ongoing.1101.desc: "[owner.Custom2('love_letter_compliment_system', SCOPE.sC('target'))]"
   court_ongoing.1101.a.good: "[owner.GetSheHe|U] [Select_CString(owner.IsFemale, 'передала', 'передав' )] на цьому пергаменті саму мою сутність!"
   court_ongoing.1101.a.bad: "Як дивно! Та... чарівно."
   court_ongoing.1101.c.good: "Як пихато."
   court_ongoing.1101.c.bad: "[owner.GetSheHe] що, хоче мене образити?!"
-
   court_ongoing.1102.t: "Одержувач: [owner.Custom('RomanticComplimentAdjective')][Select_CString(owner.IsFemale, 'а', 'ий' )] [owner.GetTitledFirstNameNoTooltip],"
   court_ongoing.1102.desc: "[target.Custom2('love_letter', SCOPE.sC('owner'))]"
   court_ongoing.1102.a: "[target.GetSheHe|U], мабуть, [Select_CString(target.IsFemale, 'оцінила', 'оцінив' )] мої вірші!"
-
   court_ongoing.1103.t: "[target.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
   court_ongoing.1103.a: "[target.GetSheHe] що... знущається?"
-
-
   #Dealing with competition, by Mathilda Bjarnehed
   court_ongoing.1110.t: "$court_event_title$ Суперництво"
   court_ongoing.1110.desc: "Останнім часом щоразу, коли я і [target.GetFirstName] намагаємося зустрітися, з'являється [competitor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] і все псує! [competitor.GetSheHe|U] слідує за [Select_CString(target.IsFemale, 'нею', 'ним' )], немов загублене щеня. [competitor.GetHerHis|U] спроби справити враження виглядають смішними, але я побоююся, що [competitor.GetHerHis] наполегливість може бути винагороджено."
@@ -236,7 +207,6 @@
   court_ongoing.1111.duel_failure.desc: "[owner.GetTitledFirstNameNoTooltip] не в захваті від знаків уваги, що виявляє [competitor.GetFirstNameNoTooltip]. [owner.GetSheHe|U] [Select_CString(owner.IsFemale, 'викликала', 'викликав' )] [Select_CString(competitor.IsFemale, 'її', 'його' )] на двобій! До мого приходу все було скінчено: [competitor.GetTitledFirstNameNoTooltip] [Select_CString(competitor.IsFemale, 'святкувала', 'святкував' )] перемогу над поваленим ворогом."
   court_ongoing.1111.poison_success.desc: "Але сьогодні за вечерею [competitor.GetTitledFirstNameNoTooltip] [Select_CString(competitor.IsFemale, 'випила', 'випив' )] занадто багато і [Select_CString(competitor.IsFemale, 'її', 'його' )] знудило прямо на мій одяг! Не витрачаючи жодної секунди, [owner.GetTitledFirstNameNoTooltip] [Select_CString(owner.IsFemale, 'прийшла', 'прийшов' )] мені на допомогу та [Select_CString(owner.IsFemale, 'врятувала', 'врятував' )] від цього неподобства."
   court_ongoing.1111.poison_failure.desc: "Тепер [competitor.GetTitledFirstNameNoTooltip] каже мені, що [owner.GetTitledFirstNameNoTooltip] [Select_CString(owner.IsFemale, 'збожеволіла', 'збожеволів' )] від ревнощів і [Select_CString(owner.IsFemale, 'намагалася', 'намагався' )] отруїти [competitor.GetHerHis]!"
-
   court_ongoing.1111.a.success: "О [owner.GetTitledFirstNameNoTooltip]! Який героїзм!"
   court_ongoing.1111.a.duel_failure: "[Select_CString(owner.IsFemale, 'Бідна', 'Бідний' )] [owner.GetTitledFirstNameNoTooltip]! Дозвольте мені подбати про ваші рани."
   court_ongoing.1111.a.poison_failure: "[owner.GetTitledFirstNameNoTooltip] нізащо б не [Select_CString(owner.IsFemale, 'стала', 'став' )] вдаватися до таких низьких хитрощів!"
@@ -247,25 +217,18 @@
   court_ongoing.1111.c.duel_failure: "О [competitor.GetTitledFirstNameNoTooltip]! Ви такі відважні!"
   court_ongoing.1111.c: "[Select_CString(competitor.IsFemale, 'Бідна', 'Бідний' )] [competitor.GetTitledFirstNameNoTooltip]! Моє серце болить за вас!"
   court_ongoing.1111.d: "Як ви всі мені набридли!"
-
   court_ongoing.1112.desc: "[competitor.GetTitledFirstName] нічого не [Select_CString(competitor.IsFemale, 'могла', 'міг' )] протиставити моїй потужності! [competitor.GetHerHis|U] поразка була швидкою і принизливою, і [Select_CString(target.IsFemale, 'моя', 'мій' )] [target.Custom('LoverPetName')] [target.GetFirstName] [Select_CString(target.IsFemale, 'бачила', 'бачив' )] все — від і до! [target.GetSheHe|U] більше не звертає на [Select_CString(competitor.IsFemale, 'неї', 'нього' )] уваги."
   court_ongoing.1112.a: "Ще один ворог повалений!"
-
   court_ongoing.1113.desc: "Схоже, [competitor.GetTitledFirstName] куди здатніше, ніж мені здавалося, і моя поразка від [competitor.GetHerHis] руки виявилося однаково болючим і принизливим. Тішить лише, що [target.GetTitledFirstName] не [Select_CString(target.IsFemale, 'бачила', 'бачив' )] цього."
   court_ongoing.1113.a: "Давайте забудемо про це..."
   court_ongoing.1113.b: "Я ще помщу, пом'яніть моє слово!"
-
   court_ongoing.1114.desc: "Ніщо не приносить такого задоволення, як ідеально виконаний план!\n\nМені вдалося непомітно додати отруту в келих, з якого [Select_CString(competitor.IsFemale, 'пила', 'пив' )] [competitor.GetTitledFirstName], і видовище, що послідувало за цим, свідки забудуть ще нескоро. [competitor.GetHerHis|U] знудило, та так вдало, що [target.Custom('GetClothingArticle')], що носить [target.GetFirstName], тепер навряд чи вдасться очистити, і [target.GetSheHe] [Select_CString(target.IsFemale, 'була вдячна', 'був вдячний' )] за моє швидке втручання та порятунок від цього неподобства."
   court_ongoing.1114.a: "[target.GetSheHe|U] більше на [Select_CString(competitor.IsFemale, 'неї', 'нього' )] і не погляне!"
-
-
   court_ongoing.1115.desc: "Виявилося, що [competitor.GetTitledFirstName] куди уважніше, ніж мені здавалося. [competitor.GetSheHe|U] [Select_CString(competitor.IsFemale, 'піймала', 'піймав' )] мене на гарячому за спробою підсипати отруту в [competitor.GetHerHis] келих, і в ту саму секунду всім про це [Select_CString(competitor.IsFemale, 'повідомила', 'повідомив' )]!"
   court_ongoing.1115.a: "Все не так, як здається..."
-
   court_ongoing.1116.desc: "Фінальна частина мого плану пройшла бездоганно. Ніхто не побачив, як я підсипаю отруту в келих, з якого [Select_CString(competitor.IsFemale, 'пила', 'пив' )] [competitor.GetTitledFirstName]. Але, схоже, отрута виявилася сильнішою, ніж було потрібно.\n\nЛедь [competitor.GetFirstNameNoTooltip] [Select_CString(competitor.IsFemale, 'осушила', 'осушив' )] напій, як відразу [Select_CString(competitor.IsFemale, 'стала', 'став' )] задихатися! І перш ніж хтось встиг зрозуміти, що відбувається, [competitor.GetFirstNameNoTooltip] [Select_CString(competitor.IsFemale, 'впала', 'впав' )] на підлогу — мертвіше нема куди."
   court_ongoing.1116.a: "Принаймні, [competitor.GetSheHe] більше не буде набридати своїми залицяннями."
-
-  # Boring party guest
+  #Boring party guest
   court_ongoing.1120.t: "$court_event_title$ $court_ongoing.1121.t$"
   court_ongoing.1120.desc: "Я прибуваю на танці, щоб [target.GetTitledFirstName] і я могли провести більше часу разом. Моє серце вистрибує з грудей від однієї тільки думки про те, що ми зможемо доторкнутися руками! Але після прибуття я помічаю, як [target.GetHerHim] набридає [unpleasant_guest.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].\n\n[Select_CString(unpleasant_guest.IsFemale, 'Ця', 'Цей' )] [unpleasant_guest.Custom('InsultAdjective')] [unpleasant_guest.GetWomanMan] все бубонить і бубонить, не помічаючи, що [target.GetFirstNameNoTooltip] від цього тільки бентежиться."
   court_ongoing.1120.a: "Зараз #EMP «відволікання»#! буде дуже доречним."
@@ -274,8 +237,6 @@
   court_ongoing.1120.c: "Я займу [target.GetHerHis] місце. Краще страждати мені, а не [target.GetHerHim]."
   court_ongoing.1120.d: "«Досить! Хіба ви не бачите, що [target.GetLadyLord] скоро помре від нудьги?!»"
   court_ongoing.1120.e: "Я і близько не підійду до [Select_CString(unpleasant_guest.IsFemale, 'цієї жінки', 'цього чоловіка' )]!"
-
-
   court_ongoing.1121.t: "Неприємні люб'язності"
   court_ongoing.1121.start.desc: "Надсилаючи запрошення на бал, я [Select_CString(ROOT.Char.IsFemale, 'розраховувала', 'розраховував' )] провести вечір у хорошій компанії та розважитися. Замість цього [unpleasant_guest.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(unpleasant_guest.IsFemale, 'втягнула', 'втягнув' )] мене в зовсім жахливу бесіду...\n\n"
   court_ongoing.1121.diplomacy.desc: "«Добрий вечір», — вимовляє знайомий голос, і в розмову вступає [owner.GetTitledFirstName]. [owner.GetSheHe|U] уважно слухає, і незабаром [unpleasant_guest.GetFirstNameNoTooltip] перемикає всю увагу на [Select_CString(owner.IsFemale, 'неї', 'нього' )]. Я можу спокійно піти."
@@ -292,8 +253,6 @@
   court_ongoing.1121.c.failure: "[unpleasant_guest.GetShortUIName|U] [Select_CString(bird_sender.IsFemale, 'ображена', 'ображений' )]"
   court_ongoing.1121.d: "[ROOT.Char.GetTitleAsNameNoTooltip] може приділити час кожному. Нехай [owner.GetFirstNameNoTooltip] знає про це."
   court_ongoing.1121.e: "Я не проведу тут ні секунди довше, ніж треба!"
-
-
   #EXTREME REQUEST — CHOOSE, by Linnéa Thimrén
   court_ongoing.1201.t: "Прохання"
   court_ongoing.1201.desc: "«[target.GetLadyLord|U] [target.GetFirstName], дозвольте мені довести свою відданість вам будь-яким завгодно вам способом!» — [owner.GetTitledFirstName] благає мене перевірити [owner.GetHerHis] вірність — будь-яким випробуванням на мій смак. Я накажу [owner.GetHerHim] кілька днів утримуватися від..."
@@ -303,7 +262,6 @@
   court_ongoing.1201.b: "Їжі — нехай ваша любов до мене підтримує вас!"
   court_ongoing.1201.b_success: "[owner.GetSheHe|U] доводить свою відданість"
   court_ongoing.1201.c: "У мене немає жодного бажання [owner.GetHerHis] перевіряти."
-
   #EXTREME REQUEST — SLEEP, by Linnéa Thimrén
   court_ongoing.1211.t: "$court_event_title$ Прохання"
   court_ongoing.1211.desc_opening: "«[target.GetLadyLord|U] [target.GetFirstName], дозвольте мені довести вам свою відданість будь-яким завгодно вам способом!»\n\n[target.GetFirstNameNoTooltip] якийсь час роздумує над моїм проханням, а потім [target.GetHerHis] обличчя просвітлюється."
@@ -316,18 +274,13 @@
   court_ongoing.1211.b.success: "Ніхто не помітив каверзи"
   court_ongoing.1211.b.failure: "[target.GetSheHe|U] помічає обман"
   court_ongoing.1211.c: "Я не буду цього робити."
-
   court_ongoing.1212.desc: "Сонце сходить після ще однієї ночі гарного сну, і я не можу не відчувати подяку за те, що [owner.GetTitledFirstName] стоїть біля дверей моїх покоїв, оберігаючи мій сон."
   court_ongoing.1212.a: "Мій відважний вартовий!"
-
   court_ongoing.1213.desc: "Вже провалюючись у сон, посеред ночі, я раптом чую гучний #EMP стукіт#!! Виглянувши через двері своїх покоїв, я бачу, що це [owner.GetTitledFirstName] спить, розтягнувшись на підлозі."
   court_ongoing.1213.a: "Мій відважний страж..."
-
   court_ongoing.1214.desc: "\n\nЯ навіть кілька разів підглядаю з-за дверей, і щоразу бачу, як [owner.GetSheHe] стоїть прямо без єдиного руху."
-
   court_ongoing.1215.desc: "Вже провалюючись у сон, посеред ночі, я раптом чую гучний #EMP стукіт#!! Виглянувши за двері, я бачу плащ, який зазвичай носить [owner.GetTitledFirstName], і мітлу, що валяється на підлозі."
   court_ongoing.1215.a: "[owner.GetSheHe|U] [Select_CString(owner.IsFemale, 'намагалася', 'намагався' )] мене обдурити!"
-
   #EXTREME REQUEST — FOOD, by Linnéa Thimrén
   court_ongoing.1221.desc: "«Ви повинні годувати себе лише почуттям любові до мене протягом багатьох днів»."
   court_ongoing.1221.a: "Моя відданість дозволить мені протриматися!"
@@ -335,12 +288,9 @@
   court_ongoing.1221.a.failure: "Ви піддаєтеся бажанням свого тіла"
   court_ongoing.1221.b: "Ні крихти їжі не торкнеться моїх губ!"
   court_ongoing.1221.b.tt: "Але проковтнути шматочок я не відмовлюся — або навіть шматок..."
-
   court_ongoing.1222.desc: "[owner.GetTitledFirstName]з кожним днем виглядає все більш [Select_CString(owner.IsFemale, 'змарнілою', 'змарнілим' )], але хоч [owner.GetHerHis] тіло в'яне, [owner.GetHerHis] воля і вірність залишаються непохитними.\n\nЯ знаходжу [owner.GetHerHis], щоб оголосити про [owner.GetHerHis] перемозі у випробуванні, та [owner.GetSheHe] насамперед знову запевняє мене у своїй вірності."
   court_ongoing.1222.a: "[Select_CString(owner.IsFemale, 'Моя вірна', 'Мій вірний' )] [owner.GetLadyLord]!"
-
   court_ongoing.1223.desc: "[owner.GetTitledFirstName] з кожним днем виглядає все більш [Select_CString(owner.IsFemale, 'змарнілою', 'змарнілим' )]."
   court_ongoing.1223.desc_ending: "Але коли я шукаю [owner.GetHerHis], щоб оголосити про [owner.GetHerHis] перемозі, то знаходжу в коморі, [Select_CString(owner.IsFemale, 'усипаною', 'усипаним' )] крихтами! Гірше того, [Select_CString(owner.IsFemale, 'вона', 'він' )] доїдає цілу голівку сиру!"
   court_ongoing.1223.a: "Бачу, ви знайшли інше джерело сил..."
-
   court_ongoing.1225.desc: "[owner.GetTitledFirstName], схоже, чесно тримає піст, але коли я збираюся висловити своє здивування та захоплення, я раптом розумію, як [owner.GetHerHim] вдається терпіти позбавлення.\n\n[owner.GetHerHis|U] плащ набитий їжею! Судячи з сорому на [owner.GetHerHis] обличчі, я не мав би цього бачити..."

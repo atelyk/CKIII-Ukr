@@ -1,7 +1,6 @@
 ﻿l_english:
   cn_konstantiniyye: "Константініє"
   cn_konstantiniyye_adj: "Константінійськ"
-
   cn_bratislava: "Братислава"
   cn_bratislava_adj: "Братиславськ"
   cn_pressburg: "Пресбург"
@@ -42,13 +41,11 @@
   cn_koknese_adj: "Кокнеськ"
   cn_gerzika: "Герцика"
   cn_gerzika_adj: "Герцикськ"
-
   cn_gardinas: "Гардінас"
   cn_gardinas_adj: "Гардінаськ"
   cn_krolewiec: "Крулевец"
   cn_krolewiec_adj: "Крулевецьк"
-
-  # Britain
+  #Britain
   cn_alba: "Альба"
   cn_alba_adj: "Альбськ"
   cn_pictland: "Піктавія"
@@ -183,7 +180,6 @@
   cn_monmouth: "Monmouth"
   cn_brecknockshire: "Brecknockshire"
   cn_brecknock: "Brecknock"
-
   #Pomerania
   cn_szczecin: "Щецин"
   cn_szczecin_adj: "Щецинськ"
@@ -229,7 +225,6 @@
   cn_butow_adj: "Бютовськ"
   cn_rummelsburg: "Руммельсбург"
   cn_rummelsburg_adj: "Руммельсбурзьк"
-
   #Prussia
   cn_braniewo: "Бранево"
   cn_braniewo_adj: "Браневськ"
@@ -265,11 +260,9 @@
   cn_elbing_adj: "Ельбінзьк"
   cn_brodnica_strasburg: "Штрасбург"
   cn_brodnica_strasburg_adj: "Штрасбурзьк"
-
   #Italy
   cn_merano: "Мерано"
   cn_merano_adj: "Меранськ"
-
   #Polabia & Lubusz
   cn_polabia: "Polabia"
   cn_polabia_adj: "Polabian"
@@ -285,7 +278,6 @@
   cn_barsc_adj: "Баршцьк"
   cn_blota: "Блота"
   cn_blota_adj: "Блотськ"
-
   #Greater Poland to German
   cn_grosspolen: "Гросполен"
   cn_grosspolen_adj: "Гросполенськ"
@@ -321,7 +313,6 @@
   cn_flatow_adj: "Флатовськ"
   cn_znin: "Цнін"
   cn_znin_adj: "Цнінськ"
-
   #Rus
   cn_hrodna: "Гродно"
   cn_hrodna_adj: "Гродненськ"
@@ -597,7 +588,6 @@
   cn_sarskoye_gorodishche_adj: "Сарськ"
   cn_nizhny_novgorod: "Nizhny Novgorod"
   cn_nizhny_novgorod_adj: "Nizhegorodian"
-
   #Caspian-Pontic steppe
   cn_zaporizhia: "Запоріжжя"
   cn_zaporizhia_adj: "Запорізьк"
@@ -615,9 +605,8 @@
   cn_jedysan_adj: "Єдисанськ"
   cn_edisan: "Єдисан"
   cn_edisan_adj: "Єдисанськ"
-
   #Volga-Ural
-  #Many of those are fictional flavour names to avoid ""too russian sounding" names for some settlements when held by volga-finnic or turkic mostly
+  #Many of those are fictional flavour names to avoid "too russian sounding" names for some settlements when held by volga-finnic or turkic mostly
   cn_sirevel_e: "Сіревеле"
   cn_sirevel_e_adj: "Сіревельськ"
   cn_tumolaj: "Тумоляй"
@@ -686,7 +675,6 @@
   cn_baklana_adj: "Бакланськ"
   cn_chelab: "Челяб"
   cn_chelab_adj: "Челябськ"
-
   #Mongolia
   cn_kuznetsk: "Кузнецьк"
   cn_udinsk: "Удінськ"
@@ -701,7 +689,6 @@
   cn_eulkhe: "Еюлхе"
   cn_lena: "Лена"
   cn_angar: "Ангар"
-
   #Northern Isles
   cn_nordreyjar_article: ""
   cn_nordreyjar: "Нордрейяр"
@@ -736,7 +723,6 @@
   cn_hjaltland_adj: "Hjaltlander"
   cn_orkneyjar: "Orkneyjar"
   cn_orkneyjar_adj: "Orkneyjer"
-
   #Finland
   cn_raseborg: "Расеборг"
   cn_raseborg_adj: "Расеборзьк"
@@ -778,7 +764,6 @@
   cn_serdovol_adj: "Сердовольськ"
   cn_onegaborg: "Онегаборг"
   cn_onegaborg_adj: "Онегаборзьк"
-
   #Sweden
   cn_enkoping: "Енчепінг"
   cn_enkoping_adj: "Енчепінзьк"
@@ -808,7 +793,6 @@
   cn_skaenninge_adj: "Шеннінзьк"
   cn_vexjo: "Векше"
   cn_vexjo_adj: "Векшеськ"
-
   #Sapmi
   cn_lapland: "Лапландія"
   cn_lapland_adj: "Лапландськ"
@@ -902,7 +886,6 @@
   cn_ponoy_adj: "Понойськ"
   cn_sosnovka: "Соснівка"
   cn_sosnovka_adj: "Сосновськ"
-
   #Norway and Iceland
   cn_noregr: "Noregr"
   cn_noregr_adj: "Norwegian"
@@ -925,7 +908,6 @@
   cn_b_vardo: "Varðey"
   cn_finnmork: "Finnmörk"
   cn_island: "Ísland"
-
   #Southern Isles & Norse Scotland
   cn_katanes: "Katanes"
   cn_katanes_adj: "Katanesian"
@@ -971,7 +953,6 @@
   cn_ros_adj: "Rosian"
   cn_husavik: "Хусавік"
   cn_husavik_adj: "Хусавікськ"
-
   #Denmark
   cn_nastved: "Нествед"
   cn_nastved_adj: "Нестведськ"
@@ -991,7 +972,6 @@
   cn_abenra_adj: "Обенроськ"
   cn_apenrade: "Апенраде"
   cn_apenrade_adj: "Апенрадськ"
-
   #Britannia
   cn_bamborg: "Бамборг"
   cn_bamborg_adj: "Бамборзьк"
@@ -1115,7 +1095,6 @@
   cn_corcaigh_adj: "Коркськ"
   cn_amwythig: "Амуїтіг"
   cn_amwythig_adj: "Амуїтізьк"
-
   #Cyprus
   cn_kibris: "Кибрис"
   cn_kibris_adj: "Кибриськ"
@@ -1131,7 +1110,6 @@
   cn_kyrenia_adj: "Кіренійськ"
   cn_girne: "Гірне"
   cn_girne_adj: "Гірнськ"
-
   #Anatolia
   cn_iznik: "Ізнік"
   cn_iznik_adj: "Ізнікськ"
@@ -1571,7 +1549,6 @@
   cn_koyulhisar_adj: "Коюлхісарськ"
   cn_sadak: "Садак"
   cn_sadak_adj: "Садакськ"
-
   #Armenia
   cn_hayastan: "Айястан"
   cn_hayastan_adj: "Айястанськ"
@@ -1625,7 +1602,6 @@
   cn_ani_adj: "Анськ"
   cn_erivan: "Еріван"
   cn_erivan_adj: "Еріванськ"
-
   #Italy
   cn_sardenya_i_corsega: "Сарденья-і-Корсега"
   cn_sardenya_i_corsega_adj: "Корсо-Сарденськ"
@@ -1635,7 +1611,6 @@
   cn_sardegna_e_corsica_adj: "Корсо-Сарденськ"
   cn_ravenna: "Равенна"
   cn_ravenna_adj: "Равеннськ"
-
   #Estonia & closeby
   cn_reval: "Реваль"
   cn_reval_adj: "Ревальськ"
@@ -1663,7 +1638,6 @@
   cn_mohu: "Mõhu"
   cn_voro: "Võro"
   cn_wesenburg: "Wesenburg"
-
   #Lithuania
   cn_dobeln: "Дебельн"
   cn_dobeln_adj: "Дебельнськ"
@@ -1695,7 +1669,6 @@
   cn_ragnita_adj: "Рагнітськ"
   cn_ragaine: "Рагайне"
   cn_ragaine_adj: "Рагайнськ"
-
   #Dzungaria
   cn_qocho: "Кочо"
   cn_qocho_adj: "Кочоськ"
@@ -1731,7 +1704,6 @@
   cn_kaer_jiaozhen_adj: "Кар-Цзяочженьськ"
   cn_jumi: "Цзюймі"
   cn_jumi_adj: "Цзюймійськ"
-
   #Brittany
   cn_gwened: "Гвенет"
   cn_gwened_adj: "Гвенетськ"
@@ -1749,7 +1721,6 @@
   cn_sant_malou_adj: "Сонті-Малоуськ"
   cn_roazhon: "Руазон"
   cn_roazhon_adj: "Руазонськ"
-
   #Iberia
   cn_carthaginensis: "Карфагеніка"
   cn_carthaginensis_adj: "Карфагенікськ"
@@ -1831,11 +1802,9 @@
   cn_madinat_mayurqa: "Madīnat Mayūrqa"
   cn_madinat_al_muluk: "Madīnat al-Mulūk"
   cn_gothia: "Gothia"
-
   #Jerusalem
   cn_iskandarun: "Іскандарун"
   cn_iskandarun_adj: "Іскандарунськ"
-
   #Silesia
   cn_oppeln: "Оппельн"
   cn_oppeln_adj: "Оппельнськ"
@@ -1913,10 +1882,8 @@
   cn_sandelswalde_adj: "Зандельсвальдськ"
   cn_guben: "Губен"
   cn_guben_adj: "Губенськ"
-
   cn_lingchu: "Лінгчу"
   cn_lingchu_adj: "Лінгчуськ"
-
   #Western Balkans
   cn_zara: "Зара"
   cn_zara_adj: "Зарськ"
@@ -1942,7 +1909,6 @@
   cn_pannonia_adj: "Паннонськ"
   cn_andautonia: "Андавтонія"
   cn_andautonia_adj: "Андавтонськ"
-
   #Polabia
   cn_veletia: "Велет"
   cn_veletia_adj: "Велетськ"
@@ -2014,7 +1980,6 @@
   cn_turguo_adj: "Тургуоськ"
   cn_zemrje: "Жемрє"
   cn_zemrje_adj: "Жемрєськ"
-
   #Pomerania
   cn_ucramund: "Украмунд"
   cn_ucramund_adj: "Украмундськ"
@@ -2058,7 +2023,6 @@
   cn_berent_adj: "Берентськ"
   cn_konitz: "Коніц"
   cn_konitz_adj: "Коніцьк"
-
   #Prussia
   cn_elblag: "Ельблонг"
   cn_elblag_adj: "Ельблонзьк"
@@ -2116,7 +2080,6 @@
   cn_rastembork_adj: "Растемборкськ"
   cn_kentsynas: "Кянцінас"
   cn_kentsynas_adj: "Кянцінаськ"
-
   #Masuria
   cn_kulmas: "Кульмас"
   cn_kulmas_adj: "Кульмаськ"
@@ -2166,7 +2129,6 @@
   cn_ungura_adj: "Унгурськ"
   cn_angirburg: "Ангірбург"
   cn_angirburg_adj: "Ангірбурзьк"
-
   #Tibet & Xia
   cn_karpoyul: "Карпоюл"
   cn_karpoyul_adj: "Карпоюлськ"
@@ -2402,16 +2364,13 @@
   cn_dahaleteng_adj: "Дахалетенськ"
   cn_jianshe: "Цзяньше"
   cn_jianshe_adj: "Цзяньшеськ"
-
   #Aachen
   cn_aix_la_chapelle: "Екс-ла-Шапель"
   cn_aix_la_chapelle_adj: "Екськ"
   cn_aquisgrana: "Аквізграна"
   cn_aquisgrana_adj: "Аквізгранськ"
-
   cn_great_liao: "Великий Ляо"
   cn_great_liao_adj: "Ляо"
-
   #Northern Hungary in CZ & SL
   cn_nitra: "Нітра"
   cn_nitra_adj: "Nitran"
@@ -2473,8 +2432,7 @@
   cn_kosice_adj: "Košicean"
   cn_turna: "Турня"
   cn_turna_adj: "Turňan"
-
-  # Principality of Balaton (western Hungary)
+  #Principality of Balaton (western Hungary)
   cn_balaton: "Балатон"
   cn_balaton_adj: "Balatonian"
   cn_blatnozero: "Блатнозеро"
@@ -2517,8 +2475,7 @@
   cn_monoster_adj: "Monosterian"
   cn_siget: "Сігет"
   cn_siget_adj: "Sigetian"
-
-  # Additional polabian cultural names
+  #Additional polabian cultural names
   cn_milcenia: "Milcenia"
   cn_milcenia_adj: "Milcenian"
   cn_drjezdzany: "Drježdźany"
@@ -2541,8 +2498,7 @@
   cn_veligrad_adj: "Veligradian"
   cn_brizania: "Brizania"
   cn_brizania_adj: "Brizanian"
-
-  # Additional Slovak-Hungarian cultural names
+  #Additional Slovak-Hungarian cultural names
   cn_klodzko: "Kłodzko"
   cn_klodzko_adj: "Kłodzkoan"
   cn_trencsen: "Trencsén"
@@ -2559,8 +2515,6 @@
   cn_poprad_HUN_adj: "Poprádian"
   cn_kesmark: "Késmárk"
   cn_kesmark_adj: "Késmárkian"
-
-  #
   cn_ui_maine: "Uí Mháine"
   cn_ui_maine_adj: "Uí Mháinean"
   cn_vasterbotten: "Västerbotten"
@@ -2573,17 +2527,14 @@
   cn_ruija_adj: "Ruijan"
   cn_leporie: "Leporie"
   cn_leporie_adj: "Leporiean"
-
-  # HRE
+  #HRE
   cn_lubsko: "Lubsko"
   cn_lubsko_adj: "Lubskoan"
   cn_zemr: "Žemŕ"
-
-  # Slovenia
+  #Slovenia
   cn_gorz: "Görz"
   cn_gorz_adj: "Görzian"
-
-  # Sicily
+  #Sicily
   cn_balarm: "Balarm"
   cn_balarm_adj: "Balarmian"
   cn_qasriyana: "Qasriyana"
@@ -2594,7 +2545,6 @@
   cn_sarqusa_adj: "Sarqusan"
   cn_siqilliya: "Siqilliya"
   cn_siqilliya_adj: "Siqilliyan"
-
   cn_sezer: "Sezer"
   cn_sezer_adj: "Sezeran"
   cn_nis: "Niš"
@@ -2610,6 +2560,13 @@
   cn_canaria: "Gran-Canaria"
   cn_fuerteventura: "Fuerteventura"
   cn_lanzarote: "Lanzarote"
-
   #Guanche collective name for the Canaries (translated from the word people/state)
   cn_guanac: "Al-Guañac"
+  cn_krain: "Krain"
+  cn_krain_adj: "Krainian"
+  cn_krainburg: "Krainburg"
+  cn_krainburg_adj: "Krainburger"
+  cn_lower_lorraine: "Lower Lorraine"
+  cn_lower_lorraine_adj: "Lower Lorrainer"
+  cn_upper_lorraine: "Upper Lorraine"
+  cn_upper_lorraine_adj: "Upper Lorrainer"

@@ -2,7 +2,6 @@
   ##########
   #DRUNKARD#
   ##########
-
   #############
   #HASHISHIYAH#
   #############
@@ -38,13 +37,13 @@
   hashish_with_friend_modifier: "Medicating with Company"
   hashish_with_friend_modifier_desc: "This character is sharing their evenings with a good friend and fine hashish."
   stress_trait_ongoing.0511.t: "It Was Ever Thus"
-  stress_trait_ongoing.0511.desc: "I am enjoying a cool evening in the gardens of [hashishiyah_capital.GetNameNoTierNoTooltip], sat casually munching on a small stack of hashish-topped sweetcakes, when I suddenly feel the heavy, spittle-flecked breath of an enraged [crusty_old_person.GetTitledFirstName] on my cheek.\n\nPut down that accursed-shrub, [ROOT.GetCharacter.GetFirstNameNoTooltip], and cease clouding your mind! [crusty_old_person.GetFaith.HighGodName] did not put you on this Earth so that you could waste your time away in a stupor!"""""
+  stress_trait_ongoing.0511.desc: "I am enjoying a cool evening in the gardens of [hashishiyah_capital.GetNameNoTierNoTooltip], sat casually munching on a small stack of hashish-topped sweetcakes, when I suddenly feel the heavy, spittle-flecked breath of an enraged [crusty_old_person.GetTitledFirstName] on my cheek.\n\nPut down that accursed-shrub, [ROOT.GetCharacter.GetFirstNameNoTooltip], and cease clouding your mind! [crusty_old_person.GetFaith.HighGodName] did not put you on this Earth so that you could waste your time away in a stupor!\"\"\"\""
   stress_trait_ongoing.0511.a: "You're right! I must stop this immediately."
   stress_trait_ongoing.0511.a_flavour: "You throw the hashish cakes away"
   stress_trait_ongoing.0511.b: "<deep breath> Agreed, #EMP elder#!."
   stress_trait_ongoing.0511.b_flavour: "Eat. Every. Damned. Cake."
   stress_trait_ongoing_0516.t: "A Wandering Mi—"
-  stress_trait_ongoing_0516.desc: "—nd that is why this meeting is so important"".\n\nWuh? Oh, right, yes, the meeting with [important_guest.GetTitledFirstName]. About... Something. What #EMP were#! we talking about? [important_guest.GetSheHe|U] looks very serious about it, whatever it was.\n\nI reach out, grab another hashish-topped cake, and begin nibbling thoughtfully. [important_guest.GetFirstNameNoTooltip] raises an eyebrow at my vacant pause, and it dawns on me that maybe I've had a few #EMP too#! many cakes."""
+  stress_trait_ongoing_0516.desc: "—nd that is why this meeting is so important\"\".\n\nWuh? Oh, right, yes, the meeting with [important_guest.GetTitledFirstName]. About... Something. What #EMP were#! we talking about? [important_guest.GetSheHe|U] looks very serious about it, whatever it was.\n\nI reach out, grab another hashish-topped cake, and begin nibbling thoughtfully. [important_guest.GetFirstNameNoTooltip] raises an eyebrow at my vacant pause, and it dawns on me that maybe I've had a few #EMP too#! many cakes.\"\""
   stress_trait_ongoing.0516.a: "Yes, of course, such an important meeting..."
   stress_trait_ongoing.0516.a.tt_success: "[important_guest.GetFirstNameNoTooltip] is impressed by your calm, steady responses"
   stress_trait_ongoing.0516.a.tt_fail: "Is offended by your obvious inebriation"
@@ -52,11 +51,9 @@
   stress_trait_ongoing.0516.b_flavour: "You duck out of the meeting early and go lay down"
   stress_trait_ongoing.0516.c: "Loosen up, [important_guest.GetFirstNameNoTooltip]. Have some hashish!"
   stress_trait_ongoing.0516.c_flavour: "You have a servant bring in more cakes to share"
-
   ###########
   #RECLUSIVE#
   ###########
-
   ########
   #RAKISH#
   ########
@@ -90,31 +87,24 @@
   stress_trait_ongoing.1501.c.flavor: "#EMP Someone#! there is certain to help me get past this."
   stress_trait_ongoing.1501.d: "I should not objectify [obsession.GetFirstName] like this, it is #EMP wrong#!!"
   stress_trait_ongoing.1501.d.flavor: "This obsession is both unfair to [obsession.GetHerHim] and harmful to me."
-
   ###########
   #IRRITABLE#
   ###########
-
   ############
   #FLAGELLANT#
   ############
-
   #############
   #IMPROVIDENT#
   #############
-
   ############
   #PROFLIGATE#
   ############
-
   ##########
   #CONTRITE#
   ##########
-
   ###############
   #COMFORT EATER#
   ###############
-
   #############
   #INAPPETETIC#
   #############
@@ -126,32 +116,27 @@
   stress_trait_ongoing.4501.b.cannibal: "You develop a taste for human flesh"
   stress_trait_ongoing.4501.b.failure: "Your craving goes unsatisfied"
   stress_trait_ongoing.4501.c: "Ugh... I guess I just need to go without."
-
   stress_trait_ongoing.4502.t: "The Hunger"
   stress_trait_ongoing.4502.desc: "The past few weeks have been particularly stressful, and all I want is a nice, juicy cut of meat. A good tender cut like a loin, or maybe ribs?\n\nMy mouth salivates at the thought, and I know I can't hold back the hunger. Not this time."
   stress_trait_ongoing.4502.a: "It's not like anyone will miss [prisoner.GetTitledFirstName]."
   stress_trait_ongoing.4502.b: "[courtier.GetTitledFirstName] has it coming to [courtier.GetHerHim], anyway..."
   stress_trait_ongoing.4502.c: "Time for a trip down to [hapless_village.GetNameNoTier]!"
-
   stress_trait_ongoing.5001.t: "Feast of Intentions"
-  stress_trait_ongoing.5001.desc: "Come with me [ROOT.Char.GetTitledFirstName]; I have a surprise for you! [giver.Custom2('MyCharacterIntroduction', ROOT.Char)] says excitedly.""I noticed you haven't been eating well, so I spent weeks seeking out the rarest delicacies I could find!""""\n\nFollowing [giver.GetHerHim] into the banquet hall, I see a table piled with a wide variety of gourmet dishes. [ROOT.Char.Custom('GetExpensiveMeal')|U] and [ROOT.Char.Custom('GetExpensiveMealAlt')]... [ROOT.Char.Custom('GetExpensiveDessert')]... the smell alone makes my stomach turn.\n\n""""Well? Dig in, my [ROOT.Char.GetLadyLord]!"""""""""""
-  stress_trait_ongoing.5001.a: "It is, uh... really good. Mmm. So tasty."""""
+  stress_trait_ongoing.5001.desc: "Come with me [ROOT.Char.GetTitledFirstName]; I have a surprise for you! [giver.Custom2('MyCharacterIntroduction', ROOT.Char)] says excitedly.\"\"I noticed you haven't been eating well, so I spent weeks seeking out the rarest delicacies I could find!\"\"\"\"\n\nFollowing [giver.GetHerHim] into the banquet hall, I see a table piled with a wide variety of gourmet dishes. [ROOT.Char.Custom('GetExpensiveMeal')|U] and [ROOT.Char.Custom('GetExpensiveMealAlt')]... [ROOT.Char.Custom('GetExpensiveDessert')]... the smell alone makes my stomach turn.\n\n\"\"\"\"Well? Dig in, my [ROOT.Char.GetLadyLord]!\"\"\"\"\"\"\"\"\"\""
+  stress_trait_ongoing.5001.a: "It is, uh... really good. Mmm. So tasty.\"\"\"\""
   stress_trait_ongoing.5001.a.flavor: "I will eat the meal, but only to be polite."
-  stress_trait_ongoing.5001.b: "You shouldn't have... no, really. #EMP Servants!#! Take this away."""""
+  stress_trait_ongoing.5001.b: "You shouldn't have... no, really. #EMP Servants!#! Take this away.\"\"\"\""
   stress_trait_ongoing.5001.c.dog: "Feign eating, but feed it all to [ROOT.Char.Custom('DogStoryName')] under the table."
   stress_trait_ongoing.5001.c.cat: "Feign eating, but feed it all to [ROOT.Char.Custom('CatStoryName')] under the table."
   stress_trait_ongoing.5001.c.no_pet: "Feign eating, but feed it all to a dog under the table."
   stress_trait_ongoing.5001.c.success: "[giver.GetTitledFirstName] thinks I enjoyed the meal"
   stress_trait_ongoing.5001.c.failure: "[giver.GetTitledFirstName] notices that I did not eat the food"
-
   ############
   #JOURNALLER#
   ############
-
   ##########
   #CONFIDER#
   ##########
-
   ##########
   #ATHLETIC#
   ##########

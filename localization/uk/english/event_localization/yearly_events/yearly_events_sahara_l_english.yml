@@ -7,14 +7,12 @@
   yearly_saharan.0001.b: "Ви можете проходити моїми землями, але не більше."
   yearly_saharan.0001.c: "[source_county.GetProvince.GetCounty.GetFaith.GetAdherentNamePluralNoTooltip] відтепер не можуть ступати на землі володіння [target_county.GetNameNoTierNoTooltip], а їх товари #EMP вилучатимуться#!!"
   yearly_saharan.0001.c.list: "Всі [Concept( 'counties', 'графства' )|E] цієї [Concept( 'realm', 'держави' )|E], які є сусідніми до володіння [target_county.GetNameNoTierNoTooltip]"
-
   yearly_saharan.0003.t: "$yearly_saharan.0001.t$: інтеграція"
   yearly_saharan.0003.desc_initial: "[source_county.GetProvince.GetCounty.GetFaith.GetAdherentNamePluralNoTooltip]-торговці, яким було дозволено оселитися у володінні [target_county.GetNameNoTier], вже кілька років проживають там."
   yearly_saharan.0003.desc_current: "Вже кілька років [source_county.GetProvince.GetCounty.GetFaith.GetAdherentNamePluralNoTooltip], батьківщиною яких є [source_county.GetNameNoTier], проживають у володінні [target_county.GetNameNoTier]."
   yearly_saharan.0003.desc: "Як здається, вони непогано влилися в місцеву спільноту.\n\nВ результаті торгівля в цій місцевості б'є ключем, доходи все зростають, і навіть селяни знають, як дзвенять золоті монети!"
   yearly_saharan.0003.a: "Приголомшливий достаток!"
   yearly_saharan.0003.b: "Обкласти їх непомірними податками."
-
   yearly_saharan.0004.t: "$yearly_saharan.0001.t$: зростання торгівлі"
   yearly_saharan.0004.desc_initial: "$yearly_saharan.0003.desc_initial$"
   yearly_saharan.0004.desc_current: "$yearly_saharan.0003.desc_current$"
@@ -26,7 +24,6 @@
   yearly_saharan.0004.a.tt.outcome_3: "$yearly_saharan.0004.a.tt.outcome_1$"
   yearly_saharan.0004.b: "Невже я чую звук зростаючих податків?"
   yearly_saharan.0004.c: "Зрозуміло, нам доведеться зібрати деякі недоїмки..."
-
   yearly_saharan.0005.t: "$yearly_saharan.0001.t$: зміна віри"
   yearly_saharan.0005.desc_initial: "$yearly_saharan.0003.desc_initial$"
   yearly_saharan.0005.desc_current: "$yearly_saharan.0003.desc_current$"
@@ -34,7 +31,6 @@
   yearly_saharan.0005.a: "Ласкаво просимо до родини [ROOT.GetCharacter.GetFaith.HighGodNamePossessive]!"
   yearly_saharan.0005.b: "Хах. Принаймні їм подобається."
   yearly_saharan.0005.c: "Цьому не бувати, поки я [ROOT.GetCharacter.GetTitleAsNameNoTooltip]!"
-
   #[Culture] Nomads Flock to [County]
   yearly_saharan.0021.t: "[nomad_leader.GetCulture.GetNameNoTooltip]і кочівники прибувають у володіння [target_county.GetNameNoTierNoTooltip]"
   yearly_saharan.0021.desc: "Хоча я [Select_CString(ROOT.Char.IsFemale, 'благородна', 'благородний' )] [ROOT.GetCharacter.GetTitleAsNameNoTooltip], є місця настільки віддалені, що навіть моє ім'я там не має особливої ваги. Землі, якими я і не сподіваюся правити.\n\nОстаннім часом кочівники-[nomad_leader.GetCulture.GetCollectiveNounNoTooltip] почали виходити з таких віддалених областей Сахари та просуватися вглиб володіння [target_county.GetNameNoTier], без зусиль займаючи вільні землі та області, з яких пішли місцеві [target_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip].\n\nОдин із їхніх лідерів навіть звернувся до мене з проханням переселити туди всю [nomad_leader.GetHerHis] конфедерацію, яка володіла б землями від мого імені."
@@ -42,7 +38,6 @@
   yearly_saharan.0021.b: "[nomad_leader.GetCulture.GetNameNoTooltip]ому народу завжди раді у моїх землях!"
   yearly_saharan.0021.c: "Можливо, ви можете стати моєю особистою гвардією?"
   yearly_saharan.0021.d: "Це обурливо! Забирайтеся!"
-
   #Slave Raid against [Realm] Escalates
   yearly_saharan.0031.t: "Набіги за рабами до держави [affected_sub_realm.GetNameNoTierNoTooltip] стають частіше"
   yearly_saharan.0031.desc: "Набіги за рабами і, як наслідок, розквіт торгівлі людьми — жорстока правда життя на околицях Сахеля. Такі нальоти надто вигідні, щоб від них просто так відмовитися, і багато поселень періодично нападають один на одного.\n\nОднак останнім часом особливо лютує [slave_raider_county.GetNameNoTier] — работоргівці з тих місць як з ланцюга зірвалися, тож земля [raided_county.GetNameNoTier] стогне під їх жорстоким натиском. Декілька багатих торговців мають намір влаштувати масштабну атаку, відбивати яку буде, ймовірно, [raided_character_marshal.GetCouncilTitle] [raided_character_marshal.GetFirstName]."
@@ -53,7 +48,6 @@
   yearly_saharan.0031.c: "Мене це зовсім не турбує."
   yearly_saharan.0031.c.raided_hurt: "Регіон [raided_county.GetNameNoTierNoTooltip] розграбовано"
   yearly_saharan.0031.c.raiders_hurt: "Багато грабіжників з регіону [slave_raider_county.GetAdjectiveNoTooltip] поранено"
-
   #Marauding Slavers from [Realm]
   yearly_saharan.0032.t: "Работоргівці-мародери з регіону [hostile_sub_realm.GetNameNoTierNoTooltip]"
   yearly_saharan.0032.desc: "Работорговці-грабіжники з Сахеля стали в цих краях звичним злом. Жага наживи в деяких настільки сильна, що вони не гребують продавати своїх побратимів за тридев'ять земель.\n\nЗазвичай такі розбійники діють розрізнено, але [slave_raider_county.GetNameNoTier] помітно від них відрізняється. Від їх набігів особливо страждає [raided_county.GetNameNoTier]: там мародери заковують у ланцюги цілі села. Причому керують головорізами солдати, яких [slave_raider_county.GetHolder.IsFemale, 'відправила сама', 'відправив сам' )] [slave_raider_county.GetHolder.GetTitledFirstName]!"
@@ -62,7 +56,6 @@
   yearly_saharan.0032.a.tt_fail: "Грабіжники, яких [slave_raider_county.GetHolder.IsFemale, 'відправила', 'відправив' )] [slave_raider_county.GetHolder.GetFirstNamePossessiveNoTooltip], розшматували провінцію [raided_county.GetNameNoTierNoTooltip]"
   yearly_saharan.0032.b: "До речі, з цього належить платити податки..."
   yearly_saharan.0032.c: "Мене це взагалі не цікавить."
-
   #Modifiers
   foreign_trader_enclaves_saharan_modifier: "Торгові анклави іновірців"
   foreign_trader_enclaves_saharan_modifier_desc: "Тут оселилися торговці-іновірці."

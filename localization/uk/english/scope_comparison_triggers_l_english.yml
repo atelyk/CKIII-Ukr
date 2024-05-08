@@ -1,5 +1,5 @@
 ﻿l_english:
-  # Title Hierarchy Triggers
+  #Title Hierarchy Triggers
   PROVINCE_DE_JURE_EQUAL: "[PROVINCE.GetName] де-юре входить в домен [TARGET_TITLE.GetName]"
   NOT_PROVINCE_DE_JURE_EQUAL: "[PROVINCE.GetName] де-юре #bold не#! є частиною домену [TARGET_TITLE.GetName]"
   LANDED_TITLE_DE_JURE_EQUAL: "[TITLE.GetName] де-юре входить в домен [TARGET_TITLE.GetName]"
@@ -12,12 +12,13 @@
   NOT_IS_HELD_BY: "#bold Не#! належить персонажеві [TARGET_CHARACTER.GetShortUIName]"
   TITLE_IS_HELD_BY: "[TITLE.GetName] належить персонажеві [TARGET_CHARACTER.GetShortUIName]"
   NOT_TITLE_IS_HELD_BY: "[TITLE.GetName] #bold не#! належить персонажеві [TARGET_CHARACTER.GetShortUIName]"
-
-  # Character Relationship Triggers
+  #Character Relationship Triggers
   LIEGE_EQUAL_FIRST: "[TARGET_CHARACTER.GetShortUIName] — ваш сюзерен"
   NOT_LIEGE_EQUAL_FIRST: "[TARGET_CHARACTER.GetShortUIName] #bold не#! ваш сюзерен"
   LIEGE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] — васал [TARGET_CHARACTER.GetShortUINamePossessive]"
   NOT_LIEGE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] #bold не#! є васалом [TARGET_CHARACTER.GetShortUINamePossessive]"
+  TOP_LIEGE_EQUAL_FIRST: "You are the [top_liege|E]"
+  NOT_TOP_LIEGE_EQUAL_FIRST: "You are #bold not#! the [top_liege|E]"
   KILLER_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'вбита', 'вбитий' )] персонажем [TARGET_CHARACTER.GetShortUIName]"
   NOT_KILLER_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] #bold не [Select_CString(CHARACTER.IsFemale, 'була вбита', 'був вбитий' )]#! персонажем [TARGET_CHARACTER.GetShortUIName]"
   IMPRISONER_EQUAL_FIRST: "[TARGET_CHARACTER.GetShortUIName] тримає вас в полоні"
@@ -46,12 +47,12 @@
   NOT_REAL_FATHER_EQUAL_THIRD: "[TARGET_CHARACTER.GetShortUIName|U] — #bold не#! справжній батько персонажа [CHARACTER.GetShortUINamePossessive]"
   PLAYER_HEIR_EQUAL_FIRST: "[TARGET_CHARACTER.GetShortUIName|U] — ваш [heir|El]"
   PLAYER_HEIR_EQUAL_THIRD: "[TARGET_CHARACTER.GetShortUIName|U] — [heir|El] персонажа [CHARACTER.GetShortUINamePossessive]"
-
-  # Character Attribute Triggers
+  #Character Attribute Triggers
   CHARACTER_FAITH_EQUAL_FIRST: "Ви належите до [FAITH.GetAdjective]ої конфесії"
   NOT_CHARACTER_FAITH_EQUAL_FIRST: "Ви #bold не#! належите до [FAITH.GetAdjective]ої конфесії"
   CHARACTER_FAITH_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] сповідує [FAITH.GetName]"
   NOT_CHARACTER_FAITH_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] #bold не#! належить до [FAITH.GetAdjective]ої конфесії"
+  CHARACTER_FAITH_NONE: "Is a same-[faith|e] adherent"
   CHARACTER_RELIGION_EQUAL_FIRST: "Ви сповідуєте [RELIGION.GetAdjective]у віру"
   NOT_CHARACTER_RELIGION_EQUAL_FIRST: "Вы #bold не#! сповідуєте [RELIGION.GetAdjective]у віру"
   CHARACTER_RELIGION_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] сповідує [RELIGION.GetName]"
@@ -60,7 +61,6 @@
   NOT_CHARACTER_CULTURE_EQUAL_FIRST: "Ви #bold не#! належите до [CULTURE.GetName]ої культури"
   CHARACTER_CULTURE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] належить до [CULTURE.GetName]ої культури"
   NOT_CHARACTER_CULTURE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] #bold не#! належить до [CULTURE.GetName]ої конфесії"
-
   CHARACTER_HOUSE_EQUAL_FIRST: "Ви належите до [Concept( 'house', 'дому' )|E] [DYNASTY_HOUSE.GetName]"
   NOT_CHARACTER_HOUSE_EQUAL_FIRST: "Ви #bold не#! належите до [Concept( 'house', 'дому' )|E] [DYNASTY_HOUSE.GetName]"
   CHARACTER_HOUSE_EQUAL_THIRD: "[DYNASTY_HOUSE.GetName] — [house|El] персонажа [CHARACTER.GetShortUIName|U]"
@@ -69,8 +69,8 @@
   NOT_CHARACTER_DYNASTY_EQUAL_FIRST: "Ви #bold не#! належите до [Concept( 'dynasty', 'династії' )|E] [DYNASTY.GetName]"
   CHARACTER_DYNASTY_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] належить до [dynasties|El] [DYNASTY.GetName]"
   NOT_CHARACTER_DYNASTY_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] #bold не#! належить до [dynasties|El] [DYNASTY.GetName]"
-
-  # Title Attribute Triggers
+  CHARACTER_HOUSE_EQUAL_NONE: "Is a fellow [house|E] member"
+  #Title Attribute Triggers
   LANDED_TITLE_FAITH_EQUAL_THIRD: "[TITLE.GetName] належить до [FAITH.GetAdjective]ої конфесії"
   NOT_LANDED_TITLE_FAITH_EQUAL_THIRD: "[TITLE.GetName] #bold не#! належить до [FAITH.GetAdjective]ої конфесії"
   LANDED_TITLE_FAITH_EQUAL_GLOBAL: "[FAITH.GetAdjective]а конфесія"
@@ -83,8 +83,7 @@
   NOT_LANDED_TITLE_CULTURE_EQUAL_THIRD: "[TITLE.GetName] #bold не#! належить до #L [CULTURE.GetName]ої#! культури"
   LANDED_TITLE_CULTURE_EQUAL_GLOBAL: "[CULTURE.GetName]а культура"
   NOT_LANDED_TITLE_CULTURE_EQUAL_GLOBAL: "#bold Не#! належить до [CULTURE.GetName]ої культури"
-
-  # Province Attribute Triggers
+  #Province Attribute Triggers
   PROVINCE_FAITH_EQUAL_THIRD: "[PROVINCE.GetName] належить до [FAITH.GetAdjective]ої конфесії"
   NOT_PROVINCE_FAITH_EQUAL_THIRD: "[PROVINCE.GetName] #bold не#! належить до [FAITH.GetAdjective]ої конфесії"
   PROVINCE_FAITH_EQUAL_GLOBAL: "[FAITH.GetAdjective]а конфесія"
@@ -97,9 +96,16 @@
   NOT_PROVINCE_CULTURE_EQUAL_THIRD: "[PROVINCE.GetName] #bold не#! належить до [CULTURE.GetName]ої культури"
   PROVINCE_CULTURE_EQUAL_GLOBAL: "[CULTURE.GetName]а культура"
   NOT_PROVINCE_CULTURE_EQUAL_GLOBAL: "#bold Не#! належить до [CULTURE.GetName]ої культури"
-
-  # Faith Triggers
+  PROVINCE_CAPITAL_EQUAL_GLOBAL: "Is [CHARACTER.GetShortUINamePossessive] [realm_capital]"
+  NOT_PROVINCE_CAPITAL_EQUAL_GLOBAL: "Is [CHARACTER.GetShortUINamePossessive] #bold not#! [realm_capital]"
+  PROVINCE_CAPITAL_EQUAL_THIRD: "[CHARACTER.GetShortUINamePossessive] [realm_capital] is [PROVINCE.GetBaronyNameExplicitly]"
+  NOT_PROVINCE_CAPITAL_EQUAL_THIRD: "[CHARACTER.GetShortUINamePossessive] [realm_capital] is #bold not#! [PROVINCE.GetBaronyNameExplicitly]"
+  PROVINCE_CAPITAL_EQUAL_FIRST: "Your [realm_capital] is [PROVINCE.GetBaronyNameExplicitly]"
+  NOT_PROVINCE_CAPITAL_EQUAL_FIRST: "Your [realm_capital] is #bold not#! [PROVINCE.GetBaronyNameExplicitly]"
+  #Faith Triggers
   FAITH_RELIGION_EQUAL_THIRD: "[FAITH.GetName]а [faith|El] належить до [RELIGION.GetAdjective]ої релігії"
   NOT_FAITH_RELIGION_EQUAL_THIRD: "[faith|E] [FAITH.GetName] #bold не#! належить до [RELIGION.GetAdjective]ої групи"
   FAITH_RELIGION_EQUAL_GLOBAL: "Це [RELIGION.GetAdjective]а [faith|El]"
   NOT_FAITH_RELIGION_EQUAL_GLOBAL: "Це не [RELIGION.GetAdjective]а [faith|El]"
+  ACCOLADE_TYPE_EQUAL_GLOBAL: "This [accolade_type|e] is invalid"
+  ACCOLADE_TYPE_EQUAL_NONE: "This [accolade_type|e] is invalid"

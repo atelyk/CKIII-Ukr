@@ -1,5 +1,4 @@
 ﻿l_english:
-
   designated_sacrifice_died.t: "Вибрана жертва померла"
   designated_sacrifice_died.desc: "[dead_designated_sacrifice.GetShortUIName|U] [Select_CString(dead_designated_sacrifice.IsFemale, 'померла', 'помер' )] раніше, ніж мені вдалося принести [dead_designated_sacrifice.GetHerHis] в жертву. [ROOT.Char.GetFaith.HighGodName], [ROOT.Char.GetFaith.AltPriestTermPlural] і народ незадоволені."
   designated_sacrifice_release.t: "Обрана жертва на волі"

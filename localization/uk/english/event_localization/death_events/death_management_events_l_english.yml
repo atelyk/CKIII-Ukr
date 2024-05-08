@@ -1,18 +1,21 @@
 ﻿l_english:
-  death_management.1000.killed.tt: "[Select_CString(dead_character.IsFemale, 'Моя', 'Мій' )] [THIS.Char.Custom2('RelationToMe', SCOPE.sC('dead_character'))] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )]. [Select_CString(dead_character.IsFemale, 'Її', 'Його' )] вбивця — [killer.GetTitledFirstName]."
+  death_management.1000.killed.tt: "[Dead_character.GetTitledFirstName] було вбито [killer.GetTitledFirstName]."
   death_management.1000.t: "Допоки смерть не розлучить нас"
-  death_management.1000.murder: "[dead_character.GetTitledFirstName] гине від рук убивці!\n\n"
+  death_management.1000.murder: "[Dead_character.GetTitledFirstName] було вбито!\n\n"
+  death_management.1000.plaguestart: "Хвороби та лихоманка продовжують свою жахливу ходу через [realm.GetNameNoTier], забираючи життя як у селян, так і у шляхтичів. Ця жорстока, нерозбірлива правда рідко оголюється до таких моментів, як ця.\n\n"
+  death_management.1000.plaguespouse: "Я можу лише мовчки спостерігати, як лікарі відходять від тіла мого [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))]. Я підходжу ближче, простягаю руку [dead_character.GetHerHis]. Долоня ще тепла.\n\n"
   death_management.1000.like: "Як серце може не розірватись від такого болю? Це неможливо! Втім, я тут і моє серце б'ється, хоч твоє й затихло. О [dead_character.GetFirstName], [Select_CString(dead_character.IsFemale, 'моя', 'мій' )] [dead_character.Custom('LoverPetName')]. Життя без тебе вже не буде таким як раніше."
   death_management.1000.neutral: "[Select_CString(dead_character.IsFemale, 'Моя люба', 'Мій любий')] [dead_character.GetFirstName]. Мабуть, між нами і не було любові, але гіркота втрати сильніша, ніж можна було уявити. Ви завжди були біля мене, мені ж здавалося, що це вже природно і продовжуватиметься вічно. Стільки всього так і залишилося несказаним..."
   death_management.1000.dislike: "[Select_CString(dead_character.IsFemale, 'Дружино моя', 'Чоловіче мій' )], з твоїм останнім подихом я зазнаю полегшення. Може цього й потрібно соромитися, та між нами й справді не було кохання. Нарешті я можу почати нове життя!"
+  death_management.1000.murder_wedding: "Яка несподівана смерть. Зовсім не запланована. Ніхто не міг цього передбачити!"
   death_management.1000.a: "Принаймні спогади залишаться зі мною."
   death_management.1000.b: "Спочивайте з миром, [dead_character.GetFirstNameNoTooltip]."
   death_management.1000.c: "І жодним днем раніше!"
   death_management.1000.tt: "[Select_CString(dead_character.IsFemale, 'Ваша дружина', 'Ваш чоловік')], [Select_CString(dead_character.IsFemale, 'померла', 'помер')] під домашнім арештом."
-
   death_management.1001.t: "Пережити своє дитя"
   death_management.1001.murder: "[dead_character.GetTitledFirstName] гине від рук вбивці!\n\n"
   death_management.1001.tt: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш')] [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstName], [Select_CString(dead_character.IsFemale, 'померла', 'помер')] під домашнім арештом."
+  death_management.1001.plaguechild: "My stomach twists and writhes in silent agony as the body of my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))] [dead_character.GetFirstName] is borne past me. Physicians and healers worked from dawn until dusk to save [dead_character.GetHerHim], but their grim faces told everyone more than they would say.\n\nSo young, so full of promise. So many more left to die like this.\n\n[ROOT.Char.GetFaith.HighGodName] deliver us."
   death_management.1001.child: "Скільки ж на тебе покладалося надій, миле дитя. Тобі належало стільки навчитися, стільки всього пережити і зробити. Життя, повне можливостей, чекало тебе. Можливо, одного дня у тебе народилися б власні діти. Але цьому не судилось статися..."
   death_management.1001.like: "О [ROOT.Char.GetFaith.HighGodName], чим [dead_character.GetFirstName] [Select_CString(dead_character.IsFemale, 'заслужила', 'заслужив')] таке? [Select_CString(dead_character.IsFemale, 'Вона була невинна, моя ідеальна', 'Він був невинний, мій ідеальний')] [dead_character.Custom('GetDaughterSon')]! [Select_CString(dead_character.IsFemale, 'Її', 'Його')] стільки чекало в цьому житті..."
   death_management.1001.neutral: "Мені здавалося, що в моєму віці світ не зможе мене здивувати жорстокістю, бо не можна було і подумати, що [Select_CString(dead_character.IsFemale, 'моя', 'мій')] [dead_character.Custom('GetDaughterSon')] вмиратиме у мене на очах. Тепер я сподіваюся лише на одне: [dead_character.GetSheHe] уникне страждань, що належить пережити мені..."
@@ -20,20 +23,17 @@
   death_management.1001.a: "[Select_CString(dead_character.IsFemale, 'Вона не заслужила', 'Він не заслужив')] цього."
   death_management.1001.c: "Надто пізно жалкувати."
   death_management.1001.d: "Спочивай з миром, [Select_CString(dead_character.IsFemale, 'маленька', 'маленький')] [dead_character.GetFirstNameNoTooltip]."
-
   death_management.1004.t: "Порожнеча, що залишилася"
   death_management.1004.desc: "Я відчуваю присутність в своєму ліжку. Воно настільки відчутне, що мені здається, що ти [Select_CString(dead_character.IsFemale, 'сама', 'сам')] обіймаєш мене. Але це не ти, [dead_character.GetFirstName], але туга і біль, що залишилися мені після тебе. Вдень мені вдається відволіктися від чорних думок, але тут, де спогади настільки яскраві, я не можу сховатися від них."
   death_management.1004.a: "Чи утихне колись цей біль?"
   death_management.1004.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша коханка', 'Ваш коханець')] [dead_character.GetTitledFirstName], [Select_CString(dead_character.IsFemale, 'померла', 'помер')] під домашнім арештом."
   death_management.lover.desc: "[Select_CString(dead_character.IsFemale, 'Ваша коханка', 'Ваш коханець')] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
-
   death_management.1005.t: "Спогади, що залишилися"
   death_management.1005.desc: "О [dead_character.GetFirstName]. Будь ти до цих пір зі мною, ти [Select_CString(dead_character.IsFemale, 'веліла', 'велів')] би мені зібратися з силами. [Select_CString(dead_character.IsFemale, 'Сказала', 'Сказав')] би, що все стане краще. І ти [Select_CString(dead_character.IsFemale, 'була', 'був')] би [Select_CString(dead_character.IsFemale, 'права', 'правий')], як і завжди, але спершу мені потрібно виплеснути біль і дати волю сльозам, тому що тебе більше немає на цьому світі?"
   death_management.1005.desc.ritual_best_friend: "[dead_character.GetFirstName] is dead! My best and truest friend cut down, taken by the cold embrace of [ROOT.Char.GetFaith.DeathDeityName] before [dead_character.GetHerHis] time. I weep, I wail, I tear at my hair and clothing, but I know I'll never see [dead_character.GetHerHim] again.\n\nHow... how can I can go on now?\n\n[dead_character.GetFirstNameNoTooltip], dear, sweet [dead_character.GetFirstNameNoTooltip] would want me to, and I have to hope that [dead_character.GetHerHis] memory can sustain me through these dark times, but life seems like a candle without a flame without [dead_character.GetHerHim]."
   death_management.1005.a: "Мені не забути тебе, старий друже."
   death_management.1005.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша подруга', 'Ваш друг')] [dead_character.GetTitledFirstName] помер під домашнім арештом."
   death_management.friend.desc: "[Select_CString(dead_character.IsFemale, 'Ваша подруга', 'Ваш друг')], [dead_character.GetTitledFirstName], [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
-
   death_management.1007.t: "Поворот долі"
   death_management.1007.start_murder: "[dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'померла', 'помер')]! Ми ніколи не взнаємо, що за правитель"
   death_management.1007.start: "Сьогодні [dead_character.GetTitledFirstName] помирає, і [ROOT.Char.GetPrimaryTitle.GetNameNoTier] стоїть на порозі змін. Ми ніколи не дізнаємось, що за"
@@ -43,34 +43,24 @@
   death_management.1007.end: "[dead_character.GetSheHe] би [Select_CString(dead_character.IsFemale, 'стала', 'став')] і чи виграє [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] від цієї смерті."
   death_management.1007.a: "Одна історія закінчується, друга — починається."
   death_management.1007.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша спадкоємиця', 'Ваш спадкоємець')] [dead_character.GetTitledFirstName] [THIS.Char.Custom('DiedHouse_arrest')]."
-
   death_management.1006.t: "Кінець прокльону"
   death_management.1006.desc: "Доля не завжди була схильна до мене — [ROOT.Char.GetFaith.HighGodName] знає, того дня, коли я і [dead_character.GetTitledFirstName] зустрілися, на мене впало прокляття, якому лише сьогодні прийшов кінець! Доля посміхнулася мені — [Select_CString(dead_character.IsFemale, 'ця', 'цей')] [dead_character.Custom('InsultAdjective')] [dead_character.Custom('InsultNoun')] спочиває в могилі!"
   death_management.1006.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша суперниця', 'Ваш суперник')] [dead_character.GetTitledFirstName] [THIS.Char.Custom('DiedHouse_arrest')]."
-
   death_management.parent.desc: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш')] [dead_character.Custom('MotherFather')], [dead_character.GetTitledFirstName], [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
-
   death_management.sibling.desc: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш')] [dead_character.Custom('SisterBrother')], [dead_character.GetTitledFirstNameNoTooltip], [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
-
   death_management.betrothed.desc: "[Select_CString(dead_character.IsFemale, 'Ваша наречена', 'Ваш наречений')] [dead_character.GetFirstNameNoTooltip] [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
-
   death_management.liege_councillor.desc: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш')] [councillor|E], [dead_character.GetFirstNameNoTooltip], [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
-
   death_management.liege.desc: "Ваш васал, [dead_character.GetFirstNameNoTooltip], [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
-
   death_management.pinned.desc: "Померла людина яка вас цікавила — [dead_character.GetNameNoTooltip]."
-
   death_management.1008.desc: "[dead_character.GetTitledFirstName], знаходиться у шлюбі [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse_of_dead_character'))] [spouse_of_dead_character.GetFirstName], йде в кращий світ. Всі ретельно продумані плани були зруйновані випадковою смертю, хоча наші біди здаються дрібними на тлі горя, що спіткало сім'ю [Select_CString(dead_character.IsFemale, 'померлої', 'померлого')]..."
   death_management.1008.a: "Спочивай у мирі."
   death_management.1008.a.tt: "[spouse_of_dead_character.GetFirstName] [Select_CString(spouse_of_dead_character.IsFemale, 'втратила', 'втратив')] [Select_CString(dead_character.IsFemale, 'дружину', 'чоловіка')] — [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
   death_management.spouse_child.desc: "[Select_CString(spouse_of_dead_character.IsFemale, 'Ваша спадкоємиця', 'Ваш спадкоємець')] [spouse_of_dead_character.GetFirstName] [Select_CString(spouse_of_dead_character.IsFemale, 'втратила', 'втратив')] [Select_CString(dead_character.IsFemale, 'дружину', 'чоловіка')] — [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
-
   death_management.1009.t: "Непередбачена трагедія"
   death_management.1009.desc: "[dead_character.GetTitledFirstName], з ким перебуває у заручинах [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('betrothed_of_dead_character'))] [betrothed_of_dead_character.GetFirstName], йде в кращий світ. Всі ретельно продумані плани були зруйновані випадковою примхою [ROOT.Char.GetFaith.DeathDeityNamePossessive], хоча наші біди здаються дрібними на тлі горя, що спіткало сім'ю[Select_CString(dead_character.IsFemale, 'померлої', 'померлого')]..."
   death_management.1009.a: "Спочивай з миром, дитя."
   death_management.1009.a.tt: "[dead_character.GetTitledFirstName], [Select_CString(betrothed_of_dead_character.IsFemale, 'з яким мала одружитись', 'з якою мав одружитись')] [betrothed_of_dead_character.GetFirstName], зустрічає [THIS.Char.Custom('DiedHouse_arrest')]. Угода про шлюб розірвана."
   death_management.betrothed_child.desc: "[dead_character.GetTitledFirstName], [Select_CString(betrothed_of_dead_character.IsFemale, 'з яким мала одружитись', 'на якій мав одружитись')] [betrothed_of_dead_character.GetFirstName], помирає."
-
   death_management.1010.t: "Більше жодних уроків"
   death_management.1010.murderer: "[dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'мертва', 'мертвий')], і люди вже передають цю новину з вуст у вуста. Я намагаюсь зберігати незворушний вигляд.\n\nПовне усвідомлення приходить до мене пізніше, коли я йду додому: [dead_character.GetTitledFirstName] справді [Select_CString(dead_character.IsFemale, 'померла', 'помер')]."
   death_management.1010.under_12: "Все як у мареві — ще з того ранку, коли [dead_character.GetTitledFirstName] не [Select_CString(dead_character.IsFemale, 'покликала', 'покликав' )] мене на уроки, і до сих пір, коли я їду додому.\n\nНа питання, чому [dead_character.GetFirstName] не [Select_CString(dead_character.IsFemale, 'вийшла', 'вийшов' )] попрощатися зі мною, прямої відповіді мені не дали, але зі слів оточення зрозуміло, що я [SCOPE.sC('dead_character').GetHerHis] більше не побачу."
@@ -80,9 +70,7 @@
   death_management.1010.over_12_liked_educator: "Ви навчили мене багатьох речей, [dead_character.GetFirstName]."
   death_management.1010.over_12_disliked_educator: "Ось і файно."
   death_management.1010.a.tt: "[dead_character.GetTitledFirstName] вмирає, тому нікому вас тепер вчити."
-
   death_management.educator.desc: "[dead_character.GetTitledFirstName], вчитель персонажа [ward_of_dead_character.GetTitledFirstNamePossessive], [Select_CString(dead_character.IsFemale, 'вмерла', 'вмер' )] ."
-
   death_management.2000.t: "Допоки [prison_holder.GetFirstNameNoTooltip] не розлучить нас"
   death_management.2000.t.root_killer: "Допоки я не розлучу нас"
   death_management.2000.t.no_killer: "Розлучені силоміць"
@@ -103,7 +91,6 @@
   death_management.2000.c: "Таке не пробачається!"
   death_management.2000.d: "Яка безглузда смерть..."
   death_management.2000.tt: "[Select_CString(dead_character.IsFemale, 'Ваша дружина', 'Ваш чоловік' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'померла', 'помер' )] у в'язниці, куди [Select_CString(dead_character.IsFemale, 'її', 'його' )] [Select_CString(prison_holder.IsFemale, 'запроторила', 'запроторив' )] [prison_holder.GetTitledFirstName]."
-
   death_management.2007.t: "Поворот долі"
   death_management.2007.start: "Сьогодні [dead_character.GetTitledFirstName] помирає у в'язниці, куди [Select_CString(dead_character.IsFemale, 'її', 'його' )] [Select_CString(prison_holder.IsFemale, 'кинула', 'кинув' )] [prison_holder.GetTitledFirstName], і [ROOT.Char.GetPrimaryTitle.GetNameNoTier] опиняється на роздоріжжі. Ми ніколи не дізнаємося, що за"
   death_management.2007.mytitle: "[ROOT.Char.GetTitleTierName]"
@@ -112,7 +99,6 @@
   death_management.2007.a: "[prison_holder.GetSheHe|U] [Select_CString(prison_holder.IsFemale, 'скоїла', 'скоїв' )] злочин, який не можна пробачити."
   death_management.2007.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша спадкоємиця', 'Ваш спадкоємець' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'померла', 'помер' )] у в'язниці, куди [Select_CString(dead_character.IsFemale, 'її', 'його' )] [Select_CString(prison_holder.IsFemale, 'запроторила', 'запроторив' )] [prison_holder.GetTitledFirstName]"
   death_management.2007.a.new_heir.tt: "Тепер вам успадковує [new_heir.GetTitledFirstName]"
-
   death_management.2001.t: "Пережити своє дитя"
   death_management.2001.opening: "[Select_CString(feast_owner.IsFemale, 'Моя', 'Мій' )] [dead_character.GetTitledFirstName] [Select_CString(feast_owner.IsFemale, 'померла', 'помер' )]!\n\n"
   death_management.2001.child: "Скільки надій ми покладали на тебе, миле дитя. Тобі світило стільки нових знань, стільки всього пережити та зробити. Тебе чекало життя, повне можливостей. Можливо, колись у тебе були б власні діти... Але цього ніколи не станеться, і у всьому [Select_CString(prison_holder.IsFemale, 'винна', 'винен' )] [prison_holder.GetTitledFirstName]..."
@@ -127,7 +113,6 @@
   death_management.2001.c: "Надто пізно жалкувати."
   death_management.2001.d: "Спочивай з миром, [Select_CString(dead_character.IsFemale, 'маленька', 'маленький')] [dead_character.GetFirstNameNoTooltip]."
   death_management.2001.tt: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('GetDaughterSon')] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] у в'язниці, куди [Select_CString(dead_character.IsFemale, 'її', 'його' )] [Select_CString(prison_holder.IsFemale, 'кинула', 'кинув' )] [prison_holder.GetTitledFirstName]."
-
   death_management.2002.t: "Вічний спочинок"
   death_management.2002.child: "[Select_CString(dead_character.IsFemale, 'Мамо', 'Батьку' )]? Чому ти [Select_CString(dead_character.IsFemale, 'пішла', 'пішов' )]? Кажуть, це не твоя вина, кажуть, ніби у твоїй смерті [Select_CString(prison_holder.IsFemale, 'винна', 'винен' )] [prison_holder.GetTitledFirstName]. Але чому [prison_holder.GetSheHe] [Select_CString(prison_holder.IsFemale, 'забрала', 'забрав' )] тебе в мене, [dead_character.Custom('MotherFather')]?"
   death_management.2002.like: "О [dead_character.Custom('MotherFather')]. Навіть подорослішавши, я все одно залишаюся твоєю дитиною. Що ж мені робити тепер, коли [prison_holder.GetTitledFirstName] [Select_CString(prison_holder.IsFemale, 'забрала', 'забрав' )] тебе у мене та в усього світу? Хто підтримає мене, коли мої очі засліплюють сльози?"
@@ -138,7 +123,6 @@
   death_management.2002.c: "Я примушу [Select_CString(prison_holder.IsFemale, 'її', 'його' )] заплатити."
   death_management.2002.d: "Я... Мені [Select_CString(dead_character.IsFemale, 'потрібна моя', 'потрібен мій' )] [dead_character.Custom('MotherFather')]!"
   death_management.2002.tt: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('MotherFather')] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'померла', 'помер' )] у в'язниці, куди [Select_CString(dead_character.IsFemale, 'її', 'його' )] [Select_CString(prison_holder.IsFemale, 'кинула', 'кинув' )] [prison_holder.GetTitledFirstName]."
-
   death_management.2008.t: "Що могло б бути"
   death_management.2008.desc.like: "У моїй голові виникали образи з того життя, що могли б прожити я і [SCOPE.sC('dead_character').GetTitledFirstName]: чого ми могли б досягти, яку б сім'ю  створили."
   death_management.2008.like_end_killer: "Всі мрії зазнали краху, і тому виною [prison_holder.GetTitledFirstName], [Select_CString(prison_holder.IsFemale, 'яка вбила', 'який вбив' )] [Select_CString(dead_character.IsFemale, 'мою наречену', 'мого нареченого' )]."
@@ -149,7 +133,6 @@
   death_management.2008.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша наречена', 'Ваш наречений' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] у в'язниці, куди [Select_CString(dead_character.IsFemale, 'її', 'його' )] [Select_CString(prison_holder.IsFemale, 'кинула', 'кинув' )] [prison_holder.GetTitledFirstName]. Угода про шлюб між нами розірвана."
   death_management.2008.a: "Спочивай з миром, [dead_character.GetFirstNameNoTooltip]."
   death_management.2008.b: "Ми одразу перейшли до #EMP «Допоки смерть не розлучить нас»#!"
-
   death_management.3000.t: "Допоки я не розлучу нас"
   death_management.3000.like: "О [dead_character.GetFirstName], [Select_CString(dead_character.IsFemale, 'моя', 'мій' )] [dead_character.Custom('LoverPetName')]. Подумати тільки, ти [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] у моїй в'язниці... Цікаво, [Select_CString(dead_character.IsFemale, 'повірила', 'повірив' )] би [SCOPE.sC('dead_character').GetFirstName], що я досі кохаю [SCOPE.sC('dead_character').GetHerHis]?"
   death_management.3000.neutral: "[Select_CString(dead_character.IsFemale, 'Моя дорога', 'Мій дорогий' )] [dead_character.GetFirstName]! Можливо, між нами й не було кохання, і я причина вашої смерті, але гіркота втрати сильніша, ніж можна було уявити. Ви завжди були поряд. Подумати тільки, ви померли в моїй в'язниці..."
@@ -158,7 +141,6 @@
   death_management.3000.b: "Хто б міг подумати?"
   death_management.3000.c: "Скатертиною дорога!"
   death_management.3000.tt: "[Select_CString(dead_character.IsFemale, 'Ваша дружина', 'Ваш чоловік' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] у вашій в'язниці."
-
   death_management.3007.t: "Мінливості долі"
   death_management.3007.start: "Сьогодні [dead_character.GetTitledFirstName] помирає у моїй в'язниці, і [ROOT.Char.GetPrimaryTitle.GetNameNoTier] опиняється на порозі змін. Ми ніколи не дізнаємося, що за"
   death_management.3007.mytitle: "[ROOT.Char.GetTitleTierName]"
@@ -166,7 +148,6 @@
   death_management.3007.end: "би [Select_CString(dead_character.IsFemale, 'вийшла', 'вийшев' )] з н[dead_character.GetHerHis], чи виграє [ROOT.Char.GetPrimaryTitle.GetType.GetName] від [SCOPE.sC('dead_character').GetHerHis] смерті чи ні.\n\nОдне я знаю точно: що зроблено, те зроблено. [SCOPE.sC('dead_character').GetFirstName] завершує свій життєвий шлях."
   death_management.3007.a: "Одна історія закінчується, інша починається."
   death_management.3007.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша спадкоємиця', 'Ваш спадкоємець' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] у вашій в'язниці.\nВідтепер вашим спадкоємцем є [new_heir.GetTitledFirstName]."
-
   death_management.3001.t: "Пережити своє дитя"
   death_management.3001.tt: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('GetDaughterSon')] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] у вашій в'язниці."
   death_management.3001.child: "Скільки ж на тебе покладалося надій, мила дитино. Ти ще стільки всього мала навчитися, стільки всього пережити і зробити. Життя, сповнене можливостей, чекало тебе. Можливо, колись у тебе були б власні діти... Ні, цьому не статись, і в усьому [Select_CString(prison_holder.IsFemale, 'винна', 'винний' )] [prison_holder.GetTitledFirstName]..."
@@ -176,7 +157,6 @@
   death_management.3001.a: "[Select_CString(dead_character.IsFemale, 'Вона не заслужила', 'Він не заслужив' )] цього."
   death_management.3001.c: "Надто пізно для жалю."
   death_management.3001.d: "Спочивай з миром, [Select_CString(dead_character.IsFemale, 'маленька', 'маленький' )] [dead_character.GetFirstNameNoTooltip]."
-
   death_management.3002.t: "Вічний спочинок"
   death_management.3002.child: "[Select_CString(dead_character.IsFemale, 'Мамо', 'Батьку' )]? Навіщо ти [Select_CString(dead_character.IsFemale, 'пішла', 'пішов' )]? Кажуть, це сталося не з твоєї волі. Кажуть, ніби це я причина твоєї смерті. Але це ж безглуздя! Адже так, [dead_character.Custom('MotherFather')]?"
   death_management.3002.like: "О [dead_character.Custom('MotherFather')]. Навіть подорослішавши, я все одно залишаюся твоєю дитиною. Що ж робити тепер, коли на мені лежить вина за твою смерть? Хто підтримає мене, коли мої очі засліплюють сльози?"
@@ -187,12 +167,10 @@
   death_management.3002.c: "Скатертиною дорога!"
   death_management.3002.d: "Я... Мені [Select_CString(dead_character.IsFemale, 'потрібна моя', 'потрібен мій' )] [dead_character.Custom('MotherFather')]!"
   death_management.3002.tt: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('MotherFather')] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] у вашій в'язниці."
-
   death_management.3006.t: "Пережити суперника"
   death_management.3006.desc: "Коли мій тюремник приніс радісні звістки, мені нелегко було в це повірити! [Select_CString(dead_character.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_character'))] [dead_character.GetTitledFirstName] нарешті [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] у моїй в'язниці.\n\nТільки подумати, [Select_CString(dead_character.IsFemale, 'ця', 'цей' )] [dead_character.Custom('InsultNoun')] більше не оскверняє світ своєю присутністю, і дякувати за це потрібно мені. Я ледве стримуюсь, щоб не кинутися в танець!"
   death_management.3006.a: "На [dead_character.GetHerHis] неглибокій могилі!"
   death_management.3006.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [Concept( 'rival', Select_CString(dead_character.IsFemale, 'суперниця' 'суперник' ))|E] [dead_character.GetFirstNameNoTooltip] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )]!"
-
   death_management.3008.t: "Що могло б бути"
   death_management.3008.desc.like: "У моїй голові виникали образи з того життя, що могли б прожити я і [SCOPE.sC('dead_character').GetTitledFirstName]: чого ми могли б досягти, яку сім'ю створити. Через мене ці мрії стали попелом, адже саме я [Select_CString(dead_character.IsFemale, 'дозволив своїй нареченій', 'дозволила свому нареченому' )] померти у моїй темниці."
   death_management.3008.desc.dislike: "Звістка про те, що [Select_CString(dead_character.IsFemale, 'моя наречена', 'мій наречений' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] у моїй в'язниці, принесла мені полегшення, не стану заперечувати. Як же добре, що мені не доведеться вступати з [Select_CString(dead_character.IsFemale, 'нею', 'ним' )] в шлюб!"
@@ -200,9 +178,7 @@
   death_management.3008.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша наречена', 'Ваш наречений' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )]у вашій в'язниці. Угода про шлюб розірвана."
   death_management.3008.a: "Спочивай з миром, [Select_CString(dead_character.IsFemale, 'маленька', 'маленький' )] [dead_character.GetFirstNameNoTooltip]."
   death_management.3008.b: "Ми відразу перейшли до #EMP «Поки смерть не розлучить нас»#!."
-
   death_management.prisoner.desc: "[Select_CString(feast_owner.IsFemale, 'Моя в'язня' 'Мій в'язень' )] [dead_character.GetTitledFirstName] [Select_CString(feast_owner.IsFemale, 'загинула' 'загинув' )] у моїй в'язниці."
-
   death_management.4000.t: "Доки смерть не розлучить нас"
   death_management.4000.like_opening: "Як може серце не розірватися від такого болю? Це неможливо! Але ось я тут, і моє серце б'ється, хоч твоє затихло.\n\n"
   death_management.4000.like_my_prison: "О [dead_character.GetFirstName], [Select_CString(dead_character.IsFemale, 'моя', 'мій' )] [dead_character.Custom('LoverPetName')]. Чи [Select_CString(dead_character.IsFemale, 'повірила', 'повірив' )] би ти мені, скажи я, що все ще люблю тебе, після всього, що тобі довелося від мене витерпіти?"
@@ -216,7 +192,6 @@
   death_management.4000.b: "Сподіваюся, ви знайдете спокій, [dead_character.GetFirstNameNoTooltip]."
   death_management.4000.c: "І ні на день раніше!"
   death_management.4000.tt: "[Select_CString(dead_character.IsFemale, 'Ваша дружина', 'Ваш чоловік' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] під домашнім арештом."
-
   death_management.4007.t: "Мінливості долі"
   death_management.4007.start_my_prison: "Сьогодні [dead_character.GetTitledFirstName] помирає у мене в ув'язненні, і [ROOT.Char.GetPrimaryTitle.GetNameNoTier] опиняється на порозі змін. Ми ніколи не дізнаємося, що за"
   death_management.4007.start: "СЬогодні [dead_character.GetTitledFirstName] помирає в ув'язненні, де [SCOPE.sC('dead_character').GetHerHis] [Select_CString(house_arrest_holder.IsFemale, 'утримувала', 'утримував' )] [house_arrest_holder.GetTitledFirstName], і [ROOT.Char.GetPrimaryTitle.GetNameNoTier] опиняється на порозі змін. Ми ніколи не дізнаємося, який би"
@@ -228,7 +203,6 @@
   death_management.4007.b: "Сподіваюся, я все роблю правильно."
   death_management.4007.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша спадкоємиця', 'Ваш спадкоємець' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] під домашнім арештом."
   death_management.4007.a.tt.heir: "Тепер вас успадковує [new_heir.GetTitledFirstName]."
-
   death_management.4001.t: "Пережити свою дитину"
   death_management.4001.tt: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('GetDaughterSon')] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] під домашнім арештом."
   death_management.4001.child_my_prison: "О, [Select_CString(dead_character.IsFemale, 'моя люба', 'мій любий' )] [dead_character.GetTitledFirstName]! Сподіваюся, рішення замкнути тебе до кінця твоїх днів було правильним.\n\nВсі ці речі, про які ти ніколи не дізнаєшся, не відчуєш або не зробиш..."
@@ -245,7 +219,6 @@
   death_management.4001.a: "[Select_CString(dead_character.IsFemale, 'Вона не заслужила', 'Він не заслужив' )] цього."
   death_management.4001.c: "Надто пізно щоб жалкувати."
   death_management.4001.d: "Спочивай з миром, [Select_CString(dead_character.IsFemale, 'маленька', 'маленький' )] [dead_character.GetFirstNameNoTooltip]."
-
   death_management.4002.t: "Вічний спочинок"
   death_management.4002.child: "[Select_CString(dead_character.IsFemale, 'Мамо', 'Батьку' )]? Чому ти [Select_CString(dead_character.IsFemale, 'відійшла', 'відійшов' )]? Кажуть, це трапилось не з твоєї волі. Кажуть, ніби мені не слід плакати, бо зараз ти у кращому місці, ніж в'язниця, де [Select_CString(house_arrest_holder.IsFemale, 'утримувала', 'утримував' )] [SCOPE.sC('house_arrest_holder').GetTitledFirstName]. Але чому я не можу піти з тобою, [dead_character.Custom('MotherFather')]? Ти більше мене не любиш? Ти [Select_CString(dead_character.IsFemale, 'говорила', 'говорив' )], що завжди будеш любити мене..."
   death_management.4002.like_opening: "О [dead_character.Custom('MotherFather')]. Навіть дорослим, я залишаюся твоєю дитиною."
@@ -262,7 +235,6 @@
   death_management.4002.c: "Спочивай з миром, [dead_character.Custom('MotherFather')]."
   death_management.4002.d: "Я... Мені [Select_CString(dead_character.IsFemale, 'потрібна моя', 'потрібен мій' )] [dead_character.Custom('MotherFather')]!"
   death_management.4002.tt: "[Select_CString(dead_character.IsFemale, 'Ваша', 'Ваш' )] [dead_character.Custom('MotherFather')] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] під домашнім арештом."
-
   death_management.4008.t: "Що могло б бути"
   death_management.4008.desc.like_my_prison: "[dead_character.GetTitledFirstName] ніколи не [Select_CString(dead_character.IsFemale, 'викликала', 'викликав' )] у мене ненависті, хоча мої дії, можливо, говорять про протилежне. Мене іноді навіть відвідували думки про наше спільне майбутнє — все, чого ми могли б досягти, яка б сім'я могла в нас вийти. Всі ці мрії розсипалися в порох, коли [Select_CString(dead_character.IsFemale, 'моя наречена померла', 'мій наречений помер' )] у мене в полоні. Все мусило бути інакше!"
   death_management.4008.desc.like: "When I was told of the death of my betrothed [dead_character.GetTitledFirstName] as a prisoner of [house_arrest_holder.GetTitledFirstName], all my dreams of a life with [dead_character.GetTitledFirstName] came crashing down. Now none of the things I had imagined will happen. Our hopes, dreams, and the family we would've built... All gone."
@@ -273,18 +245,16 @@
   death_management.4008.a.tt: "[Select_CString(dead_character.IsFemale, 'Ваша наречена', 'Ваш наречений' )] [dead_character.GetTitledFirstName] [Select_CString(dead_character.IsFemale, 'загинула', 'загинув' )] під домашнім арештом. Угода про шлюб розірвана."
   death_management.4008.a: "Спочивай з миром, [dead_character.GetFirstNameNoTooltip]."
   death_management.4008.b: "Ми одразу перейшли до #EMP «Поки смерть не розлучить нас»#!"
-
   death_management.9998.t: "Пізнай себе: ближче до кінця"
   death_management.9998.desc: "Я нутром відчуваю, [ROOT.Char.GetFaith.DeathDeityName] скоро прийде за мною. Немов старий друг, [ROOT.Char.GetFaith.DeathDeitySheHe] терпляче чекає мого приходу."
   death_management.9998.a: "Я помру протягом року."
   death_management.9998.a.tt: "Вам слід привести справи в порядок."
-
   #### Battle Death Events ####
-  # Intro 1
+  #Intro 1
   death_management.intro.witnessed: "Amidst the chaos that engulfs the [battle_death_location.GetTerrain.GetNameNoTooltip|l] of [battle_death_location.GetNameNoTooltip], I attempt to catch my bearings."
   death_management.intro.war: "News from the [battle_death_location.GetTerrain.GetNameNoTooltip|l] of [battle_death_location.GetNameNoTooltip] finally arrives in the hands of an exhausted messenger."
   death_management.intro: "The conflict between [battle_death_enemy.GetPrimaryTitle.GetNameNoTierNoTooltip] and [battle_death_leader.GetPrimaryTitle.GetNameNoTierNoTooltip] interested me little, until my council's summary of the battle of [battle_death_location.GetNameNoTooltip] appeared."
-  # Intro 2
+  #Intro 2
   death_management.intro.enemy: "Ahead of me, [dead_character.GetFirstName], charges forward towards the enemy.\n\n"
   death_management.intro.friendly: "Across the field I spot [dead_character.GetFirstName] desperately fighting.\n\n"
   death_management.intro.letter.lover: "My stomach drops, full of fear for my lover, as I take the scroll.\n\n$death_management.intro.letter$"
@@ -294,59 +264,60 @@
   death_management.intro.letter.rival: "Somehow I know, even before I open it, that it contains good news.\n\n$death_management.intro.letter$"
   death_management.intro.letter.heir: "I take a deep breath; so much rests on the fate of my heir.\n\n$death_management.intro.letter$"
   death_management.intro.letter: "There, amongst the dispatches, it reads:\n"
-  # Death flavor
+  #Death flavor
   death_management.death.witnessed.enemy: "Our [battle_death_leader.Custom('GetRandomEmployedMAA')] harry [dead_character.GetHerHim] relentlessly, and it is clear [dead_character.GetSheHe] is all but spent as other [dead_character.GetWomenMen] drop like flies around [dead_character.GetHerHim]."
   death_management.death.witnessed.friendly: "[battle_death_enemy.GetPrimaryTitle.GetAdjectiveNoTooltip] [battle_death_enemy.Custom('GetRandomEmployedMAA')] are slowly surrounding [dead_character.GetHerHim], [dead_character.GetHerHis] exhaustion only too clear."
   death_management.death.war.enemy: "'#EMP We confirm [dead_character.GetTitledFirstName] was killed staunchly resisting the [battle_death_leader.GetPrimaryTitle.GetAdjectiveNoTooltip] [battle_death_leader.Custom('GetRandomEmployedMAA')]."
   death_management.death.war.friendly: "'#EMP Our brave [dead_character.GetTitledFirstName] was killed leading an attack against the [battle_death_enemy.GetPrimaryTitle.GetAdjectiveNoTooltip] [battle_death_enemy.Custom('GetRandomEmployedMAA')]."
   death_management.death.uninvolved: "'#EMP We confirm [dead_character.GetTitledFirstName] was killed staunchly resisting the [battle_death_leader.GetPrimaryTitle.GetAdjectiveNoTooltip] [battle_death_leader.Custom('GetRandomEmployedMAA')]."
-  # Killer
+  #Killer
   death_management.killer.witnessed.enemy: "In mere moments, [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] of [battle_death_killer.GetLiege.GetTitledFirstName], determinedly charges forward, holding [battle_death_killer.GetHerHis] [battle_death_killer.Custom('signature_weapon')] aloft, easily overcomes the remaining strength of [dead_character.GetFirstNameNoTooltip] and delivers the coup de grace. "
   death_management.killer.witnessed.friendly: "The glint of a [battle_death_killer.Custom('signature_weapon')] suddenly catches my eye, and I watch as [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] of [battle_death_killer.GetLiege.GetTitledFirstName], delivers the vicious death blow."
   death_management.killer: "[dead_character.GetSheHe|U] was slain by [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] of [battle_death_killer.GetLiege.GetTitledFirstName], in a fierce encounter.'#!"
   death_management.no_killer: "[dead_character.GetSheHe|U] was struck by a stray arrow during a fierce skirmish.'#!"
-  # Spouse
+  #Spouse
   death_management.1200.t: "Fallen Consort"
-  death_management.1200.desc: "\n\nI should not have let [dead_character.GetHerHim] go... not like this..."
+  death_management.1200.desc_sad: "\n\nI should not have let [dead_character.GetHerHim] go... not like this..."
+  death_management.1200.desc_happy: "\n\nFinally, that [dead_character.Custom('InsultNoun')] is dead!"
   death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip] is a dead [dead_character.GetWomanMan]! Dead!"
   death_management.1200.b: "I will never forget you..."
   death_management.1200.c: "You proved your valor, my love..."
   death_management.1200.d: "At last, I am free!"
-  # Child
-  death_management.1201.t0": Fallen [dead_character.Custom('GetDaughterSon')|U]"
+  #Child
+  death_management.1201.t: " Fallen [dead_character.Custom('GetDaughterSon')|U]"
   death_management.1201.desc: "\n\nI could not have saved [dead_character.GetHerHim]... but no parent should outlive their child..."
   death_management.1201.a: "[battle_death_killer.GetFirstNameNoTooltip] will not get away with this!"
   death_management.1201.b: "#EMP My brave [dead_character.Custom('GetDaughterSon')]...#!"
   death_management.1201.c: "It was not your time, my child..."
   death_management.1201.d: "Rest easy, child."
-  # Parent
+  #Parent
   death_management.1202.t: "Fallen Parent"
   death_management.1202.desc: "\n\nIt is too late to change things, I only hope [dead_character.GetSheHe] finds peace in [dead_character.GetFaith.PositiveAfterLife]."
   death_management.1202.a: "#EMP Why you, [dead_character.Custom('GetMamaPapa')]?#!"
   death_management.1202.b: "[battle_death_killer.GetFirstNameNoTooltip] will pay."
-  # Lover
+  #Lover
   death_management.1204.t: "Fallen Lover"
   death_management.1204.desc: "\n\nMy heart turns to ice, as I realize I will never again feel the warmth of my beloved's embrace..."
   death_management.1204.a: "#EMP My brave [dead_character.GetFirstNameNoTooltip]#!..."
   death_management.1204.b: "...you will be avenged!"
-  # Best Friend
+  #Best Friend
   death_management.1205.t: "Fallen Friend"
   death_management.1205.desc: "\n\nI will never again share [dead_character.GetHerHis] treasured company..."
   death_management.1205.a: "Not [dead_character.GetFirstNameNoTooltip]!"
   death_management.1205.b: "[battle_death_killer.GetFirstNameNoTooltip] will pay for this!"
-  # Rival
+  #Rival
   death_management.1206.t: "Fallen Rival"
   death_management.1206.desc: "\n\nI can't help but grin at the thought [dead_character.GetFirstNameNoTooltip] died fighting #EMP my#! wars, this will buoy my spirit for days!"
   death_management.1206.a: "Good riddance."
   death_management.1206.b: "[dead_character.GetFirstNameNoTooltip] was meant to be mine!"
   death_management.1206.c: "My #EMP hero!#! I shall send [battle_death_killer.GetFirstNameNoTooltip] a [ROOT.Char.Custom('get_region_flower_type')]!"
-  # Heir
+  #Heir
   death_management.1207.t: "Fallen Heir"
   death_management.1207.desc: "\n\nThe succession of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] must be looked to once more..."
   death_management.1207.a: "You were not ready..."
   death_management.1207.b: "...but neither is [battle_death_killer.GetFirstNameNoTooltip]!"
   death_battle_new_rivalry_title: "[avenger.GetTitledFirstNameNoTooltip] seeks revenge"
-  # Family Feud
+  #Family Feud
   death_management.3006.b: "A pity, I had hoped [dead_character.GetSheHe] would last longer."
   death_management.3006.c: "$death_management.1006.e$"
   death_management.3006.d: "$death_management.1006.f$"

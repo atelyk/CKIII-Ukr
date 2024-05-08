@@ -3,29 +3,23 @@
   sway_ongoing.1001.desc: "Простолюдин [target.GetCulture.GetNameNoTooltip]ого походження постраждав на вулицях міста [capital.GetNameNoTooltip] через дрібні образи.\n\nВиступивши на його захист, я, можливо, зможу досягти того, що [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], [Select_CString(target.IsFemale, 'яка', 'який' )] також з [target.GetCulture.GetNameNoTooltip]ого народу, повірить у мої добрі наміри. Однак я ризикую відвернути від себе інших [ROOT.Char.GetCulture.GetNameNoTooltip]их товарищів..."
   sway_ongoing.1001.a: "[target.GetCulture.GetCulture.GetCollectiveNounNoTooltip] — хороші люди."
   sway_ongoing.1001.b: "[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] духовно досконаліші!"
-
   sway_ongoing.1002.t: "Вплив: комплімент"
   sway_ongoing.1002.desc: "Щоб [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] легше [Select_CString(target.IsFemale, 'відгукувалася', 'відгукувався' )]на мої спроби зближення, я можу додати компліменти до наступного листа, адресованого [target.GetHerHis] двору.\n\nЯ неодмінно згадаю [target.GetHerHis]..."
   sway_ongoing.1002.success.tt: "Нехай вирішує [friend.GetTitledFirstNameNoTooltip]:"
   sway_ongoing.1002.b: "Я писатиму коротко і по суті."
-
   sway_ongoing.1003.opening: "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
   sway_ongoing.1003.desc: "Наше недавнє листування доставило мені чимало задоволення. Наважусь припустити, що ми тільки виграємо, якщо писатимемо один одному частіше."
   sway_ongoing.1003.a: "Чудово!"
-
   sway_ongoing.1004.desc: "Наше недавнє листування залишає бажати кращого. Будь ласка, надалі утримайтеся від особистих зауважень."
   sway_ongoing.1004.a: "О ні..."
-
   sway_ongoing.1005.t: "Вплив: [Select_CString(target.IsFemale, 'славна', 'славний' )] [target.GetTitleAsNameNoTooltip]"
   sway_ongoing.1005.desc: "Під час прийомів у присутності представників знаті з близьких та далеких країв мені представилося безліч можливостей показати, що [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] — чудова людина.\n\n«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], скажіть на милість, хто самий [target.Custom('FormalComplimentAdjective')][Select_CString(target.IsFemale, 'а', 'ий' )] серед людей з усіх, про кого вам доводилося чути?»"
   sway_ongoing.1005.a: "Безперечно, це [target.GetTitledFirstNameNoTooltip]!"
   sway_ongoing.1005.b: "Звісно ж, це я!"
-
   sway_ongoing.1006.t: "Вплив: заслані"
   sway_ongoing.1006.desc: "Мені стало відомо, що низка місцевих простолюдинів переселяється у володіння [capital.GetNameNoTooltip], яким керує [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)].\n\nЯкщо місцеві — новоприбулі, та й інші, — почнуть мене прославляти, це напевно не зашкодить [target.GetHerHis] думці про мене..."
   sway_ongoing.1006.a: "«Ось вам золото, і нехай вас почують»."
   sway_ongoing.1006.b: "Воно того не варте."
-
   sway_ongoing.5001.t: "Вплив: про особисте"
   sway_ongoing.5001.desc: "У недавньому листуванні [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(target.IsFemale, 'висловила', 'висловив' )] бажання зосередитися на своїх інтересах та планах на майбутнє.\n\nЯ #EMP можу#! зробити так, що в наших майбутніх листах буде більше відомостей про те, що [target.GetHerHim] цікаво..."
   sway_ongoing.5001.diplomacy_lifestyle: "Гадаю, [target.GetSheHe] хоче зробити наголос на питаннях дипломатії."
@@ -35,7 +29,6 @@
   sway_ongoing.5001.learning_lifestyle: "Думаю, ніщо не зацікавить [target.GetHerHim] так, як гарна книга!"
   sway_ongoing.5001.a.tt: "Я ненав'язливо торкнуся цієї теми в майбутніх листах"
   sway_ongoing.5001.b: "Мене це не стосується."
-
   sway_ongoing.5002.t: "Про особисте"
   sway_ongoing.5002.desc_opening: "У недавньому листі [owner.Custom2('MyCharacterIntroductionNoComma', target)] [Select_CString(owner.IsFemale, 'згадала', 'згадав' )] про"
   sway_ongoing.5002.desc_diplomacy: "свою недавню розмову"
@@ -51,7 +44,6 @@
   sway_ongoing.5002.b: "О, #EMP прошу вас#!, розповідайте далі!"
   sway_ongoing.5002.b.tt: "Думаю, я пожартую над [Select_CString(owner.IsFemale, 'нею', 'ним' )]..."
   sway_ongoing.5002.c: "Нам варто дотримуватись більш доречних тем."
-
   sway_ongoing.5003.desc_opening: "У своїй відповіді [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(target.IsFemale, 'заохотила', 'заохотив' )] мій перехід до більш особистих питань!"
   sway_ongoing.5003.desc_nonsense: "\n\nТепер мені лише треба вдавати, що я маю хоч якісь знання в такій галузі, як [owner.Custom('LifestyleFocusTopic')]..."
   sway_ongoing.5003.desc: "\n\nЯкий збіг, [target.GetHerHis] теж цікавить [owner.Custom('LifestyleFocusTopic')]."
@@ -63,30 +55,23 @@
   sway_ongoing.5003.b_learning: "«Отже... що стосовно листів?»"
   sway_ongoing.5003.b.tt: "Сподіваюся, [target.GetSheHe] купиться на це!"
   sway_ongoing.5003.c: "Я не можу цього зробити!"
-
   sway_ongoing.5004.desc: "У листі у відповідь [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(target.IsFemale, 'попросила', 'попросив' )] мене зайнятися справами та не відволікатися на особисті справи.\n\n«Я не ціную подібних спроб відвернути мене», — [Select_CString(target.IsFemale, 'написала', 'написав' )] [target.GetSheHe]."
   sway_ongoing.5004.desc_nonsense: "\n\nМожливо, це і на краще... Я все одно мало що тямлю в такому питанні, як [owner.Custom('LifestyleFocusTopic')]."
   sway_ongoing.5004.a: "Треба було спробувати!"
-
   sway_ongoing.5005.desc: "В останньому листі [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] зізнається, що нічого не розуміє у такій темі, як [owner.Custom('LifestyleFocusTopic')], та просто [Select_CString(target.IsFemale, 'вдавала', 'вдавав' )] заради продовження спілкування!"
   sway_ongoing.5005.a: "Яке брехло! Але не хвилюйтесь, я нікому не скажу."
-
   sway_ongoing.5006.desc: "В останньому листі [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] зізнається, що [target.GetSheHe] нічого не розуміє у такій темі, як [target.Custom('LifestyleFocusTopic')], та просто [Select_CString(target.IsFemale, 'вдавала', 'вдавав' )] заради продовження спілкування!"
-
   sway_ongoing.5007.desc: "В останньому листі, [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(owner.IsFemale, 'присвятила', 'присвятив' )] цілий абзац такій темі, як [owner.Custom('LifestyleFocusTopic')]! Мені й на думку не спадало, що [owner.GetSheHe] настільки цим цікавиться...\n\nНехай спочатку мені просто хотілося зробити [owner.GetHerHim] приємне, але тепер я надто глибоко в цьому [Select_CString(ROOT.Char.IsFemale, 'загрузла', 'загруз' )], щоб відступити..."
   sway_ongoing.5007.b.tt: "Сподіваюся, [owner.GetSheHe] купиться на це!"
-
   sway_ongoing.5009.desc_success: "Я та [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] ведемо довгі дискусії про такий предмет, як [owner.Custom('LifestyleFocusTopic')], і я навіть влаштовую своєрідне дослідження, щоб зобразити розуміння теми, і тепер раптом помічаю, що цей предмет уже не настільки чужий і незрозумілий мені, як раніше!"
   sway_ongoing.5009.desc_owner_discovered: "Під час нещодавнього листування [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(target.IsFemale, 'висловила', 'висловив' )] свої підозри про мій істинний рівень розуміння такого предмета, як [owner.Custom('LifestyleFocusTopic')].\n\nПродовжуючи читання, я розумію, що мій прийом розкрито: адресат продовжує міркувати про «очевидну відсутність розуміння» і «ганебний приклад дурості»."
   sway_ongoing.5009.desc_target_discovered: "Під час нещодавнього листування [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(target.IsFemale, 'продемонструвала', 'продемонстрував' )] ганебне нерозуміння такого предмета, як [owner.Custom('LifestyleFocusTopic')].\n\nІ якщо навіть я розумію, що [target.GetSheHe] пише відверту нісенітницю, то все #EMP дуже#! погано!"
   sway_ongoing.5009.a: "Мені дійсно багато вдалося дізнатися!"
   sway_ongoing.5009.b: "Ауч."
   sway_ongoing.5009.c: "Не хвилюйтеся. Я нікому не скажу."
-
   sway_ongoing.5010.desc_success: "Я та [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] ведемо довгі дискусії про такий предмет, як [owner.Custom('LifestyleFocusTopic')], і я навіть влаштовую своєрідне дослідження, щоб зобразити розуміння теми. Тепер я раптом помічаю, що цей предмет вже не настільки чужий і незрозумілий мені, як раніше!"
   sway_ongoing.5010.desc_target_discovered: "Під час нещодавнього листування [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(target.IsFemale, 'натякнула', 'натякнув' )], що здогадується про мій істинний рівень розуміння такого предмета, як [owner.Custom('LifestyleFocusTopic')].\n\nНаприкінці ж листа я розумію, що мій прийом розкрито: адресат продовжує міркувати про «очевидну відсутність розуміння» і «ганебний приклад дурості»."
   sway_ongoing.5010.desc_owner_discovered: "Під час нещодавнього листування [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] [Select_CString(target.IsFemale, 'продемонструвала', 'продемонстрував' )] ганебне нерозуміння такого предмета, як [owner.Custom('LifestyleFocusTopic')].\n\nІ якщо навіть я розумію, що [owner.GetSheHe] пише відверту нісенітницю, то все #EMP дуже#! погано!"
-
   sway_ongoing.5011.t: "Вплив: візит"
   sway_ongoing.5011.desc_opening: "Я проїжджаю через володіння [capital.GetNameNoTooltip], яким керує [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)], коли отримую запрошення відвідати [target.GetHerHis] з візитом.\n\nКоли я прибуваю,"
   sway_ongoing.5011.desc_friendly: "[target.GetSheHe] вітає мене з розкритими обіймами"
@@ -97,7 +82,6 @@
   sway_ongoing.5011.a.tt: "Можливо, я зможу допомогти [target.GetHerHim]"
   sway_ongoing.5011.b: "Просто проведіть мене в мої покої."
   sway_ongoing.5011.b.tt: "Я поїду вранці, щойно розвидниться"
-
   sway_ongoing.5013.desc_opening: "Бібліотека зі складеними по кутах книгами, незавершене будівництво — недобудований навіть обідній зал, — скриня золота, що просто стоїть посеред коридору...\n\n[target.Custom('ResidenceBuilding')], де мешкає [target.GetTitledFirstName], цілком і повністю поринутий у безлад!"
   sway_ongoing.5012.a_trait: "Я відразу візьмуся за обідню залу."
   sway_ongoing.5012.a: "Думаю, я можу допомогти з обідньою залою."
@@ -114,13 +98,11 @@
   sway_ongoing.5012.c_success: "[target.GetSheHe|U] міцно запам'ятовує моє попередження"
   sway_ongoing.5012.c_failure: "[target.GetSheHe|U] думає, що я щось промишляю"
   sway_ongoing.5012.d: "Я попрямую до ліжка."
-
   sway_ongoing.5013.desc_expansion_success: "Потрібно було лише приділити трохи уваги, і незабаром обідня зала, що [Select_CString(target.IsFemale, 'будувала', 'будував' )] [target.GetTitledFirstNameNoTooltip], починає швидко змінюватися."
   sway_ongoing.5013.desc_expansion_failure: "Незважаючи на всі мої зусилля, обідня зала, що [Select_CString(target.IsFemale, 'будувала', 'будував' )] [target.GetTitledFirstNameNoTooltip], після мого втручання виглядає ще гірше..."
   sway_ongoing.5013.desc_library_success: "Книги, окремі листочки документів, прикрашені палітурки... Після довгого прибирання у бібліотеці, якою володіє [target.GetTitledFirstNameNoTooltip], встановилося якась подоба порядку."
   sway_ongoing.5013.desc_library_failure: "Книги, окремі листочки документів, прикрашені палітурки... Незважаючи на всі свої старання, я не можу упорядкувати бібліотеку, якою володіє [target.GetTitledFirstNameNoTooltip]."
-  sway_ongoing.5013.desc_gold_success0: Коли я пояснюю, як небезпечно зберігати скриню із золотом посеред коридору, [target.GetTitledFirstNameNoTooltip] розплющує очі від подиву.\n\n«О, звичайно, там йому не місце! Дякую, [ROOT.Char.GetTitledFirstNameNoTooltip]»."""
-  sway_ongoing.5013.desc_gold_success: "As I explain the risks of keeping a chest of gold out in the open [target.GetTitledFirstNamePossessiveNoTooltip] eyes widen in realization.\n\nOh, of course it shouldn't be out there! Thank you [ROOT.Char.GetTitledFirstNameNoTooltip]."""""
+  sway_ongoing.5013.desc_gold_success: "As I explain the risks of keeping a chest of gold out in the open [target.GetTitledFirstNamePossessiveNoTooltip] eyes widen in realization.\n\nOh, of course it shouldn't be out there! Thank you [ROOT.Char.GetTitledFirstNameNoTooltip].\"\"\"\""
   sway_ongoing.5013.desc_gold_failure: "Коли я намагаюся пояснити, як небезпечно зберігати скриню із золотом посеред коридору, [target.GetTitledFirstNameNoTooltip] з підозрою дивиться на мене.\n\n«І з якої #EMP саме#! причини ви придивляєтеся до мого золота?»"
   sway_ongoing.5013.desc_steal_success: "«Моє золото! Куди зникло моє золото?!»\n\nЯ бачу, як [target.GetTitledFirstName] у розпачі стоїть посеред коридору перед порожньою скринею. «О, [ROOT.Char.GetTitledFirstNameNoTooltip], треба було вас послухати!»"
   sway_ongoing.5013.desc_end_good: "\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'зробила', 'зробив' )] все можливе, щоб допомогти [target.GetHerHim]."
@@ -130,7 +112,6 @@
   sway_ongoing.5013.c: "Я знаю, як змусити [target.GetHerHis] слухати!.."
   sway_ongoing.5013.c.tt_intrigue: "Що якщо щось трапиться з [target.GetHerHis] золотом..."
   sway_ongoing.5013.d: "#EMP Тепер#! час у ліжко."
-
   sway_ongoing.5014.desc_opening: "Вранці я бачу, що [target.GetTitledFirstName] чекає на мене біля дверей, щоб проводити мене. Підходячи ближче, я чую, як [target.GetSheHe] бурмотить собі під ніс.\n\n"
   sway_ongoing.5014.desc_great: "«[ROOT.Char.GetSheHe|U] просто майстер, [target.Custom('ResidenceBuilding')] виглядає, як після капітального ремонту...»"
   sway_ongoing.5014.desc_good: "«[ROOT.Char.GetSheHe|U] дійсно [Select_CString(ROOT.Char.IsFemale, 'привела', 'привів' )] тут все до ладу»"
@@ -138,8 +119,12 @@
   sway_ongoing.5014.desc_failed_but: "але..."
   sway_ongoing.5014.desc_failed_dot: "–"
   sway_ongoing.5014.desc_failed_three: "[ROOT.Char.GetSheHe] [Select_CString(ROOT.Char.IsFemale, 'розвалила', 'розвалив' )] мою бібліотеку, мою обідню залу #EMP та#! [Select_CString(ROOT.Char.IsFemale, 'намагалася', 'намагався' )] вкрасти моє золото...»"
+  sway_ongoing.5014.desc_failed_library_gold: "[ROOT.Char.GetSheHe] ruined my library #EMP and#! tried to steal my gold..."
   sway_ongoing.5014.desc_failed_expansion_library: "[ROOT.Char.GetSheHe] [Select_CString(ROOT.Char.IsFemale, 'розвалила', 'розвалив' )] мою бібліотеку, мою обідню залу...»"
+  sway_ongoing.5014.desc_failed_expansion_gold: "[ROOT.Char.GetSheHe] ruined my dining hall #EMP and#! tried to steal my gold...\""
   sway_ongoing.5014.desc_failed_expansion: "[ROOT.Char.GetSheHe] [Select_CString(ROOT.Char.IsFemale, 'розвалила', 'розвалив' )] мою обідню залу...»"
+  sway_ongoing.5014.desc_failed_library: "[ROOT.Char.GetSheHe] ruined my library...\""
   sway_ongoing.5014.desc_failed_gold: "[ROOT.Char.GetSheHe] [Select_CString(ROOT.Char.IsFemale, 'намагалася', 'намагався' )] вкрасти моє золото...»"
+  sway_ongoing.5014.desc_ending: "\n\n\"#EMP Ehum#!.\" After a quick goodbye I am soon on the road back home again."
   sway_ongoing.5014.a_good: "Добре, що мені вдалося допомогти!"
   sway_ongoing.5014.a_bad: "Мабуть, це на краще."

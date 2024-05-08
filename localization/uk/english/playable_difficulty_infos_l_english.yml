@@ -1,6 +1,5 @@
 ﻿l_english:
   PLAYABLE_DIFFICULTY_INFO_SEPARATOR: "$COMMA$"
-
   pdi_at_war: "В стані [wars|El]"
   pdi_no_player_heir: "[player_heir|E] відсутній"
   pdi_primary_heir_of_wrong_dynasty: "[primary_heir|E] не належить до потрібної [dynasties|El]"
@@ -8,7 +7,8 @@
   pdi_female_under_male_dominated_doctrine: "По [faiths|El] [rulers|El] мають бути чоловіками"
   pdi_male_under_female_dominated_doctrine: "По [faiths|El] [rulers|El] мають бути жінками"
   pdi_liege_of_hostile_faith: "В [Concept( 'liege', 'сюзерена' )|E] ворожа [faith|El]"
-  pdi_patrilinial_marriage_as_woman0": [patrilineal|E] [marriage|E]"
-  pdi_matrilinial_marriage_as_man: "[matrilineal|E] [marriage|El]"
-  pdi_is_in_debt: "[debt|E]"
+  pdi_patrilinial_marriage_as_woman: " [patrilineal|E] [marriage|E]"
+  pdi_matrilinial_marriage_as_man: "[matrilineal|E] [marriage|E]"
+  pdi_is_in_debt: "In [debt|E]"
   pdi_has_poor_health: "[health|E]: $action_dying$"
+  pdi_in_regency: "In a [regency|E]"

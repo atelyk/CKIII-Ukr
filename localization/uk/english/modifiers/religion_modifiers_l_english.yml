@@ -1,28 +1,20 @@
 ﻿l_english:
   VIRTUE_MODIFIER: "[TRAIT.GetName( GetPlayer )|L] ([virtue|El])"
   SIN_MODIFIER: "[TRAIT.GetName( GetPlayer )|L] ([sin|El])"
-
   recent_excommunication: "Нещодавнє відлучення"
   recent_excommunication_desc: "Цей персонаж нещодавно був [excommunicated|El], що погіршило його репутацію серед прихильників віри."
-
   excommunication_recently_lifted: "Відлучення, що нещодавно зняте"
   excommunication_recently_lifted_desc: "Потрібен час, щоб зійшло тавро, яке залишило на цьому персонажі [excommunication|El]."
-
   vow_of_poverty_modifier: "Обітниця бідності"
   vow_of_poverty_modifier_desc: "Цей персонаж дав священну обітницю роздати більшу частину свого багатства."
-
   temporal_condemnation_modifier: "Тимчасове засудження"
   temporal_condemnation_modifier_desc: "Релігійні авторитети оголосили, що цей персонаж не підходить на роль лідера віруючих."
-
   scorned_theocrats_modifier: "Зневага до духовенства"
   scorned_theocrats_modifier_desc: "Цей персонаж публічно образив і погрожував члену духовенства."
-
   known_non_believer: "Відсутність віри"
   known_non_believer_desc: "Цей персонаж виявився безвірним."
-
   dynasty_beneficiary_won_ghw: "Династія ревнителів"
   dynasty_beneficiary_won_ghw_desc: "Неможливо заперечувати завзяття та хоробрість, які проявляють члени цієї династії на війні — особливо коли справа стосується питань віри."
-
   house_beneficiary_won_ghw_crusade: "Дім хрестоносців"
   house_beneficiary_won_ghw_crusade_desc: "Коли прийшов час довести свою відданість церкві, члени цього дому були готові відповісти на заклик до озброєння і проявили себе в боях проти язичників."
   house_beneficiary_won_ghw_jihad: "Дім моджахедів"
@@ -31,7 +23,6 @@
   house_beneficiary_won_ghw_desc: "Члени цього дому відзначилися у боротьбі з ворогами віри, і їх завзяття не викликає сумніву."
   resurging_saoshyant: "Відродження Саош'янта"
   resurging_saoshyant_desc: "Ця династія дала світу Саош'янта, який повернувся, щоб вивести світ із темряви."
-
   wind_spirit_blessing: "Благословення духів вітру"
   wind_spirit_blessing_desc: "Ходять чутки, що цей персонаж був благословенний духами."
   water_spirit_blessing: "Благословення духів води"
@@ -42,7 +33,6 @@
   tree_spirit_blessing_desc: "$wind_spirit_blessing_desc$"
   bush_spirit_blessing: "Благословення духів чагарів"
   bush_spirit_blessing_desc: "$wind_spirit_blessing_desc$"
-
   bhakti_hinduism_ganga: "Ревнитель Ганги"
   bhakti_hinduism_ganga_desc: "Цей персонаж — бхакті Ганги, богині чистоти, спокути та мокші."
   bhakti_hinduism_saraswati: "Ревнитель Сарасваті"
@@ -71,7 +61,6 @@
   bhakti_smartism_vishnu_desc: "Цей персонаж — бхакті Вішну, бога-охоронця всесвіту."
   bhakti_smartism_shiva: "Ревнитель Шиви"
   bhakti_smartism_shiva_desc: "Цей персонаж — бхакті Шиви, бога, що полює за злом і знищує його у всіх проявах."
-
   bhakti_germanic_generic_odin: "Devotee of Odin"
   bhakti_germanic_generic_odin_desc: "This character's favored god is Odin, a god of war, sorcery, death, and poetry."
   bhakti_germanic_not_danish_ullr: "Devotee of Ullr"
@@ -82,10 +71,8 @@
   bhakti_germanic_generic_thor_desc: "This character's favored god is Thor, a god of protection, storms, humanity, and strength."
   bhakti_germanic_generic_freyr: "Devotee of Freyr"
   bhakti_germanic_generic_freyr_desc: "This character's favored god is Freyr, a god of peace, the harvest, and benign rule."
-
   meditating_in_seclusion_modifier: "Медитація в усамітненні"
   meditating_in_seclusion_modifier_desc: "Цей персонаж вирушив у внутрішню подорож і майже не звертає увагу на матеріальні речі."
-
   astrology_great_battle: "Очікування великої битви"
   astrology_great_battle_desc: "Цей персонаж чекає на велику битву і тренується перед нею."
   astrology_new_friends: "Нові друзі"
@@ -96,6 +83,7 @@
   astrology_betrayal_desc: "Щось змусило цього персонажа стати підозрілим та не довіряти іншим."
   astrology_new_beginnings: "Відкритий розум"
   astrology_new_beginnings_desc: "Цей персонаж щосили намагається тримати свій розум відкритим."
-
   feud_with_the_church_modifier: "Протистояння церкві"
   feud_with_the_church_modifier_desc: "Відомо, що цей персонаж давно протистоїть церкві і може перейти у цій боротьбі до рішучих заходів."
+  sun_trial_suspicious_modifier: "Suspicious Sun Trial"
+  sun_trial_suspicious_modifier_desc: "This character is known to have conducted a Sun Trial that ended in somewhat suspicious circumstances, bringing them into disrepute."

@@ -6,11 +6,9 @@
   seduce_suspicion_target_spouse_opinion: "Підозра"
   seduce_refused_target_spouse_opinion: "Відмовляється припинити зваблення"
   seduce_continued_seduction_of_my_spouse_opinion: "Брехня про зваблення"
-
   #used for romance and seduce schemes
   seduce_regular_cooldown_opinion: "Пропозиція відкинута"
   seduce_permanent_blocker_opinion: "Огида до знаків уваги"
-
   adulterer_advances_on_relevant_character: "Пошук зв'язків поза шлюбом"
   fornicator_advances_on_relevant_character: "Спроби порушити подружню вірність"
   incestuous_advances_on_relevant_character: "Спроби інцесту"

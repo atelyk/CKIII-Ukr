@@ -51,3 +51,5 @@
   stew_flood_covered_adjective_proud: "гордий"
   stew_flood_covered_adjective_beautiful: "гарний"
   stew_flood_fallback_adjective: "довірливий"
+  feast_stew_flood_log_title: "Stew Flood"
+  feast_stew_flood_log: "[TARGET_CHARACTER.GetTitledFirstName] was covered in hot stew after a giant spillage incident."

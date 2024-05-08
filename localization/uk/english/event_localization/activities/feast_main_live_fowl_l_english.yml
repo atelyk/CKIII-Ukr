@@ -45,3 +45,5 @@
   feast_main_live_fowl.9004.a: "Не такий вже й поганий вийшов бенкет."
   feast_main_live_fowl.9005.desc: "[host_saying_goodbye.GetTitledFirstNamePossessive] завершує бенкет. Здається, більшості гостей сподобалося, навіть якщо я хотів, щоби вони швидше забули мої стрибки на столах.\nПринаймні [fowl_dinner_target.GetFirstName] [Select_CString(fowl_dinner_target.IsFemale, 'подякувала', 'подякував' )] мені за те, що я прогнав птицю після нападу на [Scope.sCharacter('fowl_dinner_target').GetHerHis] птицы."
   feast_main_live_fowl.9005.a: "Наступне свято я буду трохи спокійнішим."
+  feast_live_fowl_log_title: "Пташиний напад"
+  feast_live_fowl_log: "[TARGET_CHARACTER.GetTitledFirstName] був атакований живою птицею за обіднім столом."

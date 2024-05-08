@@ -19,6 +19,7 @@
   raiding.0004.desc.gold_plundered: "Коли [raider.GetTitledFirstNameNoTooltip] [Select_CString(raider.IsFemale, 'захопила', 'захопив' )] поселення [sacked_barony.GetNameNoTierNoTooltip], більша частина графства [sacked_county.GetNameNoTierNoTooltip] залишилася беззахисною перед безчинствами [raider.GetPrimaryTitle.GetAdjectiveNoTooltip]их грабіжників.\n\nОскільки сил фортець, що залишилися, недостатньо для протистояння грабіжникам, ті розграбували землі графства дощенту, потягнувши срібло і всі більш-менш цінні речі."
   raiding.0004.desc.spared_plundered: "Хоча поселення [sacked_barony.GetNameNoTierNoTooltip] пало, не витримавши облоги, більшість земель графства [sacked_county.GetNameNoTierNoTooltip] дала відсіч, і [raider.GetTitledFirstName] [Select_CString(raider.IsFemale, 'була змушена', 'був змушений' )] вгамувати запал.Розграбованих земель виявилося порівняно небагато, та й самі грабежі мали, скоріше, випадковий характер.\n\nВашого васала пощадили, але [raider.GetPrimaryTitle.GetAdjectiveNoTooltip]і погляди вже звернулися на ваші особисті володіння."
   raiding.0004.a: "Нехай будь прокляті ці набридливі дикуни!"
+  raiding.0004.a.tribal: "Curse those [raider.GetPrimaryTitle.GetAdjectiveNoTooltip] dogs!"
   raiding.0004.b: "Заплатити вергельд за загиблих."
   raiding.0004.c: "Допомогти їм відбудуватись."
   raiding.0004.c.architect: "You send your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('architect'))] [architect.GetTitledFirstNameNoTooltip] to oversee the reparations."

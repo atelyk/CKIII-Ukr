@@ -1,0 +1,26 @@
+﻿l_english:
+  diplomatic_scheme_lifestyle.1001.t: "Стратегічний інтерес"
+  diplomatic_scheme_lifestyle.1001.desc: "Спочатку [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'отримувала', 'отримував' )] від мене листа. Це був мій спосіб познайомитись ближче. Незабаром ми знайшли спільний інтерес, і тепер надсилаємо один одному цілі аркуші, списані думками про стратегію та військову справу!"
+  diplomatic_scheme_lifestyle.1001.a: "Швидше б ознайомитись з [target.GetHerHis] новими планами."
+  diplomatic_scheme_lifestyle.1001.b: "Я маю нову ідею. Вона, напевно, [target.GetHerHim] сподобається!"
+
+  diplomatic_scheme_lifestyle.3001.t: "Пізнати [SCOPE.sC('target').GetHerHis] краще"
+  diplomatic_scheme_lifestyle.3001.desc: "Я знаю, що багато хто цього не схвалить, але, на мою думку, добре, що [target.GetTitledFirstName] під постійним наглядом. Принаймні я продовжую переконувати себе в цьому, коли доручаю співучасникам записувати все, що [SCOPE.sC('target').GetSheHe] любить і не любить."
+  diplomatic_scheme_lifestyle.3001.a: "Щоб досягти [target.GetHerHis] дружби, мені необхідно краще [target.GetHerHim] пізнати!"
+  diplomatic_scheme_lifestyle.3001.a.tt: "#F Звичайно ж, [target.GetSheHe] зрозуміє! #!"
+  diplomatic_scheme_lifestyle.3001.b: "Можливо, вони щось задумали..."
+  diplomatic_scheme_lifestyle.3001.b.tt: "#F Потрібно змінити тактику.#!"
+
+  diplomatic_scheme_lifestyle.3101.t: "Конфронтація"
+  diplomatic_scheme_lifestyle.3101.desc_opening_good: "«Це, звичайно, дуже приємно, але я не можу зрозуміти ваших намірів».\n\n[SCOPE.sC('target').GetTitledFirstName] [SCOPE.sC('target').Custom('quirk_pos_present')] і продовжує: «І ви завжди поруч… Не могли б ви на якийсь час дати мені спокій?»"
+  diplomatic_scheme_lifestyle.3101.desc_opening_bad: "«Це час припиняти!»\n\n[target.GetTitledFirstName] [target.Custom('quirk_neg_present')] і продовжує: «Не знаю, чого ви домагаєтесь, [ROOT.Char.GetFirstNameNoTooltip], але якщо моєї неприязні, то ви досягли успіху!»"
+  diplomatic_scheme_lifestyle.3101.a: "Я тимчасово відступлюся."
+  diplomatic_scheme_lifestyle.3101.a.tt: "#F Але я не здаюся!#!"
+  diplomatic_scheme_lifestyle.3101.b: "Я не здамся!"
+  diplomatic_scheme_lifestyle.3101.b.tt: "#F Навряд чи [target.GetSheHe] це навсправжки.#!"
+  diplomatic_scheme_lifestyle.3101.c: "Якщо [ROOT.Char.GetSheHe] так говорить, значить, і справді час припиняти."
+
+  diplomatic_scheme_lifestyle.3201.t: "Не перепочити"
+  diplomatic_scheme_lifestyle.3201.desc: "«[Select_CString(sacrifical_agent.IsFemale, 'Ця', 'Цей' )] [SCOPE.sC('sacrificial_agent').Custom('InsultAdjective')] [SCOPE.sC('sacrificial_agent').Custom('InsultNoun')] [SCOPE.sC('sacrificial_agent').GetFirstNameNoTooltip] весь час шастає поблизу — немає мені спокою!»\n\n[SCOPE.sC('target').GetTitledFirstName] палає від люті, і жертва цього полум'я — [Select_CString(sacrifical_agent.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sacrificial_agent'))] [SCOPE.sC('sacrificial_agent').GetTitledFirstName]."
+  diplomatic_scheme_lifestyle.3201.a: "Так! А як [SCOPE.sC('sacrificial_agent').GetSheHe] постійно [SCOPE.sC('sacrificial_agent').Custom('quirk_neg_present')]... #EMP Фу#!!"
+  diplomatic_scheme_lifestyle.3201.b: "[sacrificial_agent.GetSheHe|U] дуже [sacrificial_agent.Custom('quirk_pos_adjective')][Select_CString(sacrifical_agent.IsFemale, 'а', 'ий' )] [sacrificial_agent.GetWomanMan]!"

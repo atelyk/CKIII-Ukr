@@ -1,0 +1,5 @@
+﻿l_english:
+
+  IS_PLAYER_HEIR_OF: "#D TODO цей тригер потрібно буде замінити на код!#!"
+
+  CHARACTER_IS_PRESSING_TARGET_CHARACTERS_CLAIM: "[CHARACTER.GetShortUIName|U] обґрунтовує претензію персонажа [TARGET_CHARACTER.GetShortUINamePossessive]"

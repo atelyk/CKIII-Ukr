@@ -1,0 +1,31 @@
+﻿l_english:
+  house_arrest_ongoing.0001.t: "Цілі та мрії"
+  house_arrest_ongoing.0001.desc: "З кожним днем, проведеним у в'язниці, де мене тримає [prison_holder.GetTitledFirstName], мої витончені плани здаються все далі.\n\nСправжнє покарання не у фізичному ув'язненні, а в обмеженні моїх можливостей!"
+  house_arrest_ongoing.0001.a: "Цікаво, у якому стані перебувають мої справи?"
+  house_arrest_ongoing.0001.b: "Все буде готове до мого визволення. Потрібно будувати плани!"
+
+  house_arrest_ongoing.0002.t: "Неправдиве правосуддя"
+  house_arrest_ongoing.0002.desc: "Та ким [prison_holder.GetSheHe] себе [Select_CString(prison_holder.IsFemale, 'уявила, ця', 'уявив, цей' )] [prison_holder.GetTitledFirstName]?! Тримати мене в клітці, мов тварина, і нахабно називати це правосуддям?!\n\nНіби хтось крім [ROOT.Char.GetFaith.HighGodNamePossessive] може судити #EMP мене#!."
+  house_arrest_ongoing.0002.a: "Мені ще не доводилося терпіти такої образи!"
+  house_arrest_ongoing.0002.b: "Потрібно намагатися зберігати спокій."
+
+  house_arrest_ongoing.0003.t: "Дні самотності"
+  house_arrest_ongoing.0003.desc_opening: "Життя в розлуці з усіма, кого я люблю, — найжорстокіша кара. Я прагну до будь-якого джерела підбадьорення, будь-якої можливості спілкування — його мені так не вистачає!"
+  house_arrest_ongoing.0003.desc_friendly_prisoner: "\n\nТільки [friendly_prisoner.GetTitledFirstName] та наша з [Select_CString(friendly_prisoner.IsFemale, 'нею', 'ним' )] дружба дозволяють мені пережити ці довгі дні."
+  house_arrest_ongoing.0003.a: "Що, ніхто не хоче просто поговорити зі мною?!"
+  house_arrest_ongoing.0003.b: "Рано чи пізно знайду собі співрозмовника."
+  house_arrest_ongoing.0003.c: "[Select_CString(friendly_prisoner.IsFemale, 'Вона', 'Він' )] мій єдиний друг."
+  house_arrest_ongoing.0003.d: "[Select_CString(friendly_prisoner.IsFemale, 'Вона', 'Він' )] для мене єдине джерело любові та розуміння."
+  house_arrest_ongoing.0003.e: "[ROOT.Char.GetFirstNameNoTooltip] для мене єдине джерело любові та розуміння."
+
+  house_arrest_ongoing.0004.t: "Полегшення моїх страждань"
+  house_arrest_ongoing.0004.desc1: "«Я знаю, як вам бракує ваших книг та сувоїв, тому ми дещо купили для вас на ринку!»"
+  house_arrest_ongoing.0004.desc2: "«Я знаю, як сильно ви любите торти, а кухар трохи задумався, так що...»"
+  house_arrest_ongoing.0004.desc3: "«Цей браслет потрапив мені на очі, мені здалося, він вам сподобається. Будь ласка, надягніть!»"
+  house_arrest_ongoing.0004.desc4: "«Мені не вдалося умовити варту на щось більше, але, сподіваюся, прогулянки садом підбадьорять вас!»"
+  house_arrest_ongoing.0004.desc: "\n\n[Select_CString(friend_at_court.IsFemale, 'Моя люба', 'Мій любий' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend_at_court') )], [friend_at_court.GetTitledFirstName], завжди дбає про мене і докладає всіх сил, щоб зберегти звичні мені зручності на час мого ув'язнення."
+  house_arrest_ongoing.0004.a: "Не знаю, як мені вдавалося обходитися без [SCOPE.sC('friend_at_court').GetHerHim]!"
+
+  house_arrest_ongoing.0005.t: "Мій особистий кат"
+  house_arrest_ongoing.0005.desc: "«О, на жаль, що ви не бачили акторів на фестивалі. Вражаюче видовище!»\n\nМоє ув'язнення саме по собі огидне. Але тепер ще й [Select_CString(rival_at_court.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival_at_court') )] насміхається з мене. Це вже занадто! [Select_CString(rival_at_court.IsFemale, 'Вона', 'Він' )] робить все можливе, щоб тепер, коли становище моє настільки мізерне, зіпсувати мені життя ще сильніше."
+  house_arrest_ongoing.0005.a: "І працює!"

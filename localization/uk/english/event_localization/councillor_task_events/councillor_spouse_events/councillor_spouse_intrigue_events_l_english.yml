@@ -1,0 +1,47 @@
+﻿l_english:
+  councillor_spouse_intrigue.0001.message: "[councillor.GetTitleAsName] та [spymaster.GetCouncilTitle] об'єднують зусилля"
+
+  councillor_spouse_intrigue.0002.message: "[councillor.GetTitleAsName] викриває підступ"
+
+  councillor_spouse_intrigue.0003.message: "[councillor.GetTitleAsName] знаходить таємницю"
+
+  councillor_spouse_intrigue.0004.message: "[councillor.GetTitleAsName] підтримує підступ"
+
+  councillor_spouse_intrigue.0005.message: "[councillor.GetTitleAsName] маніпулює підданим"
+
+  councillor_spouse_intrigue.0006.message: "Утрата наївності"
+
+  councillor_spouse_intrigue.0007.message: "Практика підступності"
+
+  councillor_spouse_intrigue.1001.t: "Супутник життя: не вірити нікому"
+  councillor_spouse_intrigue.1001.desc: "«Вам потрібно бути обережнішим у виборі оточення, — [Select_CString(councillor.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))] дивиться на мене смертельно серйозно. — Я [Select_CString(councillor.IsFemale, 'дізналася', 'дізнався')], що прямо зараз [spymaster.GetTitledFirstName] плете проти вас змову!»\n\nЧи це можливо? [Select_CString(spymaster.IsFemale, 'Моя власна', 'Мій власний')] [spymaster.GetCouncilTitle]?!"
+  councillor_spouse_intrigue.1001.a: "Мене вважали [Select_CString(councillor.IsFemale, 'недалекою', 'недалеким')]!"
+
+  councillor_spouse_intrigue.1002.t: "Супутник життя: чутки та припущення"
+  councillor_spouse_intrigue.1002.desc: "[Select_CString(councillor.IsFemale, 'Моя', 'Мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('quirk_pos_present')], як [ councillor.GetSheHe] це зазвичай робить, коли хоче чимось поділитися:Ви чули, ніби [target.GetTitledFirstName] приховує щось жахливе?" Я нахиляюся, і [councillor.GetSheHe] знижує голос"
+  councillor_spouse_intrigue.1002.a: "Настав час для трішки пошпигувати, [Select_CString(councillor.IsFemale, 'моя', 'мій')] [councillor.Custom('LoverPetName')]!"
+  councillor_spouse_intrigue.1002.b: "Я мушу дізнатися, що це!"
+  councillor_spouse_intrigue.1002.c: "Я захищаю свої таємниці краще, ніж [target.GetFirstNameNoTooltip]."
+
+  councillor_spouse_intrigue.1003.t: "Супутник життя: таємне стало очевидним"
+  councillor_spouse_intrigue.1003.desc: "По тому, як [councillor.GetSheHe] підходить до мене, я одразу розумію, що [councillor.GetTitledFirstName] [Select_CString(councillor.IsFemale, 'наткнулася', 'наткнувся')] на чергову придворну таємницю.\n\n«[agent.GetTitledFirstName] бере участь у змові, - говорить [councillor.GetSheHe]. — [Select_CString(agent.IsFemale, 'Вона', 'Він')] ще не знає, що все розкрилося, але, гадаю, вам варто запропонувати [agent.GetHerHim] амністію в обмін на абсолютну вірність...»"
+  councillor_spouse_intrigue.1003.a: "Нехай [agent.GetHerHim] зрозуміє, що поставлено на карту."
+  councillor_spouse_intrigue.1003.b: "З [SCOPE.sC('agent').GetHerHis] допомогою ми знайдемо головного змовника!"
+  councillor_spouse_intrigue.1003.c: "Стежте за кожним [agent.GetHerHis] кроком і належно захистіть мене!"
+
+  councillor_spouse_intrigue.1004.t: "Супутник життя: вивчення супротивника"
+  councillor_spouse_intrigue.1004.desc: "[secret_holder.GetTitledFirstName] відверто всім [Select_CString(secret_holder.IsFemale, 'заважала', 'заважав')], відкрито підтримуючи фракцію «[faction.GetName]». На щастя, незабаром у мене з'явиться перевага.\n\n[Select_CString(councillor.IsFemale, 'Моя', 'Мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [Select_CString(councillor.IsFemale, 'розкрила', 'розкрив) ')] [secret_holder.GetHerHis] найпотаємніший секрет. З єхидною посмішкою [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] повідомляє мені: «Думаю, вам це буде цікаво...»"
+  councillor_spouse_intrigue.1004.a: "Невеликий шантаж допоможе тримати [SCOPE.sC('secret_holder').GetHerHis] на короткому поводку."
+  councillor_spouse_intrigue.1004.b: "Це жахливо! Про це дізнається вся держава!"
+  councillor_spouse_intrigue.1004.c: "Іноді краще приберегти козирі в рукаві."
+  councillor_spouse_intrigue.1004.c.tt: "Поки що ви не розкриваєте таємницю, яку приховує [secret_holder.GetFirstNamePossessiveNoTooltip]"
+
+  councillor_spouse_intrigue.1005.t: "Супутник життя: розділяй та володарюй"
+  councillor_spouse_intrigue.1005.desc: "[leader.GetTitledFirstName] та [leader.GetHerHis] фракція «[faction.GetName]» останнім часом користуються підтримкою, яку їм надає [faction_member.GetTitledFirstName]. Але [Select_CString(councillor.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] знає, як нам із цим впоратися.\n\n«Повірте, я можу сказати [faction_member.GetHerHim] таке, що [faction_member.GetTitledFirstName] відразу буде вдавати, ніби [leader.GetFirstNameNoTooltip] для [Select_CString(faction_member.IsFemale, 'неї', 'нього')] — порожнє місце»."
+  councillor_spouse_intrigue.1005.a: "Подбай про те, щоб [faction_member.GetFirstNameNoTooltip] більше ніколи не підтримуватиме таку людину, як [leader.GetFirstNameNoTooltip]!"
+  councillor_spouse_intrigue.1005.b: "А можна зробити так, що #EMP я#! буду висвітлений у кращому вигляді?"
+
+  councillor_spouse_intrigue.1006.t: "Супутник життя: гідний представник"
+  councillor_spouse_intrigue.1006.desc: "Чудово знаючи, яке місце в моїх планах займає [target.GetTitledFirstName], [Select_CString(councillor.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName] [Select_CString(councillor.IsFemale, 'звернулась', 'звернувся')] до мене з пропозицією.\n\n«Я маю друзі при дворі, що тримає [court_owner.GetTitledFirstName]. Я можу попросити, щоб вони на якийсь час прийняли у себе гостя. З невеликою нагородою за вірність та за всієї моєї підтримки [plant.GetTitledFirstName] зможе творити чудеса від вашого імені...»"
+  councillor_spouse_intrigue.1006.a: "Блискуча ідея, [Select_CString(councillor.IsFemale, 'моя', 'мій')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]!"
+  councillor_spouse_intrigue.1006.b: "Думаю, що [plant.GetFirstNameNoTooltip] може знадобитися нам тут."

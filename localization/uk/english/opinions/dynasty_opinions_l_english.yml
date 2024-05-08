@@ -1,0 +1,10 @@
+﻿l_english:
+  disinherited_opinion: "Позбавлення спадку"
+  disinherited_house_member_opinion: "Позбавлення спадку члена [Concept( 'house', 'дому' )|E]"
+  restored_inheritance_opinion: "Відновлений спадкоємець"
+  restored_house_member_inheritance_opinion: "Має відновлене право на спадок члена [Concept( 'house', 'дому' )|E]"
+  denounced_opinion: "Відчуження"
+  denounced_house_member_opinion: "Ця людина відчужила члена [dynasties|El]"
+  denounced_trait_crime: "[dynast|E] відчужує цю людину"
+  forgave_denounced_opinion: "Цю людину відчужили"
+  forgave_house_member_opinion: "Пробачений член дому"

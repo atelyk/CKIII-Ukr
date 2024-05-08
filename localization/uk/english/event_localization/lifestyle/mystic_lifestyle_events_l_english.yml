@@ -1,0 +1,44 @@
+﻿l_english:
+  mystic_lifestyle_communion_header: "Містичне єднання:"
+  mystic_lifestyle.1001.t0: $mystic_lifestyle_communion_header$Несхвалення"""
+  mystic_lifestyle.1001.t: "$mystic_lifestyle_communion_header$Disapproval"
+  mystic_lifestyle.1001.desc: "Моя підготовка до містичного єднання у самому розпалі, коли когда [SCOPE.sC('priest').Custom2('MyCharacterIntroduction', ROOT.Char )] звертається до мене.\n\n«Не думаю, що ваш задум відповідає... традиціям, — каже [priest.GetSheHe] мені. — Гарний [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] від такого утримався б»."
+  mystic_lifestyle.1001.a: "Це наблизить мене до [ROOT.Char.GetFaith.HighGodNamePossessive] так близько, як ви й не сподіваєтесь!"
+  mystic_lifestyle.1001.b: "Звичайно. Про що я взагалі думаю?"
+  mystic_lifestyle.1001.b.flavor: "Якщо ви відкриєте [priest.GetHerHim] свої думки щодо [ROOT.Char.GetFaith.HighGodNamePossessive], це добром не кінчиться"
+
+  mystic_lifestyle.1002.opening: "[SCOPE.sC('religious_head').Custom2('AppropriateGreeting', ROOT.Char)]"
+  mystic_lifestyle.1002.desc: "Мені стало відомо, що ви берете постійну участь у молитвах дуже незвичних форм.\n\nЯ вимагаю, щоб ви покінчили з цими безглуздими практиками і отримали справедливе покарання за таке іншотлумачення віри."
+  mystic_lifestyle.1002.a: "Я знаю, чого хоче [ROOT.Char.GetFaith.HighGodName], краще, ніж ви!"
+
+  mystic_lifestyle.1003.opening: "[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мій' )] [SCOPE.sC('vassal').Custom2('RelationToMeShort', ROOT.Char )], [Select_CString(ROOT.Char.IsFemale, 'яка', 'який' )] прикро помиляється, "
+  mystic_lifestyle.1003.desc0: Ваші дивні практики не підтримують [ROOT.Char.GetFaith.PriestNeuterPlural], і хтось має дорікнути вам. Якщо я не зроблю цього зараз, це зробить [ROOT.Char.GetFaith.HighGodName].\n\nПрошу, отямтеся та зійдіть з цього дивного шляху. Хто знає, до якої єресі, чи ба навіть до поганства, він вас приведе!"""
+  mystic_lifestyle.1003.desc: "Your strange practices are not sanctioned by the [ROOT.Char.GetFaith.PriestNeuterPlural], and someone must take you to task for it. If I do not do it now, then [ROOT.Char.GetFaith.HighGodName] will.\n\nPlease see reason and turn away from this strange path. Who knows what heresy or demon worship it may lead to!"
+  mystic_lifestyle.1003.a: "Ваше небажання дізнатися таємниці [ROOT.Char.GetFaith.HighGodNamePossessive] не зупинить мене!"
+
+  mystic_lifestyle.1004.t: "$mystic_lifestyle_communion_header$Чутки"
+  mystic_lifestyle.1004.desc: "Мені здається, що мої трохи незвичайні релігійні звички все частіше привертають увагу інших.\n\nЦе навряд чи проблема - вони не можуть навіть сподіватися зрозуміти, що я роблю, але пошепки обговорюють, що я #EMP роблю! за закритими дверима, тому варто бути обачними."
+  mystic_lifestyle.1004.a: "Мені байдуже, про що вони там перешіптуються."
+  mystic_lifestyle.1004.b: "Якщо я поводитимуся більш відкрито та прихильно, можливо, вони зрозуміють?"
+
+  mystic_lifestyle.1005.opening: "[Select_CString(crush.IsFemale, 'Шановна' 'Шановний' )] [SCOPE.sC('vassal').Custom2('RelationToMeShort', ROOT.Char )]!"
+  mystic_lifestyle.1005.desc: "Я не зовсім розумію ваші звички та практики. Проте аплодую вам за жагу, яку ви проявляєте під час молитви.\n\nЯкби ж усі віряни були віддані, як ви."
+  mystic_lifestyle.1005.a: "Мене тішить, що ви визнали мої старання."
+  mystic_lifestyle.1005.b: "Дозвольте я навчу вас цьому!"
+
+  mystic_lifestyle.1006.t: "$mystic_lifestyle_communion_header$Репутація"
+  mystic_lifestyle.1006.desc: "Мої містичні практики, схоже, створили мені певну репутацію. Люди не знають, чим я займаюся, але вони впевнені, що не бажають ставати в мене на шляху чи дізнаватися правду.\n\nЦе смішно, але, можливо, не так вже й погано..."
+  mystic_lifestyle.1006.a: "Нехай бояться — кожен у міру власної малодушності."
+  mystic_lifestyle.1006.b: "Вони заспокояться, якщо я запевняю їх, що не завдати їм шкоди."
+
+  mystic_lifestyle.1007.t: "$mystic_lifestyle_communion_header$Щось не так"
+  mystic_lifestyle.1007.desc: "Моє єднання з божественним останнім часом відбувається інакше. Тепер я відчуваю не екстаз, а слабкість.\n\nСьогодні мені не вистачає сил навіть на те, щоб підвестися з ліжка."
+  mystic_lifestyle.1007.a: "Слуги... Допоможіть..."
+
+  mystic_lifestyle.1008.t: "$mystic_lifestyle_communion_header$Чудо"
+  mystic_lifestyle.1008.desc: "Попри слабкість, я роблю все можливе для єднання.\n\nВоно вийшло яскравішим, ніж будь-коли, і цього ранку, неймовірно, [ROOT.Char.GetFaith.HighGodName|U] дарує мені диво!"
+  mystic_lifestyle.1008.a: "Моя хвороба зцілена!"
+
+  mystic_lifestyle.1009.opening: "[Select_CString(crush.IsFemale, 'Шановна' 'Шановний' )] [SCOPE.sC('mystic').Custom2('RelationToMeShort', ROOT.Char )]!"
+  mystic_lifestyle.1009.desc: "Мені варто привітати вас у вашому містичному дослідженню нашої віри!\n\nЗа чутками, ви знаєте кілька речей, яких мені варто би було у вас повчитися!"
+  mystic_lifestyle.1009.a: "З радістю поділюся!"

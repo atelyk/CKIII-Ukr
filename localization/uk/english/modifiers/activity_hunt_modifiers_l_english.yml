@@ -1,0 +1,78 @@
+﻿l_english:
+  held_hunt_modifier: "Нещодавнє полювання"
+  held_hunt_modifier_desc: "Цей персонаж нещодавно організував полювання і не може робити це знову до зазначеної дати."
+
+  hunt_punished_locals_modifier: "Покарані браконьєри"
+  hunt_punished_locals_modifier_desc: "Люди в цій місцині відповідальні за покривання лісових браконьєрів."
+
+  hunt_poacher_training_modifier: "Навчання у браконьєрів"
+  hunt_poacher_training_modifier_desc: "Браконьєри навчили цього персонажа полюванню."
+
+  hunt_upset_hunting_county_modifier: "Бешкет браконьєрів"
+  hunt_upset_hunting_county_modifier_desc: "Це графство невдоволене тим, як із ним обійшлися через купку браконьєрів"
+
+  modifier_hunt_hunting_trophy: "Трофей полювання"
+  modifier_hunt_hunting_trophy_desc: "Дивовижний трофей тепер висить у величезній залі цього персонажа і підкреслює його досягнення."
+
+  modifier_hunt_friend_of_animal: "Друг тварин"
+  modifier_hunt_friend_of_animal_desc: "Цей персонаж має надприродну здатність поводитися з тваринами."
+
+  hunt_guide_local_madman_modifier: "Місцевий провідник"
+
+  hunt_killed_local_madman_modifier: "Вбито місцевого жителя"
+
+  hunt_talked_to_madman_modifier: "Проблеми місцевих жителів почуті"
+
+  hunt_peasants_denied_forest_modifier: "Ліс закрито для селян"
+  hunt_peasants_denied_forest_modifier_desc: "Селянам цього округу заборонили добувати їжу в лісах."
+
+  hunt_peasants_hunted_modifier: "Полювання на селян"
+  hunt_peasants_hunted_modifier_desc: "Селяни бояться оселитися в цій місцині через невимовні події, які тут відбулися."
+
+  hunt_aided_peasants_modifier: "Допомога селянам"
+  hunt_aided_peasants_modifier_desc: "Найбідніші люди цього регіону отримали значну благодійну допомогу."
+
+  hunt_fresh_air_and_exercise_modifier: "Свіже повітря та вправи"
+  hunt_fresh_air_and_exercise_modifier_desc: "Цей персонаж гарно розім'явся під час полювання."
+
+  hunt_focused_attention_modifier: "Зосередження"
+  hunt_focused_attention_modifier_desc: "Цей персонаж знає, як зосередитись на речах, які вимагають негайної уваги."
+
+  modifier_hunt_dog_trophy_modifier: "Трофей полювання"
+  modifier_hunt_dog_trophy_modifier_desc: "Дивовижний трофей тепер висить у величезній залі цього персонажа і підкреслює його досягнення."
+
+  modifier_hunt_dog_fighting_modifier: "Покращена звитяга"
+  modifier_hunt_dog_fighting_modifier_desc: "Цей персонаж продемонстрував свою звитягу на полюванні."
+
+  modifier_hunt_resisted_advances: "Знаки уваги відкинуті"
+  modifier_hunt_resisted_advances_desc: "Цей персонаж не піддався поклику спокуси."
+
+  hunt_mediated_fight_modifier: "Посередник"
+  hunt_mediated_fight_modifier_desc: "Цей персонаж успішно вирішив конфлікт між двома людьми та отримав цінний урок."
+
+  hunt_protected_peasants_modifier: "Селяни під захистом"
+  hunt_protected_peasants_modifier_desc: "Селяни цієї місцини відчувають себе у безпеці"
+
+  hunt_disturbed_locals_modifier: "Стривожені місцеві жителі"
+  hunt_disturbed_locals_modifier_desc: "Місцеві жителі цього регіону просто хочуть лишитися в спокої"
+
+  hunt_focused_effort_modifier: "Зосередження на полюванні"
+  hunt_focused_effort_modifier_desc: "Цей персонаж повністю зосереджений на полюванні"
+
+  hunt_treated_injury_modifier: "Практика польової хірургії"
+  hunt_treated_injury_modifier_desc: "Цей персонаж нещодавно проводив утомливі медичні процедури"
+
+  hunt_tasted_the_belt_modifier: "Покарання паском"
+  hunt_tasted_the_belt_modifier_desc: "У цього персонажа вся спина в синяках"
+
+  hunt_treated_wound_modifier: "Перев'язані рани"
+  hunt_treated_wound_modifier_desc: "Про рани цього персонажа подбали — так чи інакше"
+
+  hunt_chose_truth_modifier: "Смиренна чесність"
+  hunt_chose_truth_modifier_desc: "Цей персонаж сказав правду на шкоду для себе"
+
+  hunt_mystical_animal_modifier: "Полювання за містичною твариною"
+  hunt_mystical_animal_modifier_desc: "Цей персонаж вполював і вбив загадкового звіра з білою шкурою"
+
+  hunt_protected_their_secret_modifier: "Protective of Secrets"
+  hunt_protected_their_secret_modifier_desc: "This character is keeping their cards close to their chest"

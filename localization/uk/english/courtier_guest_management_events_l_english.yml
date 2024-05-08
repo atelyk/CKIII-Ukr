@@ -1,0 +1,28 @@
+﻿l_english:
+  courtier_guest_management.0001.t: "[Select_CString(child.IsFemale, 'Ваша', 'Ваш' )] [liege.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetShortUINameNoTooltip] збирається покинути двір"
+  courtier_guest_management.desc: "[child.GetTitledFirstName] не має причин залишатися при дворі й скоро покине нас"
+
+  courtier_guest_management.0500.t: "Your [SCOPE.sC('host').Custom2('RelationToMeShort', SCOPE.sC('guest'))] [guest.GetShortUINameNoTooltip] is About To Leave Court"
+  courtier_guest_management.0500.desc: "[guest.GetTitledFirstName] has no reason to stay at court and will soon leave with [guest.GetHerHis] family"
+
+  courtier_guest_management.0102.t: "Мій останній шанс"
+  courtier_guest_management.0102.desc: "[courtier.GetTitledFirstName] вирішує, що настав час покинути мій двір і прощається зі всіма. Слуги вже зібрали [courtier.GetHerHis] скрині.\n\nЯкщо [courtier.GetTitledFirstNameNoTooltip] покине мене, то пропаде і [courtier.GetHerHis] претензія на володіння [courtier_claim.GetName]. Якщо я хочу підтримати цю претензію та зробити [courtier.GetHerHis] своїм васалом, у мене залишився останній шанс переконати [courtier.GetHerHis] залишитися."
+
+  courtier_guest_management.0102.a: "Дайте мені один рік, і я підтримаю вашу претензію!"
+  courtier_guest_management.0102.a.rl.desc: "Через рік"
+  courtier_guest_management.0102.a.stay: "Якщо ви підтримаєте претензію персонажа [courtier.GetTitledFirstNamePossessiveNoTooltip]"
+  courtier_guest_management.0102.a.stay.tt: "[courtier.GetShortUIName|U] залишиться при дворі"
+  courtier_guest_management.0102.a.leave: "Якщо ви #bold не#! підтримаєте претензію персонажа [courtier.GetTitledFirstNamePossessiveNoTooltip]"
+  courtier_guest_management.0102.b: "Хай ваша подорож буде швидкою і безпечною."
+  courtier_guest_management.1001.t: "Прибув відомий гість"
+  courtier_guest_management.1001.claimant.desc: "[exceptional_guest.GetShortUIName|U] має претензію на володіння [guest_claim.GetName]"
+  courtier_guest_management.1001.marriage_start.desc: "з н[exceptional_guest.GetHerHis] вийде [Select_CString(exceptional_guest.IsFemale, 'відмінна дружина', 'відмінний чоловік' )] для"
+  courtier_guest_management.1001.marriage_me.desc: "мене"
+  courtier_guest_management.1001.marriage_my_children.desc: "one of your children"
+  courtier_guest_management.1001.marriage_my_sons.desc: "одного з ваших синів"
+  courtier_guest_management.1001.marriage_my_daughters.desc: "однієї з ваших дочок"
+  courtier_guest_management.1001.marriage_my_child.desc: "[Select_CString(marriage_child.IsFemale, 'моєї дочки', 'мого сина' )] на ім'я [marriage_child.GetShortUIName]"
+  courtier_guest_management.1001.vassal.desc: "[exceptional_guest.GetShortUIName|U] стане вірним васалом"
+  courtier_guest_management.1001.commander.desc: "[exceptional_guest.GetShortUIName|U] стане відмінним командиром"
+  courtier_guest_management.1001.knight.desc: "[exceptional_guest.GetShortUIName|U] — це досвідчений боєць"
+  courtier_guest_management.1001.physician.desc: "[exceptional_guest.GetShortUIName|U] знається на медицині"

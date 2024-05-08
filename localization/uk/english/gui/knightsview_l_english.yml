@@ -1,0 +1,15 @@
+﻿l_english:
+
+  KNIGHTS_VIEW_FORCE: "Змусити"
+  KNIGHTS_VIEW_ALLOW: "Дозволити"
+  KNIGHTS_VIEW_FORBID: "Заборонити"
+  KNIGHTS_VIEW_TITLE: "$knight_culture_player_plural_no_tooltip$"
+  MAX_KNIGHT_COUNT: "$knight_culture_player_plural_no_tooltip$: #high [GetKnightCount( GetPlayer.Self )]/[GetKnightLimit( GetPlayer.Self )]#!"
+  MAX_KNIGHT_TOOLTIP: "#T $knight_culture_player_plural_no_tooltip$: макс. число [knight_i][GetKnightLimit( GetPlayer.Self )|V]#!\n[GetKnightLimitBreakdown( GetPlayer.Self )]"
+  KNIGHT_EFFECTIVENESS: "$knight_culture_player_no_tooltip$: ефективність — #high [GetPlayer.GetKnightEffectiveness|%0]#!"
+  KNIGHT_EFFECTIVENESS_TOOLTIP: "#T [Concept( 'knight_effectiveness', 'Ефективність лицарів' )|E]: [GetPlayer.GetKnightEffectiveness|V%0]#!\nБазова: #V 100%#!\n[GetPlayer.GetKnightEffectivenessBreakdown]"
+  KNIGHTS_VIEW_TITLE_FORBID_TT: "#T Заборонити персонажу [Character.GetShortUIName] займати посаду $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis ніколи#! не приєднається до вашої [armies|El] як $knight_culture_player_no_tooltip$. Це гарантує, що [Character.GetSheHe] не загине, коли почнеться [battle|El]."
+  KNIGHTS_VIEW_TITLE_BY_PROWESS_TT: "#T Дозволити персонажу [Character.GetShortUIName] займати посаду $knight_culture_player$#!\n\n[Character.GetShortUIName] може приєднатися до моєї [armies|El] як $knight_culture_player_no_tooltip$, якщо у [Select_CString(Character.IsFemale, 'неї', 'нього' )] [prowess|El] вище, ніж у більшості інших персонажів в моїх землях."
+  KNIGHTS_VIEW_TITLE_FORCE_TT: "#T Змусити персонажа [Character.GetShortUIName] зайняти посаду $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis обов'язково#! приєднається до моєї [armies|El] як $knight_culture_player_no_tooltip$ незалежно від того, яка у [Select_CString(Character.IsFemale, 'неї', 'нього' )] [prowess|El]. [Character.GetSheHe|U] може зайняти місце людини з більш високою доблестю."
+  KNIGHTS_CURRENT_MAX: "[GetKnightCount( GetPlayer.Self )|V]/[GetKnightLimit( GetPlayer.Self )|V]"
+  KNIGHTS_SUBHEADER: "Придатні [Concept( 'courtiers', 'придворні' )|E] та [Concept( 'vassals', 'васали' )|E]"

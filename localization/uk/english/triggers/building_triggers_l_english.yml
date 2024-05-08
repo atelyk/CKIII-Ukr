@@ -1,0 +1,49 @@
+﻿l_english:
+
+  HAS_BULDING_TRIGGER: "В провінції [PROVINCE.GetName] є [building|El] $BUILDING|V$"
+
+  HAS_FREE_BUILDING_SLOT_TRIGGER_GLOBAL: "Має вільне місце для будівлі"
+  HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_GLOBAL: "#bold Немає#! місця для будівництва"
+  HAS_FREE_BUILDING_SLOT_TRIGGER_THIRD: "[PROVINCE.GetName] має вільне місце для будівлі"
+  HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_THIRD: "[PROVINCE.GetName]: #bold немає#! вільних місць для будівництва"
+
+  HAS_BUILDING_OR_HIGHER_TRIGGER_GLOBAL: "Є [building|El] $BUILDING|V$ або покращення цієї будівлі"
+  NOT_HAS_BUILDING_OR_HIGHER_TRIGGER_GLOBAL: "#bold Відсутня#! [building|El] $BUILDING|V$ або її покращення"
+  HAS_BUILDING_OR_HIGHER_TRIGGER_THIRD: "[PROVINCE.GetName]: є [building|El] $BUILDING|V$ або покращення цієї будівлі"
+  NOT_HAS_BUILDING_OR_HIGHER_TRIGGER_THIRD: "[PROVINCE.GetName]: #bold відсутня#! [building|El] $BUILDING|V$ або її покращення"
+
+  HAS_ONGOING_CONSTRUCTION_TRIGGER_GLOBAL: "Триває будівництво: [building|E] у процесі"
+  NOT_HAS_ONGOING_CONSTRUCTION_TRIGGER_GLOBAL: "#bold Немає#! поточного будівництва"
+  HAS_ONGOING_CONSTRUCTION_TRIGGER_THIRD: "[PROVINCE.GetName]: має поточне будівництво"
+  NOT_HAS_ONGOING_CONSTRUCTION_TRIGGER_THIRD: "[PROVINCE.GetName]: #bold немає#! [Concept( 'building', 'будівлі' )|E], що будується"
+
+  HAS_HOLDING_TYPE_TRIGGER_THIRD: "[PROVINCE.GetName] — це [Concept( 'holding', 'володіння' )|E] $HOLDING$"
+  NOT_HAS_HOLDING_TYPE_TRIGGER_THIRD: "[PROVINCE.GetName]: #bold не#! [holding|El] $HOLDING$"
+
+  BUILDING_SLOTS_TRIGGER_GLOBAL: "Слотів будівництва: $NUM|V$"
+  NOT_BUILDING_SLOTS_TRIGGER_GLOBAL: "#bold Немає#! $NUM|V$ будівельних слотів"
+  BUILDING_SLOTS_TRIGGER_THIRD: "Будівельних слотів провінції [PROVINCE.GetName]: $NUM|V$"
+  NOT_BUILDING_SLOTS_TRIGGER_THIRD: "В провінції [PROVINCE.GetName] #bold немає#! $NUM|V$ будівельних слотів"
+
+  FREE_BUILDING_SLOTS_TRIGGER_GLOBAL: "Порожніх будівельних слотів: $NUM|V$"
+  NOT_FREE_BUILDING_SLOTS_TRIGGER_GLOBAL: "#bold Немає#! $NUM|V$ вільних слотів будівництва"
+  FREE_BUILDING_SLOTS_TRIGGER_THIRD: "[PROVINCE.GetName]: не більше $NUM|V$ вільних слотів будівництва"
+  NOT_FREE_BUILDING_SLOTS_TRIGGER_THIRD: "В провінції [PROVINCE.GetName] #bold немає#! $NUM|V$ вільних слотів будівництва"
+
+  NUM_BUILDINGS_TRIGGER_GLOBAL: "Побудовано будівель: $NUM|V$"
+  NOT_NUM_BUILDINGS_TRIGGER_GLOBAL: "#bold Немає#! $NUM|V$ готових будівель"
+  NUM_BUILDINGS_TRIGGER_THIRD: "Зведено будівель у провінції [PROVINCE.GetName]: $NUM|V$"
+  NOT_NUM_BUILDINGS_TRIGGER_THIRD: "В провінції [PROVINCE.GetName] #bold немає#! $NUM|V$ зведених будівель"
+
+  HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL: "Є слот для [Concept( 'special_building', 'особливої споруди' )|E]"
+  NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL: "#bold Немає #! слоту для [Concept( 'special_building', 'особливої споруди' )|E]"
+  HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD: "В провінції [PROVINCE.GetName] є слот для [Concept( 'special_building', 'особливої споруди' )|E]"
+  NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD: "В провінції [PROVINCE.GetName] немає слота для [Concept( 'special_building', 'особливої споруди' )|E]"
+
+  HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL: "Є [special_building|El]"
+  NOT_HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL: "#bold Відсутня#! [special_building|El]"
+  HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "В провінції [PROVINCE.GetName] є [special_building|El]"
+  NOT_HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "У провінції [PROVINCE.GetName] відсутня [special_building|El]"
+
+  HAS_HOLDING_DESC: "[PROVINCE.GetName] contains a [holding|E]"
+  NOT_HAS_HOLDING_DESC: "[PROVINCE.GetName] does #bold not#! contain a [holding|E]"

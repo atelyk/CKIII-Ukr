@@ -1,0 +1,18 @@
+﻿l_english:
+  heresy.0010.t: "Єресь: [heretic_faith.GetAdherentNamePluralNoTooltip] у володінні [heretic_title.GetNameNoTierNoTooltip]"
+  heresy.0010.desc: "[heretic_ruler.GetTitledFirstName] держави [heretic_title.GetNameNoTier] повідомляє, що [heretic_ruler.GetSheHe] та [heretic_ruler.GetHerHis] васали навернулися до конфесії [heretic_faith.GetName|l]."
+  heresy.0010.desc.nonexistant: "\n\nРозчарувавшись у #L [origin_faith.GetAdjective]ому#! духовенстві, знатні люди держави [heretic_title.GetNameNoTierNoTooltip] більше не вважають його доброчесним та праведним. Як [heretic_faith.GetAdherentNamePluralNoTooltip|l], вони віддалилися від старих релігійних інститутів і вважають, що їхня нова конфесія ближча до волі [heretic_faith.HighGodNamePossessive]."
+  heresy.0010.desc.exists: "\n\nРозчарувавшись у#L [origin_faith.GetAdjective]их#! священиках, знатні люди держави [heretic_title.GetNameNoTierNoTooltip] більше не вважають духовенство чеснотним і праведним і віддалилися від старих релігійних інституцій. Тепер вони називають себе [heretic_faith.GetAdherentNamePluralNoTooltip|l] і вважають, що доктрини їх нової віри ближчі до волі [heretic_faith.HighGodNamePossessive]."
+  heresy.0010.desc.resurgent: "\n\nРозчарувавшись у #L [origin_faith.GetAdjective]их#! священиках, знатні люди держави [heretic_title.GetNameNoTierNoTooltip] більше не вважають духовенство чеснотним та праведним. Тепер знатні люди держави [heretic_title.GetNameNoTierNoTooltip] воскресили старе вчення [heretic_faith.GetAdherentNameNoTooltip|l]ів, доктрини якого ближче до волі [heretic_faith.HighGodNamePossessive]."
+  heresy.0010.tt.custom: "[heretic_faith.GetName|V] з'являється у володінні [heretic_title.GetName]"
+  heresy.0010.a.new_heresy: "Що це за збочене глузування з віри?!"
+  heresy.0010.a.existing_heresy: "Ці мерзенні єретики збили їх з правдивого шляху!"
+  heresy.0010.a.astray_faith: "Я не розумію, в чому суть, але здається їм подобається?"
+  heresy.0010.a.same_faith: "Не дарма мені здавалося, що вони згодом побачать світло істинної віри!"
+  heresy.0010.b: "А знаєте, адже вони в чомусь мають рацію..."
+  heresy.0010.notification.title: "Новий релігійний рух"
+  heresy.0010.notification: "[heretic_ruler.GetFullName] створює нову [heretic_faith.GetAdjective]у течію!"
+
+  heresy.0011.notification.heresy: "[convert_ruler.Custom2('HierarchicalStatus', me)|U] [Select_CString(convert_ruler.IsPlayer, 'приймаєте', 'приймає' )] єресь: [convert_ruler.GetShortUINameNoTooltip]"
+  heresy.0011.notification.same_faith: "[convert_ruler.Custom2('HierarchicalStatus', me)|U] [Select_CString(convert_ruler.IsPlayer, 'приймаєте', 'приймає'  )] істинну віру: [convert_ruler.GetShortUINameNoTooltip]"
+  heresy.0011.notification.other: "[convert_ruler.Custom2('HierarchicalStatus', me)|U] [Select_CString(convert_ruler.IsPlayer, 'змінюєте', 'змінює' )] віру: [convert_ruler.GetShortUINameNoTooltip]"

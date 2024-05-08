@@ -1,0 +1,40 @@
+﻿l_english:
+  childhood_education.0004.t: "Мінливість молодості"
+  childhood_education.0004.opening: "[Select_CString(ward.IsFemale, 'Моя підопічна', 'Мій підопічний' )], [ward.GetTitledFirstName], [Select_CString(ward.IsFemale, 'змінила', 'змінив' )] фокус свого навчання.\n\n"
+  childhood_education.0004.desc1: "Це ж треба, [ward.GetSheHe] тепер прагне заглибитися в майстерність [ward.Custom('education_focus_child')], сферу умінь, у якій я відзначився... Це гріє мені душу!"
+  childhood_education.0004.desc2: "Страшно навіть думати, що [SCOPE.sCharacter('ward').GetHerHis] більше не цікавить наше спільне захоплення [ROOT.Char.Custom('education_focus')]!"
+  childhood_education.0004.desc_fallback: "Тепер [SCOPE.sCharacter('ward').GetSheHe] прагне дізнатися, що може запропонувати [ward.Custom('education_focus_child')]."
+  childhood_education.0004.a: "[ward.GetTitledFirstNameNoTooltip] тепер вивчає все, що приховує [ward.Custom('education_focus_child')]!"
+
+  childhood_education.1011.t: "Ось ким я є"
+  childhood_education.1011.desc: "[guardian.GetTitledFirstName] стільки [Select_CString(guardian.IsFemale, 'розповідала', 'розповідав' )] про традиції свого народу, #EMP  нашого#! народу, бо я не лише сповідую [guardian.GetFaith.GetAdjective]у віру, але й вважаю [guardian.GetCulture.GetName]у культуру своєю."
+  childhood_education.1011.a: "Я не бачу для себе іншого життя."
+
+  childhood_education.1012.t: "Благословенний день"
+  childhood_education.1012.desc: "Навчаючи мене вірі та традиціям мого народу, [ward.GetTitledFirstName] [Select_CString(ward.IsFemale, 'сказала', 'сказав' )], що вважає себе [Select_CString(ward.IsFemale, 'вірною', 'вірним' )] [Select_CString(ward.IsFemale, 'послідовницею', 'послідовником' )] [SCOPE.sC('ward').GetFaith.GetAdjective]ої віри, хоча і походить з [guardian.GetCulture.GetName]ого народу."
+  childhood_education.1012.a: "Нарешті [ward.GetSheHe] бачить світло!"
+
+  child_culture_and_faith_converted.parent.message: "Під час наставництва [guardian.GetTitledFirstName] [Select_CString(guardian.IsFemale, 'посприяла', 'посприяв' )] тому, щоб [Select_CString(ward.IsFemale, 'ваша', 'ваш' )] [ward.Custom('GetDaughterSon')] [Select_CString(ward.IsFemale, 'змінила', 'змінив' )] релігію та культуру"
+
+  childhood_education.1021.t: "Істина у вірі"
+  childhood_education.1021.desc: "[SCOPE.sC('guardian').GetTitledFirstName] [Select_CString(guardian.IsFemale, 'навчила', 'навчив' )] мене багатьом речам, і тепер я, здається, розумію істинну суть світу.\n\nЧи можна було сумніватися, що [guardian.GetFaith.GetName] може дати відповіді на всі питання?"
+  childhood_education.1021.a: "Ось моя істинна віра."
+
+  childhood_education.1022.t: "Істина у вірі"
+  childhood_education.1022.desc: "Після моїх настанов і мудрик слів [Select_CString(ward.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward'))], [ward.GetTitledFirstName], нарешті [Select_CString(ward.IsFemale, 'прийняла', 'прийняв' )] істинну віру.\n\nМені завжди було ясно, что колись [ward.GetSheHe] прийме [ROOT.Char.GetFaith.GetAdjective]у віру."
+  childhood_education.1022.a: "[ROOT.Char.GetFaith.KnowledgeGodName] спрямовує мене."
+
+  child_faith_converted.parent.message: "Під час наставництва [guardian.GetTitledFirstName] [Select_CString(guardian.IsFemale, 'посприяла', 'посприяв')] тому, щоб [Select_CString(ward.IsFemale, 'ваша', 'ваш')] [ward.Custom('GetDaughterSon')] [Select_CString(ward.IsFemale, 'змінила', 'змінив')] релігію"
+
+  childhood_education.1031.t: "Природа та виховання"
+  childhood_education.1031.desc: "Нехай я [Select_CString(ward.IsFemale, 'народилась', 'народився' )] в [ward.GetCulture.GetName]ому народі, тепер я навіть не знаю, що це значить. Після всього, чого мене [Select_CString(guardian.IsFemale, 'навчила', 'навчив' )] [SCOPE.sC('guardian').GetTitledFirstName], я відчуваю себе частиною [guardian.GetCulture.GetName]ого народу аж до кісток."
+  childhood_education.1031.a: "Ось ким я є."
+
+  childhood_education.1032.t: "Природа та виховання"
+  childhood_education.1032.desc: "[ward.GetTitledFirstName] — [Select_CString(ward.IsFemale, 'моя давня учениця', 'мій давній учень')], і мені було дуже приємно, коли [ward.GetSheHe] [Select_CString(ward.IsFemale, 'сказала', 'сказав')], що вважає себе частиною [guardian.GetCulture.GetName]ого народу!"
+  childhood_education.1032.a: "І це справді так!"
+
+  child_culture_converted.parent.message: "Під час наставництва [guardian.GetTitledFirstName] [Select_CString(guardian.IsFemale, 'посприяла', 'посприяв' )] тому, щоб [Select_CString(ward.IsFemale, 'ваша', 'ваш' )] [ward.Custom('GetDaughterSon')] [Select_CString(ward.IsFemale, 'змінила', 'змінив' )] культуру"
+
+  childhood_education.9004.child_message: "[guardian.GetTitledFirstNameNoTooltip] і [GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]"
+  childhood_education.9004.guardian_message: "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]"

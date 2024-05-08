@@ -1,0 +1,883 @@
+﻿l_english:
+  PORTRAIT_MODIFIER_DEFAULT: "Типово"
+  PORTRAIT_MODIFIER_capes: "Плащ"
+  PORTRAIT_MODIFIER_custom_clothes: "Одяг"
+  PORTRAIT_MODIFIER_headgear: "Корони"
+  PORTRAIT_MODIFIER_custom_headgear: "Головний убір"
+  PORTRAIT_MODIFIER_props: "Атрибути"
+  PORTRAIT_MODIFIER_custom_special: "Face Items"
+
+  # PORTRAIT_MODIFIER_clothes_western_commoners":"Western commoner"
+  # PORTRAIT_MODIFIER_clothes_western_low_nobles":"Western low noble"
+  # PORTRAIT_MODIFIER_clothes_western_high_nobles":"Western high noble"
+  # PORTRAIT_MODIFIER_clothes_western_imperial":"Western emperor"
+  # PORTRAIT_MODIFIER_clothes_western_royalty":"Western royalty"
+  # PORTRAIT_MODIFIER_clothes_abrahamic_monk":"Abrahamic monk"
+  # PORTRAIT_MODIFIER_clothes_bishop":"Bishop"
+
+#########################################
+################ Clothes ################
+#########################################
+
+  PORTRAIT_MODIFIER_custom_clothes_no_clothes: "Без одягу"
+
+###############
+### Western ###
+###############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_01_common: "Одяг: західний простолюдин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_02_common: "Одяг: західний простолюдин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_03_common: "Одяг: західний простолюдин 3"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_01_common: "Одяг: західний простолюдин 4"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_01_low: "Одяг: західний дрібний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_02_low: "Одяг: західний дрібний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_03_low: "Одяг: західний дрібний дворянин 3"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_01_low: "Одяг: західний дрібний дворянин 4"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_01_high: "Одяг: західний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_02_high: "Одяг: західний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_nobility_03_high: "Одяг: західний дворянин 3"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_01_high: "Одяг: західний дворянин 4"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_western_war_nobility_01_low: "Західна броня"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_bedchamber_01_common: "Нічна сорочка"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_western_prison_01_common: "Тюремні лахи"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_01_common: "Лицар-тамплієр"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_02_common: "Лицар-госпітальєр"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_03_common: "Лицар Гробу Господнього"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_04_common: "Хрестоносець"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_crusades_western_war_nobility_01: "Crusader"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_crusades_western_war_nobility_01: "Crusader"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_01_common: "Одяг: західний простолюдин 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_02_common: "Одяг: західний простолюдин 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_03_common: "Одяг: західний простолюдин 3"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_01_common: "Одяг: західний простолюдин 4"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_01_low: "Одяг: західний дрібний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_02_low: "Одяг: західний дрібний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_03_low: "Одяг: західний дрібний дворянин 3"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_01_low: "Одяг: західний дрібний дворянин 4"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_01_high: "Одяг: західний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_02_high: "Одяг: західний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_nobility_03_high: "Одяг: західний дворянин 3"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_01_high: "Одяг: західний дворянин 4"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_western_war_nobility_01_low: "Західна броня"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_bedchamber_01_common: "Нічна сорочка"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_situational_western_prison_01_common: "Тюремні лахи"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_01_common: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_01_common$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_02_common: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_02_common$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_03_common: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_03_common$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_crusades_western_war_nobility_04_common: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_crusades_western_war_nobility_04_common$"
+
+################
+### Northern ###
+################
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_01_common: "Одяг: північний простолюдин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_02_common: "Одяг: північний простолюдин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_01_low: "Одяг: північний дрібний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_02_low: "Одяг: північний дрібний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_01_high: "Одяг: північний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_nobility_02_high: "Одяг: північний дворянин 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_northern_war_nobility_01_common: "Північна броня"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_01_common: "Одяг: північна простолюдинка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_02_common: "Одяг: північна простолюдинка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_01_low: "Одяг: північна дрібна дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_02_low: "Одяг: північна дрібна дворянка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_01_high: "Одяг: північна дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_nobility_02_high: "Одяг: північна дворянка 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_nobility_01_common: "Північна броня"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_northern_war_nobility_01: "Північна броня"
+
+###############
+### Byzantine ###
+###############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_01_common: "Одяг: візантійський простолюдин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_02_common: "Одяг: візантійський простолюдин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_01_low: "Одяг: візантійський дрібний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_02_low: "Одяг: візантійський дрібний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_01_high: "Одяг: візантійський дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_nobility_02_high: "Одяг: візантійський дворянин 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_byzantine_war_nobility_01_low: "Візантійський обладунок"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_01_common: "Одяг: візантійська простолюдинка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_02_common: "Одяг: візантійська простолюдинка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_01_low: "Одяг: візантійська дрібна дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_02_low: "Одяг: візантійська дрібна дворянка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_01_high: "Одяг: візантійська дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_nobility_02_high: "Одяг: візантійська дворянка 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_byzantine_war_nobility_01_low: "Візантійський обладунок"
+
+###############
+### MENA ###
+###############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_01_common: "Одяг: арабський простолюдин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_02_common: "Одяг: арабський простолюдин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_01_common: "Одяг: арабський простолюдин 3"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_01_low: "Одяг: арабський дрібний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_02_low: "Одяг: арабський дрібний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_01_low: "Одяг: арабський дрібний дворянин 3"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_01_high: "Одяг: арабський дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_nobility_02_high: "Одяг: арабський дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_01_high: "Одяг: арабський дворянин 3"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_mena_war_nobility_01_low: "Арабська броня"
+
+  #PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_mena_bedchamber_01_common":"Arabic Bedchamber Clothing 1"
+  #PORTRAIT_MODIFIER_custom_clothes_male_clothes_situational_mena_prison_01_common":"Arabic Prisoner Clothing 1"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_01_common: "Одяг: арабська простолюдинка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_02_common: "Одяг: арабська простолюдинка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_01_common: "Одяг: арабська простолюдинка 3"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_01_low: "Одяг: арабська дрібна дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_02_low: "Одяг: арабська дрібна дворянка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_01_low: "Одяг: арабська дрібна дворянка 3"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_01_high: "Одяг: арабська дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_nobility_02_high: "Одяг: арабська дворянка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_01_high: "Одяг: арабська дворянка 3"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_war_nobility_01_low: "Арабська броня"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_mena_war_nobility_01: "Арабська броня"
+
+
+###############
+### Steppe ###
+###############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_01_common: "Одяг: степовий простолюдин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_02_common: "Одяг: степовий простолюдин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_01_low: "Одяг: степовий дрібний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_02_low: "Одяг: степовий дрібний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_01_high: "Одяг: степовий дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_nobility_02_high: "Одяг: степовий дворянин 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_steppe_war_nobility_01_low: "Степова броня"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_01_common: "Одяг: степова простолюдинка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_02_common: "Одяг: степова простолюдинка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_01_low: "Одяг: степова дрібна дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_02_low: "Одяг: степова дрібна дворянка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_01_high: "Одяг: степова дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_nobility_02_high: "Одяг: степова дворянка 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_steppe_war_nobility_01_low: "Степова броня"
+
+
+###############
+### Indian ###
+###############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_01_common: "Одяг: індійський простолюдин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_02_common: "Одяг: індійський простолюдин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_01_low: "Одяг: індійський дрібний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_02_low: "Одяг: індійський дрібний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_01_high: "Одяг: індійський дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_nobility_02_high: "Одяг: індійський дворянин 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_indian_war_nobility_01_low: "Індійська броня"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_01_common: "Одяг: індійська простолюдинка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_02_common: "Одяг: індійська простолюдинка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_01_low: "Одяг: індійська дрібна дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_02_low: "Одяг: індійська дрібна дворянка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_01_high: "Одяг: індійська дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_nobility_02_high: "Одяг: індійська дворянка 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_indian_war_nobility_01_low: "Індійська броня"
+
+
+###################
+### Sub-Saharan ###
+###################
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_01_common: "Одяг: африканський простолюдин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_02_common: "Одяг: африканський простолюдин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_01_low: "Одяг: африканський дрібний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_02_low: "Одяг: африканський дрібний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_01_high: "Одяг: африканський дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_nobility_02_high: "Одяг: африканський дворянин 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_sub_saharan_war_nobility_01_low: "Африканський обладунок"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_01_common: "Одяг: африканська простолюдинка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_02_common: "Одяг: африканська простолюдинка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_01_low: "Одяг: африканська дрібна дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_02_low: "Одяг: африканська дрібна дворянка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_01_high: "Одяг: африканська дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_nobility_02_high: "Одяг: африканська дворянка 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_sub_saharan_war_nobility_01_low: "Африканський обладунок"
+
+
+###################
+##### DDE HRE #####
+###################
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_02_common: "Одяг: простолюдин Священної Римської імперії 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_03_common: "Одяг: простолюдин Священної Римської імперії 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_02_low: "Одяг: дрібний дворянин Священної Римської імперії 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_03_low: "Одяг: дрібний дворянин Священної Римської імперії 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_02_high: "Одяг: дворянин Священної Римської імперії 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_nobility_03_high: "Одяг: дворянин Священної Римської імперії 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_war_nobility_01_low: "Броня Священної Римської імперії 1"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_02_common: "Одяг: простолюдинка Священної Римської імперії 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_03_common: "Одяг: простолюдинка Священної Римської імперії 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_02_low: "Одяг: дрібна дворянка Священної Римської імперії 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_03_low: "Одяг: дрібна дворянка Священної Римської імперії 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_02_high: "Одяг: дворянка Священної Римської імперії 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_nobility_03_high: "Одяг: дворянка Священної Римської імперії 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_hre_war_nobility_01_low: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_hre_war_nobility_01_low$"
+
+
+###################
+### DDE Abbasid ###
+###################
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_02_common: "Одяг: аббасидський простолюдин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_03_common: "Одяг: аббасидський простолюдин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_02_low: "Одяг: аббасидський дрібний дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_03_low: "Одяг: аббасидський дрібний дворянин 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_02_high: "Одяг: аббасидський дворянин 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_nobility_03_high: "Одяг: аббасидський дворянин 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_01_low: "Аббасидський обладунок"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_02_common: "Одяг: аббасидська простолюдинка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_03_common: "Одяг: аббасидська простолюдинка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_02_low: "Одяг: аббасидська дрібна дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_03_low: "Одяг: аббасидська дрібна дворянка 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_02_high: "Одяг: аббасидська дворянка 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_nobility_03_high: "Одяг: аббасидська дворянка 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_dde_abbasid_war_nobility_01_low: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_dde_abbasid_war_nobility_01_low$"
+
+
+###########
+### FP1 ###
+###########
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_common_01: "Northern Lords Commoner Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_common_02: "Northern Lords Commoner Clothing 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_01_low: "Northern Lords Low Nobility Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_02_low: "Northern Lords Low Nobility Clothing 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_01_high: "Northern Lords High Nobility Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_02_high: "Northern Lords High Nobility Clothing 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_war_nobility_01: "Northern Lords Armor"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_common_01: "Northern Lords Commoner Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_common_02: "Northern Lords Commoner Clothing 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_nobility_01_low: "Northern Lords Low Nobility Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_nobility_02_low: "Northern Lords Low Nobility Clothing 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_nobility_01_high: "Northern Lords High Nobility Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_nobility_02_high: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp1_nobility_02_high$"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp1_war_nobility_01: "Northern Lords Armor"
+
+
+############################
+### FP2 - Fate of Iberia ###
+############################
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_common_01: "Iberian Christian Commoner Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_common_01: "Iberian Muslim Commoner Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_01_low: "Iberian Christian Low Nobility Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_01_high: "Iberian Christian High Nobility Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_01_low: "Iberian Muslim Low Nobility Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_01_high: "Iberian Muslim High Nobility Clothing 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_02_low: "Iberian Christian Low Nobility Clothing 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_02_high: "Iberian Christian High Nobility Clothing 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_02_low: "Iberian Muslim Low Nobility Clothing 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_02_high: "Iberian Muslim High Nobility Clothing 2"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_war_nobility_01: "Iberian Muslim Armor"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_war_nobility_01: "Iberian Christian Armor"
+
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_common_01: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_common_01$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_common_01: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_common_01$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_nobility_01_low: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_01_low$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_nobility_01_high: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_01_high$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_nobility_01_low: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_01_low$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_nobility_01_high: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_01_high$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_nobility_02_low: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_02_low$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_nobility_02_high: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_nobility_02_high$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_nobility_02_low: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_02_low$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_nobility_02_high: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_nobility_02_high$"
+
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_muslim_war_nobility_01: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_muslim_war_nobility_01$"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_fp2_iberian_christian_war_nobility_01: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_fp2_iberian_christian_war_nobility_01$"
+
+
+##########################################
+################ Headgear ################
+##########################################
+
+
+###############
+### Western ###
+###############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_no_headgear: "Без головного убору"
+  PORTRAIT_MODIFIER_custom_headgear_male_empty: "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+  PORTRAIT_MODIFIER_custom_headgear_boy_empty: "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_common_01: "Ковпак"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_common_02: "Каптур"
+  # PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_nobility_01: "Noble Hood"
+  # PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_nobility_02: "Grand Cap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_common_02: "Noble Cap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_01: "Діадема"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_01: "Корона в ліліях"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_02: "Leaf Crown"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_03: "Płock Diadem"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_imperial_01: "Імперська корона"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_imperial_01: "Імперська корона"
+
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_nobility_01: "Кольчужний каптур"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_war_nobility_01$"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_empty: "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+  PORTRAIT_MODIFIER_custom_headgear_girl_empty: "$PORTRAIT_MODIFIER_custom_headgear_no_headgear$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_01: "Вуаль"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_01_2: "Вуаль і намітка"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_02: "Велюн"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_nobility_03: "Вуаль і намітка, окантовані золотом"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_common_02: "Fillet and Barbette with Veil"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_high_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_high_nobility_01$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_royalty_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_01$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_royalty_02: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_02$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_western_royalty_03: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_western_royalty_03$"
+
+
+###############
+### Northern ###
+###############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_common_01: "Fur Trimmed Hat"
+
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_01: "Шолом з нанісником"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_northern_war_nobility_01$"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_northern_common_01: "Пов'язка"
+
+
+###############
+### Byzantine ###
+###############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_common_01: "Фригійський ковпак"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_nobility_01: "Fur Trimmed Jeweled Hat"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_high_nobility_01: "Візантійська діадема"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_royalty_01: "Crown of Constance"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_imperial_01: "Візантійська імператорська корона"
+
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_01: "Візантійський шолом"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_byzantine_war_nobility_01$"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_common_01: "Пов'язка з діадемою"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_nobility_01: "Fur Trimmed Jeweled Hat"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_high_nobility_01: "Jeweled Top"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_royalty_01: "Crown of Constance"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_byzantine_imperial_01: "Byzantine Imperial Crown"
+
+
+############
+### MENA ###
+############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_common_01: "Простий тюрбан"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_common_02: "Bedouin Headwrap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_nobility_01: "Широкий тюрбан"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_high_nobility_01: "Noble Turban with Tiraz"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_royalty_01: "Тюрбан із самоцвітами"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_imperial_01: "Величезний тюрбан"
+
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_war_nobility_01: "Арабський шолом"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_crusades_mena_war_nobility_01: "Cone Helmet with Chain Cover"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_mena_war_nobility_01$"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_common_01: "Headscarf"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_common_02: "Veil with Twisted Headband"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_common_01: "Large Headscarf"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_nobility_01: "Королівська вуаль"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_mena_royalty_01: "Gilded Headscarf with Veil"
+
+
+############
+### Steppe ###
+############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_common_01: "Fur-lined Leather Hat"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_nobility_01: "Конічний капелюх"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_royalty_01: "Корона лотоса"
+
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_war_nobility_01: "Шолом степових народів"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_steppe_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_steppe_war_nobility_01$"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_steppe_common_01: "Fur-lined Cap"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_steppe_high_nobility_01: "Бокта"
+
+
+##############
+### Indian ###
+##############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_high_nobility_01: "Багатий тюрбан"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_royalty_01: "Тюрбан з тіарою"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_imperial_01: "Пишна корона"
+
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_war_nobility_01: "Індійський шолом"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_indian_war_nobility_01$"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_common_01: "Проста дупатта"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_nobility_02: "Прикрашена дупатта"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_indian_royalty_01: "Корона із золотою тіарою"
+
+
+###################
+### Sub Saharan ###
+###################
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_common_01: "Turban with Headwrap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_high_nobility_01: "Decorated Turban with Headwrap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_royalty_01: "Корона з тюрбаном"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_sub_saharan_imperial_01: "Imperial Crown with Headwrap"
+
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_sub_saharan_common_01: "Tall Headtie"
+
+
+###################
+##### DDE HRE #####
+###################
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_common_01: "Калотта"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_02: "Діадема з перлами"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_royalty_02: "Корона із коштовним камінням"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_nobility_01: "Германський гостроверхий шолом"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_common_01: "Fillet and Barbette with Hairnet"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_high_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_high_nobility_02$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_royalty_01: "Тонка корона із коштовним камінням"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_hre_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_hre_war_nobility_01$"
+
+###################
+### DDE Abbasid ###
+###################
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_common_01: "Sheik's Headwrap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_high_nobility_01: "Тюрбан еміра"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_royalty_01: "Тюрбан султана"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_imperial_01: "Тюрбан халіфа"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_war_nobility_01: "Cone Helmet with Cover and Wrap"
+
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_common_02: "Shaykhah's Headwrap"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_high_nobility_01: "Вуаль еміри"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_royalty_01: "Sultana's Gilded Headwrap"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_dde_abbasid_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_dde_abbasid_war_nobility_01$"
+
+###########
+### FP1 ###
+###########
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_01: "Viking's Cap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_02: "Warm Cap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_03: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_common_02$"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_nobility_01: "Jarl's Cap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_01: "Gilded Gjermundbu Helmet with Mail"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_02: "Runed Gjermundbu Helmet"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_royalty_01: "Norse Crown"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_imperial_01: "Norse Imperial Crown"
+
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_common_01: "Norse Headscarf"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_common_02: "Sailor's Scarf"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_nobility_01: "Norse Fur-lined Cap"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_nobility_02: "Chieftess' Headwrap"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_nobility_03: "Trader's Veil"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_01$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_war_nobility_02: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp1_war_nobility_02$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_royalty_01: "Norse Circlet"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp1_imperial_01: "Varangian Imperial Crown"
+
+###########
+### FP2 ###
+###########
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_common_01: "Commoner's Sombrero"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_common_01_low: "Keffiyeh Headscarf"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_common_01_high: "Noble Keffiyeh Headscarf"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_nobility_01_low: "Embroidered Coif"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_nobility_01_high: "Silken Embroidered Coif"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_nobility_01: "Andalusian Courtier's Turban"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_high_nobility_01_low: "Commoner's Capiello"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_high_nobility_01_high: "Nobleman's Capiello"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_high_nobility_01: "Moorish Turban with Tarboosh"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_royalty_01: "Crown of Sancho IV"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_royalty_01: "Sayyid Crown"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_war_nobility_01: "Cervellera Helmet"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_war_nobility_01: "Andalusian Decorated Helmet"
+
+### Female ###
+
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_common_01: "Wedge-Shaped Tocado"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_common_01: "Andalusian Headscarf"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_nobility_01_low: "Fillet with Ruffles"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_nobility_01_high: "Noble Fillet with Ruffles"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_nobility_01: "Headscarf with Jeweled Headband"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_high_nobility_01: "Tall Pleated Tocado"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_high_nobility_01_low: "Andalusian Headscarf with Litham"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_high_nobility_01_high: "Noble Andalusian Headscarf with Litham"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_royalty_01: "Doña's Crown"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_royalty_01: "Royal Crown of the Sayyidah"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_christian_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_christian_war_nobility_01$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_fp2_iberian_muslim_war_nobility_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_fp2_iberian_muslim_war_nobility_01$"
+
+###############
+### Special ###
+###############
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01: "Spectacles"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_special_spectacles_01: "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01$"
+  PORTRAIT_MODIFIER_custom_special_male_headgear_special_eye_patch_01: "Eye Patch"
+  PORTRAIT_MODIFIER_custom_special_male_headgear_special_blindfold_01: "Blindfold"
+  PORTRAIT_MODIFIER_custom_special_male_headgear_special_face_mask_01: "Face Mask"
+  PORTRAIT_MODIFIER_custom_special_male_headgear_special_head_bandage_01: "Head Bandage"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_special_female_headgear_special_spectacles_01: "Spectacles"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_special_spectacles_01: "$PORTRAIT_MODIFIER_custom_special_male_headgear_special_spectacles_01$"
+  PORTRAIT_MODIFIER_custom_special_female_headgear_special_eye_patch_01: "Eye Patch"
+  PORTRAIT_MODIFIER_custom_special_female_headgear_special_blindfold_01: "Blindfold"
+  PORTRAIT_MODIFIER_custom_special_female_headgear_special_face_mask_01: "Face Mask"
+  PORTRAIT_MODIFIER_custom_special_female_headgear_special_head_bandage_01: "Head Bandage"
+
+######################################
+################ Hair ################
+######################################
+
+  PORTRAIT_MODIFIER_custom_hair: "Волосся"
+
+
+### Male ###
+  PORTRAIT_MODIFIER_custom_hair_no_hair: "Без волосся"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_01: "Під горщик"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_02: "Неохайне середньої довжини"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_03: "Дуже коротке"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_04: "Лисувате"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_05: "Пряме середньої довжини"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_06: "Скуйовджене"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_07: "Пряме довге"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_08: "Хвилясте середньої довжини"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_09: "Хвилясте коротке"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_western_10: "Тонзура"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_byzantine_01: "Кучеряве під горщик"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_byzantine_02: "Римська стрижка"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_mena_01: "Кучеряве"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_mena_02: "Кучеряве середньої довжини"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_mena_03: "Large Curly"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_mena_04: "Curly Chevelure"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_sub_saharan_01: "Коротке афро"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_sub_saharan_02: "Середнє афро"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_sub_saharan_03: "Короткі коси"
+  PORTRAIT_MODIFIER_custom_hair_male_empty: "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
+  PORTRAIT_MODIFIER_custom_hair_boy_empty: "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_indian_01: "Зачесане назад"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_indian_02: "Зачесане назад хвилясте середньої довжини"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_indian_03: "High Bun"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_northern_01: "Дуже довге розпущене"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_northern_02: "Довге розпущене"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_northern_03: "Набіжник"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_steppe_01: "Hair Loops"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_steppe_02: "Steppe Rider"
+
+### Female ###
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_01: "Crown Braid"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_02: "Very Long Wavy"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_03: "Bun"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_04: "Very Long Double Braids"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_05: "Medium Wavy"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_06: "Large Bun"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_07: "Fish Tails"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_08: "Double Buns"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_09: "Twist"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_western_10: "Ribboned"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_byzantine_01: "Spiral Ribboned"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_byzantine_02: "Crown Curls"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_mena_01: "Gilded Braids"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_mena_02: "Long Curly"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_01: "Medium Afro"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_02: "Medium Thin Braids"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_sub_saharan_03: "Короткі тонкі коси"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_indian_01: "Jeweled Bun"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_indian_02: "Французька коса"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_indian_03: "Wavy Sides"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_northern_01: "Back Knot"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_northern_02: "Проста коса"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_northern_03: "Long with Crown Braid"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_steppe_01: "Дві коси зі стрічкою"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_steppe_02: "Rolled Up Braids"
+  PORTRAIT_MODIFIER_custom_hair_female_empty: "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
+  PORTRAIT_MODIFIER_custom_hair_girl_empty: "$PORTRAIT_MODIFIER_custom_hair_no_hair$"
+
+### Male FP1 ###
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_01: "Bondí's Cut"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_02: "Ponytail"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_03: "Short Sides"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_04: "Jarl"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_05: "Long Wavy"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_06: "Young Vigman"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_07: "Old Berserker"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_08: "Long with Two Braids"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_09: "Single Large Braid"
+
+### Female FP1 ###
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_01: "Braided Sides"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_02: "Messy Braid"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_03: "Pigtails"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_04: "Norse Crown Braid"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_05: "Long with Ribbons"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp1_06: "Brigand's Daughter"
+
+### Male FP2 Hair ###
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_christian_01: "Medium Curly with Fringe"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_muslim_01: "Medium Short Wavy"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_christian_02: "Medium Flowy"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_muslim_02: "Long Curly Middle Parted"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_christian_03: "Low Single Braid"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_muslim_03: "Long Windswept"
+
+  ### Female FP2 Hair ###
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_christian_01: "Maiden's Curls"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_01: "Framing Curls with Earrings"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_christian_02: "Long Straight with Middle Part"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_02: "Fine Curls with Headband"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_christian_03: "Wavy Shoulder-Length"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_03: "Four Braids with Jewels"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_01_common: "Framing Curls"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_02_common: "Fine Curls"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_fp2_iberian_muslim_03_common: "Four Braids"
+
+  ### Male Special ###
+  PORTRAIT_MODIFIER_custom_hair_male_hair_special_01: "Epic Dreads"
+
+#######################################
+################ Beard ################
+#######################################
+
+  PORTRAIT_MODIFIER_custom_beards: "Борода"
+  PORTRAIT_MODIFIER_custom_beards_male_empty: "Без бороди"
+  PORTRAIT_MODIFIER_custom_beards_female_empty: "$PORTRAIT_MODIFIER_custom_beards_male_empty$"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_01: "Пишна борода"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_02: "Еспаньйолка"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_03: "Коротка борода"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_04: "Коротка козляча борідка"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_05: "Вуса"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_06: "Велика густа борода"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_07: "Chinstrap Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_08: "Довга хвиляста борода"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_09: "Pointy Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_western_10: "Chin Goatee"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_mena_01: "Пишна кучерява борода"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_mena_02: "Велика хвиляста борода"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_mena_03: "Big Chinstrap Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_mena_04: "Short Stylish Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_northern_01: "Велика скуйовджена борода"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_northern_02: "Борода-коса"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_northern_03: "Борода з намистинами"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_steppe_01: "Straight Pointy Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_steppe_02: "Пряма середня борода"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_sub_saharan_01: "Борода в дрібні кучері"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_sub_saharan_02: "Fine Curls Goatee"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_sub_saharan_03: "Довга кучерява борода"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_indian_01: "Вуса з бакенбардами"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_indian_02: "Wavy Pointy Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_indian_03: "Long Straight Rough Beard"
+  PORTRAIT_MODIFIER_custom_beards_no_beard: "Без бороди"
+
+  ### FP1 ###
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_01: "Huscarl's Braids"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_02: "Aspiring Viking"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_03: "Beard with Big Mustache"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_04: "Massive Braid"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp1_05: "Grizzled Varangian"
+
+  ### FP2 Beards ###
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_01: "Short Well-Kept Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_01: "Thick Groomed Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_02: "Iberian Goatee"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_02: "Scholar's Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_03: "Caballero's Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_muslim_03: "Forked Beard"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_fp2_iberian_christian_04: "Droopy Mustache"
+
+#######################################
+################ Cloak ################
+#######################################
+
+  PORTRAIT_MODIFIER_custom_cloaks: "Плащ"
+  PORTRAIT_MODIFIER_custom_cloaks_no_cloak: "Без плаща"
+  PORTRAIT_MODIFIER_custom_cloaks_male_empty: "$PORTRAIT_MODIFIER_custom_cloaks_no_cloak$"
+  PORTRAIT_MODIFIER_custom_cloaks_female_empty: "$PORTRAIT_MODIFIER_custom_cloaks_no_cloak$"
+  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_royalty_01: "Королівський плащ"
+  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_western_royalty_01: "$PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_western_royalty_01$"
+  PORTRAIT_MODIFIER_custom_cloaks_male_capes_religious_catholic_head_01: "Catholic Head 1"
+
+  ### FP1 ###
+  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fp1_nobility_01: "Adventurer's Cloak"
+  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fp1_nobility_02: "Vigman's Cloak"
+  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_fp1_nobility_03: "Norse Cape"
+  PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_01: "Foxskin"
+  PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_02: "Fur Cape"
+  PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_03: "Big Fur Cloak"
+  PORTRAIT_MODIFIER_custom_cloaks_female_furs_secular_fp1_nobility_01: "$PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_01$"
+  PORTRAIT_MODIFIER_custom_cloaks_female_furs_secular_fp1_nobility_02: "$PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_02$"
+  PORTRAIT_MODIFIER_custom_cloaks_female_furs_secular_fp1_nobility_03: "$PORTRAIT_MODIFIER_custom_cloaks_male_furs_secular_fp1_nobility_03$"
+  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fp1_nobility_01: "Shieldmaiden's Cloak"
+  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fp1_nobility_02: "Chieftess' Cloak"
+  PORTRAIT_MODIFIER_custom_cloaks_female_cloaks_secular_fp1_nobility_03: "Norse Shoulder Wrap"
+
+##################################################
+################ Monarchs Journey ################
+##################################################
+
+  PORTRAIT_MODIFIER_custom_hair_female_hair_rtt_01: "Мельник"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_rtt_02: "Жанна д'Арк"
+  PORTRAIT_MODIFIER_custom_hair_female_hair_rtt_02_milla: "Miller Highlights"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_rtt_01: "Mullet"
+  PORTRAIT_MODIFIER_custom_hair_male_hair_rtt_02: "Паж"
+  PORTRAIT_MODIFIER_custom_beards_male_beard_rtt_01: "Борода чарівника"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_nobility_01_low: "Chaperon"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_nobility_01_high: "Chaperon"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_jester_01_low: "Ковпак блазня"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_jester_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_jester_01_low$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_jester_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_jester_01_low$"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_rtt_jester_01_high: "Ковпак блазня"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_rtt_nobility_01_low: "Генін"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_rtt_nobility_01_high: "Генін"
+
+###########################################
+################ Religious ################
+###########################################
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_muslim_high_01: "Imam's Robe"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_dde_muslim_head_01_common: "Caliphal Robe"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_orthodox_high_01: "Orthodox Robe 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_orthodox_head_01_common: "Orthodox Robe 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_01: "Monk Robe 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_devoted_02: "Monk Robe 2"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_catholic_devoted_01_common: "Nun's Robe"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_high_01: "Bishop Robe 1"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_dde_catholic_high_01_common: "Bishop Robe 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_catholic_head_01: "Papal Robe"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_african_high_01_common: "African Religious Clothing"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_african_high_01_common: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_african_high_01_common$"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_northern_high_01: "Norse Religious Clothing"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_northern_high_01: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_northern_high_01$"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_hindu_devoted_01: "Eastern Religious Robe 1"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_hindu_devoted_01: "Eastern Religious Robe"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_buddhist_high_01: "Eastern Religious Robe 2"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_zoroastrian_high_01: "Temple Robes"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_zoroastrian_high_01: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_zoroastrian_high_01$"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_jewish_head_01: "Kohen Gadol's Robe"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_jewish_high_01: "Jewish Religious Clothing"
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_steppe_high_01_common: "Steppe Religious Clothing"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_religious_steppe_high_01_common: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_religious_steppe_high_01_common$"
+
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_catholic_devoted_01: "Habit"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_high_01: "Bishop's Mitre"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_dde_catholic_high_01: "Archbishop's Mitre"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_catholic_head_01: "Papal Tiara"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_orthodox_high_01: "Patriarch's Headgear"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_orthodox_head_01: "Ecumenical Patriarch's Headgear"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_zorastrian_high_01: "Temple Headwrap"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_jewish_head_01: "Kohen Gadol's Headgear"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_muslim_high_01: "Islamic Turban"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_muslim_high_01: "Imam's Turban"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_dde_muslim_head_01: "Scholar's Turban"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_high_01: "African Religious Headgear"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_african_high_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_african_high_01$"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_steppe_high_01: "Steppe Religious Headgear"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_steppe_high_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_steppe_high_01$"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_northern_high_01: "Norse Circlet"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_religious_northern_high_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_religious_northern_high_01$"
+
+  PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ep1_jester_01: "Jester's Attire"
+  PORTRAIT_MODIFIER_custom_clothes_female_clothes_secular_ep1_jester_01: "$PORTRAIT_MODIFIER_custom_clothes_male_clothes_secular_ep1_jester_01$"
+  PORTRAIT_MODIFIER_custom_cloaks_male_cloaks_secular_ep1_adventurer_01: "Explorer's Cloak"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_western_royalty_01: "Jeweled Lily Crown"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_mena_royalty_01: "Low Lotus Crown"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_indian_royalty_01: "Golden Makuta"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_mena_royalty_02: "Golden Pearl Turban"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_sub_saharan_royalty_01: "Fine Golden Crown"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_diamond_crown: "Golden Makuta with Massive Diamond"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_crown_of_justinian: "Crown of Justinian"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_crown_of_lombardy: "Iron Crown of Lombardy"
+  PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_sassanid_crown: "Sassanid Crown"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_western_royalty_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_western_royalty_01$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_mena_royalty_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_mena_royalty_01$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_indian_royalty_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_indian_royalty_01$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_mena_royalty_02: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_mena_royalty_02$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_sub_saharan_royalty_01: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_sub_saharan_royalty_01$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_diamond_crown: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_diamond_crown$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_crown_of_justinian: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_crown_of_justinian$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_crown_of_lombardy: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_crown_of_lombardy$"
+  PORTRAIT_MODIFIER_custom_headgear_female_headgear_secular_ep1_sassanid_crown: "$PORTRAIT_MODIFIER_custom_headgear_male_headgear_secular_ep1_sassanid_crown$"

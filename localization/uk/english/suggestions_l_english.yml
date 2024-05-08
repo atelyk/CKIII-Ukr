@@ -1,0 +1,69 @@
+﻿l_english:
+  SUGGESTION_TITLE: "#T $NAME$#!"
+
+  suggestion_recruit_maa_label: "Recruit Men-At-Arms"
+  suggestion_recruit_maa: "Suggestion: Recruit a men-at-arms regiment"
+  suggestion_recruit_maa_desc: "You have fewer [men_at_arms|E] than is expected for a [ruler|E] of your [rank|E].\n\nRecruiting some will bolster your [armies|E], serving both to deter potential enemies as well as combat those who insist on fighting anyway."
+  suggestion_recruit_maa_click: "#I Click to view your Military#!"
+
+  suggestion_declare_war_label: "Оголосити війну"
+  suggestion_declare_war: "Пропозиція: оголосіть війну персонажеві [recipient.GetShortUINameNoTooltip]"
+  suggestion_declare_war_desc: "Перемігши персонажа [recipient.GetShortUIName] ви завоюєте більше територій і ваша [realm|E] розростеться, що сприятиме зростанню та довгому процвітанню вашого [houses|El]."
+  suggestion_declare_war_click: "#I Натисніть, щоб оголосити війну#!"
+
+  suggestion_construct_building_label: "Будівництво споруди"
+  suggestion_construct_building: "Пропозиція: побудуйте споруду в регіоні [landed_title.GetNameNoTierNoTooltip]"
+  suggestion_construct_building_desc: "Будівництво споруд в регіоні [landed_title.GetNameNoTooltip] принесе вам як миттєву, так і довгострокову вигоду."
+  suggestion_construct_building_click: "#I Натисніть, щоб подивитися#!"
+
+  suggestion_fabricate_claim_label: "Сфабрикувати претензію"
+  suggestion_fabricate_claim: "Пропозиція: сфабрикуйте претензію на титул [landed_title.GetNameNoTierNoTooltip]"
+  suggestion_fabricate_claim_desc: "Сусідній регіон — [landed_title.GetName] — багатий і успішний, але ви не можете завоювати його без [casus_belli|El].\n\nВаш [court_chaplain|El] або [realm_priest|El] повинен сфабрикувати [Concept( 'claim', 'претензію' )|El], щоб у вас з'явився законний привід піти на сусідів [Concept( 'war', 'війною' )|El] і забрати ласий шматок земель!"
+  suggestion_fabricate_claim_click: "#I Натисніть, щоб побачити титул#!"
+
+  suggestion_create_title_label: "Створити титул"
+  suggestion_create_title: "Пропозиція: створіть титул [landed_title.GetNameNoTooltip]"
+  suggestion_create_title_desc: "У вас достатньо територій [de_jure|El], щоб [create|El] [landed_title.GetName]. При цьому ви отримаєте звання [Concept( 'rightful_liege', 'законного сюзерена' )|El] всіх підлеглих титулів, а ваш [prestige|El] помітно зросте."
+  suggestion_create_title_click: "#I Натисніть, щоб побачити титул#!"
+
+  SUGGESTIONS_DEBUG: "#D НАЛАГОДЖЕННЯ ПРОПОЗИЦІЙ:#!"
+
+  suggestion_convert_county_label: "Навернути графство"
+  suggestion_convert_county: "Пропозиція: змініть конфесію в регіоні [landed_title.GetNameNoTierNoTooltip]"
+  suggestion_convert_county_desc: "Якщо [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|E] відправиться переконувати жителів регіону [landed_title.GetName] прийняти істинну віру, там стане спокійніше."
+  suggestion_convert_county_click: "#I Натисніть, щоб відкрити вікно «Рада»#!"
+
+  suggestion_increase_control_label: "Збільшити контроль"
+  suggestion_increase_control: "Пропозиція: збільшіть контроль в регіоні [landed_title.GetNameNoTierNoTooltip]"
+  suggestion_increase_control_desc: "Якщо [Concept( 'marshal', GetPlayer.GetCouncillorPosition( 'councillor_marshal' ).GetPositionName )|E] відправитися збільшувати контроль в регіоні [landed_title.GetName], це принесе немало користі, зменшиться [county_corruption|El], і можливі інші позитивні ефекти."
+  suggestion_increase_control_click: "#I Натисніть, щоб відкрити вікно «Рада»#!"
+
+  suggestion_increase_opinion_label: "Покращити думку"
+  suggestion_increase_opinion: "Пропозиція: спробуйте покращити думку персонажа [recipient.GetShortUINamePossessiveNoTooltip] про вас"
+  suggestion_increase_opinion_desc: "[Select_CString(recipient.IsFemale, 'Ваша', 'Ваш' )] [actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))] [recipient.GetShortUIName] низької [Concept( 'opinion', 'думки' )|El] про вас. [personal_scheme|El] допоможе підвищити її, що полегшить вам життя."
+  suggestion_increase_opinion_click: "#I Натисніть, щоб відкрити взаємодію «Вплинути»#!"
+
+  suggestion_raid_label: "Наліт"
+  suggestion_raid: "Пропозиція: влаштуйте наліт на регіон [landed_title.GetNameNoTierNoTooltip]"
+  suggestion_raid_desc: "[raid|E] вашої армії на регіон [landed_title.GetNameNoTierNoTooltip] принесе вам $game_concept_raid_loot$."
+  suggestion_raid_click: "#I Натисніть, щоб відкрити панель армії#!"
+
+  suggestion_grant_title_label: "Дарувати Титул"
+  suggestion_grant_title: "Пропозиція: хай [recipient.GetShortUINameNoTooltip] отримає від вас титул [landed_title.GetNameNoTierNoTooltip]"
+  suggestion_grant_title_desc: "[recipient.GetShortUIName] — [de_jure|El] [Select_CString(recipient.IsFemale, 'володарка', 'володар' )] титулу [landed_title.GetName]. Дотримання де-юре статусу в вашій державі забезпечить високу стабільність та допоможе уникнути надмірного зниження думки про вас."
+  suggestion_grant_title_click: "#I Натисніть, щоб відкрити взаємодію «Дарувати титул»#!"
+
+  suggestion_can_hire_court_positions: "Hire Court Positions"
+  suggestion_can_hire_court_positions_label: "Suggestion: Hire more Court Positions"
+  suggestion_can_hire_court_positions_desc: "You should invest some gold in filling more [court_positions|E] to gain their bonuses."
+  suggestion_can_hire_court_positions_click: "#I Click to view available Court Positions#!"
+
+  suggestion_request_war_aid_petition: "Request Military Assistance"
+  suggestion_request_war_aid_petition_label: "Suggestion: Request Military Assistance"
+  suggestion_request_war_aid_petition_desc: "You can ask your [liege|E] for help in your [war|E]. They may join, or pay for soldiers."
+  suggestion_request_war_aid_petition_click: "#I Click to view your [lieges|E]'s [royal_court|E]#!"
+
+  suggestion_create_nation_fracturing_faction: "Create a $nation_fracturing_faction$"
+  suggestion_create_nation_fracturing_faction_label: "Suggestion: $suggestion_create_nation_fracturing_faction$"
+  suggestion_create_nation_fracturing_faction_desc: "You can challenge your [liege|E] and try to dissolve the realm to gain independence to you and all of their [vassals|E]"
+  suggestion_create_nation_fracturing_faction_click: "#I Click to view Faction against your [liege]#!"

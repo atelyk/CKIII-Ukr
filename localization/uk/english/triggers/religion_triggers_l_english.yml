@@ -1,0 +1,55 @@
+﻿l_english:
+
+  RELIGION_TAG_TRIGGER: "Належить до $RELIGION|V$"
+
+  FAITH_FERVOR_GLOBAL: "[fervor|E] $COMPARATOR$ $NUM|V0$"
+  NOT_FAITH_FERVOR_GLOBAL: "[fervor|E] #bold не#! $NUM|V0$ $COMPARATOR$"
+  FAITH_FERVOR_THIRD: "[fervor|E] конфесії [FAITH.GetName] $COMPARATOR$ $NUM|V0$"
+  NOT_FAITH_FERVOR_THIRD: "[fervor|E] конфесії [FAITH.GetName] #bold не#! $COMPARATOR$ $NUM|V0$"
+
+  FAITH_VIRTUES_GLOBAL: "Має доброчесні [traits|El] в кількості $NUM|V0$"
+  NOT_FAITH_VIRTUES_GLOBAL: "Менше $NUM|V0$ доброчесних властивостей"
+  FAITH_VIRTUES_FIRST: "У вас не менше $NUM|V0$ [Concept( 'virtuous', 'доброчесних' )|E] [Concept( 'traits', 'властивостей' )|E]"
+  NOT_FAITH_VIRTUES_FIRST: "У вас менше $NUM|V0$ [Concept( 'virtuous', 'доброчесних' )|E] [Concept( 'traits', 'властивостей' )|E]"
+  FAITH_VIRTUES_THIRD: "[CHARACTER.GetUIName] має доброчесні [traits|E] в кількості $NUM|V0$"
+  NOT_FAITH_VIRTUES_THIRD: "[CHARACTER.GetUIName] має менше $NUM|V0$ доброчесних властивостей"
+
+  FAITH_SINS_GLOBAL: "Має гріховні [traits|El] в кількості $NUM|V0$"
+  NOT_FAITH_SINS_GLOBAL: "Менше $NUM|V0$ гріховних властивостей"
+  FAITH_SINS_FIRST: "У вас не менше $NUM|V0$ [Concept( 'sinful', 'гріховних' )|E] [Concept( 'traits', 'властивостей' )|E]"
+  NOT_FAITH_SINS_FIRST: "У вас менше $NUM|V0$ [Concept( 'sinful', 'гріховних' )|E] [Concept( 'traits', 'властивостей' )|E]"
+  FAITH_SINS_THIRD: "[CHARACTER.GetUIName] має гріховні [traits|El] в кількості $NUM|V0$"
+  NOT_FAITH_SINS_THIRD: "[CHARACTER.GetUIName] має менше $NUM|V0$ гріховних властивостей"
+
+  HOLY_SITES_CONTROLLED_GLOBAL: "Контролює [holy_sites|El] в кількості $NUM|V0$"
+  NOT_HOLY_SITES_CONTROLLED_GLOBAL: "Контролює [holy_sites|El] у кількості менше $NUM|V0$"
+  HOLY_SITES_CONTROLLED_FIRST: "У вас є контроль над $NUM|V0$ [Concept( 'holy_site', 'святинями' )|E]"
+  NOT_HOLY_SITES_CONTROLLED_FIRST: "Ви контролюєте менше $NUM|V0$ [Concept( 'holy_site', 'святинь' )|E]"
+  HOLY_SITES_CONTROLLED_THIRD: "[FAITH.GetName] контролює [holy_sites|El] в кількості $NUM|V0$"
+  NOT_HOLY_SITES_CONTROLLED_THIRD: "[FAITH.GetName] контролює [holy_sites|El] у кількості менше $NUM|V0$"
+
+  RELIGION_IS_SAME_AS: "Та ж [religion|El], що й у персонажа [TARGET_CHARACTER.GetShortUIName]"
+  NOT_RELIGION_IS_SAME_AS: "Відмінна [religion|El], чим у персонажа [TARGET_CHARACTER.GetShortUIName]"
+  I_HAVE_SAME_RELIGION: "Ви та [TARGET_CHARACTER.GetShortUIName] сповідуєте одну [Concept( 'religion', 'релігію' )|E]"
+  NOT_I_HAVE_SAME_RELIGION: "Ви та [TARGET_CHARACTER.GetShortUIName] сповідуєте #bold різні#! [Concept( 'religion', 'релігії' )|E]"
+  THEY_HAVE_SAME_RELIGION: "У персонажа [CHARACTER.GetShortUIName|U] та ж [religion|El], що й у персонажа [TARGET_CHARACTER.GetShortUIName]"
+  NOT_THEY_HAVE_SAME_RELIGION: "У персонажа [CHARACTER.GetShortUIName|U] інша [religion|El], ніж у персонажа [TARGET_CHARACTER.GetShortUIName]"
+
+  IT_HAS_DOMINANT_RULING_GENDER_TRIGGER: "[doctrines] конфесії [FAITH.GetName] стверджують, що [CHARACTER.GetWomenMen] можуть отримувати [titles] в дар від [Concept( 'rulers', 'правителів' )|E]"
+  NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER: "[doctrines] конфесії [FAITH.GetName] стверджують, що [TARGET_CHARACTER.GetWomenMen] #bold не#! можуть отримувати [titles] в дар від [Concept( 'rulers', 'правителів' )|E]"
+
+  I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH: "У вас не менше $VALUE|0V$ [FAITH.GetName]их [Concept( 'holy_sites', 'священних місць' )|E]"
+  I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH: "У вас #bold менше#! $VALUE|0V$[FAITH.GetName]их [Concept( 'holy_sites', 'священних місць' )|E]"
+
+  NOT_RELIGION_TAG_TRIGGER: "Ваша [faith] #bold не#! належить до релігії «$RELIGION|V$»"
+
+  CAN_LEGITIMIZE_BASTARDS_IN_FAITH: "[CHARACTER.GetFaith.GetName] дозволяє [Concept( 'legitimized', 'визнавати' )|E] [Concept( 'bastards', 'бастардів' )|E]"
+  CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH: "[CHARACTER.GetFaith.GetName] #EMP не#! дозволяє [Concept( 'legitimized', 'визнавати' )|E] [Concept( 'bastards', 'бастардів' )|E]"
+
+  CANNOT_CREATE_HOF_TITLE_AT_OR_ABOVE_LIEGE_TIER: "You cannot become [head_of_faith|E] if it would make you at or above your [liege|E]'s [title_rank|E]"
+  CHAR_CAN_ONLY_CREATE_ONE_FAITH: "You have already reformed or created a new [faith|E] as this character!"
+
+  has_forced_defender: "You are a forced defender"
+  has_pledged_attacker: "You are a pledged attacker"
+  they_have_pledged_as_attacker: "They are a pledged attacker in your faith's [GREAT_HOLY_WAR.GetName]"
+  has_pledged_defender: "You are a pledged defender"

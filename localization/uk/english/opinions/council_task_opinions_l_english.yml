@@ -1,0 +1,24 @@
+﻿l_english:
+  chancellor_task_foreign_affairs_opinion: "Міжнародні відносини"
+  chancellor_task_domestic_affairs_opinion: "Внутрішні справи"
+  chancellor_task_neighbor_decreased_opinion: "Дипломатичний інцидент"
+  chancellor_task_neighbor_increased_opinion: "Вміла дипломатія"
+  chancellor_task_powerful_vassal_decreased_opinion: "Некомпетентний канцлер"
+  chancellor_task_powerful_vassal_increased_opinion: "Вміла дипломатія"
+  chancellor_bestow_royal_favor_opinion: "Royal Favor"
+  marshal_task_increase_control_baron_decrease_opinion: "Маршал не користується повагою"
+  marshal_task_increase_control_baron_increase_opinion: "Шановане керівництво"
+  court_chaplain_fabricated_claim_opinion: "Ця людина підробила претензію"
+  court_chaplain_fabricated_claim_on_vassal_opinion: "Ця людина підробила претензію на васала"
+  task_religious_relations_opinion: "Релігійні відносини"
+  bad_religious_relations_opinion: "Теологічний диспут"
+  bonus_religious_relations_opinion: "Захоплюєтся моїм радником"
+  court_chaplain_upsetting_claim_fabrication_opinion: "Підриває рівновагу васала"
+  court_chaplain_vassal_claim_target_upset_modifier: "Знає про підроблену претензію"
+
+  spouse_held_local_tourney_opinion: "Чоловік/дружина проводить місцевий турнір"
+  spouse_martial_display_of_force_opinion: "Демонстрація сили"
+
+  spouse_coerced_gift_opinion: "Вимушений подарунок"
+
+  steward_convince_dejure_upset_modifier: "Diplomatic Blunder"

@@ -1,0 +1,81 @@
+﻿l_english:
+  combat_event.0003.t: "Непереможність"
+  combat_event.0003.desc.opening: "Сотня битв — сотня перемог!"
+  combat_event.0003.desc.commander: "[enemy_commander.GetTitledFirstName] — останній переможений мною ворог, а [enemy_commander.GetHerHis] солдати розбиті,"
+  combat_event.0003.desc.no_commander: "Я здобую чергову перемогу,"
+  combat_event.0003.desc.ending: "і це — нова віха мого життя.\n\nНе зазнавши жодної поразки, я по праву користуюся славою непереможного воєначальника непереборної сили. І чим далі, тим більше здається, що це не так далеко від істини..."
+  combat_event.0003.desc.alt_ending: "і це — нова віха мого життя.\n\nЗ кожною перемогою в бою чутки про мою могутність множаться і ширяться. Нині вони переросли навіть подвиги легендарних полководців, і в народі мене називають непереможною та незламною стихією, якій немає і не буде рівних."
+  combat_event.0003.a: "Розкажіть усім про мою майстерність!"
+  combat_event.0003.b: "Не можна впадати в гординю. Варто пам'ятати, що одна шалена стріла — і..."
+  combat_event.0003.b.zealous: "Я — просто [ROOT.Char.Custom('signature_weapon')] [ROOT.Char.GetFaith.HighGodNamePossessive], я просто втілюю волю [ROOT.Char.GetFaith.WarGodHerHis|U]."
+
+  combat_event.0004.t: "Повалити колоса"
+  combat_event.0004.desc: "[enemy_commander.Custom2('MyCharacterIntroduction', ROOT.Char)|U] — легендарний командир, якому невідома поразка, та слава про [enemy_commander.GetHerHis] непереможність гримить по всьому світу.\n\nАле сьогодні перемога була за мною! Нехай усі знають, що [enemy_commander.GetSheHe] не [Select_CString(enemy_commander.IsFemale, 'така', 'такий' )] вже і [Select_CString(enemy_commander.IsFemale, 'незламна', 'незламний' )]!"
+  combat_event.0004.a: "[ROOT.Char.Custom('signature_weapon')] у моїх руках руйнує самі легенди!"
+  combat_event.0004.b: "Якщо [enemy_commander.GetHerHis] можна перемогти, то мене і тим більше."
+  combat_event.0004.b.zealous: "Я дякую [ROOT.GetCharacter.GetFaith.WarGodNamePossessive] за те, що [SCOPE.sC('enemy_commander').GetSheHe] [Select_CString(enemy_commander.IsFemale, 'отримала', 'отримав' )] урок смиренності."
+
+  combat_event.0005.t: "Повалити колоса"
+  combat_event.0005.desc: "Сталося неймовірне: сьогодні [friendly_commander.Custom2('MyCharacterIntroduction', ROOT.Char)] [Select_CString(friendly_commander.IsFemale, 'отримала', 'отримав')] наді мною перемогу! Варто було почати думати, що програти мені ніколи не судилося, як доля негайно тицьнула мене обличчям у багнюку..\n\nРепутація не постраждає — зрештою, що така одна поразка? Аде [friendly_commander.GetFirstName] [Select_CString(friendly_commander.IsFemale, 'відкусила', 'відкусив')] неабиякий шмат від моєї слави."
+  combat_event.0005.a: "[friendly_commander.GetSheHe|U] заслуговує на пошану за перемогу над такою знаменитістю."
+  combat_event.0005.b: "Неприпустимо! [friendly_commander.GetSheHe|U] прокляне той день, коли [Select_CString(friendly_commander.IsFemale, 'наважилася', 'наважився' )] перейти мені дорогу!"
+  combat_event.0005.message: "[enemy_commander.GetTitledFirstName] в люті [Select_CString(enemy_commander.IsFemale, 'присягалася', 'присягнув' )] помститися мені за свою поразку!"
+
+  # Combatants Taken Prisoner
+  combat_event.1002.pow_message.t: "Захоплені ворожі бійці"
+  combat_event.1002.pow_message.desc.single: "[primary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [Select_CString(primary_prisoner.IsFemale, 'захоплена', 'захоплений' )] вашими війсками"
+  combat_event.1002.pow_message.desc.double: "[primary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] та [secondary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] захоплені вашими військами"
+  combat_event.1002.pow_message.desc.multiple: "[primary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] у компанії ще [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] чоловік захоплені вашими військами"
+  combat_event.1002.pow_message.desc.end: "після перемоги у провінції [combat_location.GetName]!"
+
+  combat_event.1003.pow_message.t: "Захоплені союзні бійці"
+  combat_event.1003.pow_message.desc.single: "[primary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] в полоні."
+  combat_event.1003.pow_message.desc.double: "[primary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] та [secondary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] в полоні."
+  combat_event.1003.pow_message.desc.multiple: "[primary_prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] та інші люди (всього [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] чол.) в полоні."
+  combat_event.1003.pow_message.desc.end: "Ваш ворог [combat_winner.GetTitledFirstName] [Select_CString(combat_winner.IsFemale, 'взяла', 'взяв' )] полонених після перемоги у провінції [combat_location.GetName]!"
+
+  combat_event.1004.pow_message.t: "[ROOT.Char.Custom2('RelationToMeShort', prisoner_1)] [Select_CString(prisoner_1.IsFemale, 'захоплена', 'захоплений' )]."
+  combat_event.1004.pow_message.desc.end: "[combat_winner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [Select_CString(combat_winner.IsFemale, 'взяла', 'взяв' )] полонених після перемоги у провінції [combat_location.GetName]!"
+
+  combat_event.1005.pow_toast.t: "Захоплено цінних заручників"
+  combat_event.1005.pow_toast.desc: "[important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] потрапляє до вас у заручники під час битви у провінції [combat_location.GetName]."
+  combat_event.1005.pow_toast.desc.primary: "Ваш ворог [important_hostage.GetTitledFirstName] стає [Select_CString(important_hostage.IsFemale, 'вашою заручницею', 'вашим заручником' )] під час битви у провінції [combat_location.GetName]."
+  combat_event.1006.pow_toast.t: "Спадкоємець у заручниках"
+  combat_event.1006.pow_toast.desc: "[important_hostage.Custom2('MyCharacterIntroduction', ROOT.Char)|U] потрапляє у заручники. [important_hostage.GetHerHis|U] захоплює [combat_winner.GetTitledFirstName] під час битви у провінції [combat_location.GetName]."
+  combat_event.1007.pow_toast.t: "$combat_event.1005.pow_toast.t$"
+  combat_event.1007.pow_toast_primary.t: "Захоплено ворожого військового лідера"
+  combat_event.1007.pow_toast.desc: "Після битви у провінції [combat_location.GetName] [combat_winner.GetTitledFirstName] бере заручників, серед яких [important_hostage.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)]."
+  combat_event.1007.pow_toast.desc.primary: "Ваш ворог [important_hostage.GetTitledFirstName] потрапляє в полон. [combat_winner.GetTitledFirstName] бере [important_hostage.GetHerHis] у заручники під час битви у провінції [combat_location.GetName]."
+
+  # Combatants Slain
+  combat_event.1012.slain_message.t: "Вбито ворожих бійців"
+  combat_event.1012.slain_message.desc.single: "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] вбито вашими воїнами"
+  combat_event.1012.slain_message.desc.double: "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] та [secondary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)] вбиті вашими бійцями"
+  combat_event.1012.slain_message.desc.multiple: "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] і ще не менше [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] чоловік вбито вашими бійцями"
+  combat_event.1012.slain_message.desc.end: "під час битви у провінції [combat_location.GetName]!"
+
+  combat_event.1013.slain_message.t: "Вбито союзних бійців"
+  combat_event.1013.slain_message.desc.single: "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] вбито"
+  combat_event.1013.slain_message.desc.double: "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] та [secondary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)] вбиті"
+  combat_event.1013.slain_message.desc.multiple: "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] та інші ([ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0]) вбиті"
+  combat_event.1013.slain_message.desc.end: "вбито під час битви у провінції [combat_location.GetName]!"
+
+  combat_event.1014.slain_message.t: "[primary_deceased.Custom2('MyCharacterIntroduction', ROOT.Char)|U] вбито в бою"
+
+  # Slain/captured knight event strings for use in battle events (after the battle).
+  combatant_captured_in_battle_friendly_player: "Ви берете полонених після бою, і [TARGET_CHARACTER.GetUINameNoTooltip] серед них!"
+  combatant_captured_in_battle_friendly: "[CHARACTER.GetUINameNoTooltip] бере полонених після бою. [TARGET_CHARACTER.GetUINameNoTooltip] серед них!"
+  combatant_captured_in_battle_enemy_player: "[CHARACTER.GetUINameNoTooltip] бере полонених після бою, і серед них ви!"
+  combatant_captured_in_battle_enemy: "[CHARACTER.GetUINameNoTooltip] бере полонених після бою. [TARGET_CHARACTER.GetUINameNoTooltip] серед них!"
+
+  combatant_killed_in_battle_friendly_player: "[TARGET_CHARACTER.GetUINameNoTooltip] намагається відступити, але ви вбиваєте його!"
+  combatant_killed_in_battle_friendly: "[TARGET_CHARACTER.GetUINameNoTooltip] намагається відступити, але [TARGET_CHARACTER.GetHerHis] вбиває [CHARACTER.GetUINameNoTooltip]!"
+  combatant_killed_in_battle_enemy_player: "Ви намагаєтеся відступити, але [CHARACTER.GetUINameNoTooltip] вбиває вас!"
+  combatant_killed_in_battle_enemy: "[TARGET_CHARACTER.GetUINameNoTooltip] намагається відступити, але [CHARACTER.GetUINameNoTooltip] вбиває [TARGET_CHARACTER.GetHerHis]!"
+
+  combatant_killed_in_battle_no_killer_friendly_player: "[TARGET_CHARACTER.GetUINameNoTooltip] намагається відступити, але один із ваших солдатів вбиває [TARGET_CHARACTER.GetHerHis]!"
+  combatant_killed_in_battle_no_killer_friendly: "[TARGET_CHARACTER.GetUINameNoTooltip] намагається відступити, але один із наших солдатів [TARGET_CHARACTER.GetHerHis] вбиває!"
+  combatant_killed_in_battle_no_killer_enemy_player: "Під час відступу вас убиває ворожий солдат!"
+  combatant_killed_in_battle_no_killer_enemy: "Під час відступу [TARGET_CHARACTER.GetUINameNoTooltip] вбито ворожим солдатом!"
+
+

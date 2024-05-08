@@ -1,0 +1,22 @@
+﻿l_english:
+  #PrisonType
+  prisontype_dungeon: "темниця"
+  prisontype_house_arrest: "домашній арешт"
+  #PrisonTypeCell
+  prisontypecell_dungeon_cell: "підземелля"
+  prisontypecell_house_arrest: "домашній арешт"
+  #PrisonContentsSingular
+  prison_contents_racking: "розтягування"
+  prison_contents_flaying: "білування"
+  prison_contents_fruit_throwing: "закидання гнилою городиною"
+  prison_contents_crusted_blood: "crusted blood"
+  prison_contents_impaling: "насаджування на палю"
+  prison_contents_foot_roasting: "підсмажування ніг"
+  prison_contents_whipping: "шмагання"
+  prison_contents_mold: "mold in the gruel"
+  #PrisonContentsPlural
+  prison_contents_rat_droppings: "rat droppings"
+  prison_contents_rabid_dogs: "скажені собаки"
+  prison_contents_missed_meals: "моріння голодом"
+  prison_contents_screaming_lunatics: "screaming lunatics"
+

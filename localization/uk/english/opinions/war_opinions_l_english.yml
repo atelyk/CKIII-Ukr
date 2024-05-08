@@ -1,0 +1,16 @@
+﻿l_english:
+  declared_war: "Оголошено війну"
+  declared_war_on_son_daughter: "Оголошено війну власній дитині"
+  vassal_lost_faction_revolt_war: "Revolted against me"
+  vassal_wp_faction_revolt_war: "Revolted against me"
+  liege_lost_declared_religious_war: "Програли нашу релігійну війну"
+  liege_lost_mongol_invasion_war: "Невдале вторгнення"
+  rejected_call_to_defensive_war: "Відхилено заклик до оборонної війни"
+  rejected_call_to_offensive_war: "Відхилено заклик до наступальної війни"
+  contributed_in_war: "Участь в одній з моїх воєн"
+  peasant_revolt_opinion0: $vassal_lost_or_wp_faction_revolt_war$"""
+  peasant_revolt_opinion: "$vassal_lost_or_wp_faction_revolt_war$"
+  warmonger_opinion: "Warmonger"
+
+  #Restored the key to fix TIT-27735
+  vassal_lost_or_wp_faction_revolt_war: "Бунт проти мене"

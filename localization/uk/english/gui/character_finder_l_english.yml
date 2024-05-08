@@ -1,0 +1,5 @@
+﻿l_english:
+  CHARACTER_FINDER_COUNT: "Персонажі: [Select_CString( LessThan_int32( CharacterSelectionList.NumberOfShownCharacters, CharacterSelectionList.GetTotalNumber ), '#W', '#dark' )] [CharacterSelectionList.NumberOfShownCharacters] #!з [CharacterSelectionList.GetTotalNumber]"
+  CHARACTER_FINDER_TITLE: "Пошук персонажів"
+  SORT_MILITARY_STRENGTH: "Військова міць"
+  CHARACTER_FINDER_FILTER_SET: "#T Налаштування деяких фільтрів відрізняються від стандартних#!"

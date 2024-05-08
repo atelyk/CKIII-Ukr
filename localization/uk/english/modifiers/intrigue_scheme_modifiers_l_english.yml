@@ -1,0 +1,42 @@
+﻿l_english:
+  lifestyle_soldier_source_modifier: "Солдат-інформатор"
+  lifestyle_soldier_source_modifier_desc: "Один із солдатів зі столиці цілі охоче ділиться інформацією."
+
+  lifestyle_studied_habits_modifier: "Вивчення звичок"
+  lifestyle_studied_habits_modifier_desc: "Звички цілі вивчені."
+
+  lifestyle_converted_informants_modifier: "Інформатори"
+  lifestyle_converted_informants_modifier_desc: "Інформатори при дворі цілі добувають відомості."
+
+  lifestyle_intercepting_communication_modifier: "Перехоплене листування"
+  lifestyle_intercepting_communication_modifier_desc: "Було прочитано листування цілі."
+
+  lifestyle_intercepted_communication_modifier: "Перехоплене листування"
+  lifestyle_intercepted_communication_modifier_desc: "Листування цілі було перехоплено один раз."
+
+  lifestyle_close_to_courtier_modifier: "Близькі відносини з придворним"
+  lifestyle_close_to_courtier_modifier_desc: "Якщо я зближусь із придворним моєї жертви, я зможу ближче підібратися до своєї цілі"
+
+  intrigue_scheme_mapped_surroundings_modifier: "Околиці на мапі"
+  intrigue_scheme_mapped_surroundings_modifier_desc: "Шляхи наступу та відступу були ретельно нанесені на мапу."
+
+  intrigue_scheme_tattletale_modifier: "Пліткар"
+  intrigue_scheme_tattletale_modifier_desc: "Дехто не вміє тримати язик на припоні."
+
+  intrigue_scheme_in_a_hurry_modifier: "Поспіх"
+  intrigue_scheme_in_a_hurry_modifier_desc: "Немає часу, ми повинні діяти #EMP зараз#!."
+
+  intrigue_scheme_no_contact_modifier: "Мінімальні контакти"
+  intrigue_scheme_no_contact_modifier_desc: "Контакти були зведені до мінімуму, щоб уникнути розкриття."
+
+  intrigue_scheme_involved_modifier: "Зацікавлення"
+  intrigue_scheme_involved_modifier_desc: "Зацікавленість інтригана ціллю загальновідома."
+
+  intrigue_scheme_messenger_pigeon_modifier: "Поштовий голуб"
+  intrigue_scheme_messenger_pigeon_modifier_desc: "Навчений поштовий голуб готовий доставити таємні послання."
+
+  intrigue_scheme_secret_code_modifier: "Secret Multi-Language Code"
+  intrigue_scheme_secret_code_modifier_desc: "A complex code consisting of many languages has been created specfically for this scheme."
+
+  intrigue_scheme_personally_translating_letters_modifier: "Personally Translating Letters"
+  intrigue_scheme_personally_translating_letters_modifier_desc: "Letters intercepted in this scheme are being personally translated by the scheme plotter."

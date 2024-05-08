@@ -1,0 +1,48 @@
+﻿l_english:
+  yearly_0001_improved_diplomacy: "Бере уроки етикету"
+  yearly_0001_improved_martial: "Бере уроки стратегії"
+  yearly_0001_improved_stewardship: "Бере фінансові уроки"
+  yearly_0001_improved_intrigue: "Бере уроки інтриг"
+  yearly_0001_improved_learning: "Бере уроки теології"
+  yearly_0003_protected_by_liege: "Під захистом сюзерена"
+  yearly_0003_protected_by_liege_desc: "Сюзерен цього персонажа активно захищає його від шпигунів та підступів."
+  vassal_distrust_modifier: "Недовіра до васалів"
+  vassal_distrust_modifier_desc: "Цей сюзерен показав, що дуже сумнівається у вірності своїх васалів.\n[laws|E] держави: #N на 10%#! дорожче"
+  protected_vassals_honor_modifier: "Захист честі васала"
+  protected_vassals_honor_modifier_desc: "Цей правитель виступив за честь свого васала під час конфлікту"
+  liege_looking_away_modifier: "Сюзерен дивиться в бік"
+  liege_looking_away_modifier_desc: "Сюзерен цього персонажа радо пробачить все, крім вже зовсім серйозних проступків"
+  yearly_benevolent_forgiveness_modifier: "Добродіяння"
+  yearly_benevolent_forgiveness_modifier_desc: "Цей персонаж добре обійшовся зі своїм васалом і тепер хоче, щоб усі про це пам'ятали.\n[laws|E] держави: на #N 10%#! дешевше"
+  yearly_close_watch_modifier: "Пильне стеження"
+  yearly_close_watch_modifier_desc: "Цей персонаж перебуває під пильним наглядом\nНе може приєднуватися до [Concept( 'factions', 'фракцій' )|E] або створювати їх"
+  yearly_improved_impressions_modifier: "Покращене враження"
+  yearly_improved_impressions_modifier_desc: "Цей персонаж витрачає додаткові зусилля, щоб справити перше враження"
+  yearly_pious_liege_modifier: "Благочестивий сюзерен"
+  yearly_pious_liege_modifier_desc: "Релігійні васали можуть розраховувати, що цей сюзерен буде чинити відповідно до релігійного вчення"
+  yearly_befriending_fellow_vassals_modifier: "Дружба з іншими васалами"
+  yearly_befriending_fellow_vassals_modifier_desc: "Цей персонаж намагається вибудувати стосунки з іншими васалами свого сюзерена"
+
+  yearly_reduced_theocracy_tax_modifier: "Знижений податок на теократії"
+  yearly_reduced_theocracy_levies_modifier: "Молитва за мир"
+
+  yearly_0011_friends_in_high_places: "Друзі у верхах"
+  yearly_0011_friends_in_high_places_desc: "Цьому персонажу вдалося завести друзів у правлячих колах..."
+
+  cagots_separated_modifier: "Каготи відокремлені"
+  cagots_separated_modifier_desc: "Їх відселили в окремі каготерії, подалі від решти людей."
+
+  cagots_left_in_peace_modifier: "Каготів лишили у спокої"
+  cagots_left_in_peace_modifier_desc: "Решта населення впевнена, що вирішувати питання з каготами потрібно було рішучіше..."
+
+  lunatic_accepting_of_others_modifier: "Уява, що розігралася"
+  lunatic_accepting_of_others_modifier_desc: "Персонаж мріє про світ, де всі живуть у спокої."
+
+  all_work_no_play_persian_modifier: "Працюй без відпочинку"
+
+  poisonous_plants: "Cultivating Poisonous Plants"
+  poisonous_plants_desc: "This character is culvating a wide range of plants, some would appear poisonous..."
+  impressive_flowers: "Cultivating Impressive Flowers"
+  impressive_flowers_desc: "This character is cultivating a multitude of colorful and impressive flowers."
+  useful_herbs: "Cultivating Medicinal Herbs"
+  useful_herbs_desc: "This character is cultivating various different medicinal herbs. They are sure to come in handy."

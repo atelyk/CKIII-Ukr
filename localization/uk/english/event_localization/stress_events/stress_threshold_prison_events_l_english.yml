@@ -1,0 +1,78 @@
+﻿l_english:
+  # Level 1 Stress Events
+  stress_threshold_prison.1001.t: "Нервовий зрив: тюремні проблеми"
+  stress_threshold_prison.1001.desc: "Перебуваючи у в'язниці, у відриві від усього, що було дорого та любо у житті..."
+  stress_threshold_prison.1001.desc.normal: "важко не впасти до відчаю."
+  stress_threshold_prison.1001.desc.cynical: "\n\nЯк [ROOT.Char.GetFaith.HighGodName]... та як взагалі будь-які боги допускають існування цієї безодні відчаю?"
+  stress_threshold_prison.1001.desc.depressed: "Раніше це мучило мене. Тепер мені стало байдуже."
+  stress_threshold_prison.1001.inappetetic.gain: "Мене вже нудить від тюремної баланди."
+  stress_threshold_prison.1001.inappetetic.effect: "Їжа в моїй мисці залишається недоторканою."
+  stress_threshold_prison.1001.cynical.gain: "[ROOT.Char.GetFaith.HighGodName], де ти? Поглянь на мене!"
+  stress_threshold_prison.1001.cynical.effect: "Ось і доказ, що [ROOT.Char.GetFaith.HighGodName] — фальшивка!"
+  stress_threshold_prison.1001.endure: "Чому мене ще не відпустили?"
+  stress_threshold_prison.1001.depressed.gain: "Який сенс так жити?"
+  stress_threshold_prison.1001.depressed.effect: "Болю немає. В мені давно не лишилося живого."
+  stress_threshold_prison.1011.t: "Нервовий зрив: голод не тітка"
+  stress_threshold_prison.1011.desc: "Вже кілька днів мені не вдається змусити себе поїсти. Мій неспокійний розум відмовляється дати тілу сили і відкидає огидне місиво, яке мені приносять охоронці.\n\nЯ слабшаю з кожним днем, але що я можу вдіяти проти власного тіла?"
+  stress_threshold_prison.1011.a: "Голод краще, ніж ці помиї."
+  stress_threshold_prison.1011.b: "Тут #EMP є#! інші джерела їжі..."
+  stress_threshold_prison.1011.c: "[ROOT.Char.GetSheHe|U] може боротися з цим — потихеньку, по ложечці!"
+
+  stress_threshold_prison.1012.t: "Час годівлі"
+  stress_threshold_prison.1012.desc: "Вони думають, що тут нема чого їсти, що вони вморять мене голодом, зламають мене.\n\nВони не знають, що мені тут краще, ніж будь-коли. Це бенкетний зал, повний смачної їжі."
+  stress_threshold_prison.1012.a: "Теплиї, соковитої — та живої."
+
+  stress_threshold_prison.1021.t: "Нервовий зрив: жорстокі ігри"
+  stress_threshold_prison.1021.desc: "Тут, у темряві підземелля, не так вже й багато розваг. Калюжка затхлої води, смердюче відро, дрібні камінці...\n\n[fellow_prisoner.GetTitledFirstName] в камері навпроти являє собою чудову мішень."
+  stress_threshold_prison.1021.a: "Десять очок, якщо я влучу [SCOPE.sC('fellow_prisoner').GetHerHim] в голову!"
+  stress_threshold_prison.1021.b: "Біль оточуючих мені байдужий. А ось мій біль..."
+  stress_threshold_prison.1021.c: "Як мені тільки спали на думку такі похмурі думки?!"
+
+  stress_threshold_prison.1031.t: "Нервовий зрив: влада в моїх руках"
+  stress_threshold_prison.1031.desc: "Передбачалося, що ув'язнення послабить і приборкає мене. Ха!\n\nТут, у темряві, я збираю сили і міццю одного тільки розуму рву ворогів на частини! Знову і знову, щодня вони відроджуються, і щодня я їх знищую, неначе гидких гризунів! І мого підлого тюремника серед перших... О-о, [jailer.GetTitledFirstName], як же ти страждатимеш!"
+  stress_threshold_prison.1031.a: "Коли я виберусь... О, вони #EMP заплатять#!!"
+  stress_threshold_prison.1031.b: "Навіщо чекати? У моєму розумі вони цілком у моїх руках..."
+  stress_threshold_prison.1031.c: "Ні... це неправильно. Я вищий за це."
+
+  stress_threshold_prison.1041.t: "Нервовий зрив: забуті потреби"
+  stress_threshold_prison.1041.desc: "Мій розпорядок ніколи не змінюється, ранок змінюється днем, а день — ніччю...\n\nУ моїх покоях стоїть важкий сморід зіпсованої їжі. Коли гора тарілок встигла стати такою високою? Скільки прийомів їжі було пропущено? Стає все важче зберігати почуття реальності..."
+  stress_threshold_prison.1041.depressed: "Важко навіть згадати, навіщо мені це взагалі потрібно."
+  stress_threshold_prison.1041.inappetetic: "Навіщо мені їжа, якщо немає свободи?"
+  stress_threshold_prison.1041.flagellant: "Біль дозволяє мені зосередитись."
+  stress_threshold_prison.1041.journaller.gain: "Можливо, записи внесуть різноманітність..."
+  stress_threshold_prison.1041.journaller.effect: "Добре, що в мене є хоча б мій щоденник."
+  stress_threshold_prison.1041.athletic: "Можливо, я під замком, але я все одно можу робити вправи..."
+  stress_threshold_prison.1041.optout: "Я виберуся звідси з часом... правда ж?"
+
+  # Level 2 Stress Events
+  stress_threshold_prison.2001.t: "Нервовий зрив: дряпаючи стіни"
+  stress_threshold_prison.2001.desc: "Чому вони не #EMP випустять мене#!?! Я тут так давно, у цьому темному, холодному, #EMP тісному#! підземеллі!\n\nЯ притискаю закривавлені руки до грудей, сидячи посеред камери. Якщо дряпати досить довго і вперто, камінь повинен піддатися, точно?... Правда ж?"
+  stress_threshold_prison.2001.a: "Не можна здаватись!"
+  stress_threshold_prison.2001.b: "А, забудь. Навіщо турбувати себе... чимось?"
+
+  stress_threshold_prison.2011.t: "Нервовий зрив: я та [ROOT.Char.Custom('prison_pet')|U]"
+  stress_threshold_prison.2011.desc_rat: "Багато днів один і той же щур відвідує мою камеру. Ця тварюка дивиться на мене зі співчуттям і довірою, яких мені так не вистачало."
+  stress_threshold_prison.2011.desc_stone: "Мій споконвічний супутник, елемент сталості в житті, що решті встала з ніг на голову. Мій вірний камінь — мій довірений товариш і друг, він завжди поруч, коли потрібен."
+  stress_threshold_prison.2011.desc_spoon: "Одна з небагатьох постійних речей у темних підземеллях, одне з небагатьох джерел затишку, співрозмовниця свого роду... Моя ложка завжди поруч — і не засуджує мене навіть у найпохмуріші дні."
+  stress_threshold_prison.2011.desc_cockroach: "І він знову тут, тарган, що зазвичай сидить в одному з найтемніших кутів камери. Мій товариш, мій вірний друг, мій син. Наглядає за мною і складає мені компанію в цьому безрадісному місці."
+  stress_threshold_prison.2011.desc_end: "\n\nНіколи у мене не виникало такого тісного зв'язку з іншою істотою, ніхто раніше не був мені настільки відданий, ніхто не розумів мене так тонко."
+  stress_threshold_prison.2011.a: "Йди сюди, [ROOT.Char.Custom('prison_pet')], йди на ручки."
+
+  stress_threshold_prison.2021.t: "Нервовий зрив: Найтемніші кути"
+  stress_threshold_prison.2021.desc: "Вартові кажуть, що багато днів тримали мене на самоті, але я знаю, що це не так! Я #EMP відчуваю#!, як вони спостерігають за мною, провокують мене, шукають мої слабкості та страхи.\n\nКожен звук говорить мені, що вони поряд, що вони небезпечні."
+  stress_threshold_prison.2021.a: "Не можна послаблювати пильність!"
+  stress_threshold_prison.2021.b: "Мені треба десь сховатися... де завгодно!"
+  stress_threshold_prison.2021.c: "Можливо, я можу поговорити з ними?"
+
+  # Level 3 Stress Events
+  stress_threshold_prison.3001.t: "Нервовий зрив: друг пізнається у біді"
+  stress_threshold_prison.3001.desc: "Що мені ніколи не говорили про підземелля, так це те, що в них #EMP страшенно нудно#!! Хвала вищим силам — мені складає компанію [fictional_friend.Custom('DuchessDuke')] [fictional_friend.Custom('RandomExampleName')]!\n\n[fictional_friend.Custom('DuchessDuke')|U] вміє жартувати, як ніхто інший, і постійно підбадьорює мене. А ще [fictional_friend.GetSheHe] вельми [Select_CString(fictional_friend.IsFemale, 'мудра', 'мудрий' )]. Що, [fictional_friend.Custom('DuchessDuke')], вибачте?! Ха, непогано!"
+  stress_threshold_prison.3001.a: "Йди сюди, старий."
+
+  stress_threshold_prison.3011.t: "Нервовий зрив: справжня сім'я"
+  stress_threshold_prison.3011.desc: "Моє безнадійне ув'язнення стало набагато приємнішим в останні дні. Моя сім'я тут і захищає мене. Мати і батько міцно обіймають мене, брати і сестри доглядають мене, а діти, мої численні діти, збираються навколо, підбадьорюючи мене."
+  stress_threshold_prison.3011.a: "Як мені могло здатися, що мене все покинули?"
+
+  stress_threshold_prison.3999.t: "Нервовий зрив: свобода"
+  stress_threshold_prison.3999.desc: "Я більше не витримаю. Вперше за ці тижні мій розум прояснився, і стало ясно, що мене зламали безліччю способів..\n\nТіло —суцільна грудка болю, боляче навіть дихати. Навколишня темрява більше не стискає, але заспокоює. Вітає.\n\nСерцем я розумію, що це мої останні подихи."
+  stress_threshold_prison.3999.a: "Хай прийме мене [ROOT.Char.GetFaith.PositiveAfterLife]."

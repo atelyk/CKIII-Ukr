@@ -1,0 +1,390 @@
+﻿l_english:
+  activity_pilgrimage: "Паломництво"
+  activity_pilgrimage_owner: "Паломник"
+  activity_pilgrimage_name: "Паломництво"
+  pilgrimage_header: "[ROOT.Char.Custom('PilgrimageHeader')]"
+  very_long_pilgrimage_tt: "#V Надзвичайно довге#! паломництво"
+  long_pilgrimage_tt: "#V Дуже довге#! паломництво"
+  medium_pilgrimage_tt: "#V Довге#! паломництво"
+  short_pilgrimage_tt: "#V Коротке#! паломництво"
+  pilgrimage_other_selections_available_tt: "Я можу оглянути інші святі місця"
+  pilgrimage_because_i_have_armed_pilgrimages: "Тому що [core_tenet|El] вашої [faiths|El] - [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]:"
+  pilgrimage_because_i_have_tenet_mendicant_preachers: "Тому що [core_tenet|El] вашої [faiths|El] — [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]:"
+  pilgrimage_because_i_have_tenet_pentarchy: "Тому що [core_tenet|El] вашої [faiths|El] — [GetFaithDoctrine('tenet_pentarchy').GetBaseName]:"
+  pilgrimage_because_i_have_tenet_esotericism: "Тому що [core_tenet|El] вашої [faiths|El] — [GetFaithDoctrine('tenet_esotericism').GetBaseName]:"
+  pilgrimage_because_i_have_tenet_struggle_submission: "Тому що [core_tenet|El] вашої [faiths|El] — [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]:"
+  pilgrimage_because_i_have_tenet_ancestor_worship: "Тому що [core_tenet|El] вашої [faiths|El] — [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]:"
+  pilgrimage_learn_from_the_bishops: "Спроба зрозуміти святих вчителів"
+  pilgrimage_learn_from_the_bishops_success: "Ви вбираєте знання"
+  pilgrimage_learn_from_the_bishops_failure: "Знання все ще вислизають від вас"
+
+  pilgrimage_return_home: "Я повертаюся додому. Зустрічай, [start_location.GetNameNoTier]"
+
+  # Generic Pilgrimage Start Events
+
+  pilgrimage.0001.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]не паломництво"
+  pilgrimage.0001.desc: "Настав час вирушити в дорогу до одного з священних місць. От тільки до якого?"
+  pilgrimage.0001.a: "Нехай це буде [holy_site_1.GetNameNoTierNoTooltip]."
+  pilgrimage.0001.b: "[ROOT.Char.GetFaith.HouseOfWorshipPlural|U] у священному місці [holy_site_2.GetNameNoTierNoTooltip]."
+  pilgrimage.0001.c: "Вирішено! [holy_site_3.GetNameNoTierNoTooltip]!"
+  pilgrimage.0001.d: "Може, ще кудись..."
+  pilgrimage.0001.e: "Втім, якщо добре подумати, ще не час."
+  pilgrimage.0002.a: "Нехай це буде [holy_site_4.GetNameNoTierNoTooltip]."
+  pilgrimage.0002.b: "[ROOT.Char.GetFaith.HouseOfWorshipPlural] у священному місці [holy_site_5.GetNameNoTierNoTooltip]."
+  pilgrimage.0002.c: "Вирішено! [holy_site_6.GetNameNoTierNoTooltip]!"
+  pilgrimage.0003.a: "Нехай це буде [holy_site_7.GetNameNoTierNoTooltip]."
+  pilgrimage.0003.b: "[ROOT.Char.GetFaith.HouseOfWorshipPlural] у священному місці [holy_site_8.GetNameNoTierNoTooltip]."
+  pilgrimage.0003.c: "Наша мета — [holy_site_9.GetNameNoTierNoTooltip]!"
+
+  pilgrimage.1001.t: "$pilgrimage_header$ Відправлення"
+  pilgrimage.1001.desc.opening: "Я готуюся до далекої дороги, знаючи, що вона буде безпечною: [ROOT.Char.GetFaith.PantheonTerm] захистить мене."
+  pilgrimage.1001.desc.short: "\n\nВідсутнім я буду недовго, але молюся, щоб у цей час з державою все було добре."
+  pilgrimage.1001.desc.medium: "\n\nНеважливо, як довго мене не буде: державі доведеться почекати, адже мене закликає [ROOT.Char.GetFaith.HighGodNameAlternate]."
+  pilgrimage.1001.desc.long: "\n\nМоя мета далеко від дому, але коли кличе [ROOT.Char.GetFaith.DivineRealm], навіть державі доведеться почекати."
+  pilgrimage.1001.desc.very_long: "\n\nМене не буде довгий час, і мені залишається лише молитися: нехай не залишить [ROOT.Char.GetFaith.HighGodNameAlternate] мою державу."
+  pilgrimage.1001.a: "Час у дорогу."
+
+  # Generic Pilgrimage Journey Events
+
+  pilgrimage.2001.t: "$pilgrimage_header$ Розбійники!"
+  pilgrimage.2001.desc: "Мене будить страшна метушня. Я вмить розумію, що відбувається.\n\nНа табір напали!\n\nРозбійники обліпили візки, і сторожі залишається лише щосили захищатися."
+  pilgrimage.2001.a: "Де мій меч? Я прожену цих собак!"
+  pilgrimage.2001.a.success: "Розбійників вдалося прогнати"
+  pilgrimage.2001.a.success_title: "Розбійників прогнали"
+  pilgrimage.2001.a.failure: "Мене поранили у бою"
+  pilgrimage.2001.a.failure_title: "Поранення у бою!"
+  pilgrimage.2001.b: "Повинно ж тут бути хоч якесь укриття!"
+  pilgrimage.2001.b.success: "Я ховаюся під возом"
+  pilgrimage.2001.b.success_tt: "Мені вдалося вціліти"
+  pilgrimage.2001.b.success_title: "У цілості та безпеці"
+  pilgrimage.2001.b.failure: "Розбійники підпалюють візок"
+  pilgrimage.2001.b.failure_title: "Віз горить!"
+  pilgrimage.2001.c: "«Припиніть цей хаос! Я заплачу, скільки скажете!»"
+
+  pilgrimage.2002.t: "$pilgrimage_header$ Полюби ближнього свого"
+  pilgrimage.2002.desc: "У нашій групі паломників [Select_CString(dummy_gender.IsFemale, 'одна', 'один' )] [dummy_gender.GetWomanMan] постійно твердить про співчуття і братерство — поки розмова не заходить про язичників.\n\nЯкось увечері, біля вогнища, [dummy_gender.GetSheHe] на повний голос заявляє, що «[ROOT.Char.GetFaith.PantheonTerm] бачить їхню порочну сутність! Збоченці та дітовбивці!» Коли [dummy_gender.GetSheHe] обводить присутніх поглядом, усі намагаються скоріше відвести погляд. Сьогодні мені не вдалося зробити це досить швидко. «Хіба ні, о [ROOT.Char.GetTitleAsNameNoTooltip]?»"
+  pilgrimage.2002.a: "Не #EMP всі#! же вони такі жахливі."
+  pilgrimage.2002.b: "Саме так! І будь-хто, хто намагається їх захистити, не заслуговує на довіру!"
+  pilgrimage.2002.c: "Істинно так! [ROOT.Char.GetFaith.HighGodName] не може вічно зносити їх зневажання!"
+
+  pilgrimage.2003.t: "$pilgrimage_header$ Втрата товаришів"
+  pilgrimage.2003.desc: "За минулі тижні наше братерство поступово зменшувалося. Хтось пройшов, скільки зміг, перш ніж потреба змусила їх повернутися додому, доля інших була сумніша.\n\nНайбільше мене турбує, що моя особиста охорона тане з страшною швидкістю. Вже цього достатньо, щоби зрозуміти: шлях буде нелегким."
+  pilgrimage.2003.a: "Мабуть, місцеві виглядають досить суворо, аби поповнити ними охорону."
+  pilgrimage.2003.b: "[ROOT.Char.GetFaith.PantheonTerm] збереже мене, іншого захисту і не потрібно."
+
+  pilgrimage.2004.t: "$pilgrimage_header$ Раптова зустріч"
+  pilgrimage.2004.desc: "Чим ближче стає [destination_title.GetNameNoTierNoTooltip], тим більше я зустрічаю інших паломників з різних країв.\n\nОдин впізнає мене здалеку: «[ROOT.Char.GetTitledFirstNameNoTooltip]?! Це ти?!»\n\nТа це ж [potential_friend.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
+  pilgrimage.2004.a: "Хай благословить [ROOT.Char.GetFaith.PantheonTerm] нашу зустріч!"
+  pilgrimage.2004.b: "Чудова зустріч, але мені треба помолитися на самоті."
+
+  pilgrimage.2005.t: "$pilgrimage_header$ Грубість"
+  pilgrimage.2005.desc: "Я проходжу повз багаття і чую, як один із моїх супутників переказує почуту десь історію. Її головний герой — [ROOT.Char.GetTitleAsNameNoTooltip], і слухачі раз-пораз розриваються оглушливим реготом. Втім, всі смішки стихають при моєму наближенні - замовкнути не встигає тільки [Select_CString(dummy_peasant_gender.IsFemale, 'сама оповідачка', 'сам оповідач' )].\n\n«А, не хвилюйтеся, ми [ROOT.Char.GetLadyLord], ви вже точно не [ROOT.Char.Custom('InsultNoun')] з мого оповідання! Там же [ROOT.Char.GetTitleAsNameNoTooltip] з якогось далекого місця під назвою [title.GetNameNoTierNoTooltip]»."
+  pilgrimage.2005.desc_close: "It's about the [ROOT.Char.GetTitleAsNameNoTooltip] of these lands.""
+  pilgrimage.2005.desc_far0: It's about the [ROOT.Char.GetTitleAsNameNoTooltip] of some far away place called [title.GetNameNoTierNoTooltip]."""""
+  pilgrimage.2005.a: "«Та що ти? Розкажи, що за [ROOT.Char.GetTitleAsNameNoTooltip]»."
+  pilgrimage.2005.a.flavor: "Я сідаю біля вогнища."
+  pilgrimage.2005.b: """Охорона, подати мені батіг""."
+  pilgrimage.2005.c: "Мабуть, настав час мені підшукати інших супутників."
+
+  pilgrimage.2006.t: "$pilgrimage_header$ Ми збилися зі шляху!"
+  pilgrimage.2006.desc: "Я можу присягнутися, що напрямок був вірним!\n\nНікому з моїх супутників - і мені навіть - не вдалося повернутися на паломницький тракт. Може, зірки змінилися? Здається, ми блукаємо вже кілька тижнів."
+  pilgrimage.2006.a: "Потрібно за всяку ціну знайти провідника."
+  pilgrimage.2006.b: "Клянусь, нам залишилося пройти зовсім трохи..."
+
+  pilgrimage.2007.t: "$pilgrimage_header$ Роздуми"
+  pilgrimage.2007.desc: "Глибокої ночі, далеко від усього, я іноді розмірковую, дивлячись на зірки. Чи бачить мене [ROOT.Char.GetFaith.PantheonTerm], коли я так далеко від дому?\n\nНавіщо я роблю це?"
+  pilgrimage.2007.a: "[ROOT.Char.GetFaith.PantheonTerm|U] закликає мене!"
+  pilgrimage.2007.b: "Чого я по-справжньому хочу, то це побачити інші землі."
+  pilgrimage.2007.c: "Винятково задля пристойності."
+
+  pilgrimage.2008.t: "$pilgrimage_header$ Хвороба"
+  pilgrimage.2008.desc: "Схоже, подорожі не пішли мені на користь. Можливо, всьому виною повітря чужих земель — чи хутра не досить мене зігрівають?\n\nЯк би там не було, кашель не відпускає мене кілька тижнів, а цього ранку мені ледве вдалося встати з ліжка. Чи вистачить мені сил продовжити шлях?"
+  pilgrimage.2008.a: "Зараз не час здаватися!"
+  pilgrimage.2008.a.tt: "[GetTrait('ill').GetName( GetPlayer )] та подорожі — небезпечне поєднання"
+  pilgrimage.2008.b: "Я так більше не можу."
+  pilgrimage.2008.whole_of_body: "Та хіба це кашель? Скоро пройде."
+
+  pilgrimage.2009.t: "$pilgrimage_header$ Надсадний кашель"
+  pilgrimage.2009.desc: "Подорож не йде мені на користь. Бачить [ROOT.Char.GetFaith.PantheonTerm], на благословенному шляху моє здоров'я зовсім не покращується. Навпаки, з кожним днем я почуваюся дедалі гірше. Вже й не пам'ятаю, як це вільно дихати."
+  pilgrimage.2009.a: "Я пройду цей шлях до кінця. Нехай [ROOT.Char.GetFaith.HighGodNameAlternate] змилується наді мною."
+  pilgrimage.2009.b: "[ROOT.Char.GetFaith.HighGodNamePossessive] явно наказує мені повернутися."
+
+  # Meet a mystic
+  pilgrimage.2010.t: "$pilgrimage_header$ Містик"
+  pilgrimage.2010.desc: "[mystic.GetTitledFirstName] — один із найдивніших людей, що зустрілися мені на шляху. [mystic.GetSheHe|U], як здається, щиро вірить, але при цьому постійно натякає, що [ROOT.Char.GetFaith.HighGodName] - щось більше, ніж нам здається, і веде докладні промови про природу божественного. Вночі з [mystic.GetHerHis] намету пробивається світло безлічі свічок, долинає дивний спів і тягнуться незвичайні аромати.\n\nІ раптом [mystic.GetFirstNameNoTooltip] кличе мене всередину. Дуже несподівано."
+  pilgrimage.2010.a: "Цікаво..."
+  pilgrimage.2010.a.tt: "Ви заходите до намету"
+  pilgrimage.2010.b: "Ні, дякую, тут пахне бісовщиною!"
+
+  pilgrimage.2011.desc: "Намет, де живе [mystic.GetTitledFirstNamePossessive], зустрічає мене сильними запахами та неймовірною задухою. «Дуже важливо зазирнути в себе», — пояснює [mystic.GetSheHe] і сідає. \n\n«Заплющ очі і зосередься, як я. Нехай [ROOT.Char.GetFaith.PantheonTerm] тече крізь тебе. Відчуй священний екстаз!»"
+  pilgrimage.2011.a: "Так! [ROOT.Char.GetFaith.HighGodNameAlternate] торкається мене!"
+  pilgrimage.2011.a.tt: "Ви відчули священний екстаз"
+  pilgrimage.2011.b: "Тут так тихо, так зручно... Я можу просто заснути..."
+  pilgrimage.2011.b.tt: "Ви прекрасно подрімали"
+  pilgrimage.2011.c: "Слухай, а яким боком тут [ROOT.Char.GetFaith.HighGodName]?"
+  pilgrimage.2011.c.tt: "Ви вступаєте з містиком у суперечку"
+
+  pilgrimage.2012.desc: "Не можу з упевненістю сказати, що сталося у наметі містика. У пам'яті залишилися лише розпливчасті картини і загальне відчуття сп'яніння.\n\nЯ навіть не знаю, чи [Select_CString(mystic.IsFemale, 'існувала', 'існував')] [mystic.GetSheHe] насправді..."
+  pilgrimage.2012.a: "У [Select_CString(mystic.IsFemale, 'неї', 'нього')] було чимало дивних ідей."
+
+  pilgrimage.2013.desc: "Я виконую все, що [Select_CString(mystic.IsFemale, 'порадила', 'порадив')] [mystic.GetTitledFirstNamePossessive], і мій розум прояснюється. Я це #EMP відчуваю#!. [ROOT.Char.GetFaith.PantheonTerm|U], світ - все це всередині мене. В моїй душі.\n\nЧерез кілька годин я виходжу з намету, відчуваючи, що краще розумію життя і себе."
+  pilgrimage.2013.a: "Пелена спала з моїх очей."
+
+  pilgrimage.2014.desc: "Слуги будять мене від довгого сну. Ніякого шатра немає, я лежу на якомусь килимку, а [mystic.GetTitledFirstNamePossessive] безслідно [Select_CString(mystic.IsFemale, 'зникла', 'зник')].\n\nЩо ж принаймні сон надав мені сил!"
+  pilgrimage.2014.a: "Але чому в мене так полегшав гаманець?"
+
+  pilgrimage.2015.desc: "Правду кажучи, у мене і в думках не було, що [mystic.GetTitledFirstName] переконає мене в користі своїх дивних ритуалів, але [mystic.GetSheHe] це [Select_CString(mystic.IsFemale, 'зробила', 'зробив')]. \n\nЯ все ще з недовірою ставлюся до його... витівок, але тепер у мене з'явилися нові теми для роздумів!"
+  pilgrimage.2015.a: "Як #EMP може#! [ROOT.Char.GetFaith.PantheonTerm] стати ближче?"
+
+  pilgrimage.2101.t: "$pilgrimage_header$ A Desire for Intimacy"
+  pilgrimage.2101.desc: "How long has it been since I last felt the warmth of another person against my skin? This pilgrimage has taken me far away from my home, as well as my comforts.\n\nOh, how I yearn for the desires of flesh, for a lover's embrace and their screams of pleasures as we guide each other to reach a climatic ecstasy. These fantasies won't stop flooding my mind, and I feel myself tempted to give in to my desires so that I can focus."
+  pilgrimage.2101.desc.lust_vice: "\n\n[ROOT.Char.GetFaith.HighGodName], I know this feeling is sin! Why must you test me so harshly? Is my pilgrimage not enough to prove my devotion?"
+  pilgrimage.2101.desc.lust_virtue: "\n\nSurely this must be part of [ROOT.Char.GetFaith.HighGodNamePossessive] trials! Can I remain virtuous without falling victim to possible enemies of the faith while on pilgrimage?"
+  pilgrimage.2101.desc.lust_neutral: "This niggling feeling is an annoyance I must rid myself of! But of course, it's not without risk. These are different lands than my home, and I may be taken advantage of in this moment of weakness."
+  pilgrimage.2101.a: "Just one night of comfort..."
+  pilgrimage.2101.b: "Why limit myself to one brothel? Let's visit as many as we can!"
+  pilgrimage.2101.c: "I must stay strong and focus on my pilgrimage!"
+
+  # 'Temptation/Virtue' Journey Events
+  pilgrimage.2501.t: "$pilgrimage_header$ Горе та злидні"
+  pilgrimage.2501.desc.opening: "Наш шлях лежить через маленьке містечко. Несподівано хтось хапає мене за одяг знизу. Я опускаю погляд і бачу [Select_CString(beggar.IsFemale, 'худу голодранку, яка', 'худого голодранця, який' )] не зводить з мене благаючих очей.\n\n«О великий пане, благаю, киньте пару монет! Я помираю з голоду, а місцеві не хочуть мені допомагати»."
+  pilgrimage.2501.desc.virtue.generous: "\n\nЩедрість то не моє, але паломництво пробуджує в душі якісь нові почуття. Мабуть, всі гідні [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] повинні виявляти милосердя..."
+  pilgrimage.2501.desc.virtue.compassionate: "\n\n[beggar.GetHerHis|U] благання мене не хвилюють, але паломництво пробуджує в душі якісь нові почуття. Мабуть, всі гідні [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] повинні виявляти співчуття..."
+  pilgrimage.2501.desc.sin.generous: "\n\nНезважаючи на жалюгідний вигляд бідолахи, я пам'ятаю, що [ROOT.Char.GetFaith.PantheonTerm] вважає милостиню смертельним гріхом..."
+  pilgrimage.2501.a.virtue: "Ось тобі монети, і нехай славиться [ROOT.Char.GetFaith.HighGodNamePossessive]..."
+  pilgrimage.2501.a.sin: "Я не можу змусити себе відмовити!"
+  pilgrimage.2501.b: "Ей! Досить клянчити, знайди роботу!"
+  pilgrimage.2501.c.arrogant: "Ти смієш торкатись мого одягу, злидню!?"
+
+  pilgrimage.2502.t: "$pilgrimage.2501.t$"
+  pilgrimage.2502.desc.gave: "«Так! Так, спасибі, [Select_CString(ROOT.Char.IsFemale, 'добра пані', 'добрий чоловіче')], хвала... [ROOT.Char.GetFaith.HighGodName], так? Слава, слава! Але дозволь, [Select_CString(ROOT.Char.IsFemale, 'найщедріша', 'найщедріший')], я попрошу ще про одну послугу?»"
+  pilgrimage.2502.desc.refused: "Ні! Ні, [Select_CString(ROOT.Char.IsFemale, 'добра пані', 'добрий чоловіче')], змилуйся!"
+  pilgrimage.2502.desc.end: "«Моя сестра хвора, без ліків вона помре! Ваші гроші можуть урятувати їй життя! Благаю! Ми будемо вічно вдячні!»"
+  pilgrimage.2502.b: "Ні не можу! Так #EMP не можна#!!"
+  pilgrimage.2502.c.gave: "Ні, годі!"
+  pilgrimage.2502.c.refused: "#EMP Ні#!, кажу! Зникни!"
+
+  pilgrimage.2503.t: "$pilgrimage.2501.t$"
+  pilgrimage.2503.desc: "«Чудово! І нехай вона зцілиться швидше. Але дозвольте попросити ще всього про одну послугу! У сестри є діти, а ви знаєте, як це! Вони такі ненажерливі! Ви не могли б поділитись і їжею?..»"
+  pilgrimage.2503.a: "Гаразд. Добре. Діти не повинні голодувати."
+  pilgrimage.2503.b: "На мою думку, з тебе вистачить."
+
+  pilgrimage.2504.t: "$pilgrimage.2501.t$"
+  pilgrimage.2504.desc: "Дякую, дякую вам, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom('LadyLordWomanMan')]! Я перед вами у вічному неоплатному боргу!!!\n\nНехай славиться вічно [ROOT.Char.GetFaith.HighGodNamePossessive]! Я буду оспівувати [ROOT.Char.GetFaith.HighGodHerHis] щедрість до кінця своїх днів!"
+  pilgrimage.2504.a: "Мені теж дякую, не забувай."
+  pilgrimage.2504.a.flavor: "Ну як тут відмовити?"
+  pilgrimage.2504.b: "У неоплатному боргу, кажеш? Хм..."
+  pilgrimage.2504.c.virtue: "Будь ласка. А тепер йди, благослови тебе [ROOT.Char.GetFaith.HighGodNamePossessive]."
+  pilgrimage.2504.c.sin: "Так, так, тільки... зникни."
+
+  pilgrimage.2511.t: "$pilgrimage_header$ Чим менше - тим задиристіше"
+  pilgrimage.2511.desc.start: "[destination_title.GetNameNoTierNoTooltip] приваблює паломників з усього #L [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]ого#! світу. І в тому, що на шляху мені [Select_CString(lordling.IsFemale, 'зустрілась', 'зустрівся' )] [lordling.Custom2('MyCharacterIntroduction', ROOT.Char)], немає нічого дивного.\n\nА ось [lordling.GetHerHis] манери — це, звичайно, #EMP щось#!! Не вилазячи з сідла, [lordling.GetSheHe] [Select_CString(lordling.IsFemale, 'вклинилась', 'вклинився' )] між мною та свитою та прямо #EMP в обличчя мені#! [Select_CString(lordling.IsFemale, 'заявила', 'заявив' )], що я [ROOT.Char.Custom('InsultNoun')]!"
+  pilgrimage.2511.desc.wrathful: "\n\nКров моя закипає, але я пам'ятаю, що [ROOT.Char.GetFaith.PriestNeuterPlural] закликають нас до смирення та приборкання почуттів."
+  pilgrimage.2511.desc.vengeful: "\n\nУ такі моменти я згадую, що [ROOT.Char.GetFaith.PantheonTerm] наказує нам прощати кривдників."
+  pilgrimage.2511.desc.vengeful.christian: "\n\nУ такі моменти я згадую, що Ісус наказував нам підставляти другу щоку..."
+  pilgrimage.2511.a: "Трясця, я навчу цього невігласа повазі!"
+  pilgrimage.2511.b: "Вдих... видих..."
+  pilgrimage.2511.c: "#EMP Повинен#! бути гідний спосіб впоратися зі злістю."
+
+  # Christian Pilgrimage Journey Events
+
+  pilgrimage.3001.t: "$pilgrimage_header$ Коли [ROOT.Char.GetFaith.WaterGodName] плаче"
+  pilgrimage.3001.desc: "Навіть під час паломництва жерці служать меси в неділю. Коли поблизу немає церков, служба проходить просто неба, але сьогодні з ранку спалахнула буря, і кінця їй не видно.\n\nОднак [ROOT.Char.Custom('DefaultPriestTitle')] з незламною завзятістю стоїть під зливою і читає проповідь про те, як важливо бути стійкими перед негараздами. Незважаючи на це, кількість [zealous_priest.GetHerHis] слухачів неухильно зменшується: сумні адепти біжать від нескінченних потоків води."
+  pilgrimage.3001.a: "Вірний [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] не злякається якогось дощу."
+  pilgrimage.3001.a.tt: "$pilgrimage.2008.a.tt$"
+  pilgrimage.3001.b: "Це божевілля. Я в намет."
+
+  pilgrimage.3002.t: "$pilgrimage_header$ Невинність Адама"
+  pilgrimage.3002.desc: "Загін збирається розбити табір, а я помічаю неподалік великий натовп. Цілковито [Select_CString(naked_preacher.IsFemale, 'гола', 'голий' )] [naked_preacher.GetWomanMan] [Select_CString(naked_preacher.IsFemale, 'забралась', 'забрався' )] на великий камінь і виголошує промову.\n\n«Наші душі досі заплямовані первородним гріхом, друзі мої! Але так не має бути! Скинемо одяг, і втрачена невинність Адама та Єви повернеться до нас... #EMP Тільки#! тоді святість знову торкнеться нас, і ми побачимо справжню божественну любов!»"
+  pilgrimage.3002.a: "[naked_preacher.GetSheHe|U] все правильно каже! Я відчуваю, що [ROOT.Char.GetFaith.HighGodName] близько, як ніколи!"
+  pilgrimage.3002.b: "Єретик! Скиньте [naked_preacher.GetHerHim] звідти!"
+  pilgrimage.3002.c: "Викликати [naked_preacher.GetHerHis] на теологічну суперечку."
+  pilgrimage.3002.c.success: "Ви переконуєте [Select_CString(naked_preacher.IsFemale, 'проповідницю', 'проповідника' )]"
+  pilgrimage.3002.c.failure: "Ви не впоралися з аргументами [Select_CString(naked_preacher.IsFemale, 'проповідниці', 'проповідника' )]"
+  pilgrimage.3002.d: "Продовжити шлях, не звертаючи на [naked_preacher.GetHerHim] уваги."
+
+  pilgrimage.3003.t: "$pilgrimage_header$ Кінець вже близько!"
+  pilgrimage.3003.desc: "Група проходить через маленьке містечко, і я помічаю, що на ринкову площу стікаються люди. У центрі площі на перевернутому візку для риби стоїть [doomsayer.GetWomanMan] і віщає на всю горлянку.\n\n«Наближається Судний день! Покайтесь! Чуєте? Лише покаяння врятує вас від вічного прокляття!»\n\nЗанепокоєні городяни нервово перешіптуються. Слова віщуна їх явно занепокоїли."
+  pilgrimage.3003.a: "«De die autem illa et hora nemo scit!»"
+  pilgrimage.3003.a.flavor: "У Біблії ясно сказано: нікому не дано знати, коли настане цей День!"
+  pilgrimage.3003.b: "Мене, безперечно, тішить, що до паломництва додається відпущення гріхів!"
+  pilgrimage.3003.c: "[Select_CString(doomsayer.IsFemale, 'Ця', 'Цей' )] [doomsayer.GetWomanMan] #EMP не#! [Select_CString(doomsayer.IsFemale, 'священиця', 'священник' )]! Зніміть [doomsayer.GetHerHim] звідти!"
+
+  # Muslim Pilgrimage Journey Events
+  pilgrimage.3101.t: "$pilgrimage_header$ Іхрам"
+  pilgrimage.3101.desc: "Мекка все ближче, і ось я стою перед Мікатом — кордоном, що відокремлює священну територію Мекки від тлінного світу.\n\nТепер мені доведеться пройти обряд очищення, увійти в стан іхраму і одягатися в особливий одяг. Я утримуватимусь від тілесних втіх, лихослів'я, гордині та непристойних думок."
+  pilgrimage.3101.a: "Я підійду до іхраму з усією відповідальністю."
+  pilgrimage.3101.b: "Е-е-е... навіть якщо я трохи оступлюсь, ніхто ж не помітить."
+
+  pilgrimage.3102.t: "$pilgrimage_header$ Зіярат"
+  pilgrimage.3102.desc: "Хадж обов'язковий для всіх мусульман, але інші паломництва поширені значно менше. Доктрини ісламу не вимагають здійснювати зіярат, але у мусульман бувають різні причини, щоб все ж таки вирушити в дорогу.\n\nДорога йде в далечінь, туди, де чекає мене [destination_title.GetNameNoTierNoTooltip]. Я поринаю в роздуми і згадую, що спонукало мене на зіярат..."
+  pilgrimage.3102.a: "Я хочу побачити велич творіння Аллаха у всій красі."
+  pilgrimage.3102.b: "Моє прагнення таке велике, що одним хаджем його не вгамувати."
+  pilgrimage.3102.c: "Моїй тремтячій душі потрібні відповіді, і я сподіваюся знайти їх у далеких краях."
+
+  # Hindu Pilgrimage Journey Events
+  pilgrimage.3201.t: "$pilgrimage_header$ Ритуальне омовіння"
+  pilgrimage.3201.desc: "Обряд очищення - найважливіший елемент будь-якого паломництва індуїстів. Найпоширеніша його форма - омовіння на переправі через священну річку.\n\nТрохи далі по дорозі якраз буде такий брід, але я не можу не помітити, що мілководдя #EMP переповнено#! іншими паломниками — і всі вони простолюдини..."
+  pilgrimage.3201.a: "Поринути у священні води з іншими вірянами."
+  pilgrimage.3201.b: "Увійти в одну воду із #EMP селянами#!? Нізащо!"
+
+  pilgrimage.3202.t: "$pilgrimage_header$ Святість лісу"
+  pilgrimage.3202.desc.hinduism: "Сім священних міст — найсвятіші місця у світі, але дика природа має свою особливу святість."
+  pilgrimage.3202.desc.buddhism0: Гаутама Будда вчив, що будь-яке життя священне. І хоча розумні істоти — вінець творіння, навіть найдрібніша травинка заслуговує на повагу."""
+  pilgrimage.3202.desc.buddhism: "Gautama Buddha taught us that all life is sacred. While sentient beings are the highest form of life, even the smallest blade of grass still deserves respect."
+  pilgrimage.3202.desc.jainism: "Ахімса чи «ненасильство» — один із головних принципів джайнізму. Не можна навіть рвати рослини, якщо це не є життєво необхідним."
+  pilgrimage.3202.desc.nature: "Зарозумілість змушує людину вірити, ніби вона вища за будь-яку природу, але це в корені неправильно. Світ природи є справжньою, найчистішою формою буття."
+  pilgrimage.3202.desc.end: "\n\nПроходячи через просту лісову галявину, я раптом відчуваю небувалий мир і спокій. Дерева та кущі завмерли, насолоджуючись простим життям без вічної метушні та боротьби."
+  pilgrimage.3202.a: "Давайте відпочинемо тут трохи, у єднанні із всесвітом."
+  pilgrimage.3202.a.tt: "Ваше паломництво буде #N відкладено на кілька місяців#!"
+  pilgrimage.3202.b: "Давайте поспішаємо!"
+  pilgrimage.3202.b.tt: "Ви дістанетеся до мети #P на кілька тижнів раніше#!"
+
+  # Buddhist Pilgrimage Journey Events
+  pilgrimage.3301.t: "$pilgrimage_header$ Засудження бгікшу"
+  pilgrimage.3301.desc: "На паломницькому шляху зустрічається безліч мандрівників, які залишили світ і звільнилися від його суєти.\n\nСьогодні за мною ув'язався літній волоцюга, який не зводив очей з моєї свити. «Ти маєш при собі занадто багато. Щоб досягти просвітлення, відкинь, подібно до мене, все мирське і йди вперед, маючи при собі лише простий одяг»."
+  pilgrimage.3301.a: "Я так можу. Принаймні на час подорожі."
+  pilgrimage.3301.b: "А як же мій намет? Мої ковдри? Ні, це занадто. Я так не можу!"
+  pilgrimage.3301.c: "Ох, але рита каже, що [ROOT.Char.GetTitleAsNameNoTooltip] не може вдаватися до аскези в дорозі."
+
+  # Generic Pilgrimage Destination Events
+  # Standard arrival
+  pilgrimage.4001.t: "$pilgrimage_header$ Прибуття"
+  pilgrimage.4001.desc: "Дивні діла твої, [ROOT.Char.GetFaith.PantheonTerm]. Ось я на місці, тілом та душею: [ROOT.Char.GetFaith.HouseOfWorship] височить переді мною у всій своїй пишноті, а навколо — [destination_title.GetNameNoTierNoTooltip].\n\n[ROOT.Char.GetFaith.BishopNeuter|U] благословляє мене, і я згадую, скільки всього сталося за час мого паломництва."
+  pilgrimage.4001.cynical_end: "\n\nБагато ходьби."
+  pilgrimage.4001.a: "Мені вдалося пройти весь священний шлях."
+  pilgrimage.4001.b: "Найважливіше, що мене тут побачать та почують."
+
+  # The Mystic is there!
+  pilgrimage.4002.desc: "І ось я тут, тілом і душею, і мета мого паломництва переді мною. І хто мене зустрічає? Звичайно, [mystic.GetTitledFirstName] — [Select_CString(mystic.IsFemale, 'шукачка', 'шукач' )] священних істин!\n\n«Озирнись, [ROOT.Char.GetFirstNameNoTooltip]! — каже [mystic.GetSheHe]. — Хіба не про цю велич я [Select_CString(mystic.IsFemale, 'казала', 'казав' )]?»"
+  pilgrimage.4002.a: "Воістину так, друже мій!"
+  pilgrimage.4002.b: "Ну... ніби того."
+  pilgrimage.4002.c: "Так, мені подобається те, що я бачу."
+
+  # Specific Pilgrimage Destination Events
+
+  # Christian
+  pilgrimage.5001.t: "$pilgrimage_header$ Всі дороги ведуть до Риму"
+  pilgrimage.5001.desc: "У Рим стікаються паломники з усього християнського світу. Деякі йдуть дорогою франків, інші ж йдуть менш відомими дорогами. Зрештою, всі зустрічаються тут — біля базиліки Святого Петра, де спочив сам апостол.\n\nВ оточенні інших паломників я відчуваю урочистість єднання всіх присутніх, які подолали стільки тягарів та стільки миль важкої дороги, щоб опинитися тут."
+  pilgrimage.5001.a: "$pilgrimage.4001.a$"
+  pilgrimage.5001.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5011.t: "$pilgrimage_header$ О Єрусалиме, Єрусалиме!"
+  pilgrimage.5011.desc.beginning: "Немає у світі міст, чия історія була схожа на історію Єрусалима. У місті чимало священних місць і серед них"
+  pilgrimage.5011.desc.christian0: храм Гробу Господнього, збудований над місцями, де Ісус був розіп'ятий, похований і воскрес."""
+  pilgrimage.5011.desc.christian: "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+  pilgrimage.5011.desc.muslim: "Харам аш-Шаріф, де Мухаммед після закінчення земного життя піднісся на небеса."
+  pilgrimage.5011.desc.jewish: "Храмова гора — Свята святих та місце, де, згідно з пророцтвом, буде збудовано Третій храм."
+  pilgrimage.5011.desc.end: "\n\nЯ стою перед Храмовою горою, поклавши руку на Західний мур, і думаю про все, що трапилося зі мною на шляху до легендарного міста."
+  pilgrimage.5011.a: "$pilgrimage.4001.a$"
+  pilgrimage.5011.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5021.t: "$pilgrimage_header$ Місто всесвітньої мрії!"
+  pilgrimage.5021.desc: "Час настав! Я стою на пагорбі і оглядаю Константинополь — сяючий алмаз цивілізації, відлуння слави Римської імперії. Ось вона, справжня велич!\n\nНеподалік центру я бачу Собор Святої Софії — великий релігійний центр, який часто називають вершиною візантійської архітектури.\n\nІ це не єдине диво — ковзаючи по місту поглядом, я помічаю безліч найдивовижніших речей. Слава тобі, [ROOT.Char.GetFaith.CreatorNamePossessive]."
+  pilgrimage.5021.a: "$pilgrimage.4001.a$"
+  pilgrimage.5021.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5031.t: "$pilgrimage_header$ Александрія"
+  pilgrimage.5031.desc: "Нарешті я в Александрії — колиски християнського чернецтва. Перші ченці та пустельники розпочинали свій шлях у пустельних печерах поруч із містом, які населені й донині.\n\nНехай це місце поступається славою Єрусалиму та Риму, але Олександрія з давніх-давен була центром теології та знань. Навіть після багатовікової ісламської окупації християнські анклави підтримують невгасимий вогонь віри."
+  pilgrimage.5031.a: "$pilgrimage.4001.a$"
+  pilgrimage.5031.b: "$pilgrimage.4001.b$"
+
+  # Jewish
+  pilgrimage.5101.t: "$pilgrimage_header$ Синай та Хорив"
+  pilgrimage.5101.desc: "[ROOT.Char.GetFaith.HighGodName] вперше заговорив з Мойсеєм на вершині гори Синай, прийнявши форму куща, що горить. Пізніше на тій самій горі [ROOT.Char.GetFaith.HighGodNameSheHe|U] віддав пророку Десять заповідей, що лягли в основу авраамічної доктрини.\n\n[ROOT.Char.GetFaith.HighGodName], безперечно, благоволіє цьому місцю. Цікаво, чи дивиться [ROOT.Char.GetFaith.HighGodNameSheHe|U] на мене зараз..."
+  pilgrimage.5101.a: "$pilgrimage.4001.a$"
+  pilgrimage.5101.b: "$pilgrimage.4001.b$"
+
+  # Muslim
+  pilgrimage.5201.t: "$pilgrimage_header$ Гіджра"
+  pilgrimage.5201.desc: "Мухаммед не завжди користувався пошаною, і на зорі мусульманства багато хто відкидав його та його вчення.\n\nДізнавшись, що на нього готується замах, пророк залишив Мекку і відправився в Ятріб, де його з розкритими обіймами зустріла громада мусульман, що зростала. Цей шлях назвали Гіджрою, і в новій обителі Мухаммед об'єднав воюючі племена на славу Аллаха.\n\nПісля цього Ятриб отримав нове ім'я: Медіна, що означалоМісто Пророка"""". І ось я тут, щоб прославити його шлях."""
+  pilgrimage.5201.a: "$pilgrimage.4001.a$"
+  pilgrimage.5201.b: "$pilgrimage.4001.b$"
+
+  # Hindu
+  pilgrimage.5301.t: "$pilgrimage_header$ Варанасі"
+  pilgrimage.5301.desc: "Нарешті я у Варанасі. У давнину це велике місто заснував бог Шива, і паломники стікаються сюди з найдальших куточків світу.\n\nСеред них не тільки індуїсти: місто стоїть поруч із тим місцем, де вперше розповів людям своє вчення Гаутама Будда.\n\nНа власні очі побачити адептів різних вірувань, почути їх дискусії і вбрати знання, що народжуються в них, — це чи не найкращий спосіб зрозуміти, як нам усім разом існувати в цьому світі."
+  pilgrimage.5301.a: "$pilgrimage.4001.a$"
+  pilgrimage.5301.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5311.t: "$pilgrimage_header$ Айодх'я"
+  pilgrimage.5311.desc: "Здійснилося! Переді мною Айодх'я, де народився бог Рама і почався епос Рамаяни. Народження Рами, інкарнації Вішну називають блискучим проявом сили дхарми.\n\nТут, у серці Рамаяни — сказання, що назавжди змінило душі багатьох поколінь індуїстів, — я мимоволі замислююся, який слід залишиться в історії після мене..."
+  pilgrimage.5311.a: "$pilgrimage.4001.a$"
+  pilgrimage.5311.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5321.t: "$pilgrimage_header$ Матхура"
+  pilgrimage.5321.desc: "Я нарешті біля мети: переді мною Матхура. Тут народився Крішна - божество співчуття, любові та ніжності.\n\nОзирнувшись, я розрізняю всі його прояви в паломниках, що зібралися в храмовому комплексі Крішна Джанмастан - одному з найграндіозніших творів релігійного архітектурного мистецтва наших днів."
+  pilgrimage.5321.a: "$pilgrimage.4001.a$"
+  pilgrimage.5321.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5331.t: "$pilgrimage_header$ Гарідвар"
+  pilgrimage.5331.desc: "І ось я в Гарідварі, біля витоку священного Ганга.\n\nМісто збудували на тому місці, куди свого часу зійшла богиня Ганга, коли великий Шива випустив могутню річку зі свого волосся.\n\nВідомо, що її води змивають гріхи, і прочани з усього світу приходять, щоб здійснити омивіння. Тепер я можу приєднатися до них."
+  pilgrimage.5331.a: "$pilgrimage.4001.a$"
+  pilgrimage.5331.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5341.t: "$pilgrimage_header$ Канчіпурам"
+  pilgrimage.5341.desc: "Нарешті я у Канчіпурамі, біля храму Камакші Амман.\n\nЦе святилище присвячене матері-богині. Ця обитель світу і процвітання — одне із семи найсвятіших місць в індуїзмі."
+  pilgrimage.5341.a0: $pilgrimage.4001.a$"""
+  pilgrimage.5341.a: "$pilgrimage.4001.a$"
+  pilgrimage.5341.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5351.t: "$pilgrimage_header$ Удджайн"
+  pilgrimage.5351.desc: "Після прибуття в стародавнє місто Удджайн я прямую до Махакалешвар Джьотірлінга.\n\nМісто, присвячене втіленню Шиви Махакалешвар, з давніх-давен було місцем тяжіння паломників та адміністративним центром. Це жвавий мегаполіс, наповнений натовпами віруючих.\n\nЯ добираюся до великого храму, і [ROOT.Char.GetFaith.BishopNeuter] благословляє мене, очищаючи душу від гріхів."
+  pilgrimage.5351.a: "$pilgrimage.4001.a$"
+  pilgrimage.5351.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5361.t: "$pilgrimage_header$ Дварка"
+  pilgrimage.5361.desc: "Нарешті я на порозі Дварки — міста безлічі воріт, однієї зі святинь індуїзму.\n\nЗгідно з легендою, Крішна — втілення Вішну — відібрав біля моря величезний шматок землі для цього міста. З того часу місто розросталося, і тепер це релігійний та економічний центр, куди з усіх кінців світу стікаються паломники... і я серед них."
+  pilgrimage.5361.a: "$pilgrimage.4001.a$"
+  pilgrimage.5361.b: "$pilgrimage.4001.b$"
+
+  # Buddhism
+  pilgrimage.5401.t: "$pilgrimage_header$ Бодх-Гая"
+  pilgrimage.5401.desc: "Я в свята святих для буддистів всього світу: Бодх-Гая. Я ніби на власні очі спостерігаю, як [ROOT.Char.GetFaith.HighGodName] приходить до дерева Бодхі, шукаючи просвітництва.\n\nЗ того часу навколо дерева виріс вигадливий храм Махабодхі, і паломники з усього світу збираються сюди у пошуках знань про божество і [ROOT.Char.GetFaith.HighGodHerHis] життя."
+  pilgrimage.5401.a: "$pilgrimage.4001.a$"
+  pilgrimage.5401.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5411.t: "$pilgrimage_header$ Кушинагар"
+  pilgrimage.5411.desc: "Нарешті, переді мною Кушинагар - це місце відходу [ROOT.Char.GetFaith.HighGodNamePossessive] зі світу смертних.\n\nОпинившись у Нірвані вже за життя, [ROOT.Char.GetFaith.HighGodNameSheHe] символізує розрив ланцюгів переродження, оскільки зараз перебуває у парінірвані. Ця мокша, визволення – головна мета кожного праведного буддиста."
+  pilgrimage.5411.a: "$pilgrimage.4001.a$"
+  pilgrimage.5411.b: "$pilgrimage.4001.b$"
+
+  pilgrimage.5421.t: "$pilgrimage_header$ Сарнатх"
+  pilgrimage.5421.desc: "Дорога нарешті привела мене до Сарнатха, де [ROOT.Char.GetFaith.HighGodName] з давніх часів відкриває послідовникам істину і вчення, що випливає з неї.\n\nСаме тут виникла перша школа буддизму, куди досі приходять паломники з усього світу."
+  pilgrimage.5421.a: "$pilgrimage.4001.a$"
+  pilgrimage.5421.b: "$pilgrimage.4001.b$"
+
+  # Jainism
+  pilgrimage.5501.t: "$pilgrimage_header$ Шікхардж"
+  pilgrimage.5501.desc: "Нірвана-Канда каже, що двадцять із двадцяти чотирьох джайнських тритранкхарів знайшли мокшу тут, на горі Шікхарджі. Така багата історія перетворила це місце на найважливіший об'єкт паломництва для всього джайнського співтовариства, і я стою, оглядаючи найвищі вершини і найглибші долини, і згадую дорогу сюди і відбиток, який вона залишила в моєму житті."
+  pilgrimage.5501.a: "$pilgrimage.4001.a$"
+  pilgrimage.5501.b: "$pilgrimage.4001.b$"
+  
+  # Zoroastrian
+  pilgrimage.5601.t: "$pilgrimage_header$ Божественна свідомість"
+  pilgrimage.5601.desc: "Зі схилу гори Уші-Дарена я дивлюся на панораму, що розстилається внизу, і від захвату захоплює дух. В голову мимоволі закрадається думка про те, що саме тут Заратуштра знайшов просвітлення і почав нести у світ знання про Ахурамазду. Як і більшість паломників, я не відчуваю тут ні божественної іскри, ні одкровення, але не можу не захоплюватися чудовим краєвидом."
+  pilgrimage.5601.a: "$pilgrimage.4001.a$"
+  pilgrimage.5601.b: "$pilgrimage.4001.b$"
+
+  # Norse Germanic
+  pilgrimage.5901.t: "$pilgrimage_header$ Падерборн"
+  pilgrimage.5901.desc: "Колись у гущавині лісів Падеборна переховувався Великий стовп Ірмінсуль. Під час саксонських воєн Карл Великий зруйнував статую на честь Одіна, але наш народ продовжує приходити на це місце, щоб вшанувати його пам'ять. Тепер і я можу сказати, що здійснив паломництво до святого місця."
+  pilgrimage.5901.a: "$pilgrimage.4001.a$"
+  pilgrimage.5901.b: "$pilgrimage.4001.b$"
+
+  # Tengri
+  pilgrimage.5911.t: "$pilgrimage_header$ Безкрайнє синє небо"
+  pilgrimage.5911.desc: "[ROOT.Char.GetFaith.HighGodNamePossessive] каже, що немає храму більшого, ніж сам світ. Безкрайня небесна синь величніша за будь-які куполи мечетей і церков. Навколо мене [destination_title.GetNameNoTierNoTooltip], і тут, серед безкраїх степів здається, що [ROOT.Char.GetFaith.PantheonTerm] зовсім поруч. Я згадую свій шлях у це священне місце."
+  pilgrimage.5911.a: "$pilgrimage.4001.a$"
+  pilgrimage.5911.b: "$pilgrimage.4001.b$"
+
+  # Sanctity of Nature
+  pilgrimage.5921.t: "$pilgrimage_header$ Священні гаї"
+  pilgrimage.5921.desc: "І ось переді мною [destination_title.GetNameNoTierNoTooltip]. Хтось молиться в церкві, хтось у мечеті — а я знаю, що справжня святість таїться в гущавині лісу, де м'яка, родюча земля пестить босі ноги.\n\nСтарі гаї святі від віку, і коли я зупиняюся серед гігантських дерев, то мимоволі замислююся над своїм місцем у світі непізнаної природи."
+  pilgrimage.5921.a: "$pilgrimage.4001.a$"
+  pilgrimage.5921.b: "$pilgrimage.4001.b$"
+
+  # Generic Pilgrimage Return Events
+  pilgrimage.9001.t: "$pilgrimage_header$ Повернення"
+  pilgrimage.9001.desc: "Шлях мій був довгий, але я вдома. Змінилося небагато, але [ROOT.Char.GetFaith.PriestNeuterPlural] та [ROOT.Char.GetFaith.BishopNeuterPlural] дивляться на мене зовсім інакше.\n\nЯ [Select_CString(ROOT.Char.IsFemale, 'пройшла', 'пройшов' )] шлях святого, і вони впевнені, що він змінив мене — розумію я це, чи ні."
+  pilgrimage.9001.a: "Приємно повернутись додому."

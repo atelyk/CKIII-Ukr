@@ -1,0 +1,11 @@
+﻿l_english:
+  I_CAN_PUNISH_DESCRIPTION: "#T Відомий злочинець#!\n\n[CHARACTER.GetShortUINameNoTooltip] — відомий [criminal|El], що дозволяє мені покарати [CHARACTER.GetHerHis] і не стати [Concept( 'tyrant', 'тираном' )|E]."
+  POSSIBLE_PUNISHMENTS: "Можливе покарання:"
+  I_CAN_PUNISH_CRIME_HEADER: "\n\n#S $NAME$#!\n$POSSIBLE_PUNISHMENTS$"
+  I_CAN_PUNISH_PUNISHMENT_ITEM_ACTIVE: "\n$BULLET_WITH_TAB$$PUNISHMENT$"
+  I_CAN_PUNISH_PUNISHMENT_ITEM_INACTIVE: "\n$BULLET_WITH_TAB$#weak $PUNISHMENT$ (покарання вже зроблено)#!"
+  I_CAN_PUNISH_PUNISHMENT_IMPRISON: "[imprison|E]"
+  I_CAN_PUNISH_PUNISHMENT_BANISH: "Вигнати"
+  I_CAN_PUNISH_PUNISHMENT_EXECUTE: "Стратити"
+  I_CAN_PUNISH_PUNISHMENT_REVOKE_TITLE: "Відібрати титул"
+  I_CAN_PUNISH_PUNISHMENT_DIVORCE: "Розлучитися"

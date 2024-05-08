@@ -1,0 +1,64 @@
+﻿l_english:
+  embassies_perk_modifier: "Посольства"
+  embassies_perk_modifier_desc: "Цей персонаж отримує переваги від посольств, розташованих при інших дворах."
+
+  confidants_perk_modifier: "Наперсники"
+  confidants_perk_modifier_desc: "Коли справи йдуть кепсько, цей персонаж завжди має до кого звернутися."
+
+  sound_foundations_martial_gain: "Міцні підстави"
+  sound_foundations_martial_gain_desc: "Ніщо не вчить про життя більше, ніж виховання дитини."
+  sound_foundations_diplomacy_gain: "Міцні підстави"
+  sound_foundations_diplomacy_gain_desc: "Ніщо не вчить про життя більше, ніж виховання дитини."
+  sound_foundations_intrigue_gain: "Міцні підстави"
+  sound_foundations_intrigue_gain_desc: "Ніщо не вчить про життя більше, ніж виховання дитини."
+  sound_foundations_stewardship_gain: "Міцні підстави"
+  sound_foundations_stewardship_gain_desc: "Ніщо не вчить про життя більше, ніж виховання дитини."
+  sound_foundations_learning_gain: "Міцні підстави"
+  sound_foundations_learning_gain_desc: "Ніщо не вчить про життя більше, ніж виховання дитини."
+
+  commission_epic_modifier: "Складений родинний епос"
+  commission_epic_modifier_desc: "Цей персонаж гріється у променях історичної слави та історій про досягнення предків."
+
+  commission_exceptional_epic_modifier: "Складений відмінний родинний епос"
+  commission_exceptional_epic_modifier_desc: "Цей персонаж гріється у променях історичної слави та історій про досягнення предків."
+
+  commission_epic_emphasized_intrigue_modifier: "Історії інтриг"
+  commission_epic_emphasized_intrigue_modifier_desc: "Цей персонаж походить з давнього роду підступних маніпуляторів. Можливо."
+
+  commission_epic_military_innovation_modifier: "Легендарні інновації"
+  commission_epic_military_innovation_modifier_desc: "Надихнувшись вигаданими історіями, цей персонаж відкрив кілька незвичайних військових тактик."
+
+  commission_epic_shared_with_vassals_modifier: "Розказані історії"
+  commission_epic_shared_with_vassals_modifier_desc: "Цей персонаж поширює історії про традиційні лояльність і славу."
+
+  commission_epic_honesty_modifier: "Чесність"
+  commission_epic_honesty_modifier_desc: "Цей персонаж довів свою більшу відданість честі аніж славі."
+
+  commission_epic_clerical_guidance_modifier: "Духовна настанова"
+  commission_epic_clerical_guidance_modifier_desc: "Як і в золотий вік їх династії, цей персонаж уважно слухає поради духовенства."
+
+  sell_titles_related_to_wisdom_modifier: "Спорідненість з мудрістю"
+  sell_titles_related_to_wisdom_modifier_desc: "Цей персонаж повернув до кола сім'ї якусь мудру і благочестиву людину."
+
+  sell_titles_clever_servant_modifier: "Розумний кузен"
+  sell_titles_clever_servant_modifier_desc: "Цей персонаж має вірного члена сім'ї, який надзвичайно знається у мистецтві маніпуляцій."
+
+  sell_titles_respected_by_peers_modifier: "Повага рівних"
+  sell_titles_respected_by_peers_modifier_desc: "Цей персонаж має велику повагу у державі."
+
+  sell_titles_shameful_behavior_modifier: "Ганебна поведінка"
+  sell_titles_shameful_behavior_modifier_desc: "Цей персонаж відомий безчесною практикою продажу титулів."
+
+  friendly_counsel_martial_gain: "$friendly_counsel_perk_name$"
+  friendly_counsel_martial_gain_desc: "You can always count on a friend to give good advice."
+  friendly_counsel_diplomacy_gain: "$friendly_counsel_perk_name$"
+  friendly_counsel_diplomacy_gain_desc: "$friendly_counsel_martial_gain_desc$"
+  friendly_counsel_intrigue_gain: "$friendly_counsel_perk_name$"
+  friendly_counsel_intrigue_gain_desc: "$friendly_counsel_martial_gain_desc$"
+  friendly_counsel_stewardship_gain: "$friendly_counsel_perk_name$"
+  friendly_counsel_stewardship_gain_desc: "$friendly_counsel_martial_gain_desc$"
+  friendly_counsel_learning_gain: "$friendly_counsel_perk_name$"
+  friendly_counsel_learning_gain_desc: "$friendly_counsel_martial_gain_desc$"
+
+  decentralized_rule_perk_modifier: "Decentralized Rule"
+  decentralized_rule_perk_modifier_desc: "Loyal friends make for a loyal realm!"

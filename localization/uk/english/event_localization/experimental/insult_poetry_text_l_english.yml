@@ -1,0 +1,63 @@
+﻿l_english:
+  insult_poetry.0001.t: "Образа!"
+  insult_poetry.0001.from_other: "[SCOPE.sCharacter('actor').GetTitledFirstName] надсилає вам вірш:\n"
+  insult_poetry_line_1_a_01: "\nВи дурніші, ніж [ROOT.GetCharacter.Custom('rhyme_group_a_one')]"
+  insult_poetry_line_1_a_02: "\nВи потворніші, ніж [ROOT.GetCharacter.Custom('rhyme_group_a_one')]"
+  insult_poetry_line_1_b_01: "\nВи дурніші, ніж [ROOT.GetCharacter.Custom('rhyme_group_b_one')]"
+  insult_poetry_line_1_b_02: "\nВи потворніші, ніж [ROOT.GetCharacter.Custom('rhyme_group_b_one')]"
+  insult_poetry_line_1_c_01: "\nНічого, перед тобою знатна і [ROOT.Char.Custom('rhyme_group_c_one')]"
+  insult_poetry_line_1_c_02: "\nВигнанець, якому розкіш навіть [ROOT.Char.Custom('rhyme_group_c_one')]"
+
+  insult_poetry_line_2_a_01: "\nУсі відвернуться, [ROOT.GetCharacter.Custom('rhyme_group_a_two')]"
+  insult_poetry_line_2_a_02: "\nСам бог тобі скаже: [ROOT.GetCharacter.Custom('rhyme_group_a_two')]"
+  insult_poetry_line_2_b_01: "\nБути з тобою поряд - це [ROOT.GetCharacter.Custom('rhyme_group_b_two')]"
+  insult_poetry_line_2_b_02: "\nСам Господь тобі скаже: [ROOT.GetCharacter.Custom('rhyme_group_b_two')]"
+  insult_poetry_line_2_c_01: "\nДля тебе навіть честь, [ROOT.GetCharacter.Custom('rhyme_group_c_two')]"
+  insult_poetry_line_2_c_02: "\nТобі не вперше [ROOT.GetCharacter.Custom('rhyme_group_c_two')]"
+
+  insult_poetry_recipient_line_1_a_01: "\nТи дурніший, ніж [recipient.Custom('rhyme_group_a_one')]"
+  insult_poetry_recipient_line_1_a_02: "\nТи потворніший, ніж [recipient.Custom('rhyme_group_a_one')]"
+  insult_poetry_recipient_line_1_b_01: "\nТи дурніший, ніж [recipient.Custom('rhyme_group_b_one')]"
+  insult_poetry_recipient_line_1_b_02: "\nТи потворніший, ніж [recipient.Custom('rhyme_group_b_one')]"
+  insult_poetry_recipient_line_1_c_01: "\nНікчема, перед тобою знатна і [ROOT.Char.Custom('rhyme_group_c_one')]"
+  insult_poetry_recipient_line_1_c_02: "\nВигнанець, якому розкіш навіть [ROOT.Char.Custom('rhyme_group_c_one')]"
+
+  insult_poetry_recipient_line_2_a_01: "\nУсі відвернуться, [recipient.Custom('rhyme_group_a_two')]"
+  #insult_poetry_recipient_line_2_a_02":"#EMP \nMore than even God [recipient.Custom('rhyme_group_a_two')]#!"
+  insult_poetry_recipient_line_2_b_01: "\nБути з тобою поряд - це [recipient.Custom('rhyme_group_b_two')]"
+  #insult_poetry_recipient_line_2_b_02":"#EMP \nMore than even the Lord's [recipient.Custom('rhyme_group_b_two')]#!"
+  insult_poetry_recipient_line_2_c_01: "\nДля тебе навіть честь, [recipient.Custom('rhyme_group_c_two')]"
+  insult_poetry_recipient_line_2_c_02: "\nДля тебе навіть честь, [recipient.Custom('rhyme_group_c_two')]"
+
+  insult_poetry.0001.a: "Та як ти смієш?"
+
+  #Rhyme group A
+  insult_cow: "блоха"
+  insult_plough: "соха"
+  insult_prow: "трібуха"
+  insult_sow: "потерть"
+
+  insult_should_allow: "лягай, здихай"
+  insult_understands_how: "йди, не заважай"
+  insult_knows_quite_how: "мовчи, відпочивай"
+  insult_could_use_as_a_plough: "йди ти орати"
+
+  #Rhyme group B
+  insult_dog: "собака"
+  insult_bog: "кривляка"
+  insult_hog: "макака"
+  insult_sprog: "волоцюга"
+  insult_slog: "клоака"
+  insult_clog: "бійка"
+  insult_grog: "сльота"
+
+  #Rhyme group C
+  insult_hunt: "зле"
+  insult_grunt: "охати"
+  insult_stunt: "засохнути"
+  insult_punt: "здохнути"
+
+  insult_runt: "коли кличуть пройдисвітом"
+  insult_errant: "бути жертвою каверзи"
+  insult_shunt: "поводитися погано"
+  insult_blunt: "прославитися пустобріхом"

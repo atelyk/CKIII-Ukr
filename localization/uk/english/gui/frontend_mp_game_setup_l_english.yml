@@ -1,0 +1,9 @@
+﻿l_english:
+  FRONTEND_MP_GAME_SETUP_SELECT_BOOKMARK: "@warning_icon! #X Не вибрана закладка або збереження#!"
+  FRONTEND_MP_GAME_SETUP_HOST_HEADER: "Створити мережеву гру"
+  FRONTEND_MP_GAME_SETUP_HOST_NEW_GAME: "Нова гра"
+  FRONTEND_MP_GAME_SETUP_HOST_SAVED_GAME: "Завантажити збереження"
+  FRONTEND_MP_GAME_SETUP_GAME_SETTINGS: "Налаштування гри"
+  FRONTEND_MP_GAME_SETUP_VERSION: "Версія: [GetGameVersionInfoShort]"
+  FRONTEND_MP_SERVER_NAME_TOOLTIP: "Максимум 64 символи"
+  FRONTEND_MP_SERVER_PASSWORD_TOOLTIP: "Максимум 64 символи"

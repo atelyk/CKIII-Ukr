@@ -1,0 +1,126 @@
+﻿l_english:
+  murders_at_court.1001.t: "Вбивства при дворі: молитва за безіменних мерців"
+  murders_at_court.1001.desc_physician: "«Цього ранку знайшли частини чергового тіла, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]», — каже [physician.Custom2('MyCharacterIntroduction', ROOT.Char)] і вказує на стіл. Жалюгідні шматки плоті лежать у кривавих калюжах; у темному слизу набухають смужки тканини.\n\n«Як бачите, тут не... ціла... людина. Для встановлення особи цього замало»."
+  murders_at_court.1001.desc: "«Цього ранку знайшли частини чергового тіла, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]», — говорить стражник, вказуючи на стіл. Жалюгідні шматки плоті лежать у кривавих калюжах; у темному слизу набухають смужки тканини.\n\n«Як бачите, тут не... ціла... людина. Для встановлення особи цього замало»."
+  murders_at_court.1001.a: "Я помолюся за жертву."
+  murders_at_court.1001.b: "Встановити #EMP постійне#! спостереження за всіма."
+  murders_at_court.1001.b.tt: "Я обмежу переміщення всіх при дворі — сподіваюся, це змусить убивцю видати себе"
+  murder_at_court_movement_restricted_courtiers_craven: "Усі боягузливі придворні"
+  murder_at_court_movement_restricted_courtiers_other: "Решта придворних"
+  murder_at_court_movement_restricted_courtiers: "Всі придворні"
+  murders_at_court.1001.c: "Подвоїти варту!"
+  murders_at_court.1001.c.tt: "Якщо вартових буде більше, вони зможуть зупинити вбивцю — або хоча б завадити йому"
+  murders_at_court.1001.d: "Хтось щось бачив? Благаю, допоможіть мені!"
+  murders_at_court.1001.d.tt: "Я надішлю звістку по всій державі, що мені потрібні докази та будь-які відомості"
+  murders_at_court.1001.e: "Я очолю розслідування особисто."
+  murders_at_court.1001.e.tt: "Мої знання допоможуть розкрити цю справу"
+
+  murders_at_court.1002.t: "Вбивства при дворі: вбивство на світанку"
+  murders_at_court.1002.desc_named: "Зі сходом сонця я отримую звістку про те, що вночі [Select_CString(victim.IsFemale, 'була вбита', 'був убитий' )] [victim.Custom2('MyCharacterIntroduction', ROOT.Char)]. [SCOPE.sC('victim').GetHerHis|U] жорстоко зарізали і витягли на загальний огляд зі звисаючими назовні нутрощами...\n\nТіло швидко прибирають, і до світанку не залишається жодного сліду жахливого злочину."
+  murders_at_court.1002.desc: "Новий день — нова смерть. З тяжким серцем я розумію, що [ROOT.Char.Custom('ResidenceBuilding')] набуває дуже неприємної традиції.\n\nТіло (це [ROOT.Char.Custom('RandomWomanMan')] дуже юного віку) швидко прибирають, і до світанку не залишається жодного сліду жахливого злочину."
+
+  murders_at_court.1003.t: "Вбивства при дворі: поки смерть не розлучить нас"
+  murders_at_court.1003.desc_opening: "Я знаходжу [spouse.GetHerHis] у наших покоях: [spouse.GetSheHe] лежить на підлозі в калюжі власної крові."
+  murders_at_court.1003.desc_like: "Ридаючи, я падаю на підлогу, притискаючи [spouse.GetHerHim] до моїх грудей"
+  murders_at_court.1003.desc: "Я падаю на підлогу, притискаючи [spouse.GetHerHis] до своїх грудей"
+  murders_at_court.1003.desc_end: "— [spouse.GetSheHe] [Select_CString(spouse.IsFemale, 'така холодна', 'такий холодний' )]... О [ROOT.Char.GetFaith.HighGodName], чому [spouse.GetSheHe] [Select_CString(spouse.IsFemale, 'така холодна', 'такий холодний' )]?!"
+
+  murders_at_court.1004.t: "Вбивства при дворі: моє дитя"
+  murders_at_court.1004.desc: "[Select_CString(child.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child'))] [child.GetTitledFirstName] лежить у ліжку — [Select_CString(child.IsFemale, 'мертва і задубша', 'мертвий і задубілий' )]. Кров пофарбувала ложе в багряний колір, і тягучий звук, з яким краплі падають на підлогу, розноситься під склепінням спальні оглушливим громом."
+
+  murders_at_court.2001.t: "Вбивства при дворі: фарби згущуються"
+  murders_at_court.2001.desc: "[Select_CString(victim.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))] [victim.GetTitledFirstName] [Select_CString(victim.IsFemale, 'розпласталася', 'розпластався' )] на підлозі в калюжі власної крові, що вилилася з безлічі колотих ран.\n\nЗа що вбивця знущається наді мною?!"
+
+  murders_at_court.2002.t: "Вбивства при дворі: на крок попереду"
+  murders_at_court.2002.desc: "Я повертаюся до покоїв і бачу на столі жахливий предмет: голову [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('heir'))][Select_CString(heir.IsFemale, 'ої', 'ого' )] [Select_CString(heir.IsFemale, 'спадкоємиці', 'спадкоємця' )]! [Select_CString(heir.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('heir'))] [heir.GetTitledFirstName] дивиться на мене мертвими очима, рота розкритий в беззвучному крику. О, [ROOT.Char.GetFaith.HighGodName], за що? Настав час покінчити з цими вбивствами раз і назавжди!"
+  murders_at_court.2002.a: "[ROOT.Char.Custom('RealmType')], я молюся за тебе!"
+
+  murders_at_court.2003.t: "Вбивства при дворі: ось і вбивця"
+  murders_at_court.2003.desc: "Різкий біль у спині — я вдихаю і кричу від наростаючого болю. Намагаюся бігти, і обм'якаю, падаю на підлогу, встигнувши почути дзвін #EMP крапель#! власної крові.\n\nВ очах темніє, але я бачу, що наді мною з широкою усмішкою стоїть [Select_CString(murderer.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer'))] [murderer.GetTitledFirstName]. Я тягнусь до [Select_CString(murderer.IsFemale, 'неї', 'нього' )] і отримую потужний стусан, від якого кімната починає обертатися; вона кружляє все швидше, і світло тьмяніє... тьмяніє... і змінюється абсолютним мороком..."
+  murders_at_court.2003.a: "[murderer.GetFirstNameNoTooltip]... За що?.."
+
+  murders_at_court.2101.t: "Вбивства при дворі: вбивство наступника"
+  murders_at_court.2101.desc_opening: "Я дивлюсь на неживу купу плоті, в яку [Select_CString(other_heir.IsFemale, 'перетворилася', 'перетворився' )] [Select_CString(other_heir.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('other_heir'))] [other_heir.GetTitledFirstName], і голова починає паморочитися. Схоже, це моя кров розливається по підлозі: мені здається, у мене її зовсім не залишилося.\n\n"
+  murders_at_court.2101.desc_family: "Я нахиляюся до [Select_CString(other_heir.IsFemale, 'неї', 'нього' )], торкаюся холодної щоки — [other_heir.GetHerHis] очі широко розплющені, але в них скоріше здивування, ніж страх. «Ти знаєш того, хто це зробив?»"
+  murders_at_court.2101.desc: "[other_heir.GetSheHe|U] скоріш [Select_CString(other_heir.IsFemale, 'здивована', 'здивований' )], ніж [Select_CString(other_heir.IsFemale, 'налякана', 'наляканий' )]... Можливо, [other_heir.GetSheHe] [Select_CString(other_heir.IsFemale, 'знала', 'знав' )] свого вбивцю?"
+
+  murders_at_court.2201.t: "Вбивства при дворі: незриме"
+  murders_at_court.2201.desc: "«Але... де очі-то! Їх видерли, як соха видирає каміння на ріллі!» — [ROOT.GetCharacter.Custom('lowly_servant_type')], [Select_CString(lowly_servant_type.IsFemale, 'яка виявила', 'який виявив' )] чергову жертву вбивці, зовсім не в собі — репетує без зупинки, обличчя бліде, а руки тремтять.\n\nЯ заглядаю в чорні дірки, де колись були очі, і відчуваю мимовільне тремтіння. Навіщо вбивці очі? Для якогось ритуалу?"
+
+  murders_at_court.5001.t: "Вбивства при дворі: помічник"
+  murders_at_court.5001.desc: "Досить цікава особистість звернулася до мене, почувши про вбивства у мене при дворі.\n\n«Мене кличуть [watson.GetTitledFirstName], [ROOT.Char.GetLadyLord]. Думаю, я можу допомогти вам»."
+  murders_at_court.5001.a: "Мені знадобиться будь-яка допомога!"
+  #murders_at_court.5001.b
+  murders_at_court.5001.c: "Вас це не стосується!"
+
+  murders_at_court.8001.t: "Вбивства при дворі: memento mori"
+  murders_at_court.8001.desc: "[story_owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] знаходить вічний спокій, а я присягаюся, що знайду того, хто створив з [Select_CString(story_owner.IsFemale, 'нею', 'ним' )] таке. Але вбивця, схоже, притих. Невже його ціллю весь цей час [Select_CString(story_owner.IsFemale, 'була', 'був' )] [story_owner.GetTitleAsNameNoTooltip]?.."
+  murders_at_court.8001.a: "Спочивай з миром, [story_owner.GetFirstNameNoTooltip]."
+
+  murders_at_court.8002.desc: "[story_owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] вирушає в останню путь, а я ледве стримую сміх: ну і пику [story_owner.GetSheHe] [Select_CString(story_owner.IsFemale, 'скорчила', 'скорчив' )] в кінці! Як там говорили? [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('story_owner'))][Select_CString(story_owner.IsFemale, 'а', 'ий' )] [story_owner.GetWomanMan] — пф!\n\nГаразд, головне, що тепер метушня повинна трохи поменшати: у страшного вбивці є справи важливіші."
+  murders_at_court.8002.a: "Наприклад, [ROOT.Char.Custom('RealmType')]! Іноді треба й державою керувати."
+
+  murders_at_court.8003.t: "Вбивства при дворі: спадщина"
+  murders_at_court.8003.desc: "[predecessor.GetTitledFirstName] багато [Select_CString(story_owner.IsFemale, 'казала', 'казав' )] про вбивства, що переполошили всіх при [predecessor.GetHerHis] дворі; смерть нещасних була просто жахливою.\n\nВсе, що [predecessor.GetSheHe] [Select_CString(predecessor.IsFemale, 'зробила', 'зробив' )] заради припинення вбивств, досі чинне, і я можу лише сподіватися, що цього достатньо..."
+  murders_at_court.8003.a: "Нехай прокляття, що мучило двір, помре разом з [Select_CString(predecessor.IsFemale, 'нею', 'ним' )]."
+
+  murders_at_court.9001.t: "Вбивства при дворі: відсіч"
+  murders_at_court.9001.desc_opening_watson: "Я повертаюся до покоїв і виявляю лист, написаний червоним чорнилом. Адресати — я та [watson.GetTitledFirstName]... Зачекайте, це ж написано #EMP кров'ю#!!\n\n"
+  murders_at_court.9001.desc_opening: "Я повертаюся до покоїв і виявляю лист, написаний червоним чорнилом... зачекайте, це ж написано #EMP кров'ю#!!\n\n"
+  murders_at_court.9001.desc_heir: "#EMP «Якщо [ROOT.Char.Custom('RealmType')] для вас — не порожній звук, припиніть пошуки. Я все життя дію у вас під носом, але ви просто сліпі. Правда може виявитися дуже болючою».#!"
+  murders_at_court.9001.desc_rival: "#EMP «Все моє життя присвячене лише одній меті: вашому #EMP знищенню#!. Я знищу вашу родину та ваше правління. Зупинити мене ви не в змозі, але якщо не припините заважати, я гарантую ще жахливіші наслідки».#!"
+  murders_at_court.9001.desc_witch: "#EMP «Думаєте, ваше втручання до чогось приведе? Темні сили вже не зупинити, але спробуєте мені перешкодити — і всі, хто вам любий, опиняться в небезпеці!»#!"
+  murders_at_court.9001.desc_cannibal: "#EMP «Ви не розумієте. Я виживаю завдяки цьому, я #EMP живлюсь#! цим. Припиніть ваші пошуки, поки мій голод не поглинув все!»#!"
+  murders_at_court.9001.desc_vassal: "#EMP Заради блага своїх земель ви припините пошуки. У мені потребують... #EMP мене цінують#!, і ви тільки пошкодуєте, якщо розкриєте мою особу.#!"
+  murders_at_court.9001.desc_fallback: "#EMP «Припиніть пошуки негайно. Правда, не принесе вам полегшення, а якщо ви не зупинитесь, я гарантую, що вам — і всім, хто вам любий, — нічого доброго не буде».#!"
+  murders_at_court.9001.desc_ending: "\n\nЦей почерк... [murderer.Custom2('MyCharacterIntroduction', ROOT.Char)] пише практично так само!"
+  murders_at_court.9001.a: "Невже...?"
+  murders_at_court.9001.a.tt: "[murderer.GetTitledFirstNameNoTooltip] [Select_CString(murderer.IsFemale, 'повинна', 'повинен' )] відповісти мені на кілька запитань"
+  murders_at_court.9001.b: "Думаю, розкрити ці вбивства не вдасться."
+  murders_at_court.9001.b.tt: "Гірше бути вже не може, правда?"
+  murders_at_court.9001.c: "[watson.GetFirstNameNoTooltip], що ви думаєте?"
+  murders_at_court.9001.c.tt: "Не думаю, що все так просто..."
+
+  murders_at_court.9002.t: "Вбивства при дворі: наслідки"
+  murders_at_court.9002.desc: "За воротами резиденції я бачу шибеника. Це [the_one_to_kill.Custom2('MyCharacterIntroduction', ROOT.Char)]. [the_one_to_kill.GetHerHis|U] тіло холодне, бліде, нерухоме... Але що ж це? У складках одягу схована невелика записка!\n\n#EMP Це моя остання жертва, останній подарунок вам, [ROOT.Char.GetTitledFirstNameNoTooltip]. Але не бійтеся, я буду поруч — буду наглядати за вами.#!"
+  murders_at_court.9002.a: "Подумати тільки, що таке чудовисько бродить на волі..."
+
+  murders_at_court.9003.t: "Вбивства при дворі: темний спадок"
+  murders_at_court.9003.a: "На тебе чекає кара за злочини!"
+  murders_at_court.9003.b: "Око за око, життя за життя...!"
+  murders_at_court.9003.c: "Ти [Select_CString(murderer.IsFemale, 'вільна', 'вільний' )], [murderer.GetTitledFirstNameNoTooltip]."
+  murders_at_court.9003.d: "Мабуть, нудно творити таке поодинці..."
+  murders_at_court.9003.e: "Оу... М-мені дуже шкода."
+
+  murders_at_court.9004.t: "Вбивства при дворі: на місці злочину"
+  murders_at_court.9004.desc_letter_event: "[watson.GetTitledFirstName] і я годинами вивчаємо лист. Але цей запах... Пахне як [Select_CString(murderer.IsFemale, 'моя', 'мій' )] [murderer.Custom2('MyCharacterIntroduction', ROOT.Char)] [murderer.GetTitledFirstName]!"
+  murders_at_court.9004.desc: "«[Select_CString(ROOT.Char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetTitleAsNameNoTooltip], [victim.GetTitledFirstName] та [murderer.GetTitledFirstName] зникли».\n\nЯ жестом наказую стражникові піти і помічаю, що [watson.GetTitledFirstName] дивиться на мене з тривогою. Погане передчуття спалахує у моїй душі. [murderer.GetTitledFirstNameNoTooltip], можливо..."
+  murders_at_court.9004.desc_ending: "\n\nКоли ми нарешті наздоганяємо [murderer.GetHerHis], [murderer.GetTitleAsNameNoTooltip] вже готується завдати удару ножем, а [victim.GetTitledFirstName] стоїть прямо перед [Select_CString(murderer.IsFemale, 'нею', 'ним' )].\n\n«Не рухатись!»"
+
+  murders_at_court.9021.t: "Вбивства при дворі: чорна магія"
+  murders_at_court.9021.desc: "Коли мені нарешті вдається вистежити [murderer.GetHerHis], [murderer.Custom2('MyCharacterIntroduction', ROOT.Char)] сидить навколішки перед старою книгою, лоб притиснутий до підлоги, а руки піднято над головою під майже неможливим кутом.\n\n"
+
+  murders_at_court.9031.t: "Вбивства при дворі: голод"
+  murders_at_court.9031.desc: "Коли мені нарешті вдається вистежити [murderer.GetHerHis], [murderer.Custom2('MyCharacterIntroduction', ROOT.Char)] гризе щось, що нагадує людський #EMP палець#!."
+
+  murders_at_court.9041.t: "Вбивства при дворі: втеча"
+  murders_at_court.9041.desc_opening: "Коли мені нарешті вдається вистежити [murderer.GetHerHis], на місці на мене чекають лише"
+  murders_at_court.9041.desc_witch: "уламки кісток, щось, що підозріло нагадує людські очі, і"
+  murders_at_court.9041.desc_cannibal: "уламки кісток, що здаються обгризеними, і"
+  murders_at_court.9041.desc: "лист, в якому [murderer.Custom2('MyCharacterIntroduction', ROOT.Char)] насміхається з моїх потуг. [Select_CString(murderer.IsFemale, 'Її саму', 'Його самого' )] ніде не видно."
+  murders_at_court.9041.a: "Усі дізнаються про ці злочини!"
+  murders_at_court.9041.b: "Краще про це мовчати..."
+
+  murders_at_court.9099.t: "Вбивства при дворі: криваві угоди"
+  murders_at_court.9099.t_wrong: "Вбивства при дворі: помилка"
+  murders_at_court.9099.desc_wrong: "Коли мені нарешті вдається вистежити [murderer.GetHerHis], [murderer.Custom2('MyCharacterIntroduction', ROOT.Char)] навіть не намагається тікати. Власне, [murderer.GetSheHe] дивиться на мене здивовано.\n\n«Нарешті ти [Select_CString(murderer.IsFemale, 'попалася', 'попався' )], вбивця!»\n\n«Що-що? Думаєте, це #EMP я#! [Select_CString(murderer.IsFemale, 'вбила', 'вбив' )] всіх цих людей?!»"
+  murders_at_court.9099.desc_nothing: "Коли мені нарешті вдається вистежити [murderer.GetHerHis], [murderer.Custom2('MyCharacterIntroduction', ROOT.Char)] навіть не намагається тікати.\n\n"
+  murders_at_court.9099.desc: "«Ну вітаю, [ROOT.Char.GetFirstNameNoTooltip], — каже [murderer.GetSheHe], міряючи мене поглядом. — Нарешті ти все знаєш. Тобі сподобалися мої... #EMP дари#!?»\n\nПосмішка розпливається на [murderer.GetHerHis] обличчі, і мене охоплює тремтіння."
+
+  murders_at_court.9989.desc: "However, I cannot help but notice that the murders stopped as soon as [murderer.GetTitledFirstName] left court..."
+  murders_at_court.9989.a: "I'll keep an eye on that one."
+
+  murders_at_court.9999.t: "Вбивства при дворі: прокляттю кінець"
+  murders_at_court.9999.desc_opening: "As time goes by and no new bodies turn up I gradually relax again. The killer has stopped!\n\n"
+  murders_at_court.9999.desc: "Час іде, нові тіла не з'являються, і я обережно зітхаю з полегшенням. Вбивця припинив злочини!\n\nІ все ж який дивовижний збіг: вбивства припинилися, коли [Select_CString(murderer.IsFemale, 'померла', 'помер' )] [murderer.GetTitledFirstName]..."
+  murders_at_court.9999.a: "Але як не крути, [murderer.GetSheHe] [Select_CString(murderer.IsFemale, 'мертва', 'мертвий' )], і всієї правди ми ніколи не дізнаємось..."

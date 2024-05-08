@@ -1,0 +1,13 @@
+﻿l_english:
+  MULTIPLAYER_LOBBY_DIFFICULTY_HEADER: "Складнощі:"
+  MULTIPLAYER_LOBBY_DIFFICULTY_INFO_TEXT: "@warning_icon!#X [Character.GetDifficultyInfoText]#!"
+  MULTIPLAYER_LOBBY_CHOOSE_RANDOM_CHARACTER: "Випадковий персонаж"
+  MULTIPLAYER_LOBBY_PLAY_OBSERVER: "Гра в режимі спостерігача"
+  MULTIPLAYER_LOBBY_NOT_READY: "#N Не вибрано жодного персонажа#!"
+  MULTIPLAYER_LOBBY_RULER_DESIGNING: "#N У редакторі правителя#!"
+  MULTIPLAYER_LOBBY_READY: "[LobbyPlayer.GetPlayable.GetCharacter.GetUINameNotMe]"
+  MULTIPLAYER_LOBBY_JOIN_PROGRESS: "Підключення... [LobbyPlayer.GetTransferProgress|0%]"
+  MULTIPLAYER_LOBBY_PLAYED_BY: "Гравець — [Character.GetHumanNameIfNotLocalPlayer]"
+  MULTIPLAYER_LOBBY_PLAYED_BY_YOU: "Ваш персонаж"
+  FAITH_LOBBY_WINDOW: "[Faith.GetAdjectiveNoTooltip]"
+  CULTURE_LOBBY_WINDOW: "[Culture.GetNameNoTooltip]"

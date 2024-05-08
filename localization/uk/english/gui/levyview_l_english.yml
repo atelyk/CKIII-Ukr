@@ -1,0 +1,8 @@
+﻿l_english:
+  LV_HEADER: "Ополчення"
+  LV_COUNTS: "[LevyView.GetLivingCount|0]/[LevyView.GetMaxCount|0]"
+  LV_FLAVOR: "Ополчення складають селяни, головорізи, вільні найманці і дворяни, що розорилися, з найрізноманітнішим озброєнням. Цей численний зброд утворює кістяк будь-якої армії."
+  LV_RAISED: "[LevyView.GetRaisedCount|0] зібрано"
+  LV_UNRAISED: "Не зібрано"
+  LV_MAINTENANCE: "Утримання: [gold_i][LevyView.GetMaintenanceCost|2]/місяць"
+  LV_NO_COUNTERS: "Ополченці ніколи не [counter|El] іншим типам"

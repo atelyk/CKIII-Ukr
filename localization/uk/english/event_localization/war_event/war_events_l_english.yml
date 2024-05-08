@@ -1,0 +1,64 @@
+﻿l_english:
+
+  war_event.1901: "[defender_loser.GetShortUIName] [Select_CString(defender_loser.IsFemale, 'програла', 'програв' )] війну вашому сюзерену!"
+  war_event.1902: "[attacker_winner.GetShortUIName] [Select_CString(attacker_winner.IsFemale, 'перемогла', 'переміг' )] вашого сюзерена на війні!"
+  war_event.1903: "Ваш сюзерен та [defender_white_peace.GetShortUIName] закінчили війну у статус-кво!"
+  war_event.1904: "Ваш сюзерен та [attacker_white_peace.GetShortUIName] закінчили війну у статус-кво!"
+  war_event.1905: "[defender_winner.GetShortUIName] [Select_CString(defender_winner.IsFemale, 'перемогла', 'переміг' )] вашого сюзерена на війні!"
+  war_event.1906: "[attacker_loser.GetShortUIName] [Select_CString(attacker_loser.IsFemale, 'програла', 'програв' )] війну вашому сюзерену!"
+  war_event.notification_liege_win.t: "Сюзерен виграв війну"
+  war_event.notification_liege_loss.t: "Сюзерен програв війну"
+
+  war_event.1001.t: "Мій сюзерен оголошує війну"
+  war_event.1001.desc: "Дивно, як швидко все змінюється на війні.\n\nЯ та [recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] воюємо, і тут надходить повідомлення: [liege_invalidator.Custom2('MyCharacterIntroduction', ROOT.Char)] вимагає зупинити мій похід та допомогти [liege_invalidator.GetHerHim] у #EMP [liege_invalidator.GetHerHis] власній#! війні, ціллю якої також є [recipient.GetTitledFirstName]."
+  war_event.1001.a: "А...а-але як же моя війна?! Щоб вас!"
+
+  war_event.2003.desc: "Since [liege_invalidator.Custom2('MyCharacterIntroduction', invalidator)] now wages war against you my forces will join [liege_invalidator.GetHerHis] cause."
+  war_event.2003.a: "So be it."
+
+  war_event.2001.t: "Новий суперник"
+  war_event.2001.desc: "У світі немає нічого непорушного, особливо у воєнний час. [war.GetName] знову це підтверджує.\n\nТепер наш противник вже не [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)], але [defender.Custom2('MyCharacterIntroduction', ROOT.Char)]. Можливо, настав час переглянути стратегію."
+  war_event.2001.a: "У мене все та ж ціль."
+  war_event.2001.a.tt: "Війна триває"
+  war_event.2001.b: "Це вже не найкращий варіант."
+
+  war_event.2002.t: "[invalidator.Custom2('AppropriateGreeting', ROOT.Char)]"
+  war_event.2002.desc: "Я жалкую, що ми опинилися по різні боки конфлікту. Мені ніколи цього не хотілося, і тому я виводжу війська."
+  war_event.2002.a: "Мудрий вибір."
+
+  war_event.3001.t: "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+  war_event.3001.desc: "[war.GetName] йде вже давно. Два роки тому ви обіцяли мені допомогу, але на ділі ніякої підтримки не було.\n\nУ чому сенс нашого союзу, якщо ви і пальцем не поворухнули заради мене?"
+  war_event.3001.a: "Я негайно відправлю війська вам на допомогу!"
+  war_event.3001.a.tt: "Якщо протягом найближчих 12 місяців я нічого не отримаю від вкладу у війну, то втрачу [prestige_level|El], і [war_owner.GetTitledFirstNameNoTooltip] може переглянути умови нашого союзу!"
+  war_event.3001.b: "Ця скриня золота стане найкращим вибаченням за мою відсутність..."
+  war_event.3001.b.tt: "[war.GetName] — не місце для моїх солдат. Я більше не посилатиму війська."
+  war_event.3001.c: "Перепрошую, мені не слід було обіцяти допомогу."
+
+  war_event.3002.t: "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+  war_event.3002.desc.start: "Незважаючи на вашу обіцянку надіслати війська мені на допомогу, жоден із ваших солдатів ще не з'явився на полі бою."
+  war_event.3002.desc.end.1: "Порушивши клятви, ви накликали ганьбу на себе та свій рід."
+  war_event.3003.desc.end.2: "Ви серйозно підірвали мою довіру, [ROOT.Char.GetTitledFirstName]."
+  war_event.3002.1.a: "Ну добре."
+  war_event.3003.2.a: "Я виправлюся."
+  war_event.3003.2.b: "Може, просто розірвемо наш союз... ?"
+
+  war_event.neighbor_war.both_neighbors.t: "Війну сусідів закінчено"
+  war_event.neighbor_war.both_neighbors.desc: "[Select_CString(winner.IsFemale, 'Ваша сусідка', 'Ваш сусід' )] [winner.GetTitledFirstName] [Select_CString(winner.IsFemale, 'виграла', 'виграв' )] війну [this_war.GetName]. [Select_CString(loser.IsFemale, 'Програла', 'Програв' )] — [loser.GetTitledFirstName] — також [Select_CString(loser.IsFemale, 'ваша сусідка', 'ваш сусід' )]!"
+
+  war_event.neighbor_war.only_winner.t: "Правитель по сусідству виграв війну"
+  war_event.neighbor_war.only_winner.desc: "[Select_CString(winner.IsFemale, 'Ваша сусідка', 'Ваш сусід' )] [winner.GetTitledFirstName] [Select_CString(winner.IsFemale, 'виграла', 'виграв' )] війну «[this_war.GetName]». [loser.Custom2('YourCharacterIntroductionNoComma', this_player)] [Select_CString(this_player.IsFemale, 'розбита', 'розбитий' )]!"
+
+  war_event.neighbor_war.only_loser.t: "Правитель по сусідству програв війну"
+  war_event.neighbor_war.only_loser.desc: "[Select_CString(loser.IsFemale, 'Ваша сусідка', 'Ваш сусід' )] [loser.GetTitledFirstName] [Select_CString(loser.IsFemale, 'програла', 'програв' )] війну «[this_war.GetName]». Переможець — [winner.Custom2('YourCharacterIntroductionNoComma', this_player)]!"
+
+  #Holy wars ""soft invalidated" by faith change
+  war_event.3101.t: "Новонабута віра"
+  war_event.3101.desc: "До мене дійшла новина, що [defender.GetTitledFirstNamePossessive] [Select_CString(defender.IsFemale, 'навернулася', 'навернувся' )] в [defender.GetFaith.GetNameNoTooltip]. [ROOT.Char.GetFaith.HighGodName] більше не дозволяє мені воювати з [Select_CString(defender.IsFemale, 'нею', 'ним' )]. [defender.GetPrimaryTitle.GetNameNoTierNoTooltip] не може належати мені по праву."
+  war_event.3101.a: "Настав час опустити мечі."
+  war_event.3101.b.tt: "[war.GetName] продовжується"
+  war_event.3101.b: "[defender.GetSheHe|U] думає, що мене це зупинить? Хах!"
+
+  war_event.3102.t: "[attacker.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+  war_event.3102.desc: "Цікаво, чи вірить [ROOT.Char.GetFaith.HighGodName] у твоє раптове прозріння? Мене воно точно не переконало. Моя справа все ще права, пощади не буде!"
+  war_event.3102.a: "Ось [ROOT.Char.Custom('CulturalCurse')]!"
+

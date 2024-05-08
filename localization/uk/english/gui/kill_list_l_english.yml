@@ -1,0 +1,8 @@
+﻿l_english:
+  KILL_LIST: "Список вбивств"
+  OPEN_KILL_LIST_TOOLTIP: "Відкрити список вбивств"
+  ARTIFACT_KILL_LIST: "Вбивства: [ArtifactKillListWindow.GetArtifact.GetName|U]"
+  OPEN_ARTIFACT_KILL_LIST_TOOLTIP: "#T Перегляд вбивств\n#!Переглянути всіх вбитих артефактом «[Artifact.GetName]»"
+  ARTIFACT_FORGOTTEN_SOLDIER_KILLS: "#S Забуті солдати#!: [Artifact.GetForgottenSoldiersCount|V]"
+  DEATH_DATE: "Дата смерті"
+  DEATH_REASON: "Причина смерті"

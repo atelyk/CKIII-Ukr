@@ -1,0 +1,96 @@
+﻿l_english:
+  #Unused texts for secrecy event
+  court_outcome.0001.t: "$court_event_title$ Зараз або ніколи"
+  court_outcome.0001.desc: "О [target.GetFirstName], [target.Custom('LoverPetName')] [Select_CString(target.IsFemale, 'моя', 'мій' )]! Я прагну бути з тобою! Немає сили жити без солодкого нектару твоїх поцілунків!\n\nХоча почуття мої чисті, надто багато хто нас засудить. Піти до [Select_CString(target.IsFemale, 'неї', 'нього' )]? Або триматися подалі?"
+  court_outcome.0001.b: "Я не можу ризикувати [target.GetHerHis] безпекою..."
+  court_outcome.0001.a: "Нас ніщо не зможе розлучити!"
+
+  #Player target picks outcome
+  court_outcome.0003.t: "Це любов?"
+  court_outcome.0003.success.desc: "Я насилу згадую, що зі мною було до того, як [owner.GetFirstName] [Select_CString(owner.IsFemale, 'оголосила', 'оголосив' )] мені про свої почуття. Ті дні здаються такими порожніми, такими похмурими... Але коли [SCOPE.sCharacter('owner').GetSheHe] поряд, здається, що все можливо!\n\nХотілося б мені, щоб це тривало вічно, але у глибині душі я знаю, що вибір зробити доведеться. Чи вистачить мені сміливості віддатися почуттям, чи [owner.GetFirstNameNoTooltip] навіки зникне з мого серця?"
+  court_outcome.0003.failure.desc: "Я насилу згадую, що зі мною було до того, як [owner.GetFirstName] [Select_CString(owner.IsFemale, 'оголосила', 'оголосив' )] мені про свої почуття. Мені дуже приємно, але [owner.GetHerHis] уваги занадто багато. Раптом я розумію, що мрію про тишу та спокій.\n\nІ все-таки я сумніваюся. Невже я позбавлю себе єдиної надії на справжнє кохання? Адже це неправильно! Чи по інакшому не можна?.."
+  court_outcome.0003.a: "Ми належимо один одному, [owner.GetFirstNameNoTooltip]. Віднині і назавжди!"
+  court_outcome.0003.a.tt: "Можливо, [owner.GetShortUIName|U] стане для мене спорідненою душею"
+  court_outcome.0003.b.success: "Все, що я можу обіцяти, — єдиний поцілунок істинного кохання."
+  court_outcome.0003.b.failure: "[owner.GetSheHe|U] заслуговує на поцілунок — хоча б за впертість."
+  court_outcome.0003.b.tt: "[owner.GetShortUIName|U] #bold не#! стане мені спорідненою душею"
+  court_outcome.0003.c: "Ця любовна гарячка має закінчитись прямо зараз."
+
+
+  court_outcome.kiss.tt: "[target.GetShortUIName|U] і я цілуємося"
+
+
+  #Generic keys
+  court_outcome.0001.a.tt: "[target.GetTitledFirstName] залишається об'єктом моїх залицянь"
+
+  ### WILD HUNT ###
+  court_outcome.1000.t: "$court_event_title$ Дикий гін"
+  court_outcome.1000.i_invite.desc: "Коли [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] [Select_CString(target.IsFemale, 'запропонувала', 'запропонував' )] пополювати разом, мені стало ясно, що треба влаштовувати полювання. Я все зроблю, аби [Select_CString(target.IsFemale, 'моя', 'мій' )] [target.Custom('LoverPetName')] бодай на мить [Select_CString(target.IsFemale, 'опинилася', 'опинився' )] поруч!"
+  court_outcome.1000.own_invite.desc: "Коли [target.GetFirstName] [Select_CString(target.IsFemale, 'запропонувала', 'запропонував' )] пополювати разом, у мене й гадки не було відмовлятися. Немає у світі видовища прекрасніше, ніж [target.GetHerHis] приголомшливий профіль, коли [target.GetFirstName] у сідлі!"
+  court_outcome.1000.liege_invite.desc: "Коли [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] [Select_CString(target.IsFemale, 'запропонувала', 'запропонував' )] пополювати разом, у мене й гадки не було відмовлятися. Я все зроблю, аби [Select_CString(target.IsFemale, 'моя', 'мій' )] [target.Custom('LoverPetName')] бодай на мить [Select_CString(target.IsFemale, 'опинилася', 'опинився' )] поруч!"
+  court_outcome.1000.end.desc: "\n\nЯ пробираюся через чагарник, паж — біля стремена, гонча — попереду. І здається, вона напала на слід! Раптом я чую, як десь кричить [target.GetWomanMan]!"
+  court_outcome.1000.a: "«Я йду, кохання моє!»"
+  court_outcome.1000.b: "Можливо, розумніше відправити пажа..."
+  court_outcome.1000.c: "Це, мабуть, просто птах."
+  court_outcome.1000.b.failure: "[target.GetFirstNameNoTooltip] в небезпеці! На [Select_CString(target.IsFemale, 'неї', 'нього' )] напав дикий звір"
+  court_outcome.1000.b.success: "[target.GetFirstNameNoTooltip] все гаразд. Жодної небезпеки не було"
+
+
+  court_outcome.1001.desc: "Проходить не більше хвилини, яка здається мені годиною, і я добираюся до узлісся. [target.GetFirstName] сидить на землі — [Select_CString(target.IsFemale, 'скуйовджена', 'скуйовджений' )] і без зброї. Навпроти [Select_CString(target.IsFemale, 'неї', 'нього' )] стоїть [ROOT.Char.Custom('LocalAnimal')] і вже готується до стрибка!\n\nМоя стріла б'є точно в ціль, і звір падає на землю. Якусь мить [target.GetFirstNameNoTooltip] лише мовчазно дивиться на те, що відбувається, але потім [target.GetSheHe] кидається до мене і падає в мої обійми."
+  court_outcome.1001.a: "Я хочу бути з тобою, кохання моє, прямо тут і зараз!"
+  court_outcome.1001.b: "Мені потрібна лише одна нагорода — твій найсолодший поцілунок."
+
+  court_outcome.1002.desc: "«[target.GetFirstName]! Я йду!» — я прориваюся на галявину крізь зарості, серце б'ється як шалене, піт заливає обличчя.\n\nАле мені відкривається зовсім несподіваний вид. [ROOT.Char.Custom('LocalAnimal')|U] є, так, але звір уже повалений, і між очей у нього стирчить стріла. [target.GetFirstNameNoTooltip] опускає лук, повертаючись до мене.\n\n«В чому справа, [owner.GetTitledFirstNameNoTooltip]? Думали, я не зможу захистити себе?»"
+  court_outcome.1002.a: "Я... Я [Select_CString(ROOT.Char.IsFemale, 'заблукала', 'заблукав' )]?"
+
+  court_outcome.1005.desc: "Коли я наближаюся, крики посилюються. Мабуть, це [target.Custom('RomanticComplimentAdjective')][Select_CString(target.IsFemale, 'а', 'ий' )] [target.GetFirstName] — я впізнаю [target.GetHerHis] голос де завгодно!\n\nАле є щось #EMP дивне#! в [target.GetHerHis] криках. Не схоже, що [target.GetFirstNameNoTooltip] боїться... або відчуває біль...\n\nМоє серце розбивається вщент, коли я нарешті бачу [target.GetHerHis]: голі, немов новонароджені, [target.GetSheHe] та [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] катаються у траві."
+  court_outcome.1005.a: "В [target.GetHerHis] серце явно немає місця для мене."
+  court_outcome.1005.b: "[targets_lover.GetFirstNameNoTooltip] прокляне той день, коли [Select_CString(tergets_lover.IsFemale, 'наважилася', 'насмілився' )] перейти мені дорогу!"
+  court_outcome.1005.c: "Я врятую [target.GetHerHis] від цього чудовиська!"
+  court_outcome.1005.c.murder_undiscovered: "[targets_lover.GetFirstNameNoTooltip] [Select_CString(targets_lover.IsFemale, 'вбита', 'вбитий' )] моєю стрілою"
+  court_outcome.1005.c.murder_discovered: "[targets_lover.GetFirstNameNoTooltip] [Select_CString(targets_lover.IsFemale, 'вбита', 'вбитий' )] моєю стрілою, але мене розкрили"
+  court_outcome.1005.c.murder_attempt: "Я промахуюсь і втікаю"
+  court_outcome.1005.d: "Якщо [target.GetSheHe] не дістанеться мені, то не дістанеться нікому!"
+  court_outcome.1005.d.murder_undiscovered: "[target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'вбита', 'вбитий' )] моєю стрілою"
+  court_outcome.1005.d.murder_discovered: "[target.GetFirstNameNoTooltip] [Select_CString(target.IsFemale, 'вбита', 'вбитий' )] моєю стрілою, але мене розкрили"
+
+  court_outcome.1003.t: "Дикий гін"
+  court_outcome.1004.desc: "Кінь раптово кидається геть із дороги. Падіння неминуче, і ось земля різко вибиває повітря з легких. Коли мені вдається підняти голову, на мене скалиться [owner.Custom('LocalAnimal')]!\n\nАле не встигаю я закричати, як звір валиться додолу зі стрілою між очей.\n\n«[target.GetFirstNameNoTooltip], [target.Custom('LoverPetName')] [Select_CString(target.IsFemale, 'моя', 'мій' )]! Я [Select_CString(owner.IsFemale, 'боялася', 'боявся' )], що втрачу тебе!» [Select_CString(owner.IsFemale, 'Мій герой', 'Моя героїня' )] — [owner.GetTitledFirstName] власною персоною!"
+  court_outcome.1003.b: "Ми зливаємось у солодкому як мед поцілунку."
+
+
+  ### INTRUDER ###
+
+  # OWNER CHOICE
+  court_outcome.1100.t: "$court_event_title$ Зловмисник"
+  court_outcome.1100.start.desc: "Варто мені заплющити очі, як переді мною з'являється [target.GetTitledFirstName]. Сон не приходить. Я більше не можу чекати. Сховавшись у тінях, я вирушаю в дорогу, і мета моя —"
+  court_outcome.1100.targets_residence.desc: "[target.GetHerHis] [target.Custom('ResidenceBuilding')]."
+  court_outcome.1100.my_residence.desc: "садок перед [target.GetHerHis] покоями."
+  court_outcome.1100.targets_host_residence.desc: "[target.Custom('ResidenceBuilding')], що будує [target_host.GetTitledFirstName]."
+  court_outcome.1100.end.desc: "\n\nВид вікна покоїв, де мешкає [target.GetFirstNameNoTooltip], холодить мені серце! Так близько і в той же час — так далеко!\n\nАле що це, хтось вилазить вежею? Вкрита тінями фігура зупиняється навпроти вікна та відкриває стулки..."
+  court_outcome.1100.a: "[Select_CString(target.IsFemale, 'Моя', 'Мій' )] [target.Custom('LoverPetName')] в небезпеці! Потрібно врятувати [target.GetHerHis]!"
+  court_outcome.1100.b: "«Стража! #EMP Стража!#! У вежі чужак!"
+  court_outcome.1100.b.failure: "[target.GetShortUIName|U] [Select_CString(target.IsFemale, 'поранена', 'поранений' )] зловмисником"
+  court_outcome.1100.b.success: "[target.GetShortUIName|U] втікає [Select_CString(target.IsFemale, 'неушкодженою', 'неушкодженим' )]"
+  court_outcome.1100.c: "Я тут не для того, щоби боротися з грабіжником."
+
+  # OWNER SUCCESS": You save target from the burglar/comfort target!"
+  court_outcome.1101.start.desc: "Звуки боротьби нагорі надихають мене сильніше, ніж будь-що в моєму житті. Не дбаючи про життя та здоров'я, я кидаюся у вікно.\n\n"
+  court_outcome.1101.owner_fights.desc: "Я почуваюся так, ніби пірнаю в крижане озеро. [target.GetFirstNameNoTooltip] лежить на підлозі, зловмисник навалився на [Select_CString(target.IsFemale, 'неї', 'нього' )] зверху, а поміж ними блищить ніж. З ревом я хапаю лиходія за комір і жбурляю до стіни. Далі все наче в тумані.\n\nКоли небезпеки більше немає, я повертаюсь до [Select_CString(target.IsFemale, 'неї', 'нього' )]."
+  court_outcome.1101.target_fights.desc: "Мені відкривається несподіване видовище. Перевернуті меблі, розірвані фіранки, та [target.GetFirstName] стоїть над нерухомим тілом із закривавленим кинджалом у руці.\n\n"
+  court_outcome.1101.end.desc: "«[target.GetFirstNameNoTooltip], ви в порядку?» — обережно питаю я. Мої слова немов знімають чари, [target.GetSheHe] нарешті приходить до тями і кидається до мене. «О [target.GetFaith.HighGodName], як добре, що ви тут, [ROOT.Char.GetFirstNameNoTooltip]!»"
+  court_outcome.1101.a: "Тепер я захищатиму вас від будь-якої небезпеки!"
+
+  # OWNER FAILURE": Target was fine without your help/is scared "
+  court_outcome.1102.end.desc: "«Що ви тут робите?!» — запитує [target.GetSheHe] тремтячим голосом. Я піднімаю руки на знак мирних намірів, але [target.GetSheHe] дістає кинджал. «Не підходьте! Ідіть зараз же, або я #EMP зроблю#! вам боляче!»"
+  court_outcome.1102.a: "Я тільки хочу допомогти!"
+
+  # OWNER FAILURE": Target has another lover..."
+  court_outcome.1103.desc: "Звуки боротьби нагорі надихають мене сильніше, ніж будь-що в моєму житті. Не встигнувши нічого спланувати, я стрибаю до вікна. Перелазю всередину, і... мені відкривається зовсім несподіване видовище.\n\n[target.GetTitledFirstName] не те щоб... #EMP бореться#!. Ні, [target.GetSheHe], схоже, насолоджується... [target.GetSheHe] та [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
+
+  # TARGET SUCCES": is informed about outcome"
+  court_outcome.1105.t: "Зловмисник"
+  court_outcome.1105.start.desc: "#EMP Хлоп!#! Я... де я? Що відбувається? Я вдивляюсь у темряву, і мої очі поступово звикають. #EMP [ROOT.Char.GetFaith.HighGodName].#! Хтось стоїть біля вікна моєї спальні.\n\n"
+  court_outcome.1105.owner_fights.desc: "Я вибираюся з ліжка та біжу до дверей, але зловмисник надто швидкий. Він хапає мене за руку і збиває з ніг. Я не встигаю закричати, перш ніж рука затискає мені рот.\n\n«Слухай уважно, [ROOT.Char.GetTitleAsNameNoTooltip]. Роби, як я говорю, і ніхто...» Його слова обриваються булькаючим звуком, коли кинджал входить йому в шию.\n\n«[target.GetFirstNameNoTooltip], все гаразд?» — цей голос я впізнаю де завгодно. Мій рятівник — [owner.GetTitledFirstName] власною персоною!"
+  court_outcome.1105.target_fights.desc: "Я вибираюся з ліжка і тягнусь до кинджала на столику. Зловмисник хапає мене за руку, смикає, я повертаюсь і вганяю кинджал йому глибоко в живіт. Лиходій дивиться на мене нескінченно довгим поглядом, його губи беззвучно ворушаться. Потім він падає на підлогу.\n\n«[target.GetFirstNameNoTooltip], у вас все гаразд?» — біля вікна стоїть [owner.GetTitledFirstName] власною персоною з мечем в руці, [Select_CString(owner.IsFemale, 'готова', 'готовий' )] захистити мене. Я кидаюся у [owner.GetHerHis] обійми і міцно притискаюся до [Select_CString(owner.IsFemale, 'неї', 'нього' )]."
+  court_outcome.1105.a: "Ох, кохання моє! Більше ніколи не випускай мене з поля зору!"

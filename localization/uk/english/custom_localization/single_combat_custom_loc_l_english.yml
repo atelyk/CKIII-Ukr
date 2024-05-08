@@ -1,0 +1,17 @@
+﻿l_english:
+  grit_type_grit: "гравій"
+  grit_type_dirt: "бруд"
+  grit_type_sand: "пісок"
+  grit_type_bog_water: "болотна вода"
+  grit_type_twigs: "гілочки"
+  grit_type_wet_leaves: "мокре листя"
+  grit_type_dry_grass: "суха трава"
+
+  ground_type_dust: "пил"
+  ground_type_dirt: "бруд"
+  ground_type_rocks: "каміння"
+  ground_type_sandy_rocks: "піщані скелі"
+  ground_type_sand: "пісок"
+  ground_type_wet_grass: "мокра трава"
+  ground_type_mulch: "мульча"
+  ground_type_grass: "трава"

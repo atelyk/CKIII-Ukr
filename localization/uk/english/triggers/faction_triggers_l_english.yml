@@ -1,0 +1,29 @@
+﻿l_english:
+
+  CAN_CREATE_FACTION_TRIGGER: "Може створити фракцію $TYPE|V$ проти персонажа [TARGET_CHARACTER.GetShortUIName]"
+  NOT_CAN_CREATE_FACTION_TRIGGER: "#bold Не#! може створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти персонажа [TARGET_CHARACTER.GetShortUIName]"
+  I_CAN_CREATE_FACTION_TRIGGER: "Ви можете створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти персонажа [TARGET_CHARACTER.GetShortUIName]"
+  NOT_I_CAN_CREATE_FACTION_TRIGGER: "Ви #bold не#! можете створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти персонажа [TARGET_CHARACTER.GetShortUIName]"
+  THEY_CAN_CREATE_FACTION_TRIGGER: "[CHARACTER.GetShortUIName|U] може створити фракцію $TYPE|V$ проти персонажа [TARGET_CHARACTER.GetShortUIName]"
+  NOT_THEY_CAN_CREATE_FACTION_TRIGGER: "[CHARACTER.GetShortUIName|U] #bold не#! може створити [Concept( 'faction', 'фракцію' )|E] $TYPE|V$ проти персонажа [TARGET_CHARACTER.GetShortUIName]"
+
+  CAN_JOIN_FACTION_TRIGGER: "Може долучитися до фракції [FACTION.GetNameNoTooltip]"
+  NOT_CAN_JOIN_FACTION_TRIGGER: "#bold Не#! може долучитися до фракції [FACTION.GetNameNoTooltip]"
+  I_CAN_JOIN_FACTION_TRIGGER: "Ви можете долучитися до фракції [FACTION.GetNameNoTooltip]"
+  NOT_I_CAN_JOIN_FACTION_TRIGGER: "Ви #bold не#! можете долучитися до фракції [FACTION.GetNameNoTooltip]"
+  THEY_CAN_JOIN_FACTION_TRIGGER: "[CHARACTER.GetShortUIName|U] може долучитися до фракції [FACTION.GetNameNoTooltip]"
+  NOT_THEY_CAN_JOIN_FACTION_TRIGGER: "[CHARACTER.GetShortUIName|U] #bold не#! може долучитися до фракції [FACTION.GetNameNoTooltip]"
+
+  WAS_BLOCKED_FROM_JOINING_TRIGGER: "Нещодавно заборонили вступати до фракцій"
+  I_WAS_BLOCKED_FROM_JOINING_TRIGGER: "Вам нещодавно заборонили вступати у фракції"
+  THEY_WAS_BLOCKED_FROM_JOINING_TRIGGER: "Персонажу [CHARACTER.GetShortUIName|U] нещодавно заборонили вступати до фракцій"
+
+  BARONS_CANNOT_JOIN_INDEPENDENCE_FACTIONS: "[independence_factions|E] закриті для [Concept( 'barons', 'баронів' )|El]"
+
+  CANNOT_START_FACTION_AGAINST_CHARACTER: "Не може бути сформована [faction|El] проти персонажа [CHARACTER.GetShortUIName]"
+
+  CHARACTER_CANNOT_LOWER_CROWN_AUTHORITY: "[CHARACTER.GetShortUIName|U] already has the lowest possible [crown_authority|E]"
+
+  CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER: "У вас є [Concept( 'modifier', 'модифікатор' )|E], що перешкоджає вступу до [Concept( 'faction', 'фракцій' )|E]"
+  IS_A_FACTION_MEMBER_TRIGGER: "Is a faction member"
+  FACTION_CAN_PRESS_DEMANDS_TRIGGER: "Faction can press demands"

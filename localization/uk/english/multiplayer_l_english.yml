@@ -1,0 +1,9 @@
+﻿l_english:
+  RANDOM_COUNT: "Випадкове число"
+  RANDOM_SEED: "Випадкове початкове число"
+  GAMESTATE_CHECKSUM: "Контрольна сума стану гри"
+  LIVING_CHARACTERS: "Живі персонажі"
+  MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY: "Лише Microsoft"
+  MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY_TT: "#T $MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY$\n#!$JOM_BULLET_WITH_TAB$Гра в списку, і її видно лише гравцям Microsoft Store\n$JOM_BULLET_WITH_TAB$Гравці, що знають пароль, можуть приєднатися, а якщо пароля немає, то приєднатися може хто завгодно\n$JOM_BULLET_WITH_TAB$Гравці також можуть приєднуватися за запрошенням, або якщо хост повідомить їм ID сервера\n$JOM_BULLET_WITH_TAB$Приєднуватися можуть лише гравці, що використовують облікові записи Microsoft"
+  MULTIPLAYER_GUI_CLICK_TO_SELECT: "Натисніть на карту, щоб вибрати [Concept( 'character', 'персонажа' )|E] для гри"
+  MULTIPLAYER_GUI_SERVER_BROWSER_PASTE_ID: "#T Вставте ID сервера з буфера обміну#!"

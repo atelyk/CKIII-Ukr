@@ -1,0 +1,48 @@
+﻿l_english:
+  pilgrimage_sympathetic_towards_faiths_modifier: "Прихильність до іновірців"
+  pilgrimage_disdainful_towards_faiths_modifier: "Зневага до іновірців"
+
+  pilgrimage_foreign_guards_modifier: "Іноземна варта"
+  pilgrimage_foreign_guards_modifier_desc: "Цей персонаж найняв іноземних особистих охоронців з далеких земель"
+
+  pilgrimage_divine_protection_modifier: "Божественний захист"
+  pilgrimage_divine_protection_modifier_desc: "Цей персонаж майже беззахисно спокійно пересувався через іноземні землі та повернувся неушкодженим"
+
+  new_pilgrimage_companions_modifier: "Різноманітні супутники в паломництві"
+  new_pilgrimage_companions_modifier_desc: "Цей персонаж подорожував з багатьма різними людьми"
+
+  pilgrimage_completely_lost_modifier: "Заблукалий"
+  pilgrimage_completely_lost_modifier_desc: "Цей персонаж заблукав під час паломництва"
+
+  showy_about_pilgrimage_modifier: "Показне паломництво"
+  showy_about_pilgrimage_modifier_desc: "Цей персонаж впевнився, що кожен знає, наскільки благочесним було його паломництво"
+
+  pilgrimage_worldly_modifier: "Практичне паломництво"
+  pilgrimage_worldly_modifier_desc: "Паломництво навчило цього персонажа багато нового про світ навколо"
+
+  dedicated_to_pilgrimage_modifier: "Цілеспрямований паломник"
+
+  hajj_halq_modifier: "Галк"
+  hajj_halq_modifier_desc: "Голова цього персонажа вибрита наголо в честь нещодавнього завершення Гаджа."
+
+  pilgrimage_armed_pilgrimages_modifier: "Рішучий паломник"
+  pilgrimage_armed_pilgrimages_modifier_desc: "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]."
+  pilgrimage_mendicant_preachers_modifier: "Подорож у бідності"
+  pilgrimage_mendicant_preachers_modifier_desc: "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]."
+  pilgrimage_pentarchy_modifier: "Місця єпископів"
+  pilgrimage_pentarchy_modifier_desc: "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_pentarchy').GetBaseName]."
+  pilgrimage_struggle_submission_modifier: "Демонстрація покори"
+  pilgrimage_struggle_submission_modifier_desc: "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]."
+  pilgrimage_ancestor_worship_modifier: "Стопами попередників"
+  pilgrimage_ancestor_worship_modifier_desc: "Цей персонаж здійснив паломництво, слідуючи [Concept( 'core_tenet', 'основному догмату' )|E], який проголошує [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]."
+
+  pilgrimage_religious_reflections_modifier: "Зустріч із містиком під час паломництва"
+
+  pilgrimage_rest_and_good_health_modifier: "Спокійний подорожній"
+  pilgrimage_rest_and_good_health_modifier_desc: "Цей персонаж не перенапружувався у мандрівці."
+
+  pilgrimage_botched_miracle_modifier: "Suffered a Botched Miracle"
+  pilgrimage_botched_miracle_modifier_desc: "This character's affliction was made worse by a botched miracle."
+
+  pilgrimage_miracle_witness_modifier: "Witness to a Miracle"
+  pilgrimage_miracle_witness_modifier_desc: "This character witnessed a miracle."

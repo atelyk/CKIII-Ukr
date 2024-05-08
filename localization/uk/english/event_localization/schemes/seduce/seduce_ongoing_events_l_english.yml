@@ -1,0 +1,680 @@
+﻿l_english:
+  seduce_ongoing.success.rejection: "Це було мило, але на цьому все."
+  seduce_ongoing.failure.rejection: "Ні, ні і завжди ні, [owner.GetFirstNameNoTooltip]."
+  seduce_ongoing_decline_event.tt: "Я не дію, і [target.GetTitledFirstName] не [Select_CString(target.IsFemale, 'вражена', 'вражений' )]"
+  seduce_ongoing_possible_outcomes_tooltip_effect.success.desc: "Усе йде згідно з планом"
+  seduce_ongoing_possible_outcomes_tooltip_effect.failure.desc: "[target.GetFirstNameNoTooltip] не [Select_CString(target.IsFemale, 'вражена', 'вражений' )]"
+
+  seduce_ongoing.1001.t: "Танок"
+  seduce_ongoing.1001.distant_opening: "[court_of_residence.GetNameNoTier] чекає на мене, і ось уже [court_owner.Custom('ResidenceBuilding')] відчиняє двері. Я пред'являю запрошення і бачу, що танці якраз розпочинаються. Прекрасно. [target.GetTitledFirstName] буде там, і мені неодмінно потрібно [SCOPE.sC('target').GetHerHis] побачити."
+  seduce_ongoing.1001.close_opening: "Я збираюся на танці, але не тому, що [court_owner.Custom('ResidenceBuilding')] — моя оселя: я сподіваюся, що там буде [target.GetTitledFirstName]."
+  seduce_ongoing.1001.desc: "\n\n[target.GetSheHe|U] блискуче виглядає, і коли ми нарешті усамітнюємося, я роблю пропозицію."
+  seduce_ongoing.1001.a: "Подаруйте мені наступний танець [Select_CString(target.IsFemale, 'моя', 'мій' )] [target.GetLadyLord]?"
+  seduce_ongoing.1001.a.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'грайлива'', 'грайливий' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+  seduce_ongoing.1001.b: "Прогуляємося у саду, подалі від усіх?"
+  seduce_ongoing.1001.b.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'вдумлива', 'вдумливий' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+  seduce_ongoing.1001.c: "Чи можу я запропонувати вам ще якісь страви?"
+  seduce_ongoing.1001.c.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'жадібна', 'жадібний' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+  seduce_ongoing.1001.d: "Ви бачили, як ці люди «танцюють»?"
+  seduce_ongoing.1001.d.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'озлоблена', 'озлоблений' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+
+  seduce_ongoing.1003.opening: "[court_owner.Custom('ResidenceBuilding')] пливе в ритмі танцю, і ось [owner.GetTitledFirstName] підходить до мене і пропонує скласти компанію."
+  seduce_ongoing.1003.dance: "\n\nМи кружляємо в танці, і на нас звертає увагу чи не кожен. Я сміюся, як [ROOT.Char.Custom('GirlBoy')]!"
+  seduce_ongoing.1003.walk: "\n\nМи гуляємо в саду, розмовляємо про все на світі та раптом розуміємо, що зовсім втратили рахунок часу!"
+  seduce_ongoing.1003.food: "\n\n[owner.GetSheHe|U] кличе слуг, і коли приносять нові страви, ми проводимо більшу частину ночі за спільною трапезою. Як смачно!"
+  seduce_ongoing.1003.mockery: "\n\nМи разом жартуємо над гостями та сміємося. [owner.GetFirstNamePossessiveNoTooltip] відрізняється дивовижною дотепністю!"
+  seduce_ongoing.1003.fallback: "\n\nЧи не весь святковий вечір ми присвятили танцям, і були від цього у справжньому захваті!"
+  seduce_ongoing.1003.a: "То був чудовий вечір!"
+
+  seduce_ongoing.1004.dance: "[owner.GetSheHe|U] не розуміє натяків, що танці мене не цікавлять, і, неохоче зробивши пару па, я прошу [SCOPE.sC('owner').GetHerHis] дати мені спокій."
+  seduce_ongoing.1004.walk: "Прогулянка по саду підбадьорює мене, але [owner.GetFirstNamePossessive] балакає безперервно, що неймовірно дратує.\n\nКоли стає і зовсім нестерпно, я вибачаюсь і повертаюся до танців."
+  seduce_ongoing.1004.food: "Не скажу, що [owner.GetHerHis] компанія мені неприємна, але весь вечір [owner.GetSheHe] посилає прислугу за новими стравами. Коли в мене не залишається сил жувати, я перепрошую і повертаюся до танців."
+  seduce_ongoing.1004.mockery: "[target.GetSheHe|U] сидить біля мене, глузуючи з інших гостей.\n\nЦе не тільки жорстоко, але грубо і невигадливо."
+  seduce_ongoing.1004.fallback: "[owner.GetSheHe|U] безперервно розписує, наскільки приємно можна проводити час на святах, але при цьому [Select_CString(owner.IsFemale, 'сама', 'сам' )] [owner.GetSheHe] [Select_CString(owner.IsFemale, 'виявилася жахливою співрозмовницею', 'виявився жахливим співрозмовником' )]."
+  seduce_ongoing.1004.a: "Про що [owner.GetSheHe] [Select_CString(owner.IsFemale, 'думала', 'думав' )]?"
+
+  seduce_ongoing.1005.dance: "[target.GetTitledFirstName] кружляє зі мною в танці під загальним захопленим поглядами, і [target.GetSheHe] сміється від щирого серця."
+  seduce_ongoing.1005.walk: "[target.GetTitledFirstName] і я гуляємо садом, розмовляємо про все на світі. Раптом виявляється, що ми втратили рахунок часу! Коли ми повертаємось, веселощі вже стихали."
+  seduce_ongoing.1005.food: "Я наказую слугам принести більше їжі - сьогодні ввечері я і [target.GetTitledFirstName] будемо їсти найвишуканіші страви, якими славиться [court_of_residence.GetNameNoTier]. [target.GetWomanMan] безперечно цінує радості життя."
+  seduce_ongoing.1005.mockery: "Ми сидимо пліч-о-пліч і глузуємо з гостей. Хто б міг подумати, що [target.GetTitledFirstName] володіє витонченим мистецтвом глузувань!"
+  seduce_ongoing.1005.fallback: "[target.GetTitledFirstName] і я присвячуємо танцям чи не весь святковий вечір й залишається від цього у справжньому захваті!"
+  seduce_ongoing.1005.a: "Оце вечір!"
+
+  seduce_ongoing.1006.dance: "Коли [target.GetSheHe] [Select_CString(target.IsFemale, 'погодилася', 'погодився' )] потанцювати, мені здалося, що все йде чудово, але незважаючи на мою майстерність, незабаром [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'вибачилася', 'вибачився' )] і [Select_CString(target.IsFemale, 'залишила', 'залишив' )] мене на самоті серед танцівників."
+  seduce_ongoing.1006.walk: "Ми гуляли, і мені здавалося, що нам обом добре. Не знаю, що тому виною, холод чи моя надмірна балакучість, але незабаром [target.GetSheHe] [Select_CString(target.IsFemale, 'вибачилася', 'вибачився' )] і [Select_CString(target.IsFemale, 'пішла', 'пішов' )] не обертаючись.\n\nДо мого повернення [target.GetSheHe] вже на повну силу [Select_CString(target.IsFemale, 'веселилася', 'веселився' )] з іншими танцюристами."
+  seduce_ongoing.1006.food: "Можливо, [target.GetTitledFirstName] не [Select_CString(target.IsFemale, 'оцінила', 'оцінив' )] їжу, яку принесли слуги? Але навіть після [target.GetHerHis] вибачень і швидкої втечі страви продовжували прибувати з кухні, і мені довелося понуро колупати їх на самоті."
+  seduce_ongoing.1006.mockery: "Як я не намагаюся, [target.GetTitledFirstName] не сміється з моїх жартів. Зрештою [target.GetSheHe] звинувачує мене в безглуздій жорстокості та залишає на самоті."
+  seduce_ongoing.1006.fallback: "Я пропоную різні способи провести час на святі, але [target.GetTitledFirstName] сприймає мої ідеї без інтересу. Я роблю щось не так?"
+  seduce_ongoing.1006.a: "Все пройшло не дуже добре."
+
+  seduce_ongoing.successful.target: "\n\nПодарунок був анонімним, але [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'зробила', 'зробив' )] все можливе, щоб мені стало зрозуміло, що за ним стоїть SCOPE.sC('owner').GetSheHe]."
+  seduce_ongoing.unsuccessful.target: "\n\nПодарунок прибув від невідомого відправника, але одразу ясно, що його [Select_CString(owner.IsFemale, 'надіслала', 'надіслав' )] [SCOPE.sC('owner').GetTitledFirstName]…"
+  seduce_ongoing.target_successful.option: "[owner.GetSheHe|U] заслуговує на мою глибоку подяку!"
+  seduce_ongoing.target_unsuccessful.option: "Можливо, #EMP комусь#! таке подобається..."
+
+  seduce_ongoing.target.opening: "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
+  seduce_ongoing.successful.owner: "[SCOPE.Custom('SeductionGiftType')] — чудовий подарунок, мені давно таких не дарували. Щиро дякую!"
+  seduce_ongoing.unsuccessful.owner: "[SCOPE.Custom('SeductionGiftType')]... Не знаю, навіщо було надсилати мені такий подарунок, але я його запам'ятаю."
+  seduce_ongoing.owner_successful.option: "Для вас - все, що завгодно, [target.GetFirstNameNoTooltip]."
+  seduce_ongoing.owner_unsuccessful.option: "Що я роблю не так?"
+
+  seduce_ongoing.1101.t: "Щось дороге"
+  seduce_ongoing.1101.desc: "[target.GetTitledFirstNamePossessive] напевно помітить такий подарунок, та й кого не потішить така безперечно дорога річ?"
+  seduce_ongoing.gift_selection.tapestry: "Гобелен із зображенням [target.GetHerHis] династії."
+  seduce_ongoing.gift_selection.tapestry_tt: "Думаю, [target.GetTitledFirstName] з тих людей, чия вірність належить сім'ї та династії"
+  seduce_ongoing.gift_selection.horse: "Чистокровний скакун – гідний подарунок."
+  seduce_ongoing.gift_selection.horse_tt: "Думаю, [target.GetTitledFirstName] не любить сидіти на місці і віддає перевагу пригодам просто неба"
+  seduce_ongoing.gift_selection.tailor: "Кравець, який доведе [SCOPE.sC('target').GetHerHis] вигляд до досконалості!"
+  seduce_ongoing.gift_selection.tailor_tt: "Думаю, [target.GetTitledFirstName] любить вражати людей бездоганними вбраннями"
+  seduce_ongoing.gift_selection.decline: "Може, не варто."
+
+  seduce_ongoing.1102.t: "Більше ніж подарунок"
+  seduce_ongoing.1102.desc: "Всі люблять подарунки, але мені варто вигадати щось унікальне, чим [target.GetTitledFirstName] буде по-справжньому [Select_CString(target.IsFemale, 'вражена', 'вражений' )]!"
+  seduce_ongoing.gift_selection.embroidery: "Вишитий герб [target.GetHerHis] дому."
+  seduce_ongoing.gift_selection.embroidery_tt: "Думаю, [target.GetTitledFirstName] піклується про престиж свого роду"
+  seduce_ongoing.gift_selection.poem: "Написана на замовлення поема про радощі життя, присвячена [target.GetHerHim]"
+  seduce_ongoing.gift_selection.poem_tt: "Думаю, [target.GetTitledFirstName] цінує тілесні насолоди, ну або, в крайньому разі, поезію"
+  seduce_ongoing.gift_selection.woodcarving: "Дерев'яний макет замку!"
+  seduce_ongoing.gift_selection.woodcarving_tt: "Думаю, [target.GetTitledFirstName] цінує архітектуру"
+
+  seduce_ongoing.1103.t: "Невеликий, але значний сувенір"
+  seduce_ongoing.1103.desc: "Не кожен подарунок має бути розкішним та дорогим. Іноді невеликий сувенір справляє значно більше враження, якщо вибрати його з розумом. Цікаво, що оцінить [target.GetTitledFirstName]."
+  seduce_ongoing.gift_selection.jewelry: "Срібний медальйон, який [target.GetHerHis] носитиме у серця."
+  seduce_ongoing.gift_selection.jewelry_tt: "Здається мені, [SCOPE.sC('target').GetTitledFirstName] любить привертати увагу людей - або просто цінує все блискуче"
+  seduce_ongoing.gift_selection.stuffed_animal: "Опудало лисиці — ось справді незвичайний подарунок..."
+  seduce_ongoing.gift_selection.stuffed_animal_tt: "Думаю, найбільше на світі — більше самого життя! — [SCOPE.sC('target').GetTitledFirstName] любить символи влади"
+  seduce_ongoing.gift_selection.flower_display: "Старанно підібрані квіти - [court_location.GetNameNoTierNoTooltip] стане ще більш розкішним, коли орнамент прикрасить сад."
+  seduce_ongoing.gift_selection.flower_display_tt: "Думаю, [target.GetTitledFirstName] любить доглядати щось чи просто насолоджується красою"
+
+  seduce_ongoing.1104.t: "Щось незвичайне"
+  seduce_ongoing.1104.desc: "У наш час можна придбати знаки уваги будь-яких форм та розмірів. Але щоб [target.GetTitledFirstName] по-справжньому [Select_CString(target.IsFemale, 'здивувалася', 'здивувався' )], потрібно подарувати [target.GetHerHim] щось справді особливе"
+  seduce_ongoing.gift_selection.rare_book: "Потрібно запропонувати особливо рідкісну книгу [target.GetHerHim]."
+  seduce_ongoing.gift_selection.rare_book_tt: "Вважаю, [target.GetTitledFirstName] прагне знань. Або просто любить речі, які з ними пов'язані"
+  seduce_ongoing.gift_selection.handkerchief: "Хустка з моїм гербом."
+  seduce_ongoing.gift_selection.handkerchief_tt: "Думаю, [target.GetTitledFirstName] з радістю прийме подарунок із символікою такого знатного роду, як мій"
+  seduce_ongoing.gift_selection.object: "[SCOPE.Custom('SeductionObjectIndefinite')|U] — згадка про нашу першу зустріч"
+  seduce_ongoing.gift_selection.object_tt: "Думаю, [target.GetTitledFirstName] вже плекає до мене певні почуття"
+
+  seduce_ongoing.1201.t: "Гарний вибір"
+  seduce_ongoing.1201.desc: "Мені подарували чудовий гобелен зі сценами історії моєї династії в обрамленні гербових орнаментів!"
+  seduce_ongoing.1201.a: "[owner.GetSheHe|U] заслуговує на мою глибоку подяку!"
+
+  seduce_ongoing.1301.t: "Дивний подарунок"
+  seduce_ongoing.1301.desc: "Мені подарували гобелен, на якому, зважаючи на все, мали бути присутніми сцени з історії моєї династії, але фігури виглядають дивно, і зовсім неясно, чим вони займаються."
+  seduce_ongoing.1301.a: "Продайте його. Принаймні на ковдру стати у пригоді."
+
+  seduce_ongoing.1202.opening: "Мені подарували коня — породистого та добре доглянутого! Без сумніву, могутній звір витримає будь-які перегони, і"
+  seduce_ongoing.1202.courtier: "[courtier.GetTitledFirstName] вже обсипає його заздрісними поглядами."
+  seduce_ongoing.1202.no_courtier: "при дворі ним уже захоплюються."
+
+  seduce_ongoing.1302.desc: "Мені подарували коня, але я навіть думати не хочу про те, щоб сісти на цю напівмертву шкапу."
+  seduce_ongoing.1302.a: "Навіщо мені цей мул? Продайте його."
+
+  seduce_ongoing.1203.desc: "До двору прибув кравець з особливим дорученням створити одяг моєї мрії. Коли [ROOT.Char.GetHerHis] робота завершена, я можу впевнено заявити, що [ROOT.Char.GetSheHe] — справжній майстер!"
+  seduce_ongoing.1203.a: "Я почуваюся чудово!"
+
+  seduce_ongoing.1303.desc: "До двору прибув кравець з особливим дорученням створити одяг моєї мрії. Але варто мені запитати, що не так з моїм нинішнім одягом, [ROOT.Char.GetSheHe] просто жахнувся."
+  seduce_ongoing.1303.a: "Що ж, потворні лахміття, які [ROOT.Char.GetSheHe] вважає моїм новим вбранням, можна спробувати продати."
+
+  seduce_ongoing.1204.desc: "Я розгортаю шкіряний пакунок і не вірю своїм очам. Цій книзі, мабуть, не менше століття. Я ніби бачу, як стародавній майстер виписує літери, а художники малюють мініатюри та наносять позолоту."
+  seduce_ongoing.1204.a: "Які дива можуть ховати її сторінки?"
+
+  seduce_ongoing.1304.desc: "З деяким подивом я дістаю зі шкіряного пакунка запорошену книгу. Прогорнувши сторінки, я бачу лише кілька досить милих ілюстрацій, але текст навіть прочитати не можу."
+  seduce_ongoing.1304.a: "З деяким подивом я дістаю зі шкіряного пакунка запорошену книгу. Прогорнувши сторінки, я бачу лише кілька досить милих ілюстрацій, але текст навіть прочитати не можу."
+
+  seduce_ongoing.1205.desc: "Мені надіслали чудову яскраву вишивку з гербом мого дому! Вона матиме чудовий вигляд над каміном у моїх покоях."
+  seduce_ongoing.1205.a: "Майстерність виконання нікого не залишить байдужим."
+
+  seduce_ongoing.1305.desc: "Мені надіслали велику вишивку, яка, мабуть, мала зображати герб мого дому. Не знаю, чим керувався майстер, але вийшло щось незрозуміле. Можливо, ця річ стане у пригоді комусь ще..."
+  seduce_ongoing.1305.a: "Було б мило, якби майстер не помилився гербом..."
+
+  seduce_ongoing.1206.desc: "Переді мною постав поет і заволав: «Про [ROOT.Char.Custom('ComplimentAdjective')][Select_CString(ROOT.Char.IsFemale, 'ая', 'ий' )] [ROOT.Char.GetTitledFirstName]! Дозвольте оспівати вам радості життя!»"
+  seduce_ongoing.1206.a: "Просто ковток свіжого повітря у віршах!"
+
+  seduce_ongoing.1306.desc: "Переді мною з'явився поет і заволав: «О [ROOT.Char.Custom('ComplimentAdjective')][Select_CString(ROOT.Char.IsFemale, 'ая', 'ий' )] [ROOT.Char.GetTitledFirstName]! Дозвольте оспівати вам радості життя!» Тепер я точно знаю: його вірші до радостей життя не входять."
+
+  seduce_ongoing.1207.desc: "Мені надіслали різьблену дерев'яну фігурку замку! Тепер вона стоїть у всіх на очах, і кожен гість вважає своїм обов'язком похвалити майстерність та ретельність опрацювання."
+  seduce_ongoing.1207.a: "Яка незвичайна річ!"
+
+  seduce_ongoing.1307.desc: "Мені надіслали різьблену фігурку… Здається, це якась будівля? А… це мав бути замок! Теоретично…"
+  seduce_ongoing.1307.a: "Цікаво, чи довго вона зможе підтримувати полум'я в каміні?"
+
+  seduce_ongoing.1208.desc: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'надіслала', 'надіслав' )] мені подарунок. Це [SCOPE.Custom('SeductionObjectIndefinite')], символ нашої першої зустрічі."
+  seduce_ongoing.1208.a: "[owner.GetSheHe] же ш не думає , що я можу про це забути?"
+
+  seduce_ongoing.1308.desc: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'прислала', 'прислав' )] мені подарунок. Це [SCOPE.Custom('SeductionObjectIndefinite')], символ нашої першої зустрічі. [owner.GetSheHe|U], схоже, згадує про неї з набагато більшим теплом, ніж я."
+
+  seduce_ongoing.1209.desc: "Я отримую невеликий, але надзвичайно красивий срібний медальйон. Мені цікаво, що всередині, але цікавість оточення набагато важливіша. Нехай здогадуються."
+  seduce_ongoing.1209.a: "Можливо, колись хтось допоможе мені його відкрити?"
+
+  seduce_ongoing.1309.desc: "Я отримую маленький медальйон, і спочатку навіть не розумію, що ця тьмяна штуковина зроблена зі срібла. Крім того, він не відкривається, а значить, користі від нього мало."
+  seduce_ongoing.1309.a: "Як можна було припустити, що це мені потрібно?"
+
+  seduce_ongoing.1210.desc: "Це вельми незвичайний подарунок, але не можу не визнати: опудало лисиці має дивну принадність. Можливо, вся справа в застиглій підступній усмішці на губах звіра?"
+  seduce_ongoing.1210.a: "Незвичайно, але не позбавлено приємності."
+
+  seduce_ongoing.1310.desc: "Заберіть від мене цю штуку! Гидкий вищир лисячого опудала огидний."
+  seduce_ongoing.1310.a: "Кому взагалі може таке сподобатися?"
+
+  seduce_ongoing.1211.desc: "Квітковий орнамент дивовижний. З того часу, як селяни розсадили всі квіти в потрібному порядку, прогулянки садом стали набагато популярнішими."
+  seduce_ongoing.1211.a: "Хто б міг подумати, що ця краса настільки зачепить моє серце."
+
+  seduce_ongoing.1311.desc: """[ROOT.Char.GetLadyLord], ви не хочете, щоб ми це садили? — селяни стоять переді мною, з ящиків, які вони приволокли, сипнеться земля. Квітковий орнамент, який вони принесли, виглядає старим і пошарпаним."""
+  seduce_ongoing.1311.a: "Щоб цієї гидоти й поряд із садами не було."
+
+  seduce_ongoing.1212.desc: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'відправила', 'відправив' )] мені подарунок — хустку з вишитим гербом династії [owner.GetDynasty.GetBaseName].\n\nЯкщо я носитиму з собою їхню емблему... Цікаво, що скаже оточення на таку кричущу зухвалість?"
+  seduce_ongoing.1212.a: "Не знаю яке, але враження це справить."
+
+  seduce_ongoing.1312.desc: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'відправила', 'відправив' )] мені подарунок — хустку з вишитим гербом династії [owner.GetDynasty.GetBaseName].\n\n[owner.GetSheHe] серйозно вважає, що я демонструватиму [owner.GetHerHis] привселюдно? Яка дика самовпевненість!"
+
+  seduce_ongoing.1801.t: "[ROOT.Char.Custom('MistressMaster')|U] слова"
+  seduce_ongoing.1801.start.desc: "Дипломатичне мистецтво мені близьке, і я розумію, на що здатний яскравий та доречний комплімент. Підкреслити найкращу якість людини та захопитися нею — найпряміша дорога до серця будь-кого.\n\n"
+  seduce_ongoing.1801.close.desc: "Коли наступного разу мені зустрінеться [target.GetFirstNamePossessive], я відповім тим самим."
+  seduce_ongoing.1801.distant.desc: "[target.GetFirstName] [Select_CString(target.IsFemale, 'достойна', 'достойний' )] листи, в якому я заспіваю [target.GetHerHis]..."
+
+  seduce_ongoing.1801.compassionate: "добре і ніжне серце."
+  seduce_ongoing.1801.bold: "сміливий і неприборканий дух."
+  seduce_ongoing.1801.honorable: "благородство та вірність."
+  seduce_ongoing.1801.greed: "амбіції та спрагу життя."
+  seduce_ongoing.1801.rational: "розсудливість та ясний розум."
+  seduce_ongoing.1801.zealous: "благочестя і непохитну віру."
+  seduce_ongoing.1801.energetic: "жвавість та запал."
+  seduce_ongoing.1801.forgiving: "незлобливість."
+  seduce_ongoing.1801.beautiful_male: "неймовірну мужню привабливість."
+  seduce_ongoing.1801.beautiful_female: "дивовижну красу."
+  seduce_ongoing.1801.strong: "вражаючу фізичну форму."
+  seduce_ongoing.1801.extroverted: "непереборна чарівність."
+  seduce_ongoing.1801.dominant: "енергію та наполегливість."
+  seduce_ongoing.1801.compliment.tt: "#F [target.GetTitledFirstName] прийме мій комплімент, якщо той буде доречний, але деякі інші обставини також можуть вплинути."
+
+  seduce_ongoing.1802.t: "Гарні слова"
+  seduce_ongoing.1802.close.desc: "Я блукаю по садах, занурившись у споглядання безмовної краси, і відпускаю думки на волю... зовсім не помічаючи, що на шляху стоїть [owner.GetTitledFirstName]. Поки я намагаюся прийти до тями, [owner.GetSheHe] вибачається і каже, що зовсім не [Select_CString(owner.IsFemale, 'хотіла', 'хотів' )] доставляти незручності, але дещо в мені привернуло [SCOPE.sC('owner').GetHerHis] увагу:"
+  seduce_ongoing.1802.distant.desc: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'надіслала', 'надіслав' )] мені загадковий лист. Вигадливе переплетення звичайних словесних запитів з веселими історіями неспроможне приховати головного посилання: дещо в мені дуже приваблює відправника —"
+  seduce_ongoing.1802.compassionate.desc: "моє «покірливе милосердя»."
+  seduce_ongoing.1802.bold.desc: "моя «натхненна відвага»."
+  seduce_ongoing.1802.honorable.desc: "мої «шляхетні принципи»."
+  seduce_ongoing.1802.greed.desc: "мої «далекоглядні прагнення»."
+  seduce_ongoing.1802.rational.desc: "моя «рідкісна врівноваженість»."
+  seduce_ongoing.1802.zealous.desc: "моя «дивовижна віра»."
+  seduce_ongoing.1802.energetic.desc: "мояжиттєва сила""""."""
+  seduce_ongoing.1802.forgiving.desc: "моє «великодушне милосердя»."
+  seduce_ongoing.1802.beautiful_male.desc: "мояяскрава зовнішність""""."""
+  seduce_ongoing.1802.beautiful_female.desc: "моя «дивовижна краса»."
+  seduce_ongoing.1802.strong.desc: "моя «фізична досконалість»."
+  seduce_ongoing.1802.extroverted.desc: "моя «непереборна чарівність»."
+  seduce_ongoing.1802.dominant.desc: "моя «напориста енергія»."
+  seduce_ongoing.1802.good.desc: "\n\n[owner.GetHerHis|U] слова вказують на вельми несподіваний характер уваги до моєї персони, що застає мене зненацька."
+  seduce_ongoing.1802.neutral.desc: "\n\n[owner.GetHerHis|U] слова здаються нісенітницею, але мотиви в н[owner.GetHerHis], гадаю, добрі."
+  seduce_ongoing.1802.bad.desc: "\n\nДумаю, наміри у [owner.GetHerHis] добрі, але мені в [owner.GetHerHis] словах чується ледь прихований сарказм."
+  seduce_ongoing.1802.a.good: "[owner.GetTitledFirstNameNoTooltip]... ви мені лестите!"
+  seduce_ongoing.1802.a.bad: "Грубувато, але загалом мило."
+  seduce_ongoing.1802.b.good: "Наступного разу варто докласти більше зусиль."
+  seduce_ongoing.1802.b.bad: "Який сором..."
+  seduce_ongoing.1802.c: "Мені гидка така увага!"
+
+  seduce_ongoing.1601.t: "[location.GetNameNoTierNoTooltip] - оселя історій"
+  seduce_ongoing.1601.t_no_location: "Читання"
+  seduce_ongoing.1601.desc: "Святкування закінчується, і галасливі веселощі вщухають. [target.GetTitledFirstName] пропонує зайнятися читанням.\n\nНезабаром з'являється писар і запитує, що бажають послухати гості. Ось мій шанс! [target.GetFirstName] буде [Select_CString(target.IsFemale, 'вражена', 'вражений' )]."
+  seduce_ongoing.1601.a: "Щось благочестиве, наприклад «[SCOPE.Custom('RandomReligiousTextName')]»."
+  seduce_ongoing.1601.a.tt: "Думаю, [target.GetSheHe] оцінить релігійний текст."
+  seduce_ongoing.1601.b: "Розважатись — так розважатись.[SCOPE.Custom('RandomEntertainmentTextName')|U]""""!"""
+  seduce_ongoing.1601.b.tt: "Думаю, [target.GetSheHe] не проти послухати щось розважальне."
+  seduce_ongoing.1601.c: "[SCOPE.Custom('RandomInformativeTextName')|U] може багато чого нас навчити."
+  seduce_ongoing.1601.c.tt: "Думаю, [target.GetSheHe] не відмовиться дізнатися про щось нове."
+
+  seduce_ongoing.1603.desc: "Веселощі не обов'язково повинні змінюватися нудьгою. [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'придумала', 'придумав' )] чудову розвагу: запропонував почитати книгу - «[SCOPE.Custom('BookInQuestion')]»!"
+  seduce_ongoing.1603.a: "Я теж її обожнюю!"
+
+  seduce_ongoing.1604.desc: "Писар читає книгу, і, як здається, [target.GetFirstName] піддається чарівності рядків.\n\nПізніше [SCOPE.sC('target').GetSheHe] підходить до мене: «Чудовий вибір, [ROOT.Char.GetFirstName]», — каже [target.GetSheHe] і [target.Custom('quirk_pos_present')]."
+  seduce_ongoing.1604.a: "Чудово, чи не так?"
+
+  seduce_ongoing.1605.desc_1: "Виснажливий бенкет став ще гіршим, коли [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'запропонувала', 'запропонував' )] почитати книгу «[SCOPE.Custom('BookInQuestion')]»."
+  seduce_ongoing.1605.desc_2: "На щастя, [other_guest.GetTitledFirstName] незабаром [Select_CString(other_guest.IsFemale, 'запропонувала', 'запропонував' )] іншу книгу — «[SCOPE.Custom('GoodBookSuggestion')]»!"
+  seduce_ongoing.1605.desc_no_other_guest: "На щастя, невдовзі слуга запропонував іншу книгу — «[SCOPE.Custom('GoodBookSuggestion')]»!"
+  seduce_ongoing.1605.a: "Це набагато краще!"
+
+  seduce_ongoing.1606.desc_1: "Писар монотонно бубонить собі під ніс, і [target.GetFirstNamePossessive] явно відволікається."
+  seduce_ongoing.1606.desc_2: "\n\nПоки я роздумую, як урятувати становище, [other_guest.Custom2('MyCharacterIntroduction', ROOT.Char)] раптово встряє і запитує: «Прошу вибачення, але чи можу запропонувати для читання книгу [SCOPE.Custom('GoodBookSuggestion')]?»"
+  seduce_ongoing.1606.desc_3: "[target.GetFirstName] негайно зацікавлюється."
+  seduce_ongoing.1606.desc_no_other_guest: "Несподівано слуга подає голос. «Сильно вибачаюсь, але чи не хотіли б натомість почитати «[SCOPE.Custom('GoodBookSuggestion')]»?"
+  seduce_ongoing.1606.a: "Чому мені це не спало на думку?"
+
+  seduce_ongoing.1701.t: "Збори"
+  seduce_ongoing.1701.desc: "[court_of_residence.GetNameNoTier] проводить підготовку до турніру, і в день зборів я спеціально туди заглядаю. Всюди ходять офіцери, роздаючи поради, юні [target.Custom('MountedWarriorTermPlural')] слухають їх, а [target.GetFirstName] теж оглядає новобранців.\n\n[SCOPE.sC('target').GetHerHis|U] увага повністю поглинена підготовкою солдатів."
+  seduce_ongoing.1701.a: "Як щодо невеликого жартівливого поєдинку? Покажемо новачкам?"
+  seduce_ongoing.1701.a.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'грайлива або активна', 'грайливий або активний' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+  seduce_ongoing.1701.b: "Може, прогуляємось стіною, поговоримо про стратегію?"
+  seduce_ongoing.1701.b.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'вдумлива', 'вдумливий' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+  seduce_ongoing.1701.c: "Із задоволенням послухаю ваші плани щодо сезону податей."
+  seduce_ongoing.1701.c.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'ощадлива', 'ощадливий' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+  seduce_ongoing.1701.d: "Ці [target.Custom('MountedWarriorTermPlural')]... От би виставити когось із них повним дурнем..."
+  seduce_ongoing.1701.d.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'озлоблена', 'озлоблений' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+
+  seduce_ongoing.1703.opening: "На мій подив, на збори перед турніром, куди стікається багато молодих [target.Custom('MountedWarriorTermPlural')], прибуває [owner.GetTitledFirstName]."
+  seduce_ongoing.1703.duel: "\n\n[owner.GetSheHe|U] викликає мене на тренувальний поєдинок, і ми розігруємо перед молодняком справжню виставу. Жартівливий обмін ударами швидко переростає у серйозний поєдинок, але зрештою ми укладаємо один одного в обійми та обмінюємося подяками."
+  seduce_ongoing.1703.strategy: "\n\nМи прогулюємося стінами, неспішно розмовляючи про стратегію і поглядаючи вниз, на молодих бійців у дворі. [owner.GetFirstName] висловлює кілька цікавих ідей, і мені залишається лише сказати [owner.GetHerHim] дякую за новий погляд на моїх нових солдатів. Відхилення від теми теж виявились досить захоплюючими..."
+  seduce_ongoing.1703.tax_season: "\n\nЗбори, звичайно, справа важлива, але мені приємніше було провести час під дахом, обговорюючи плани на майбутній сезон податей, та й [owner.GetFirstName] - чудовий співрозмовник. Зрештою, як [owner.GetSheHe] вірно [Select_CString(owner.IsFemale, 'помітила', 'помітив' )], який толк від армії, якщо її нічим буде годувати?"
+  seduce_ongoing.1703.trap: "\n\nСпостерігати за молодими воїнами було необхідно, але нудно, тому коли [owner.GetFirstName] [Select_CString(owner.IsFemale, 'запропонувала', 'запропонував' )] трохи розважитися, відмовитись було неможливо. Паж вилив свинячу кров на землю біля загону, і кілька коней заметушилися від жаху, відправивши наїзників прямо в багнюку, інші ж ледве стримувалися!"
+  seduce_ongoing.1703.fallback: "\n\nЗазвичай спостерігати за новачками дуже втомливо, але [owner.GetFirstName] [Select_CString(owner.IsFemale, 'заставила', 'заставив' )] день пролетіти непомітно."
+  seduce_ongoing.1703.a: "Потрібно подякувати [owner.GetHerHis] за візит."
+
+  seduce_ongoing.1704.duel: "\n\n[owner.GetSheHe|U] наполегливо [Select_CString(owner.IsFemale, 'пропонувала', 'пропонував' )] влаштувати тренувальний поєдинок перед новачками, але я не збираюся так ганьбитися. [owner.GetFirstName] помітно [Select_CString(owner.IsFemale, 'зажурилася', 'зажурився' )], але мені було ніколи [SCOPE.sC('owner').GetHerHis] втішати."
+  seduce_ongoing.1704.strategy: "\n\n[owner.GetSheHe|U] [Select_CString(owner.IsFemale, 'запропонувала', 'запропонував' )] прогулятися по стіні і подискутувати про стратегію, але в результаті мені довелося спростовувати одну нісенітницю за іншою. Схоже, [owner.GetFirstName] не зовсім розуміє, про що говорить..."
+  seduce_ongoing.1704.tax_season: "\n\nХоча моя увага була прикута до молодих воїнів, [owner.GetSheHe] наполегливо [Select_CString(owner.IsFemale, 'пропонувала', 'пропонував' )] обговорити мої плани на найближчий сезон податей. Зрештою мені довелося забратися від [Select_CString(target.IsFemale, 'неї', 'нього' )] подалі і зайнятися справді важливими справами."
+  seduce_ongoing.1704.trap: "\n\nНа мій подив, [owner.GetSheHe] [Select_CString(owner.IsFemale, 'запропонувала', 'запропонував' )] мені дуже витончену витівку, після якої [target.Custom('MountedWarriorTermPlural')]-новачки опинилися б у дуже незавидному становищі. Невже [owner.GetSheHe] не розуміє, що цього мені потрібно найменше?"
+  seduce_ongoing.1704.fallback: "\n\n[owner.GetFirstName] все [Select_CString(owner.IsFemale, 'пропонувала', 'пропонував' )] присвятити нашу зустріч бесіді, ніби зовсім не розуміючи, скільки у мене справ."
+  seduce_ongoing.1704.a: "Що робить [owner.GetTitledFirstNameNoTooltip]?"
+
+  seduce_ongoing.1705.duel: "Тренувальний поєдинок пройшов більш ніж успішно, і [target.Custom('MountedWarriorTermPlural')] були в повному захваті!\n\n[target.GetTitledFirstName] також [Select_CString(target.IsFemale, 'була', 'був' )] досить [Select_CString(target.IsFemale, 'задоволена', 'задоволений' )] собою, а після «битви всерйоз» ми уклали один одного в обійми та обмінялися подяками."
+  seduce_ongoing.1705.strategy: "Прогулюючись стінами, [SCOPE.sC('target').GetTitledFirstName] і я обмінялися міркуваннями про місце воїнів-новачків, на зразок тих, що тренувалися у дворі під нами, в армії.\n\nНадвечір було ясно, що [SCOPE.sC('target').GetSheHe] також [Select_CString(target.IsFemale, 'задоволена', 'задоволений' )] розмовою, як я, незважаючи навіть на те (або навіть завдяки тому), що розмова неодноразово відходила всторону."
+  seduce_ongoing.1705.tax_season: "[target.GetFirstName] і я більшу частину дня обговорюємо плани на майбутній сезон податей. Зрештою, який толк від армії, якщо не можеш її прогодувати? [target.GetSheHe|U] від щирого серця регоче над цією фразою.\n\nЧим більше ми поринаємо в бесіду, тим веселіше нам стає."
+  seduce_ongoing.1705.trap: "Моя пропозиція повеселитися була зустрінута з ентузіазмом. Паж вилив трохи свинячої крові поряд з напувалками, і цей запах привів самих ненавчених коней у жах. Деякі молоді [SCOPE.sC('target').Custom('MountedWarriorTermPlural')] вилетіли з сідла, решті ледве вдалося втриматися.\n\n[SCOPE.sC('target').GetFirstName] гучно [Select_CString(target.IsFemale, 'реготала', 'реготав' )] над моєю витівкою."
+  seduce_ongoing.1705.fallback: "Після мого візиту [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'виглядала задоволеною', 'виглядав задоволеним' )]: «Зазвичай наглядати за новачками дуже втомливо, але сьогодні день пролетів непомітно!»"
+  seduce_ongoing.1705.a: "[target.GetSheHe|U] неодмінно запам'ятає цей день."
+
+  seduce_ongoing.1706.duel: "[target.GetTitledFirstName] просто [Select_CString(target.IsFemale, 'віджартувалася', 'віджартувався' )] від моєї пропозиції влаштувати веселий бій. «Не хотілося б, щоб хтось зганьбився на очах молоді!»\n\nЗалишок дня я намагаюся зрозуміти, кого [target.GetSheHe] [Select_CString(target.IsFemale, 'мала', 'мав' )] на увазі — себе чи мене."
+  seduce_ongoing.1706.strategy: "[target.GetTitledFirstName] і я намагалися говорити про тактику, прогулюючись стінами. Втім, [Select_CString(target.IsFemale, 'слушала', 'слушал' )] [SCOPE.sC('target').GetSheHe] вкрай неохоче. Усі мої ідеї здавалися [SCOPE.sC('owner').GetHerHim] безпорадними, і незабаром стало ясно, що [target.GetFirstName] куди більше цікавиться тим, що відбувається внизу, ніж мною."
+  seduce_ongoing.1706.tax_season: "Всі мої спроби обговорити майбутній сезон податей і їжу для армії розбилися об стіну байдужості. Було видно, що [target.GetFirstName], на жаль, [Select_CString(target.IsFemale, 'думала', 'думав' )] про щось зовсім інше і незабаром, залишивши мене позаду, [Select_CString(target.IsFemale, ' вирушила', 'вирушив' )] до молодих воїнів."
+  seduce_ongoing.1706.trap: "У відповідь на пропозицію пожартувати з молодих бійців [SCOPE.sC('target').GetFirstName] вражено [Select_CString(target.IsFemale, 'подивилася', 'поглянув' )] на мене.\n\n«Свиняча кров і коні, що збожеволіли? Та ви #EMP з глузду з'їхали#!!»"
+  seduce_ongoing.1706.fallback: "Весь день [target.GetTitledFirstName] ніби не [Select_CString(target.IsFemale, 'помічала', 'помічав' )] мене і щоразу замість розмови [Select_CString(target.IsFemale, 'знаходила', 'знаходив' )] якась невідкладна справа. Мені так і не вдалося привернути [target.GetHerHis] увагу довше, ніж на мить, і зрештою мені набридло відчувати себе на перешкодою."
+  seduce_ongoing.1706.a: "Сподіваюся, [target.GetFirstNameNoTooltip] забуде цей день якнайшвидше."
+
+  seduce_ongoing.2001.t: "Любовний еліксир"
+  seduce_ongoing.2001.desc: "На ярмарку [Select_CString(dummy_gender.IsFemale, 'якась стара продала', 'якийсь старий продав' )] моєму слузі любовний еліксир, попередивши, що [dummy_gender.GetHerHim] він щастя не приніс.\n\nФлакончик знаходиться в моїх руках і я не можу не думати про те, як відреагує на зілля [target.GetTitledFirstName]. Чи зрадить вдача і мене?"
+  seduce_ongoing.2001.a: "[SCOPE.sC('target').GetHerHis|U] це безсумнівно порадує!"
+  seduce_ongoing.2001.b: "[target.GetFirstNameNoTooltip] любить насміхатися з таких забобонів."
+  seduce_ongoing.2001.c: "Колись мені возитися з безглуздими любовними зіллями."
+  seduce_ongoing.2001.c.tt: "#F Це не найкращий спосіб заявити про свої почуття!#!"
+
+
+  seduce_ongoing.2002.desc: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'продемонструвала', 'продемонстрував' )]мені якийсь «любовний еліксир», який [Select_CString(owner.IsFemale, 'роздобула', 'роздобув' )] на ярмарку. Ми додали трохи у вино, весь вечір прикидалися, ніби зілля подіяло, а під кінець межа між фантазією та реальністю почала злегка стиратися.."
+  seduce_ongoing.2002.a: "Яке кумедне проведення часу!"
+
+  seduce_ongoing.2003.desc: "[target.GetFirstName] і я пили вино з крапелькою «любовного еліксиру» і весь вечір вдавали, що зілля подіяло.\n\nВеселощі були абсолютно невинними, але [target.GetHerHis] посмішка при прощанні була дуже теплою."
+  seduce_ongoing.2003.a: "Добре провели час разом."
+
+  seduce_ongoing.2004.desc: "Просто заради сміху [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'запропонувала', 'запропонував' )] мені спробувати «любовне зілля», яке [owner.GetSheHe] [Select_CString(owner.IsFemale, 'роздобула', 'роздобув' )] на ярмарку. Через мою відмову пити незрозуміло що [owner.GetSheHe] трохи [Select_CString(owner.IsFemale, 'засмутилася', 'засмутився' )]! Невдовзі мені довелося попросити [SCOPE.sC('owner').GetHerHis] піти, щоб лягти раніше."
+  seduce_ongoing.2004.a: "Що з [Select_CString(owner.IsFemale, 'нею', 'ним' )] таке?"
+
+  seduce_ongoing.2005.desc: "[target.GetFirstName] [Select_CString(target.IsFemale, 'відмовилася', 'відмовився' )] від «любовного еліксиру» та [Select_CString(target.IsFemale, 'поинтересовалась', 'поинтересовался' )], чи замислююсь я над тим, що творю. Спроби пояснити, що це тільки заради веселощів, звучали плутано і непереконливо, і [target.GetSheHe] [Select_CString(target.IsFemale, 'попросила', 'попросив' )] мене піти."
+  seduce_ongoing.2005.a: "Невдалий поворот подій."
+
+  seduce_ongoing.2006.t: "«Любовне зілля»"
+  seduce_ongoing.2006.desc: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'принесла', 'приніс' )] мені куплений на ярмаркулюбовний еліксир"""". Витівка здалася мені смішною, і погодитися було неважко.\n\nОсь тільки [owner.GetFirstName] не [Select_CString(owner.IsFemale, 'випила', 'випив' )] ні ковтка, а мені відразу стало погано!"""
+  seduce_ongoing.2006.a: "Щось мені недобре..."
+  seduce_ongoing.2006.a.tt: "#F Прокляття на твою дурну голову… #EMP *буее-е-е*#!… [owner.GetFirstNameNoTooltip]!#!"
+
+  seduce_ongoing.2007.desc: "О ні! [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'погодилася', 'погодився' )] скуштувати зілля, але замість веселощів [target.GetHerHim] прийшлось вивернутися навиворіт і надовго злягти в ліжко!"
+  seduce_ongoing.2007.a: "Де той слуга, що приніс зілля?"
+
+  seduce_ongoing.2008.desc: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'принесла', 'приніс' )] мені «любовний еліксир», куплений на ярмарку [owner.GetHerHis] слугою. Ми не стали куштувати невідомо що, але провели приємний вечір удвох, попиваючи вино і жартуючи над дурними забобонами.\n\nНе можна стверджувати, що зілля працює, якщо не можеш пояснити, які гумори тіла воно торкається. Зате простолюдини вірять усьому поспіль!"
+  seduce_ongoing.2008.a: "[owner.GetFirstNameNoTooltip] і я чудово провели час!"
+
+  seduce_ongoing.2009.desc: "[target.GetTitledFirstName] і я разом посміялися з наївності мого слуги!\n\nВесь вечір ми обговорювали забобони та безглузді прикмети. Простолюдини готові повірити у будь-що."
+  seduce_ongoing.2009.a: "Приємний видався вечір."
+
+  seduce_ongoing.2010.desc: "[owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'принесла', 'приніс' )] мені такий собі «любовний еліксир», куплений [SCOPE.sC('owner').GetHerHis] слугою. Мені це було нецікаво, але [owner.GetFirstName] безупинно [Select_CString(owner.IsFemale, 'говорила', 'говорив' )] про довірливість і забобонність простолюдинів."
+  seduce_ongoing.2010.a: "Не віриш - справа твоя, але не приставай з цим до мене!"
+
+  seduce_ongoing.2011.desc: "[target.GetFirstName] не [Select_CString(target.IsFemale, 'вражена', 'вражений' )] «любовним еліксиром», і з обговоренням селянських забобонів у нас теж не склалося. Мало того, [target.GetSheHe], схоже, у страшному роздратуванні!"
+  seduce_ongoing.2011.a: "[target.GetSheHe|U] сьогодні якось занадто [Select_CString(target.IsFemale, 'флегматична', 'флегматичний' )]."
+
+  seduce_ongoing.3001.t: "Серце та розум"
+  seduce_ongoing.3001.desc: "Мені стало відомо, що [target.GetTitledFirstName] і [target.GetHerHis] [target.Custom2('RelationToMe', SCOPE.sC('close_character'))] [close_character.GetTitledFirstName] дуже близькі. Якщо я заручусь [close_character.GetHerHis] прихильністю, можливо, [target.GetFirstNamePossessive] теж виявить прихильність до мене."
+  seduce_ongoing.3001.a: "Я здобуду все, що попросить [close_character.GetFirstNameNoTooltip]."
+  seduce_ongoing.3001.b: "Достатньо буде демонстрації доброго ставлення."
+  seduce_ongoing.3001.c: "Я можу оплатити [close_character.GetHerHis] борги."
+  seduce_ongoing.3001.d: "Хто завгодно зрадіє подарунку із золота."
+  seduce_ongoing.3001.e: "Не найкраща думка."
+  seduce_ongoing.3001.e.tt: "#F [target.GetFirstNamePossessiveNoTooltip] зверне на мене увагу. Я знайду інший підхід.#!"
+
+  seduce_ongoing.3002.desc: "[Select_CString(close_character.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('close_character'))] [close_character.GetTitledFirstName] останнім часом часто розповідає, яка напрочуд щедра людина [owner.GetTitledFirstName].\n\nВиявляється, [owner.GetTitleTierName] [Select_CString(owner.IsFemale, 'прийшла', 'прийшов' )] [close_character.GetHerHim] на допомогу у дуже складній ситуації."
+  seduce_ongoing.3002.a: "Можливо, я [SCOPE.sC('owner').GetHerHis] недооцінюю."
+  seduce_ongoing.3002.b: "[owner.GetFirstName] допомагає [close_character.GetHerHim]? Вражає... У певному розумінні."
+
+  seduce_ongoing.3003.desc: "Наступного разу [target.GetFirstName] зустрічає мене надзвичайно широкою посмішкою.\n\n[Select_CString(close_character.IsFemale, 'Моя', 'Мій' )] [target.Custom2('RelationToMe', SCOPE.sC('close_character'))] [close_character.GetFirstName] каже, що ви [close_character.GetHerHim] дуже допомогли, і я [Select_CString(target.IsFemale, 'хотіла', 'хотів' )] засвідчити свою вдячність»."
+  seduce_ongoing.3003.a: "[target.Custom2('RelationToMe', SCOPE.sC('close_character'))] таку людину, як [target.GetFirstNamePossessiveNoTooltip], може розраховувати на будь-яку мою допомогу."
+
+  seduce_ongoing.3004.desc: "Схоже, [target.GetFirstName] не [Select_CString(target.IsFemale, 'оцінила', 'оцінив' )] мою щедрість, хоча [close_character.GetFirstName] — [target.GetHerHis] [target.Custom2('RelationToMe', SCOPE.sC('close_character'))]! Ну хоча б [close_character.GetSheHe] мені [Select_CString(close_character.IsFemale, 'вдячна', 'вдячний' )]."
+  seduce_ongoing.3004.a: "Що мені ще зробити?"
+
+  seduce_ongoing.4001.t: "[target.Custom('MusicalPerformerPossessive')|U] грає заради вас"
+  seduce_ongoing.4001.desc: "[court_location.GetNameNoTier] готується до прекрасної вистави: незабаром тут виступить [target.Custom('MusicalPerformer')]. Думаю, [dummy_musician_gender.GetHerHim] не важко буде змінити програму і заявити, що [target.GetTitledFirstName], об'єкт моєї прихильності, - головна прикраса вечора."
+  seduce_ongoing.4001.desc.court_musician: "A [target.Custom('MusicalPerformer')] will soon be performing for the court at [court_location.GetNameNoTier]. I could make the simple request to have [dummy_musician_gender.GetHerHim] change the performance to be a dedication to [target.GetTitledFirstName], the target of my affection.\n\nAlternatively, if I ask my $court_musician_court_position$ to join, I could have them play pieces that make me look good in front of the audience there."
+  seduce_ongoing.4001.a: "Це дуже відверто!"
+  seduce_ongoing.4001.b: "Я вважаю за краще заявити про мою прихильність до н[target.GetHerHim] завуальовано."
+  seduce_ongoing.4001.b.failure: "Посвячення зустрінуто байдуже"
+  seduce_ongoing.4001.c: "Не варто легковажно ставитись до таких тонких матерій."
+  seduce_ongoing.4001.d: "I should not dabble in things like this."
+
+  seduce_ongoing.4002.desc.opening: "There are often performers at court, but this time we were promised something special, and I certainly got it."
+  seduce_ongoing.4002.desc: "До двору часто прибувають різні артисти, але цього разу обіцяють щось грандіозне, і я не можу пройти повз.\n\nКоли [ROOT.Char.Custom('MusicalPerformer')] починає черговий куплет, я намагаюся не показувати, як приємно було чути, та ще й перед усім двором, що він присвячений мені."
+  seduce_ongoing.4002.desc.court_musician: "\n\nAs the [ROOT.Char.Custom('MusicalPerformer')] together with [owner.GetTitledFirstNamePossessive] $court_musician_court_position$ starts yet another stanza, I try not to let my admiration show too much as I listen to the exploits of [owner.GetFirstNameNoTooltip]."
+  seduce_ongoing.4002.a: "Воістину, [owner.GetTitledFirstNameNoTooltip] [Select_CString(target.IsFemale, 'перевершила', 'перевершив' )] [owner.GetHerselfHimself]."
+
+  seduce_ongoing.4003.desc: "До двору часто прибувають різні артисти, але цього разу обіцяють щось грандіозне, і лише під час виступу я розумію, наскільки.\n\nКоли [ROOT.Char.Custom('MusicalPerformer')]починає черговий куплет, я роздратовано залишаю залу: всі пісні [owner.GetTitledFirstName] присвячує мені!"
+  seduce_ongoing.4003.desc.court_musician: "\n\nAs the [ROOT.Char.Custom('MusicalPerformer')] together with [owner.GetTitledFirstNamePossessive] $court_musician_court_position$ starts yet another stanza, I walk out of the great hall in embarrassment. Did [owner.GetFirstNameNoTooltip] send [owner.GetHerHis] $court_musician_court_position$ to just to rave about [owner.GetHerselfHimself]!?"
+  seduce_ongoing.4003.a: "Яке нахабство!"
+
+  seduce_ongoing.4004.desc: "Дякую вам за музичний подарунок. [target.Custom('MusicalPerformerPossessive')] - справжній віртуоз! Втім, у мене ніколи не було сумнівів щодо бездоганності вашого смаку."
+  seduce_ongoing.4004.a: "Ідеально!"
+
+  seduce_ongoing.4005.opening: "[target.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+  seduce_ongoing.4005.desc.court_musician: "I write to tell you how much of a fool you made of yourself having to force the audience to listen to your so-called exploits. Do you truly believe that talking about yourself is a good way to entertain the court?"
+  seduce_ongoing.4005.desc: "Як ти смієш ганьбити мене на публіці? Ти #EMP хочеш#!, щоб мені довелося пояснювати, що [target.Custom('MusicalPerformerPossessive')] має на увазі? Що подумає"
+  seduce_ongoing.4005.spouse: "[Select_CString(spouse.IsFemale, 'моя', 'мій' )] [target.Custom2('RelationToMe', SCOPE.sC('spouse'))]?"
+  seduce_ongoing.4005.court: "двір?!"
+  seduce_ongoing.4005.a: "Все пішло не так, як треба!"
+
+  seduce_ongoing.4006.desc: "[ROOT.Char.Custom('MusicalPerformer')] гаряче мовить про кохання і пристрасть, а я щосили намагаюся не показувати, наскільки це мені лестить.\n\nІ хоча метафори та алегорії приховують обличчя не гірше за вуалі, я знаю, що признання призначене мені, а його автор — [owner.GetTitledFirstName]."
+  seduce_ongoing.4006.a: "[owner.GetFirstName], ти вмієш привернути мою увагу."
+
+  seduce_ongoing.4007.desc: "Можливо, посвята була надто завуальована. [target.GetLadyLord] [target.GetFirstName], здається, не [Select_CString(target.IsFemale, 'зрозуміла', 'зрозумів' )] натяка."
+  seduce_ongoing.4007.a: "Порожня витрата сил."
+
+  seduce_ongoing.4011.t: "[court_location.GetNameNoTierNoTooltip] та коні"
+  seduce_ongoing.4011.desc: "Можливо, це занадто прямолінійно, але я хочу запропонувати спільну прогулянку верхи — [court_location.Custom('BaronyTownType')] [court_location.GetNameNoTier] чудово для цього підходить. Сподіваюся, [target.GetTitledFirstName] погодиться."
+  seduce_ongoing.4011.a: "Ми проїдемо ринковою вулицею, у всіх на видноті!"
+  seduce_ongoing.4011.b: "Триматимемося тихих провулків. Для чого нам чужі погляди?"
+  seduce_ongoing.4011.b.failure: "[target.GetFirstNameNoTooltip] не [Select_CString(target.IsFemale, 'вражена', 'вражений )]"
+  seduce_ongoing.4011.c: "Можливо, не варто це робити."
+  seduce_ongoing.4011.c.tt: "#F Не можу дочекатися наступної можливості#!"
+
+  seduce_ongoing.4012.opening: "[owner.GetTitledFirstName] трохи несподівано [Select_CString(owner.IsFemale, 'запросила', 'запросив' )] мене прогулятися верхи. [SCOPE.sC('owner').GetHerHim|U] здається, що [court_location.Custom('BaronyTownType')] [court_location.GetNameNoTier] відмінно для цього підійде."
+  seduce_ongoing.4012.end: "\n\nДень пройшов дуже приємно — ми проїхалися ринковою вулицею, поговорили про все на світі, а торговці брали в облогу селяни, що роззявили роти, які були не в змозі відвести погляд від нашого броньованого почту."
+  seduce_ongoing.4012.a: "Враження ми точно справили."
+
+  seduce_ongoing.4013.end: "\n\nКоли [owner.GetSheHe] [Select_CString(owner.IsFemale, 'почала', 'почав' )] наполягати, щоб ми проїхали ринковою вулицею з пишним почтом, моя невпевненість зміцніла. Розмова не клеїлася, і невдовзі мені стало ясно, що [owner.GetSheHe] просто вимахується. Можна було припинити цей фарс, але не хотілося влаштовувати сцену."
+  seduce_ongoing.4013.a: "Повторювати це ми не будемо."
+
+  seduce_ongoing.4014.desc: "[Select_CString(owner.IsFemale, 'Дорога', 'Дорогий' )] [owner.GetTitledFirstName],\n\n[court_location.GetNameNoTier] [court_location.Custom('BaronyTownType')] здається чарівним місцем, коли ви поряд. Сподіваюся, скоро ми знову побачимось."
+  seduce_ongoing.4014.a: "Це мені дуже приємно."
+
+  seduce_ongoing.4015.desc: "[SCOPE.sC('target').GetTitledFirstName]!\n\nНавіщо ви прилюдно мене зганьбили? Хіба я річ, якою можна хвалитися? Знаєте, про що зараз говорять при дворі?.."
+  seduce_ongoing.4015.a: "Все пішло не так!"
+
+  seduce_ongoing.4016.end: "\n\nМи минули безліч провулків, сміючись щоразу, коли черговий простолюдин шарахався від нашої почту. До кінця прогулянки мені стало зрозуміло, що [court_location.Custom('BaronyTownType')] для мене тепер, як відкрита книга."
+  seduce_ongoing.4016.a: "[target.GetFirstNameNoTooltip] надзвичайно розширює мій кругозір."
+
+  seduce_ongoing.4017.desc: "Вітаю вас, [ROOT.Char.GetTitledFirstName]!\n\nДякую за прогулянку. Хоча [court_location.GetNameNoTier] [court_location.Custom('BaronyTownType')] — приємне місце, ваше наполегливе бажання сховатися в провулках від людських очей дуже мене спантеличило. Сподіваюся, пізніше ви розповісте про причини цієї дивної чудасії."
+  seduce_ongoing.4017.a: "Це було... ми вдвох, це..."
+
+  seduce_ongoing.4018.desc: "[Select_CString(owner.IsFemale, 'Дорога', 'Дорогий' )] [owner.GetTitledFirstName]!\n\nЗ вами [court_location.GetNameNoTier] здається цілком чарівним місцем. [court_location.Custom('BaronyTownType')] відкриває мені нові, раніше небачені сторони!"
+  seduce_ongoing.4018.a: "Мені дуже сподобалося."
+
+  seduce_ongoing.4101.t: "Романтичний балкон"
+  seduce_ongoing.4101.desc_opening: "Вікна світяться м'яким теплим світлом, і навіть знизу бачу, що всередині хтось є. Можливо це [target.GetTitledFirstNamePossessive]?\n\n"
+  seduce_ongoing.4101.desc_same_court: "Я чую власне серце - воно гуркотить як барабан! Нехай [ROOT.Char.Custom('ResidenceBuilding')] належить мені, але намагаючись боротися за [target.GetHerHis] пристрасть, я ніби вступаю на незвідану територію."
+  seduce_ongoing.4101.desc_other_court: "Я чую барабанний гуркіт власного серця. Намагаючись укласти [SCOPE.sC('target').GetHerHis] в ліжко, я ризикую подвійно: [court_location.GetNameNoTier] - чужа територія."
+  seduce_ongoing.4101.a: "[target.GetFirstNameNoTooltip]! Виглянь і осяй мою ніч!"
+  seduce_ongoing.4101.a.tt: "#F Я намагаюся делікатно привернути увагу [target.GetHerHis]#!"
+  seduce_ongoing.4101.b: "І ось я залазжу нагору."
+  seduce_ongoing.4101.b.tt: "#F Звичайно, [target.GetSheHe] зрадіє моїй появі!#!"
+  seduce_ongoing.4101.c: "Я залишу [target.GetHerHim] сюрприз – це будуть [SCOPE.Custom('SeductionObjectIndefinite')] та записка."
+  seduce_ongoing.4101.c.tt: "#F [target.GetSheHe|U] напевно оцінить делікатний жест і зрозуміє, як багато для мене означає#!"
+  seduce_ongoing.4101.d: "Потрібно піти, доки мене не помітили."
+  seduce_ongoing.4101.d.tt: "#F Я підберуся до н[target.GetHerHim], як злодій вночі!#!"
+
+  seduce_ongoing.4102.t: "Під моїм балконом"
+  seduce_ongoing.4102.desc: "Увечері я віддаляюсь у покої і раптово чую ззовні приглушений голос. Невже це [owner.GetTitledFirstName]?!\n\n«[ROOT.Char.GetTitledFirstNameNoTooltip], благаю, яви свій світлий вигляд!»"
+  seduce_ongoing.4102.a: "Немов у баладі! Як романтично!"
+  seduce_ongoing.4102.b: "І побачити твою кошмарну пику? Ні."
+
+  seduce_ongoing.4103.desc: "[SCOPE.sC('target').GetTitledFirstNamePossessive] відчиняє двері, і тепле світло осяє балкон і моє серце. Під покровом темряви ми відчуваємо дивну свободу, і, хоча я залишаюся на землі, такої близькості між нами ще не було."
+  seduce_ongoing.4103.a: "О [target.GetFirstNameNoTooltip], ти сонце, що проганяє ніч із моєї душі!"
+
+  seduce_ongoing.4104.desc: "[target.GetTitledFirstNamePossessive] відчиняє двері, і тепле світло осяє балкон і моє серце.\n\nВтім, він швидко тьмяніє, коли я бачу [target.Custom('quirk_neg_adjective')]у гримасу на [target.GetHerHis] обличчя, і змінюється непроглядною темрявою, коли [target.GetSheHe] відкриває рота: «Що ти тут робиш, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Благаю, дай мені спокій»."
+  seduce_ongoing.4104.a: "Але... Ти ж сонце, що проганяє ніч!"
+
+  seduce_ongoing.4105.desc: "#EMP Ох!#!\n\nВийшовши ввечері у свої покої, я раптово розумію, що за моїм вікном стоїть [owner.GetWomanMan]... Це що, [owner.GetTitledFirstName]?!"
+  seduce_ongoing.4105.a: "От [Select_CString(owner.IsFemale, 'дурненька', 'дурник' )], скоріше входь!"
+  seduce_ongoing.4105.b: "Добре, що маю щільні портьєри."
+  seduce_ongoing.4105.c: "Охоронці! На допомогу!"
+
+  seduce_ongoing.4106.desc: "Щойно я добираюся до балкона, [target.GetTitledFirstName] зі сміхом виходить до мене: «До чого ці трюки, [ROOT.Char.GetFirstNameNoTooltip]? Увійди через двері, як нормальна людина. Або ти замишляєш щось непристойне?»\n\nГрайливе лукавство в [target.GetHerHis] очах надає мені впевненості."
+  seduce_ongoing.4106.a: "Заради тебе я подолаю будь-які перепони!"
+
+  seduce_ongoing.4107.desc_paranoid: "Щойно я добираюся до балкона, [target.GetTitledFirstName] починає несамовито кликати варту: «На допомогу! Хтось лізе до мене у вікно!»\n\n[target.GetHerHis|U] голос переслідує мене, поки я судомно спускаюся, зриваюся на півдорозі та, стрімко кульгаючи, розчиняюся вночі."
+  seduce_ongoing.4107.desc: "Варто мені дістатися балкону, як назустріч мені виходить [SCOPE.sC('target').GetTitledFirstNamePossessive] з [SCOPE.sC('target').Custom('quirk_neg_adjective')]ою гримасою.\n\n«Що за дурні трюки, [ROOT.Char.GetFirstNameNoTooltip]? Ви ж [ROOT.Char.GetTitleTierName]! Кричуще неподобство»."
+  seduce_ongoing.4107.a: "Могло бути й краще..."
+  seduce_ongoing.4107.a.tt: "#F Мені варто було двічі подумати, перш ніж підкрадатися до такої підозрілої людини!#!"
+
+  seduce_ongoing.4108.desc: "Увечері, вже у своїх покоях, я раптом чую дивний звук, ніби у вікно вдаряється камінчик. Вдивляюсь у темряву і помічаю, що на землі лежать [SCOPE.Custom('SeductionObjectIndefinite')] та записка, а хтось — [Select_CString(owner.IsFemale, 'вилита', 'вилитий' )] [SCOPE.sC('owner').GetTitledFirstName]! — тікає у темряву.\n\n#EMP «[ROOT.Char.Custom2('ComplimentAdjective', ROOT.Char)] [ROOT.Char.GetTitledFirstNameNoTooltip], це знак моїх почуттів».#!"
+  seduce_ongoing.4108.a: "Я залишу [owner.GetHerHim] інший сюрприз. Нехай це буде [SCOPE.Custom('SeductionObjectIndefinite')]!"
+  seduce_ongoing.4108.b: "І що мені робити з цим? Продайте комусь!"
+
+  seduce_ongoing.4109.desc: "У моїх покоях лежать [SCOPE.Custom('SeductionObjectMultiple')] - звичайно ж, пара. Жодних записок немає, але в повітрі тане солодкуватий аромат. Можу заприсягтися, що тут [Select_CString(ROOT.Char.IsFemale, 'побувала', 'побував' )] [ROOT.Char.Custom2('ComplimentAdjective', SCOPE.sC('target'))][Select_CString(ROOT.Char.IsFemale, 'а', 'ий' )] [target.GetTitledFirstName]!"
+  seduce_ongoing.4109.a: "Ох, [target.GetFirstNameNoTooltip]!"
+
+  seduce_ongoing.4110.desc: "Дні минають, а [SCOPE.sC('target').GetTitledFirstName] все не відповідає, і я наважуюсь ще раз спробувати щастя: раптом [SCOPE.sC('target').GetSheHe] просто не [Select_CString(target.IsFemale, 'отримала', 'отримав' )] мій подарунок?\n\nО, як швидко вмирає надія, коли я бачу, що [SCOPE.Custom('SeductionObject')] лежить під вікнами, досі зберігаючи слід підбора, що впечатав мій подарунок у землю."
+  seduce_ongoing.4110.a: "І [SCOPE.Custom('SeductionObject')], і моє серце безнадійно розбито!"
+
+  seduce_ongoing.5001.t_rival: "[Select_CString(target.IsFemale, 'Моя суперниця', 'Мій суперник')] — [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))|U]"
+  seduce_ongoing.5001.t: "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))|U]"
+  seduce_ongoing.5001.desc_tier_up: "«За що мені таке щастя, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій' )] #EMP [ROOT.Char.GetTitleTierName]#!?» — питає [SCOPE.sC('target').GetTitledFirstName] з посмішкою, яка так і не розтоплює холод очей."
+  seduce_ongoing.5001.desc_tier_down: "Невже [target.Custom2('RelationDescriptor', ROOT.Char)] ніколи не відстане...» — бурмотить собі під ніс [target.GetTitledFirstName] при моєму наближенні.Чим можу допомогти, [ROOT.Char.GetTitledFirstNameNoTooltip]?»"""
+  seduce_ongoing.5001.desc_ending: "\n\nРозбрат продовжує тліти, але в мене є план, як приборкати нашу бурхливу взаємну ворожнечу..."
+  seduce_ongoing.5001.a: "Що ви думаєте про такий предмет, як [ROOT.GetCharacter.Custom('education_conversation_subject')]?"
+  seduce_ongoing.5001.a.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'розумна', 'розумний' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+  seduce_ongoing.5001.b: "[Select_CString(mocked_courtier.IsFemale, 'Ця', 'Цей' )] [mocked_courtier.Custom('InsultNoun')] [mocked_courtier.GetFirstNameNoTooltip]..."
+  seduce_ongoing.5001.b.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'озлоблена', 'озлоблена' )] [target.GetFirstNamePossessiveNoTooltip]: [mocked_courtier.GetTitledFirstNameNoTooltip] — чудовий об'єкт для глузування#!"
+  seduce_ongoing.5001.c_tier_down: "Питання в тому, що #EMP я#! можу для #EMP вас#! зробити, [Select_CString(target.IsFemale, 'моя', 'мій' )] [target.GetLadyLord]."
+  seduce_ongoing.5001.c_tier_up: "Ну що ви, це честь для мене [Select_CString(target.IsFemale, 'моя', 'мій' )] [SCOPE.sC('target').GetLadyLord]. Ми все виправимо."
+  seduce_ongoing.5001.c.tt: "#F Перевірити, наскільки [Select_CString(target.IsFemale, 'хтива', 'хтивий'' )] [target.GetFirstNamePossessiveNoTooltip].#!"
+  seduce_ongoing.5001.d: "Вибачаюсь за вторгнення, вже йду."
+
+
+  seduce_ongoing.5003.t: "[Select_CString(target.IsFemale, 'Моя суперниця', 'Мій суперник' )] — [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('owner'))|U]"
+  seduce_ongoing.5003.opening: "Кожен крок, який робить [owner.GetTitledFirstName], втоптує у бруд мій настрій. Чого ще хоче [Select_CString(owner.IsFemale, 'ця', 'цей' )] [owner.Custom('InsultNoun')]?\n\n"
+  seduce_ongoing.5003.conversation: "На мій подив, [owner.GetSheHe] [Select_CString(owner.IsFemale, 'завела', 'завів' )] розмову на несподівану тему: [ROOT.GetCharacter.Custom('education_conversation_subject')]. І нехай спочатку у мене були певні сумніви на [owner.GetHerHis] рахунок, вони зовсім не підтвердились!"
+  seduce_ongoing.5003.mockery: "«[ROOT.Char.GetTitledFirstNameNoTooltip]! Ви не повірите, що сьогодні [Select_CString(mocked_courtier.IsFemale, 'наробила ця', 'наробив цей' )] [mocked_courtier.Custom('InsultNoun')] [mocked_courtier.GetFirstName]!»\nДивно, але розмова про те, що [mocked_courtier.GetFirstNamePossessive] своєю безглуздою поведінкою [Select_CString(mocked_courtier.IsFemale, 'доставила', 'доставив' )] мені справжнє задоволення."
+  seduce_ongoing.5003.bodily: "Коли [owner.GetSheHe] несподівано скидає [owner.Custom('GetUpperClothingArticle')], вид оголеної плоті позбавляє мене всіх почуттів, окрім бажання."
+  seduce_ongoing.5003.fallback: "На мій подив, ми проводимо дуже приємний вечір удвох, сміючись з найпростіших речей і прогулюючись садом."
+  seduce_ongoing.5003.a: "Хто б міг подумати, що [owner.GetHerHim] компанія може бути такою #EMP приємною#!!"
+
+  seduce_ongoing.5004.opening: "Кожен крок, який робить [owner.GetTitledFirstName], втоптує у бруд мій настрій. Чого ще хоче [Select_CString(owner.IsFemale, 'ця', 'цей' )] [owner.Custom('InsultNoun')]?\n\n"
+  seduce_ongoing.5004.conversation: "«До речі, [owner.Custom('education_conversation_subject')]...»\n\nНе знаю, з чого [owner.GetSheHe] [Select_CString(owner.IsFemale, 'взяла', 'взяв' )], наче мені це цікаво. Я квапливо пояснюю, що це зовсім не так."
+  seduce_ongoing.5004.mockery: "«[ROOT.Char.GetTitledFirstNameNoTooltip]! Ви не повірите, що сьогодні [Select_CString(mocked_courtier.IsFemale, 'зробила ця', 'зробив цей' )] [mocked_courtier.Custom('InsultNoun')] [mocked_courtier.GetFirstName]!»\n\nПоняття не маю, чим [owner.GetHerHim] не [Select_CString(mocked_courtier.IsFemale, 'догодила', 'догодив'' )] [mocked_courtier.GetTitledFirstName], але [owner.GetSheHe] неймовірно довго [Select_CString(owner.IsFemale, 'вправлялася', 'вправлявся' )] у лихослів'ї."
+  seduce_ongoing.5004.bodily: "[SCOPE.sC('owner').GetSheHe|U] наближається до мене непристойно близько, багатозначно посмикуючи себе за одяг, і зрозумівши, що [owner.GetSheHe] ось-ось скине [owner.Custom('GetUpperClothingArticle')], я швидко відступаю."
+  seduce_ongoing.5004.fallback: "Мабуть, [owner.GetSheHe] [Select_CString(owner.IsFemale, 'вбила', 'вбив' )] собі в голову, що хоче провести день зі мною, бо [Select_CString(owner.IsFemale, 'відмовлялася', 'відмовлявся' )] йти, поки [SCOPE.sC('owner').GetHerHim] не сказали прямо, що [owner.GetHerHis] присутність небажана."
+  seduce_ongoing.5004.a: "Як завжди, спілкування пройшло жахливо!"
+
+  seduce_ongoing.5005.conversation: "[target.Custom('herhis_subject_of_interest')] надовго займає нас, і після закінчення розмови [target.GetTitledFirstNamePossessive] світло посміхається. Ми на мить замовкаємо, дивлячись один на одного з симпатією, і я раптом розумію, що ми стоїмо набагато ближче, ніж раніше. [SCOPE.sC('target').GetHerHis|U] [target.Custom('GetClothingArticle')] почти у моей руки."
+  seduce_ongoing.5005.mockery: "«...А як [mocked_courtier.GetSheHe] [mocked_courtier.Custom('quirk_neg_present')]! Це треба бачити!»\n\n[Select_CString(mocked_courtier.IsFemale, 'Жалюгідна', 'Жалюгідний' )] [mocked_courtier.GetTitledFirstNamePossessive] [Select_CString(mocked_courtier.IsFemale, 'зуміла', 'зумів' )] заочно об'єднати нас, і ми радіємо від душі. На мить ми замовкаємо, дивлячись один на одного з симпатією, і я раптом розумію, що ми стоїмо набагато ближче, ніж раніше. [SCOPE.sC('target').GetHerHis|U] [target.Custom('GetClothingArticle')] майже біля моєї руки."
+  seduce_ongoing.5005.bodily: "Я ніби роблю жалюгідний ковток з бездонного колодязя, ім'я якому [target.GetTitledFirstName], і спрага моя далека від вгамування. Коли ми відпускаємо один одного, то на мить замовкаємо, і я розумію, що зі мною [target.GetSheHe] [Select_CString(target.IsFemale, 'змогла', 'зміг' )] по-справжньому розслабитися і навіть не намагається оговтати [target.Custom('GetUpperClothingArticle')]."
+  seduce_ongoing.5005.fallback: "Ми проводимо вечір удвох, розмовляючи та сміючись. Коли ж розмова переривається, ми з симпатією дивимось один на одного, і я раптом розумію, що ми стоїмо набагато ближче, ніж раніше. [SCOPE.sC('target').GetHerHis|U] [target.Custom('GetClothingArticle')] майже біля моєї руки."
+  seduce_ongoing.5005.ending: "\n\n«З вами мені напрочуд добре, [ROOT.Char.GetFirstNameNoTooltip]!»"
+  seduce_ongoing.5005.a: "Я ще покажу [target.GetHerHim] як зі мною може бути добре!"
+
+  seduce_ongoing.5006.conversation: "Через годину незручних спроб спілкування [target.GetFirstName] дивиться на мене з нудьгою в очах. Коли я вирішую, що тема «[target.Custom('herhis_subject_of_interest')]» себе вичерпала та пропоную іншу — [ROOT.GetCharacter.Custom('education_conversation_subject')], — [target.GetSheHe] [target.Custom('quirk_neg_present')] і йде."
+  seduce_ongoing.5006.mockery: "«[target.GetTitledFirstNameNoTooltip]! Уявляєте, [mocked_courtier.Custom('InsultNoun')] [mocked_courtier.GetFirstName] насправді...»\n\n[target.GetFirstNamePossessive] дивиться на мене з все більшою зневагою у погляді, і я швидко замовкаю."
+  seduce_ongoing.5006.bodily: "[target.GetFirstName] переді мною, я [ROOT.Char.Custom('quirk_pos_adverb')] посміхаюся і багатозначно підіймаю [ROOT.Char.Custom('GetUpperClothingArticle')], але [target.GetSheHe] від огиди відсахується."
+  seduce_ongoing.5006.fallback: "Я щосили намагаюся знайти точки дотику, але [target.GetFirstName], схоже, з кожною миттю все сильніше обтяжується моїм суспільством.\n\nНезабаром [target.GetSheHe] бурмотить вибачення і залишає мене на самоті."
+  seduce_ongoing.5006.a: "І навіщо мені в ліжку [target.Custom('InsultNounSexual')]?!"
+
+  seduce_ongoing.5011.t: "Тяжкий потяг"
+  seduce_ongoing.5011.desc: "Мене не так легко роздратувати, але [SCOPE.sC('target').GetTitledFirstName] цілком у цьому процвітає. Варто нам залишитися віч-на-віч, як [SCOPE.sC('target').GetSheHe] обсипає мене образами і розпускає руки. Звичайно ж, я відповідаю тим же.\n\nПризнаюся чесно, це збуджує - і бійка, і близькість спітнілого, напруженого тіла. Моя кров закипає, і незабаром я вже не розумію, що роблю — намагаюся здобути гору або просто затягую бійку..."
+  seduce_ongoing.5011.a: "Зараз ця усмішка зникне з [target.GetHerHis] фізіономії!"
+  seduce_ongoing.5011.b: "Допомогти тобі встати?"
+  seduce_ongoing.5011.c: "[target.GetHerHis|U] наступний удар пустить кров."
+  seduce_ongoing.5011.c.tt: "#F Біль заради кохання!#!\nЦей варіант доступний, тому що [target.GetFirstNamePossessiveNoTooltip] має властивість «садизм»\n\n"
+  seduce_ongoing.5011.d: "Дитяча метушня не відкриє мені шлях до [target.GetHerHis] серця!"
+
+  seduce_ongoing.5012.desc: "Мене не так легко роздратувати, але [SCOPE.sC('target').GetTitledFirstName] у цьому досягає успіху. Залишившись наодинці, ми швидко переходимо до образ та рукоприкладства. \n\nЗізнаюся чесно, це збуджує — і бійка, і близькість спітнілих, напружених тіл. Моя кров закипає, а [SCOPE.sC('owner').GetSheHe] і не думає поступатися..."
+  seduce_ongoing.5012.a: "І нехай не піддається!"
+  seduce_ongoing.5012.b: "Досить! Залиш мене."
+
+  seduce_ongoing.5013.desc: "[target.GetTitledFirstName] та я опиняємось на землі та мутузимо один одного, як діти. Незабаром вищири змінюються посмішками, удари — ласками, а лайка — стогонами... Якщо [target.GetSheHe] і помічає, що я не поспішаю вибиратися з [target.GetHerHis] захоплення, то явно не заперечує."
+  seduce_ongoing.5013.a: "Добре інколи випустити пар!"
+
+  seduce_ongoing.5014.desc: "[SCOPE.sC('target').GetTitledFirstName] та я опиняємось на землі та мутузим один одного, як діти. Незабаром [SCOPE.sC('target').GetHerHis] вищир перетворюється на болісну гримасу. «Відпусти мене, тварина!»"
+  seduce_ongoing.5014.a: "Невдало вийшло."
+
+  seduce_ongoing.5015.desc: "Мене не так легко роздратувати, але [owner.GetTitledFirstName] в цьому цілком процвітає. Залишившись наодинці, ми швидко переходимо до образ та рукоприкладства. \n\nЧесно кажучи, коли [owner.GetSheHe] раптово простягає руку, щоб допомогти мені піднятися, це застає мене зненацька."
+  seduce_ongoing.5015.a: "Дякую, [owner.GetFirstNameNoTooltip]!"
+  seduce_ongoing.5015.b: "Та ким [owner.GetSheHe] себе [Select_CString(owner.IsFemale, 'уявила', 'уявив' )]?"
+
+  seduce_ongoing.5016.desc: "[target.GetTitledFirstName] та я опиняємось на землі та мутузимо один одного, як діти. Незабаром наші вищири перетворюються на посмішки.\n\nЯ протягую [target.GetHerHim] руку, та [target.GetSheHe] з поклоном її приймає."
+
+  seduce_ongoing.5017.desc: "[target.GetTitledFirstName] і я опиняємось на землі та мутузимj один одного, як діти. Незабаром [target.GetHerHis] вищир перетворюється на гримасу. Я не дію, і неприязнь у [SCOPE.sC('target').GetHerHis] очах зростає.\n\n«Ти навіть не допоможеш мені встати... От же ж [owner.Custom('InsultNoun')]...»"
+
+  seduce_ongoing.5018.desc: "Мене не так легко роздратувати, але [owner.GetTitledFirstName] добре це вміє. Залишившись наодинці, ми швидко переходимо до образ та рукоприкладства. \n\nМені швидко вдається взяти гору, і бачити [owner.GetHerHis] [Select_CString(owner.IsFemale, 'поваленою', 'поваленим' )] та в моїй владі мені несподівано приємно."
+  seduce_ongoing.5018.a: "У тебе чудово виходить корчитися переді мною!"
+  seduce_ongoing.5018.b: "Жалюгідне видовище. Забирайся з очей моїх."
+
+  seduce_ongoing.5019.desc: "[target.GetTitledFirstName] височить наді мною, і я не можу стримати тремтіння: мені страшно. У [target.GetHerHis] очах проблискує вдоволений вираз. Принаймні, [SCOPE.sC('target').GetHerHim] сподобалося..."
+  seduce_ongoing.5019.a: "Це тремтіння від передчуття! Ч-чесно!"
+
+  seduce_ongoing.5020.desc: "[target.GetTitledFirstName] височить наді мною, і я не можу стримати тремтіння: мені страшно. У [target.GetHerHis] очах проблискує вдоволений вираз. Коли [target.GetSheHe] відвертається з глузливим виразом на обличчі, я відчуваю одночасно полегшення та гіркоту.\n\n«Ти не вмієш приносити мені задоволення. Забирайся, [ROOT.Char.GetFirstNameNoTooltip]»."
+  seduce_ongoing.5020.a: "Могло бути й краще... А могло — й гірше!"
+
+  seduce_ongoing.5101.t: "Зобов'язання та пристрасть"
+  seduce_ongoing.5101.desc: "[SCOPE.sC('target').GetTitledFirstName] часто поводиться зі мною так, що відразу стає ясно: поки [SCOPE.sC('target').GetSheHe] мені служить, між нами завжди буде прірва.\n\nЯ хочу дати [SCOPE.sC('target').GetHerHim] зрозуміти, що [SCOPE.sC('target').GetSheHe] [Select_CString(target.IsFemale, 'цікава', 'цікавий' )] мені не тільки як васал, що я жадаю [SCOPE.sC('target').GetHerHis] тепла, [SCOPE.sC('target').GetHerHis] дотиків і цих соковитих губ."
+  seduce_ongoing.5101.a: "[ROOT.Char.GetFaith.HighGodNameAlternate] каже, що ми рівні, [target.GetFirstNameNoTooltip]!"
+  seduce_ongoing.5101.a.tt: "#F Я вказую на наші спільні риси#!"
+  seduce_ongoing.5101.success_tt: "Якщо [target.GetFirstNameNoTooltip] реагує позитивно:"
+  seduce_ongoing.5101.b: "Є й інші способи послужити мені, [target.GetFirstNameNoTooltip]..."
+  seduce_ongoing.5101.b.tt: "#F Я підкреслюю свою владу#!"
+  seduce_ongoing.5101.c: "Мені, мабуть, варто стримати свої почуття."
+  seduce_ongoing.5101.c.tt: "#F Повинні бути інші способи повідомити [target.GetHerHim].#!"
+
+  seduce_ongoing.5102.desc: "«Можливо, я для тебе і [owner.GetTitleTierName], але мені ти завжди рівна», - мій сюзерен [owner.GetFirstName] [Select_CString(owner.IsFemale, 'прийшов', 'прийшла' )] до мене. Спочатку мета візиту була неясною, але це тривало недовго: «Ми... нам... Нам не обов'язково прив'язуватися до титулів. Ми більше, ніж просто імена. Набагато більше»."
+  seduce_ongoing.5102.a: "Мені приємно, що [ROOT.Char.Custom2(''RelationToMe'Possessive', SCOPE.sC('owner'))] настільки [Select_CString(owner.IsFemale, 'уважна', 'уважний' )] до мене."
+  seduce_ongoing.5102.b: "Я не хочу більшого, ніж маємо."
+
+  seduce_ongoing.5103.desc: "[Select_CString(target.IsFemale, 'Моя дорога', 'Мій дорогий' )] [target.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetTitledFirstName],\nмені дуже приємно, коли ти кажеш, що ми не просто сюзерен і васал, але багато в чому рівні. Сподіваюся, майбутнє буде прихильним до нас обох."
+  seduce_ongoing.5103.a: "[target.GetFirstNameNoTooltip], ти ще будеш [Select_CString(target.IsFemale, 'моєю', 'моїм' )]!"
+
+  seduce_ongoing.5104.desc: "[owner.GetFirstName], [target.Custom2('RelationToMe', SCOPE.sC('owner'))] [Select_CString(target.IsFemale, 'моя', 'мій' )]!\nТвої натяки, ці прохання - просто верх непристойності! У мене є обов'язок перед державою, але не плутай вірність із пристрастю."
+  seduce_ongoing.5104.a: "Ах, але [target.GetFirstNameNoTooltip]..."
+
+  seduce_ongoing.5105.desc: "«Ти служиш мені давно і вірно», — мій сюзерен [owner.GetFirstName] [Select_CString(owner.IsFemale, 'прийшов', 'прийшла' )] до мене. Спочатку мета візиту була незрозуміла, але це тривало недовго: «Я хочу бачити тебе не лише васалом, насамперед ти для мене [target.GetWomanMan]. І [Select_CString(owner.IsFemale, 'твоя', 'твій' )] [owner.GetLadyLord] вимагає відповідного служіння!»"
+  seduce_ongoing.5105.a: "Я подбаю про тебе, як ніхто."
+  seduce_ongoing.5105.b: "У мене певні зобов'язання, але не більше."
+
+  seduce_ongoing.5106.desc: "[Select_CString(target.IsFemale, 'Моя дорога', 'Мій дорогий' )] [target.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetTitledFirstName]!\nМені дуже втішно, що смиренні піддані можуть тебе так надихнути. Нехай час покаже, куди нас це заведе."
+
+  seduce_ongoing.5201.t: "Більше ніж друзі"
+  seduce_ongoing.5201.desc: "[court_location.Custom('BaronyTownType')] [court_location.GetNameNoTier]. [target.GetFirstName] і я прямуємо вулицями.\n\nНа площі з милим фонтаном ми зупиняємося, щоб поринути у навколишню суєту, а оточення ніби розчиняється."
+  seduce_ongoing.5201.a0: Кинемо монетку і побажаємо кохання!"""
+  seduce_ongoing.5201.a: "Let us toss a coin and wish for romance!"
+  seduce_ongoing.5201.a.tt: "Думаю, [target.GetTitledFirstName] вже думає про нас чи просто романтично [Select_CString(target.IsFemale, 'налаштована', 'настроєний' )]"
+  seduce_ongoing.5201.b: "Пам'ятаєш, як ми..."
+  seduce_ongoing.5201.b.tt: "Думаю, [target.GetTitledFirstName] по-справжньому цінує нашу дружбу"
+  seduce_ongoing.5201.c: "Не хочу псувати моменту."
+
+
+  seduce_ongoing.5202.desc: "[court_location.Custom('BaronyTownType')] [court_location.GetNameNoTier]. Я і [Select_CString(owner.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] прогулюємося і на одній із площ виявляємо гарний фонтан.\n\n«Давайте разом кинемо монетку, [Select_CString(ROOT.Char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]? Кажуть, це приносить кохання...»"
+  seduce_ongoing.5202.a: "Кинем три, для надійності!"
+  seduce_ongoing.5202.b: "Таке більше личить коханим, а не друзям."
+
+  seduce_ongoing.5203.desc: "[target.GetFirstName] стоїть поруч зі мною, кидає монетку у воду і з усмішкою дивиться на мене.\n\nРешта прогулянки проходить у доброзичливій атмосфері, породженій нашим взаємним бажанням."
+  seduce_ongoing.5203.a: "[target.GetSheHe|U] — по справжньому [target.Custom2('ComplimentAdjectiveArticle', ROOT.Char)][Select_CString(target.IsFemale, 'а', 'ий' )] [target.GetWomanMan]!"
+
+  seduce_ongoing.5204.desc: "«Що за дурні ігри, [ROOT.Char.GetFirstNameNoTooltip]?»\n\n[target.GetFirstName] не підтримує мої почуття. Залишок прогулянки проходить у напруженому мовчанні, і незабаром ми прощаємось."
+  seduce_ongoing.5204.a: "Мій настрій упав нижче за дно фонтану..."
+
+  seduce_ongoing.5205.desc: "[court_location.Custom('BaronyTownType')] [court_location.GetNameNoTier]. Я і [Select_CString(owner.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] ходимо і розмовляємо про справи давно минулих днів.\n\n«Пам'ятайте, як ми з вами засиджувалися до ночі, будували плани на майбутнє та мріяли, що воно у нас буде спільним.?..»"
+  seduce_ongoing.5205.a: "Як можна таке забути?"
+  seduce_ongoing.5205.b: "Навіщо [owner.GetSheHe] згадує ту ганебну ніч?"
+
+  seduce_ongoing.5206.desc: "[target.GetFirstName] і я годинами говоримо про минуле і фантазуємо про спільне майбутнє.\n\nРешта прогулянки проходить на дружній ноті, і я лише сподіваюся, що наші грайливі теорії хоча б частково втілюються в життя."
+
+  seduce_ongoing.5207.desc: "«Ти чудовий друг, [ROOT.Char.GetFirstNameNoTooltip], і я не хочу це міняти».\n\n[target.GetFirstName] чітко дає зрозуміти, що не хоче фантазувати про те, що могло б статися між нами у минулому чи майбутньому. Залишок прогулянки проходить у напруженому мовчанні, і незабаром ми прощаємось."
+  seduce_ongoing.5207.a: "Що ж, могло бути й краще!"
+
+  seduce_ongoing.5301.t: "Момент наодинці"
+  seduce_ongoing.5301.desc: "Ніхто не подумає поганого, якщо я і [Select_CString(target.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] посидимо біля каміна допізна. Але у повітрі відчувається напруга.\n\nЯ хочу лише одного - притягнути [target.GetHerHis] до себе і зірвати одяг з [target.GetHerHis] тіла, але якщо [target.GetSheHe] дізнається про це, то жахнеться. Або?.."
+  seduce_ongoing.5301.a: "Моя рука на [target.GetHerHis] руці скаже більше слів."
+  seduce_ongoing.5301.a.tt: "#F Сподіваюся, мій тонкий натяк досягне мети#!"
+  seduce_ongoing.5301.b: "Ми одні, і я не уникатиму [target.GetHerHis] губ."
+  seduce_ongoing.5301.b.tt: "#F Сподіваюся, мій відвертий інтерес виявиться взаємним#!"
+  seduce_ongoing.5301.c: "Дуже не хочеться псувати такий прекрасний вечір."
+  seduce_ongoing.5301.c.tt: "#F Будуть й інші можливості. [Select_CString(target.IsFemale, 'Моя', 'Мій' )] [THIS.Char.Custom2('RelationToMe', SCOPE.sC('target'))] нікуди не подінеться.#!"
+  seduce_ongoing.5301.success_tt: "Якщо [target.GetFirstName] відповість взаємністю:"
+
+  seduce_ongoing.5302.desc: "Це так природно, що спершу я навіть не помічаю. Ми сидимо біля каміна, і [Select_CString(owner.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] бере мене за руку міцніше, ніж личить.\n\nЯ відчуваю, як від пристрасті [target.GetHerHis] серце починає битися швидше."
+  seduce_ongoing.5302.a: "Я не вірю, що мої почуття хибні."
+  seduce_ongoing.5302.b: "Мені приємна твоя зацікавленість, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], але ні."
+
+  seduce_ongoing.5303.desc: "[SCOPE.sC('target').GetFirstName] навіть не здригається, коли я беру [SCOPE.sC('target').GetHersHis] руку, хоча ми чудово знаємо, до чого я веду. Розмова триває, а [SCOPE.sC('target').GetHerHis] серце б'ється дедалі частіше. Краплинки поту проступають у мене на зап'ясті, а подих частішає, і раптом...\n#EMP Що це було?#! А, просто слуга.\n\n[Select_CString(target.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] і я прощаємось і розходимося. У різні боки."
+  seduce_ongoing.5303.a: "Я знаю, ти теж це [Select_CString(target.IsFemale, 'відчула', 'відчув' )], [target.GetFirstNameNoTooltip]."
+
+  seduce_ongoing.5304.desc: "Я намагаюся звести все жартома, але [target.GetFirstName] правильно розуміє мої наміри.\n\n«[target.Custom2('RelationToMe', SCOPE.sC('owner'))] не може... Так не повинно бути! [target.GetSheHe|U] залишає мене біля вогнища на самоті."
+  seduce_ongoing.5304.a: "Знаю, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], але все ж..."
+
+  seduce_ongoing.5305.desc: "Все відбувається так швидко, але я не дивуюся. Ось ми сидимо біля вогнища, а ось уже [Select_CString(owner.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] притискається до мене. [SCOPE.sC('owner').GetHerHis|U] губи линуть до моїх, руки пестять шию, мої плечі, стегна...\n\nМи чуємо кроки слуги і поспішно відсахуємося один від одного. Тільки тоді думкам вдається наздогнати охоплене пристрастю тіло."
+  seduce_ongoing.5305.a: "Здається, все нарешті набуло сенсу."
+
+  seduce_ongoing.5306.desc: "[target.GetFirstName] повертає мій поцілунок, і на кілька ударів серця у світі панує гармонія. Звичайно, довго це тривати не може — нам доводиться спішно відсахнутися, поки нас не помітив слуга.\n\nКоли ж ми збираємося розходитися у своїх справах, [target.GetSheHe] дивиться на мене: «Я нарешті все [Select_CString(target.IsFemale, 'зрозуміла', 'зрозумів' )], [target.Custom2('RelationToMe', SCOPE.sC('owner'))]»."
+  seduce_ongoing.5306.a: "І ти, і я, [Select_CString(target.IsFemale, 'моя дорога', 'мій дорогий' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))]."
+
+  seduce_ongoing.5307.desc: "[target.GetFirstName] на мить розчиняється в поцілунку, поки мої руки жадібно ковзають по [target.GetHerHis] тілу. Але ось [target.GetSheHe] відштовхує мене.Що ти робиш?! Ти ж [Select_CString(owner.IsFemale, 'моя', 'мій' )] [target.Custom2('RelationToMe', SCOPE.sC('owner'))]!»\n\nНе встигаю я вимовити і слова, пояснити, як [target.GetSheHe] вибігає з кімнати."""
+  seduce_ongoing.5307.a: "[target.GetFirstNameNoTooltip], але мені правда здавалося..."
+
+  seduce_ongoing.6001.t: "З цікавості"
+  seduce_ongoing.6001.desc: "Коли я відвідую інші двори, я неодмінно спілкуюся з придворними, щоб більше дізнатися про їхніх сюзеренів. Особливо приємний співрозмовник — [target.GetTitledFirstName].\n\n[target.GetSheHe|U] відповідає на запитання дуже докладно, і я розумію, що можу слухати ці промови весь день, тим більше, що [target.GetSheHe] зовсім не проти поговорити."
+  seduce_ongoing.6001.a: "[target.Custom2('RelationToMe', SCOPE.sC('court_owner'))] — нескінченний привід для розмов, але все ж таки розкажіть, що подобається #EMP вам#!?"
+  seduce_ongoing.6001.b: "Ви, звичайно, простежте, щоб [court_owner.GetFirstNameNoTooltip] про мене [Select_CString(owner.IsFemale, 'почула', 'почув' )]?"
+
+  seduce_ongoing.6011.t: "Демонстрація сили"
+  seduce_ongoing.6011.desc: "Я треную війська у дворі так зосереджено, що [target.GetTitledFirstName] підходить зовсім непомітно.\n\n«Добре рухаються, але [dummy_gender.GetWomanMan] он там постійно відстає на півкроку»."
+  seduce_ongoing.6011.a: "Дуже вражає! У нас більше спільного, ніж мені здавалося."
+  seduce_ongoing.6011.b: "У вас гостре око!"
+  seduce_ongoing.6011.c: "Відволікаючий маневр. Подивимося, що буде зараз..."
+
+  seduce_ongoing.6021.t: "Єднання розумів"
+  seduce_ongoing.6021.desc: "Мене вразило, як глибоко [target.GetTitledFirstName] і я поринули в обговорення військової справи: судячи з усього, [target.GetSheHe] любить це так само пристрасно, як і я. І що особливо приємно, [SCOPE.sC('target').GetSheHe] чудово в цьому [Select_CString(target.IsFemale, 'обізнана', 'обізнаний' )]!"
+  seduce_ongoing.6021.a: "Подумати тільки, [target.GetFirstNameNoTooltip]! За стільки років мені ніхто не розповідав нічого подібного!"
+  seduce_ongoing.6021.b: "[target.GetFirstNameNoTooltip], я ніколи не знав, що у нас є стільки спільного."
+  seduce_ongoing.6021.c: "А що ви думаєте про побудову кінних армій?"
+
+  seduce_ongoing.6031.t: "Павутина"
+  seduce_ongoing.6031.desc: "Подібно мені, [target.GetTitledFirstName] містить найширшу шпигунську мережу і цікавиться різними секретами. Я можу дозволити їмз'ясувати"""", чому мене цікавить [target.GetFirstName], щоб [target.GetSheHe] [Select_CString(target.IsFemale, 'думала', 'думав' )], ніби має перевагу."""
+  seduce_ongoing.6031.a: "А ще я дам їм знати, що знаю, що вони знають..."
+  seduce_ongoing.6031.b: "Я простежу, щоб шпигуни виявили #EMP щось цікаве.#!"
+  seduce_ongoing.6031.c: "Чудова можливість попрактикуватися!"
+
+  seduce_ongoing.6041.t: "Розуміння кохання"
+  seduce_ongoing.6041.desc: "Перш ніж добиватися того, щоб [target.GetTitledFirstNamePossessive] [Select_CString(target.IsFemale, 'перейнялася', 'перейнявся' )] до мене почуттям, варто з'ясувати, які [target.GetHerHis] смаки та уподобання..."
+  seduce_ongoing.6041.a: "#EMP Пф#!, це мене не зупинить!"
+  seduce_ongoing.6041.b: "Думаю, мені вдасться переконати [SCOPE.sC('target').GetHerHis] розповісти все як є."
+  seduce_ongoing.6041.b.success: "Я дізнаюся про інтереси персонажа [target.GetFirstNamePossessive]"
+  seduce_ongoing.6041.b.failure: "[target.GetFirstName] уникає моїх розпитувань"
+  seduce_ongoing.6041.c: "Мої шпигуни впораються з цим миттєво."
+  seduce_ongoing.6041.c.success: "Шпигуни успішно виконали завдання"
+  seduce_ongoing.6041.c.failure: "[target.GetFirstName] не піддається моїм шпигунам"
+  seduce_ongoing.6041.d: "Я, мабуть, просто спитаю."
+
+  seduce_ongoing.6042.desc: "Дуже цікаво... [target.GetFirstName] має чудовий смак."
+  seduce_ongoing.6042.a: "Це допоможе мені привернути увагу [target.GetHerHis]."
+
+  seduce_ongoing.6043.desc: "Схоже, [target.GetFirstName] [Select_CString(target.IsFemale, 'порахувала', 'порахував' )] мій підхід неделікатним. Тепер [target.GetSheHe] намагається з'ясувати, чому мене так цікавлять [target.GetHerHis] життєві цінності!"
+  seduce_ongoing.6043.a: "Це не обіцяє мені нічого доброго."
+
+  seduce_ongoing.6051.t: "Завіса чемності"
+  seduce_ongoing.6051.close: "Для мене це виявилася непогана можливість повправлятися в дипломатичній чемності. Звичайно ж, [target.GetTitledFirstName] легко викриє мою витівку, але все ж [target.GetSheHe] [Select_CString(target.IsFemale, 'погодилася', 'погодився' )]."
+  seduce_ongoing.6051.far: "Візити до інших дворів — завжди привід обміну дипломатичними люб'язностями. На щастя, [target.GetTitledFirstName] не проти принести мені таке задоволення."
+  seduce_ongoing.6051.end: "\n\nДля людини з боку наш обмін люб'язностями може здатися безглуздим ритуалом. Але для нас це була бурхлива пожежа під тихою гладдю слів."
+  seduce_ongoing.6051.a: "Ах, душа відпочиває!"
+  seduce_ongoing.6051.b: "Спасибі за поради, [target.GetFirstNameNoTooltip]..."
+  seduce_ongoing.6051.c: "Потрібно частіше так вправлятися."
+
+  seduce_ongoing.7001.t: "Beneath Those Layers"
+  seduce_ongoing.7001.desc: "How should I approach [target.GetTitledFirstName]? [target.GetSheHe|U] seems like a reserved individual who prefers silence as a companion, at least that's how [target.GetSheHe] appears on the surface. Who knows what sort of person [target.GetSheHe] is in private? Is [target.GetSheHe] meek and submissive or perhaps passionate and fiery?\n\nI'll find out once I have breached [target.GetHerHis] stony exterior. For now, I have to decide how to make myself remain in [target.GetHerHis] thoughts after spending some time alone."
+  seduce_ongoing.7001.a: "Be as gallant and charming as possible."
+  seduce_ongoing.7001.a.tt: "#F You think [target.GetFirstNameNoTooltip] has a secret romantic side and prefers ardent lovers#!"
+  seduce_ongoing.7001.b: "Approach [target.GetFirstNameNoTooltip] tenderly – as a friend."
+  seduce_ongoing.7001.b.tt: "#F You think [target.GetFirstNameNoTooltip] is the type of person who prefers gentle lovers#!"
+  seduce_ongoing.7001.c: "I'll just wait for the right opportunity..."
+
+  seduce_ongoing.7101.desc_opening: "I manage to get a moment alone with [target.GetTitledFirstName]. I bide my time, balancing flattery and conversation. Then as the right mood settles, "
+  seduce_ongoing.7101.desc_can_touch_arms: "I reach out and clasp [target.GetFirstNamePossessive] hand in mine."
+  seduce_ongoing.7101.desc_cannot_touch_arms: "I catch myself reaching to grasp [target.GetFirstNamePossessive] hand, but pull back before [target.GetSheHe] notices."
+  seduce_ongoing.7101.desc_closing: "I lay bare my feelings for [target.GetFirstNameNoTooltip] and declare my undying love for [target.GetHerHim]. \n\nNot even in my wildest dreams could I've imagined you were this passionate, [owner.GetFirstNameNoTooltip]!" [target.GetSheHe|U] exclaims while desperately fanning [target.GetHerselfHimself].\n\nWhile [target.GetSheHe] doesn't respond to my proclamation in kind, I'm certain that the shade of red on [target.GetHerHis] ears is due to [target.GetHerHim] blushing ferociously at my bold words."""
+  seduce_ongoing.7101.a: "It shouldn't be long before [target.GetSheHe] reciprocates my feelings."
+  seduce_ongoing.7102.desc: "I try to create an opportunity for a private moment with [target.GetTitledFirstName], but the mood for romance doesn't come naturally with [target.GetHerHim]. Even with my lack of success, I decided to go for it, despite the atmosphere not being perfect. I lean in closer so that I can whisper sweet nothings into [target.GetHerHis] ear, but before I can say anything, [target.GetFirstNameNoTooltip] recoils as if burned by something and stalks off.\n\nI'm uncertain if that reaction is due to inexperience, disgust, or bashfulness. However, I do know that things could've gone better."
+  seduce_ongoing.7102.a: "I should rethink my approach..."
+  seduce_ongoing.7201.desc: "I'd like to get to know you better.""\n[target.GetTitledFirstName] appears tense at first, but relaxes over time as [target.GetSheHe] starts to believe there's no ulterior motive behind my request.\n\nBefore we part, I thank [target.GetFirstNameNoTooltip] for the lovely time and [target.GetSheHe] tries to return my smile with a wobbly one of [target.GetHerHis] own. While the time spent is hardly one for the books, there's no denying that I've never seen [target.GetFirstNameNoTooltip] smile this much in one day. I am certain that [target.GetFirstNameNoTooltip] will be thinking of me for a long time."""
+  seduce_ongoing.7202.desc: "Getting a moment alone with [target.GetTitledFirstName] wasn't difficult. However, it turns out that the challenging part is having a normal conversation with [target.GetHerHim]. I ask [target.GetHerHim] a question and [target.GetSheHe] replies with the shortest answer [target.GetSheHe] can think of just to shut down our conversation. It's like pulling an endless amount of teeth!"
+  seduce_ongoing.7202.desc_animal: "\n\nI can't stop thinking that I would get more of a response from a dead [ROOT.Char.Custom('LocalAnimal')] than from [target.GetFirstNameNoTooltip]."

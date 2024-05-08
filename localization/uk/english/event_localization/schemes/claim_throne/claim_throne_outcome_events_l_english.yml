@@ -1,0 +1,62 @@
+﻿l_english:
+  do_not_execute_claim_throne_tooltip: "Я не намагаюся претендувати на титул [target.GetPrimaryTitle.GetName]"
+
+  # Distant Relation
+  claim_throne_outcome.1001.t: "Претензія на трон"
+  claim_throne_outcome.1001.desc: "Після всієї моєї важкої праці, настав час надати «знайдений» мною доказ того, що я є законним спадкоємцем держави. [target_title.GetName], наслідуючи владу через давній династичний шлюб.\n\nВставши в мене на шляху, [target.GetTitledFirstName] стане звичайним узурпатором!"
+  claim_throne_outcome.1001.a: "З мене ще вийде [target.GetTitleAsNameNoTooltip]!"
+  claim_throne_outcome.1001.b: "Мабуть, не варто поспішати..."
+
+  claim_throne_outcome.2001.opening: "Нарешті ні в кого не залишається сумнівів щодо законності моїх претензій на державу [target_title.GetName]!"
+  claim_throne_outcome.2001.discovered: "\n\nХоча [target.GetTitledFirstName] вважає, що мої заяви про давній династичний шлюб фальшиві, [target.GetSheHe] не може спростувати їх, і це головне."
+  claim_throne_outcome.2001.no_awareness: "\n\nХоча окремі подробиці давнього династичного шлюбу канули у прірву часу, немає причин сумніватися у його достовірності. Навіть [target.GetTitledFirstName] визнає законність моїх домагань."
+  claim_throne_outcome.2001.a: "Тепер мене ніщо не зупинить!"
+  claim_throne_outcome.2001.b: "[target.GetFirstNameNoTooltip] може скаржитися, скільки захоче! Це нічого не змінить."
+
+  claim_throne_outcome.4001.opening: "Ніхто не вірить моїм претензіям на державу [target_title.GetName]!"
+  claim_throne_outcome.4001.owner_discovered: "\n\nГірше того, [target.GetTitledFirstName] тепер знає про мої спроби сфальшувати записи про шлюб між династією [ROOT.Char.GetDynasty.GetBaseName] та династією, яка колись правила державою [target_title.GetNameNoTierNoTooltip]!"
+  claim_throne_outcome.4001.owner_secret: "\n\nХоча записи про шлюб між династією [ROOT.Char.GetDynasty.GetBaseName] і династією, яка колись правила державою [target_title.GetNameNoTierNoTooltip], були визнані недостовірними, ніхто не дізнався про мою причетність до їхнього створення."
+  claim_throne_outcome.4001.a: "«Мені лише хотілося долучитися до слави вашої родини!»"
+  claim_throne_outcome.4001.b: "Я почекаю, скільки потрібно."
+  claim_throne_outcome.4001.c: "Я веду занадто небезпечну гру."
+
+
+  # Relation to Mythical Founder
+  claim_throne_outcome.1002.desc: "Тепер у мене є майже незаперечні докази, що моїм предком є [ROOT.Char.Custom('ClaimThroneMythicalFounderHerselfHimself')] [ROOT.Char.Custom('ClaimThroneMythicalFounder')]!\n\nНавіть [target.GetTitledFirstName] більше не може заперечувати законність моїх претензій на владу у державі [target_title.GetName]."
+
+  claim_throne_outcome.2002.discovered: "\n\n[target.GetTitledFirstName] вважає, що я заявляю, нібито моїм предком є [ROOT.Char.Custom('ClaimThroneMythicalFounder')], без жодних підстав. Однак спростувати мої претензії [target.GetSheHe] не може, а решта не має значення."
+  claim_throne_outcome.2002.no_awareness: "\n\nВраховуючи, що моїм предком є [ROOT.Char.Custom('ClaimThroneMythicalFounder')], хто взагалі може назвати мої претензії необґрунтованими?"
+
+  claim_throne_outcome.4002.owner_discovered: "\n\n[target.GetTitledFirstName] з несподіваною для мене легкістю доводить, що давній правитель [owner.Custom('ClaimThroneMythicalFounder')] не має до мене жодного відношення. [target.GetSheHe|U] навіть знає, що мій «доказ» був повністю сфабрикований!"
+  claim_throne_outcome.4002.owner_secret: "\n\nНіхто не вірить, що давній правитель [owner.Custom('ClaimThroneMythicalFounder')] може бути моїм предком, але [target.GetTitledFirstName] хоча б не знає, що мій «доказ» фальшивий!"
+  claim_throne_outcome.4002.a: "«Мені просто хотілося трохи слави!»"
+
+
+  # Chosen by previous ruler
+  claim_throne_outcome.1003.desc: "У мене є кілька очевидців, які готові присягнути, що [previous_title_holder.GetTitledFirstName], [Select_CString(previous_title_holder.IsFemale, 'стара', 'старий' )] [previous_title_holder.GetTitleAsNameNoTooltip] держави [target_title.GetNameNoTier], перед смертю [Select_CString(previous_title_holder.IsFemale, 'оголосила', 'оголосив' )], що [target.Custom('RealmType')] переходить до мене.\n\nХоча [target.GetTitledFirstName] навряд чи визнає мої претензії, насправді мені й переконувати [target.GetHerHis] не потрібно..."
+
+  claim_throne_outcome.2003.discovered: "[target.GetTitledFirstName] на повний голос [Select_CString(target.IsFemale, 'заявила', 'заявив' )], що жодних обіцянок мені [Select_CString(previous_holder.IsFemale, 'стара', 'старий' )] [previous_holder.GetTitledFirstName] не [Select_CString(previous_holder.IsFemale, 'давала', 'давав' )] і що я просто брешу від відчаю. Однак [target.GetHerHis] слова поступаються силі священної клятви."
+  claim_throne_outcome.2003.no_awareness: "Враховуючи обіцянку, що [Select_CString(previous_holder.IsFemale, 'дала', 'дав' )] мені [Select_CString(previous_holder.IsFemale, 'стара', 'старий' )] [previous_holder.GetTitledFirstName], і безліч свідків, які готові це підтвердити, [target.GetTitledFirstName] може лише визнати мою заяву. [target.GetSheHe|U], можливо, не здасться без бою, але мої права заперечувати не зможе."
+  claim_throne_outcome.4003.owner_discovered: "\n\n[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'змусила', 'змусив' )] відмовитися від своїх слів всіх тих, хто свідчив, що [Select_CString(previous_holder.IsFemale, 'стара', 'старий' )] [previous_holder.GetTitledFirstName] [Select_CString(previous_holder.IsFemale, 'обіцяла', 'обіцяв' )] залишити спадок мені! Тепер вони заявляють, ніби були підкуплені мною! Хоча вони кажуть правду, це все одно мерзенна зрада."
+  claim_throne_outcome.4003.owner_secret: "\n\n[target.GetTitledFirstName] [Select_CString(target.IsFemale, 'змусила', 'змусив' )] відмовитися від своїх слів всіх тих, хто свідчив, що [Select_CString(previous_holder.IsFemale, 'стара', 'старий' )] [previous_holder.GetTitledFirstName] [Select_CString(previous_holder.IsFemale, 'обіцяла', 'обіцяв' )] зробити спадкоємцем мене. Однак, оскільки жодних звинувачень на мою адресу не було, [target.GetFirstNameNoTooltip], ймовірно, вважає, що у моїх заявах є частка правди."
+  claim_throne_outcome.4003.a: "Невже в наші дні нікому довіряти не можна?"
+
+  # Response events for target
+  claim_throne_outcome.5001.opening: "[Select_CString(owner.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'оголосила', 'оголосив' )], що [target_title.GetName] по праву належить [Select_CString(owner.IsFemale, 'їй', 'йому' )]!"
+  claim_throne_outcome.5001.distant_relation: "\n\nОчевидно, кілька поколінь тому наші династії уклали стратегічний шлюб, і тепер [owner.GetSheHe] використовує його, щоб оскаржити спадкування."
+  claim_throne_outcome.5001.mythical_founder: "\n\n[owner.GetFirstNameNoTooltip] заявляє, що [owner.Custom('ClaimThroneMythicalFounder')] є [Select_CString(owner.IsFemale, 'її', 'його' )] предком! [owner.GetSheHe|U] вважає, що цього достатньо, щоб оголосити [Select_CString(owner.IsFemale, 'її правителькою', 'його правителем' )] держави [target_title.GetNameNoTooltip]."
+  claim_throne_outcome.5001.previous_holder_promise: "\n\n[owner.GetFirstNameNoTooltip] заявляє, що [previous_holder.Custom2('RelationToMe', ROOT.Char)] на смертному ложі [Select_CString(previous_holder.IsFemale, 'обіцяла', 'обіцяв' )], наче [target_title.GetTierAsNameNoTooltip] перейде до [Select_CString(owner.IsFemale, 'неї', 'нього' )]. На жаль, [owner.GetSheHe] [Select_CString(owner.IsFemale, 'знайшла', 'знайшов' )] кількох людей, які присягаються всіма святими, що це правда."
+  claim_throne_outcome.5001.fallback: "\n\n[owner.GetFirstNameNoTooltip] refuses to say what the claims are based on, but [owner.GetSheHe] is refusing to back down!"
+  claim_throne_outcome.5001.discovered: "\n\nЦі претензії повністю сфабриковані, але можуть загрожувати, якщо їх підтримають інші!"
+  claim_throne_outcome.5001.a: "Наче я віддам свої землі без бою!"
+  claim_throne_outcome.5002.a: "Невже [owner.GetSheHe] правда думає, що це зійде [owner.GetHerHim] з рук?!"
+  claim_throne_outcome.5003.opening: "[Select_CString(owner.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetTitledFirstName] [Select_CString(owner.IsFemale, 'спробувала', 'спробував' )] висунути претензію на державу [target_title.GetName]!"
+  claim_throne_outcome.5003.owner_known: "\n\nЗрозуміло, ці домагання безглузді, і якщо це все, чим може мені погрожувати [owner.GetFirstNameNoTooltip], то турбуватися нема про що."
+  claim_throne_outcome.5003.a: "[owner.GetSheHe|U] заплатить за зухвалість!"
+
+  # Other text
+  claim_throne_invalidated: "Підступи задля претензії на трон завершуються"
+  claim_throne_target_died_tt: "Персонаж [target.GetTitledFirstName] помер"
+  claim_throne_target_lost_titles_tt: "[target.GetTitledFirstName] більше не має земель"
+  claim_throne_target_no_longer_liege_tt: "[target.GetTitledFirstName] більше мені не сюзерен"
+  claim_throne_invalidate_fallback_tt: "Я більше не можу претендувати на титул, який має [target.GetTitledFirstName]"

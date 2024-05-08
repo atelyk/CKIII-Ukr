@@ -1,0 +1,68 @@
+﻿l_english:
+  greeting_lover_object: "[second.GetTitledFirstName|U], [Select_CString(second.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))]"
+  greeting_lover_fallback: "[second.GetTitledFirstName|U], [Select_CString(second.IsFemale, 'моя дорога', 'мій дорогий' )] [second.Custom('LoverPetName')]"
+
+  greeting_liege_positive: "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+  greeting_liege_negative: "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+  greeting_liege_liked: "Вітаю, [Select_CString(second.IsFemale, 'моя', 'мій' )] [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'а', 'ий' )] [Select_CString(second.IsFemale, 'пані', 'пане' )]!"
+  greeting_liege_dislike: "До мого сюзерена,"
+  greeting_liege_fallback: "Вітаю, [Select_CString(second.IsFemale, 'Моя', 'Мій' )] [Select_CString(second.IsFemale, 'Пані', 'Пане' )]"
+
+  greeting_vassal_positive: "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]"
+  greeting_vassal_negative: "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+  greeting_vassal_relative_liked: "[ROOT.Char.Custom2('GreetingToFamily', second)]"
+  greeting_vassal_liked: "Вітаю, [Select_CString(second.IsFemale, 'моя', 'мій' )] [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'а', 'ий' )] [Select_CString(second.IsFemale, 'піддана', 'підданий' )]!"
+  greeting_vassal_dislike: "[Select_CString(second.IsFemale, 'Моя', 'Мій' )] [second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'а', 'ий' )] [Select_CString(second.IsFemale, 'піддано', 'підданий' )]"
+  greeting_vassal_fallback: "[Select_CString(second.IsFemale, 'Моя', 'Мій' )] [Select_CString(second.IsFemale, 'піддано', 'підданий' )]"
+
+  greeting_family_positive: "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
+  greeting_family_negative: "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
+  greeting_family_liked: "[Select_CString(second.IsFemale, 'Моя дорога', 'Мій дорогий'  )] [ROOT.Char.Custom2('RelationToMeShort', second)],"
+  greeting_family_fallback: "Вітаю, [ROOT.Char.Custom2('RelationToMeShort', second)]!"
+  
+  greeting_foreign_ruler: "Вітаю, [second.GetNameNoTooltip]!"
+  greeting_foreign_ruler_negative: "[second.Custom('InsultAdjective')|U] [second.GetTitledFirstNameNoTooltip]!"
+  greeting_foreign_ruler_positive: "[second.Custom('ComplimentAdjective')|U][Select_CString(second.IsFemale, 'а', 'ий' )] [second.GetNameNoTooltip]!"
+
+  greeting_generic: "Вітаю, [second.GetNameNoTooltip]!"
+  greeting_generic_negative: "[second.Custom('InsultAdjective')][Select_CString(second.IsFemale, 'а', 'ий' )] [second.GetFirstNameNoTooltip],"
+  greeting_generic_positive: "[second.Custom('ComplimentAdjective')][Select_CString(second.IsFemale, 'а', 'ий' )] [second.GetFirstNameNoTooltip],"
+
+  greeting_appropriate_positive_liege: "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+  greeting_appropriate_positive_vassal: "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]"
+  greeting_appropriate_positive_family: "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
+  greeting_appropriate_positive_foreign_ruler: "[ROOT.Char.Custom2('GreetingToForeignRulerPositive', second)]"
+
+  greeting_appropriate_lover: "[ROOT.Char.Custom2('GreetingToLover', second)]"
+  greeting_appropriate_liege: "[ROOT.Char.Custom2('GreetingToLiege', second)]"
+  greeting_appropriate_vassal: "[ROOT.Char.Custom2('GreetingToVassal', second)]"
+  greeting_appropriate_family: "[ROOT.Char.Custom2('GreetingToFamily', second)]"
+  greeting_appropriate_foreign_ruler: "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]"
+  greeting_appropriate_fallback: "[ROOT.Char.Custom2('GreetingToGeneric', second)]"
+  greeting_appropriate_positive_fallback: "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+  greeting_appropriate_negative_fallback: "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]"
+
+  greeting_appropriate_negative_liege: "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+  greeting_appropriate_negative_vassal: "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+  greeting_appropriate_negative_family: "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
+  greeting_appropriate_negative_foreign_ruler: "[ROOT.Char.Custom2('GreetingToForeignRulerNegative', second)]"
+
+
+  greeting_supplimentary.negative: "[ROOT.Char.Custom2('NegativeSupplimentaryGreeting', second)|U]"
+  greeting_supplimentary.negative.tales: "Про ваші злочини розповідають від Ірландії до Китаю."
+  greeting_supplimentary.negative.greek: "Ваша погана натура це тема грецьких трагедій."
+  greeting_supplimentary.negative.insult.1: "Нехай ваші гумори згниють у вашому тілі."
+  greeting_supplimentary.negative.insult.2: "Нехай життя твоє буде коротким і жалюгідним."
+  greeting_supplimentary.negative.insult.3: "Нехай мудрість уникає тебе."
+  greeting_supplimentary.negative.insult_muslim.1: "Прокляття на тебе до сьомого коліна."
+  greeting_supplimentary.negative.insult_muslim.2: "Хай вас зашиють живим у череві мертвого верблюда."
+  greeting_supplimentary.negative.insult_muslim.3: "Хай Аллах зруйнує ваш дім."
+  greeting_supplimentary.negative.insult_muslim.4: "Кодло паршивої собаки."
+
+  greeting_supplimentary.positive: "[ROOT.Char.Custom2('PositiveSupplimentaryGreeting', second)]"
+  greeting_supplimentary.positive.flattery.1: "Благословення вам і вашому будинку."
+  greeting_supplimentary.positive.flattery.2: "Ваші мудрість і милосердя легендарні."
+  greeting_supplimentary.positive.flattery.3: "З миром."
+  greeting_supplimentary.positive.flattery.4: "Бажаю вам гармонії та спокою."
+  greeting_supplimentary.positive.flattery.5: "Вашій нещадності залишається тільки позаздрити."
+  greeting_supplimentary.positive.flattery.6: "Ваш великий апетит славиться на весь світ."

@@ -1,0 +1,28 @@
+﻿l_english:
+  murdered_close_family: "Вбито члена сім'ї"
+  murdered_close_family_crime: "Вбито члена сім'ї"
+  attempted_murder_close_family: "Спроба вбити члена сім'ї"
+  attempted_murder_close_family_crime: "Спроба вбивства члена сім'ї"
+  attempted_murder_me: "Спроба мого вбивства"
+  attempted_murder_me_crime: "Спроба мого вбивства"
+  murdered_close_relation_opinion: "Вбивця близького родича"
+  murdered_someone_close_to_me_crime: "Murdered Someone Close to Me"
+
+
+  executed_close_family: "Ця людина стратила родину"
+  executed_close_family_crime: "Ця людина незаконно стратила родину"
+  executed_vassal: "Страта мого васала"
+  executed_fellow_vassal: "Страта іншого васала"
+  executed_liege: "Кат мого сюзерена"
+  executed_dynasty_member: "Кат члена династії"
+  executed_family_sun_trial_modifier: "Ця людина змусила сім'ю пройти Випробування Сонця"
+  executed_close_relation_opinion: "Страчено близького родича"
+  executed_my_countryman_modifier: "Страчено мого васала"
+  executed_guest_modifier: "Страта іншого гостя"
+
+  tortured_family_member: "Тортури члена сім'ї"
+  tortured_me: "Ця людина катувала мене"
+  blinded_family_member: "Засліплення члена сім'ї"
+  blinded_me: "Ця людина осліпила мене"
+  castrated_family_member: "Кастрація члена сім'ї"
+  castrated_me: "Ця людина каструвала мене"

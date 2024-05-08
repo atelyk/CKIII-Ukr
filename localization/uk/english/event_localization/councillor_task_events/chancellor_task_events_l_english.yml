@@ -1,0 +1,92 @@
+﻿l_english:
+  chancellor_task.0991_end_desc: "[target_character.GetTitledFirstNamePossessiveNoTooltip] opinion of you will not increase more."
+  chancellor_task.0991_increase_desc: "[target_character.GetTitledFirstNameNoTooltip] was impressed and honored by the Royal Favor you bestowed upon [target_character.GetHerHim]."
+
+  chancellor_task.1001.t: "Новий претендент"
+  chancellor_task.1001.desc: "І звідки такі дурники беруться...\n\nЗамість того, щоб покращити мої відносини з сусідами, це нещастя, [councillor.GetCouncilTitle], визнає претензії, які [SCOPE.sC('neighboring_ruler').GetTitledFirstName] пред'являє на регіон [target_county.GetName]!"
+  chancellor_task.1001.a: "Твій обов'язок — шукати друзів, а не ворогів!"
+  chancellor_task.1001.title_message: "Blunder Results in Claim"
+  chancellor_task.1001.message: "[councillor.GetTitledFirstName] officially acknowledged your claim to the [target_county.GetName]"
+
+  chancellor_task.1002.t: "Кінець миру"
+  chancellor_task.1002.desc: "Намагаючись покращити мою репутацію, [Select_CString(councillor.IsFemale, 'цей дурник', 'ця дурепа' )] [councillor.GetCouncilTitle] підписує угоду, що #EMP скасовує#! деякі пункти старої домовленості, яку уклали [target.GetName] та я!\n\n[target.GetTitleTierName] однозначно це зрозуміє, і тепер може оголосити мені війну у будь-який момент."
+  chancellor_task.1002.a: "Як взагалі на таке можна погодитися, [councillor.GetFirstNameNoTooltip]?!"
+
+  chancellor_task.1003.opening: "[neighbor.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+  chancellor_task.1003.desc: "Я та ваш [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], вели листування. Це було жахливе виявлення дипломатичного мистецтва. Ви сильно попсували мою думку про вас!"
+  chancellor_task.1003.a: "Це все якесь страшне непорозуміння..."
+
+  chancellor_task.1003.message: "[councillor.GetCouncilTitle] засмучує [neighbor.GetTitledFirstName]"
+
+  chancellor_task.1102.t: "Вміла дипломатія"
+  chancellor_task.1102.desc: "[Select_CString(councillor.IsFemale, 'Моя', 'Мій')] [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], — майстер переконання: тепер сусідні держави і наші васали повірили, що мирна угода, яку уклала зі мною держава [target.GetName], не чинна, незакона та взагалі несправедлива до мене!\n\nЯ знову можу оголосити війну відразу коли захочу."
+  chancellor_task.1102.a: "Неймовірна робота, [councillor.GetFirstNameNoTooltip]!"
+
+  chancellor_task.1103.opening: "[neighbor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
+  chancellor_task.1103.desc: "Я та ваш [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], листувалися, і мушу визнати — тепер я бачу вас в іншому світлі. Можливо, прийде день, коли я гордо назву вас своїм другом."
+  chancellor_task.1103.a: "Сьогодні Ви на висоті, [councillor.GetFirstNameNoTooltip]!"
+
+  chancellor_task.1103.message: "[councillor.GetCouncilTitle] вражає [neighbor.GetTitledFirstName]"
+
+  chancellor_task.2001.t: "Опір місцевих"
+  chancellor_task.2001.desc: "Шановний [councillor.Custom2('RelationToMe', ROOT.Char)],\n Хоча, моїми зусиллями, реорганізація у [county.GetName] швидко прогресує, не всі ще усвідомили свою вигоду.\nСхоже, що декілька мерів та сільських старійшин мною не задоволені. Усі мери та старійшини, якщо бути точним."
+  chancellor_task.2001.a: "Що взагалі коїть [councillor.GetFirstNameNoTooltip]..."
+  chancellor_task.2001.notification: "[councillor.GetFirstNameNoTooltip] — некомпетентний [councillor.GetCouncilTitle], і тепер я втрачаю повагу жителів регіону [county.GetName]"
+
+  chancellor_task.2002.desc: "Превелебний [councillor.Custom2('RelationToMe', ROOT.Char)]...\n\nЗдається мені, що я помилився у своїх розрахунках. Мої реформи в графстві [county.GetName] мали на меті зміцнити ваш контроль над регіоном, але натомість люди, здається, заледве знають, хто їх [ROOT.Char.GetTitleTierName] is..."
+  chancellor_task.2002.a: "Через тебе все стало #EMP ще гірше?!#!"
+  chancellor_task.2002.notification: "[Select_CString(councillor.IsFemale, 'Моя', 'Мій')] [councillor.GetCouncilTitle] втрачає контроль над комітатом [county.GetName]!"
+
+  chancellor_task.2003.t: "Розчарування"
+  chancellor_task.2003.desc: "Вітаю вас, [baron.Custom2('RelationToMe', ROOT.Char)]!\nОбставини змушують мене поскаржитись на те, як веде себе ваш [councillor.GetCouncilTitle], [councillor.GetTitledFirstName]!\n [councillor.GetSheHe|U] з'являється в комітат [county.GetName] і починає змінювати все підряд за власною забаганкою, не враховуючи наші традиції та давні звичаї!"
+  chancellor_task.2003.a: "Невже не можна діяти делікатніше, [councillor.GetFirstNameNoTooltip]?"
+  chancellor_task.2003.notification: "[Select_CString(councillor.IsFemale, 'Моя некомпетентна', 'Мій некомпетентний')] [councillor.GetCouncilTitle] [Select_CString(councillor.IsFemale, 'засмутила', 'засмутив')] одного з моїх васалів!"
+
+  chancellor_task_2001.message: "$baron_plural_upper_case$ опираються інтеграції"
+
+  chancellor_task_2002.message: "[resisting_culture.GetNameNoTooltip]ий народ опирається інтеграції"
+
+  chancellor_task_2101.message: "$baron_plural_upper_case$ підтримують інтеграцію"
+
+  chancellor_task_2102.message: "[supporting_culture.GetNameNoTooltip]ий народ підтримує інтеграцію"
+  chancellor_task_every_county_of_culture_in_title: "Кожний [supporting_culture.GetAdjective]ий комітат в державі [title.GetNameNoTier]"
+
+  chancellor_task.2103.opening: "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+  chancellor_task.2103.desc: "[title.GetName] інтегрується більш ніж успішно. Ми можемо навіть спробувати ввести на цих землях деякі податкові принципи держави [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]."
+  chancellor_task.2103.a: "Чудово. Спробуйте!"
+  chancellor_task.2103.b: "Можливо, натомість ми могли б почерпнути щось з їхньої практики?"
+  chancellor_task.2103.c: "Ні, ці речі потребують часу, і ми повинні дати йому стільки, скільки потрібно."
+
+  chancellor_task.3001.opening: "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
+  chancellor_task.3001.desc: "Ваш [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], вже деякий час перебуває в мене в гостях. Мені неприємно бачити, як зухвало [councillor.GetSheHe] поводить себе в моєму домі, намагаючись при цьому спонукати нас до служіння Вам!\n\nЩо за [ROOT.Char.GetLadyLord] посилає таких невмілих представників?"
+  chancellor_task.3001.a: "[councillor.GetFirstNameNoTooltip]! Та що ти твориш?!"
+
+  chancellor_task.3002.opening: "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+  chancellor_task.3002.desc: "Нещодавно ми, [vassal.GetTitledFirstName] і я, вели переговори, і... мене понесло пообіцяти послаблення васальних зобов'язань...\n\nВсупереч на всі мої спроби взяти слова назад, ситуація, схоже, безвихідна..."
+  chancellor_task.3002.a: "Недоумок!"
+  chancellor_task.3002.c: "Ні, я ще можу все виправити."
+  chancellor_task.3002.d: "Сумніваюсь."
+
+  chancellor_task.3101.opening: "[active_councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+  chancellor_task.3101.desc: "[attacker_vassal.GetTitledFirstName] і [defender_vassal.GetTitledFirstName] ведуть війну, і я роблю все можливе, щоб осягнути суть їхнього конфлікту. Думаю, з нашою допомогою вони зможуть досягти згоди."
+  chancellor_task.3101.a: "Будь-якою ціною зупиніть суперечку."
+  chancellor_task.3101.b: "Вони будуть робити так, як велить їх [ROOT.Char.GetTitleTierName]!"
+  chancellor_task.3101.c: "Нехай самі розв'язують свої проблеми."
+  chancellor_task.3101.c.tt: "[attacker_vassal.GetFirstNameNoTooltip] і [defender_vassal.GetFirstNameNoTooltip] продовжують воювати"
+
+  chancellor_task.3102.desc: "До мене дійшли відомості, що, згідно з успадкованими зобов'язаннями, ваш васал, [SCOPE.sC('vassal').GetTitledFirstName], повинен виплачувати вам більше, ніж ви отримуєте."
+  chancellor_task.3102.a: "Час виправити цю помилку!"
+  chancellor_task.3102.c: "[vassal.GetFirstNameNoTooltip], безумовно, оцінить, якщо я заплющу на це очі..."
+
+  chancellor_task.3003.t: "Втрата авторитету"
+  chancellor_task.3003.desc: "Не знаю, чим там займається [Select_CString(councillor.IsFemale, 'моя', 'мій')] [councillor.GetCouncilTitle], але цих дій явно недостатньо.\n\nПід [SCOPE.sC('councillor').GetHerHis] наглядом васали роблять, що їм заманеться, дуже рідко запитуючи мого дозволу."
+  chancellor_task.3003.a: "Таке відчуття, ніби влада вислизає з моїх рук."
+  chancellor_task.3003.notification: "[councillor.GetCouncilTitle] не може впоратися з васалами"
+
+  chancellor_task.3103.desc: "[Select_CString(councillor.IsFemale, 'Ваша', 'Ваш')] [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], гостює у мене вже кілька тижнів, і завдяки [SCOPE.sC('councillor').GetHerHim] я бачу справжню велич держави під вашим початком.\n\nДля мене велика честь бути вашим васалом!"
+  chancellor_task.3103.a: "Такі вдячні слуги — справжнє благословення."
+
+  chancellor_task.3104.desc: "До мене дійшли відомості про старі угоди, пов'язані з володінням [primary_title.GetName]. [vassal.GetTitledFirstName] може розраховувати на справедливіший розділ спадщини, ніж вважалося раніше, — якщо ми взагалі порушимо це питання."
+  chancellor_task.3104.a: "[SCOPE.sC('vassal').GetFirstNameNoTooltip] — наш васал, і ми маємо захистити права [SCOPE.sC('vassal').GetHerHis] спадкоємців!"
+  chancellor_task.3104.b: "Ми можемо залишити все як є. За певну платню..."
+  chancellor_task.3104.c: "Немає потреби дробити землі."

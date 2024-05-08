@@ -1,0 +1,21 @@
+﻿l_english:
+
+  GOVERNMENT_HAS_FLAG_TRIGGER: "[government|E] може: $FLAG|V$"
+
+  GOVERNMENT_ALLOWS_TRIGGER: "[government|E] дозволяє: $RULE|V$"
+  THEIR_GOVERNMENT_ALLOWS_TRIGGER: "[government|E], яким керує [CHARACTER.GetShortUINamePossessive|V], дозволяє: $RULE|V$"
+
+  GOVERNMENT_DISALLOWS_TRIGGER: "[government|E] забороняє: $RULE|V$"
+
+  HAS_GOVERNMENT_TRIGGER_GLOBAL: "Тип правління — $GOVERNMENT|V$"
+  NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL: "#bold Не#! має форми правління «$GOVERNMENT|V$»"
+  HAS_GOVERNMENT_TRIGGER_FIRST: "Ваша форма правління — «$GOVERNMENT|V$»"
+  NOT_HAS_GOVERNMENT_TRIGGER_FIRST: "Ваша форма правління #bold не#! «$GOVERNMENT|V$»"
+  HAS_GOVERNMENT_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|V] має тип правління «$GOVERNMENT|V$»"
+  NOT_HAS_GOVERNMENT_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|V] #bolt не#! має типу правління «$GOVERNMENT|V$»"
+
+  HAS_SAME_GOVERNMENT_TRIGGER: "Має такий самий уряд, що й [TARGET_CHARACTER.GetShortUIName]"
+
+  MUST_HAVE_MALE_DOMINATED_OR_EQUAL: "[CHARACTER.GetFaith.GetName] не має доктрини [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] чи [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName]"
+  MUST_HAVE_FEMALE_DOMINATED_OR_EQUAL: "[CHARACTER.GetFaith.GetName] не має доктрини [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] чи [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]"
+  has_law_allowing_succession_law_change: "Has at least [high|E] [crown_authority|E] or [limited_tribal|E] [tribal_authority|E]"

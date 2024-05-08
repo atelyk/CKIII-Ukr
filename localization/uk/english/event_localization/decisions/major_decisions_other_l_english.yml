@@ -1,0 +1,34 @@
+﻿l_english:
+  major_decisions.0100.t: "Святий родовід"
+  major_decisions.0100.desc.temporal: "Завдяки ревному служінню та невтомній роботі мені вдалося нероздільно пов'язати найбільш священні посади [scoped_ruler.GetFaith.GetAdjective]ої конфесії з династією [scoped_ruler.GetDynasty.GetBaseName].\n\nБагато хто з духовенства і віруючих починають сприймати мою сім'ю як обраних хранителів священних реліквій та передвісників божественної волі."
+  major_decisions.0100.desc.spiritual: "Моя відданість намісникам [scoped_ruler.GetFaith.HighGodNamePossessive] на землі не залишилася непоміченою.\n\n[scoped_pope.GetTitledFirstName] офіційно [Select_CString(scoped_pope.IsFemale, 'визнала', 'визнав' )] внесок моєї родини та [Select_CString(scoped_pope.IsFemale, 'назвала', 'назвав' )] нас вічними захисниками [scoped_ruler.GetFaith.GetAdjective]ої віри."
+  major_decisions.0100.a: "Ми мало чим відрізняється від простих смертних."
+  major_decisions.0100.b: "Досконала доброчесність!"
+  major_decisions.0102.desc.temporal: "Завдяки своїй непогрішності та освіченому правлінню [scoped_ruler.GetTitledFirstName] [Select_CString(scoped_ruler.IsFemale, 'обезсмертила', 'обезсмертив' )] себе, ставши одним із стовпів [scoped_ruler.GetFaith.GetAdjective]ої віри.\n\n[Select_CString(scoped_ruler.IsFemale, 'Вона', 'Він' )] найбільш [Select_CString(scoped_ruler.IsFemale, 'впливова та шанована', 'впливовий та шанований' )] [scoped_ruler.GetTitleTierName] на пам'яті людей, і деякі стверджують, ніби в [scoped_ruler.GetHerHis] венах може текти божественна кров."
+  major_decisions.0102.desc.spiritual: "[scoped_ruler.GetTitledFirstName] [Select_CString(scoped_ruler.IsFemale, 'досягнула', 'досягнув' )] настільки багато, що [Select_CString(scoped_pope.IsFemale, 'сама', 'сам' )] [scoped_pope.GetFaith.ReligiousHeadTitleName] офіційно [Select_CString(scoped_pope.IsFemale, 'визнала', 'визнав' )] [scoped_ruler.GetHerHis] роль у захисті та розповсюдженні [scoped_ruler.GetFaith.GetAdjective]их чеснот.\n\nДинастію [scoped_ruler.GetDynasty.GetBaseName] ще довго пам'ятатимуть за її благочестя і пориви— і за доброчесність [Select_CString(scoped_ruler.IsFemale, 'цієї великої жінки', 'цьго великого чоловіка' )]."
+  major_decisions.0102.a: "Ми живемо у благословенні часи."
+  major_decisions.0102.b: "Вони є прикладом для всіх нас!"
+  major_decisions.0103.desc.temporal: "[scoped_ruler.GetTitledFirstName] все життя намагається додати божественне обґрунтування влади своєї сім'ї, і ось проявилися результати [scoped_ruler.GetHerHis] праць.\n\nБагато хто з духовенства і віруючих починають сприймати нашу династію як вибраних хранителів священних реліквій та посланців божественної волі."
+  major_decisions.0103.desc.spiritual: "[scoped_ruler.GetTitledFirstName] все життя домагається прихильності [scoped_ruler.GetFaith.GetAdjective]ого духовенства, і тепер нарешті з'явилися результати [scoped_ruler.GetHerHis] праць.\n\n[scoped_pope.GetTitledFirstName] офіційно [Select_CString(scoped_pope.IsFemale, 'визнала', 'визнав' )]внесок нашої сім'ї та [Select_CString(scoped_pope.IsFemale, 'назвала', 'назвав' )] нас вічними захисниками віри."
+  major_decisions.0103.a: "Ми всі повинні бути вдячні [scoped_ruler.GetHerHim]."
+  major_decisions.0103.b: "А [scoped_ruler.GetFirstNameNoTooltip] все далі блюзнірствує..."
+
+
+#STRENGTHEN BLOODLINE
+  major_decisions.0500.t: "Сила династії [ROOT.Char.GetDynasty.GetBaseNameNoTooltip]"
+  major_decisions.0500.desc: "Упродовж поколінь наша династія славилася силою своєї крові. Дух, краса та інтелект— все це нерозривно пов'язане з ім'ям [ROOT.Char.GetDynasty.GetBaseNameNoTooltip].\n\nМоя власна досконалість лише підтверджує це: всі найкращі якості династії поєдналися в одному ідеальному індивіді. Моє ім'я та мої дари продовжать жити в моїх нащадках ще багато століть."
+  major_decisions.0500.a: "На нас чекає світле майбутнє!"
+
+  #DYNASTY OF MANY CROWNS
+  major_decisions.0501.desc: "Завдяки ретельно спланованим шлюбам, спілкам та завоюванням династія [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] зайняла своє законне місце серед великих держав відомого світу.\n\n[realm_1.GetNameNoTierNoTooltip|U], [realm_2.GetNameNoTierNoTooltip|U], [realm_3.GetNameNoTierNoTooltip|U], [realm_4.GetNameNoTierNoTooltip|U]... Наші володіння настільки величезні! Різні корони увінчують наші голови, але по крові ми єдині."
+  major_decisions.0501.a: "Нехай наша спадщина житиме вічно!"
+
+  major_decisions.0001.t: "Нова епоха"
+  major_decisions.0001.desc: "Старі традиції послужили нам хорошу службу, і ми завжди будемо шанувати їх. Але, якщо ми хочемо й надалі зберігати нашу могутність, я як [ROOT.Char.GetTitleAsNameNoTooltip] держави [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] вважаю, що ми маємо прийняти принципи феодалізму. Це важливий наступний крок на шляху до величі!"
+  major_decisions.0001.a: "Хай живе [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
+  major_decisions.0002.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
+
+  major_decisions.0200.t: "Back to the Roots"
+  major_decisions.0200.desc: "Though I am used to a strict hierarchical system and peasants who do not ask questions when tilling the fields, I find myself ruling nothing but unruly tribespeople. These people do not respect me, they only respect strength.\n\nI will show them strength! I will shed the trappings of majesty that my subjects loathe and seize their hearts with a raised sword!"
+  major_decisions.0200.a: "I'll prove my value!"

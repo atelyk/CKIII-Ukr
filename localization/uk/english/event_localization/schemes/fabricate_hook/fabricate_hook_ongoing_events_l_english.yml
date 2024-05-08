@@ -1,0 +1,29 @@
+﻿l_english:
+  fabricate_hook_ongoing.0001.t: "$fabricate_hook_header$ Сімейний контакт"
+  fabricate_hook_ongoing.0001.desc: "[family_member.GetTitledFirstName], [target.Custom2('RelationToMe', SCOPE.sC('family_member'))] таку людину, як [target.GetTitledFirstName], останнім часом виявляє надзвичайну дружелюбність. Навіть знаючи, що [target.GetFirstName] може бути об'єктом моїх не найкращих намірів, [family_member.GetSheHe] все одно з готовністю відповідає на мої запитання."
+  fabricate_hook_ongoing.0001.a: "«ЧИ є у н[target.GetHerHis] вразливе місце, яке можна було б використати?»"
+  fabricate_hook_ongoing.0001.b: "«Як би з [Select_CString(target.IsFemale, 'нею', 'ним' )] зблизитися?»"
+
+  fabricate_hook_ongoing.0002.t: "$fabricate_hook_header$ Надмірний вплив"
+  fabricate_hook_ongoing.0002.desc: "[target.GetTitledFirstName] виявляє надзвичайну турботу, коли поряд [target.GetHerHis] [target.Custom2('RelationToMeShort', hooking_character )] [hooking_character.GetTitledFirstName]. Подібна поведінка може означати лише те, що [hooking_character.GetFirstNameNoTooltip] знає про [Select_CString(target.IsFemale, 'неї', 'нього' )] щось важливе.\n\nМожливо, мені теж вдасться щось дізнатися?"
+  fabricate_hook_ongoing.0002.a: "Мої шпигуни мають знайти рішення цієї загадки."
+  fabricate_hook_ongoing.0002.b: "Мені потрібно знати, що [hooking_character.GetSheHe] змушує [target.GetHerHis] робити!"
+
+  fabricate_hook_ongoing.0003.t: "$fabricate_hook_header$ Gossip"
+  fabricate_hook_ongoing.0003.desc_servant: "My agents have made contact with [servant.GetTitledFirstName], a servant in my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstNamePossessive] [target.Custom('ResidenceBuilding')]."
+  fabricate_hook_ongoing.0003.desc: "My agents have made contact with a servant in my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] [target.GetTitledFirstNamePossessive] [target.Custom('ResidenceBuilding')]."
+  fabricate_hook_ongoing.0003.desc_ending: "\n\nWith the right incentive [dummy_servant_gender.GetSheHe] is willing to start some #EMP whispers#! about [target.GetTitledFirstNameNoTooltip] not being nearly as [target.Custom('FormalComplimentAdjective')] as [target.GetSheHe] seems!"
+  fabricate_hook_ongoing.0003.a: "We will ruin [target.GetHerHis] reputation!"
+  fabricate_hook_ongoing.0003.a_gregarious: "You #EMP know#! it's the right things to do."
+  fabricate_hook_ongoing.0003.b: "A sympathetic ear close to [target.GetHerHim] is enough."
+  fabricate_hook_ongoing.0003.b_lustful: "Or #EMP we#! could start something here instead..."
+
+  fabricate_hook_ongoing.0004.t: "$fabricate_hook_header$ A Matter of Taste"
+  fabricate_hook_ongoing.0004.desc: "[target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] is a complicated [target.GetWomanMan].\n\nI need to understand [target.GetHerHim] as well as possible if I am to convince people to take my side in any upcoming... #EMP arguments#!."
+  fabricate_hook_ongoing.0004.a: "I will soon uncover the truth of [target.GetHerHim]."
+  fabricate_hook_ongoing.0004.b.success: "You learn about [target.GetHerHim]"
+  fabricate_hook_ongoing.0004.b.failure: "[target.GetSheHe|U] finds you out"
+  fabricate_hook_ongoing.0004.b: "I will take my time with this."
+
+  fabricate_hook_ongoing.0005.desc: "People describe [target.GetTitledFirstName] as both [target.Custom('ComplimentAdjective')] and [target.Custom('InsultAdjective')], which tells me more about their relationship to [target.GetHerHim] than anything else.\n\nAlso, a curious number of people mention how often [target.GetSheHe] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('target'))] and talks about [target.Custom('herhis_subject_of_interest')]."
+  fabricate_hook_ongoing.0005.a: "I'm sure this information will be useful."

@@ -1,0 +1,18 @@
+﻿l_english:
+  yearly.0001.pos_descriptor: "[ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('second') )]"
+  yearly.0001.no_descriptor0: ""
+
+  yearly.0001.diplomacy0: манери і етикет"""
+  yearly.0001.no_descriptor: ""
+
+  yearly.0001.diplomacy: "манери та етикет"
+  yearly.0001.martial: "тактика і стратегія"
+  yearly.0001.stewardship: "облік і фінанси"
+  yearly.0001.intrigue: "проникливість і спостереження"
+  yearly.0001.learning: "філософія і теологія"
+
+  yearly.0001.diplomacy_short: "етикет"
+  yearly.0001.martial_short: "армія"
+  yearly.0001.stewardship_short: "фінанси"
+  yearly.0001.intrigue_short: "інтрига"
+  yearly.0001.learning_short: "теологія"

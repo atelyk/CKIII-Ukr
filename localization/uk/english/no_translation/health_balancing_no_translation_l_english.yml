@@ -1,0 +1,3 @@
+﻿l_english:
+  debug_bubonic_plague_outbreak.tt: "Бубонна чума: Захворіло: [THIS.Var('total_victims_num').GetValue|0]\nБубонна чума: Померло: [THIS.Var('dead_victims_num').GetValue|0]\nБубонна чума: Вижило:[THIS.Var('surviving_victims_num').GetValue|0]"
+  debug_smallpox_outbreak.tt: "Віспа: Захворіло: [THIS.Var('total_victims_num').GetValue|0]\nВіспа: Померло: [THIS.Var('dead_victims_num').GetValue|0]\nВіспа: Вижило:[THIS.Var('surviving_victims_num').GetValue|0]"

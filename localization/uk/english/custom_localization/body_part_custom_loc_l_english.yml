@@ -1,0 +1,24 @@
+﻿l_english:
+  handhands_hand: "рука"
+  handhands_hands: "руки"
+
+  fistfists_fist: "кулак"
+  fistfists_fists: "кулаки"
+
+  armarms_arm: "рука"
+  armarms_arms: "руки"
+
+  eyeeyes_eye: "око"
+  eyeeyes_eyes: "очі"
+
+  maskface_mask: "маска"
+  maskface_face: "обличчя"
+
+  # Grammatical Stuff
+  articleblank_article: "на "
+  articleblank_articlevowel: "і "
+  articleblank_blank: ""
+
+  maskface_behind: "позаду"
+  maskface_in: "в"
+  maskface_across: "через"

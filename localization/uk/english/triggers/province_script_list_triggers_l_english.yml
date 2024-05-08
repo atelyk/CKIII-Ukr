@@ -1,0 +1,22 @@
+﻿l_english:
+
+  ALL_PROVINCES: "Усі баронства:"
+  ANY_PROVINCE: "Будь-яке баронство:"
+
+  ALL_REALM_PROVINCES: "Усі баронства держави:"
+  ANY_REALM_PROVINCE: "Будь-яке баронство держави:"
+  ALL_OF_MY_REALM_PROVINCES: "Усі ваші баронства держави:"
+  ANY_OF_MY_REALM_PROVINCES: "Будь-які ваші баронства держави:"
+  ALL_OF_THEIR_REALM_PROVINCES: "Усі баронства держави персонажа [CHARACTER.GetShortUINamePossessive]:"
+  ANY_OF_THEIR_REALM_PROVINCES: "Будь-яке баронство держави персонажа [CHARACTER.GetShortUINamePossessive]:"
+
+  any_realm_county: "Any Realm County:"
+  any_realm_county_count_greater_or_equal: "Any [realm|E] [county|E] equal or greater than:"
+  any_realm_county_count_less_or_equal: "Any [realm|E] [county|E] equal or lesser than:"
+  any_realm_county_count_equal: "Any [realm|E] [county|E] equal to:"
+
+  any_sub_realm_county: "Any Sub Realm County:"
+
+  county_opinion: "County Opinion: $OPINION|=V$"
+  county_control_rate: "County Control Rate"
+  num_county_followers: "Number of County Followers: $NUM|V0$"

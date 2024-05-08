@@ -21,8 +21,11 @@
   floodplains: "Floodplains"
   drylands: "Drylands"
   winter: "Winter"
+  sea: "Sea"
+  coastal_sea: "Coastal Sea"
   TERRAIN_DESCRIPTION: "[Terrain.GetEffects]"
   TERRAIN_PROVINCE_MODIFIER_HEADER: "#S [county|E] Effects:#!"
+  TERRAIN_COUNTY_CAPITAL_MODIFIER_HEADER: "#S [county_capital|E] Effects:#!"
   TERRAIN_MOVEMENT_SPEED: "Movement Speed: $VALUE|%0V$"
   TERRAIN_COMBAT_WIDTH: "[combat_width|E]: $VALUE|%0V$"
   TERRAIN_ATTACKER_MODIFIER: "Attacker [advantage|E]: $VALUE|=+0$"
@@ -33,4 +36,5 @@
   TERRAIN_MILD_WINTER: "Mild $winter$"
   TERRAIN_NORMAL_WINTER: "Normal $winter$"
   TERRAIN_HARSH_WINTER: "Harsh $winter$"
-  
+  TERRAIN_TRAVEL_EFFECTS_HEADER: "#S Travel Effects:#!"
+  TERRAIN_DANGER: "[travel_danger|E]: $VALUE|=-0$"

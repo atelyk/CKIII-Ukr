@@ -8,8 +8,8 @@
   test_friend_desc: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded over maps."
   test_rival_desc: "[TARGET_CHARACTER.GetShortUIName|U] swore vengeance upon [CHARACTER.GetShortUIName] after [CHARACTER.GetShortUINameNoTooltip] killed [TARGET_CHARACTER.GetHerHis] dog."
   test_rival_desc_corresponding: "[CHARACTER.GetShortUIName|U] swore vengeance upon [TARGET_CHARACTER.GetShortUIName] after [TARGET_CHARACTER.GetSheHe] killed [CHARACTER.GetShortUINamePossessiveNoTooltip] dog."
-  test_nemesis_desc: "[TARGET_CHARACTER.GetShortUIName|U] swore eternal vengeance upon [CHARACTER.GetShortUIName] after [CHARACTER.GetShortUINameNoTooltip] killed, cooked, and ate [TARGET_CHARACTER.GetHerHis] favorite dog."
-  test_nemesis_desc_corresponding: "[CHARACTER.GetShortUIName|U] swore eternal vengeance upon [TARGET_CHARACTER.GetShortUIName] after [TARGET_CHARACTER.GetSheHe] killed, cooked, and ate [CHARACTER.GetShortUINamePossessiveNoTooltip] favorite dog."
+  test_nemesis_desc: "[TARGET_CHARACTER.GetShortUIName|U] swore eternal vengeance upon [CHARACTER.GetShortUIName] after [CHARACTER.GetShortUINameNoTooltip] killed, cooked, and ate [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] favorite dog."
+  test_nemesis_desc_corresponding: "[CHARACTER.GetShortUIName|U] swore eternal vengeance upon [TARGET_CHARACTER.GetShortUIName] after [TARGET_CHARACTER.GetShortUINameNoTooltip] killed, cooked, and ate [CHARACTER.GetShortUINamePossessiveNoTooltip] favorite dog."
   test_lover_desc: "[TARGET_CHARACTER.GetShortUIName|U] seduced [CHARACTER.GetShortUIName] by showing off [TARGET_CHARACTER.GetHerHis] shapely legs."
   test_lover_desc_corresponding: "[CHARACTER.GetShortUIName|U] seduced [TARGET_CHARACTER.GetShortUIName] by showing off [CHARACTER.GetShortUINamePossessiveNoTooltip] shapely legs."
   test_soulmate_desc: "[TARGET_CHARACTER.GetShortUIName|U] professed undying devotion to [CHARACTER.GetShortUIName] by climbing a mountain and fetching a rare flower."
@@ -18,7 +18,7 @@
   lover_seduced_corresponding: "[CHARACTER.GetShortUIName|U] seduced [TARGET_CHARACTER.GetShortUIName]."
   
   rival_daneland: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after the creation of the Daneland."
-  rival_varangian: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] started despising each other while serving together in the varangian guard."
+  rival_varangian: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] started despising each other while serving together in the Varangian Guard."
   
   rival_fowl_prank: "[TARGET_CHARACTER.GetShortUIName|U] pranked [CHARACTER.GetShortUIName] with a bird at a feast."
   rival_fowl_prank_corresponding: "[CHARACTER.GetShortUIName|U] pranked [TARGET_CHARACTER.GetShortUIName] with a bird at a feast."
@@ -32,11 +32,16 @@
   rival_lands_stolen: "[TARGET_CHARACTER.GetShortUIName|U] stole [CHARACTER.GetShortUINamePossessive] lands."
   rival_lands_stolen_corresponding: "[CHARACTER.GetShortUIName|U] stole [TARGET_CHARACTER.GetShortUINamePossessive] lands."
   
+  rival_murder_feast: "[TARGET_CHARACTER.GetShortUIName|U] tried to murder [CHARACTER.GetShortUIName|U] in a murder feast."
+  
+  rival_murder_feast_family: "[TARGET_CHARACTER.GetShortUIName|U] has sworn to avenge the death of [TARGET_CHARACTER.GetHerHis] family by [CHARACTER.GetShortUIName|U] in a murder feast."
+  rival_murder_feast_family_corresponding: "[CHARACTER.GetShortUIName|U] murdered [TARGET_CHARACTER.GetShortUINamePossessive] family in a murder feast."
+  
   rival_guardian_cave_change_stubborn: "[TARGET_CHARACTER.GetShortUIName|U] thought it just and appropriate when [TARGET_CHARACTER_2.GetShortUIName] forced [CHARACTER.GetShortUIName], a mere child, to enter a dark cave alone."
   rival_guardian_cave_change_stubborn_corresponding: "[CHARACTER.GetShortUIName|U] thought it just and appropriate when [TARGET_CHARACTER_2.GetShortUIName] forced [TARGET_CHARACTER.GetShortUIName], a mere child, to enter a dark cave alone."
   
-  rival_ignored_suffering: "As children, [TARGET_CHARACTER.GetShortUIName|U] wilfully ignored the suffereing of [CHARACTER.GetShortUIName] and refused to get help."
-  rival_ignored_suffering_corresponding: "As children, [CHARACTER.GetShortUIName|U] wilfully ignored the suffereing of [TARGET_CHARACTER.GetShortUIName] and refused to get help."
+  rival_ignored_suffering: "As children, [TARGET_CHARACTER.GetShortUIName|U] willfully ignored the suffering of [CHARACTER.GetShortUIName] and refused to get help."
+  rival_ignored_suffering_corresponding: "As children, [CHARACTER.GetShortUIName|U] willfully ignored the suffering of [TARGET_CHARACTER.GetShortUIName] and refused to get help."
   
   best_friend_bonded_at_court: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] formed a strong bond of friendship after vehemently supporting each others interests at [TARGET_CHARACTER_2.GetShortUINamePossessive] court."
   
@@ -49,14 +54,17 @@
   best_friend_help_overcome_vice: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became life-long friends after [TARGET_CHARACTER.GetShortUINameNoTooltip] tried to help [CHARACTER.GetShortUINameNoTooltip] overcome a vice."
   best_friend_help_overcome_vice_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became life-long friends after [CHARACTER.GetShortUINameNoTooltip] tried to help [TARGET_CHARACTER.GetShortUINameNoTooltip] overcome a vice."
   
-  best_friend_coverted_and_saved_my_soul: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] forged a strong bond of friendship when [TARGET_CHARACTER.GetShortUINameNoTooltip] saved [CHARACTER.GetShortUINamePossessiveNoTooltip] soul by convering [CHARACTER.GetShortUINameNoTooltip] to [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] faith."
-  best_friend_coverted_and_saved_my_soul_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] forged a strong bond of friendship when [CHARACTER.GetShortUINameNoTooltip] saved [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] soul by convering [TARGET_CHARACTER.GetShortUINameNoTooltip] to [CHARACTER.GetShortUINamePossessiveNoTooltip] faith."
+  best_friend_coverted_and_saved_my_soul: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] forged a strong bond of friendship when [TARGET_CHARACTER.GetShortUINameNoTooltip] saved [CHARACTER.GetShortUINamePossessiveNoTooltip] soul by converting [CHARACTER.GetShortUINameNoTooltip] to [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] faith."
+  best_friend_coverted_and_saved_my_soul_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] forged a strong bond of friendship when [CHARACTER.GetShortUINameNoTooltip] saved [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] soul by converting [TARGET_CHARACTER.GetShortUINameNoTooltip] to [CHARACTER.GetShortUINamePossessiveNoTooltip] faith."
   
   best_friend_language_help: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became best friends after [TARGET_CHARACTER.GetShortUINameNoTooltip] showed endless patience in helping [CHARACTER.GetShortUINameNoTooltip] learn [TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName]."
   best_friend_language_help_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became best friends after [CHARACTER.GetShortUINameNoTooltip] showed endless patience in helping [TARGET_CHARACTER.GetShortUINameNoTooltip] learn [TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName]."
   
   best_friend_confide: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] formed a bond after [TARGET_CHARACTER.GetShortUINameNoTooltip] patiently listened to [CHARACTER.GetShortUINamePossessiveNoTooltip] troubles."
   best_friend_confide_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] formed a bond after [CHARACTER.GetShortUINameNoTooltip] patiently listened to [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] troubles."
+  
+  friend_impressed_stones: "[CHARACTER.GetShortUIName|U] impressed [TARGET_CHARACTER.GetShortUINameNoTooltip] by deciphering an ancient plaque."
+  friend_impressed_stones_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was impressed by [CHARACTER.GetShortUINameNoTooltip] when [CHARACTER.GetSheHe] deciphered an ancient plaque."
   
   best_friend_spoke_highly_about: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became best friends after [CHARACTER.GetShortUINameNoTooltip] openly spoke very highly about [TARGET_CHARACTER.GetShortUIName]."
   best_friend_spoke_highly_about_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became best friends after [TARGET_CHARACTER.GetShortUINameNoTooltip] openly spoke very highly about [CHARACTER.GetShortUIName]."
@@ -83,6 +91,9 @@
   
   friend_alliance: "[CHARACTER.GetShortUIName|U] heeded many of [TARGET_CHARACTER.GetShortUINamePossessive] calls to war, proving that a valuable alliance had been formed."
   friend_alliance_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] heeded many of [CHARACTER.GetShortUINamePossessive] calls to war, proving that a valuable alliance had been formed."
+
+  rival_disregarded_plea_for_help: "[CHARACTER.GetShortUIName|U] declined [TARGET_CHARACTER.GetShortUINamePossessive] pleas for aid during war."
+  rival_disregarded_plea_for_help_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] declined [CHARACTER.GetShortUINamePossessive] pleas for aid during war."
   
   friend_court_visit: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after a particularly great visit to [CHARACTER.GetShortUINamePossessiveNoTooltip] court."
   friend_court_visit_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after a particularly great visit to [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] court."
@@ -102,6 +113,11 @@
   friend_deviant_fun: "[TARGET_CHARACTER.GetShortUIName|U] introduced [CHARACTER.GetShortUIName] to a new hobby."
   friend_deviant_fun_corresponding: "[CHARACTER.GetShortUIName|U] introduced [TARGET_CHARACTER.GetShortUIName] to a new hobby."
   
+  contemplated_life_and_death_together: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] contemplated life and death together during a formative journey."
+  contemplated_life_and_death_together_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] contemplated life and death together during a formative journey."
+  studied_history_together: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] studied the ancient history of a faraway land together during a formative journey."
+  studied_history_together_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] studied the ancient history of a faraway land together during a formative journey."
+
   friend_fix_relationship_success: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUINameNoTooltip] fixed a rift in the relationship."
   friend_fix_relationship_success_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUINameNoTooltip] fixed a rift in the relationship."
   
@@ -187,10 +203,22 @@
   friend_castille_leon: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded after celebrating the creation of Castille and Leon."
   friend_melancholic_bond: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded over a shared sense of melancholy."
   friend_curiously_similar: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded over over being eerily similar."
+  
+  friend_sword_in_stone: "[CHARACTER.GetShortUIName|U] let [TARGET_CHARACTER.GetShortUIName] pull the blade from the stone during a Cultural Festival."
+  friend_sword_in_stone_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] pulled the sword from the stone with [CHARACTER.GetShortUINamePossessive] invaluable help during a Cultural Festival."
 
   friend_varangian: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends while serving together in the varangian guard."
+  
+  friend_holy_site_monk_monk: "[CHARACTER.GetShortUIName|U] made a generous donation to [TARGET_CHARACTER.GetShortUINamePossessive] temples."
+  friend_holy_site_monk_monk_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] received a generous donation from [CHARACTER.GetShortUIName] to [TARGET_CHARACTER.GetHerHis] temples."
+  
+  friend_holy_site_monk: "[CHARACTER.GetShortUIName|U] allowed [TARGET_CHARACTER.GetShortUIName] to stay behind in a Holy Site."
+  friend_holy_site_monk_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was allowed by [CHARACTER.GetShortUIName] to stay behind in a Holy Site."
 
   friend_gaming: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after playing boardgames together."
+
+  friend_emergency_surgery: "[TARGET_CHARACTER.GetShortUINamePossessive] quick-thinking surgery saved [CHARACTER.GetShortUINamePossessive] life, for which [CHARACTER.GetSheHe] is forever grateful."
+  friend_emergency_surgery_corresponding: "[CHARACTER.GetShortUINamePossessive] quick-thinking surgery saved [TARGET_CHARACTER.GetShortUINamePossessive] life, for which [TARGET_CHARACTER.GetSheHe] is forever grateful."
   
   friend_random_1: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after travelling together in the [PROVINCE.Custom('TerrainTypeProvince')] of [PROVINCE.GetName]."
   friend_random_2: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] shared supplies while wandering in the [PROVINCE.Custom('TerrainTypeProvince')] of [PROVINCE.GetName]."
@@ -236,6 +264,9 @@
   
   friend_language_learned: "[CHARACTER.GetShortUIName|U] learned [TARGET_CHARACTER.GetShortUINamePossessive] language."
   friend_language_learned_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] learned [CHARACTER.GetShortUINamePossessive] language."
+  
+  friend_festival_puppy: "[CHARACTER.GetShortUIName|U] gifted [TARGET_CHARACTER.GetShortUIName] a puppy during a Cultural Festival."
+  friend_festival_puppy_corresponding: "[TARGET_CHARACTER.GetShortUIName] received a puppy as a gift from [CHARACTER.GetShortUIName] during a Cultural Festival."
   
   friend_party_baron: "[TARGET_CHARACTER.GetShortUIName|U] befriended [CHARACTER.GetShortUIName] with vigor and enthusiasm!"
   friend_party_baron_corresponding: "[CHARACTER.GetShortUIName|U] befriended [TARGET_CHARACTER.GetShortUIName] with vigor and enthusiasm!"
@@ -336,6 +367,11 @@
   friend_child_special_attention: "[CHARACTER.GetShortUIName|U] payed a lot of special attention to [TARGET_CHARACTER.GetShortUINamePossessive] education."
   friend_child_special_attention_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] payed a lot of special attention to [CHARACTER.GetShortUINamePossessive] education."
   
+  friend_wnight_homosexual: "[TARGET_CHARACTER.GetShortUIName|U] confessed [TARGET_CHARACTER.GetHerHis] sexual orientation to [CHARACTER.GetShortUINamePossessive] during their wedding night."
+  friend_wnight_homosexual_corresponding: "[CHARACTER.GetShortUIName|U] confessed [CHARACTER.GetHerHis] sexual orientation to [TARGET_CHARACTER.GetShortUINamePossessive] during their wedding night."
+  
+  friend_wnight_homosexual_both: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetHerHis] confessed their sexual orientations to each other during their wedding night."
+  
   friend_child_care: "[CHARACTER.GetShortUIName|U] showed a lot of love and care during [TARGET_CHARACTER.GetShortUINamePossessive] upbringing."
   friend_child_care_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] showed a lot of love and care during [CHARACTER.GetShortUINamePossessive] upbringing."
   
@@ -356,6 +392,11 @@
   
   friend_took_pity: "[CHARACTER.GetShortUIName|U] took pity and let [TARGET_CHARACTER.GetShortUIName] sleep in the castle."
   friend_took_pity_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] took pity and let [CHARACTER.GetShortUIName] sleep in the castle."
+  
+  friend_theological_debate: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] had a fruitful theological debate."
+
+  friend_wbanquet_saved_from_well: "[CHARACTER.GetShortUIName|U] saved [TARGET_CHARACTER.GetShortUIName] from falling into a well."
+  friend_wbanquet_saved_from_well_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was saved by [CHARACTER.GetShortUIName] from falling into a well."
   
   friend_estate_visit: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded during a visit to [PROVINCE.GetName]."
   friend_estate_visit_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded during a visit to [PROVINCE.GetName]."
@@ -417,6 +458,8 @@
   friend_spouse_talked_me_up: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] impressed when [TARGET_CHARACTER_2.GetShortUIName] extoled [CHARACTER.GetShortUINamePossessiveNoTooltip] virtues."
   friend_spouse_talked_me_up_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] impressed when [TARGET_CHARACTER_2.GetShortUIName] extoled [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] virtues."
   
+  friend_homage_ceremony: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName|U] had a celebration of their friendship during a Cultural Festival."
+  
   friend_confide: "[TARGET_CHARACTER.GetShortUIName|U] confided in [CHARACTER.GetShortUIName]."
   friend_confide_corresponding: "[CHARACTER.GetShortUIName|U] confided in [TARGET_CHARACTER.GetShortUIName]."
   
@@ -447,16 +490,36 @@
   lover_cannibal_seduction: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] given permission to take a single, seductive, bite of [CHARACTER.GetShortUINamePossessive] flesh."
   lover_cannibal_seduction_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] given permission to take a single, seductive, bite of [TARGET_CHARACTER.GetShortUINamePossessive] flesh."
   
+  lover_wnight_walk: "[CHARACTER.GetShortUIName|U] took [TARGET_CHARACTER.GetShortUIName|U] for a romantic walk during their wedding night."
+  lover_wnight_walk_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was taken by [CHARACTER.GetShortUIName|U] on a romantic walk during their wedding night."
+  
+  lover_wnight_talk: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName|U] shared a deep conversation during their wedding night."
+  
+  lover_wnight_secret_accepted: "[CHARACTER.GetShortUIName|U] accepted [TARGET_CHARACTER.GetShortUINamePossessive] secret when [TARGET_CHARACTER.GetSheHe] confessed it during their wedding night."
+  lover_wnight_secret_accepted_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive] secret was accepted by [CHARACTER.GetShortUIName|U] when [TARGET_CHARACTER.GetSheHe] confessed it during their wedding night."
+  
+  lover_wnight_secret_shared: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName|U] confessed their secrets to each other during their wedding night."
+  
   lover_random_1: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] attracted to [TARGET_CHARACTER.GetShortUINamePossessive] shapely legs."
+  lover_random_1_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] attracted to [CHARACTER.GetShortUINamePossessive] shapely legs."
   lover_random_2: "[CHARACTER.GetShortUIName|U] fell in love with [TARGET_CHARACTER.GetShortUINamePossessive] beautiful smile."
+  lover_random_2_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] fell in love with [CHARACTER.GetShortUINamePossessive] beautiful smile."
   lover_random_3: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] led into sin by [TARGET_CHARACTER.GetShortUINamePossessive] seductive demeanor."
+  lover_random_3_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] led into sin by [CHARACTER.GetShortUINamePossessive] seductive demeanor."
   lover_random_4: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] attracted to [TARGET_CHARACTER.GetShortUINamePossessive] sweltering biceps."
+  lover_random_4_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] attracted to [CHARACTER.GetShortUINamePossessive] sweltering biceps."
   lover_random_5: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] spellbound by [TARGET_CHARACTER.GetShortUINamePossessive] suggestive poetry."
+  lover_random_5_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] spellbound by [CHARACTER.GetShortUINamePossessive] suggestive poetry."
   lover_random_6: "[CHARACTER.GetShortUIName|U] fell in love with [TARGET_CHARACTER.GetShortUINamePossessive] infectious personality."
+  lover_random_6_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] fell in love with [CHARACTER.GetShortUINamePossessive] infectious personality."
   lover_random_7: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] seduced by [TARGET_CHARACTER.GetShortUINamePossessive] impressive physique."
+  lover_random_7_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] seduced by [CHARACTER.GetShortUINamePossessive] impressive physique."
   lover_random_8: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] unable to ignore [TARGET_CHARACTER.GetShortUINamePossessive] divine beauty."
+  lover_random_8_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] unable to ignore [CHARACTER.GetShortUINamePossessive] divine beauty."
   lover_random_9: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] unable to resist [TARGET_CHARACTER.GetShortUINamePossessive] suggestively revealed ankles."
+  lover_random_9_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] unable to resist [CHARACTER.GetShortUINamePossessive] suggestively revealed ankles."
   lover_random_10: "[CHARACTER.GetShortUIName|U] fell in love with [TARGET_CHARACTER.GetShortUINamePossessive] gorgeous hair."
+  lover_random_10_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] fell in love with [CHARACTER.GetShortUINamePossessive] gorgeous hair."
   
   lover_feast_tumble: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUINamePossessive] shared a passionate naked tumble at [TARGET_CHARACTER_2.GetShortUINamePossessive] feast in [PROVINCE.GetName]."
   lover_feast_homosexual: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUINamePossessive] found each other and shared a tender moment at [CHARACTER.GetShortUINamePossessiveNoTooltip] feast in [PROVINCE.GetName]."
@@ -479,7 +542,7 @@
   lover_quality_family_time: "[CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName], and [TARGET_CHARACTER_2.GetShortUIName] spent some quality 'family time' together."
   lover_encouraged: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became lovers after being encouraged by [TARGET_CHARACTER_2.GetShortUIName]."
   lover_my_own_clone_now_neither_of_us_will_be_virgins: "Unable to resist [CHARACTER.GetShortUINamePossessive] doppelganger, [TARGET_CHARACTER.GetShortUIName] and [CHARACTER.GetShortUINameNoTooltip] became the sweetest of lovers."
-  lover_doppelganger_threesome: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName], fell in love after a threesome with [TARGET_CHARACTER_2.GetShortUIName], [CHARACTER.GetShortUINamePossessiveNoTooltip] doppelganger."
+  lover_doppelganger_threesome: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] fell in love after a threesome with [TARGET_CHARACTER_2.GetShortUIName], [CHARACTER.GetShortUINamePossessiveNoTooltip] doppelganger."
   lover_rival_spouse: "Despite hating each others guts, [CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] are #EMP most assuredly#! compatible in bed."
   lover_induled_in_forbidden_pleasures: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] indulged in forbidden pleasures together."
   lover_history: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] have been lovers for a long time."
@@ -553,6 +616,9 @@
   lover_good_tumble: "[CHARACTER.GetShortUIName|U] gave [TARGET_CHARACTER.GetShortUIName] a good tumble after a meal, unbeknownst to [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [TARGET_CHARACTER_2.GetWifeHusband] [TARGET_CHARACTER_2.GetShortUIName]."
   lover_good_tumble_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] gave [CHARACTER.GetShortUIName] a good tumble after a meal, unbeknownst to [CHARACTER.GetShortUINamePossessiveNoTooltip] [TARGET_CHARACTER_2.GetWifeHusband] [TARGET_CHARACTER_2.GetShortUIName]."
   
+  lover_romantic_wedding_night: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] had a romantic wedding night... even though [CHARACTER.GetShortUIName] had different, darker plans."
+  lover_romantic_wedding_night_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] had a romantic wedding night."
+  
   lover_abduction: "[TARGET_CHARACTER.GetShortUIName|U] romantically abducted [CHARACTER.GetShortUIName] from [TARGET_CHARACTER_2.GetShortUIName]."
   lover_abduction_corresponding: "[CHARACTER.GetShortUIName|U] romantically abducted [TARGET_CHARACTER.GetShortUIName] from [TARGET_CHARACTER_2.GetShortUIName]."
   
@@ -565,11 +631,16 @@
   lover_doppelganger_cucked: "[CHARACTER.GetShortUIName|U] seduced [TARGET_CHARACTER.GetShortUIName] by pretending to be [TARGET_CHARACTER_2.GetShortUIName]."
   lover_doppelganger_cucked_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] seduced [CHARACTER.GetShortUIName] by pretending to be [TARGET_CHARACTER_2.GetShortUIName]."
   
+  lover_tavern_memory: "[CHARACTER.GetShortUIName|U] impressed [TARGET_CHARACTER.GetShortUIName] by telling an uplifting story."
+  lover_tavern_memory_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was impressed by [CHARACTER.GetShortUINamePossessive] uplifting story."
+  
   lover_threesome_with_spouse: "[CHARACTER.GetShortUINamePossessive|U] loving spouse [TARGET_CHARACTER_2.GetShortUIName] introduced [TARGET_CHARACTER.GetShortUIName] to the bedroom, reigniting [CHARACTER.GetShortUINamePossessiveNoTooltip] passion with a threesome."
   lover_threesome_with_spouse_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] loving spouse [TARGET_CHARACTER_2.GetShortUIName] introduced [CHARACTER.GetShortUIName] to the bedroom, reigniting [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] passion with a threesome."
   
   lover_ignored_spouse: "In an attempt to spice up the bedroom, [CHARACTER.GetShortUINamePossessive|U] loving spouse [TARGET_CHARACTER_2.GetShortUIName] introduced [TARGET_CHARACTER.GetShortUIName] to the bedroom, but [CHARACTER.GetShortUINameNoTooltip] only had eyes for [TARGET_CHARACTER.GetShortUINameNoTooltip] from that point."
   lover_ignored_spouse_corresponding: "In an attempt to spice up the bedroom, [TARGET_CHARACTER.GetShortUINamePossessive|U] loving spouse [TARGET_CHARACTER_2.GetShortUIName] introduced [CHARACTER.GetShortUIName] to the bedroom, but [TARGET_CHARACTER.GetShortUINameNoTooltip] only had eyes for [CHARACTER.GetShortUINameNoTooltip] from that point."
+
+  lover_wedding_matchmaking: "Despite being pushed together by some meddling matchmaking at a wedding, the attraction between [CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] was real."
   
   rival_food_fight: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after a violent food fight."
   rival_at_ceremony: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals at a religious ceremony."
@@ -636,7 +707,10 @@
   rival_tried_to_elope_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] tried to elope with a member of [CHARACTER.GetShortUINamePossessiveNoTooltip] court."
   
   rival_duel_vengeance: "[TARGET_CHARACTER.GetShortUIName|U] defeated [CHARACTER.GetShortUIName] in a duel."
-  rival_duel_vengeance_corresponding: "[CHARACTER.GetShortUIName|U]  defeated [TARGET_CHARACTER.GetShortUIName] in a duel."
+  rival_duel_vengeance_corresponding: "[CHARACTER.GetShortUIName|U] defeated [TARGET_CHARACTER.GetShortUIName] in a duel."
+
+  rival_fired_from_council: "[CHARACTER.GetShortUIName|U] threw [TARGET_CHARACTER.GetShortUIName] off the council."
+  rival_fired_from_council_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] threw [CHARACTER.GetShortUIName] off the council."
   
   rival_poison_vengeance: "[TARGET_CHARACTER.GetShortUIName|U] attempted to poison [CHARACTER.GetShortUIName]."
   rival_poison_vengeance_corresponding: "[CHARACTER.GetShortUIName|U] attempted to poison [TARGET_CHARACTER.GetShortUIName]."
@@ -678,6 +752,9 @@
   rival_humiliated_in_debate: "[CHARACTER.GetShortUIName|U] got completely humiliated by [TARGET_CHARACTER.GetShortUIName] in a debate."
   rival_humiliated_in_debate_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] got completely humiliated by [CHARACTER.GetShortUIName] in a debate."
   
+  rival_king_of_ugly: "[TARGET_CHARACTER.GetShortUIName|U] crowned [CHARACTER.GetShortUIName|U] as the [CHARACTER.Custom('GetMonarchofBeautyGoodBad')] in a Cultural Festival."
+  rival_king_of_ugly_corresponding: "[CHARACTER.GetShortUIName|U] crowned [TARGET_CHARACTER.GetShortUIName|U] as the [TARGET_CHARACTER.Custom('GetMonarchofBeautyGoodBad')] in a Cultural Festival."
+  
   rival_academic_dispute: "[CHARACTER.GetShortUIName|U] took all the credit for a treatise that was written together with [TARGET_CHARACTER.GetShortUIName]."
   rival_academic_dispute_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] took all the credit for a treatise that was written together with [CHARACTER.GetShortUIName]."
   
@@ -691,7 +768,7 @@
   rival_stolen_serfs_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] have a long standing conflict over [TARGET_CHARACTER.GetShortUIName] stealing [CHARACTER.GetShortUINamePossessiveNoTooltip] serfs."
   
   rival_blamed_by_mentor: "[TARGET_CHARACTER.GetShortUIName|U], once [CHARACTER.GetShortUINamePossessiveNoTooltip] acolyte, was caught undermining [CHARACTER.GetShortUINamePossessiveNoTooltip] religious authority."
-  rival_blamed_by_mentor_corresponding: "[CHARACTER.GetShortUIName|U],  once [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] acolyte, was caught undermining [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] religious authority."
+  rival_blamed_by_mentor_corresponding: "[CHARACTER.GetShortUIName|U], once [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] acolyte, was caught undermining [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] religious authority."
   
   rival_refused_to_see_reason: "[CHARACTER.GetShortUIName|U] rejected [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] religious advice and persisted in religious apostasy."
   rival_refused_to_see_reason_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] rejected [CHARACTER.GetShortUINamePossessiveNoTooltip] religious advice and persisted in religious apostasy."
@@ -709,6 +786,9 @@
   
   rival_humiliating_refusal_to_fight: "[CHARACTER.GetShortUIName|U] condescendingly refused to fight [TARGET_CHARACTER.GetShortUIName] over [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] parents honor."
   rival_humiliating_refusal_to_fight_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] condescendingly refused to fight [CHARACTER.GetShortUIName] over [CHARACTER.GetShortUINamePossessiveNoTooltip] parents honor."
+  
+  rival_denied_courtly_love: "[CHARACTER.GetShortUIName|U] refused to let go of [TARGET_CHARACTER.GetShortUIName] to find [TARGET_CHARACTER.GetHerHis] true love."
+  rival_denied_courtly_love_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was kept at court by [CHARACTER.GetShortUIName], denying [TARGET_CHARACTER.GetHerHim] of [TARGET_CHARACTER.GetHerHis] true love."
   
   rival_child_defeated: "[CHARACTER.GetShortUIName|U] defeated [TARGET_CHARACTER.GetShortUIName] in combat, shaming [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] parents."
   rival_child_defeated_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] defeated [CHARACTER.GetShortUIName] in combat, shaming [CHARACTER.GetShortUINamePossessiveNoTooltip] parents."
@@ -735,6 +815,7 @@
   rival_covetted_claim_corresponding: "[CHARACTER.GetShortUINamePossessive|U] claims are coveted by [TARGET_CHARACTER.GetShortUIName]."
   
   rival_faked_conversion: "[CHARACTER.GetShortUIName|U] refused to accept [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] insincere religious conversion."
+  rival_faked_conversion_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] refused to accept [CHARACTER.GetShortUINamePossessiveNoTooltip] insincere religious conversion."
   rival_heresy: "[CHARACTER.GetShortUIName|U] came to resent [TARGET_CHARACTER.GetShortUIName] because of [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] heresy."
   rival_heresy_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] came to resent [CHARACTER.GetShortUIName] because of [CHARACTER.GetShortUINamePossessiveNoTooltip] heresy."
   
@@ -762,6 +843,9 @@
   
   rival_insult_and_duel: "[TARGET_CHARACTER.GetShortUIName|U] insulted and then defeated [CHARACTER.GetShortUIName] in a duel."
   rival_insult_and_duel_corresponding: "[CHARACTER.GetShortUIName|U] insulted and then defeated [TARGET_CHARACTER.GetShortUIName] in a duel."
+  
+  rival_no_holy_site_monk: "[CHARACTER.GetShortUIName|U] forbid [TARGET_CHARACTER.GetShortUIName] from answering [TARGET_CHARACTER.GetHerHis] religious calling."
+  rival_no_holy_site_monk_corresponding: "[TARGET_CHARACTER.GetShortUIName] was stopped from answering [TARGET_CHARACTER.GetHerHis] religious calling by [CHARACTER.GetShortUIName|U]."
   
   rival_age_old_rivalry: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] are known to have harbored an intense dislike for each other for a long time."
   rivalry_at_court: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] came to despise each other after constantly being at odds at [TARGET_CHARACTER_2.GetShortUINamePossessive] court."
@@ -959,6 +1043,8 @@
   lover_seduction_general: "[CHARACTER.GetShortUIName|U] seduced [TARGET_CHARACTER.GetShortUIName] and joined together in a night of fiery passion."
   lover_seduction_general_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] seduced [CHARACTER.GetShortUIName] and joined together in a night of fiery passion."
   
+  lover_wnight_gifts: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName|U] exchanged gifts during their Wedding Night."
+  
   lover_seduction_garden: "[CHARACTER.GetShortUIName|U] seduced [TARGET_CHARACTER.GetShortUIName] in the gardens of [PROVINCE.GetName]."
   lover_seduction_garden_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] seduced [CHARACTER.GetShortUIName] in the gardens of [PROVINCE.GetName]."
   
@@ -1034,6 +1120,12 @@
 
   nemesis_rival_gains_nemesis: "[CHARACTER.GetShortUIName|U] received an insulting letter from [TARGET_CHARACTER.GetShortUIName], though it was originally intended for [TARGET_CHARACTER_2.GetShortUIName]."
   nemesis_rival_gains_nemesis_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] received an insulting letter from [CHARACTER.GetShortUIName], though it was originally intended for [TARGET_CHARACTER_2.GetShortUIName]."
+  
+  nemesis_monarch_of_grim_and_grievance: "[CHARACTER.GetShortUIName|U] was crowned by [TARGET_CHARACTER.GetShortUIName] as the least attractive person of the realm."
+  nemesis_monarch_of_grim_and_grievance_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] crowned [CHARACTER.GetShortUIName] as the least attractive person of the realm."
+  
+  nemesis_animal_contest: "[TARGET_CHARACTER.GetShortUIName|U] was picked by [CHARACTER.GetShortUIName] as the winner of a farm animal contest."
+  nemesis_animal_contest_corresponding: "[CHARACTER.GetShortUIName|U] picked [TARGET_CHARACTER.GetShortUIName] as the winner of a farm animal contest."
 
   nemesis_a_question_of_size: "[TARGET_CHARACTER.GetShortUIName|U] made a spectacle of mocking [CHARACTER.GetShortUINamePossessive] private parts in a public bathhouse."
   nemesis_a_question_of_size_corresponding: "[CHARACTER.GetShortUIName|U] made a spectacle of mocking [TARGET_CHARACTER.GetShortUINamePossessive] private parts in a public bathhouse."
@@ -1064,6 +1156,9 @@
 
   nemesis_tostig_harold: "[CHARACTER.GetShortUIName|U] seized [TARGET_CHARACTER.GetShortUINamePossessive] titles."
   nemesis_tostig_harold_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] seized [CHARACTER.GetShortUINamePossessive] titles."
+  
+  nemesis_sent_assassins: "[CHARACTER.GetShortUIName|U] sent a professional assassin to kill [TARGET_CHARACTER.GetShortUIName]."
+  nemesis_sent_assassins_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] killed the professional assassin sent by [CHARACTER.GetShortUIName]."
 
   nemesis_historical: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] have been nemeses as long as anyone can remember."
   
@@ -1081,6 +1176,9 @@
   soulmate_named_mountain: "[CHARACTER.GetShortUIName|U] showed love and affection to [TARGET_CHARACTER.GetShortUIName] by naming a mountain in [TARGET_CHARACTER.GetShortUINamePossessive] honor."
   soulmate_named_mountain_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] showed love and affection to [CHARACTER.GetShortUIName] by naming a mountain in [CHARACTER.GetShortUINamePossessive] honor."
   
+  soulmate_legend_motivation: "[CHARACTER.GetShortUIName|U] insisted that [CHARACTER.GetSheHe] only started [CHARACTER.GetHerHis] legend to impress and honor [TARGET_CHARACTER.GetShortUIName]."
+  soulmate_legend_motivation_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] insisted that [TARGET_CHARACTER.GetSheHe] only started [TARGET_CHARACTER.GetHerHis] legend to impress and honor [CHARACTER.GetShortUIName]."
+  
   soulmate_won_love_in_duel_2: "[TARGET_CHARACTER.GetShortUIName|U] won [CHARACTER.GetShortUINamePossessive] heart by dueling, and killing, a competing lover."
   soulmate_won_love_in_duel_2_corresponding: "[CHARACTER.GetShortUIName|U] won [TARGET_CHARACTER.GetShortUINamePossessive] heart by dueling, and killing, a competing lover."
   
@@ -1094,8 +1192,11 @@
   
   soulmate_doppelganger: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] share more than just appearances and have proclaimed eternal devotion for each other."
   
-  soulmate_gifting_flowers: "[TARGET_CHARACTER.GetShortUIName|U] expressed love and devotation to [CHARACTER.GetShortUIName] by giving [CHARACTER.GetShortUIName] a bouquet of wonderful flowers grown in [TARGET_CHARACTER.GetShortUINamePossessive] own garden."
-  soulmate_gifting_flowers_corresponding: "[CHARACTER.GetShortUIName|U] expressed love and devotation to [TARGET_CHARACTER.GetShortUIName] by giving [TARGET_CHARACTER.GetShortUIName] a bouquet of wonderful flowers grown in [CHARACTER.GetShortUINamePossessive] own garden."
+  soulmate_gifting_flowers: "[TARGET_CHARACTER.GetShortUIName|U] expressed love and devotion to [CHARACTER.GetShortUIName] by giving [CHARACTER.GetShortUIName] a bouquet of wonderful flowers grown in [TARGET_CHARACTER.GetShortUINamePossessive] own garden."
+  soulmate_gifting_flowers_corresponding: "[CHARACTER.GetShortUIName|U] expressed love and devotion to [TARGET_CHARACTER.GetShortUIName] by giving [TARGET_CHARACTER.GetShortUIName] a bouquet of wonderful flowers grown in [CHARACTER.GetShortUINamePossessive] own garden."
+
+  soulmate_wedding_accepting_partner: "True love blossomed between [CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] through respect and acceptance in the bedroom."
+  soulmate_wedding_first_sight: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] fell in love at first sight when exchanging vows."
   
   saved_from_wolf: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] found true love after [TARGET_CHARACTER.GetShortUIName] rescued [CHARACTER.GetShortUIName] from a wolf."
   saved_from_wolf_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] found true love after [CHARACTER.GetShortUIName] rescued [TARGET_CHARACTER.GetShortUIName] from a wolf."
@@ -1165,6 +1266,9 @@
   
   rival_bullied_other_child: "[CHARACTER.GetShortUIName|U] bullied [TARGET_CHARACTER.GetShortUIName] when both were children."
   rival_bullied_other_child_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] bullied [CHARACTER.GetShortUIName] when both were children."
+  
+  rival_buffoon_play: "[CHARACTER.GetShortUIName|U] was depicted as a buffoon by [TARGET_CHARACTER.GetShortUIName] during a Cultural Festival."
+  rival_buffoon_play_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] depicted [CHARACTER.GetShortUIName] as a buffoon during a Cultural Festival."
   
   rival_burned_at_party: "[CHARACTER.GetShortUIName|U] burned [TARGET_CHARACTER.GetShortUIName] during a party."
   rival_burned_at_party_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] burned [CHARACTER.GetShortUIName] during a party."
@@ -1397,6 +1501,9 @@
 
   rival_language_bullied: "[CHARACTER.GetShortUIName|U] used knowledge of [TARGET_CHARACTER.GetShortUINamePossessive] language as a threat in order to tax [TARGET_CHARACTER.GetShortUIName] more efficiently."
   rival_language_bullied_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] used knowledge of [CHARACTER.GetShortUINamePossessive] language as a threat in order to tax [CHARACTER.GetShortUIName] more efficiently."
+  
+  rival_mocked_legend: "[CHARACTER.GetShortUIName|U] mocked [TARGET_CHARACTER.GetShortUINamePossessive] legend and implied it was false."
+  rival_mocked_legend_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] mocked [CHARACTER.GetShortUINamePossessive] legend and implied it was false."
 
   rival_laughed_at_child_pooping: "[CHARACTER.GetShortUIName|U] found [TARGET_CHARACTER.GetShortUINamePossessive] laughing at a child soiling a baptismal font to be distasteful."
   rival_laughed_at_child_pooping_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] found [CHARACTER.GetShortUINamePossessive] laughing at a child soiling a baptismal font to be distasteful."
@@ -1440,9 +1547,12 @@
 
   rival_not_grovel: "[CHARACTER.GetShortUIName|U] refused to make amends with [TARGET_CHARACTER.GetShortUINamePossessive] family."
   rival_not_grovel_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] refused to make amends with [CHARACTER.GetShortUINamePossessive] family."
+  
+  rival_feast_of_fools: "[CHARACTER.GetShortUIName] was crowned as $nick_monarch_of_fools_masc$ by [TARGET_CHARACTER.GetShortUIName] during a Cultural Festival."
+  rival_feast_of_fools_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] crowned [CHARACTER.GetShortUIName] as $nick_monarch_of_fools_masc$ during a Cultural Festival."
 
-  rival_no_grain: "[TARGET_CHARACTER.GetShortUIName|U] insisted that [CHARACTER.GetShortUINamePossessive] province can deal with its grain shortage by itself."
-  rival_no_grain_corresponding: "[CHARACTER.GetShortUIName|U] insisted that [TARGET_CHARACTER.GetShortUINamePossessive] province can deal with its grain shortage by itself."
+  rival_no_grain: "[TARGET_CHARACTER.GetShortUIName|U] insisted that [CHARACTER.GetShortUINamePossessive] County can deal with its grain shortage by itself."
+  rival_no_grain_corresponding: "[CHARACTER.GetShortUIName|U] insisted that [TARGET_CHARACTER.GetShortUINamePossessive] County can deal with its grain shortage by itself."
 
   rival_other_fighter_side: "[CHARACTER.GetShortUIName|U] didn't choose [TARGET_CHARACTER.GetShortUINamePossessive] side in a dispute at a feast."
   rival_other_fighter_side_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] didn't choose [CHARACTER.GetShortUINamePossessive] side in a dispute at a feast."
@@ -1463,6 +1573,9 @@
 
   rival_perceived_slight: "[TARGET_CHARACTER.GetShortUIName|U] supposedly insulted [CHARACTER.GetShortUIName], though onlookers noted that the slight was more perceived than sincere."
   rival_perceived_slight_corresponding: "[CHARACTER.GetShortUIName|U] supposedly insulted [TARGET_CHARACTER.GetShortUIName], though onlookers noted that the slight was more perceived than sincere."
+  
+  rival_bad_mouthed: "[TARGET_CHARACTER.GetShortUIName] spoke ill of [CHARACTER.GetShortUIName] during their travels."
+  rival_bad_mouthed_corresponding: "[CHARACTER.GetShortUIName] overheared [TARGET_CHARACTER.GetShortUIName] speak ill of [CHARACTER.GetHerHim] during their travels."
 
   rival_perceived_slight_root: "[TARGET_CHARACTER.GetShortUIName|U] removed [CHARACTER.GetShortUIName] from [CHARACTER.GetShortUINamePossessive] court position for antagonizing a guest."
   rival_perceived_slight_root_corresponding: "[CHARACTER.GetShortUIName|U] removed [TARGET_CHARACTER.GetShortUIName] from [TARGET_CHARACTER.GetShortUINamePossessive] court position for antagonizing a guest."
@@ -1500,8 +1613,8 @@
   rival_prevented_stealing_from_peasants: "[CHARACTER.GetShortUIName|U] reprimanded [TARGET_CHARACTER.GetShortUIName] for stealing from peasants."
   rival_prevented_stealing_from_peasants_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] reprimanded [CHARACTER.GetShortUIName] for stealing from peasants."
 
-  rival_province_help: "[TARGET_CHARACTER.GetShortUIName|U] steadfastly refused to aid [CHARACTER.GetShortUINamePossessive] province in its problem with unruly locals."
-  rival_province_help_corresponding: "[CHARACTER.GetShortUIName|U] steadfastly refused to aid [TARGET_CHARACTER.GetShortUINamePossessive] province in its problem with unruly locals."
+  rival_province_help: "[TARGET_CHARACTER.GetShortUIName|U] steadfastly refused to aid [CHARACTER.GetShortUINamePossessive] County in its problem with unruly locals."
+  rival_province_help_corresponding: "[CHARACTER.GetShortUIName|U] steadfastly refused to aid [TARGET_CHARACTER.GetShortUINamePossessive] County in its problem with unruly locals."
 
   rival_punched_for_song: "[CHARACTER.GetShortUIName|U] punched [TARGET_CHARACTER.GetShortUIName] for singing a ballad [CHARACTER.GetShortUIName] disliked."
   rival_punched_for_song_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] punched [CHARACTER.GetShortUIName] for singing a ballad [TARGET_CHARACTER.GetShortUIName] disliked."
@@ -1600,6 +1713,9 @@
   rival_snooping_around_home_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] snooped around in [CHARACTER.GetShortUINamePossessive] home."
 
   rival_snubbed_maa: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bickered over military matters."
+  
+  rival_danced_with_spouse: "[CHARACTER.GetShortUIName|U] chose [TARGET_CHARACTER.GetShortUINamePossessive] as [CHARACTER.GetHerHis] dance partner during a Cultural Festival."
+  rival_danced_with_spouse_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] spouse was chosen by [TARGET_CHARACTER.GetShortUINamePossessive] as [CHARACTER.GetHerHis] dance partner during a Cultural Festival."
 
   rival_sold_titles: "[TARGET_CHARACTER.GetShortUIName|U] bought titles on the cheap from [CHARACTER.GetShortUIName]."
   rival_sold_titles_corresponding: "[CHARACTER.GetShortUIName|U] bought titles on the cheap from [TARGET_CHARACTER.GetShortUIName]."
@@ -1613,6 +1729,9 @@
 
   rival_stolen_marshmallow: "[CHARACTER.GetShortUIName|U] stole a honeyed treat from [TARGET_CHARACTER.GetShortUIName] when both were children."
   rival_stolen_marshmallow_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] stole a honeyed treat from [CHARACTER.GetShortUIName] when both were children."
+  
+  rival_stole_from_me_banquet: "[CHARACTER.GetShortUIName|U] tried to steal from [TARGET_CHARACTER.GetShortUIName] after inviting [TARGET_CHARACTER.GetHerHim] to a banquet."
+  rival_stole_from_me_banquet_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] tried to steal from [CHARACTER.GetShortUIName] after inviting [CHARACTER.GetHerHim] to a banquet."
 
   rival_stole_from_peasants: "[CHARACTER.GetShortUIName|U] stole from [TARGET_CHARACTER.GetShortUINamePossessive] peasants."
   rival_stole_from_peasants_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] stole from [CHARACTER.GetShortUINamePossessive] peasants."
@@ -1621,6 +1740,9 @@
   rival_succeeded_force_marriage_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] succeeded in obtaining a forceful marriage alliance via the offspring of [CHARACTER.GetShortUIName]."
 
   rival_succession_scheme: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] were embroiled in a political spat at court."
+  
+  nemesis_vizier_manoeuvring: "[CHARACTER.GetShortUIName|U] swore bloody vengeance on [TARGET_CHARACTER.GetShortUIName] after [TARGET_CHARACTER.GetSheHe] ruined [CHARACTER.GetHerHis] vizerial career with [TARGET_CHARACTER_2.GetShortUIName]."
+  nemesis_vizier_manoeuvring_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] swore bloody vengeance on [CHARACTER.GetShortUIName] after [CHARACTER.GetSheHe] ruined [TARGET_CHARACTER.GetHerHis] vizerial career with [TARGET_CHARACTER_2.GetShortUIName]."
 
   rival_tended_prisoners: "[CHARACTER.GetShortUIName|U] rebuked [TARGET_CHARACTER.GetShortUIName] for tending to the prisoners in [CHARACTER.GetShortUINamePossessive] dungeon."
   rival_tended_prisoners_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] rebuked [CHARACTER.GetShortUIName] for tending to the prisoners in [TARGET_CHARACTER.GetShortUINamePossessive] dungeon."
@@ -1672,6 +1794,9 @@
 
   rival_was_disinherited: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] disinherited by [CHARACTER.GetShortUIName]."
   rival_was_disinherited_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] disinherited by [TARGET_CHARACTER.GetShortUIName]."
+  
+  rival_whipped_my_kid: "[CHARACTER.GetShortUIName|U] whipped [TARGET_CHARACTER.GetPossessive] kid due to a bad performance in a cultural festival."
+  rival_whipped_my_kid_coresponding: "[TARGET_CHARACTER.GetPossessive] kid was whipped by [CHARACTER.GetShortUIName|U] in a cultural festival due to a bad performance."
 
   rival_won_boardgame_challenge: "[TARGET_CHARACTER.GetShortUIName|U] won a humiliating victory in a board game against [CHARACTER.GetShortUIName]."
   rival_won_boardgame_challenge_corresponding: "[CHARACTER.GetShortUIName|U] won a humiliating victory in a board game against [TARGET_CHARACTER.GetShortUIName]."
@@ -1681,9 +1806,24 @@
 
   rival_you_won_boardgame_challenge: "[CHARACTER.GetShortUIName|U] won a tense board game against [TARGET_CHARACTER.GetShortUIName]."
   rival_you_won_boardgame_challenge_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] won a tense board game against [CHARACTER.GetShortUIName]."
+
+  rival_poisoned_against_by_regent: "[CHARACTER.GetShortUINamePossessive|U] regent poisoned [CHARACTER.GetHerHim] against [TARGET_CHARACTER.GetShortUIName]"
+  rival_poisoned_against_by_regent_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] regent poisoned [TARGET_CHARACTER.GetHerHim] against [CHARACTER.GetShortUIName]"
+
+  rival_regent_denied_access_to_family: "[TARGET_CHARACTER.GetShortUIName|E] used [TARGET_CHARACTER.GetHerHis] powers as regent to deny [CHARACTER.GetShortUINAME] access to [CHARACTER.GetHerHis] important family"
+  rival_regent_denied_access_to_family_corresponding: ""
+
+  rival_embezzled_and_refused_to_reimburse: "[CHARACTER.GetShortUIName|U] embezzled gold from [TARGET_CHARACTER.GetShortUIName] and refused to pay it back"
+  rival_embezzled_and_refused_to_reimburse_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] embezzled gold from [CHARACTER.GetShortUIName] and refused to pay it back"
   
+  rival_tried_to_embezzle: "[CHARACTER.GetShortUIName|U] was caught trying to embezzle gold from [TARGET_CHARACTER.GetShortUIName]"
+  rival_tried_to_embezzle_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was caught trying to embezzle gold from [CHARACTER.GetShortUIName]"
+
   lover_covered_excreta: "[CHARACTER.GetShortUIName|U]: "[CHARACTER.GetShortUIName|U] responded rather amorously to [TARGET_CHARACTER.GetShortUIName] dumping a bucket of excreta on [CHARACTER.GetShortUINamePossessiveNoTooltip] head."
   lover_covered_excreta_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] responded rather amorously to [CHARACTER.GetShortUIName] dumping a bucket of excreta on [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] head."
+  
+  lover_festival_dancing: "[CHARACTER.GetShortUIName|U] chose [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] dance partner during a Cultural Festival."
+  lover_festival_dancing_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was chosen by [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] dance partner during a Cultural Festival."
 
   lover_witch_sex_partner: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became lovers during a wild night of 'worship'."
 
@@ -1799,9 +1939,15 @@
   lover_inspiration_treasure: "[CHARACTER.GetShortUIName|U] requested, and was sent, a book on same-sex love by [TARGET_CHARACTER.GetShortUIName]."
   lover_inspiration_treasure_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] requested, and was sent, a book on same-sex love by [CHARACTER.GetShortUIName]."
   
+  lover_sexy_assassin: "[CHARACTER.GetShortUIName|U] was charmed by [TARGET_CHARACTER.GetShortUINamePossessive] silver tongue after a failed assassination attempt."
+  lover_sexy_assassin_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] charmed [CHARACTER.GetShortUIName] with a silver tongue after a failed assassination attempt."
+  
   lover_varangian_lover: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUINamePossessive] served in the Varangian Guard together, and grew #EMP very#! close."
   lover_varangian_lover_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUINamePossessive] served in the Varangian Guard together, and grew #EMP very#! close."
   
+  lover_saved_melee: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became lovers after after [CHARACTER.GetShortUIName] saved [TARGET_CHARACTER.GetShortUIName] from being trapped in a melee."
+  lover_saved_melee_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became lovers after after [TARGET_CHARACTER.GetShortUIName] saved [CHARACTER.GetShortUIName] from being trapped in a melee."
+
   friend_granted_title: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] granted [CHARACTER.GetHerHim] one of [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] titles."
   friend_granted_title_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUINameNoTooltip] granted [CHARACTER.GetShortUINameNoTooltip] one of [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] titles."
 
@@ -1814,6 +1960,9 @@
 
   friend_good_boardgame: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded after playing boardgames together."
   friend_good_boardgame_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] bonded after playing boardgames together."
+
+  friend_connected_during_regency: "[TARGET_CHARACTER.GetShortUIName|U] grew fond of [CHARACTER.GetShortUIName] while acting as [CHARACTER.GetHerHis] regent."
+  friend_connected_during_regency_corresponding: "[CHARACTER.GetShortUIName|U] grew fond of [TARGET_CHARACTER.GetShortUIName] while acting as [TARGET_CHARACTER.GetHerHis] regent."
 
   friend_breakfast: "[CHARACTER.GetShortUIName|U] chose to spend time with [TARGET_CHARACTER.GetShortUIName] over [CHARACTER.GetShortUINamePossessiveNoTooltip] religious duties."
   friend_breakfast_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] chose to spend time with [CHARACTER.GetShortUIName] over [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] religious duties."
@@ -1902,7 +2051,8 @@
 
   friend_fellow_nerd: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded over a good book."
 
-  friend_saved_life: "[CHARACTER.GetShortUIName|U] saved [TARGET_CHARACTER.GetShortUINamePossessive] life and became friends."
+  friend_saved_life: "[CHARACTER.GetShortUIName|U] saved [TARGET_CHARACTER.GetShortUINamePossessive] life, and they became friends."
+  friend_saved_life_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] saved [CHARACTER.GetShortUINamePossessive] life, and they became friends."
 
   friend_snowball_fight: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded over a childhood snowball fight."
   
@@ -1911,6 +2061,9 @@
   friend_childhood_knight: "As children, [CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] bonded while trying to learn the basics of knightly sparring together."
 
   friend_childhood_religious_scrolls: "As children, [CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] bonded while rifling through arcane scrolls and records."
+  
+  friend_bought_indulgences: "[CHARACTER.GetShortUIName|U] bought an indulgence with [TARGET_CHARACTER.GetShortUINamePossessive] approval."
+  friend_bought_indulgences_corresponding: "[TARGET_CHARACTER.GetShortUIName] approved of [CHARACTER.GetShortUIName] purchase of an indulgence."
 
   friend_upheld_educational_tactics: "[CHARACTER.GetShortUIName|U] upheld [TARGET_CHARACTER.GetShortUINamePossessive] educational tactics."
   friend_upheld_educational_tactics_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] upheld [CHARACTER.GetShortUINamePossessive] educational tactics."
@@ -1936,6 +2089,7 @@
   friend_parent_brought_together: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded as [TARGET_CHARACTER_2.GetShortUIName] demonstrated the values of family."
 
   friend_believed_in_my_writing: "[CHARACTER.GetShortUIName|U] encouraged [TARGET_CHARACTER.GetShortUIName] to keep writing."
+  friend_believed_in_my_writing_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] encouraged [CHARACTER.GetShortUIName] to keep writing."
 
   friend_graceful_recovery: "[CHARACTER.GetShortUIName|U] gracefully handled a blunder that [TARGET_CHARACTER.GetShortUIName] made."
   friend_graceful_recovery_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] gracefully handled a blunder that [CHARACTER.GetShortUIName] made."
@@ -1976,6 +2130,7 @@
   friend_recognized_by_liege_corresponding: "[CHARACTER.GetShortUIName|U] publicly recognized [TARGET_CHARACTER.GetShortUIName]."
 
   friend_kept_my_secret: "[TARGET_CHARACTER.GetShortUIName|U] proved to be a true friend by being trustworthy to [CHARACTER.GetShortUIName]."
+  friend_kept_my_secret_corresponding: "[CHARACTER.GetShortUIName|U] proved to be a true friend by being trustworthy to [TARGET_CHARACTER.GetShortUIName]."
 
   friend_encouraged_growth: "[TARGET_CHARACTER.GetShortUIName|U] encouraged [CHARACTER.GetShortUIName]."
   friend_encouraged_growth_corresponding: "[CHARACTER.GetShortUIName|U] encouraged [TARGET_CHARACTER.GetShortUIName]."
@@ -2000,6 +2155,9 @@
   friend_helped_inspiration_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] assisted [CHARACTER.GetShortUIName] with [CHARACTER.GetShortUINamePossessiveNoTooltip] craft."
 
   friend_inspired_craftsman: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded after an inspiring outing."
+  
+  friend_courtly_love: "[CHARACTER.GetShortUIName|U] let go of [TARGET_CHARACTER.GetShortUIName] to allow [TARGET_CHARACTER.GetHerHis] love at [PROVINCE.GetName]."
+  friend_courtly_love_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] was allowed by [CHARACTER.GetShortUIName] to leave [CHARACTER.GetHerHis] court and pursue [TARGET_CHARACTER.GetHerHis] love at [PROVINCE.GetName]."
 
   friend_miniature_game: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded after a fanciful game of siege battle with beautifully crafted miniatures."
 
@@ -2035,7 +2193,7 @@
   friend_good_relationship_ward_corresponding: "[CHARACTER.GetShortUIName|U] professed their appreciation for [TARGET_CHARACTER.GetShortUINamePossessive] good guardianship."
 
   friend_helped_during_horse_race: "[CHARACTER.GetShortUIName|U] helped [TARGET_CHARACTER.GetShortUIName] recover after being sabotaged in a horse race."
-  friend_helped_during_horse_race_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] helped [HARACTER.GetShortUIName] recover after being sabotaged in a horse race."
+  friend_helped_during_horse_race_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] helped [CHARACTER.GetShortUIName] recover after being sabotaged in a horse race."
 
   friend_shared_mysticism: "[CHARACTER.GetShortUIName|U] educated [TARGET_CHARACTER.GetShortUIName] in the mystic rites."
   friend_shared_mysticism_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] educated [CHARACTER.GetShortUIName] in the mystic rites."
@@ -2088,6 +2246,8 @@
   friend_child_apologize: "[TARGET_CHARACTER.GetShortUIName|U] made a heartfelt apology to [CHARACTER.GetShortUIName]."
   friend_child_apologize_corresponding: "[CHARACTER.GetShortUIName|U] made a heartfelt apology to [TARGET_CHARACTER.GetShortUIName]."
 
+  friend_wedding_enjoyable_chat: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] greatly enjoyed each other's company during a wedding banquet."
+
   rival_garduna_young_thief: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] both want to be the king of thieves."
 
   rival_attempted_blackmail: "[CHARACTER.GetShortUIName|U] tried to blackmail [TARGET_CHARACTER.GetShortUIName]."
@@ -2098,6 +2258,648 @@
 
   friend_gave_council_seat: "[CHARACTER.GetShortUIName|U] hired [TARGET_CHARACTER.GetShortUINamePossessive] as a councilor"
   friend_gave_council_seat_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] hired by [CHARACTER.GetShortUINamePossessive] as a councilor"
+  
+  friend_listened_to_advice: "[CHARACTER.GetShortUIName|U] took [TARGET_CHARACTER.GetShortUINamePossessive] advice, strengthening their bond"
+  friend_listened_to_advice_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] took [CHARACTER.GetShortUINamePossessive] advice, strengthening their bond"
+
+  rival_belittled_beliefs: "[TARGET_CHARACTER.GetShortUIName|U] was mocked by [CHARACTER.GetShortUIName] for [TARGET_CHARACTER.GetHerHis] superstitious beliefs"
+  rival_belittled_beliefs_corresponding: "[CHARACTER.GetShortUIName|U] was mocked by [TARGET_CHARACTER.GetShortUIName] for [CHARACTER.GetHerHis] superstitious beliefs"
+
+  rival_upstaged_at_sea: "[TARGET_CHARACTER.GetShortUIName|U] was humiliated by [CHARACTER.GetShortUIName] for [TARGET_CHARACTER.GetHerHis] inferior navigational skills"
+  rival_upstaged_at_sea_corresponding: "[CHARACTER.GetShortUIName|U] was humiliated by [TARGET_CHARACTER.GetShortUIName] for [CHARACTER.GetHerHis] inferior navigational skills"
+
+  friend_adopted: "[CHARACTER.GetShortUIName|U] adopted [TARGET_CHARACTER.GetShortUIName] as [CHARACTER.GetHerHis] [TARGET_CHARACTER.Custom('GetDaughterSon')]"
+  friend_adopted_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] adopted [CHARACTER.GetShortUIName] as [TARGET_CHARACTER.GetHerHis] [CHARACTER.Custom('GetDaughterSon')]"
+
+  lover_first_sight: "[CHARACTER.GetShortUIName|U] fell in love with [TARGET_CHARACTER.GetShortUIName] at first sight"
+  lover_first_sight_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] fell in love with [CHARACTER.GetShortUIName] at first sight"
+
+  rival_contest_savagely_beaten: "[TARGET_CHARACTER.GetShortUIName|U] was savagely beaten by [CHARACTER.GetShortUIName] during a tournament contest"
+  rival_contest_savagely_beaten_corresponding: "[CHARACTER.GetShortUIName|U] savagely pummeled [TARGET_CHARACTER.GetShortUIName] during a tournament contest"
+
+  rival_tournament_attempted_murder: "[TARGET_CHARACTER.GetShortUIName|U] attempted to murder [CHARACTER.GetShortUIName] during a tournament"
+  rival_tournament_attempted_murder_corresponding: "[CHARACTER.GetShortUIName|U] discovered a murder attempt by [TARGET_CHARACTER.GetShortUIName] during a tournament"
+
+  rival_tournament_disqualified: "[TARGET_CHARACTER.GetShortUIName|U] was disqualified from a tournament contest by [CHARACTER.GetShortUIName]"
+  rival_tournament_disqualified_corresponding: "[CHARACTER.GetShortUIName|U] disqualified [TARGET_CHARACTER.GetShortUIName] from a tournament contest"
+
+  friend_board_game_opening_inform: "[CHARACTER.GetShortUIName|U] pointed out an opening in [TARGET_CHARACTER.GetShortUINamePossessive] board game during a contest"
+  friend_board_game_opening_inform_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] had a board game opening pointed out by [CHARACTER.GetShortUIName|U] during a contest"
+
+  friend_pas_darmes_band: "[CHARACTER.GetShortUIName|U] bonded with [TARGET_CHARACTER.GetShortUIName] as a band challenging pas d'armes"
+  friend_pas_darmes_band_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] as a band challenging pas d'armes"
+
+  friend_toasted_contest_victory: "[CHARACTER.GetShortUIName|U] publicly toasted the [TARGET_CHARACTER.GetShortUINamePossessive] skill and victory in a contest"
+  friend_toasted_contest_victory_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] skill and victory in a contest was publicly toasted by [CHARACTER.GetShortUIName]"
+
+  rival_tournament_attempted_sabotage: "[TARGET_CHARACTER.GetShortUIName|U] attempted to sabotage [CHARACTER.GetShortUIName] during a tournament contest"
+  rival_tournament_attempted_sabotage_corresponding: "[CHARACTER.GetShortUIName|U] discovered a sabotage attempt by [TARGET_CHARACTER.GetShortUIName] during a tournament contest"
+
+  rival_challenged_pas_darmes: "[TARGET_CHARACTER.GetShortUIName|U] challenged [CHARACTER.GetShortUIName] in a pas d'armes"
+  rival_challenged_pas_darmes_corresponding: "[CHARACTER.GetShortUIName|U] was challenged by [TARGET_CHARACTER.GetShortUIName] in a pas d'armes"
+
+  rival_tournament_favor_jealousy: "[TARGET_CHARACTER.GetShortUIName|U] was gifted a token of favor by [CHARACTER.GetShortUINamePossessive] beloved"
+  rival_tournament_favor_jealousy_corresponding: "[CHARACTER.GetShortUIName|U] discovered [CHARACTER.GetHerHis] beloved gifted [TARGET_CHARACTER.GetShortUIName] a favor in a tournament"
+
+  rival_melee_dismissed_mayor: "[TARGET_CHARACTER.GetShortUIName|U] dismissed [CHARACTER.GetShortUINamePossessive] complaints about the melee ravaging [CHARACTER.GetHerHis] town"
+  rival_melee_dismissed_mayor_corresponding: "[CHARACTER.GetShortUINamePossessive|U] complaints about the melee ravaging [CHARACTER.GetHerHis] town were dismissed by [TARGET_CHARACTER.GetShortUIName]"
+
+  rival_contest_sport_struck: "[TARGET_CHARACTER.GetShortUIName|U] struck [CHARACTER.GetShortUIName] in anger during a sports match"
+  rival_contest_sport_struck_corresponding: "[CHARACTER.GetShortUIName|U] was struck in anger by [TARGET_CHARACTER.GetShortUIName] during a sports match"
+
+  rival_quintain_knight_jealousy: "[TARGET_CHARACTER.GetShortUIName|U] vied with [CHARACTER.GetShortUIName] for the attention of a new liege during a quintain contest"
+  rival_quintain_knight_jealousy_corresponding: "[CHARACTER.GetShortUIName|U] vied with [TARGET_CHARACTER.GetShortUIName] for the attention of a new liege during a quintain contest"
+
+  rival_quintain_knight_anger: "[TARGET_CHARACTER.GetShortUIName|U] ruined [CHARACTER.GetShortUINamePossessive] chances for recruitment during a quintain contest"
+  rival_quintain_knight_anger_corresponding: "[CHARACTER.GetShortUIName|U] ruined [TARGET_CHARACTER.GetShortUINamePossessive] chances for recruitment during a quintain contest"
+
+  rival_quintain_collapse_blame: "[TARGET_CHARACTER.GetShortUIName|U] blamed [CHARACTER.GetShortUIName] for the collapse of a tournament's quintain"
+  rival_quintain_collapse_blame_corresponding: "[CHARACTER.GetShortUIName|U] was blamed by [TARGET_CHARACTER.GetShortUIName] for the collapse of a tournament's quintain"
+
+  rival_quintain_jester: "[TARGET_CHARACTER.GetShortUIName|U] was appointed jester by [CHARACTER.GetShortUIName] after being stranded on a quintain"
+  rival_quintain_jester_corresponding: "[CHARACTER.GetShortUIName|U] appointed [TARGET_CHARACTER.GetShortUIName] as jester after being stranded on a quintain"
+
+  rival_tournament_attempted_banning: "[TARGET_CHARACTER.GetShortUIName|U] resented [CHARACTER.GetShortUINamePossessive] attempt to have [TARGET_CHARACTER.GetHerHim] banned from tournaments"
+  rival_tournament_attempted_banning_corresponding: "[CHARACTER.GetShortUIName|U] attempted to have [TARGET_CHARACTER.GetShortUIName] banned from tournaments"
+
+  rival_contest_mockery: "[TARGET_CHARACTER.GetShortUIName|U] was roundly mocked by [CHARACTER.GetShortUINamePossessive] after a contest debacle"
+  rival_contest_mockery_corresponding: "[CHARACTER.GetShortUIName|U] roundly mocked [TARGET_CHARACTER.GetShortUIName] after a contest debacle"
+
+  rival_recital_booing: "[TARGET_CHARACTER.GetShortUIName|U] was loudly booed by [CHARACTER.GetShortUINamePossessive] during [TARGET_CHARACTER.GetHerHis] recital"
+  rival_recital_booing_corresponding: "[CHARACTER.GetShortUIName|U] loudly booed [TARGET_CHARACTER.GetShortUIName] during [TARGET_CHARACTER.GetHerHis] recital"
+
+  rival_recital_insult: "[TARGET_CHARACTER.GetShortUIName|U] was publicly insulted by [CHARACTER.GetShortUINamePossessive] during [TARGET_CHARACTER.GetHerHis] recital"
+  rival_recital_insult_corresponding: "[CHARACTER.GetShortUIName|U] publicly insulted [TARGET_CHARACTER.GetShortUIName] during [TARGET_CHARACTER.GetHerHis] recital"
+
+  friend_recital_compliment: "[TARGET_CHARACTER.GetShortUIName|U] was publicly complimented by [CHARACTER.GetShortUINamePossessive] during [TARGET_CHARACTER.GetHerHis] recital"
+  friend_recital_compliment_corresponding: "[CHARACTER.GetShortUIName|U] publicly complimented [TARGET_CHARACTER.GetShortUIName] during [TARGET_CHARACTER.GetHerHis] recital"
+
+  rival_falcon_shot: "[CHARACTER.GetShortUIName|U] tried to shoot [TARGET_CHARACTER.GetShortUINamePossessive] falcon out of the sky to win a race"
+  rival_falcon_shot_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] falcon was shot at by [CHARACTER.GetShortUIName] during a race"
+
+  rival_contest_insult: "[TARGET_CHARACTER.GetShortUIName|U] was angrily insulted by [CHARACTER.GetShortUINamePossessive] during a contest"
+  rival_contest_insult_corresponding: "[CHARACTER.GetShortUIName|U] angrily insulted [TARGET_CHARACTER.GetShortUIName] during a contest"
+
+  rival_contest_horse_shot: "[TARGET_CHARACTER.GetShortUIName|U] horse was shot by [CHARACTER.GetShortUIName] during a contest"
+  rival_contest_horse_shot_corresponding: "[CHARACTER.GetShortUIName|U] shot [CHARACTER.GetShortUINamePossessive] horse during a contest"
+
+  friend_contest_horse_treated: "[TARGET_CHARACTER.GetShortUIName|U] horse was treated by [CHARACTER.GetShortUIName] after being shot during a contest"
+  friend_contest_horse_treated_corresponding: "[CHARACTER.GetShortUIName|U] treated [CHARACTER.GetShortUINamePossessive] horse after it was shot during a contest"
+
+  friend_quintain_endearment: "[TARGET_CHARACTER.GetShortUIName|U] endeared [TARGET_CHARACTER.GetHerselfHimself] to [CHARACTER.GetShortUIName] after a quintain debacle"
+  friend_quintain_endearment_corresponding: "[CHARACTER.GetShortUIName|U] became endeared to [TARGET_CHARACTER.GetShortUIName] after a quintain debacle"
+
+  rival_tournament_duelist: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] came to blows after a disagreement at a tournament"
+
+  lover_tournament_victor_impressed: "[TARGET_CHARACTER.GetShortUIName|U] was impressed by [CHARACTER.GetShortUINamePossessive] demeanor after winning a contest"
+  lover_tournament_victor_impressed_corresponding: "[CHARACTER.GetShortUIName|U] impressed [TARGET_CHARACTER.GetShortUIName|U] with [CHARACTER.GetHerHis] demeanor after winning a contest"
+
+  friend_tournament_shop_gift: "[TARGET_CHARACTER.GetShortUIName|U] was pleased by [TARGET_CHARACTER.GetShortUINamePossessive] gift at a tournament"
+  friend_tournament_shop_gift_corresponding: "[CHARACTER.GetShortUIName|U] gave a well-appreciated gift to [TARGET_CHARACTER.GetShortUIName] at a tournament"
+
+  rival_tournament_burned_crest: "[CHARACTER.GetShortUIName|U] burned a tailored crest commissioned by [TARGET_CHARACTER.GetShortUIName]"
+  rival_tournament_burned_crest_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] tailored crest was burned by [CHARACTER.GetShortUIName]"
+
+  friend_tournament_church_party: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded at a party in a [CHARACTER.GetFaith.HouseOfWorship]"
+
+  lover_given_flower: "[TARGET_CHARACTER.GetShortUIName|U] fell in love with [CHARACTER.GetShortUINamePossessive] after being given a beautiful flower during a fortuitious meeting in the woods"
+  lover_given_flower_corresponding: "[CHARACTER.GetShortUIName|U] fell in love with [TARGET_CHARACTER.GetShortUINamePossessive] after being given a beautiful flower during a fortuitious meeting in the woods"
+
+  friend_tournament_discussion: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUINamePossessive] bonded during a walk in the [PROVINCE.Custom('TerrainTypeProvince')] while attending a tournament in [PROVINCE.GetName]"
+  
+  rival_kicked_out: "[CHARACTER.GetShortUIName|U] had [TARGET_CHARACTER.GetShortUIName|U] kicked out of a wedding celebration for being a drunk nuisance"
+  rival_kicked_out_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] had [CHARACTER.GetShortUIName|U] kicked out of a wedding celebration for being a drunk nuisance"
+
+  friend_informed_of_adultery: "[CHARACTER.GetShortUIName|U] informed [TARGET_CHARACTER.GetShortUIName|U] of [TARGET_CHARACTER.GetHerHis] spouse's infidelity"
+  friend_informed_of_adultery_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] informed [CHARACTER.GetShortUIName|U] of [CHARACTER.GetHerHis] spouse's infidelity"
+
+  friend_good_booze: "[CHARACTER.GetShortUIName|U] provided [TARGET_CHARACTER.GetShortUIName|U] with fine quality wine and ale"
+  friend_good_booze_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] provided [CHARACTER.GetShortUIName|U] with fine quality wine and ale"
+
+  friend_ghost_hunter: "[CHARACTER.GetShortUIName|U] rid [TARGET_CHARACTER.GetShortUIName|U] of a haunting spirit"
+  friend_ghost_hunter_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] rid [CHARACTER.GetShortUIName|U] of a haunting spirit"
+
+  friend_special_gift: "[CHARACTER.GetShortUIName|U] gave [TARGET_CHARACTER.GetShortUIName|U] a special gift to wake up to"
+  friend_special_gift_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] gave [CHARACTER.GetShortUIName|U] a special gift to wake up to"
+
+  lover_adultery: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName|U] engaged in an adulterous relationship together"
+  lover_adultery_corresponding: "$lover_adultery$"
+
+  friend_wedding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName|U] bonded at a grand wedding"
+  friend_wedding_ritual: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName|U] bonded at a pre-wedding ritual"
+
+  rival_despised_ritual: "[CHARACTER.GetShortUIName|U] got offended by [TARGET_CHARACTER.GetShortUINamePossessive] dismissal of her pre-nuptial rituals"
+  rival_despised_ritual_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] got offended by [CHARACTER.GetShortUINamePossessive] dismissal of her pre-nuptial rituals"
+
+  lover_tournament_praying: "[CHARACTER.GetShortUINamePossessive|U] performative act of worship enraptured [TARGET_CHARACTER.GetShortUIName] at a tournament"
+  lover_tournament_praying_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] performative act of worship enraptured [CHARACTER.GetShortUIName] at a tournament"
+  
+  lover_tournament_cynical_prayer: "[CHARACTER.GetShortUINamePossessive|U] cynical act of worship struck a chord with [TARGET_CHARACTER.GetShortUIName] at a tournament"
+  lover_tournament_cynical_prayer_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive|U] cynical act of worship struck a chord with [CHARACTER.GetShortUIName] at a tournament"
+
+  friend_dinner_chat: "[CHARACTER.GetShortUIName|U] had a friendly conversation with [TARGET_CHARACTER.GetShortUIName|U] at dinner"
+  friend_dinner_chat_corresponding: "$friend_dinner_chat$"
+
+  friend_confidant: "[CHARACTER.GetShortUIName|U] confided in [TARGET_CHARACTER.GetShortUIName|U]"
+  friend_confidant_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] confided in [CHARACTER.GetShortUIName|U]"
+
+  friend_enjoyed_performance: "[TARGET_CHARACTER.GetShortUIName|U] enjoyed a performance by [CHARACTER.GetShortUIName|U]"
+  friend_enjoyed_performance_corresponding: "[CHARACTER.GetShortUIName|U] enjoyed a performance by [TARGET_CHARACTER.GetShortUIName|U]"
+
+  rival_offended_by_performance: "[CHARACTER.GetShortUIName|U] witnessed a hurtful reenactment of a painful memory by [TARGET_CHARACTER.GetShortUIName|U]"
+  rival_offended_by_performance_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] witnessed a hurtful reenactment of a painful memory by [CHARACTER.GetShortUIName|U]"
+
+  rival_denied_courtier: "[TARGET_CHARACTER.GetShortUIName|U] prevented a courtier from moving to [CHARACTER.GetShortUINamePossessive|U] court"
+  rival_denied_courtier_corresponding: "[CHARACTER.GetShortUIName|U] prevented a courtier from moving to [TARGET_CHARACTER.GetShortUINamePossessive|U] court"
+
+  rival_denied_hook_on_heir: "[TARGET_CHARACTER.GetShortUIName|U] prevented [TARGET_CHARACTER.GetHerHis] heir from pledging loyalty to [CHARACTER.GetShortUIName|U]"
+  rival_denied_hook_on_heir_corresponding: "[CHARACTER.GetShortUIName|U] prevented [CHARACTER.GetHerHis] heir from pledging loyalty to [TARGET_CHARACTER.GetShortUIName|U]"
+
+  friend_hunt_trophy_given: "[CHARACTER.GetShortUIName|U] gifted [TARGET_CHARACTER.GetShortUIName] the trophy of a hunt"
+  friend_hunt_trophy_given_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was gifted the trophy of a hunt by [CHARACTER.GetShortUIName]"
+
+  friend_hunt_wound_waited_reason: "[CHARACTER.GetShortUIName|U] waited for [TARGET_CHARACTER.GetShortUIName] to recover after a fall while hunting"
+  friend_hunt_wound_waited_reason_corresponding: "[TARGET_CHARACTER.GetShortUIName] was given time to recover by [CHARACTER.GetShortUIName|U] after a fall while hunting"
+
+  friend_hunt_wound_treated_reason: "[CHARACTER.GetShortUIName|U] berated [TARGET_CHARACTER.GetShortUIName] for [TARGET_CHARACTER.GetHerHis] lack of hunting knowledge"
+  friend_hunt_wound_treated_reason_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was berated for [TARGET_CHARACTER.GetHerHis] lack of hunting knowledge by [CHARACTER.GetShortUIName]"
+
+  friend_gave_hunt_kill_reason: "[CHARACTER.GetShortUIName|U] gave [TARGET_CHARACTER.GetShortUIName] the honor of a hunt kill"
+  friend_gave_hunt_kill_reason_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was given the honor of a hunt kill by [CHARACTER.GetShortUIName]"
+
+  friend_hunt_taught_patiently_reason: "[CHARACTER.GetShortUIName|U] gave [TARGET_CHARACTER.GetShortUIName] instruction in the ways of the hunt"
+  friend_hunt_taught_patiently_reason_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was given instruction in the ways of the hunt by [CHARACTER.GetShortUIName]"
+
+  friend_hunt_berated_noob_reason: "[CHARACTER.GetShortUIName|U] berated [TARGET_CHARACTER.GetShortUIName] for [TARGET_CHARACTER.GetHerHis] lack of hunting knowledge"
+  friend_hunt_berated_noob_reason_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was berated for [TARGET_CHARACTER.GetHerHis] lack of hunting knowledge by [CHARACTER.GetShortUIName]"
+
+  ward_tiny_thief: "[CHARACTER.GetShortUIName|U] put [TARGET_CHARACTER.GetShortUINamePossessive|U] subtle talents to better use"
+  ward_tiny_thief_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] put [CHARACTER.GetShortUINamePossessive|U] subtle talents to better use"
+
+  friend_tournament_tutor: "[CHARACTER.GetShortUIName|U] was tutored by [TARGET_CHARACTER.GetShortUIName] in martial pursuits"
+  friend_tournament_tutor_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was tutored by [CHARACTER.GetShortUIName] in martial pursuits"
+
+  friend_tournament_famous: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became firm friends after [TARGET_CHARACTER.GetShortUINamePossessive] grand arrival at a tournament"
+  friend_tournament_famous_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became firm friends after [CHARACTER.GetShortUINamePossessive] grand arrival at a tournament"
+
+  rival_tournament_famous: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] dismissed [TARGET_CHARACTER.GetShortUINamePossessive] grand arrival at a tournament"
+  rival_tournament_famous_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] dismissed [CHARACTER.GetShortUINamePossessive] grand arrival at a tournament"
+
+  rival_tournament_herald: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] mocked [TARGET_CHARACTER.GetShortUINamePossessive] attempts at announcing a knight at a tournament"
+  rival_tournament_herald_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] mocked [CHARACTER.GetShortUINamePossessive] attempts at announcing a knight at a tournament"
+
+  rival_tournament_herald_knight: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] laughed at [TARGET_CHARACTER.GetShortUINamePossessive] failed introduction during a tournament"
+  rival_tournament_herald_knight_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] laughed at [CHARACTER.GetShortUINamePossessive] failed introduction during a tournament"
+
+  friend_tournament_herald_knight: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] offered a replacement for [TARGET_CHARACTER.GetShortUINamePossessive] hapless herald"
+  friend_tournament_herald_knight_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] offered a replacement for [CHARACTER.GetShortUINamePossessive] hapless herald"
+
+  friend_tournament_foreign_knight: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] was impressed by [TARGET_CHARACTER.GetShortUINamePossessive] skills during a tournament"
+  friend_tournament_foreign_knight_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] was impressed by [CHARACTER.GetShortUINamePossessive] skills during a tournament"
+  
+  lover_hunt_conversation_impressed: "[CHARACTER.GetShortUIName|U] impressed [TARGET_CHARACTER.GetShortUIName] with [CHARACTER.GetHerHis] views on hunting"
+  lover_hunt_conversation_impressed_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] impressed [CHARACTER.GetShortUIName] with [TARGET_CHARACTER.GetHerHis] views on hunting"
+
+  lover_hunt_saved_from_rampaging_animal: "[CHARACTER.GetShortUIName|U] saved [TARGET_CHARACTER.GetShortUIName] from a rampaging beast while hunting"
+  lover_hunt_saved_from_rampaging_animal_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was saved from a rampaging beast by [CHARACTER.GetShortUIName] while hunting"
+
+  lover_jumped_over_boulder_reason: "[CHARACTER.GetShortUIName|U] impressed [TARGET_CHARACTER.GetShortUIName] by leaping over a rolling boulder"
+  lover_jumped_over_boulder_reason_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was impressed by [CHARACTER.GetShortUINamePossessive] leap over a rolling boulder"
+
+  friend_bonded_over_botany: "[CHARACTER.GetShortUIName|U] shared an interest in plants with [TARGET_CHARACTER.GetShortUIName]"
+
+  lover_hunt_gift_reason: "[TARGET_CHARACTER.GetShortUIName|U] was impressed by a gift [CHARACTER.GetShortUIName] picked from the wild"
+  lover_hunt_gift_reason_corresponding: "[CHARACTER.GetShortUIName|U] impressed [TARGET_CHARACTER.GetShortUIName] with a gift picked from the wild"
+
+  rival_shared_insecurity: "When [CHARACTER.GetShortUIName] shared [CHARACTER.GetHerHis] insecurities, [TARGET_CHARACTER.GetShortUIName] made [CHARACTER.GetHerHim] feel small."
+  rival_shared_insecurity_corresponding: "When [TARGET_CHARACTER.GetShortUIName] shared [TARGET_CHARACTER.GetHerHis] insecurities, [CHARACTER.GetShortUIName] made [TARGET_CHARACTER.GetHerHim] feel small."
+
+  friend_shared_insecurity: "When [CHARACTER.GetShortUIName] shared [CHARACTER.GetHerHis] insecurities, [TARGET_CHARACTER.GetShortUIName] made [CHARACTER.GetHerHim] feel respected."
+  friend_shared_insecurity_corresponding: "When [TARGET_CHARACTER.GetShortUIName] shared [TARGET_CHARACTER.GetHerHis] insecurities, [CHARACTER.GetShortUIName] made [TARGET_CHARACTER.GetHerHim] feel respected."
+
+  lover_shared_insecurity_corresponding: "When [CHARACTER.GetShortUIName] shared [CHARACTER.GetHerHis] insecurities, [TARGET_CHARACTER.GetShortUIName] made [CHARACTER.GetHerHim] feel loved."
+  lover_shared_insecurity: "When [TARGET_CHARACTER.GetShortUIName] shared [TARGET_CHARACTER.GetHerHis] insecurities, [CHARACTER.GetShortUIName] made [TARGET_CHARACTER.GetHerHim] feel loved."
+
+  friend_great_time_at_wedding: "[CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] spent a wedding banquet talking, and enjoyed each other's company."
+  friend_great_time_at_wedding_corresponding: "[TARGET_CHARACTER.GetShortUIName] and [CHARACTER.GetShortUIName] spent a wedding banquet talking, and enjoyed each other's company."
+
+  best_friend_great_time_at_wedding: "[CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] ignored everyone else at a wedding banquet to enjoy each other's company."
+  best_friend_great_time_at_wedding_corresponding: "[TARGET_CHARACTER.GetShortUIName] and [CHARACTER.GetShortUIName] ignored everyone else at a wedding banquet to enjoy each other's company."
+
+  rival_dishonored_wedding_banquet: "[CHARACTER.GetShortUIName] took offense when [TARGET_CHARACTER.GetShortUIName] snuck out of a wedding banquet to avoid [CHARACTER.GetHerHim]."
+  rival_dishonored_wedding_banquet_corresponding: "[TARGET_CHARACTER.GetShortUIName] took offense when [CHARACTER.GetShortUIName] snuck out of a wedding banquet to avoid [TARGET_CHARACTER.GetHerHim]."
+
+  rival_bad_time_at_wedding: "[CHARACTER.GetShortUIName] squabbled with [TARGET_CHARACTER.GetShortUIName] at a wedding banquet."
+  rival_bad_time_at_wedding_corresponding: "[TARGET_CHARACTER.GetShortUIName] squabbled with [CHARACTER.GetShortUIName] at a wedding banquet."
 
   fp2_progress_towards_rival_funded_revolt_against_me: "[TARGET_CHARACTER.GetShortUIName|U] funded unrest against [CHARACTER.GetShortUINamePossessive]."
   fp2_progress_towards_rival_funded_revolt_against_me_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] destabilized the realm of [CHARACTER.GetShortUINamePossessive]."
+
+  lover_tournament_stands_flirt: "[TARGET_CHARACTER.GetShortUINamePossessive|U] eye-catching flirting was noticed by [CHARACTER.GetShortUIName] after winning a contest"
+  lover_tournament_stands_flirt_corresponding: "[CHARACTER.GetShortUINamePossessive|U] eye-catching flirting was noticed by [TARGET_CHARACTER.GetShortUIName] after winning a contest""
+
+  friend_reconciled_at_wedding: "Once bitter rivals, [CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] reconciled at a beautiful wedding."
+  friend_reconciled_at_wedding_corresponding: "$friend_reconciled_at_wedding$"
+
+  nemesis_spurned_reconciliation_at_wedding: "When [TARGET_CHARACTER.GetShortUIName] sought a reconciliation, [CHARACTER.GetShortUIName] humiliated [TARGET_CHARACTER.GetHerHim]."
+  nemesis_spurned_reconciliation_at_wedding_corresponding: "When [CHARACTER.GetShortUIName] sought a reconciliation, [TARGET_CHARACTER.GetShortUIName] humiliated [CHARACTER.GetHerHim]."
+
+  soulmate_dreadful_for_me: "[CHARACTER.GetShortUIName|U] would do terrible things to keep [TARGET_CHARACTER.GetShortUIName] safe"
+  soulmate_dreadful_for_me_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] would do terrible things to keep [CHARACTER.GetShortUIName] safe"
+
+  lover_dreadful_for_me: "$soulmate_dreadful_for_me$"
+  lover_dreadful_for_me_corresponding: "$soulmate_dreadful_for_me_corresponding$"
+
+  friend_wedding_saved_from_beasts: "[CHARACTER.GetShortUIName|U] saved [TARGET_CHARACTER.GetShortUIName] from some escaped beasts during a wedding banquet."
+  friend_wedding_saved_from_beasts_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] saved [CHARACTER.GetShortUIName] from some escaped beasts during a wedding banquet."
+
+  soulmate_married_my_lover: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] were lovers even before they married, but marriage strengthened their love."
+
+  rival_tournament_brawl: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after a brawl during a Tournament"
+  rival_tournament_brawl_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after a brawl during a Tournament"
+
+  friend_tournament_drink_shared: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after sharing a drink at a Tournament"
+  friend_tournament_drink_shared_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after sharing a drink at a Tournament"
+
+  rival_tournament_blocked: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after a dispute about viewing positions in the crowd at a Tournament"
+  rival_tournament_blocked_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after a dispute about viewing positions in the crowd at a Tournament"
+
+  friend_tournament_let_through: "[TARGET_CHARACTER.GetShortUIName|U] befriended [CHARACTER.GetShortUIName] after being let through to watch a Tournament contest from the front row"
+  friend_tournament_let_through_corresponding: "[CHARACTER.GetShortUIName|U] befriended [TARGET_CHARACTER.GetShortUIName] after being let through to watch a Tournament contest from the front row"
+
+  lover_tournament_gossiping: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became lovers after flirting in the stands at a Tournament"
+  lover_tournament_gossiping_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became lovers after flirting in the stands at a Tournament"
+
+  friend_tournament_gossiping: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] complimented [TARGET_CHARACTER.GetHerHis] looks in the stands at a Tournament"
+  friend_tournament_gossiping_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] complimented [CHARACTER.GetHerHis] looks in the stands at a Tournament"
+
+  lover_tournament_stand_flirt: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became lovers after [CHARACTER.GetShortUIName] complimented [TARGET_CHARACTER.GetHerHis] looks from the stands at a Tournament"
+  lover_tournament_stand_flirt_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became lovers after [TARGET_CHARACTER.GetShortUIName] complimented [CHARACTER.GetHerHis] looks from the stands at a Tournament"
+  
+  friend_hunt_gifted_eyas: "[CHARACTER.GetShortUIName|U] graced [TARGET_CHARACTER.GetShortUIName] with the gift of a raptor nestling"
+  friend_hunt_gifted_eyas_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was gifted a raptor nestling by [CHARACTER.GetShortUIName]"
+
+  friend_gave_hunt_trophy_reason: "[CHARACTER.GetShortUIName|U] graced [TARGET_CHARACTER.GetShortUIName] with the gift of a hunt's trophy"
+  friend_gave_hunt_trophy_reason_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was gifted a hunt's trophy by [CHARACTER.GetShortUIName]"
+
+  friend_mocked_heathen_together: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded over their disdain for other faiths"
+
+  friend_rebuffed_heathen: "[CHARACTER.GetShortUIName|U] defended [TARGET_CHARACTER.GetShortUIName] against the scorn of an unbeliever""
+  friend_rebuffed_heathen_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was defended by [TARGET_CHARACTER.GetShortUIName] against the scorn of an unbeliever"
+
+  friend_naked_together: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] were publicly nude together"
+
+  friend_bonded_during_tournament: "[CHARACTER.GetShortUIName|U] bonded with [TARGET_CHARACTER.GetShortUIName] during a tournament"
+  friend_bonded_during_tournament_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] bonded with [CHARACTER.GetShortUIName] during a tournament"
+
+  friend_prayed_for_me: "[CHARACTER.GetShortUIName|U] said a prayer for [TARGET_CHARACTER.GetShortUIName]"
+  friend_prayed_for_me_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] said a prayer for [CHARACTER.GetShortUIName]"
+
+  rival_traumatic_childhood: "[CHARACTER.GetShortUIName|U] traumatized [TARGET_CHARACTER.GetShortUIName] during [TARGET_CHARACTER.GetHerHis] childhood"
+  rival_traumatic_childhood_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] traumatized [CHARACTER.GetShortUIName] during [CHARACTER.GetHerHis] childhood"
+
+  friend_disqualified_saboteur: "[CHARACTER.GetShortUIName|U] disqualified a tournament contestant accused of attempting to sabotage [TARGET_CHARACTER.GetShortUIName]"
+  friend_disqualified_saboteur_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] had an accused tournament saboteur disqualified by [CHARACTER.GetShortUIName]"
+
+  friend_pardoned_saboteur: "[CHARACTER.GetShortUIName|U] dismissed accusations of sabotage leveled against [TARGET_CHARACTER.GetShortUIName]"
+  friend_pardoned_saboteur_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] had the accusations of sabotage leveled against [TARGET_CHARACTER.GetHerHim] dismissed by [CHARACTER.GetShortUIName]"
+
+  friend_courtiers_bonded_on_tour: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded during a royal visit"
+
+  lover_courtiers_bonded_on_tour: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] shared a night of passion during a royal visit"
+
+  rival_courtiers_friction_on_tour: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became sworn enemies during a royal visit"
+
+  friend_duel_recovered: "[CHARACTER.GetShortUIName|U] allowed [TARGET_CHARACTER.GetShortUIName] to recover after a fall during a duel"
+  friend_duel_recovered_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was allowed to recover by [CHARACTER.GetShortUIName] after a fall during a duel"
+
+  rival_wrestling_liar: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after arguing over foul play during a wrestling bout at a Tournament"
+  rival_wrestling_liar_corresponding: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after arguing over foul play during a wrestling bout at a Tournament"
+
+  nemesis_wedding_spread_voices_secret: "[TARGET_CHARACTER.GetShortUIName|U] spread compromising voices at [CHARACTER.GetShortUINamePossessive] wedding and revealed [CHARACTER.GetHerHis] secret"
+  nemesis_wedding_spread_voices_secret_corresponding: "[CHARACTER.GetShortUIName|U] spread compromising voices at [TARGET_CHARACTER.GetShortUINamePossessive] wedding and revealed [TARGET_CHARACTER.GetHerHis] secret"
+
+  rival_wedding_spread_voices: "[TARGET_CHARACTER.GetShortUIName|U] spread compromising voices at [CHARACTER.GetShortUINamePossessive] wedding and was therefore kicked out"
+  rival_wedding_spread_voices_corresponding: "[CHARACTER.GetShortUIName|U] spread compromising voices at [TARGET_CHARACTER.GetShortUINamePossessive] wedding and was therefore kicked out"
+
+  nemesis_red_coin: "[TARGET_CHARACTER.GetShortUIName] entrusted [CHARACTER.GetShortUIName] with an important coin, only for [TARGET_CHARACTER.GetHerHis] trust to be betrayed."
+  nemesis_red_coin_corresponding: "[CHARACTER.GetShortUIName] entrusted [TARGET_CHARACTER.GetShortUIName] with an important coin, only for [CHARACTER.GetHerHis] trust to be betrayed."
+
+  rival_dynast_tournament_coercion: "[CHARACTER.GetShortUIName|U] refused [TARGET_CHARACTER.GetShortUINamePossessive] request to withdraw from a Tournament"
+  rival_dynast_tournament_coercion_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] refused [CHARACTER.GetShortUIName] request to withdraw from a Tournament"
+
+  lover_tour_storm: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] took refuge from a storm in each other"
+
+  lover_tour_storm_insult: "[CHARACTER.GetShortUIName|U] harshly rejected [TARGET_CHARACTER.GetShortUIName] when taking refuge from a storm"
+  lover_tour_storm_insult_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was harshly by [CHARACTER.GetShortUIName] when taking refuge from a storm"
+
+  friend_hunt_conversation_impressed: "[CHARACTER.GetShortUIName|U] bonded with [TARGET_CHARACTER.GetShortUIName] over their views on hunting"
+
+  rival_goh_humiliated_at_feast: "[CHARACTER.GetShortUIName|U] humiliated [TARGET_CHARACTER.GetShortUIName|U], giving an insulting speech about [TARGET_CHARACTER.GetHerHim] at a feast supposed to be honoring [TARGET_CHARACTER.GetHerHim]"
+  rival_goh_humiliated_at_feast_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] humiliated [CHARACTER.GetShortUIName|U], giving an insulting speech about [CHARACTER.GetHerHim] at a feast supposed to be honoring [CHARACTER.GetHerHim]"
+
+  lover_impressed_by_smooth_save: "[TARGET_CHARACTER.GetShortUIName|U] was enthralled by [CHARACTER.GetShortUINamePossessive] smooth handling of a difficult situation."
+  lover_impressed_by_smooth_save_corresponding: "[CHARACTER.GetShortUIName|U] was enthralled by [TARGET_CHARACTER.GetShortUINamePossessive] smooth handling of a difficult situation."
+
+  lover_impressed_by_talk: "[TARGET_CHARACTER.GetShortUIName|U] was enthralled by [CHARACTER.GetShortUINamePossessive] suave discussion."
+  lover_impressed_by_talk_corresponding: "[CHARACTER.GetShortUIName|U] was enthralled by [TARGET_CHARACTER.GetShortUINamePossessive] suave discussion."
+
+  lover_daring_move: "[TARGET_CHARACTER.GetShortUIName|U] was impressed by [CHARACTER.GetShortUINamePossessive] daring declarations and pursue of love."
+  lover_daring_move_corresponding: "[CHARACTER.GetShortUIName|U] was impressed by [TARGET_CHARACTER.GetShortUINamePossessive] daring declarations and pursue of love."
+
+  rival_kicked_out_priest: "[CHARACTER.GetShortUIName|U] kicked [TARGET_CHARACTER.GetShortUIName|U] out of a wedding celebration for souring the mood with religious reproach."
+  rival_kicked_out_priest_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] kicked [CHARACTER.GetShortUIName|U] out of a wedding celebration for souring the mood with religious reproach."
+
+  friend_wedding_relation_bond: "[CHARACTER.GetShortUIName|U] bonded with [TARGET_CHARACTER.GetShortUIName] at a family wedding"
+
+  lover_wedding_relation_bond: "[CHARACTER.GetShortUIName|U] hit it off with [TARGET_CHARACTER.GetShortUIName] at a family wedding"
+
+  lover_wedding_relation_suitor: "[CHARACTER.GetShortUIName|U] hit it off with [TARGET_CHARACTER.GetShortUIName] after being introduced at a family wedding"
+
+  friend_wedding_help_bond: "[CHARACTER.GetShortUIName|U] helped [TARGET_CHARACTER.GetShortUIName] out of a wedding party"
+  friend_wedding_help_bond_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was helped out of a wedding party by [CHARACTER.GetShortUIName]"
+
+  friend_supportive_at_wedding: "[CHARACTER.GetShortUIName|U] was grateful to have [TARGET_CHARACTER.GetShortUINamePossessive] support at [CHARACTER.GetHerHis] wedding."
+  friend_supportive_at_wedding_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] was grateful to have [CHARACTER.GetShortUINamePossessive] support at [TARGET_CHARACTER.GetHerHis] wedding."
+  
+  lover_love_is_in_the_air: "[CHARACTER.GetShortUIName|U] sweet-talked [TARGET_CHARACTER.GetShortUIName] at a wedding."
+  lover_love_is_in_the_air_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] sweet-talked [CHARACTER.GetShortUIName] at a wedding."
+
+  rival_rubbed_it_in: "[CHARACTER.GetShortUIName|U] taunted [TARGET_CHARACTER.GetShortUIName] with [CHARACTER.GetHerHis] family's luck at a wedding."
+  rival_rubbed_it_in_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] taunted [CHARACTER.GetShortUIName] with [TARGET_CHARACTER.GetHerHis] family's luck at a wedding."
+
+  rival_wedding_challenged_prejudices: "[CHARACTER.GetShortUIName|U] aggressively challenged [TARGET_CHARACTER.GetShortUINamePossessive] prejudices against [CHARACTER.GetHerHim]."
+  rival_wedding_challenged_prejudices_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] aggressively challenged [CHARACTER.GetShortUINamePossessive] prejudices against [TARGET_CHARACTER.GetHerHim]."
+
+  friend_wedding_not_so_bad: "[CHARACTER.GetShortUIName|U] convinced [TARGET_CHARACTER.GetShortUIName] of [CHARACTER.GetHerHis] good qualities."
+  friend_wedding_not_so_bad_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] convinced [CHARACTER.GetShortUIName] of [TARGET_CHARACTER.GetHerHis] good qualities."
+
+  rival_wedding_confirmed_prejudices: "[CHARACTER.GetShortUIName|U] managed to confirm [TARGET_CHARACTER.GetShortUINamePossessive] prejudices against [CHARACTER.GetHerHim] through [CHARACTER.GetHerHis] awkward defense."
+  rival_wedding_confirmed_prejudices_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] managed to confirm [CHARACTER.GetShortUINamePossessive] prejudices against [TARGET_CHARACTER.GetHerHim] through [TARGET_CHARACTER.GetHerHis] awkward defense."
+
+  lover_atmospheric_location: "[TARGET_CHARACTER.GetShortUIName|U] was charmed by [CHARACTER.GetShortUINamePossessive] company and presentation of the wedding venue."
+  lover_atmospheric_location_corresponding: "[CHARACTER.GetShortUIName|U] was charmed by [TARGET_CHARACTER.GetShortUINamePossessive] company and presentation of the wedding venue."
+
+  friend_agreed_favourite: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUINamePossessive] agreed on a favorite contestant during a Tournament."
+
+  rival_disagreed_favourite: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName|U] vociferously disagreed on who their favorite contestant was at a Tournament."
+
+  lover_wedding_trying_hard: "[CHARACTER.GetShortUIName|U] promised [TARGET_CHARACTER.GetShortUIName|U] to make an effort to make [TARGET_CHARACTER.GetSheHe] like [CHARACTER.GetHerHim]."
+  lover_wedding_trying_hard_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] promised [CHARACTER.GetShortUIName|U] to make an effort to make [CHARACTER.GetSheHe] like [TARGET_CHARACTER.GetHerHim]."
+
+  lover_wedding_saved_from_flames: "[CHARACTER.GetShortUIName|U] saved [TARGET_CHARACTER.GetShortUIName|U] from the flames during a wedding gone wrong."
+  lover_wedding_saved_from_flames_corresponding: "[CHARACTER.GetShortUIName|U] saved [TARGET_CHARACTER.GetShortUIName|U] from the flames during a wedding gone wrong."
+
+  lover_wedding_seductive_exchange: "[CHARACTER.GetShortUIName|U] had a steamy exchange with [TARGET_CHARACTER.GetShortUIName|U] at a wedding."
+
+  ### FP3
+  lover_gave_fine_seeds: "[CHARACTER.GetShortUIName|U] gave [TARGET_CHARACTER.GetShortUINamePossessive] Persia's finest espand seeds."
+  lover_gave_fine_seeds_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] given Persia's finest espand seeds by [TARGET_CHARACTER.GetShortUINamePossessive]."
+
+  rival_left_for_frontier: "[CHARACTER.GetShortUIName|U] left [TARGET_CHARACTER.GetShortUINamePossessive] for the frontier."
+  rival_left_for_frontier_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] for the frontier by [CHARACTER.GetShortUIName|U]."
+
+  lover_agreed_to_give_beautiful_head: "[CHARACTER.GetShortUIName|U] agreed with [TARGET_CHARACTER.GetShortUINamePossessive] to give their child a beautiful head."
+  lover_agreed_to_give_beautiful_head_corresponding: "[TARGET_CHARACTER.GetShortUINamePossessive] and [CHARACTER.GetShortUIName|U] agreed to give their child a beautiful head."
+
+  lover_let_me_build_steamy_bath_house: "[CHARACTER.GetShortUIName|U] permitted [TARGET_CHARACTER.GetShortUINamePossessive] to build a magnificent bathhouse."
+  lover_let_me_build_steamy_bath_house_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] allowed by [CHARACTER.GetShortUIName|U] to build a magnificent bathhouse."
+
+  rival_disfigured_relative: "[TARGET_CHARACTER.GetShortUIName|U] let the alchemist who disfigured [CHARACTER.GetShortUINamePossessive] relative go free."
+  rival_disfigured_relative_corresponding: "[CHARACTER.GetShortUIName|U] let the alchemist who disfigured [TARGET_CHARACTER.GetShortUINamePossessive] relative go free."
+
+  friend_reaffirmed_assassin: "[CHARACTER.GetShortUIName] supported [TARGET_CHARACTER.GetShortUIName] spiritually before a risky assassination mission." 
+  friend_reaffirmed_assassin_corresponding: "[TARGET_CHARACTER.GetShortUIName] received spiritual support from [CHARACTER.GetShortUIName] before a risky assassination mission." 
+
+  rival_disfigured_me_in_lab: "[CHARACTER.GetShortUIName] became disfigured in [TARGET_CHARACTER.GetShortUINamePossessive] alchemical experiment."
+  rival_disfigured_me_in_lab_corresponding: "[CHARACTER.GetShortUIName|U] claims that [TARGET_CHARACTER.GetShortUIName] have themselves to blame for the laboratory accident that led to their disfigurement."
+
+  lover_loves_death: "[CHARACTER.GetShortUIName] bonded with [TARGET_CHARACTER.GetShortUIName] over their reverence for the dead." 
+  lover_loves_death_corresponding: "[CHARACTER.GetShortUIName] bonded with [TARGET_CHARACTER.GetShortUIName] over their love of death." 
+
+  lover_sided_with_me_against_hof: "[TARGET_CHARACTER.GetShortUIName] defended the faith of [CHARACTER.GetShortUIName]." 
+  lover_sided_with_me_against_hof_corresponding: "[CHARACTER.GetShortUIName] defended the faith of [TARGET_CHARACTER.GetShortUIName]." 
+
+  rival_destroyed_my_temple: "[TARGET_CHARACTER.GetShortUIName] brutally destroyed the temple and saint cult that [CHARACTER.GetShortUIName] was involved with."
+  rival_destroyed_my_temple_corresponding: "[CHARACTER.GetShortUIName] brutally destroyed the temple and saint cult that [TARGET_CHARACTER.GetShortUIName] was involved with."
+
+  rival_generic_history: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] have been bitter enemies since forever."
+
+  rival_promoting_blasphemous_translations: "[TARGET_CHARACTER.GetShortUIName|U] is furious with [CHARACTER.GetShortUIName|U] for sponsoring translations of sacred works."
+  rival_promoting_blasphemous_translations_corresponding: "[CHARACTER.GetShortUIName|U] infuriated [TARGET_CHARACTER.GetShortUIName] by sponsoring translations of sacred works."
+
+  rival_let_hostile_nomads_roam_free: "[CHARACTER.GetShortUIName|U] gained the enmity of [TARGET_CHARACTER.GetShortUIName|U] by allowing nomads to roam free in [TARGET_CHARACTER.GetHerHis] lands."
+  rival_let_hostile_nomads_roam_free_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] is furious with [TCHARACTER.GetShortUIName|U] for letting nomads roam free in [CHARACTER.GetHerHis] lands."
+
+  rival_brutal_taxation: "[CHARACTER.GetShortUIName|U] gained the enmity of [TARGET_CHARACTER.GetShortUIName|U] by seizing all the gold and silver from [TARGET_CHARACTER.GetHerHis] tribe."
+  rival_brutal_taxation_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] is furious with [TCHARACTER.GetShortUIName|U] for seizing all the precious items from [CHARACTER.GetHerHis] tribe."
+
+  rival_sided_with_usurer: "[TARGET_CHARACTER.GetShortUIName|U] took the side of a vile usurer."
+  rival_sided_with_usurer_corresponding: "[CHARACTER.GetShortUIName|U] earned the enmity of [TARGET_CHARACTER.GetShortUIName|U] for making accusations against a clan member."
+
+  rival_murdered_servants: "[CHARACTER.GetShortUIName|U] murdered several of [TARGET_CHARACTER.GetShortUINamePossessive] servants."
+
+  rival_harem_intrigue: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUINamePossessive] became rivals due to conflict about their children's inheritance."
+
+  rival_over_position: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUINamePossessive] became bitter rivals due to overlapping responsibilities that both would like to claim as theirs."
+  
+  rival_dismissed_me_from_vizierate: "[CHARACTER.GetShortUIName] loathes [TARGET_CHARACTER.GetShortUIName] for dismissing [CHARACTER.GetHerHim] from [CHARACTER.GetHerHis] role as vizier."
+  rival_dismissed_me_from_vizierate_corresponding: "[TARGET_CHARACTER.GetShortUIName] loathes [CHARACTER.GetShortUIName] for dismissing [TARGET_CHARACTER.GetHerHim] from [TARGET_CHARACTER.GetHerHis] role as vizier."
+
+  rival_taxation_is_theft: "[CHARACTER.GetShortUIName|U] made [TARGET_CHARACTER.GetShortUIName] pay taxes."
+  rival_taxation_is_theft_corresponding: "[TARGET_CHARACTER.GetShortUIName] made [CHARACTER.GetShortUIName|U] pay taxes."
+
+  rival_accounting_exposure: "[CHARACTER.GetShortUIName|U] humiliated [TARGET_CHARACTER.GetShortUIName|U] for [TARGET_CHARACTER.GetHerHis] accounting abilities."
+  rival_accounting_exposure_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] humiliated [CHARACTER.GetShortUIName|U] for [CHARACTER.GetHerHis] accounting abilities."
+
+  rival_disregarded_accounting: "[CHARACTER.GetShortUIName|U] disregarded [TARGET_CHARACTER.GetShortUINamePossessive|U] extensive accounting efforts."
+  rival_disregarded_accounting_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] disregarded [CHARACTER.GetShortUINamePossessive|U] extensive accounting efforts."
+
+  rival_tried_to_remove_tax_collector: "[CHARACTER.GetShortUIName|U] tried to remove [TARGET_CHARACTER.GetShortUIName|U] from [TARGET_CHARACTER.GetHerHis] position as a tax collector."
+  rival_tried_to_remove_tax_collector_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] tried to remove [CHARACTER.GetShortUIName] from [CHARACTER.GetShortUINamePossessiveNoTooltip] position as a tax collector."
+  
+  rival_stole_tax_contributions: "[CHARACTER.GetShortUIName|U] stole [TARGET_CHARACTER.GetShortUINamePossessive|U] tax contributions."
+  rival_stole_tax_contributions_corresponding: "[CHARACTER.GetShortUIName|U] stole [TARGET_CHARACTER.GetShortUINamePossessive|U] tax contributions."
+
+  rival_escalated_tax_disputes: "[CHARACTER.GetShortUIName|U] became rivals with [TARGET_CHARACTER.GetShortUIName|U] due to [CHARACTER.GetShortUINamePossessive] unresolved disputes over taxation."
+  rival_escalated_tax_disputes_corresponding: "[CHARACTER.GetShortUIName|U] became rivals with [TARGET_CHARACTER.GetShortUIName|U] due to [CHARACTER.GetShortUINamePossessive] unresolved disputes over taxation."
+
+  lover_tour_grounds_orgy: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName|U] participated in an orgy together"
+  lover_tour_grounds_orgy_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName|U] participated in an orgy together"
+
+  friend_accepted_tax_increase: "[CHARACTER.GetShortUIName|U] accepted [TARGET_CHARACTER.GetShortUINamePossessive|U] demand for a tax increase"
+  friend_accepted_tax_increase_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] accepted [CHARACTER.GetShortUINamePossessive|U] demand for a tax increase"
+
+  friend_split_profits: "[CHARACTER.GetShortUIName|U] split some extra profit with [TARGET_CHARACTER.GetShortUIName|U]"
+  friend_split_profits_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] split some extra profit with [CHARACTER.GetShortUIName|U]"
+
+  rival_parent_neglect: "[CHARACTER.GetShortUIName|U] came to detest [TARGET_CHARACTER.GetShortUIName] for being neglected as a child."
+  rival_parent_neglect_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] came to detest [CHARACTER.GetShortUIName] for being neglected as a child."
+  
+  rival_childhood_marriage_vow: "[CHARACTER.GetShortUIName|U] went back on [CHARACTER.GetHerHis] childhood vow to marry [TARGET_CHARACTER.GetShortUIName]."
+  rival_childhood_marriage_vow_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] went back on [TARGET_CHARACTER.GetHerHis] childhood vow to marry [CHARACTER.GetShortUIName]"
+
+  lover_childhood_marriage_vow: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] rekindled their childhood affection."
+  lover_childhood_marriage_vow_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] rekindled their childhood affection."
+
+  friend_provided_for_hostage: "[CHARACTER.GetShortUIName|U] provided care and comfort for [TARGET_CHARACTER.GetShortUIName], when [TARGET_CHARACTER.GetFirstName] longed desperately for home."
+  friend_provided_for_hostage_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] provided care and comfort for [CHARACTER.GetShortUIName], when [CHARACTER.GetFirstName] longed desperately for home."
+
+  rival_stole_gifts_from_hostage: "[CHARACTER.GetShortUIName|U] tricked [TARGET_CHARACTER.GetShortUIName] into pleading costly aid from [CHARACTER.GetHerHis] relations, only to steal the wealth when it arrived."
+  rival_stole_gifts_from_hostage_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] tricked [CHARACTER.GetShortUIName] into pleading costly aid from [TARGET_CHARACTER.GetHerHis] relations, only to steal the wealth when it arrived."
+  rival_bested_me_in_debate: "[TARGET_CHARACTER.GetShortUIName|U] outwitted [CHARACTER.GetShortUIName] in a scholarly debate."
+  rival_bested_me_in_debate_corresponding: "[CHARACTER.GetShortUIName|U] outwitted [TARGET_CHARACTER.GetShortUIName] in a scholarly debate."
+
+  friend_learned_my_language: "[CHARACTER.GetShortUIName|U] specifically learned [TARGET_CHARACTER.GetShortUINamePossessive] mother language during [CHARACTER.GetHerHis] [GetActivityType('activity_adult_education').GetName]."
+  friend_learned_my_language_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] specifically learned [CHARACTER.GetShortUINamePossessive] mother language during [TARGET_CHARACTER.GetHerHis] [GetActivityType('activity_adult_education').GetName]."
+
+  friend_refused_the_goliards: "[CHARACTER.GetShortUIName|U] heeded to [TARGET_CHARACTER.GetShortUINamePossessive] advice and preferred studying to the Goliards' revelries."
+  friend_refused_the_goliards_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] heeded to [CHARACTER.GetShortUINamePossessive] advice and preferred studying to the Goliards' revelries."
+
+  rival_followed_the_goliards: "[CHARACTER.GetShortUIName|U] didn't listen to [TARGET_CHARACTER.GetShortUINamePossessive] advice and joined the Goliards' revelries."
+  rival_followed_the_goliards_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] didn't listen to [CHARACTER.GetShortUINamePossessive] advice and joined the Goliards' revelries."
+
+  friend_supported_me_in_dispute: "[CHARACTER.GetShortUIName|U] supported [TARGET_CHARACTER.GetShortUINamePossessive] position in a scholarly dispute."
+  friend_supported_me_in_dispute_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] supported [CHARACTER.GetShortUINamePossessive] position in a scholarly dispute."
+
+  rival_not_supported_me_in_dispute: "[CHARACTER.GetShortUIName|U] antagonized [TARGET_CHARACTER.GetShortUINamePossessive] position in a scholarly dispute."
+  rival_not_supported_me_in_dispute_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] antagonized [CHARACTER.GetShortUINamePossessive] position in a scholarly dispute."
+
+  rival_ignored_ideas: "[TARGET_CHARACTER.GetShortUIName|U] ignored [CHARACTER.GetShortUINamePossessive] fantastic and not-eccentric-at-all ideas."
+  rival_ignored_ideas_corresponding: "[CHARACTER.GetShortUIName|U] ignored [TARGET_CHARACTER.GetShortUINamePossessive] fantastic and not-eccentric-at-all ideas."
+
+  rival_football_broken: "[CHARACTER.GetShortUIName|U] accidentally broke [TARGET_CHARACTER.GetShortUINamePossessive] possessions and, when confronted about it, chose to flee."
+  rival_football_broken_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] accidentally broke [CHARACTER.GetShortUINamePossessive] possessions and, when confronted about it, chose to flee."
+
+  rival_kicked_shins: "[CHARACTER.GetShortUIName|U] kicked out at [TARGET_CHARACTER.GetShortUINamePossessive] shins during a childhood game of football."
+  rival_kicked_shins_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] kicked out at [CHARACTER.GetShortUINamePossessive] shins during a childhood game of football."
+
+  friend_joined_game: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after bonding over their shyness as youths."
+  friend_joined_game_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after bonding over their shyness as youths."
+
+  friend_joined_ballgame: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] persuaded [TARGET_CHARACTER.GetShortUIName] to join a game of football."
+  friend_joined_ballgame_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] persuaded [CHARACTER.GetShortUIName] to join a game of football."
+
+  rival_football_noise: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] refused to accept [TARGET_CHARACTER.GetShortUINamePossessive] demands to be quiet during a game of football."
+  rival_football_noise_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] refused to accept [CHARACTER.GetShortUINamePossessive] demands to be quiet during a game of football."
+
+  rival_bullied_football: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] bullied [TARGET_CHARACTER.GetShortUIName] during a game of football."
+  rival_bullied_football_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] bullied [CHARACTER.GetShortUIName] during a game of football."
+
+  rival_broken_football: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] damaged one of [TARGET_CHARACTER.GetShortUINamePossessive] possessions during a game of football."
+  rival_broken_football_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] damaged one of [CHARACTER.GetShortUINamePossessive] possessions during a game of football."
+
+  rival_bullied_kid: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] forced [TARGET_CHARACTER.GetShortUIName] to climb a dangerous wall in search of a football."
+  rival_bullied_kid_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] forced [CHARACTER.GetShortUIName] to climb a dangerous wall in search of a football."
+
+  rival_hurt_football: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] hurt [TARGET_CHARACTER.GetShortUIName] during a game of football."
+  rival_hurt_football_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] hurt [CHARACTER.GetShortUIName] during a game of football."
+
+  rival_obnoxious_parent: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] got annoyed with [CHARACTER.GetShortUINamePossessive] haranguing during a game of football."
+  rival_obnoxious_parent_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] got annoyed with [TARGET_CHARACTER.GetShortUINamePossessive] haranguing during a game of football."
+
+  rival_playacted_hurt: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] managed to trick onlookers into believing [TARGET_CHARACTER.GetShortUIName] struck them during a game of football."
+  rival_playacted_hurt_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] managed to trick onlookers into believing [CHARACTER.GetShortUIName] struck them during a game of football."
+
+  friend_saved_from_trampling: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] rescued [TARGET_CHARACTER.GetShortUIName] from being trampled during a game of football."
+  friend_saved_from_trampling_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] rescued [CHARACTER.GetShortUIName] from being trampled during a game of football."
+
+  friend_befriended_football: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] took [TARGET_CHARACTER.GetShortUIName] under their wing during a game of football."
+  friend_befriended_football_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] took [CHARACTER.GetShortUIName] under their wing during a game of football."
+
+  bully_childhood_imaginary_friend: "[CHARACTER.GetShortUIName|U] made fun of [TARGET_CHARACTER.GetShortUIName] for [TARGET_CHARACTER.GetHerHis] imaginary friend." 
+  bully_childhood_imaginary_friend_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] made fun of [CHARACTER.GetShortUIName] for [CHARACTER.GetHerHis] imaginary friend."
+  
+  friend_bonded_at_university: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded during studies."
+
+  rival_ignored_warnings: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] ignored [TARGET_CHARACTER.GetShortUINamePossessive] warnings over the state of an plague-wracked county."
+  rival_ignored_warnings_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] took [CHARACTER.GetShortUINamePossessive] warnings over the state of an plague-wracked county."
+
+  rival_witch_accuser: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] accused [TARGET_CHARACTER.GetShortUIName] of being a witch due to their expertise in herbalism."
+  rival_witch_accuser_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] accused [CHARACTER.GetShortUIName] of being a witch due to their expertise in herbalism."
+
+  rival_witch_imprisoned: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] imprisoned [TARGET_CHARACTER.GetShortUIName] for witchcraft due to their expertise in herbalism."
+  rival_witch_imprisoned_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] imprisoned [CHARACTER.GetShortUIName] for witchcraft due to their expertise in herbalism."
+
+  rival_witch_protector: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] protected the person [TARGET_CHARACTER.GetShortUIName] was accusing of witchcraft."
+  rival_witch_protector_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] protected the person [CHARACTER.GetShortUIName] was accusing of witchcraft."
+
+  friend_in_foreign_land: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] bonded when sharing the experience of being foreigner students at University."
+
+  friend_goliardic_shenanigans: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends during their many shenanigans while studying at University."
+
+  rival_put_me_in_the_spot: "[CHARACTER.GetShortUIName|U] deflected a class debate by putting [TARGET_CHARACTER.GetShortUIName] in the spot at University."
+  rival_put_me_in_the_spot_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] deflected a class debate by putting [CHARACTER.GetShortUIName] in the spot at University."
+
+  rival_pushed_too_far: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] pushed [TARGET_CHARACTER.GetShortUIName] far too hard in their training."
+  rival_pushed_too_far_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] pushed [CHARACTER.GetShortUIName] far too hard in their training."
+
+
+  friend_hostage_sent_for_aid: "[CHARACTER.GetShortUIName|U] sent [TARGET_CHARACTER.GetShortUIName] to plead for aid and, in my hour of need, the lowly hostage came through with a mighty host."
+  friend_hostage_sent_for_aid_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] sent [CHARACTER.GetShortUIName], a lowly hostage, to plead for military aid and was overjoyed when [CHARACTER.GetShortUIName] returned with a mighty host!"
+
+  rival_attacked_dissent: "[TARGET_CHARACTER.GetShortUIName] attacked [CHARACTER.GetShortUIName] for expressing disagreement with [TARGET_CHARACTER.GetHerHis] mad reforms."
+  rival_attacked_dissent_corresponding: "[TARGET_CHARACTER.GetShortUIName] slandered [CHARACTER.GetShortUIName] viciously as part of [TARGET_CHARACTER.GetHerHis] traditionalist revolt."
+
+  rival_rejected_culture_influence: "[CHARACTER.GetShortUIName|U] spat in the face of [TARGET_CHARACTER.GetShortUINamePossessive] cultural influence and vowed to better [TARGET_CHARACTER.GetHerHim] and [TARGET_CHARACTER.GetHerHis] [TARGET_CHARACTER.GetCulture.GetCollectiveNoun]."
+  rival_rejected_culture_influence_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] spat in the face of [CHARACTER.GetShortUINamePossessive] willingness to enlighten [TARGET_CHARACTER.GetHerHim] and swore revenge against the [CHARACTER.GetCulture.GetCollectiveNoun]."
+
+  rival_at_university: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] had a disagreement at University"
+
+  friend_love_more_than_home_court: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] began to share a bond, equal to any of family and fealty, while [CHARACTER.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] a hostage."
+  friend_love_more_than_home_court_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] began to share a bond, equal to any of family and fealty, while [TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] a hostage."
+
+  friend_defied_warden_for_love: "[CHARACTER.GetShortUIName|U] risked shame and war over affection for the much-missed hostage [TARGET_CHARACTER.GetShortUIName]."
+  friend_defied_warden_for_love_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] risked shame and war over affection for the much-missed hostage [CHARACTER.GetShortUIName]."
+
+  rival_stole_hostage: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] stole a hostage away from [TARGET_CHARACTER.GetShortUINamePossessive] care."
+  rival_stole_hostage_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] stole a hostage away from [CHARACTER.GetShortUINamePossessive] care."
+
+  rival_insulted_rock: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] insulted [TARGET_CHARACTER.GetShortUINamePossessive] pet rock."
+  rival_insulted_rock_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] insulted [CHARACTER.GetShortUINamePossessive] pet rock."
+
+  friend_rock_playdate: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after their pet rocks had a playdate."
+
+  friend_hostage_friendship: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after a childhood spent playing together."
+  friend_hostage_friendship_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after a childhood spent playing together."
+
+  rival_chaos_in_class: "[TARGET_CHARACTER.GetShortUIName|U] was outraged when [CHARACTER.GetShortUIName|U] let a bird loose during a University class."
+  rival_chaos_in_class_corresponding: "[CHARACTER.GetShortUIName|U] was outraged when [TARGET_CHARACTER.GetShortUIName|U] let a bird loose during a University class."
+  
+  friend_sat_together: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] recognized [TARGET_CHARACTER.GetShortUINamePossessive] reticence to play a physical game."
+  friend_sat_together_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] recognized [CHARACTER.GetShortUINamePossessive] reticence to play a physical game."
+
+  friend_invited_to_play: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] invited [TARGET_CHARACTER.GetShortUINamePossessive] to play with [CHARACTER.GetHerHim]."
+  friend_invited_to_play_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] invited [CHARACTER.GetShortUINamePossessive] to play with [TARGET_CHARACTER.GetHerHim]."
+
+  friend_joust_niceties: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] was magnanimous in victory after beating [TARGET_CHARACTER.GetShortUIName] in a play-joust."
+  friend_joust_niceties_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] was magnanimous in victory after beating [CHARACTER.GetShortUIName] in a play-joust."
+
+  rival_joust_antagonised: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] antagonized [TARGET_CHARACTER.GetShortUIName] after a play-joust."
+  rival_joust_antagonised_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] antagonized [CHARACTER.GetShortUIName] after a play-joust."
+
+  friend_religious_comfort: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] comforted [TARGET_CHARACTER.GetShortUIName] by appealing to the divine."
+  friend_religious_comfort_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] comforted [CHARACTER.GetShortUIName] by appealing to the divine."
+
+  friend_comforting_words: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] comforted [TARGET_CHARACTER.GetShortUIName] in their moment of need."
+  friend_comforting_words_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] comforted [CHARACTER.GetShortUIName] in their moment of need."
+
+  best_friend_imaginary_friend: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became best friends after some encouragement from [CHARACTER.GetShortUINamePossessiveNoTooltip] imaginary friend."
+  best_friend_imaginary_friend_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became best friends after some encouragement from [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] imaginary friend."
+  
+  lover_imaginary_friend: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became lovers after some encouragement from [CHARACTER.GetShortUINamePossessiveNoTooltip] imaginary friend."
+  lover_imaginary_friend_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] lovers friends after some encouragement from [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] imaginary friend."
+
+  friend_well_treated_hostage: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] treated [TARGET_CHARACTER.GetShortUIName] well as a hostage."
+  friend_well_treated_hostage_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] was well-treated by [CHARACTER.GetShortUIName] as a hostage."
+
+  rival_house_head_rejected_challenge: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] refused [CHARACTER.GetShortUINamePossessive] challenge as house head."
+  rival_house_head_rejected_challenge_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] refused [CHARACTER.GetShortUINamePossessive] challenge as house head."
+
+  rival_rejected_switching_to_struggle_detractor: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] refused [CHARACTER.GetShortUINamePossessive] soliciting to become a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+  rival_rejected_switching_to_struggle_detractor_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] refused [TARGET_CHARACTER.GetShortUINamePossessive] soliciting to become a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+  rival_rejected_switching_to_struggle_supporter: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became rivals after [TARGET_CHARACTER.GetShortUIName] refused [CHARACTER.GetShortUINamePossessive] soliciting to become a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+  rival_rejected_switching_to_struggle_supporter_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became rivals after [CHARACTER.GetShortUIName] refused [TARGET_CHARACTER.GetShortUINamePossessive] soliciting to become a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+  
+  friend_legend_agreement: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] became friends after [TARGET_CHARACTER.GetShortUIName] complimented [CHARACTER.GetShortUINamePossessive] legend."
+  friend_legend_agreement_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] became friends after [CHARACTER.GetShortUIName] complimented [TARGET_CHARACTER.GetShortUINamePossessive] legend."

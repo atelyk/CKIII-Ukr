@@ -690,6 +690,9 @@
   empire_feudal_turkish: "Empire"
 
 ### Iranian ###
+  duke_khorezm_male_iranian_group: "Khwarezmshah"
+  duke_khorezm_female_iranian_group: "Khwarezmbanebshen"
+  duchy_khorezm_iranian_group: "Khwarezmshahdom"
 # Feudal / Clan 
   baron_feudal_male_iranian_group: "Argbadh"
   baron_feudal_female_iranian_group: "$baron_feudal_male_iranian_group$"
@@ -700,9 +703,11 @@
   duke_feudal_male_iranian_group: "Satrap"
   duke_feudal_female_iranian_group: "$duke_feudal_male_iranian_group$"
   duchy_feudal_iranian_group: "Satrapy"
-  duke_feudal_independent_male_iranian_group: "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]shah"
-  duke_feudal_independent_female_iranian_group: "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]banebshen"
-  duchy_feudal_independent_iranian_group: "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]shahdom"
+  duke_feudal_independent_male_iranian_group: "[SelectLocalization( CHARACTER.HasLandedTitles, 'PRIMARY_TITLE_BASE_NAME', 'SPOUSE_PRIMARY_TITLE_BASE_NAME' )]shah"
+  duke_feudal_independent_female_iranian_group: "[SelectLocalization( CHARACTER.HasLandedTitles, 'PRIMARY_TITLE_BASE_NAME', 'SPOUSE_PRIMARY_TITLE_BASE_NAME' )]banebshen"
+  PRIMARY_TITLE_BASE_NAME: "[Character.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+  SPOUSE_PRIMARY_TITLE_BASE_NAME: "[Character.GetPrimarySpouse.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+  duchy_feudal_independent_iranian_group: "Shahdom"
   king_feudal_male_iranian_group: "Shah"
   king_feudal_female_iranian_group: "Banebshen"
   kingdom_feudal_iranian_group: "Shahdom"
@@ -1092,3 +1097,5 @@
 # Feudal
   count_republic_latin_male: "Podesta"
   count_republic_latin_female: "Podestaressa"
+
+  

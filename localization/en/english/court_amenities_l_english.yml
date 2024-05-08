@@ -58,8 +58,8 @@
   owner_court_lodgings_middling: "[guests|E] are likely to stay longer\n$EFFECT_LIST_BULLET$[guest|E] acceptance to join your schemes in your court  as an [agent|E]: #P +10#!"
   owner_court_lodgings_spacious: "[guests|E] are more likely to stay longer\n$EFFECT_LIST_BULLET$[guest|E] acceptance to join your schemes in your court as an [agent|E]: #P +15#!"
   owner_court_lodgings_grand: "[guests|E] are most likely to stay longer\n$EFFECT_LIST_BULLET$[guest|E] acceptance to join your schemes in your court as an [agent|E]: #P +20#!"
-  owner_court_food_quality_meager: "The [feast|E] [activity|E] reduces less [stress|E]"
-  owner_court_food_quality_modest: "The [feast|E] [activity|E] reduces more [stress|E]"
+  owner_court_food_quality_meager: "The [GetActivityType('activity_feast').GetName] [activity|E] reduces less [stress|E]"
+  owner_court_food_quality_modest: "The [GetActivityType('activity_feast').GetName] [activity|E] reduces more [stress|E]"
   owner_court_food_quality_decent: "$owner_court_food_quality_modest$"
   owner_court_food_quality_lavish: "$owner_court_food_quality_modest$"
   owner_court_food_quality_exotic: "$owner_court_food_quality_modest$"
@@ -101,7 +101,7 @@
   COURT_AMENITY_COURTIER_GUEST_MODIFIER_HEADER: "#S Courtiers and Guests:#!"
   COURT_AMENITY_SETTING_NO_EFFECT: "#weak No Effect#!"
   
-  COURT_AMENITY_CATEGORY_ON_COOLDOWN: "@warning_icon!#X Recently changed $CATEGORY_NAME$, can change them again in [DATE.GetTimeToDate] ([DATE.GetStringLong])#!"
+  COURT_AMENITY_CATEGORY_ON_COOLDOWN: "@warning_icon! #X Recently changed $CATEGORY_NAME$, can change them again in [DATE.GetTimeToDate] ([DATE.GetStringLong])#!"
 
   COURT_AMENITIES_EXPENSES: "[court_amenities|E]"
   COURT_AMENITIES_EXPENSES_FOR: "$COURT_AMENITY$"
@@ -111,14 +111,14 @@
 
 
   COURT_AMENITIES_CONFIRM_TITLE: "Change Amenity Levels"
-  COURT_AMENITIES_CONFIRM_DESC: "If you change [court_amenities|E] in your Royal Court, you cannot that category again for [DATE.GetTimeToDate] ([DATE.GetStringLong]).\nThe new set of Amenities will cost $COST$."
+  COURT_AMENITIES_CONFIRM_DESC: "If you change [court_amenities|E] in your Royal Court, you cannot change that category again for [DATE.GetTimeToDate] ([DATE.GetStringLong]).\nThe new set of Amenities will cost $COST$."
   COURT_AMENITIES_CONFIRM_ACCEPT: "Change"
   COURT_AMENITIES_COOLTIP_ABOVE_DESCRIPTION: "Maintenance: [CourtAmenitiesSetting.GetCostDescription( GetPlayer )]\n[CourtAmenitiesSetting.GetEffectDescription]"
-  COURT_AMENITIES_NEED_CHANGE: "@warning_icon!#X No Amenities have been changed#!"
+  COURT_AMENITIES_NEED_CHANGE: "@warning_icon! #X No Amenities have been changed#!"
   AMENITIES_APPLY_TOOLTIP: "#T Apply New Amenities#!\n[AddTextIf( Not( CourtAmenitiesWindow.HasChangedAnyAmenity ), '$COURT_AMENITIES_NEED_CHANGE$\n' )]Apply the selected changes. The new [amenities|E] will cost [CourtAmenitiesWindow.GetNewMonthlyCost]"
   AMENITIES_RESET_TOOLTIP: "#T Reset Amenities#!\n[AddTextIf( Not( CourtAmenitiesWindow.HasChangedAnyAmenity ), '$COURT_AMENITIES_NEED_CHANGE$\n' )]Discard the selected changes"
 
   COURT_AMENITIES_CHANGED_NOTIFICATION_HEADER: "You have changed your [court_amenities|E]"
-  COURT_AMENITIES_BLOCKER_NOT_YOUR_COURT: "@warning_icon!#X This is not your [royal_court|E]#!"
+  COURT_AMENITIES_BLOCKER_NOT_YOUR_COURT: "@warning_icon! #X This is not your [royal_court|E]#!"
 
   BONUS_TO_AGENT_RECRUITMENT_FROM_AMENITIES: "$court_lodging_standards$: $VALUE|=+0$"

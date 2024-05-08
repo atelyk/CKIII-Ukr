@@ -25,6 +25,8 @@
   PT_AI_RECIPIENT_IS_ROUGHLY_EQUAL: "[recipient.GetSheHe|U] is roughly equal in strength to you: $VALUE|=+0$"
   PT_AI_RECIPIENT_IS_SOMEWHAT_STRONGER: "[recipient.GetSheHe|U] is somewhat stronger than you: $VALUE|=+0$"
   PT_AI_RECIPIENT_IS_MUCH_STRONGER: "[recipient.GetSheHe|U] is much stronger than you: $VALUE|=+0$"
+  PT_AI_IS_PACIFIST_FAITH_2: "[secondary_recipient.GetFaith.GetName] is pacifist: $VALUE|=+0$"
+  PT_AI_IS_PACIFIST_CULTURE_2: "[secondary_recipient.GetCulture.GetName] is pacifist: $VALUE|=+0$"
 
   incite_revolts_interaction: "$game_concept_incite_revolts_interaction$"
   incite_revolts_interaction_desc: "Invest [gold|E] in order to destabilize [recipient.GetHerHis] [realm|E]"
@@ -35,6 +37,7 @@
   apply_medium_investment_in_revolt_on_random_county: "A random county will gain [GetModifier('medium_investment_in_revolt_modifier').GetNameWithTooltip]"
   apply_high_investment_in_revolt_on_random_county: "A random county will gain [GetModifier('high_investment_in_revolt_modifier').GetNameWithTooltip]"
   at_least_one_county_with_neutral_negative_opinion: "At least one [county|E] has a negative [county_opinion|E]"
+  must_select_an_investment: "You must select an investment level"
   incite_revolts_interaction_result.tt: "Revolt funded in [chosen_county.GetName]"
   incite_revolts_interaction_result.desc: "The discontent is growing, and hopefully a revolt will start soon."
   incite_revolts_interaction_notif_failure: "[recipient.GetShortUINameNoTooltip] connects me to the revolt"
@@ -107,8 +110,8 @@
 
   invite_foreign_ruler_to: "Invite To Activity"
   invite_foreign_ruler_to_desc: "Invite a [ruler|E] from another [realm|E] to join you in a feast or a hunt"
-  invite_foreign_ruler_to.feast.tooltip: "You start a [feast|E] with [recipient.GetTitledFirstName] as a special guest"
-  invite_foreign_ruler_to.hunt.tooltip: "You call a [hunt|E] with [recipient.GetTitledFirstName] as a special guest"
+  invite_foreign_ruler_to.feast.tooltip: "You start a [GetActivityType('activity_feast').GetName] with [recipient.GetTitledFirstName] as a special guest"
+  invite_foreign_ruler_to.hunt.tooltip: "You call a [GetActivityType('activity_hunt').GetName] with [recipient.GetTitledFirstName] as a special guest"
   INVITE_FOREIGN_RULER_TO_NOTIFICATION: "You and I should be friends! Please, accept my invitation to partake in a relaxing activity."
   invited_to_hunt.accept.actor.tt: "[recipient.GetTitledFirstName] accepted your invitation to join your hunt"
   invited_to_feast.accept.actor.tt: "[recipient.GetTitledFirstName] accepted your invitation to join your feast"

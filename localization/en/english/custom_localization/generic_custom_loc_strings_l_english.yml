@@ -1,5 +1,4 @@
-﻿
-l_english:
+﻿l_english:
   stable_boy: "stable boy"
   page: "page"
   scullery_maid: "scullery maid"
@@ -51,6 +50,9 @@ l_english:
   paternal: "paternal"
   spouse_bride: "bride"
   spouse_groom: "groom"
+  relation_nemesis: "nemesis"
+  relation_rival: "rival"
+
 
   # Peasant Professions:
   peasant_profession_miller: "miller"

@@ -5,11 +5,13 @@
   PIN_TT: "#T [Select_CString( Character.IsPinned, 'Unpin', 'Pin' )]\n#!Keep track of this Character by pinning [Character.GetHerHim] in the Outliner on the right side of the screen"
   interaction_category_diplomacy: "Diplomacy"
   interaction_category_friendly: "Personal"
+  interaction_category_clan: "Clan"
   interaction_category_hostile: "Hostile"
   interaction_category_vassal: "Vassalage & Court"
   interaction_category_religion: "Religion"
   interaction_category_house_head: "House Head"
   interaction_category_prison: "Prison"
+  interaction_category_diarch: "Power Sharing"
   interaction_category_uncategorized: "Uncategorized #D (DEBUG)#!"
 
   INTERACTION_SENDER: "Sender"
@@ -18,4 +20,5 @@
   INTERACTION_CONCUBINE: "Concubine"
 
   INTERACTION_SHOW_ACCEPT_EFFECTS: "On Accept"
+  INTERACTION_SHOW_INTERMEDIARY_DECLINE_EFFECTS: "On Veto"
   INTERACTION_SHOW_DECLINE_EFFECTS: "On Decline"

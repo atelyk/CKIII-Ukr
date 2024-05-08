@@ -21,6 +21,7 @@
   holy_order.0002.a: "I am sure you will serve [ROOT.Char.GetFaith.HighGodName] well!"
 
   char_interaction.0001.opening_low_piety: "For such a sinful being as you to come crawling to a holy order of [ROOT.Char.GetFaith.HighGodName]... You should focus on redeeming your soul before you worry about worldly riches."
+  holy_order.0200.desc_opening: "[recipient.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
   holy_order.0200.desc: "I have heard your plea for gold, and the [order.GetName] will answer your call."
   holy_order.0200.a: "[ROOT.Char.GetFaith.HighGodName] smiles upon me!"
   holy_order.0200.b: "But... But I need the money!"
@@ -30,12 +31,12 @@
   holy_order.0202.desc: "If you do not return the gold we will find alternative ways for you to repay us — ways agreeable to [ROOT.Char.GetFaith.HighGodName], but maybe less so to you."
   holy_order.0202.a: "Of course I will honor our agreement."
   holy_order.0202.a_no: "I will pay! Just let me find the gold..."
-  holy_order.0202.a._not.tt: "@warning_icon!#X Not enough [gold_i][gold|E]#!"
+  holy_order.0202.a._not.tt: "@warning_icon! #X Not enough [gold_i][gold|E]#!"
   holy_order.0202.b_christian: "Is patience not a virtue?"
   holy_order.0202.b: "As a fellow devotee... Please lend me more time!"
   holy_order.0202.b.tt: "[recipient.GetTitledFirstNameNoTooltip] will give you 5 more years"
   holy_order.0202.c: "Maybe we can find an alternative way of payment...?"
-  holy_order.0202.c.tt: "@warning_icon!#X The [recipient.GetTitleAsNameNoTooltip] will ask something of you#!"
+  holy_order.0202.c.tt: "@warning_icon! #X The [recipient.GetTitleAsNameNoTooltip] will ask something of you#!"
   holy_order.0202.d: "The gold is more useful in my hands!"
 
   holy_order.0203.desc: "I do not look kindly upon those who break their word, and neither does [ROOT.Char.GetFaith.HighGodNameAlternate]. To rectify this slight you will lease the [province.GetName] to us so that we may further [ROOT.Char.GetFaith.HighGodNamePossessive] work."

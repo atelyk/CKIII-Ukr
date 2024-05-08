@@ -69,6 +69,7 @@
 
   ## Other, Duel End Result Tooltips
   single_combat.result.tt.temporary_modifiers_removed: "All temporary combat [character_modifiers|E] have been removed"
+  single_combat.result.tt.practice_no_wounds: "As this was a restrained bout, neither of you are wounded"
 
   ##################################################
   # Status Update Fragments
@@ -100,6 +101,7 @@
   ## Combat Move Option Copy
   single_combat.0001.wait_and_hope: "Maybe if I wait, [my_foe.GetSheHe]'ll trip on [my_foe.GetHerHis] [my_foe.Custom('signature_weapon')]?"
   single_combat.0001.unsure_attack: "Uh, have at thee! Just #EMP die#!!"
+  single_combat.0001.unsure_attack_non_fatal: "Uh, have at thee! Just #EMP yield#!!"
   single_combat.0001.enthusiastic_onslaught.banned_house: "#EMP [myself.GetFullNameNoTooltip]!#!"
   single_combat.0001.enthusiastic_onslaught.own_house: "You are a disgrace to the [myself.GetHouse.GetNameNoTooltip] name!"
   single_combat.0001.enthusiastic_onslaught.motto: "#EMP [myself.GetHouse.GetMotto]#!, scum!"
@@ -927,3 +929,6 @@
   single_combat.1004.e: "You are the attack, non-lethal"
   single_combat.1004.f: "You are the defender, non-lethal"
   single_combat.1004.g: "Actually, never mind"
+
+  debug_log.single_combat_setup.attacker_and_defender_same_person: "Attempted to fire a duel where the attacker and the defender are the same person; this needs to be filtered out in the content setting up the duel or else it can cause crashes. Scopes logged to debug.log under "$debug_log.single_combat_setup.attacker_and_defender_same_person.notice$"."
+  debug_log.single_combat_setup.attacker_and_defender_same_person.notice: "Single Combat Too Single"

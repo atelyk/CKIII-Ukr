@@ -570,7 +570,7 @@
   nick_the_giant_desc: "Rumor says [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] as big as a house — in [CharYourHerHis(CHARACTER)] experience, it depends on the house."
   nick_bad_hand: "Важка Рука"
   nick_bad_hand_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] claim it's [CharYourHerHis(CHARACTER)] firm right hook, but most know that [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] simply hopeless at cards."
-  nick_the_little: "Коротышка[Select_CString(CHARACTER.IsFemale, 'Коротка', 'Короткий' )]"
+  nick_the_little: "[Select_CString(CHARACTER.IsFemale, 'Коротка', 'Короткий' )]"
   nick_the_little_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] generally thought of as vertically-challenged."
   nick_the_one_eyed: "[Select_CString(CHARACTER.IsFemale, 'Одноока', 'Одноокий' )]"
   nick_the_one_eyed_desc: "$nick_monophthalmos_desc$"

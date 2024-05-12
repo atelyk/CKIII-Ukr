@@ -134,7 +134,7 @@
   playdate.3012.a.failure: "You get whacked over the head – #EMP hard#!"
   playdate.3012.b: "I would rather watch you train."
   playdate.3013.t: "$playdate_header$ [Select_CString(witch.IsFemale, 'Мудра', 'Мудрий' )] [witch.GetWomanMan|U]"
-  playdate.3013.desc: "We are playing in the forest when I suddenly find myself all alone; I could have sworn the others were just behind me!\n\nJust as I'm about to start screaming – so that they can find me, not because I'm #EMP scared#! – I stumble across [witch.Custom2('MyCharacterIntroduction', ROOT.Char)] dressed in a black cloak. [witch.GetSheHe|U] is crouched on the ground inspecting some weird looking plant, comparing it to one depicted in a big black tome open on the ground beside [witch.GetHerHim].\n\nHello my young [ROOT.CharGetLadyLord]. Has the calling of knowledge led you out here to me?\"\"\"\""
+  playdate.3013.desc: "We are playing in the forest when I suddenly find myself all alone; I could have sworn the others were just behind me!\n\nJust as I'm about to start screaming – so that they can find me, not because I'm #EMP scared#! – I stumble across [witch.Custom2('MyCharacterIntroduction', ROOT.Char)] dressed in a black cloak. [witch.GetSheHe|U] is crouched on the ground inspecting some weird looking plant, comparing it to one depicted in a big black tome open on the ground beside [witch.GetHerHim].\n\n\"Hello my young [ROOT.Char.GetLadyLord]. Has the calling of knowledge led you out here to me?\""
   playdate.3013.a: "Я хочу дізнатись про ту рослину, яку ви тримаєте."
   playdate.3013.a.success: "Ви багато дізнаєтесь про трави та рослини"
   playdate.3013.a.failure: "Ви не маєте жодного уявлення, про що [witch.GetSheHe] говорить"

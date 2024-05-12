@@ -51,5 +51,5 @@
   bastard_interaction.0010.a.tt: "[recipient.GetShortUIName|U] тепер може успадковувати титули"
   every_father_house_member: "Усі члени [Concept( 'house', 'дому' )|E] персонажа [father.GetFirstNamePossessiveNoTooltip]"
   every_mother_house_member: "Усі члени [Concept( 'house', 'дому' )|E] персонажа [mother.GetFirstNamePossessiveNoTooltip]"
-  every_real_father_house_member: "Все члены [Concept( 'house', 'дому' )|E] персонажа [real_father.GetFirstNamePossessiveNoTooltip]"
+  every_real_father_house_member: "Кожен член [real_father.GetFirstNamePossessiveNoTooltip] [house|E]"
   every_child_house_member: "Всі члени [Concept( 'house', 'дому' )|E] персонажа [child.GetFirstNamePossessiveNoTooltip]"

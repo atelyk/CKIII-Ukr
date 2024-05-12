@@ -320,7 +320,7 @@
   PRESTIGE_COST_LONG: "Престиж: [prestige_i] $VALUE|0$"
   PRESTIGE_COST_LONG_MAINTENANCE: "Prestige: [prestige_i] $VALUE|2$"
   PRESTIGE_K: "[prestige_i] $VALUE|1$ ТИС."
-  PRESTIGE_CONCEPT: "[Concept('prestige' 'Престиж'  )   |E]"
+  PRESTIGE_CONCEPT: "[Concept('prestige', 'Престиж' )|E]"
   PRESTIGE_LEVEL_CONCEPT: "[prestige_level|E]"
   PRESTIGE_WITH_BALANCE_TOOLTIP: "#T [prestige|E]: $VALUE|V0$#!\n$BALANCE|V=1$на місяць\n\n#T [prestige_level|E]: #!$LEVEL$"
   DYNASTY_PRESTIGE: "[dynasty_prestige_i] $VALUE|0$"

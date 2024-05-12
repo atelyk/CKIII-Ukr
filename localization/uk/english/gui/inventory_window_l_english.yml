@@ -23,4 +23,4 @@
   ARTIFACT_CLAIM_HOUSE: "[house_artifact_claim|E]"
   INVENTORY_COURT_ARTIFACTS_BUTTON_TOOLTIP: "Перейти до [Concept( 'court_artifacts', 'придворних артефактів' )|E] при [Concept( 'royal_court', 'монаршому дворі' )|E] персонажа [Character.GetShortUINameNoTooltipNoFormat]"
   INVENTORY_COURT_ARTIFACTS_BUTTON_NO_ROYAL_COURT_TOOLTIP: "Показати [court_artifacts|el] у сховищі"
-  INVENTORY_EQUIPPED_ARTIFACTS_HEADER: "[Character.LocalPlayerString( 'Вы', Character.GetShortUIName )|U] [Select_CString(CHARACTER.IsPlayer, 'використовуєте', 'використовує' )] [inventory_artifacts|el]"
+  INVENTORY_EQUIPPED_ARTIFACTS_HEADER: "[Character.LocalPlayerString( 'Ви', Character.GetShortUIName )|U] [Select_CString(CHARACTER.IsPlayer, 'використовуєте', 'використовує' )] [inventory_artifacts|el]"

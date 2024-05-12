@@ -49,7 +49,7 @@
   INNOVATION_EXPOSURE_MARKER_TOOLTIP: "#T Поточне [exposure|El]#!\nЦя [culture|El] зараз зазнає прискорення прогресу, бо на неї впливає [innovation|El]."
   INNOVATION_FASCINATION_MARKER_TOOLTIP: "#T Поточна [cultural_fascination|El]#!\n[cultural_head|E] знаходиться під враженням від [innovations|El], що прискорює її розвиток.Культурний ідеолог будь-коли може зробити об'єктом захоплення іншу інновацію."
   CULTURE_WINDOW_ERA_INNOVATION_BLOCKED_FOR_PLAYER_GOVERNMENT: "#X @warning_icon! Недоступно для уряду [GetPlayer.GetGovernment.GetName] #!"
-  CULTURE_TOOLTIP_DESC: "#E [culture_group|E]ая#!: [Culture.GetGroup.GetName]ая\n[cultural_head|E]: [Culture.GetCultureHead.GetUIName|U]\n[era|E]: [Culture.GetCultureEra.GetName]\n\n[Culture.GetCultureEra.GetType.GetDescription|F]"
+  CULTURE_TOOLTIP_DESC: "[heritage|E]: [Culture.GetHeritage.GetNameNoTooltip]ая\n[cultural_head|E]: [Culture.GetCultureHead.GetUIName|U]\n[era|E]: [Culture.GetCultureEra.GetName]\n\n[Culture.GetCultureEra.GetType.GetDescription|F]"
   CULTURE_ERA_TOOLTIP_REACHED: "#P [CultureEra.GetCulture.GetCollectiveNounNoTooltip] вже досягли цієї епохи#!"
   CULTURE_ERA_INNOVATION_COUNT_JOIN_LEAVE: "[GuiCultureEra.GetJoinedLeftString]\n[CultureEra.GetNumberOfActiveInnovations]/[CultureEra.GetNumberOfInnovations]"
   CULTURE_ERA_INNOVATION_COUNT: "[CultureEra.GetNumberOfActiveInnovations]/[CultureEra.GetNumberOfInnovations]"

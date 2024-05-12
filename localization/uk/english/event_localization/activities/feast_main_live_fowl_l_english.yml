@@ -43,7 +43,7 @@
   feast_main_live_fowl.9003.a: "Так, так, до нових зустрічей."
   feast_main_live_fowl.9004.desc: "[host_saying_goodbye.GetTitledFirstNamePossessive] завершує бенкет. Люди сміються, відходячи, але раптом бачать мене та замовкають. Я знаю, що образ, як я лопаю цю пташину шию, вони назавжди запам'ятають. Я знаю, що я, звичайно, не забуваю відчуття життя, що зникає від безпорадного тіла в моїх пальцях.\n\nНавіть приємно, знати, що всі вони лише трохи хвилюються."
   feast_main_live_fowl.9004.a: "Не такий вже й поганий вийшов бенкет."
-  feast_main_live_fowl.9005.desc: "[host_saying_goodbye.GetTitledFirstNamePossessive] завершує бенкет. Здається, більшості гостей сподобалося, навіть якщо я хотів, щоби вони швидше забули мої стрибки на столах.\nПринаймні [fowl_dinner_target.GetFirstName] [Select_CString(fowl_dinner_target.IsFemale, 'подякувала', 'подякував' )] мені за те, що я прогнав птицю після нападу на [Scope.sCharacter('fowl_dinner_target').GetHerHis] птицы."
+  feast_main_live_fowl.9005.desc: "[host_saying_goodbye.GetTitledFirstNamePossessive] завершує бенкет. Здається, більшості гостей сподобалося, навіть якщо я хотів, щоби вони швидше забули мої стрибки на столах.\nПринаймні [fowl_dinner_target.GetFirstName] [Select_CString(fowl_dinner_target.IsFemale, 'подякувала', 'подякував' )] мені за те, що я прогнав птаха після нападу на [fowl_dinner_target.GetHerHim]."
   feast_main_live_fowl.9005.a: "Наступне свято я буду трохи спокійнішим."
   feast_live_fowl_log_title: "Пташиний напад"
   feast_live_fowl_log: "[TARGET_CHARACTER.GetTitledFirstName] був атакований живою птицею за обіднім столом."

@@ -2,7 +2,7 @@
   HEADING_ENCYCLOPEDIA: "Довідник"
   OPEN_ENCYCLOPEDIA: "#T Відкрити довідник#!\nЗнайти терміни в довіднику."
   ENCYCLOPEDIA_PAGE_BUILDINGS: "Споруди"
-  ENCYCLOPEDIA_BUILDING_ENTRY: "[BUILDING.GetDescription]\n\n#S Base Cost:\n#![BUILDING.GetBaseCostDescription]\n\n#S Effect:\n#![BUILDING.GetEffectDescription( GetPlayer, GetPlayer.GetCulture )]\n\n"
+  ENCYCLOPEDIA_BUILDING_ENTRY: "[BUILDING.GetDescription]\n\n#S Base Cost:\n#![BUILDING.GetBaseCostDescription]\n\n#S Effect:\n#![BUILDING.GetEffectDescription( GetPlayer )]\n\n"
   ENCYCLOPEDIA_PAGE_COURT_POSITIONS: "Положення при дворі"
   ENCYCLOPEDIA_COURT_POSITION_ENTRY_LIEGE_MODIFIERS: "#S $COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE$#!\n[CourtPositionType.GetLiegeModifierDescription]\n\n"
   ENCYCLOPEDIA_COURT_POSITION_ENTRY_NO_LIEGE_MODIFIERS: ""

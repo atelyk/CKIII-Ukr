@@ -86,7 +86,7 @@
   MY_REALM_WINDOW_CANT_DESIGNATE: "@warning_icon! #X Ти не можеш призначити спадкоємця, якщо ти не є [dynast|E] або є [absolute_crown_authority|E]#!"
   MY_REALM_WINDOW_NO_CHILDREN: "@warning_icon! #X У тебе немає дитини, яка може бути призначена твоїм спадкоємцем#!"
   MY_REALM_WINDOW_BUILDING_TT: "#T [building|E]: [Building.GetName]\n#![Building.GetEffectDescription]\n\n[Building.GetDescription]"
-  MY_REALM_WINDOW_BUILDING_CONSTRUCTION_TT: "#T Будівництво [HoldingItem.GetConstructionBuilding.GetName]\n#![HoldingItem.GetConstructionBuilding.GetEffectDescription( GetPlayer, GetPlayer.GetCulture )]\n\n[HoldingItem.GetHolding.GetConstructionTimeLeft]\n\n[HoldingItem.GetConstructionBuilding.GetDescription]"
+  MY_REALM_WINDOW_BUILDING_CONSTRUCTION_TT: "#T Будівництво [HoldingItem.GetConstructionBuilding.GetName]\n#![HoldingItem.GetConstructionBuilding.GetEffectDescription( GetPlayer )]\n\n[HoldingItem.GetHolding.GetConstructionTimeLeft]\n\n[HoldingItem.GetConstructionBuilding.GetDescription]"
   my_realm_window_tax_contribution_clan_government: "[clan_government|E] [vassals|E]' [taxes|E] залежить від їхньої думки про [liege|E]"
   my_realm_window_tax_contribution_tribal_government: "[tribal_government|E] [vassals|E]' внесок [tax|E] залежить від [prestige_level|E] їхнього [liege|E]"
   my_realm_window_tax_contribution_theocracy_government: ""

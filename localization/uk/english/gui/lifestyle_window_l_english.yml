@@ -1,5 +1,5 @@
 ﻿l_english:
-  LIFESTYLE_WINDOW_DESCRIPTION: "[Lifestyle.GetDescription]\n\n#dark;italic[Lifestyle.GetHighlightDescription]#!"
+  LIFESTYLE_WINDOW_DESCRIPTION: "[Lifestyle.GetDescription]\n\n#weak [Lifestyle.GetHighlightDescription]#!"
   REFUND_PERKS: "Скинути навички"
   CURRENT_FOCUS: " (Поточний)"
   FOCUS_CANCHANGE: "Зараз: [Character.GetFocus.GetName]"

@@ -56,7 +56,7 @@
   stress_threshold.1711.h.hashishiyah.gain: "Принесіть гашиш! На ясну голову цього забагато."
   stress_threshold.1711.h.hashishiyah.effect: "$stress_threshold.1711.h.hashishiyah.gain$"
   stress_threshold.1711.i: "Я [ROOT.GetCharacter.GetTitleAsNameNoTooltip], я можу це зробити!"
-  stress_threshold.1721.t: "Нервный срыв: «Самозванці!»"
+  stress_threshold.1721.t: "Нервовий зрив: Самозванець!"
   stress_threshold.1721.desc.intro: "Останнім часом я відчуваю, що [Select_CString(ROOT.Char.IsFemale, 'не гідна', 'не гідний' )] носити титул [ROOT.GetCharacter.GetPrimaryTitle.GetBaseNameNoTooltip]. Невже інші правителі так само сумніваються у собі, як я?\n\nЯ намагаюся чинити як [Select_CString(ROOT.Char.IsFemale, 'гарна', 'гарний' )],"
   stress_threshold.1721.desc.chaste: "chaste [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but it feels like I am always tempted by the pleasures of the flesh. Those of my station should not feel these libidinous stirrings."
   stress_threshold.1721.desc.temperate: "temperate [ROOT.GetCharacter.GetTitleAsNameNoTooltip], but my mouth seems to water constantly. Everything makes me hungry. Why am I so damnably, uncharacteristically hungry?"

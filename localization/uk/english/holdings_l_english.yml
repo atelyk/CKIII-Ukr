@@ -10,7 +10,7 @@
   GARRISON_TOOLTIP: "#T [garrison|E]: $VALUE|V$#!"
   BUILDING_VALUE: "$BUILDING|V$"
   BUILDING_VALUE_ENTRY: "$BUILDING|V$"
-  DOMAIN_LIMIT_OVERRUN_LEVY_PENALTY: "@warning_icon!#X Знижено на $VALUE|-%0$ через перевищення [Concept('domain_limit', 'ліміту домена')|E]#!"
+  DOMAIN_LIMIT_OVERRUN_LEVY_PENALTY: "@warning_icon!#X Знижено на $VALUE|-%0$ через перевищення [Concept('domain_limit', 'ліміту домену')|E]#!"
   DOMAIN_LIMIT_GRACE_PERIOD_LEVY_PENALTY: "@warning_icon!#X Перевищено [domain_limit|El], з нових володінь не поступатиме ополчення#! $EXPIRES$"
   COUNTY_CONTROL_LEVY_PENALTY: "@warning_icon!#X Знижено на $VALUE|%0$ через надто низький [Concept('county_control', 'контроль над графством')|E]#!"
   FURTHER_COUNTY_CONTROL_LEVY_PENALTY: "@warning_icon!#X Знижено ще на $VALUE|%0$ через надто низький [Concept('county_control', 'контроль над графством')|E]#!"

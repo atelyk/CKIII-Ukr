@@ -1,6 +1,6 @@
 ﻿l_english:
   FAITH_VIEW_HEADING: "[Faith.GetNameNoTooltip]"
-  FAITH_VIEW_SUBHEADING: "[Concept( 'organized', 'Організована )|E] #L [Faith.GetReligion.GetAdjective|l]а#! [faith|El]"
+  FAITH_VIEW_SUBHEADING: "[Concept( 'organized', 'Організована' )|E] #L [Faith.GetReligion.GetAdjective|l]а#! [faith|El]"
   FAITH_VIEW_UNREFORMED_SUBHEADING: "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] #L [Faith.GetReligion.GetAdjective|l]а#! [faith|El]"
   FAITH_VIEW_REFORMED_SUBHEADING: "[Concept( 'organized', 'Організована' )|E] #L [Faith.GetReligion.GetAdjective|l]а#! [faith|El]"
   FAITH_VIEW_OUR_VIEW: "Вони для нас [GetPlayer.GetFaith.GetRelationNameTo( Faith.Self )|Vl]"
@@ -31,8 +31,8 @@
   CREATE_REFORM_FAITH_TOOLTIP: "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE_TOOLTIP', 'CREATE_FAITH_WINDOW_TITLE_TOOLTIP' )]"
   CREATE_FAITH_WINDOW_TITLE: "Створити нову [GetPlayer.GetFaith.GetReligion.GetAdjectiveNoTooltip|l]у конфесію"
   REFORM_FAITH_WINDOW_TITLE: "Реформувати конфесію [GetPlayer.GetFaith.GetNameNoTooltip]"
-  CREATE_FAITH_WINDOW_TITLE_TOOLTIP: "#T $CREATE_FAITH_WINDOW_TITLE$#!\nБуде створено нову [faith|El]; выбрати [core_tenets|El] та [doctrines|El]"
-  REFORM_FAITH_WINDOW_TITLE_TOOLTIP: "#T $REFORM_FAITH_WINDOW_TITLE$#!\n[faith|E] [GetPlayer.GetFaith.GetNameNoTooltip] буде реформовано; выберіть [core_tenets|El] та [doctrines|El]"
+  CREATE_FAITH_WINDOW_TITLE_TOOLTIP: "#T $CREATE_FAITH_WINDOW_TITLE$#!\nБуде створено нову [faith|El]; оберіть [core_tenets|El] та [doctrines|El]"
+  REFORM_FAITH_WINDOW_TITLE_TOOLTIP: "#T $REFORM_FAITH_WINDOW_TITLE$#!\n[faith|E] [GetPlayer.GetFaith.GetNameNoTooltip] буде реформовано; оберіть [core_tenets|El] та [doctrines|El]"
   CONVERT_FAITH_WINDOW_TITLE_UI: "[Faith.GetNameNoTooltip]: навернутися"
   CONVERT_FAITH_WINDOW_TITLE: "[FAITH.GetNameNoTooltip]: навернутися"
   FAITH_CREATION_DOCTRINES_PIETY_COST: "Вартість доктрин без знижки: [piety_i]$VALUE|V$"

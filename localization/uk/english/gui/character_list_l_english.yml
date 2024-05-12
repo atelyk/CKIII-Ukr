@@ -187,7 +187,7 @@
   CHARACTER_LIST_TEXT_FILTER_TOOLTIP: "#T Текстовий пошук\n#!Введіть частину імені персонажа, будинок династії, рису, культуру або віру"
   CHARACTER_LIST_TEXT_FILTER_TITLE: "Відповідні елементи"
   CHARACTER_LIST_TEXT_FILTER_MATCH_NAME: "Ім'я збігається з '[PatternItem.GetName]'"
-  CHARACTER_LIST_CULTURE_GROUP_TT: "#T [culture_group|E]: [PatternItem.GetCultureGroup.GetName]а#!"
+  CHARACTER_LIST_CULTURE_GROUP_TT: "#T [heritage|E]: [PatternItem.GetHeritage.GetNameNoTooltip]#!"
   CHARACTER_LIST_FILTER_NAME_TT: "#T Ім'я#!"
   CHARACTER_FINDER_NO_MATCH: "Немає відповідних символів для поточного фільтра"
   special_filter_category: "Спеціальний"

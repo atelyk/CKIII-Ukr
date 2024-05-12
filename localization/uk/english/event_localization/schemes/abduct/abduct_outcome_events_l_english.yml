@@ -9,7 +9,7 @@
   abduct_outcome.1001.a: "Скоро [target.GetSheHe] буде в моїй волі!"
   abduct_outcome.1001.b: "Ні, ризик надто великий."
   abduct_outcome.1002.t: "$abduct_event_title$ Відбувається"
-  abduct_outcome.1002.desc: "Випала чудова нагода! [target.GetTitledFirstName] буде подорожувати до найближчого міста без без охорони.\n\n[target.GetSheHe|U] мабуть почувається у безпеці..."
+  abduct_outcome.1002.desc: "Випала чудова нагода! [target.GetTitledFirstName] буде подорожувати до найближчого міста без охорони.\n\n[target.GetSheHe|U], мабуть, почувається у безпеці..."
   abduct_outcome.1002.a: "Слушний момент для нападу!"
   abduct_outcome.1003.t: "$abduct_event_title$ Небажані гості"
   abduct_outcome.1003.desc: "Мої агенти ходять по двору володінь [court_location.GetNameNoTierNoTooltip], як у себе вдома, і [target.GetTitledFirstName] майже в мене!\n\nАгенти по місцях і готові впустити невеликий загін під прикриттям ночі, та ще й прикрити його відхід. В ідеалі вони ще й заглушать крики із мішка, який так і намагаєтеся вирватись."

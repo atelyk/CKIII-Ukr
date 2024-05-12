@@ -5424,7 +5424,7 @@
   b_krakow: "Краків"
   b_kraljevica: "Кралєвіца"
   b_kramatorsk: "Краматорськ"
-  b_kran: "Криын"
+  b_kran: "Крин"
   b_kranj: "Крань"
   b_krapina: "Крапина"
   b_krasavino: "Красавіно"
@@ -20184,7 +20184,7 @@
   c_karabalgasun_adj: "Карабалгасунськ"
   c_mumo: "Мумо"
   c_mumo_adj: "Мумськ"
-  c_ulaanbaatar: "Ургее #Ulaanbaatar = modern name\"\"" #Ulaanbaatar = modern name
+  c_ulaanbaatar: "Ургее" #Ulaanbaatar = modern name
   c_ulaanbaatar_adj: "Ургееськ"
   c_khentii: "Хентій"
   c_khentii_adj: "Хентійськ"
@@ -20288,13 +20288,13 @@
   c_ulan_ude_adj: "Улан-Удинськ"
   c_chikoy: "Чикой"
   c_chikoy_adj: "Чикойськ"
-  c_krasnoyarsk: "Кизил-Чар #Krasnoyarsk\"\"" #Krasnoyarsk
+  c_krasnoyarsk: "Кизил-Чар" #Krasnoyarsk
   c_krasnoyarsk_adj: "Кизил-Чарськ"
   c_mana: "Мана"
   c_mana_adj: "Манськ"
   c_shishina: "Шишина"
   c_shishina_adj: "Шишинськ"
-  c_kansk: "Канхот #Kansk\"\"" #Kansk
+  c_kansk: "Канхот" #Kansk
   c_kansk_adj: "Канхотськ"
   c_tagul: "Тагул"
   c_tagul_adj: "Тагульськ"
@@ -20310,7 +20310,7 @@
   c_ilga_adj: "Ілзьк"
   c_olkhon: "Ольхон"
   c_olkhon_adj: "Ольхонськ"
-  c_irkutsk: "Ерхуу #Irkutsk\"\"" #Irkutsk
+  c_irkutsk: "Ерхуу" #Irkutsk
   c_irkuts_adjk: "Ерхууськ"
   c_chuya: "Чуя"
   c_chuya_adj: "Чуйськ"
@@ -20371,7 +20371,7 @@
   b_khanjargalant: "Ханджаргалант"
   b_erdenet: "Ерденет"
   b_ishgent: "Ішгент"
-  b_ulaanbaatar: "Ургее #Ulaanbaatar = modern name\"\"" #Ulaanbaatar = modern name
+  b_ulaanbaatar: "Ургее" #Ulaanbaatar = modern name
   b_moltsog_els: "Молцог-Елс"
   b_hustai: "Хустай"
   b_orkhontuul: "Орхонтуул"
@@ -20577,7 +20577,7 @@
   b_chikan: "Чікан"
   b_kutukan_ondort: "Кутукан-Ундерт"
   b_ichikta: "Ілікта"
-  b_krasnoyarsk: "Кизил-Чар #Krasnoyarsk\"\"" #Krasnoyarsk
+  b_krasnoyarsk: "Кизил-Чар" #Krasnoyarsk
   b_kem_MON: "Кем"
   b_kemchug: "Кемчуг"
   b_stolby: "Стовпи"
@@ -20586,7 +20586,7 @@
   b_shishina: "Шишина"
   b_taseya: "Тасея"
   b_nemkina: "Немкіна"
-  b_kansk: "Канхот #Kansk\"\"" #Kansk
+  b_kansk: "Канхот" #Kansk
   b_biriusa: "Она"
   b_khoidkhiliin: "Хойдхілійн"
   b_tagul: "Тагул"
@@ -20621,7 +20621,7 @@
   b_olkhon: "Ольхон"
   b_bugulde: "Бугульде"
   b_manzurka: "Манзурка"
-  b_irkutsk: "Ерхуу #Irkutsk\"\"" #Irkutsk
+  b_irkutsk: "Ерхуу" #Irkutsk
   b_osa_MON: "Оса"
   b_KUDA_MON: "Куда"
   #Xia/Minya/Minyak

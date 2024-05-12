@@ -20,7 +20,7 @@
   family_name: "Ієрарх сім'ї"
   diplomacy_majesty_focus: "Велич"
   diplomacy_majesty_focus_modifier: "[GetFocus('diplomacy_majesty_focus').GetName]"
-  diplomacy_majesty_focus_desc: "Основа королівської величі — слава, пошана до обрядів і традицій."
+  diplomacy_majesty_focus_desc: "Основа королівської величі — слава, шана обрядів і традицій."
   diplomacy_majesty_focus_effect_desc: "Зосередившись на величі, персонаж отримує:"
   majesty_name: "Август"
   #Martial

@@ -55,7 +55,7 @@
   chancellor_task.3101.b: "Вони будуть робити так, як велить їх [ROOT.Char.GetTitleTierName]!"
   chancellor_task.3101.c: "Нехай самі розв'язують свої проблеми."
   chancellor_task.3101.c.tt: "[attacker_vassal.GetFirstNameNoTooltip] і [defender_vassal.GetFirstNameNoTooltip] продовжують воювати"
-  chancellor_task.3102.desc: "До мене дійшли відомості, що, згідно з успадкованими зобов'язаннями, ваш васал, [SCOPE.sC('vassal').GetTitledFirstName], повинен виплачувати вам більше, ніж ви отримуєте."
+  chancellor_task.3102.desc: "До мене дійшли відомості, що, згідно з успадкованими зобов\\'язаннями, ваш васал, [SCOPE.sC('vassal').GetTitledFirstName], повинен виплачувати вам більше, ніж ви отримуєте."
   chancellor_task.3102.a: "Час виправити цю помилку!"
   chancellor_task.3102.c: "[vassal.GetFirstNameNoTooltip], безумовно, оцінить, якщо я заплющу на це очі..."
   chancellor_task.3003.t: "Втрата авторитету"

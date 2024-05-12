@@ -29,7 +29,7 @@
   murder_action: "Вбивство"
   murder_desc: "Скоро [SCHEME.GetTarget.GetShortUINameNoTooltip] відправиться на суд [SCHEME.GetOwner.GetFaith.HighGodNamePossessive]!"
   murder_desc_general: "Зробити замах на життя ворога."
-  scheme_interaction_tt_murder_approved: "Спроба [Concept( 'murder', 'вбити' )|E] персонажа [recipient.GetShortUINameNoTooltip]"
+  scheme_interaction_tt_murder_approved: "Спроба вбити персонажа [recipient.GetShortUINameNoTooltip]"
   murder_successful_roll_tt: "[target.GetShortUINameNoTooltip] гине від руки вбивці!"
   murder_entourage_successful_roll_tt: "Some members of [target.GetShortUINamePossessiveNoTooltip] entourage are killed!"
   murder_become_discovered_roll_tt: "#N Про мою участь дізналися#!"

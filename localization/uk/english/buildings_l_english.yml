@@ -1,5 +1,5 @@
 ﻿l_english:
-  BUILDING_TOOLTIP_TEXT: "[Building.GetDescription]\n\n#S Effect:\n#![Building.GetEffectDescription( GetPlayer, GetPlayer.GetCulture )]"
+  BUILDING_TOOLTIP_TEXT: "[Building.GetDescription]\n\n#S Effect:\n#![Building.GetEffectDescription( GetPlayer )]"
   building_type_castle_01: "Замок"
   building_type_castle_01_desc: "Ця твердиня — не лише оселя знатного дворянського роду, але й надійний захист для містечка та навколишніх полів."
   building_castle_01: "Мот"

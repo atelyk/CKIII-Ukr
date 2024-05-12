@@ -98,7 +98,7 @@
   vassal.2601.a: "Ви маєте рацію, [warmongering_vassal.GetFirstNameNoTooltip]!"
   vassal.2601.a.tt: "#F [warmongering_vassal.GetFirstName] запам'ятає мою обіцянку#!"
   vassal.2601.b: "Ніхто не змусить мене діяти передчасно."
-  vassal.2610.desc: "«Вы поступили правильно, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]. [Select_CString(recipient.IsFemale, 'Ця', 'Цей' )] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('recipient'))] [recipient.GetTitledFirstName] дізнається, на що ми здатні! [claim_to_fight_for.GetNameNoTier] буде належати вам!»"
+  vassal.2610.desc: "«Ви правильно вчинилм, [Select_CString(ROOT.char.IsFemale, 'моя', 'мій' )] [ROOT.Char.GetLadyLord]. [Select_CString(recipient.IsFemale, 'Ця', 'Цей' )] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('recipient'))] [recipient.GetTitledFirstName] дізнається, на що ми здатні! [claim_to_fight_for.GetNameNoTier] буде належати вам!»"
   vassal.2610.a: "Ми виграємо цю війну!"
   vassal.2620.desc: "[Select_CString(warmongering_vassal.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('warmongering_vassal'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmongering_vassal'))] [warmongering_vassal.GetTitledFirstName] [warmongering_vassal.Custom('quirk_neg_present')].\n\n«[Select_CString(ROOT.char.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.GetLadyLord], [holder_of_claim.GetTitledFirstName] досі не [Select_CString(holder_of_claim.IsFemale, 'пізнала', 'пізнав' )] ваш гнів і міць ваших військ. Навіщо ви обіцяли мені війну, яку не збиралися починати?»"
   vassal.2620.a: "Просто стільки всього навалилося..."

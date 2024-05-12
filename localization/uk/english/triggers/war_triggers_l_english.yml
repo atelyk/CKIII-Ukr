@@ -28,7 +28,7 @@
   IS_WAR_LEADER_TRIGGER: "Очолює одну із сторін у війні [WAR.GetName|V]"
   NOT_IS_WAR_LEADER_TRIGGER: "#bold Не#! очолює жодну зі сторін у війні [WAR.GetName|V]"
   IS_WAR_LEADER_TRIGGER_FIRST: "Ви очолюєте одну із сторін у війні [WAR.GetName|V]"
-  NOT_IS_WAR_LEADER_TRIGGER_FIRST: "Вы #bold не#! очолюєте жодну зі сторін у війні [WAR.GetName|V]"
+  NOT_IS_WAR_LEADER_TRIGGER_FIRST: "Ви #bold не#! очолюєте жодну зі сторін у війні [WAR.GetName|V]"
   IS_WAR_LEADER_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] очолює одну із сторін у війні [WAR.GetName|V]"
   NOT_IS_WAR_LEADER_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] #bold не#! очолює жодну зі сторін у війнахе [WAR.GetName|V]"
   WAS_CALLED_TRIGGER: "Призвали на війну [WAR.GetName|V]"

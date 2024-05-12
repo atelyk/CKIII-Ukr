@@ -308,7 +308,7 @@
   pilgrimage.2002.c: "Істинно так! [ROOT.Char.GetFaith.HighGodName] не може вічно зносити їх зневажання!"
   #Companions are running low
   pilgrimage.2003.t: "$pilgrimage_header$ Втрата товаришів"
-  pilgrimage.2003.desc: "За минулі тижні наше братерство поступово зменшувалося. Хтось пройшов, скільки зміг, перш ніж потреба змусила їх повернутися додому, доля інших була сумніша.\n\nНайбільше мене турбує, що моя особиста охорона тане з страшною швидкістю. Вже цього достатньо, щоби зрозуміти: шлях буде нелегким."
+  pilgrimage.2003.desc: "За минулі тижні наше братерство поступово зменшувалося. Хтось пройшов, скільки зміг, перш ніж потреба змусила їх повернутися додому, доля інших була сумніша.\n\nНайбільше мене турбує, що моя особиста охорона тане зі страшною швидкістю. Вже цього достатньо, щоби зрозуміти: шлях буде нелегким."
   pilgrimage.2003.a: "Мабуть, місцеві виглядають досить суворо, аби поповнити ними охорону."
   pilgrimage.2003.b: "[ROOT.Char.GetFaith.PantheonTerm] збереже мене, іншого захисту і не потрібно."
   pilgrimage.2003.c: "No. I have faith in [ROOT.Char.GetFaith.PantheonTerm]."
@@ -319,7 +319,7 @@
   pilgrimage.2004.b: "Чудова зустріч, але мені треба помолитися на самоті."
   #A peasant inadvertedly insults you
   pilgrimage.2005.t: "$pilgrimage_header$ Грубість"
-  pilgrimage.2005.desc: "Я проходжу повз багаття і чую, як один із моїх супутників переказує почуту десь історію. Її головний герой — [ROOT.Char.GetTitleAsNameNoTooltip], і слухачі раз-пораз розриваються оглушливим реготом. Втім, всі смішки стихають при моєму наближенні - замовкнути не встигає тільки [Select_CString(dummy_peasant_gender.IsFemale, 'сама оповідачка', 'сам оповідач' )].\n\n«А, не хвилюйтеся, ми [ROOT.Char.GetLadyLord], ви вже точно не [ROOT.Char.Custom('InsultNoun')] з мого оповідання! Там же [ROOT.Char.GetTitleAsNameNoTooltip] з якогось далекого місця під назвою [title.GetNameNoTierNoTooltip]»."
+  pilgrimage.2005.desc: "Я проходжу повз багаття і чую, як один із моїх супутників переказує почуту десь історію. Її головний герой — [ROOT.Char.GetTitleAsNameNoTooltip], і слухачі раз по раз розриваються оглушливим реготом. Втім, всі смішки стихають при моєму наближенні - замовкнути не встигає тільки [Select_CString(dummy_peasant_gender.IsFemale, 'сама оповідачка', 'сам оповідач' )].\n\n«А, не хвилюйтеся, ми [ROOT.Char.GetLadyLord], ви вже точно не [ROOT.Char.Custom('InsultNoun')] з мого оповідання! Там же [ROOT.Char.GetTitleAsNameNoTooltip] з якогось далекого місця під назвою [title.GetNameNoTierNoTooltip]»."
   pilgrimage.2005.desc_close: "of these lands,"
   pilgrimage.2005.desc_far: "of some far away place called [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip],"
   pilgrimage.2005.outro: "to raucous laughter.\n\nAs [rude_pilgrim.GetSheHe] notices my hesitation, the storyteller looks at me reassuringly: \"Don't worry, my [ROOT.Char.GetLadyLord] — this is surely about some #EMP other#! high-and-mighty noble[ROOT.Char.GetWomanMan]!\""
@@ -340,7 +340,7 @@
   pilgrimage.2006.c_caravan_master: "Now #EMP you#! get to go ask for directions."
   #Fall ill
   pilgrimage.2008.t: "$pilgrimage_header$ Хвороба"
-  pilgrimage.2008.desc: "Схоже, подорожі не пішли мені на користь. Можливо, всьому виною повітря чужих земель — чи хутра не досить мене зігрівають?\n\nЯк би там не було, кашель не відпускає мене кілька тижнів, а цього ранку мені ледве вдалося встати з ліжка. Чи вистачить мені сил продовжити шлях?"
+  pilgrimage.2008.desc: "Схоже, подорожі не пішли мені на користь. Можливо, всьому виною повітря чужих земель — чи хутра не досить мене зігрівають?\n\nХай там що, кашель не відпускає мене кілька тижнів, а цього ранку мені ледве вдалося встати з ліжка. Чи вистачить мені сил продовжити шлях?"
   pilgrimage.2008.a: "Зараз не час здаватися!"
   pilgrimage.2008.a.tt: "[GetTrait('ill').GetName( GetPlayer )] та подорожі — небезпечне поєднання"
   pilgrimage.2008.whole_of_body: "Та хіба це кашель? Скоро пройде."
@@ -365,7 +365,7 @@
   pilgrimage.2011.c: "Слухай, а яким боком тут [ROOT.Char.GetFaith.HighGodName]?"
   pilgrimage.2011.c.tt: "Ви вступаєте з містиком у суперечку"
   #Fallback in case something happened in between events
-  pilgrimage.2012.desc: "Не можу з упевненістю сказати, що сталося у наметі містика. У пам'яті залишилися лише розпливчасті картини і загальне відчуття сп'яніння.\n\nЯ навіть не знаю, чи [Select_CString(mystic.IsFemale, 'існувала', 'існував')] [mystic.GetSheHe] насправді..."
+  pilgrimage.2012.desc: "Не можу з упевненістю сказати, що сталося у наметі містика. У пам'яті залишилися лише розпливчасті картини та загальне відчуття сп'яніння.\n\nЯ навіть не знаю, чи [Select_CString(mystic.IsFemale, 'існувала', 'існував')] [mystic.GetSheHe] насправді..."
   pilgrimage.2012.a: "У [Select_CString(mystic.IsFemale, 'неї', 'нього')] було чимало дивних ідей."
   #Outcome of engaging
   pilgrimage.2013.desc: "Я виконую все, що [Select_CString(mystic.IsFemale, 'порадила', 'порадив')] [mystic.GetTitledFirstNamePossessive], і мій розум прояснюється. Я це #EMP відчуваю#!. [ROOT.Char.GetFaith.PantheonTerm|U], світ - все це всередині мене. В моїй душі.\n\nЧерез кілька годин я виходжу з намету, відчуваючи, що краще розумію життя і себе."
@@ -496,7 +496,7 @@
   pilgrimage.2101.c: "I must stay strong and focus on my pilgrimage!"
   #Persistent Beggar
   pilgrimage.2501.t: "$pilgrimage_header$ Горе та злидні"
-  pilgrimage.2501.desc.opening: "Наш шлях лежить через маленьке містечко. Несподівано хтось хапає мене за одяг знизу. Я опускаю погляд і бачу [Select_CString(beggar.IsFemale, 'худу голодранку, яка', 'худого голодранця, який' )] не зводить з мене благаючих очей.\n\n«О великий пане, благаю, киньте пару монет! Я помираю з голоду, а місцеві не хочуть мені допомагати»."
+  pilgrimage.2501.desc.opening: "Наш шлях лежить через маленьке містечко. Несподівано хтось хапає мене за одяг знизу. Я опускаю погляд і бачу [Select_CString(beggar.IsFemale, 'худу голодранку, яка', 'худого голодранця, який' )] не зводить з мене сповнених благання очей.\n\n«О великий пане, благаю, киньте пару монет! Я помираю з голоду, а місцеві не хочуть мені допомагати»."
   pilgrimage.2501.desc.virtue.generous: "\n\nЩедрість то не моє, але паломництво пробуджує в душі якісь нові почуття. Мабуть, всі гідні [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] повинні виявляти милосердя..."
   pilgrimage.2501.desc.virtue.compassionate: "\n\n[beggar.GetHerHis|U] благання мене не хвилюють, але паломництво пробуджує в душі якісь нові почуття. Мабуть, всі гідні [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] повинні виявляти співчуття..."
   pilgrimage.2501.desc.sin.generous: "\n\nНезважаючи на жалюгідний вигляд бідолахи, я пам'ятаю, що [ROOT.Char.GetFaith.PantheonTerm] вважає милостиню смертельним гріхом..."
@@ -598,7 +598,7 @@
   pilgrimage.3301.c: "Ох, але рита каже, що [ROOT.Char.GetTitleAsNameNoTooltip] не може вдаватися до аскези в дорозі."
   ###Hajj Arrival Event
   #Entering state of Ihram
-  pilgrimage.3101.t: "$pilgrimage_header$ Іхрам"
+  pilgrimage.3101.t: "Іхрам"
   pilgrimage.3101.desc: "Мекка все ближче, і ось я стою перед Мікатом — кордоном, що відокремлює священну територію Мекки від тлінного світу.\n\nТепер мені доведеться пройти обряд очищення, увійти в стан іхраму і одягатися в особливий одяг. Я утримуватимусь від тілесних втіх, лихослів'я, гордині та непристойних думок."
   pilgrimage.3101.a: "Я підійду до іхраму з усією відповідальністю."
   pilgrimage.3101.b: "Е-е-е... навіть якщо я трохи оступлюсь, ніхто ж не помітить."

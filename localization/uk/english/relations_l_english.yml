@@ -272,8 +272,8 @@
   relation_fellow_attendee_male: "$relation_fellow_attendee_female$"
   relation_fellow_attendee_female_possessive: "fellow attendee's"
   relation_fellow_attendee_male_possessive: "$relation_fellow_attendee_female_possessive$"
-  relation_acquaintance_female: "знайома # formerly #D debug" #formerly #D debug
-  relation_acquaintance_male: "знайомий # formerly #D debug" #formerly #D debug
+  relation_acquaintance_female: "знайома" #formerly #D debug
+  relation_acquaintance_male: "знайомий" #formerly #D debug
   relation_count: "граф"
   relation_countess: "графиня"
   relation_duke: "герцог"

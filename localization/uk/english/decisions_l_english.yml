@@ -12,7 +12,7 @@
   GENERIC_CHOOSE_OPTION: "Choose Option"
   start_hunt_decision: "Скликати полювання"
   start_hunt_decision_tooltip: "[hunt|E] відбудеться"
-  start_hunt_decision_desc: "#F Я чую поклик природи, і дикі звіри готуються до зустрічі з моїми стрілами й списами!#!"
+  start_hunt_decision_desc: "#F Неприборкані нетрі кличуть, та всілякі звірі чекають мого списа й стріли! #!"
   start_hunt_decision_go_on_hunt: "Ви вирушаєте на #V полювання#! в одному з баронств вашої держави"
   start_hunt_decision_prestige: "Ви можете отримати можливість збільшити свій [prestige|El]"
   start_hunt_decision_stress_lazy: "#N Ваш [Concept('stress', 'стрес')|E] не знизиться через вашу [GetTrait('lazy').GetName( GetPlayer )]#!"

@@ -268,7 +268,7 @@
   lesson_basics_marriage_final_notes: "Вітаємо! ($lesson_basics_marriage$)"
   lesson_basics_marriage_final_notes_desc: "Чудово! Бажаємо довгих і щасливих років разом!\n\nУ цьому уроці радимо вам #TUT_KW знайти дружину#! й для вашого сина.\n\n#TUT Щойно ваш син одружується, він почне плодити членів вашої сім'ї (вони стануть [Concept( 'heirs', 'спадкоємцями' )|El] держави з вашої [dynasties|El].#!"
   #Dynasty & House
-  lesson_basics_dynasty_and_house: "Династія і дім ($lesson_basics_titles$)"
+  lesson_basics_dynasty_and_house: "Династія і рід ($lesson_basics_titles$)"
   lesson_basics_dynasty_and_house_desc: "Сім'я важлива! [player_heir|E] завжди походить з вашої [dynasties|El], а найчастіше — і з вашого дому.\n\n#TUT В майбутньому варто уважніше придивлятися до рідних і стежити, яка в #EMP них#! [Concept( 'line_of_succession', 'лінія успадкування' )|El]. Якщо дозволяють [succession_laws|El], можна успадковувати [titles|El] (а також землі та [Concept( 'vassals', 'васалів' )|El]) своїх родичів.#!"
   #Titles &  Holdings
   lesson_basics_landed_titles: "Земля і титули ($lesson_basics_titles$)"
@@ -406,7 +406,7 @@
   lesson_warscore_step_1: "Бойовий рахунок"
   lesson_warscore_step_1_desc: "Зрозуміти, хто перемагає на [Concept( 'war', 'війні' )|El], допоможе [war_score|El] у нижньому правому кутку екрану. Він змінюється від #N -100#! до #P 100#! відповідно до виграних і програних [Concept( 'battles', 'битв' )|El] і [Concept( 'sieges', 'облог' )|El], а також зайнятими територіями.\n\n#TUT Бойовий рахунок #P 100#!$game_concept_war_score$ дозволяє силоміць змусити противника прийняти вашу [peace_offer|El].\n\nІ навпаки, при рахунку #N -100#! до прийняття пропозиції миру змусять вже #EMP вас#!."
   lesson_warscore_step_2: "Результат війни"
-  lesson_warscore_step_2_desc: "Є три варіанти результату [wars|El]: $MODIFIER_NEWLINE_WITH_BULLET$[victory|El]$MODIFIER_NEWLINE_WITH_BULLET$[white_peace|El]$MODIFIER_NEWLINE_WITH_BULLET$[defeat|El]\n\n#TUT Щоб детально дізнатися про наслідки кожного з цих варіантів залежно від використаного [casus_belli|El], натисніть правою кнопкою мишки на ворожого [Concept( 'ruler', 'правителя' )|El] і виберіть #TUT_KW «Запропонувати мир»#!.#!"
+  lesson_warscore_step_2_desc: "Усі [wars|E] закінчуються одним з трьох способів:\n$EFFECT_LIST_BULLET$[victory|E]\n$EFFECT_LIST_BULLET$[white_peace|E]\n$EFFECT_LIST_BULLET$[defeat|E]\n\nТочні наслідки кожного з них змінюються залежно від [casus_belli|E].\n\n#TUT Деталі конкретної війни можна знайти, клацнувши правою кнопкою миші на вашого ворога [ruler|E] і вибравши #TUT_KW Пропонувати мир#!, або натиснувши на іконку $game_concept_war_score$ у нижньому правому куті, а потім вибравши одну з вкладок у нижній частині екрана.#!"
   lesson_winning_wars_step_1: "Перемога близько"
   lesson_winning_wars_step_1_desc: "Ваш [Concept( 'war_score', 'воєнний рахунок' )|E] — 100%!\n\nТепер ви можете #TUT_KW «Нав'язати вимоги»#! ворожому [Concept( 'ruler', 'правителю' )|E] — натисніть по ньому правою кнопкою мишки і виберіть #TUT_KW «Запропонувати мир»#! або клацніть на бойовий рахунок, щоб відкрити те ж меню."
   lesson_losing_wars_step_1: "Близька поразка"

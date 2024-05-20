@@ -253,7 +253,7 @@
   trait_craven: "Боязкість"
   trait_craven_desc: "Цей персонаж зовсім не любить викликів і легко лякається."
   trait_craven_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] зовсім не любить викликів і легко лякається."
-  trait_brave: "Хоробрий"
+  trait_brave: "Хоробрість"
   trait_brave_desc: "Виклики чи небезпека — цей персонаж не знає страху."
   trait_brave_character_desc: "Виклики або небезпека, [ROOT.GetCharacter.GetFirstNameNoTooltip] не знає страху."
   trait_shy: "Сором'язливість"

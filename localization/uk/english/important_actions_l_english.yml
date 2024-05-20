@@ -417,7 +417,7 @@
   action_can_ransom_combined_group_label: "В'язнів можна викупити @gold_icon!"
   action_can_ransom_combined_group_name: "$action_can_ransom$"
   action_can_ransom_desc: "Ви можете зажадати викуп [Concept( 'gold', 'золотом' )|E], якщо хочете, щоб [Concept( 'prisoner', Select_CString(recipient.IsFemale, 'ув'язнена' 'ув'язнений' ))|E], [recipient.GetShortUIName], [Concept( 'prisoner', Select_CString(recipient.IsFemale, 'вийшла' 'вийшов' ))|E] на свободу.\n\nЯкщо [recipient.GetFirstName] загрожує вам, скажімо, є [Concept( 'rival', Select_CString(recipient.IsFemale, 'вашою суперницею' 'вашим суперником' ))|E], ви можете не брати за н[recipient.GetHerHis] викуп, а замість цього стратити [recipient.GetHerHis] або залишити гнити в темниці до самої смерті..."
-  action_can_ransom_combined_group_description: "Ви можете взяти за [Concept( 'prisoners', 'в'язнів' )|E] викуп [Concept( 'gold', 'золотом' )|E]."
+  action_can_ransom_combined_group_description: "Ви можете взяти за [Concept( 'prisoners', 'в\\'язнів' )|E] викуп [Concept( 'gold', 'золотом' )|E]."
   action_can_ransom_label: "Ви можете взяти викуп за персонажа [recipient.GetShortUINameNoTooltip] @gold_icon!"
   action_can_ransom_combined_label: "Your [actor.Custom2('RelationToMe', recipient)], [recipient.Custom('GetPrimaryTitleTierIcon')][recipient.GetShortUINameNoTooltip], @gold_icon!#V [recipient.MakeScope.ScriptValue('current_situation_gold_ransom')|0]/[recipient.MakeScope.ScriptValue('ransom_cost_value')|0]#!"
   action_can_ransom_click: "#I Натисніть, щоб викупити [Concept( 'prisoner', 'полоненого' )|E]#!"

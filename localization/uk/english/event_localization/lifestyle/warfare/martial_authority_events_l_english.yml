@@ -42,7 +42,7 @@
   martial_authority.2051.b: "Я бачу іскру чогось більшого?"
   martial_authority.2051.c: "Нехай наші стосунки залишаться суто професійними."
   martial_authority.2052.message: "[Select_CString(right_hand_person.IsFemale, 'Моя помічниця кинута', 'Мій помічник кинутий' )] мною до в'язниці"
-  martial_authority.2053.toast: "[imprisoner.Custom2('MyCharacterIntroduction'), ROOT.Char] [Select_CString(imprisoner.IsFemale, 'ув'язнила', 'ув'язнив' )] [Select_CString(right_hand_person.IsFemale, 'мою помічницю, і та', 'мого помічника, і той' )] не зможе служити мені доти, доки не вийде на свободу."
+  martial_authority.2053.toast: "[imprisoner.Custom2('MyCharacterIntroduction'), ROOT.Char] [Select_CString(imprisoner.IsFemale, 'ув\\'язнила', 'ув\\'язнив' )] [Select_CString(right_hand_person.IsFemale, 'мою помічницю, і та', 'мого помічника, і той' )] не зможе служити мені доти, доки не вийде на свободу."
   martial_authority.2054.toast: "[Select_CString(right_hand_person.IsFemale, 'Моя помічниця звільнилася', 'Мій помічник звільнився' )] з ув'язнення та [Select_CString(right_hand_person.IsFemale, 'повернулася', 'повернувся' )] на службу."
   martial_authority.2054.toast.no_return: "[Select_CString(right_hand_person.IsFemale, 'Моя помічниця звільнилася', 'Мій помічник звільнився' )] з ув'язнення, але не [Select_CString(right_hand_person.IsFemale, 'повернулася', 'повернувся' )] на службу."
   martial_authority.2055.message: "[Select_CString(right_hand_person.IsFemale, 'Моя помічниця покинула', 'Мій помічник покинув' )] мене"

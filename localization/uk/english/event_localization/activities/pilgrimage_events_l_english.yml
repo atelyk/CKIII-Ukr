@@ -496,7 +496,7 @@
   pilgrimage.2101.c: "I must stay strong and focus on my pilgrimage!"
   #Persistent Beggar
   pilgrimage.2501.t: "$pilgrimage_header$ Горе та злидні"
-  pilgrimage.2501.desc.opening: "Наш шлях лежить через маленьке містечко. Несподівано хтось хапає мене за одяг знизу. Я опускаю погляд і бачу [Select_CString(beggar.IsFemale, 'худу голодранку, яка', 'худого голодранця, який' )] не зводить з мене сповнених благання очей.\n\n«О великий пане, благаю, киньте пару монет! Я помираю з голоду, а місцеві не хочуть мені допомагати»."
+  pilgrimage.2501.desc.opening: "Наш шлях лежить через маленьке містечко. Несподівано хтось хапає мене за одяг знизу. Я опускаю погляд і бачу [Select_CString(beggar.IsFemale, 'худу голодранку, яка', 'худого голодранця, який' )] не зводить з мене сповнених благання очей.\n\n«О [Select_CString(ROOT.Char.IsFemale, 'велика пані', 'великий пане' )], благаю, киньте пару монет! Я помираю з голоду, а місцеві не хочуть мені допомагати»."
   pilgrimage.2501.desc.virtue.generous: "\n\nЩедрість то не моє, але паломництво пробуджує в душі якісь нові почуття. Мабуть, всі гідні [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] повинні виявляти милосердя..."
   pilgrimage.2501.desc.virtue.compassionate: "\n\n[beggar.GetHerHis|U] благання мене не хвилюють, але паломництво пробуджує в душі якісь нові почуття. Мабуть, всі гідні [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] повинні виявляти співчуття..."
   pilgrimage.2501.desc.sin.generous: "\n\nНезважаючи на жалюгідний вигляд бідолахи, я пам'ятаю, що [ROOT.Char.GetFaith.PantheonTerm] вважає милостиню смертельним гріхом..."

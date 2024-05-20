@@ -34,7 +34,7 @@
   DYNASTY_HOUSE_TT_DYNASTY: "[dynasty|E]: [DynastyHouse.GetDynasty.GetBaseName]"
   DYNASTY_HOUSE_TT_DYNASTY_LEVEL: "[dynasty_prestige_level|E]: [DynastyHouse.GetDynasty.GetPrestigeLevelName]"
   DYNASTY_HOUSE_TT_LIVING_MEMBERS: "Живих членів: [DynastyHouse.GetNumberOfMembers|V]"
-  HOUSE_VIEW_FOUNDING_HOUSE: "Дім-засновник"
+  HOUSE_VIEW_FOUNDING_HOUSE: "Рід-засновник"
   HOUSE_HEAD_PRESTIGE_GAIN_CAP: "Максимум отримуваного престижу"
   DYNASTY_PRESTIGE_LEVEL_EFFECT: "- Діти народжуються з [prestige_i]$BIRTH|V0$\n- Шлюб з цією династією дає [prestige_i]$MARRIAGE|0+=$\n- Правителі отримують максимум $LONG_REIGN|V0=$ думки про довге правління"
   DYNASTY_PRESTIGE_NEXT_LEVEL: "\n\nНаступний рівень: $NEXT$"

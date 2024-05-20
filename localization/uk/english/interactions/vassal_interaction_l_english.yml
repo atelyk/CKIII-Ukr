@@ -45,7 +45,7 @@
   force_onto_council.actor.tt.duration: "Ти не можеш бути звільнений протягом [SCOPE.ScriptValue('council_position_locked_value')|0] років"
   arrange_marriage_interaction_extra_icon: "@weak_hook_icon!Ти можеш використовувати свій [hook|E], щоб змусити їх прийняти"
   ask_for_pardon_interaction: "Попросити помилування"
-  ask_for_pardon_interaction_desc: "Попросити свого [top_liege|E] помилувати тебе за [crimes|E], щоб зняти будь-які [imprisonment_reasons|E], [banish_reasons|E], [revoke_title_reasons|E] або [execute_reasons|E], що стосуються тебе"
+  ask_for_pardon_interaction_desc: "Попросити свого [Concept( 'top_liege', 'верховного сюзерена' )|E] помилувати тебе за [crimes|E], щоб зняти будь-які [imprisonment_reasons|E], [banish_reasons|E], [revoke_title_reasons|E] або [execute_reasons|E], що стосуються тебе"
   ask_for_pardon_interaction_accept_toast: "Даровано помилування"
   ask_for_pardon_interaction_decline_toast: "Відмовлено у помилуванні"
   ask_for_pardon_interaction_accept_decline: "[recipient.GetShortUIName|U] відхилив твоє прохання про помилування"

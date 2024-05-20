@@ -58,7 +58,7 @@
   lover.0101.desc_house_arrest: "І хоча я йду тими ж залами, що й [Select_CString(lover.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('lover'))] [lover. GetTitledFirstName], але наші серця ніколи не були настільки далекі один від одного. [Select_CString(lover.IsFemale, 'Моя', 'Мій' )] [lover.Custom('LoverPetName')], будь ласка, випусти мене..."
   lover.0101.a: "[Select_CString(lover.IsFemale, 'Моя кохана', 'Мій коханий' )] не [Select_CString(lover.IsFemale, 'вчинила', 'вчинив' )] би так зі мною!"
   lover.0101.b: "Це лише ще одна перешкода, яку нам потрібно подолати."
-  lover.0102.t: "[Select_CString(imprisoned_lover.IsFemale, 'В'язня', 'В'язень')]"
+  lover.0102.t: "[Select_CString(imprisoned_lover.IsFemale, 'В\\'язня', 'В\\'язень')]"
   lover.0102.desc: "Хто міг би подумати, що до цього дійде? [Select_CString(imprisoned_lover.IsFemale, 'Моя', 'Мій' )] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('imprisoned_lover'))] [imprisoned_lover.GetTitledFirstName] цурається мене, і, хоча .GetSheHe] все ще в моїх руках, [imprisoned_lover.GetHerHis] любов до мене пройшла."
   lover.0102.a: "Любов, що [imprisoned_lover.GetSheHe] [Select_CString(imprisoned_lover.IsFemale, 'зберігала', 'зберігав' )], пройшла, але ось [Select_CString(imprisoned_lover.IsFemale, 'сама вона', 'сам він' )] нікуди не подінеться!"
   lover.0103.t: "Конфлікт почуттів"

@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
   ANSWER_YES: "#P Прийме#!"
   ANSWER_NO: "#N #bold Не#! прийме#!"
   ANSWER_BLOCK: "Заблокувати відповідь"
@@ -248,7 +248,7 @@
   EDUCATE_ME_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "I am #N unlikely#! to become #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
   EDUCATION_UNIVERSITY: "Відправити до університету"
   imprison_interaction: "Ув'язнити"
-  imprison_interaction_desc: "Спроба [Concept( 'imprison', 'ув'язнити' )|E] персонажа [recipient.GetShortUINameNoTooltip]"
+  imprison_interaction_desc: "Спроба [Concept( 'imprison', 'ув\\'язнити' )|E] персонажа [recipient.GetShortUINameNoTooltip]"
   imprison_interaction_extra_icon: "$hook_extra_icon$"
   imprison_decline_summary: "[recipient.Custom('ImprisonCharacterDeclineSummary')]"
   imprison_decline_summary_war: "@warning_icon!#X If you fail to imprison [ROOT.Char.GetShortUINameNoTooltip] [ROOT.Char.GetSheHe] will rise up in rebellion with other disgruntled [vassals|E]!#!"
@@ -258,7 +258,7 @@
   imprison_decline_summary_cannot_fire_court_chaplain: "@warning_icon!#X If you fail to imprison [ROOT.Char.GetShortUINameNoTooltip] [ROOT.Char.GetSheHe] will still be [ROOT.Char.GetLiege.GetShortUINamePossessiveNoTooltip] [ROOT.Char.GetCouncilTitle]!#!"
   imprison_decline_summary_cannot_fire_HoF: "@warning_icon!#X Even if you imprison [ROOT.Char.GetShortUINameNoTooltip] [ROOT.Char.GetSheHe] will still be the [ROOT.Char.GetTitleAsNameNoTooltip]!#!"
   release_from_prison_interaction: "Домовитися про звільнення"
-  release_from_prison_interaction_desc: "Домовитися про звільнення персонажа [recipient.GetShortUINameNoTooltip] з вашої [Concept( 'prison', 'в'язниці' )|E]"
+  release_from_prison_interaction_desc: "Домовитися про звільнення персонажа [recipient.GetShortUINameNoTooltip] з вашої [Concept( 'prison', 'в\\'язниці' )|E]"
   move_to_house_arrest_interaction: "Посадити під домашній арешт"
   move_to_dungeon_interaction: "Кинути в підземелля"
   move_to_dungeon_interaction_desc: "Перемістити персонажа [recipient.GetShortUINameNoTooltip] з-під [Concept( 'house_arrest', 'домашнього арешту' )|E] в [Concept( 'dungeon', 'підземелля' )|E]"
@@ -272,7 +272,7 @@
   recipient_secondary_pay_ransom_interaction: "[prisoner|E]"
   pay_ransom_interaction_extra_icon: "$hook_extra_icon$"
   ransom_me_interaction: "Заплатити викуп за [Select_CString(ACTOR.IsPlayer, '', 'персонажа ' )][ACTOR.GetNamePossessiveOrMy][Select_CString(ACTOR.IsPlayer, 'його персонажа', '' )]"
-  ransom_me_interaction_desc: "Заплатити [Concept( 'gold', 'золото' )|E] або пообіцяти [Concept( 'favor', 'послугу' )|E] у обмін за ваш вихід з [Concept( 'prison', 'в'язниці' )|E]"
+  ransom_me_interaction_desc: "Заплатити [Concept( 'gold', 'золото' )|E] або пообіцяти [Concept( 'favor', 'послугу' )|E] у обмін за ваш вихід з [Concept( 'prison', 'в\\'язниці' )|E]"
   ransom_me_interaction_extra_icon: "$hook_extra_icon$"
   execute_prisoner_interaction: "Стратити"
   execute_prisoner_interaction_desc: "Переконатися, що [recipient.GetShortUINameNoTooltip] більше вас не турбуватиме"
@@ -452,7 +452,7 @@
   THEY_CANNOT_CREATE_CADET_BRANCH: "[CHARACTER.GetShortUIName|U] не може створити [Concept( 'cadet_branch', 'молодшу лінію' )|E]"
   is_married_and_spouse_is_dominant_partner: "[CHARACTER.GetShortUIName|U] перебуває в [Concept( 'matrilineal', 'матрилінійному' )|E] шлюбі, та [CHARACTER.GetHerHis] [Select_CString(CHARACTER.IsFemale, 'чоловік', 'дружина' )] знаходиться на службі у свого сюзерена"
   is_married_patrilineally_and_spouse_is_dominant_partner: "[CHARACTER.GetShortUIName|U] перебуває в [Concept( 'patrilineal', 'патрилінійному' )|E] шлюбі, та [CHARACTER.GetHerHis] [Select_CString(CHARACTER.IsFemale, 'чоловік', 'дружина' )] знаходиться на службі у свого сюзерена"
-  is_escaped_prisoner: "Ви недавно намагалися [Concept( 'imprison', 'ув'язнити' )|E] персонажа [CHARACTER.GetShortUIName|U]"
+  is_escaped_prisoner: "Ви недавно намагалися [Concept( 'imprison', 'ув\\'язнити' )|E] персонажа [CHARACTER.GetShortUIName|U]"
   DECISION_COST: "Вартість:"
   EFFECTS_ON_ME: "#high [Character.GetUINameNoTooltip|U]#! [Select_CString(Character.IsPlayer, 'отримайте', 'отримає' )] ефекти"
   RELEASE_GAIN_HOOK: "Отримано [hooks|El]"
@@ -860,7 +860,6 @@
   char_interaction.0180.desc.liege: "Як ваш сеньйор, я вимагаю, щоб ви покинули свою фальшиву віру й негайно приєдналися до мене як товариша [actor.GetFaith.GetAdherentName]."
   char_interaction.0180.a: "Гадаю, вибору в мене намає."
   char_interaction.0181.desc: "Дуже добре, я прийму [actor.GetFaith.GetAdjective] Віру, хоча буде дивно відмовлятися від стільки всього знайомого."
-  char_interaction.0182.desc: "Я ніколи не покину свою Віру і натомість засную свій Дім!"
   char_interaction.0182.a: "Яка прикрість..."
   char_interaction.0190.desc: "Дуже добре, я прийму [actor.GetFaith.GetAdjective] Віру, хоча буде дивно відмовлятися від стільки всього знайомого."
   char_interaction.0191.desc: "Моя Віра в основі мого єства — я ніколи не покину її."
@@ -896,7 +895,7 @@
   marriage_interaction.0010.d_desc: "Я приймаю вашу пропозицію про заручини."
   marriage_interaction.0010.e_desc: "Я, [secondary_recipient.GetFirstName], з радістю приймаю вашу руку!"
   marriage_interaction.0010.mid.a_desc: "\n\nВаш [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName] і мій [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], будуть поєднані у священному шлюбі."
-  marriage_interaction.0010.mid.a_no_acquaintance_desc: "\n\nВаш придворний, [secondary_actor.GetFirstName], і мій [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], будуть поєднані у священному шлюбі."
+  marriage_interaction.0010.mid.a_no_acquaintance_desc: "\n\n[Select_CString(secondary_actor.IsFemale, 'Ваша придворна', 'Ваш придворний' )], [secondary_actor.GetFirstName], і [Select_CString(secondary_recipient.IsFemale, 'моя', 'мій' )] [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], будуть поєднані у священному шлюбі."
   marriage_interaction.0010.mid.b_desc: "\n\nВи будете об’єднані з моїм [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], у священному шлюбі."
   marriage_interaction.0010.mid.c_desc: "\n\nЯ милостиво приймаю руку вашого [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName], щоб з'єднатися у нашому святому шлюбі."
   marriage_interaction.0010.mid.c_no_acquaintance_desc: "\n\nЯ милостиво приймаю руку вашого придворного, [secondary_actor.GetFirstName], у нашому святому шлюбі."
@@ -1531,3 +1530,6 @@
   offer_vassalization_interaction_aibehavior_rival_tt_2: "[secondary_recipient.GetSheHe|U] is your [rival|E]: $VALUE|=+0$"
   offer_vassalization_interaction_aibehavior_nemesis_tt_2: "[secondary_recipient.GetSheHe|U] is your [nemesis|E]: $VALUE|=+0$"
   offer_vassalization_interaction_aibehavior_dynasty_tt_2: "[secondary_recipient.GetSheHe|U] belongs to your [dynasty|E]: $VALUE|=+0$"
+  char_interaction:
+    0182:
+      desc: Я ніколи не покину свою Віру і натомість засную свій Дім!

@@ -6,7 +6,7 @@
   death_management.1000.plaguespouse: "Я можу лише мовчки спостерігати, як лікарі відходять від тіла мого [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))]. Я підходжу ближче, простягаю руку [dead_character.GetHerHis]. Долоня ще тепла.\n\n"
   death_management.1000.like: "Як серце може не розірватись від такого болю? Це неможливо! Втім, я тут і моє серце б'ється, хоч твоє й затихло. О [dead_character.GetFirstName], [Select_CString(dead_character.IsFemale, 'моя', 'мій' )] [dead_character.Custom('LoverPetName')]. Життя без тебе вже не буде таким як раніше."
   death_management.1000.neutral: "[Select_CString(dead_character.IsFemale, 'Моя люба', 'Мій любий')] [dead_character.GetFirstName]. Мабуть, між нами і не було любові, але гіркота втрати сильніша, ніж можна було уявити. Ви завжди були біля мене, мені ж здавалося, що це вже природно і продовжуватиметься вічно. Стільки всього так і залишилося несказаним..."
-  death_management.1000.dislike: "[Select_CString(dead_character.IsFemale, 'Дружино моя', 'Чоловіче мій' )], з твоїм останнім подихом я зазнаю полегшення. Може цього й потрібно соромитися, та між нами й справді не було кохання. Нарешті я можу почати нове життя!"
+  death_management.1000.dislike: "[Select_CString(dead_character.IsFemale, 'Дружино моя', 'Чоловіче мій')], з твоїм останнім подихом мене охопило полегшення. Можливо, мені має бути соромно, та між нами й справді не було кохання. Нарешті я можу почати нове життя!"
   death_management.1000.murder_wedding: "Яка несподівана смерть. Зовсім не запланована. Ніхто не міг цього передбачити!"
   death_management.1000.a: "Принаймні спогади залишаться зі мною."
   death_management.1000.b: "Спочивайте з миром, [dead_character.GetFirstNameNoTooltip]."

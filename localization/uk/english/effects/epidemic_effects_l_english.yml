@@ -1,8 +1,8 @@
 ﻿l_english:
   set_epidemic_outbreak_intensity_global: "Інтенсивність спалаху стає $NEW_VALUE|V$"
   set_epidemic_outbreak_intensity_global_past: "Outbreak intensity became $NEW_VALUE|V$"
-  set_epidemic_outbreak_intensity_third: "Outbreak intensity of [EPIDEMIC.GetName] becomes $NEW_VALUE|V$"
-  set_epidemic_outbreak_intensity_third_past: "Outbreak intensity of [EPIDEMIC.GetName] became $NEW_VALUE|V$"
+  set_epidemic_outbreak_intensity_third: "Інтенсивність спалаху [EPIDEMIC.GetName] стає $NEW_VALUE|V$"
+  set_epidemic_outbreak_intensity_third_past: "Інтенсивність спалаху [EPIDEMIC.GetName] стала $NEW_VALUE|V$"
   create_epidemic_outbreak_global: "$INTENSITY|V$ [EPIDEMIC_TYPE.GetName] outbreak appears"
   create_epidemic_outbreak_global_past: "$INTENSITY|V$ [EPIDEMIC_TYPE.GetName] outbreak appeared"
   create_epidemic_outbreak_third: "$INTENSITY|V$ [EPIDEMIC_TYPE.GetName] outbreak appears in [PROVINCE.GetName]"

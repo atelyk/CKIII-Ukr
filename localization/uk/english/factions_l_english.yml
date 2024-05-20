@@ -12,7 +12,7 @@
   FACTION_IMPRISONMENT_RETALIATION_WARNING: "#high Ув'язнення [recipient.GetShortUIName] може спровокувати [retaliating_faction.GetName] до бунту!#!"
   faction_demand.9001.t: "[retaliating_faction.GetName] У відповідь"
   FACTION_FAILED_IMPRISONMENT_RETALIATION: "[actor.GetShortUIName] несправедливо прийшла до спроби ув'язнення [recipient.GetShortUIName], який є одним членів нашої фракції."
-  FACTION_SUCCESSFUL_IMPRISONMENT_RETALIATION: "[actor.GetShortUIName] несправедливо ув'язнив [recipient.GetShortUIName], який був одним з членів нашої фракції."
+  FACTION_SUCCESSFUL_IMPRISONMENT_RETALIATION: "[actor.GetShortUIName] несправедливо [Select_CString(actor.IsFemale, 'ув\\'язнила', 'ув\\'язнив' )] [recipient.GetShortUIName], який був одним з членів нашої фракції."
   FACTION_IMPRISONMENT_RETALIATION_END: "\n\nТакий зухвалий напад на [retaliating_faction.GetName] можна розглядати лише як війну, тож якщо ми не захистимося зараз, нас неодмінно переб'ють поодинці!"
   FACTION_IMPRISONMENT_RETALIATION_OPT: "На війну!"
   #Independence Faction

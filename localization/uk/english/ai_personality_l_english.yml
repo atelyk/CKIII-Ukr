@@ -69,7 +69,7 @@
   zeal_strong_explanation: "This character is #Bold very zealous#! and will significantly more often join defensively against [holy_wars|E], pledge or donate to [great_holy_wars|E], convert [counties|E] or [vassals|E], go on [pilgrimage|E] [activities|E] and take general actions that further their [faith|E] (such as using the $seek_indulgences_interaction$ [interaction|E]). They are extremely unlikely to accept conversion to other Faiths."
   zeal_strong_neg_explanation: "This character is #Bold very cynical#! and is significantly more inclined to ignore [faith|E] in politics, accept demands from Faith-based [factions|E], and use Faith as a tool to further other interests. They are unlikely to care about [piety|E], and will almost never support religious authorities."
   vengefulness_noun: "[Select_CString( CHARACTER.IsFemale, 'Баламутка', 'Баламут' )]"
-  vengefulness_adj: "[Select_CString( CHARACTER.IsFemale, 'Злопам'ятна', 'Злопам'ятний' )]"
+  vengefulness_adj: "Злопам'ятність"
   vengefulness_neg_noun: "[Select_CString( CHARACTER.IsFemale, 'Примирителька', 'Примиритель' )]"
   vengefulness_neg_adj: "[Select_CString( CHARACTER.IsFemale, 'Незлоблива', 'Незлобливий' )]"
   vengefulness_strong_noun: "[Select_CString( CHARACTER.IsFemale, 'Злодійка', 'Злодій' )]"

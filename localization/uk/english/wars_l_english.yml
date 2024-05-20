@@ -50,7 +50,7 @@
   DEJURE_CB_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Де-юре війна"
   DEJURE_CB_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective]ий домен [DEFENDER.GetPrimaryTitle.GetName]"
   DEJURE_CB_DUCHY_NAME: "Захопити [TITLE.GetBaseName] #weak ([de_jure|E])#!"
-  DEJURE_CB_DUCHY_NAME_GENERIC: "Захопити [de_jure|E] [герцогство|E]"
+  DEJURE_CB_DUCHY_NAME_GENERIC: "Захопити [de_jure|E] [duchy|E]"
   DEJURE_CB_COUNTY_NAME: "Захопити [TITLE.GetBaseName] #weak ([de_jure|E])#!"
   DEJURE_CB_COUNTY_NAME_GENERIC: "Захопити [de_jure|E] [county|E]"
   DEJURE_CB_WAR_SPECIFIC_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Де-юре війна за [TITLE.GetBaseName]"

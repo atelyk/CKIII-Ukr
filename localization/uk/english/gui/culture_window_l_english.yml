@@ -71,7 +71,7 @@
   CULTURE_VIEW_TRADITIONS: "Традиції"
   CULTURE_VIEW_AESTHETICS: "Естетика"
   CULTURE_VIEW_HERITAGE_TEXT: "[CulturePillar.GetNameNoTooltip]а спадщина"
-  CULTURE_VIEW_LANGUAGE_TEXT: "[CulturePillar.GetNameNoTooltip]а мова"
+  CULTURE_VIEW_LANGUAGE_TEXT: "[CulturePillar.GetNameNoTooltip] мова"
   CULTURE_VIEW_MARTIAL_CUSTOM_TEXT: "Військова: [CulturePillar.GetNameNoTooltip]"
   CULTURAL_ACCEPTANCE_FROM_BORDER: "Межує з моєю культурою"
   CULTURAL_ACCEPTANCE_FROM_SHARED_REALM: "[Concept( 'culture_intermingling', 'Змішуються у володіннях' )|E]"

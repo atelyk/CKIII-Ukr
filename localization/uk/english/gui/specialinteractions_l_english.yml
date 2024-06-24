@@ -219,7 +219,7 @@
   GRANT_TITLES_REMAINS_AS_MY_VASSAL: "[CHARACTER.GetShortUINameNotMe] залишається вашим [Concept( 'vassal', 'васалом' )|E]"
   GRANT_TITLES_REMAINS_AS_VASSAL_OF: "[CHARACTER.GetShortUINameNotMe] залишиться [Concept( 'vassal', 'васалом' )|E] персонажа [TARGET_CHARACTER.GetShortUIName]"
   GRANT_TITLES_REMAINS_INDEPENDENT: "[CHARACTER.GetShortUINameNotMe] remains independent"
-  GRANT_TITLES_BECOME_MY_VASSAL: "[CHARACTER.GetShortUINameNotMe] стає вашим [Concept( 'vassal', 'васалом' )|E]"
+  GRANT_TITLES_BECOME_MY_VASSAL: "[Character.GetShortUINameNotMe] стає вашим [Concept( 'vassal', 'васалом' )|E]\n$EFFECT_LIST_BULLET$[Character.GetSheHe|U] матиме [VassalStance.GetTextIcon][VassalStance.GetName] [vassal_stance|E]"
   GRANT_TITLES_BECOME_VASSAL_OF: "[CHARACTER.GetShortUINameNotMe] стане [Concept( 'vassal', 'васалом' )|E] персонажа [TARGET_CHARACTER.GetShortUIName]"
   GRANT_TITLES_BECOME_INDEPENDENT: "[CHARACTER.GetShortUINameNotMe] набуває [independence|El], так як [CHARACTER.GetHerHis] [title_tier|El] стає рівним моєму"
   GRANT_TITLES_BECOME_VASSAL_OF_LIEGE: "[CHARACTER.GetShortUINameNotMe] стає [Concept( 'vassal', 'васалом' )|E] титула [TITLE.GetName], так як [CHARACTER.GetHerHis] [title_tier|El] тепер дорівнює моєму"

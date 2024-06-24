@@ -50,7 +50,7 @@
   WAR_OVERVIEW_ALLIES_RIGHT: "[allies|E] #weak ([GetDataModelSize( WarOverviewWindow.GetRightSideParticipantItems ) ])#!"
   WAR_OVERVIEW_SHOW_ALLIES: "#T Подивитися [Concept( 'allies', 'союзи' )|E]#!"
   WAR_OVERVIEW_TOTAL_SOLDIERS: "Загальне число [soldier|El]"
-  WAR_PARTICIPANT_SOLDIERS: "[soldiers|E]: [soldier_i]$SOLDIERS$\n$knight_culture_player_plural$: [knight_i]$knight_culture_player_plural_no_tooltip$"
+  WAR_PARTICIPANT_SOLDIERS: "[soldiers|E]: [soldier_i]$SOLDIERS$\n$knight_culture_player_plural$: [knight_i]$KNIGHTS$"
   WAR_OVERVIEW_HOSTAGE_OFFER: "Offer"
   WAR_OVERVIEW_HOSTAGE_DEMAND: "Demand"
   WAR_OVERVIEW_HOSTAGE_INFO: "Choose a member of your family to be a offered as a [hostage|E], or demand a family member of opponent to join your court as a [hostage|E]. Likelihood of acceptance will be affected."

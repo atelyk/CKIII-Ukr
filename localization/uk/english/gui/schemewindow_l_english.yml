@@ -291,7 +291,7 @@
   INTRIGUE_WINDOW_MY_SECRETS_TITLE: "Your [secrets|E]"
   INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NUM: "Known by [GetDataModelSize( IntrigueWindowSecretItem.GetKnownBy )] others"
   INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NONE: "Known to none"
-  INTRIGUE_WINDOW_MY_SECRETS_KNOWN_SHOW: "Show"
+  INTRIGUE_WINDOW_MY_SECRETS_KNOWN_SHOW: "Показати"
   INTRIGUE_WINDOW_MY_SECRETS_KNOWN_HIDE: "Hide"
   MY_HOOKS_ARE_EMPTY: "#weak You have no Hooks#!"
   SECRETS_KNOWN_TO_ME_IS_EMPTY: "#weak You know no Secrets#!"

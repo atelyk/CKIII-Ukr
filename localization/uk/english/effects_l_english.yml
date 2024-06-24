@@ -176,7 +176,7 @@
   I_CONVERTED_WITH_CONVERSION: "Ваша конфесія змінилася на [FAITH.GetName|V]\n$EFFECT_LIST_BULLET$ [Concept( 'close_family', 'Близькі родичі' )|E] можуть звернутися разом з вами\n$EFFECT_LIST_BULLET$ [vassals|E] можуть звернутися разом з вами"
   START_WAR_EFFECT_FIRST: "You start a war against [TARGET_CHARACTER.GetShortUIName] with the \"$CASUS_BELLI$\" [casus_belli|E]"
   START_WAR_EFFECT_THIRD: "[CHARACTER.GetShortUIName|U] starts a war against [TARGET_CHARACTER.GetShortUIName] with the \"$CASUS_BELLI$\" [casus_belli|E]"
-  START_WAR_EFFECT: "Розпочинає війну проти персонажа [TARGET_CHARACTER.GetShortUIName] з [Concept( 'casus_belli', 'казус белли' )|E] «$CASUS_BELLI$»"
+  START_WAR_EFFECT: "[CHARACTER.GetShortUIName|U] розпочинає війну проти персонажа [TARGET_CHARACTER.GetShortUIName] з [Concept( 'casus_belli', 'казус беллі' )|E] «$CASUS_BELLI$»"
   END_WAR_ATTACKER_VICTORY: "[WAR.GetActiveCB.GetAttacker.GetUIName] виграє війну [WAR.GetName]"
   END_WAR_DEFENDER_VICTORY: "[WAR.GetActiveCB.GetDefender.GetUIName] виграє війну [WAR.GetName]"
   END_WAR_EFFECT_WHITE_PEACE: "[WAR.GetName|V] завершується [white_peace|El]"

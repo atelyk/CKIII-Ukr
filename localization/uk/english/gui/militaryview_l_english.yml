@@ -130,6 +130,6 @@
   MV_CREATE_REGIMENT_MAX_SIZE_TT: "#T Солдат на розмір: [MenAtArmsType.GetStackSize]\n#!При розмірі 1, число [soldier|El] у складі цього [regiments|El] становитиме [MenAtArmsType.GetStackSize]. При кожному збільшенні розміру підрозділу додаватимуться нові солдати — по [MenAtArmsType.GetStackSize]."
   MV_CREATE_REGIMENT_SIZE: "[MenAtArmsType.GetStackSize] (Розмір 1)"
   MV_KNIGHTS_TT: "#T $knight_culture_player_plural$\n#!#I Натисніть, щоб [Select_CString( MilitaryView.AreKnightsShown, 'hide the list', 'show a list' )] доступних військ типу «$knight_culture_player_plural$»#!"
-  MV_LEVY_TT: "#T [levies|E]\n#!#I Натисніть, щоб [Select_CString( MilitaryView.AreLeviesShown, 'hide', 'show' )] детальну інформацію про ваше ополчення#!"
+  MV_LEVY_TT: "#T [levies|E]\n#!#I Клацніть, щоб [Select_CString( MilitaryView.AreLeviesShown, 'приховати', 'показати' )] детальну інформацію про ваше ополчення#!"
   STRENGTH_COMPARISON_TOTAL_STRENGTH: "@soldier_icon! [GuiMilitaryStrength.GetTargetTotal|0]"
   STRENGTH_COMPARISON_ALLIES: "[ally_i|E] [GuiMilitaryStrength.GetTargetAlliesCount]"

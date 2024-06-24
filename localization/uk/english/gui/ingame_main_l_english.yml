@@ -28,7 +28,7 @@
   MAPMODE_BARONIES: "#T #V Баронства#! Режим мапи#!"
   MAPMODE_PLAYERS_LABEL: "Гравці"
   MAPMODE_PLAYERS: "#T $MAPMODE_PLAYERS_LABEL$\n#!Показує всіх учасників багатокористувацької гри на мапі."
-  MAPMODE_RELIGIONS: "#T Релігії\n#!Shows the [faith|E] of each [county|E] on the map.\nIn striped areas the County and the [top_liege|E] have different Faiths.\nSelect a Faith to see its [holy_sites|E]Shows the [faith|E] of each [county|E] on the map.\nIn striped areas the County and the [top_liege|E] have different Faiths.\nSelect a Faith to see its [holy_sites|E]Shows the [faith|E] of each [county|E] on the map.\nIn striped areas the County and the [top_liege|E] have different Faiths.\nSelect a Faith to see its [holy_sites|E]."
+  MAPMODE_RELIGIONS: "#T Конфесії\n#!Показати, яка [faith|El] в кожному [Concept( 'county', 'графстві' )|E] на мапі.\nЯкщо графство та [top_liege|El] мають різну конфесію, область буде забарвлена в смужку.\nВиберіть конфесію, щоб побачити її [holy_sites|El]."
   MAPMODE_SIMPLE_TERRAIN_NAME: "Тип місцевості"
   MAPMODE_SIMPLE_TERRAIN: "#T $MAPMODE_SIMPLE_TERRAIN_NAME$\n#!Показати на мапі типи місцевості всіх баронств."
   MAPMODE_COUNTY_DEVELOPMENT_NAME: "@development_icon! Розвиток"

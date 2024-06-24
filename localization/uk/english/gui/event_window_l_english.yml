@@ -1,5 +1,5 @@
 ﻿l_english:
-  EVENT_WINDOW_DAYS_REMAINING: "@warning_icon!#X Оскільки це мережева гра, цей варіант буде обрано автоматично за [EventWindow.GetDaysRemaining|V] дн.#!"
+  EVENT_WINDOW_DAYS_REMAINING: "@warning_icon!#X Оскільки це мережева гра, цей варіант буде обрано автоматично за [EventWindowData.GetDaysRemaining|V] дн.#!"
   EVENT_WINDOW_OPTION_AVAILABLE_SKILL: "Цей варіант відкриває мені моє [skill|El] «[SkillItem.GetName]»"
   EVENT_WINDOW_OPTION_AVAILABLE_TRAIT: "Цей варіант відкриває мені мою [trait|El] «[Trait.GetName(GetPlayer)]»"
   EVENT_WINDOW_OPTION_AVAILABLE_DREAD: "This option is available because of your [dread|E]"

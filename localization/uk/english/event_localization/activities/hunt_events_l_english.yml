@@ -241,7 +241,7 @@
   hunt.1015.d: "«Це просто... нещасний випадок»."
   hunt.1015.e: "Я знаю, як змусити [hated_participant.GetHerHis] забути про це."
   hunt.1016.desc: "«[ROOT.Char.GetTitledFirstNameNoTooltip], ви?» — \n\n[hated_participant.GetTitledFirstName] переводить погляд з мого лука на стрілу, що встромилася в землю, а потім дивиться, як тікає [ROOT.Char.Custom('LocalAnimal')]. [ROOT.Char.Custom('TerrainType')] затихає. «Ха! Знову проблеми з влучністю, [ROOT.Char.GetLadyLord]?»"
-  hunt.1016.a: "Ну, почекай, [hated_participant.GetFirstNameNoTooltip]..."
+  hunt.1016.a: "Ну, почекай, [murder_target.GetFirstNameNoTooltip]..."
   hunt.1021.t: "$hunt_header$ Подалі від людей"
   hunt.1021.desc: "Я відриваюся від інших і раптом натикаюся на невеликий будиночок, під дахом якого, як з'ясовується, мешкає одна з найдивовижніших істот, яка колись зустрічалася мені в житті. [beautiful_peasant.GetSheHe|U] запрошує мене відпочити, і я з подивом виявляю, що у [Select_CString(beautiful_peasant.IsFemale, 'простої селянки', 'простого селянина')] зі мною куди більше спільного, ніж мені здавалося.\n\n«Вам обов'язково повертатися до полювання, [ROOT.Char.GetLadyLord]? Я ніколи не [Select_CString(beautiful_peasant.IsFemale, 'зустрічала', 'зустрічав)] таких, як ви...»"
   hunt.1021.a: "Що ж, якщо я затримаюсь трохи довше, мені доведеться залишитися на ніч..."

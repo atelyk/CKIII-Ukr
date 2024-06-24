@@ -5,7 +5,7 @@
   gruesome_festival_option_size: "Розмір фестивалю"
   gruesome_festival_size_small: "Малий фестиваль"
   gruesome_festival_size_small_desc: "$EFFECT_LIST_BULLET$ [opinion|E] зміни будуть відбуватися рідше.\n\n#weak Мешканці цього графства досить добре зберігають віру, щоб прийняти нас.#!"
-  gruesome_festival_size_medium: "Medium Festival"
+  gruesome_festival_size_medium: "Середній фестиваль"
   gruesome_festival_size_medium_desc: "$EFFECT_LIST_BULLET$ [opinion|E] зміни стають більш поширеними.\n\n#weak All the free[GetPlayer.Custom('WomenMenPeople_GenderPreference')] з мого володіння прийде!#!"
   gf_medium_option_valid: "Ви не володієте принаймні 2 графствами [rank|E]"
   gruesome_festival_size_large: "Великий фестиваль"
@@ -23,7 +23,7 @@
   gruesome_festival_sacrifice_animals_genuine_desc: "$gruesome_festival_sacrifice_animals_genuine_desc_help$\n\n#weak A decent array of animal sacrifices shall be enough.#!"
   gruesome_festival_sacrifice_animals_genuine_desc_help: "$gruesome_festival_sacrifice_animals_only.regular.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.regular.piety$"
   #Option loc for animals if you only rule over a faith allowing gruesome festivals
-  gruesome_festival_sacrifice_animals_poser: "Animals"
+  gruesome_festival_sacrifice_animals_poser: "Тварини"
   gruesome_festival_sacrifice_animals_poser_desc: "$gruesome_festival_sacrifice_animals_poser_desc_help$\n\n#weak A decent array of animal sacrifices shall be enough.#!"
   gruesome_festival_sacrifice_animals_poser_desc_help: "$gruesome_festival_sacrifice_animals_only.regular.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n $EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.regular.piety.loss$"
   #Animals Help Text
@@ -52,11 +52,11 @@
   gruesome_festival_sacrifice_animals_only.magnificent.piety.loss: "#negative_value Small#! [piety_i][piety|E] loss"
   ### HUMANS
   #GENUINE
-  gruesome_festival_sacrifice_humans_genuine: "Human"
+  gruesome_festival_sacrifice_humans_genuine: "Людина"
   gruesome_festival_sacrifice_humans_genuine_desc: "$gruesome_festival_sacrifice_humans_genuine_desc_help$\n\n#weak Tradition matters. [GetPlayer.GetFaith.PantheonTerm|U] shall taste human blood.#!"
   gruesome_festival_sacrifice_humans_genuine_desc_help: "$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.regular.opinion$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.offended_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.regular.piety$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.optional_victim_picker$[SelectLocalization( ActivityPlanner.GetSingleLocationPhase.GetLocation.GetCounty.GetFaith.HasParameterByKey('cannibalism_legal'), 'gruesome_festival_sacrifice_human_sacrifice.become_cannibal', '')]"
   #POSER
-  gruesome_festival_sacrifice_humans_poser: "Human"
+  gruesome_festival_sacrifice_humans_poser: "Людина"
   gruesome_festival_sacrifice_humans_poser_desc: "$gruesome_festival_sacrifice_humans_poser_desc_help$\n\n#weak Tradition matters. [GetPlayer.GetFaith.PantheonTerm|U] shall taste human blood.#!"
   gruesome_festival_sacrifice_humans_poser_desc_help: "$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.regular.opinion$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.offended_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.regular.piety.loss$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_human_sacrifice.optional_victim_picker$[SelectLocalization( ActivityPlanner.GetSingleLocationPhase.GetLocation.GetCounty.GetFaith.HasParameterByKey('cannibalism_legal'), 'gruesome_festival_sacrifice_human_sacrifice.become_cannibal', '')]"
   #Humans Help Text

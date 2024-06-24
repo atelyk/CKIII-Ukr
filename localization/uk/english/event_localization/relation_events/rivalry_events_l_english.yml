@@ -181,7 +181,7 @@
   rivalry.3002.t: "Ворог мого друга"
   rivalry.3002.desc: "[Select_CString(friend.IsFemale, 'Моя', 'Мій' )] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sCharacter('friend') )] [friend.GetTitledFirstName] останнім часом страждає від нападок: [rival.GetTitledFirstName] [Select_CString(rival.IsFemale, 'обрала', 'вибрав' )] [SCOPE.sCharacter('friend').GetHerHis] метою своїх підступів.\n\nЯк я можу залишити безкарним таке поводження з [Select_CString(friend.IsFemale, 'моєю подругою', 'моїм другом' )]?"
   rivalry.3002.a: "Я відкидаю тебе, [rival.GetTitledFirstNameNoTooltip]!"
-  rivalry.3002.b: "[rival.GetTitledFirstName] не [Select_CString(rival.IsFemale, 'зобов'язана', 'зобов'язаний' )] знати про мої почуття."
+  rivalry.3002.b: "[rival.GetTitledFirstName] не [Select_CString(rival.IsFemale, 'зобов\\'язана', 'зобов\\'язаний' )] знати про мої почуття."
   rivalry.3003.t: "Пацюки збираються"
   rivalry.3003.desc: "[first_friend.GetTitledFirstName] [Select_CString(ROOT.from.IsFemale, 'відкинула', 'відкинув' )]мене за те, що я і [first_friend.GetHerHis] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sCharacter('friend') )] [friend.GetTitledFirstName] — вороги."
   rivalry.3003.a: "Бе! Стадо баранів."

@@ -108,7 +108,7 @@
   COURT_LANGUAGES_SELECTION_TOOLTIP_TOP_LIEGE: "\n#I Клацни, щоб обрати $COURT_LANGUAGES_MAP_MODE_TOP_LIEGE$#!"
   ECONOMY_MAP_TOOLTIP_ENTRY: "\n[HOLDING.GetType.GetName] of [HOLDING.GetNameNoTooltip]: @gold_icon![HOLDING.GetIncome|+=1]/month"
   ECONOMY_MAP_TOOLTIP: "#T County of [ROOT.Province.GetCounty.GetName]#!\n[GetEconomyMapModeTooltip( ROOT.Province )]"
-  COUNTY_CONTROL_MAP_MODE_TOOLTIP: "#T County [control|e] of [ROOT.Province.GetCounty.GetName]: [ROOT.Province.GetCounty.GetControlLevelOutOfMax]#!\n[ROOT.Province.GetCounty.GetCountyControlEffectsDesc]\n\n[ROOT.Province.GetCounty.GetCountyControlIncreaseDesc]"
+  COUNTY_CONTROL_MAP_MODE_TOOLTIP: "#T County [control|e] of [ROOT.Province.GetCounty.GetName]: [ROOT.Province.GetCounty.GetControlLevelOutOfMax]#!\n[ROOT.Province.GetCounty.GetCountyControlEffectsDesc]"
   ADDITIONAL_MAPMODES: "Додаткові режими"
   ADDITIONAL_MAP_SETTINGS: "Additional Settings"
   ZOOM_LEVEL_PAPER_MAP: "Паперова мапа"

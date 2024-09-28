@@ -8,7 +8,7 @@
   GHW_ATTACKERS_VS_DEFENDERS: "[GreatHolyWar.GetAttackerStrength] vs [GreatHolyWar.GetDefenderStrength]"
   GHW_TT_ATTACKERS_VS_DEFENDERS: "#T $GHW_RELATIVE_STRENGTH$\n#!Total Attacker [soldiers|E]: [GreatHolyWar.GetAttackerStrength]\nTotal Defender Soldiers: [GreatHolyWar.GetDefenderStrength]"
   GHW_RELATIVE_STRENGTH: "Relative Military Strength"
-#  GHW_SEE_PARTICIPANTS: "See Participants"
+# GHW_SEE_PARTICIPANTS: "See Participants"
   GHW_WAR_CHEST_LABEL: "[war_chest|E]"
   pledge_attacker: "Join the [great_holy_war.GetFaith.Custom('GHWName')] for [great_holy_war.ghw_target_kingdom.GetName]"
   pledge_defender: "Oppose the [great_holy_war.GetFaith.Custom('GHWName')] for [great_holy_war.ghw_target_kingdom.GetName]"

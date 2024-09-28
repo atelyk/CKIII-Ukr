@@ -1,7 +1,7 @@
 ﻿l_english: 
 
   ##################################################
-  #   /|\ ^._.^ /|\    CLAN EVENTS   /|\ ^._.^ /|\
+  #  /|\ ^._.^ /|\  CLAN EVENTS  /|\ ^._.^ /|\
   ##################################################
 
 #Usury against Unity, by Ola Jentzsch 
@@ -121,7 +121,7 @@
 
   #A Proper Paymaster, by Ola Jentzsch
   fp3_clan.8011.t: "A Proper Paymaster"
-  fp3_clan.8011.desc: "Never one to be short on ideas for how to improve the realm's revenues, [competent_tax_collector.GetName] approach me as I perform a routine troop inspection.\n\n"Oh [ROOT.Char.GetTitleTierName], I have noticed that in your own domain, local minor magnates are ever trying to engorge their purses at the expense of their troops. I suggest you give me the authority to oversee soldier's payments, then I could combat corruption to make sure that your army is funded in a more efficient fashion."\n\n"However, I foresee [concerned_marshal.GetTitledFirstName] becoming aggrieved, as all things concerning your soldiers have hitherto been [concerned_marshal.GetHerHis] domain.""  
+  fp3_clan.8011.desc: "Never one to be short on ideas for how to improve the realm's revenues, [competent_tax_collector.GetName] approach me as I perform a routine troop inspection.\n\n"Oh [ROOT.Char.GetTitleTierName], I have noticed that in your own domain, local minor magnates are ever trying to engorge their purses at the expense of their troops. I suggest you give me the authority to oversee soldier's payments, then I could combat corruption to make sure that your army is funded in a more efficient fashion."\n\n"However, I foresee [concerned_marshal.GetTitledFirstName] becoming aggrieved, as all things concerning your soldiers have hitherto been [concerned_marshal.GetHerHis] domain."" 
   fp3_clan.8011.a: "[concerned_marshal.GetSheHe|U] has had too much on [concerned_marshal.GetHerHis] plate anyhow..."
   fp3_clan.8011.b: "You can share this responsibility between you."
   fp3_clan.8011.c: "No, I will keep things as they are."

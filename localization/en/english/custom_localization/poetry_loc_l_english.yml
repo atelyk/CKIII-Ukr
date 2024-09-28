@@ -63,10 +63,10 @@
   ##################################################
   # Title Words
   ## Seasons
-  generatepoem_title_spring: "Spring"
-  generatepoem_title_summer: "Summer"
-  generatepoem_title_autumn: "Autumn"
-  generatepoem_title_winter: "Winter"
+  generatepoem_title_spring: "spring"
+  generatepoem_title_summer: "summer"
+  generatepoem_title_autumn: "autumn"
+  generatepoem_title_winter: "winter"
   ## Emotions
   ### Romance
   generatepoem_title_love: "Love"

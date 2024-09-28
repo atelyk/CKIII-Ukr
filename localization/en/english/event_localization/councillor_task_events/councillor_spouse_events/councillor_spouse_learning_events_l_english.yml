@@ -70,8 +70,8 @@
   councillor_spouse_learning.2602.d: "Spy network management."
   councillor_spouse_learning.2602.e: "Theology."
 
-  councillor_spouse_learning.1304.desc: "Spouse Is Patron of [religious_vassal.GetTitledFirstNameNoTooltip]"
-  councillor_spouse_learning.1305.desc: "Spouse's Piety Impresses The [religious_head.GetTitleAsNameNoTooltip]"
+  councillor_spouse_learning.1304.desc: "Spouse is Patron of [religious_vassal.GetFaith.AltPriestTermPlural]"
+  councillor_spouse_learning.1305.desc: "Spouse's Piety Impresses the [religious_head.GetTitleAsNameNoTooltip]"
 
 
 

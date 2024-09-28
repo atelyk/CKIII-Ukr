@@ -1,6 +1,8 @@
 ﻿l_english:
   FACTIONS_WINDOW: "Фракції"
   FACTIONS_WINDOW_MY_FACTIONS: "Проти вашого сюзерена"
+  MY_LIEGE: "your Liege"
+  MY_CONTRACT_TARGET: "Contract Targets"
   FACTIONS_WINDOW_MY_FACTIONS_TT: "Показати фракції, до яких ви належите"
   FACTIONS_WINDOW_TARGETING_LIEGE_TT: "Показати фракції, ціль яких — твій сюзерен"
   FACTIONS_WINDOW_TARGETING_FACTIONS: "Проти вас"

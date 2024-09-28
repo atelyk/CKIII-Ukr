@@ -56,3 +56,5 @@
   STEWARDSHIP_LIFESTYLE_PERK_POINTS_TRIGGER: "Stewardship lifestyle perk points: $NUM|V0$"
   INTRIGUE_LIFESTYLE_PERK_POINTS_TRIGGER: "Intrigue lifestyle perk points: $NUM|V0$"
   LEARNING_LIFESTYLE_PERK_POINTS_TRIGGER: "Learning lifestyle perk points: $NUM|V0$"
+  LIFESTYLE_BREAKDOWN_PASSIVE_GAIN: "#bold Passive Gain#!"
+  LIFESTYLE_BREAKDOWN_MONTHLY_GAIN: "#bold Monthly Gain#!"

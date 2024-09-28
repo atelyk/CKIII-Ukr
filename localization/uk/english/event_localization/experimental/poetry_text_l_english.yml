@@ -25,19 +25,19 @@
   0002.blank_verse_line_1_D: "Надзвичайно радісний і гордий:"
   #Second line
   0002.blank_verse_line_2_A: "Пішов шукати прохолоди в сад плодовитий."
-  0002.blank_verse_line_2_B: "  In vassalage he was a gallant knight,"
-  0002.blank_verse_line_2_C: "  Full seven years hath sojourned in Spain,"
-  0002.blank_verse_line_2_D: "  Cordres he holds, the walls are tumbled down,"
+  0002.blank_verse_line_2_B: " In vassalage he was a gallant knight,"
+  0002.blank_verse_line_2_C: " Full seven years hath sojourned in Spain,"
+  0002.blank_verse_line_2_D: " Cordres he holds, the walls are tumbled down,"
   #Third line
   0002.blank_verse_line_3_A: " There on a throne he sate, of marble blue,"
   0002.blank_verse_line_3_B: " First in prowess, he stood his lord beside."
   0002.blank_verse_line_3_C: " Conquered the land, and won the western main,"
   0002.blank_verse_line_3_D: " His catapults have battered town and tow'r."
   #Fourth line
-  0002.blank_verse_line_4_A: "  Round him his men, full twenty thousand, stood."
-  0002.blank_verse_line_4_B: "  And thus he spoke: \"Do not yourself affright!"
-  0002.blank_verse_line_4_C: "  Now no fortress against him doth remain,"
-  0002.blank_verse_line_4_D: "  Silver and gold and many a jeweled gown."
+  0002.blank_verse_line_4_A: " Round him his men, full twenty thousand, stood."
+  0002.blank_verse_line_4_B: " And thus he spoke: \"Do not yourself affright!"
+  0002.blank_verse_line_4_C: " Now no fortress against him doth remain,"
+  0002.blank_verse_line_4_D: " Silver and gold and many a jeweled gown."
   #Lines from the Song of Roland for now
   poetry.0003.t: "Поема: [ROOT.GetCharacter.Custom('theme_announcement')|UD]"
   #First line
@@ -59,7 +59,7 @@
   0003.line_4_A: "Вони, можливо, не візьмуть мене ніколи [ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D]"
   0003.line_4_B: "Забудеться [ROOT.GetCharacter.Custom('noun_specific_plural_two')|D], і це прекрасно."
   0003.line_4_C: "[ROOT.GetCharacter.Custom('noun_specific_singular_two')|D], штурмом взяв усі міста та замки,"
-  0003.line_4_D: "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D]  Silver and gold and many a jeweled gown."
+  0003.line_4_D: "[ROOT.GetCharacter.Custom('noun_abstract_singular_two')|D] Silver and gold and many a jeweled gown."
   0003.poetry_from: "[actor.GetTitledFirstName]надсилає вам вірш \n\n"
   #NOBILITY THEME WORDS
   theme_nobility: "дворянство"

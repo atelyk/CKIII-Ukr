@@ -24,4 +24,5 @@
   RP_RAISE_RAID_TOOLTIP_HEADER: "#T $RP_RAISE_RAID$#!\nЗібрати все [armies|El], найбільш близькі до цієї [Concept( 'rally_point', 'точки збору' )|El], в якості [Concept( 'raiders', 'грабіжників' )|El].\n#weak Якщо у вас є лише одна точка збору, тут будуть зібрані всі армії.#!"
   RP_RAISE_ALL_TOOLTIP_HEADER: "#T $RP_RAISE_ALL$#!\nЗібрати #emphasis усі#! ваші [armies|El] в цій точці — незалежно від відстані до інших [Concept( 'rally_point', 'точок збору' )|El]."
   RP_MOVE_RALLY_POINT: "#T Перемістити точку збору\n#! #I Інший спосіб: натисніть ПКМ у потрібній точці мапи#!"
+  RP_CANNOT_MOVE_RALLY_POINT: "#X Landless characters cannot move their [rally_point|E]#!"
   RP_RAISE_BLOCK_AT_WAR: "@warning_icon!#X Ти не можеш підняти [raiders|E] у стані [war|E]#!"

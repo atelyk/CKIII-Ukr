@@ -12,3 +12,4 @@
   KNIGHTS_VIEW_TITLE_FORCE_TT: "#T Змусити персонажа [Character.GetShortUIName] зайняти посаду $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis обов'язково#! приєднається до моєї [armies|El] як $knight_culture_player_no_tooltip$ незалежно від того, яка у [Select_CString(Character.IsFemale, 'неї', 'нього' )] [prowess|El]. [Character.GetSheHe|U] може зайняти місце людини з більш високою доблестю."
   KNIGHTS_CURRENT_MAX: "[GetKnightCount( GetPlayer.Self )|V]/[GetKnightLimit( GetPlayer.Self )|V]"
   KNIGHTS_SUBHEADER: "Придатні [Concept( 'courtiers', 'придворні' )|E] та [Concept( 'vassals', 'васали' )|E]"
+  KNIGHTS_SUBHEADER_LANDLESS_ADVENTURER: "Eligible [followers|E]"

@@ -85,6 +85,8 @@
   ACCOLADE_HISTORY: "Історія Лицарів"
   SHOW_ACCOLADE_HISTORY: "Показати $ACCOLADE_HISTORY$"
   ACCOLADE_HISTORY_ENTRY_DATE: "Став [acclaimed_knights|E] на [AccoladeHistoryEntry.GetAcclaimedDate.GetString]"
+  ACCOLADE_NO_SUCCESSOR_FOUND: "No suitable successor found in your court."
+  ACCOLADE_SUCCESSOR_REQUIREMENT_HEADER: "[accolade_type|E]: [ACCOLADE.GetPrimaryType.GetName]"
   ACCOLADE_UNSUNG: "Неоспіваний"
   ACCOLADE_ESTABLISHED: "Встановлено"
   ACCOLADE_RECOGNIZED: "Визнано"

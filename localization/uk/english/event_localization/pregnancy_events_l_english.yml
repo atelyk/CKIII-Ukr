@@ -21,6 +21,7 @@
   pregnancy.1103.desc: "Я пишу повідомити, що я вагітна, і поза всяким сумнівом ти є батьком цієї дитини.\n\nОскільки ми були в шлюбі, коли вона була зачата, на ній немає плями бастарда. Після свого народження, вона стане твоїм законним нащадком."
   pregnancy.1103.desc_concubine: "Я пишу повідомити, що я вагітна, і поза всяким сумнівом ти є батьком цієї дитини.\n\nОскільки ми були разом, коли вона була зачата, на ній немає плями бастарда. Після свого народження, вона стане твоїм законним нащадком."
   pregnancy.1103.a: "Гаразд."
+  pregnancy_not_first_child_message_title: "[spouse.Custom2('RelationToMe', SCOPE.sC('mother'))|U] Falls Pregnant"
   pregnancy_not_first_child_message: "Ваша [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], носить вашу дитину"
   pregnancy.2001.t: "Поза шлюбом"
   pregnancy.2001.opening: "Я довго не могла повірити, але ознаки очевидні. Я вагітна!"

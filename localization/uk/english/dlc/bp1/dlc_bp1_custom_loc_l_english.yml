@@ -11,14 +11,14 @@
   partner_opinion_desc_esteemed: "шановний"
   partner_opinion_desc_imposing: "нав'язування"
   partner_opinion_desc_respectable: "поважний"
-  #RandomJewellry
-  random_jewellry_torc: "торк"
-  random_jewellry_pendant: "кулон"
-  random_jewellry_ring: "каблучка"
-  random_jewellry_medallion: "медальйон"
-  random_jewellry_bracelet: "браслет"
-  random_jewellry_bangle: "браслет"
-  random_jewellry_brooch: "брошка"
+  #RandomJewelry
+  random_jewelry_torc: "torc"
+  random_jewelry_pendant: "pendant"
+  random_jewelry_ring: "ring"
+  random_jewelry_medallion: "medallion"
+  random_jewelry_bracelet: "bracelet"
+  random_jewelry_bangle: "bangle"
+  random_jewelry_brooch: "brooch"
   #RandomPositiveLookAdjective
   random_positive_look_magnificent: "величний"
   random_positive_look_stupendous: "приголомшливий"

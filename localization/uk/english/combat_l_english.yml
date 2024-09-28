@@ -50,7 +50,6 @@
   #General Combat Actions
   frightened: "Переляк"
   COMBAT_PHASE_TOOLTIP: "[CombatWindow.GetPhaseTooltip]\n\n[CombatWindow.GetCombat.PhaseFrozenInfo]"
-  COMBAT_EFFECT_DESCRIPTION: "[advantage|E] викликає наступний ефект: $ADVANTAGE|0=+$\n"
   COMBAT_ACTION_HEADER: "$NAME$"
   COMBAT_ACTION_LEVEL: "Рівень: $VALUE|V$"
   default_maneuver_desc: "Виставити війська на поле бою в бойовому порядку."

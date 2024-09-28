@@ -332,6 +332,8 @@
   intrigue_scheming.1801.desc: "My [spymaster.GetCouncilTitle] [spymaster.GetFirstName] rushes into the room and hands me an anonymous letter [spymaster.GetSheHe] has just received. It appears we have a unique opportunity to acquire information about [enemy.GetTitledFirstNamePossessive] defense strategies.\n\nThe letter reads:\n\nIf you desire information about [enemy.GetFirstNamePossessiveNoTooltip] defenses, have your [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip] meet me in [meeting_place.GetName] within a fortnight. Bring plenty of gold.\"\"\"\""
   intrigue_scheming.1801.a: "Я був би дурнем, якби не дослідив це."
   intrigue_scheming.1801.b: "Це ніщо інше, як пусте здирництво."
+  intrigue_scheming.1801_landed: "My [spymaster.GetCouncilTitle] [spymaster.GetFirstName] rushes into the room"
+  intrigue_scheming.1801_laamp: "My [GetCourtPositionType('second_camp_officer').GetNameNoTooltip] [spymaster.GetFirstName] rushes into the tent"
   intrigue_scheming.1802.intro_desc: "[spymaster.GetFirstName] has returned from meeting with the anonymous informant. With a grave look on [spymaster.GetHerHis] face, [spymaster.GetSheHe] spreads out a sheaf of parchment inscribed with what appear to be my enemy's defense tactics."
   intrigue_scheming.1802.g_high_skill_desc: "$intrigue_scheming.1802.intro_desc$\n\nНаскільки я можу судити, ці схеми оборонних планів [enemy.GetFirstNamePossessive] виглядають настільки достовірними, наскільки це можливо."
   intrigue_scheming.1802.g_medium_skill_desc: "$intrigue_scheming.1802.intro_desc$\n\nСхеми, намальовані на пергаменті, мають сенс, але є кілька винятків, які не вписуються в наші знання про типову стратегію [enemy.GetFirstNamePossessive]."

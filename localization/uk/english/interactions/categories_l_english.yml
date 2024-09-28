@@ -2,6 +2,8 @@
   DIPLOMACY_ACTIONS: "дипломатичні дії"
   FRIENDLY_ACTIONS: "дружні дії"
   CLAN_ACTIONS: "clan actions"
+  ADMIN_ACTIONS: "administrative actions"
+  LAAMP_ACTIONS: "landless adventurer actions"
   HOSTILE_ACTIONS: "ворожі дії"
   DIARCH_ACTIONS: "дії з в'язнями"
   VASSAL_ACTIONS: "дії з васалами"

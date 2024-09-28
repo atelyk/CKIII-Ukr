@@ -79,6 +79,7 @@
   #click
   RIGHT_CLICK_DISMISS: "#I Натисніть ПКМ, щоб прибрати#!"
   REALM_TOOLTIP_HOLDER: "[ruler|E]: [TITLE.GetHolder.GetName]\nПоточна [line_of_succession|E]:\n[TITLE.GetLineOfSuccessionDesc]\n"
+  COA_REALM_SIZE_TOOLTIP: "Realm Size: [Character.RealmSize|V] [counties|E]"
   COA_REALM_TOOLTIP_CHARACTER: "#T [CHARACTER.GetPrimaryTitle.GetNameWithUnderlyingNoTooltip|U]#!\n[CHARACTER.GetGovernment.GetName] [CHARACTER.GetPrimaryTitle.GetRankConcept]-[rank|E] [realm|E]\n[ruler|E]: [CHARACTER.GetUIName|U]\nВійськова міць: [CHARACTER.GetMilitaryStrengthText|V] [soldiers|E]\nРозмір області: [CHARACTER.RealmSize|V] [counties|E]\n\n#S Успадкування#!\nЗакон про спадкування: $SUCCESSION_FORM_NAME$\n\n[line_of_succession|E]:\n[CHARACTER.GetPrimaryTitle.GetLineOfSuccessionDesc]"
   CHARACTER_WINDOW_REALM_TOOLTIP: "[Character.GetDefaultRealmFlagTooltipNoClickInfo]\n\n[Title.GetClickInfo]"
   COA_REALM_TOOLTIP_CHARACTER_CLICK_INFO: "#I [Select_CString(CHARACTER.IsShownInCharacterWindow, 'Натисніть для переходу', 'Натисніть для перегляду')]\nНатисніть ПКМ, щоб дізнатися, що може зробити [CHARACTER.GetShortUINameNoTooltip]#!"

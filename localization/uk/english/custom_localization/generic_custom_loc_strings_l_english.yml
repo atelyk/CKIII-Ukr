@@ -42,6 +42,9 @@
   gender_man: "чоловік"
   gender_woman: "жінка"
   gender_person: "особа"
+  gender_mans: "man's"
+  gender_womans: "woman's"
+  gender_persons: "person's"
   concubine: "наложниця"
   concubines: "наложниці"
   mama: "мама"
@@ -52,6 +55,7 @@
   spouse_groom: "наречений"
   relation_nemesis: "ворог"
   relation_rival: "суперник"
+  relation_grudge: "grudge"
   #Peasant Professions:
   peasant_profession_miller: "мірошник"
   peasant_profession_millers_wife: "дружина мельника"

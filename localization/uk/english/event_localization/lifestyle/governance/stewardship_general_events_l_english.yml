@@ -71,7 +71,7 @@
   stewardship_general.5013.a: "[carp_food.GetFirstNameNoTooltip], step back! Step back from... NOOO!"
   #Catch a servant stealing from me, by Linnéa Thimrén
   stewardship_general.5041.t: "Rogue Servant"
-  stewardship_general.5041.desc: "A lowly [ROOT.GetCharacter.Custom('lowly_servant_type')] has been stealing from my household!"
+  stewardship_general.5041.desc: "A lowly [ROOT.GetCharacter.Custom('lowly_servant_type')] has been stealing from my [ROOT.Char.Custom('GetCourt')]!"
   stewardship_general.5041.desc_highgod: "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and mercy in the name of [ROOT.Char.GetFaith.HouseholdGodName]."
   stewardship_general.5041.desc_other: "The [servant_character.GetWomanMan] cowers before me, sniveling about hungry children and pleading for mercy."
   stewardship_general.5041.desc_ending: "\n\n\"Please my [ROOT.Char.GetLadyLord], I will do anything you ask!\""

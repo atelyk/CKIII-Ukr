@@ -17,6 +17,7 @@
   BARONS_CANNOT_JOIN_INDEPENDENCE_FACTIONS: "[independence_factions|E] закриті для [Concept( 'barons', 'баронів' )|El]"
   CANNOT_START_FACTION_AGAINST_CHARACTER: "Не може бути сформована [faction|El] проти персонажа [CHARACTER.GetShortUIName]"
   CHARACTER_CANNOT_LOWER_CROWN_AUTHORITY: "[CHARACTER.GetShortUIName|U] already has the lowest possible [crown_authority|E]"
+  CHARACTER_CANNOT_LOWER_IMPERIAL_BUREAUCRACY: "[CHARACTER.GetShortUIName|U] already has the lowest possible [imperial_bureaucracy|E]"
   CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER: "У вас є [Concept( 'modifier', 'модифікатор' )|E], що перешкоджає вступу до [Concept( 'faction', 'фракцій' )|E]"
   IS_A_FACTION_MEMBER_TRIGGER: "Is a faction member"
   FACTION_CAN_PRESS_DEMANDS_TRIGGER: "Faction can press demands"

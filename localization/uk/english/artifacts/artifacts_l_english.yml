@@ -341,6 +341,7 @@
   feature_decoration_pattern_animals: "зооморфічний мотив"
   feature_decoration_pattern_bird: "величну птаху"
   feature_decoration_material_inlay_HSB_placeholder: "#D ЗАГЛУШКА#!"
+  feature_icon_decoration_pattern_saint: "[Artifact.GetOwner.Custom('PredeterminedSaintName')]"
   ###########
   #Quality and wealth #
   ###########
@@ -541,6 +542,9 @@
   feature_crown_decoration_filigree: "прикрашений витонченою філігранню"
   feature_crown_decoration_filigree_and_gem: "прикрашений витонченою філігранню з [Artifact.GetFeatureText( 'decoration_material_gem' )] по центрі"
   create_artifact_crown_tooltip: "[inspiration_owner.GetShortUIName] [Select_CString(inspiration_owner.IsFemale, 'викувала', 'викував')] вінець [SCOPE.Custom('ArtifactQuality')] якості"
+  #Icons
+  artifact_icon_name: "Icon of [newly_created_artifact.GetFeatureText('icon_decoration')]"
+  artifact_icon_description: "[SCOPE.Custom('ArtifactArticleWealth')] icon of [SCOPE.Custom('ArtifactQuality')] craftsmanship depicting [newly_created_artifact.GetFeatureText('icon_decoration')]"
   #Brooches
   artifact_brooch: "Брошка"
   artifact_brooch_pedestal: "$artifact_brooch$"
@@ -990,8 +994,8 @@
   #Easter eggs
   easteregg_artifact_elisabeth_plush: "Опудало з лисиці Єлизавети"
   easteregg_artifact_elisabeth_plush_description: "Опудало з лисиці Єлизавети - улюблена іграшка, що супроводжувала свою власницю протягом майже всього життя. Часто бачили, як Єлизавета спілкувалася з лисицею, складаючи складні шифри для свого роботодавця. Чучело заспокоює і надихає власника уподібнитися в хитромудрості лисиці."
-  easteregg_artifact_nicks_redolence: "Doctor's Redolence"
-  easteregg_artifact_nicks_redolence_description: "A small flask with a measure of — [ROOT.Char.Custom('GetComplexColor')] — fragrance in it, sure to make lord and lady alike swoon in its presence. A small inscription on its stopper reads \"For that which ails you.\""
+  easteregg_artifact_nicks_redolence: "The Final Fragrance"
+  easteregg_artifact_nicks_redolence_description: "A small flask with a measure of — [ROOT.Char.Custom('GetComplexColor')] — fragrance in it, sure to make lord and lady alike swoon in its presence. A small inscription on its stopper reads #EMP \"And now, the end is near...\"#!"
   easteregg_artifact_chad_book: "Анотована Енеїда"
   easteregg_artifact_chad_book_description: "Улюблена ілюстрована копія \"\"Енеїди\"\" Вергілія, затьмарена безліччю каракулів - деякі безглузді, деякі проникливі."
   easteregg_artifact_chad_dagger: "Кинджал"
@@ -1106,3 +1110,9 @@
   artifact_fine_brooch_description: "The subtle invocation of the [artifact.GetOwner.GetHouse.GetBaseName] name around the edges of this brooch has word of their legitimacy spreading fast."
   medicine_jar: "Medicinal Jar"
   medicine_jar_desc: "This thin-glazed earthenware contains rare and potent herbs, remedial minerals, and various dried animal parts - all used by physicians when treating diseases and balancing humors."
+  whale_fat_candles_name: "Whale-Fat Candles"
+  whale_fat_candles_description: "These candles have been rendered from the blubber of a terrible leviathan. They menace with spikes of whale fat."
+  warenne_coin: "Warenne Coin"
+  warenne_coin_description: "This coin bears the blue-and-yellow checkerboard insignia of the Warenne dynasty on the obverse. A dark splatter of blood marks its edge."
+  traitors_head: "Traitor's Head"
+  traitors_head_description: "A disembodied head, hacked neatly from its owner. It is more a message than a keepsake."

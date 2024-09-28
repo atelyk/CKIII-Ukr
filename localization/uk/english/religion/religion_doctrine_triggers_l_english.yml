@@ -28,6 +28,7 @@
   INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES: "Incompatible with the [doctrine|E] $doctrine_pilgrimage_name$: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName]"
   INCOMPATIBLE_DOCTRINE_MUMMIFICATION: "Incompatible with the [doctrine|E] $doctrine_funeral_name$: [GetFaithDoctrine('doctrine_funeral_mummification').GetBaseName]"
   INCOMPATIBLE_TENET_ANICONISM: "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_aniconism').GetName( GetPlayer.GetFaith )]"
+  rome_must_be_faithfully_restored_global_not: "[GetTitleByKey( 'e_roman_empire' ).GetName] must be faithfully restored"
   DOCTRINE_PLURALISM_FUNDAMENTALIST: "Несумісний з [doctrine|E] Фундаменталізм"
   NOT_DOCTRINE_PLURALISM_FUNDAMENTALIST: "Потребує [doctrine|E] Фундаменталізм"
   DOCTRINE_PLURALISM_PLURALISTIC: "Несумісний з [doctrine|E] Плюралізм"

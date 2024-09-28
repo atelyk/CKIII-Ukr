@@ -62,7 +62,7 @@
   dungeon_ongoing.0013.a: "[prisoner.GetTitledFirstNameNoTooltip] will go free today."
   dungeon_ongoing.0013.b: "[prisoner.GetSheHe|U] is my rightful prisoner, family be damned."
   dungeon_ongoing.0014.t: "Empty Echoes"
-  dungeon_ongoing.0014.desc: "The guards' whispers reach me. [letter_recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] has evidently heeded my letters and approached my gaoler [imprisoner.GetTitledFirstName]. Unfortunately, the [imprisoner.Custom('InsultNoun')] has hardened [imprisoner.GetHerHis] heart and turned [letter_recipient.GetTitledFirstNameNoTooltip] away. I am left no freer a [prisoner.GetWomanMan] than before."
+  dungeon_ongoing.0014.desc: "The guards' whispers reach me. [letter_recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] has evidently heeded my letters and approached my jailer [imprisoner.GetTitledFirstName]. Unfortunately, the [imprisoner.Custom('InsultNoun')] has hardened [imprisoner.GetHerHis] heart and turned [letter_recipient.GetTitledFirstNameNoTooltip] away. I am left no freer a [prisoner.GetWomanMan] than before."
   dungeon_ongoing.0014.a: "At least [letter_recipient.GetTitledFirstNameNoTooltip] is a good [ROOT.Char.Custom2('RelationToMeShort', letter_recipient)] to me."
   dungeon_ongoing.0014.b: "Will no-one help me?!"
   dungeon_ongoing.9001.t: "Всередині"

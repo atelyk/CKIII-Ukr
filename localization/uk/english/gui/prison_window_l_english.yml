@@ -6,6 +6,8 @@
   CAN_NOT_EXECUTE: "[CHARACTER.GetUIName] — неможливо стратити."
   IMPRISONED_TIME: "Термін ув'язнення: $VALUE|V$"
   PRISON_EMPTY: "В'язниця порожня"
+  PRISON_EMPTY.LANDED: "Your dungeons contain no one important"
+  PRISON_EMPTY.LAAMP: "Your camp houses no important prisoners"
   MASS_PRISONER_ACTIONS: "Масові дії"
   MASS_PRISONER_ACTION_RANSOM: "Масовий викуп"
   MASS_PRISONER_ACTION_RELEASE: "Масове звільнення"

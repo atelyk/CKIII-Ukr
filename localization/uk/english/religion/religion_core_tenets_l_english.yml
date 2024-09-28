@@ -326,3 +326,6 @@
   doctrine_parameter_master_assassin_court_position_unlocked: "Unlocks the [master_assassin|E] [court_position|E]"
   doctrine_parameter_death_is_glory: "Likelihood of death or injury in [battle|E]: #N +10%#!"
   doctrine_parameter_sanctioned_assassinations: "No [piety|e] loss for killing characters of a different [faith|E] through the [GetScheme('murder').GetTypeName] [schemes|E]"
+  #EP3 Tenets
+  tenet_household_gods_name: "Household Gods"
+  tenet_household_gods_desc: "We revere our #EMP Lares#! and the #EMP Genii#! — the protective spirits which watch over our abodes. Above all, we honor our glorious emperor, whose soul is charged with protecting all the realm."

@@ -25,6 +25,8 @@
   risky_wound_treatment_success_modifier_desc: "Дуже вдале лікування зменшило тяжкість рани цього персонажа."
   risky_wound_treatment_failure_modifier: "Невміле лікування рани"
   risky_wound_treatment_failure_modifier_desc: "Дуже невдале лікування значно погіршило стан рани цього персонажа."
+  recently_maimed_modifier: "Recently Maimed"
+  recently_maimed_modifier_desc: "This character was recently severely hurt."
   chastised_physician_modifier: "Покарання придворного лікаря"
   chastised_physician_modifier_desc: "Цей лікар подумає двічі наступного разу."
   exhausted_modifier: "Виснаження"

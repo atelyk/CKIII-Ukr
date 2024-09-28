@@ -63,3 +63,4 @@
   WAR_OVERVIEW_WHITE_PEACE_HOSTAGE_OFFER_VALUE: "[secondary_actor.GetShortUINamePossessive|U] цінується як [[hostage|E] для Білого Миру: $VALUE|0+=$"
   WAR_OVERVIEW_WHITE_PEACE_HOSTAGE_DEMAND_VALUE: "[secondary_recipient.GetShortUINamePossessive|U] ціннується як [hostage|E] для White Peace: $VALUE|0+=$"
   WAR_OVERVIEW_HOSTAGES_DISALLOWED: "[hostages|E] не можуть використовуватися для завершення [WarOverviewWindow.GetWar.GetActiveCB.GetType.GetName]."
+  WAR_OVERVIEW_HOSTAGES_DISALLOWED_LANDLESS_ADVENTURER: "[hostages|E] cannot be used by [adventurers|E]"

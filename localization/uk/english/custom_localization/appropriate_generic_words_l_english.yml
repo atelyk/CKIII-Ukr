@@ -36,6 +36,8 @@
   expensive_food_baked_truffles: "запечені трюфелі"
   expensive_food_spiced_breads: "пряні хлібці"
   expensive_food_mustard_rolls: "гірчичні крученики"
+  expensive_food_sturgeon_cheese: "sturgeon and cheeses stew"
+  expensive_food_honey_pork: "honey-roasted pork"
   #GetExpensiveMealAlt
   expensive_food_fine_cheeses: "смачний сир"
   expensive_food_almond_eggs: "мигдальна яєчня"
@@ -46,12 +48,15 @@
   expensive_dessert_pomegranate_cake: "гранатові торти"
   expensive_dessert_entremets: "антреме"
   expensive_dessert_quince_tarts: "айвові пироги"
+  expensive_dessert_honey_pudding: "rice and honey pudding"
+  expensive_dessert_quince_spoon: "quince spoon desserts"
   #GetExpensiveDessertInTheFace
   expensive_dessert_saffron_cake_face: "шафрановий пиріг"
   expensive_dessert_candied_figs_face: "пиріг з інжиром"
   expensive_dessert_pomegranate_cake_face: "гранатовий торт"
   expensive_dessert_entremets_face: "кремовий антрекот"
   expensive_dessert_quince_tarts_face: "айвові пироги"
+  expensive_dessert_honey_pudding_face: "a spoonful of rice and honey pudding"
   #GetExpensiveDrink
   expensive_drink_hippocras: "вишукані бегемоти"
   expensive_drink_imported_wine: "імпортні вина"
@@ -121,6 +126,8 @@
   empanada: "empanada"
   botuo: "bowl of botuo"
   stew: "bowl of stew"
+  sphoungata: "sphoungata omelette"
+  tarichos: "tarichos fish"
   sambusa_plural: "sambusas"
   honey_fritter_plural: "honey fritters"
   pizza_plural: "pizzas"
@@ -130,3 +137,4 @@
   empanada_plural: "empanadas"
   botuo_plural: "bowls of botuo"
   stew_plural: "bowls of stew"
+  sphoungata_plural: "sphoungata omelettes"

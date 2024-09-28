@@ -82,6 +82,12 @@
   heritage_tocharian_collective_noun: "Тохари"
   heritage_vlach_name: "$vlach$"
   heritage_vlach_collective_noun: "$vlach_collective_noun$"
+  heritage_caucasian_name: "Caucasian"
+  heritage_caucasian_collective_noun: "Caucasians"
+  heritage_syriac_name: "Syriac"
+  heritage_syriac_collective_noun: "Syriacs"
+  heritage_albanian_name: "Albanian"
+  heritage_albanian_collective_noun: "Albanians"
   #Dead heritages
   heritage_gothic_name: "Готичний"
   heritage_gothic_collective_noun: "Готи"

@@ -15,6 +15,7 @@
   DECLARE_WAR_CHOOSE_CASUS_BELLI_INSTRUCTION: "Choose a Casus Belli"
   DECLARE_WAR_ADDITIONAL_WARNING_STRONG_HOOK_LIEGE: "Буде використано [strong_hook|El], який ви маєте на [Concept( 'liege', 'сюзерена' )|El]"
   DECLARE_WAR_ADDITIONAL_WARNING_IS_HOLY_WAR: "[holy_war|E]: [rulers|El], конфесія яких — [DEFENDER.GetFaith.GetName], можуть приєднатися до [Concept( 'war', 'війни' )|El]"
+  DECLARE_WAR_ADDITIONAL_WARNING_ADMINISTRATIVE_RULER: "@warning_icon! [rulers|E] with [administrative_government|E] may spend [influence|E] to requisition additional [men_at_arms|E] [regiments|E] from their [governors|E]"
   DECLARE_WAR_ALLY_COUNT: "Allies ([CharacterItem.GetAllyCount])"
   DECLARE_WAR_STRENGTH_MESSAGE: "Their Military Strength is $STRENGTH|V$ to ours!"
   DECLARE_WAR_CHANGE_WAR_GOAL_LABEL: "[objectives|E]:"

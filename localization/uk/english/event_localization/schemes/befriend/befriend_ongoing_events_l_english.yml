@@ -86,6 +86,7 @@
   befriend_ongoing.4000.desc: "Я хочу, щоб [target.GetTitledFirstName] [Select_CString(target.IsFemale, 'стала', 'став' )] моїм другом, і знаю, що [target.GetSheHe] захоплюється військовими науками, — ми в цьому єдині. Нам, напевно, буде про що поговорити."
   befriend_ongoing.4000.a: "Я вирушу до н[target.GetHerHim]."
   befriend_ongoing.4000.a.tt: "#F Загальні інтереси можуть зблизити нас#!"
+  befriend_ongoing.4000.b: "I will find a way to leverage it."
   befriend_ongoing.4002.t: "Ми знаємо, що таке війна"
   befriend_ongoing.4002.desc: "[owner.GetTitledFirstName] зауважує, що теж захоплюється військовою справою та пропонує поговорити на близьку нам тему. Схоже, [owner.GetSheHe] досить [Select_CString(owner.IsFemale, 'обізнана', 'обізнана' )] у питаннях тактики та стратегії."
   befriend_ongoing.4002.a: "Нарешті якась цікава бесіда!"

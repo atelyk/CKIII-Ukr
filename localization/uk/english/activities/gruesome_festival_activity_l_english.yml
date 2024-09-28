@@ -13,36 +13,36 @@
   activity_gruesome_festival_destination_selection: "Ви можете розмістити лише $activity_gruesome_festival$ у провінціях, де є $gruesome_festivals_active_name$ [doctrine|E]."
   activity_gruesome_festival_conclusion_desc: "[GetActivityType( 'activity_gruesome_festival' ).GetName] зробив висновок"
   activity_gruesome_festival_guest_desc: "$BULLET_WITH_TAB$ Учасники можуть отримати [piety|E]\n$BULLET_WITH_TAB$ Учасники можуть отримати [opinion|E] інших учасниць та учасників\n$BULLET_WITH_TAB$ Учасники можуть втратити [stress_loss_i][stress|E]"
-  gruesome_festival_option_sacrifice: "Sacrifice Fodder"
+  gruesome_festival_option_sacrifice: "Жертвоприношення"
   gruesome_festival_option_sacrifice_poser_blotter: "$gruesome_festival_option_sacrifice_genuine_blotter$"
-  gf_suitable_rank_valid: "You are neither independent nor a King [rank|E] vassal"
-  gf_valid_county_faith: "You don't control any County of a faith that would allow a [GetActivityType( 'activity_gruesome_festival' ).GetName]"
+  gf_suitable_rank_valid: "Ти не є ані незалежним, ані васалом короля [rank|E]"
+  gf_valid_county_faith: "Ти не контролюєш жодного графства віри, яке б дозволило [GetActivityType( 'activity_gruesome_festival' ).GetName]"
   ### ANIMALS
   #Option loc for animals if you have a faith allowing gruesome festivals
-  gruesome_festival_sacrifice_animals_genuine: "Animals"
-  gruesome_festival_sacrifice_animals_genuine_desc: "$gruesome_festival_sacrifice_animals_genuine_desc_help$\n\n#weak A decent array of animal sacrifices shall be enough.#!"
+  gruesome_festival_sacrifice_animals_genuine: "Тварини"
+  gruesome_festival_sacrifice_animals_genuine_desc: "$gruesome_festival_sacrifice_animals_genuine_desc_help$\n\n#weak Достатньо буде гідної кількості жертвоприношень тварин.#!"
   gruesome_festival_sacrifice_animals_genuine_desc_help: "$gruesome_festival_sacrifice_animals_only.regular.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.regular.piety$"
   #Option loc for animals if you only rule over a faith allowing gruesome festivals
   gruesome_festival_sacrifice_animals_poser: "Тварини"
-  gruesome_festival_sacrifice_animals_poser_desc: "$gruesome_festival_sacrifice_animals_poser_desc_help$\n\n#weak A decent array of animal sacrifices shall be enough.#!"
-  gruesome_festival_sacrifice_animals_poser_desc_help: "$gruesome_festival_sacrifice_animals_only.regular.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n $EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.regular.piety.loss$"
+  gruesome_festival_sacrifice_animals_poser_desc: "$gruesome_festival_sacrifice_animals_poser_desc_help$\n\n#weak Достатньо буде гідної кількості жертвоприношень тварин.#!"
+  gruesome_festival_sacrifice_animals_poser_desc_help: "$gruesome_festival_sacrifice_animals_only.regular.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.regular.piety.loss$"
   #Animals Help Text
-  gruesome_festival_sacrifice_animals_only.regular.opinion: "$EFFECT_LIST_BULLET$ [opinion|E] and [county_opinion|E] gain with [GetPlayer.GetFaith.GetAdherentNamePlural] will be less than with human sacrifice"
-  gruesome_festival_sacrifice_animals_only.appeased_humsac_haters: "$EFFECT_LIST_BULLET$ Subjects that do not endorse human sacrifice will not lose [opinion|E] or [county_opinion|E]"
+  gruesome_festival_sacrifice_animals_only.regular.opinion: "$EFFECT_LIST_BULLET$ [opinion|E] та [county_opinion|E] отримується з [GetPlayer.GetFaith.GetAdherentNamePlural] буде меншим, ніж при жертвоприношеннях"
+  gruesome_festival_sacrifice_animals_only.appeased_humsac_haters: "$EFFECT_LIST_BULLET$ Суб'єкти, які не схвалюють жертвоприношення, не втрачають [opinion|E] або [county_opinion|E]"
   #gruesome_festival_sacrifice_animals_only.regular.piety: "#positive_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_animal_piety_value')|0]#! [piety_i] will be gained $gruesome_festival_activity.piety_gain.rump$"
-  gruesome_festival_sacrifice_animals_only.regular.piety: "#positive_value Small#! [piety_i][piety|E] gain"
+  gruesome_festival_sacrifice_animals_only.regular.piety: "#positive_value Small#! [piety_i][piety|E] отримує"
   #gruesome_festival_sacrifice_animals_only.regular.piety.loss: "#negative_value [GetPlayer.MakeScope.ScriptValue('gruesome_festival_regular_animal_piety_value')|0]#! [piety_i] will be lost $gruesome_festival_activity.piety_gain.rump$"
-  gruesome_festival_sacrifice_animals_only.regular.piety.loss: "#negative_value Small#! [piety_i][piety|E] loss"
+  gruesome_festival_sacrifice_animals_only.regular.piety.loss: "#negative_value Small#! [piety_i][piety|E] втрачає"
   ### MAGNIFICENT ANIMALS
   #Option loc for magnificent animals if you have a faith allowing gruesome festivals
   #GENUINE
-  gruesome_festival_sacrifice_animals_magnificent_genuine: "Animals - Majestic"
-  gruesome_festival_sacrifice_animals_magnificent_genuine_desc: "$gruesome_festival_sacrifice_animals_magnificent_genuine_desc_help$\n\n#weak Bring forth a beast or fowl for every [GetPlayer.Custom('WomanManPerson_GenderPreference')]!#!"
+  gruesome_festival_sacrifice_animals_magnificent_genuine: "Тварини - Величність"
+  gruesome_festival_sacrifice_animals_magnificent_genuine_desc: "$gruesome_festival_sacrifice_animals_magnificent_genuine_desc_help$\n\n#weak Принесіть звіра або птаха за кожний [GetPlayer.Custom('WomanManPerson_GenderPreference')]!#!"
   gruesome_festival_sacrifice_animals_magnificent_genuine_desc_help: "$gruesome_festival_sacrifice_animals_only.magnificent.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.magnificent.piety$"
   #Option loc for magnificent animals if you only rule over a faith allowing gruesome festivals
   #POSER
-  gruesome_festival_sacrifice_animals_magnificent_poser: "Animals - Majestic"
-  gruesome_festival_sacrifice_animals_magnificent_poser_desc: "$gruesome_festival_sacrifice_animals_magnificent_poser_desc_help$\n\n#weak Bring forth a beast or fowl for every [GetPlayer.Custom('WomanManPerson_GenderPreference')]!#!"
+  gruesome_festival_sacrifice_animals_magnificent_poser: "Тварини - Величність"
+  gruesome_festival_sacrifice_animals_magnificent_poser_desc: "$gruesome_festival_sacrifice_animals_magnificent_poser_desc_help$\n\n#weak Принесіть звіра або птаха за кожний [GetPlayer.Custom('WomanManPerson_GenderPreference')]!#!"
   gruesome_festival_sacrifice_animals_magnificent_poser_desc_help: "$gruesome_festival_sacrifice_animals_only.magnificent.opinion$\n$gruesome_festival_sacrifice_animals_only.appeased_humsac_haters$\n$EFFECT_LIST_BULLET$ $gruesome_festival_sacrifice_animals_only.magnificent.piety.loss$#!"
   #Magnificent Animals Help Text
   gruesome_festival_sacrifice_animals_only.magnificent.opinion: "$EFFECT_LIST_BULLET$ [opinion|E] and [county_opinion|E] gain with [GetPlayer.GetFaith.GetAdherentNamePlural] will be on-par with human sacrifice"

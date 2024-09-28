@@ -2,7 +2,7 @@
   do_not_execute_assassination_tooltip: "Do not attempt the assassination"
   assassination_ongoing.0001.t: "A Secret Sympathizer"
   assassination_ongoing.0001.desc: "My assassin, [assassin.GetName], has discovered that [secret_sympathizer.GetName], one of [target.GetNamePossessive] courtiers, is somewhat sympathetic to our cause — if not practicing the [ROOT.Char.GetFaith.GetName] faith openly.\n\n\"[secret_sympathizer.GetSheHe|U] is willing to aid us in this plot\", [assassin.GetFirstNameNoTooltip] explains. \"But in return, [secret_sympathizer.GetSheHe] wants to receive your blessings and your favor as a great champion of the [ROOT.Char.GetFaith.GetAdherentNameNoTooltip].\""
-  assassination_ongoing.0001.a: "I will speak well of [secret_sympathizer.GetHerHim] before [ROOT.Char.GetFaith.HighGodNameAlternate]."
+  assassination_ongoing.0001.a: "Я буду говорити добре з [secret_sympathizer.GetHerHim] перед [ROOT.Char.GetFaith.HighGodNameAlternate]."
   assassination_ongoing.0001.b: "I cannot bless every hopeless stray you bring before me."
   fp3_sympathizer_might_betray_you.flavor: "[secret_sympathizer.GetFirstNameNoTooltip] might hinder us, rather than help..."
   assassination_ongoing.0002.t: "Courting Fanatics"

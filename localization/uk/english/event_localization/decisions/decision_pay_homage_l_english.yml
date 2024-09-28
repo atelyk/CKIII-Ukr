@@ -1,15 +1,15 @@
 ﻿l_english:
   #Decision Menu Localization
-  pay_homage_decision: "Pay Homage"
-  pay_homage_decision_desc: "I can formally and publicly pledge allegiance to my liege, strengthening trust and the legitimacy of both our positions."
-  pay_homage_decision_tooltip: "Formally pledge [pay_homage|E] to your [liege|E]"
-  pay_homage_decision_effects: "You travel to [THIS.Char.GetLiege.GetTitledFirstNamePossessive] court to pay Homage"
+  pay_homage_decision: "Віддати шану\n"
+  pay_homage_decision_desc: "Я можу офіційно та публічно присягнути на вірність своєму сюзерену, зміцнюючи довіру та легітимність обох наших посад."
+  pay_homage_decision_tooltip: "Офіційно пообіцяйте [pay_homage|E] своєму [liege|E]"
+  pay_homage_decision_effects: "Ти їдеш до двору [THIS.Char.GetLiege.GetTitleFirstNamePossessive], щоб віддати шану"
   pay_homage_decision_confirm: "$pay_homage_decision$"
   pay_homage_decision_second_tooltip: "$DESC$\n$pay_homage_grace_tt$"
-  pay_homage_grace_tt: "#weak You can only pay Homage to the same liege once#!"
-  pay_homage_gift_warning_effect: "#weak Gifts increase the rewards of paying Homage#!\n$pay_homage_grace_tt$"
-  pay_homage_grace_valid_tt: "Has not paid [pay_homage|E] to [THIS.Char.GetLiege.GetTitledFirstName] before"
-  PAY_HOMAGE_DECISION_NEXT_STEP_BUTTON: "Choose Homage gift"
+  pay_homage_grace_tt: "#weak Ти можеш віддати шану одному сюзерену лише один раз#!"
+  pay_homage_gift_warning_effect: "#weak Подарунки збільшують винагороду за сплату шани#!\n$pay_homage_grace_tt$"
+  pay_homage_grace_valid_tt: "Не сплачував [pay_homage|E] [THIS.Char.GetLiege.GetTitledFirstName] раніше"
+  PAY_HOMAGE_DECISION_NEXT_STEP_BUTTON: "Обери подарунок шани"
   petition_available_adult_tt: "Is an available Adult"
   petition_available_liege_tt: "[THIS.Char.GetLiege.GetTitledFirstName] is an available Adult"
   #Submission

@@ -39,14 +39,14 @@
   incentivized_food_taster: "Incentivized Food Taster"
   ## Court Event 7400
   expensive_guests: "Extravagant Host"
-  expensive_guests_desc: "This ruler is known for their ludicrous hospitality."
-  inhospitable_court: "Inhospitable Host"
-  inhospitable_court_desc: "This ruler's court is not the most welcoming of places."
+  expensive_guests_desc: "Ці правителі відомі своєю безглуздою гостинністю."
+  inhospitable_court: "Негостинний господар"
+  inhospitable_court_desc: "Двір цього правителя - не найпривітніше місце."
   ## Court Event 7610
-  struggling_with_destrier: "Struggling with Destrier"
-  struggling_with_destrier_desc: "This character rides a full-sized warhorse, despite not really being experienced enough to control it."
-  practicing_with_palfrey: "Practicing with Palfrey"
-  practicing_with_palfrey_desc: "This character wasn't born in the saddle but has practiced their horsemanship with a suitable steed."
+  struggling_with_destrier: "Боротьба з Дестрієром"
+  struggling_with_destrier_desc: "Цей персонаж їздить на повнорозмірному бойовому коні, незважаючи на те, що не має достатнього досвіду, щоб керувати ним."
+  practicing_with_palfrey: "Практика з Палфрі"
+  practicing_with_palfrey_desc: "Цей персонаж не народився в сідлі, але практикувався у верховій їзді з відповідним конем."
   ## Court Event 7620
   peregrine_falcon: "Hunting Raptor"
   peregrine_falcon_desc: "This character owns a falcon or hawk, a prestigious bird used for hunting and showing off.\n#weak Improves $hunt_type_falconry$ [hunt_success_chance|E]#!"
@@ -57,7 +57,7 @@
   master_of_hunt_activity_bonus_desc: "This character's [GetCourtPositionType('master_of_hunt_court_position').GetName()] puts additional effort into every scheduled hunt, in gratitude for this character's support and loyalty.\n\nThe [GetActivityType('activity_hunt').GetName] [activity|E] costs slightly less [gold|E]."
   ## Court Event 7700
   honorable_ruler: "Honorable Ruler"
-  honorable_ruler_desc: "This character took the high road when they didn't have to."
+  honorable_ruler_desc: "Цей персонаж обирає високу дорогу, коли це не є обов'язковим."
   pigeon_thief: "Pet Pigeon"
   pigeon_thief_desc: "This character is always one step ahead thanks to their #EMP nefarious#! pet pigeon."
   profiting_from_pigeon_thievery: "Pigeon Informant"

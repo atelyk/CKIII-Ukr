@@ -1,5 +1,5 @@
 ﻿l_english:
-  EVENT_WINDOW_DAYS_REMAINING: "@warning_icon!#X Оскільки це мережева гра, цей варіант буде обрано автоматично за [EventWindowData.GetDaysRemaining|V] дн.#!"
+  EVENT_WINDOW_DAYS_REMAINING: "@warning_icon!#X Оскільки це мережева гра, цей варіант буде обрано автоматично за [EventWindowData.GetDaysRemaining|V] днів#!"
   EVENT_WINDOW_OPTION_AVAILABLE_SKILL: "Цей варіант відкриває мені моє [skill|El] «[SkillItem.GetName]»"
   EVENT_WINDOW_OPTION_AVAILABLE_TRAIT: "Цей варіант відкриває мені мою [trait|El] «[Trait.GetName(GetPlayer)]»"
   EVENT_WINDOW_OPTION_AVAILABLE_DREAD: "This option is available because of your [dread|E]"
@@ -18,7 +18,7 @@
   TOGGLE_DATA_SYSTEM: "#T Переглянути систему даних#!\nПереглянути, чи працює система даних. Стане видно дужки та інше. Так само як Localization.ToggleSkipDataSystemInLocOutput"
   COPY_EVENT_CONTENTS: "#T Копіювати контент події#!\nСкопіює текст події у буфер обміну"
   TOGGLE_DEBUG_OPTION_TOOLTIPS: "#T Show option tooltips#!\nDisplay all options next to the event window (global setting)"
-  COURT_EVENT_DAYS_REMAINING: "@warning_icon!#X Залишилось [CourtEventItem.GetDaysRemaining] дн.#!"
+  COURT_EVENT_DAYS_REMAINING: "@warning_icon!#X Залишилось [CourtEventItem.GetDaysRemaining] днів#!"
   COURT_EVENT_TIME_WARNING: "Останній із варіантів буде вибрано для вас через #HIGH [EventWindowData.GetDaysRemaining]#! дн."
   TRAVEL_EVENT_WINDOW_CURRENT_LOCATION: "Currently in:"
   TRAVEL_EVENT_WINDOW_NEXT_DESTINATION: "Next destination: ~[TravelPlanData.GetNextDestination.GetEstimatedArrivalDate.GetTimeToDate]"

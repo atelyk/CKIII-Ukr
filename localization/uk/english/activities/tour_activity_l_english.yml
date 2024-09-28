@@ -1,7 +1,7 @@
 ﻿l_english:
-  activity_tour_special_type_title: "[ActivityWindow.GetActivity.GetSpecialOption.GetOption.GetName] Success"
+  activity_tour_special_type_title: "[ActivityWindow.GetActivity.GetSpecialOption.GetOption.GetName] Успіх"
   activity_tour_special_type_desc: "[ActivityWindow.GetActivity.GetSpecialOption.GetOption.GetDescription]"
-  activity_tour_special_type_bar_segment_0_tt: "Bar Segment 1"
-  activity_tour_special_type_bar_segment_1_tt: "Bar Segment 2"
-  activity_tour_special_type_bar_segment_2_tt: "Bar Segment 3"
-  activity_tour_special_type_bar_segment_3_tt: "Bar Segment 4"
+  activity_tour_special_type_bar_segment_0_tt: "Сегмент бару 1"
+  activity_tour_special_type_bar_segment_1_tt: "Сегмент бару 2"
+  activity_tour_special_type_bar_segment_2_tt: "Сегмент бару 3"
+  activity_tour_special_type_bar_segment_3_tt: "Сегмент бару 4"

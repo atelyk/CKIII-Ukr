@@ -108,7 +108,7 @@
   hunt_opening_entourage_many_dangerous: "We have plenty of pairs of eyes, not to mention spears — the beast's reign of terror ends today!"
   hunt.0520.a: "There is no time to waste."
   hunt_header: "Полювання:"
-  hunt.1001.t: "$hunt_header$[ROOT.Char.Custom('LocalAnimal')|U]\n"
+  hunt.1001.t: "$hunt_header$[ROOT.Char.Custom('LocalAnimal')|U]"
   hunt.1001.desc_opening_courtier: "My [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.GetTitledFirstName], is the first to spot its [activity.Custom('GetAnimalFeature')]."
   hunt.1001.desc_opening: "Peering across the landscape, I suddenly double-take. There it is, [activity.Custom('GetAnimalFeature')] and all!"
   hunt.1001.desc_opening_courtier_plural: "My [ROOT.Char.Custom2('RelationToMeShort', hunt_participant)], [hunt_participant.GetTitledFirstName], is the first to spot the [activity.Custom('GetAnimalGroup')]."

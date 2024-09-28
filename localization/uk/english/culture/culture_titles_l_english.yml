@@ -495,7 +495,7 @@
   #Feudal / Tribal
   count_feudal_male_english: "Ерл"
   count_feudal_female_english: "Графиня"
-  county_feudal_english: "Earldom"
+  county_feudal_english: "Ерлдом"
   ### Anglo-Saxon ###
   #Feudal / Tribal
   baron_feudal_male_anglo_saxon: "Тан"
@@ -618,7 +618,7 @@
   emperor_feudal_female_turkish: "Султана аль-Муаззама"
   empire_feudal_turkish: "Імперія"
   ### Iranian ###
-  duke_khorezm_male_iranian_group: "Khwarezmshah"
+  duke_khorezm_male_iranian_group: "Хорезм"
   duke_khorezm_female_iranian_group: "Khwarezmbanebshen"
   duchy_khorezm_iranian_group: "Khwarezmshahdom"
   #Feudal / Clan

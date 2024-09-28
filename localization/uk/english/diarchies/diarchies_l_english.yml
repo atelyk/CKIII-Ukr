@@ -1,11 +1,11 @@
 ﻿l_english:
   ##################################################
   ##Misc
-  from_diarch_domain_limit_bonus: "Support from [regent|E]"
-  imprisonment_would_cause_regency_trigger.tt.imprisoned_abroad: "You are [imprisoned|E] abroad"
-  DIARCHY_TEMPORARY_OR_DESIGNATED_REGENT_WEDDING_ACCEPTANCE: "Reliable [regent|E]: $VALUE|=+0$"
+  from_diarch_domain_limit_bonus: "Підтримка  [regent|E]"
+  imprisonment_would_cause_regency_trigger.tt.imprisoned_abroad: "Ти  [imprisoned|E] закордоном"
+  DIARCHY_TEMPORARY_OR_DESIGNATED_REGENT_WEDDING_ACCEPTANCE: "Надійний [regent|E]: $VALUE|=+0$"
   DIARCHY_ENTRENCHED_REGENT_WEDDING_ACCEPTANCE: "[scales_of_power|E]: $VALUE|=+0$"
-  remove_strife_per_invited_powerful_vassal_effect.tt: "[host.GetShortUIName|U] lost #P [host.MakeScope.Var('strife_loss_total').GetValue|0]#! [strife|E] due to attending [powerful_vassals|E] from [host.GetLiege.GetPrimaryTitle.GetBaseName]"
+  remove_strife_per_invited_powerful_vassal_effect.tt: "[host.GetShortUIName|U] втрачено #P [host.MakeScope.Var('strife_loss_total').GetValue|0]#! [strife|E] через присутність [powerful_vassals|E] з [host.GetLiege.GetPrimaryTitle.GetBaseName]"
   family_member_is_civil_servant: "[family_member|E] is Civil Servant"
   civil_servant_salary_and_corruption: "Civil Servant Enrichment"
   ##################################################

@@ -904,7 +904,7 @@
   marriage_interaction.0010.mid.e_desc: "\n\nТи будеш заручений з моїм [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName]."
   marriage_interaction.0010.mid.f_desc: "\n\nЯ люб'язно прийму руку вашого [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName], коли прийде час."
   marriage_interaction.0010.mid.g_desc: "\n\nВаш [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName] і я будемо найкращою парою #EMP за всі часи#!!"
-  marriage_interaction.0010.mid.h_desc: "\n\n\\Ми з вами будемо найкращою парою #EMP#!!"
+  marriage_interaction.0010.mid.h_desc: "\n\nТи та я найкращою парою #EMP назавжди#!!"
   marriage_interaction.0010.gwedding.desc: "\n\nI also look forward to the promised [GetActivityType('activity_wedding').GetName]; try not to disappoint me."
   #Long life and many children
   marriage_interaction.0010.ending.a_desc: "\n\nНехай [recipient.GetFaith.HighGodName] подарує їм довге життя та багато дітей!"
@@ -929,7 +929,7 @@
   #Fruitful in spite of hatred
   marriage_interaction.0010.ending.d_desc: "\n\nНехай їхній шлюб буде плідним, наперекір попередній ворожнечі між ними."
   marriage_interaction.0010.ending.d_actor_desc: "\n\nНехай ваш шлюб буде плідним, попри попередню ворожнечу між вами."
-  marriage_interaction.0010.ending.d_recipient_desc: "\n\n\\Нехай наш шлюб буде плідним, всупереч попередньої ворожнечі між нами."
+  marriage_interaction.0010.ending.d_recipient_desc: "\n\nНехай наш шлюб буде плідним, всупереч попередньої ворожнечі між нами."
   marriage_interaction.0010.ending.d_both_desc: "\n\nНехай наш шлюб буде плідним, наперекір попередньої ворожнечі між нами, мій [secondary_actor.Custom('InsultAdjective')] [secondary_actor.Custom('WifeHusband')]!"
   #Perfect match
   marriage_interaction.0010.ending.e_desc: "\n\nЯ ніколи не бачив такої ідеальної пари, вони створені одне для одного!"

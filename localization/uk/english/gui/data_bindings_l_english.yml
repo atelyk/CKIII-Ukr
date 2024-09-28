@@ -3,7 +3,7 @@
   ##Standard Grammar
   ##################################################
   ##Contracted Grammar
-  grammar_dont: "don't"
-  grammar_doesnt: "doesn't"
+  grammar_dont: "не"
+  grammar_doesnt: "не має"
 ##################################################
 ##Specific Grammar

@@ -289,7 +289,7 @@
   ep1_flavor.2040.b: "\"Fetch my coin-purse!\""
   ep1_flavor.2040.c: "\"Ha! '#EMP [exotic_blade_holder.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTierNoTooltip]#!'... what tripe! Out with you!\""
   #The Greater Good
-  ep1_flavor.2060.t: "The Greater Good"
+  ep1_flavor.2060.t: "Вище благо"
   ep1_flavor.2060.desc: "[detective_scope.GetFirstName], a local [sandford_scope.GetTitle.GetHolder.GetTitleAsNamePossessiveNoTooltip] underling, requests a private audience, claiming to know who is behind the recent disappearances of [victim_scope.GetTitledFirstName] and other travelers to my court. \n\n\"My [ROOT.Char.GetLadyLord]! I have uncovered a shadowy cabal led by [grocer_scope.GetTitledFirstName], a trader. They call themselves the [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] Watch, and those who they claim tarnish the [ROOT.Char.GetPrimaryTitle.GetTierAsNamePossessiveNoTooltip] grandeur often soon disappear!\" \n\nWhen I fetch the grocer, [grocer_scope.GetSheHe] denies everything, claiming the [detective_scope.GetWomanMan] is delusional from too many years on the mean streets of [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]..."
   ep1_flavor.2060.a: "\"I'm sure there is some, reasonable, explanation.\""
   ep1_flavor.2060.a.tt: "[detective_scope.GetFirstName] and [grocer_scope.GetFirstName] leave"
@@ -322,7 +322,7 @@
   ep1_flavor.2070.d: "\"I think it is time you left, [symposium_scholar.Custom('GetScholarType')|l].\""
   ep1_flavor.2070.e: "Out, blasphemer!"
   scholar_type_monk: "[ROOT.Char.Custom('NunMonk')]"
-  scholar_type_fallback: "student"
+  scholar_type_fallback: "учень"
   detractor_of_courtly_love_modifier: "Detractor of Courtly Love"
   detractor_of_courtly_love_modifier_desc: "This character doesn't believe in Platonic Love and Gentle Poetry."
   promoter_of_courtly_love_modifier: "Promoter of Courtly Love"

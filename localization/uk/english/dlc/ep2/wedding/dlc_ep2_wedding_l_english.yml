@@ -69,7 +69,7 @@
   wedding_good_option_desc: "$EFFECT_LIST_BULLET$ [GetVassalStance( 'glory_hound' ).GetName] and [GetVassalStance( 'courtly' ).GetName] [vassals|E] will gain more [opinion|E] of you"
   wedding_normal_option_desc: "$EFFECT_LIST_BULLET$ [GetVassalStance( 'parochial' ).GetName] and [GetVassalStance( 'zealot' ).GetName] [vassals|E] will gain more [opinion|E] of you"
   ### INTENTS
-  diplomatic_intent: "Diplomacy"
+  diplomatic_intent: "Дипломатія"
   diplomatic_intent_desc: "Gain an alliance with the selected character, or even wow them into submission"
   matchmaking_intent: "Matchmaking"
   matchmaking_intent_desc: "Find a good match for the selected character and set up a betrothal"

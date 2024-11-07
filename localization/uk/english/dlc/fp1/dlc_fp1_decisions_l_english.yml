@@ -23,7 +23,7 @@
   hold_gruesome_festival_decision_tt.piety_lose: "#indent_newline:0 #EMP Losing#! [piety|E], since you are [GetPlayer.GetFaith.GetAdherentName]"
   hold_gruesome_festival_decision_tooltip: "You invite your subjects to partake in a sacred, and costly, ritual"
   hold_gruesome_festival_decision_confirm: "In death, rebirth."
-  raise_stele_decision_name: "Raise Runestone"
+  raise_stele_decision_name: "Спорудити рунний камінь"
   raise_stele_decision_desc: "It is customary among the [GetPlayer.GetCulture.GetNameNoTooltip] to erect carved monuments to commemorate important events. The death of a loved one, the settling of a dispute, the acquisition of land, and so on. Perhaps I could benefit from such a rock..."
   raise_stele_decision_tt.effects_list: "One of your [counties|E] will receive one of the following [modifiers|E]:\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_ancestors_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_conquest_strong').GetNameWithTooltip]\n#indent_newline:0 $EFFECT_LIST_BULLET$ [GetModifier('fp1_stele_promotion_strong').GetNameWithTooltip]"
   raise_stele_decision_tt.variable_strength: "All modifiers are stronger when erected in [cultures|E] that use runestones"

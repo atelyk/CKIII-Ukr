@@ -26,7 +26,7 @@
   SETTINGS_CATEGORY_INPUT_BINDINGS: "Прив'язки вводу"
   DISCARD: "Скасувати"
   APPLY: "Застосувати"
-  SAVE_AND_CLOSE: "OK"
+  SAVE_AND_CLOSE: "Окей"
   SETTINGS: "Налаштування"
   REQUIRES_RESTART: "Потрібне перезавантаження"
   REQUIRE_RESTART_DESCRIPTION: "Деякі налаштування не набудуть чинності, доки ви не перезапустите гру."

@@ -11,7 +11,7 @@
   health.0003.a: "I might just make it through this."
   health.0004.t: "$health_wounded_title$ The Fire Ends"
   health.0004.desc: "The skin around is hardened, but the burning sensation in my wound has passed. It seems the infection is gone."
-  health.0004.a: "Thank [ROOT.Char.GetFaith.HealthGodName]."
+  health.0004.a: "Дякую тобі [ROOT.Char.GetFaith.HealthGodName]."
   health.wounded_1_success: "Successful Wound Treatment"
   health.wounded_1_failure: "Failed Wound Treatment"
   #Becoming wounded, by Linnéa Thimrén and Petter Vilberg

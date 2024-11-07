@@ -135,7 +135,7 @@
   spouse.2015.b: "А чи заслуговує [first_spouse.GetFirstNameNoTooltip] на довіру у цьому питанні?"
   spouse.3001.t: "Незгоди в шлюбі"
   spouse.3001.desc.opening: "Мало мені було інших проблем, тож тепер ще доводиться розбиратися з усім, що влаштовує мені [Select_CString(spouse.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )]!"
-  spouse.3001.desc.fallback: "There are always things I do not do well enough, and a new complaint every day."
+  spouse.3001.desc.fallback: "Завжди є речі, які я роблю недостатньо добре, та щодня нова скарга."
   spouse.3001.lazy: "[Select_CString(spouse.IsFemale, 'Вона', 'Він' )] ні в яку не хоче допомагати мені. Коли ж у мене найбільше справ, нерідко [spouse.GetSheHe] демонстративно спить або балакає прямо в мене на очах!"
   spouse.3001.wrathful: "В ім'я [ROOT.Char.GetFaith.HighGodNamePossessive], [spouse.GetHerHis] характер зводить мене з розуму. Поганий настрій, бійки, вічне невдоволення... Моє терпіння вже закінчується."
   spouse.3001.deceitful: "Останнім часом я постійно стикаюся з обманом. Найчастіше це стосується всякої дрібниці, але мене мучать сумніви. Що ще приховує [Select_CString(spouse.IsFemale, 'моя', 'мій' )] [ROOT.Char.Custom2('RelationToMe' , SCOPE.sC('spouse') )]?.."

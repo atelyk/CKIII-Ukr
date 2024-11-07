@@ -44,7 +44,7 @@
   parochial_tax_contribution_mult: "$parochial_vassal$ [tax|E] [modifier_contribution|E]"
   parochial_levy_contribution_add: "$parochial_vassal$ [levy|E] [modifier_base_contribution|E]"
   parochial_levy_contribution_mult: "$parochial_vassal$ [levy|E] [modifier_contribution|E]"
-  zealot: "Zealot"
+  zealot: "Зілотськ"
   zealot_desc: "$zealot$ [vassals|E] are focused on matters of the faith, and are swayed by pious actions. Zealous or vengeful Vassals often adopt this [vassal_stance|E], as do [clergy|E].\n\n#low $zealot$ Vassals like when their Liege:#!\n$EFFECT_LIST_BULLET$Constructs or upgrades [temple|E] [holdings|E]\n$EFFECT_LIST_BULLET$Succeeds with the [GetScheme('learn_language').GetTypeName] [scheme|E]\n$EFFECT_LIST_BULLET$Has [virtuous|E] [traits|E]\n$EFFECT_LIST_BULLET$Goes on [pilgrimage|E] [activities|E]\n\n#low $zealot$ Vassals dislike when their Liege:#!\n$EFFECT_LIST_BULLET$Asks the [head_of_faith|E] for [gold_i][gold|E]\n$EFFECT_LIST_BULLET$Has [sinful|E] [traits|E]\n\nThey prefer zealous and virtuous [heirs|E] with a high [learning_i][learning|E] skill."
   zealot_filter_option: "$zealot$"
   zealot_filter_option_desc: "Only show Characters with the [GetVassalStance( 'zealot' ).GetName] [vassal_stance|E]"

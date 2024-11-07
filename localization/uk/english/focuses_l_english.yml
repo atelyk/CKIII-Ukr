@@ -108,7 +108,7 @@
   diplomacy_adventurer_focus_modifier: "[GetFocus('diplomacy_adventurer_focus').GetName]"
   diplomacy_adventurer_focus_desc: "Carry the banner of others. Make sure your name is known."
   diplomacy_adventurer_focus_effect_desc: "Focusing on $diplomacy_adventurer_focus$ grants:"
-  martial_adventurer_focus: "Valor"
+  martial_adventurer_focus: "Відважність"
   martial_adventurer_focus_modifier: "[GetFocus('martial_adventurer_focus').GetName]"
   martial_adventurer_focus_desc: "Take the command. Lead by example."
   martial_adventurer_focus_effect_desc: "Focusing on $martial_adventurer_focus$ grants:"

@@ -5,7 +5,7 @@
   feasts_mischievous_t1_modifier_desc: "This character seems oddly calm when those around them have unexpected, embarrassing accidents."
   feasts_mischievous_t2_modifier: "Mischief-Maker"
   feasts_mischievous_t2_modifier_desc: "Little accidents and embarrassing discoveries regularly afflict those near this character."
-  feasts_mischievous_t3_modifier: "Troublemaker"
+  feasts_mischievous_t3_modifier: "[Select_CString(CHARACTER.IsFemale, 'Баламутка', 'Баламут' )]"
   feasts_mischievous_t3_modifier_desc: "It can't be proved, but it's an open secret that this character is constantly planning their next \"jape\"."
   feast_learnt_habits_modifier: "Observed Habits"
   feast_learnt_habits_modifier_desc: "The target's personal habits when alone are known to the plotters"
@@ -89,7 +89,7 @@
   feast_events_ewan.0601.c: "Foil the side dish."
   feast_events_ewan.0601.c.tt.success: "$feast_events_ewan.0601.a.tt.success$"
   feast_events_ewan.0601.c.tt.failure: "$feast_events_ewan.0601.a.tt.failure$"
-  feast_events_ewan.0601.d: "This is beneath me."
+  feast_events_ewan.0601.d: "Це нижче за мою гідність."
   ##################################################
   ##Relax
   feast_events_ewan.0801.t: "A Pleasing Atmosphere"

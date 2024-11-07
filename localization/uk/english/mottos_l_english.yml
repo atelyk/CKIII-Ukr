@@ -35,7 +35,7 @@
   motto_for_our_foes_x_for_our_friends_y: "For our Foes, $1$ – For our Friends, $2$"
   motto_the_spirit_of_x_grants_us_y: "The Spirit of $1$ Grants Us $2$"
   motto_break_your_x_upon_our_y: "Break Your $1$ Upon Our $2$"
-  motto_by_the_x_and_the_y: "By $1$ and $2$"
+  motto_by_the_x_and_the_y: "$1$ і $2$"
   motto_with_the_x_i_y_z: "With $1$ I $2$ the $3$"
   motto_we_swear_by_x: "We Swear by $1$"
   motto_we_carve_runes_of_x: "We Carve Runes of $1$"
@@ -267,8 +267,8 @@
   motto_will: "Will"
   motto_prepare: "Prepare"
   motto_respect_verb: "Respect"
-  motto_honor_verb: "Honor"
-  motto_trust_verb: "Trust"
+  motto_honor_verb: "Честь"
+  motto_trust_verb: "Довіра"
   #Weapon
   motto_sword_word: "Sword"
   motto_axe: "Axe"
@@ -285,7 +285,7 @@
   motto_the_hammer: "the Hammer"
   motto_the_pen: "the Pen"
   #Appropriate Godname
-  motto_god: "God"
+  motto_god: "Бог"
   motto_the_perfected_ones: "the Perfected Ones"
   motto_the_divine: "the Divine"
   motto_the_gods: "the Gods"

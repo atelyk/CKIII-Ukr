@@ -1,0 +1,8 @@
+﻿l_english:
+  FAMILY_ATTRIBUTE_WINDOW_TITLE: "$game_concept_powerful_family_bonus_short$"
+  FAMILY_ATTRIBUTE_WINDOW_TITLE_EDIT: "Змінити $game_concept_powerful_family_bonus_short$"
+  FAMILY_ATTRIBUTE_WINDOW_SELECTED: "[HousePowerBonus.GetName]"
+  FAMILY_ATTRIBUTE_WINDOW_CHANGE_ATTRIBUTE: "Змінити атрибут"
+  FAMILY_ATTRIBUTE_WINDOW_ALERT: "@warning_icon! #warning [powerful_family_bonus_short|E] є неактивним, тому що твій [house|E] є #bold не#! [powerful_family|E]#!"
+  FAMILY_ATTRIBUTE_WINDOW_COOLDOWN_ALERT: "@alert_icon! #alert_trial [powerful_family_bonus_short|E] не може бути змінений знову протягом [EmptyScope.ScriptValue('family_attribute_cooldown_tt_value')|0V] років#!"
+  FAMILY_ATTRIBUTE_WINDOW_COOLDOWN_DESC: "@warning_icon! #X Ти не можеш змінити свій [powerful_family_bonus_short|E] протягом $TIME|V$#!"

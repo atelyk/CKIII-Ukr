@@ -1,6 +1,6 @@
 ﻿l_english:
   locale_window_your_intent: "Your [intent|e]"
-  locale_window_guests_header: "Guests"
+  locale_window_guests_header: "Гості"
   locale_window_all_guests_button: "All Guests ([GetDataModelSize(Activity.GetAttendingCharacters)])"
   locale_window_all_guests_button_tooltip: "Show all attending [guests|e]"
   locale_window_activity_log: "Activity Log"

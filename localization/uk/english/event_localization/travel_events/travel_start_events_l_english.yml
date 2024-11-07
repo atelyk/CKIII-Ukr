@@ -9,7 +9,7 @@
   travel_start_event.1000.desc_sick: "I am well aware that getting out on the road in my condition, illness is to be considered an additional risk on top of the regular danger that comes with travel. However, even in my unsavory state the show must go on.\n\nLet us head out towards [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] and may [ROOT.Char.GetFaith.HighGodName] watch over our travels."
   travel_start_event.1000.desc: "All packed and proper, we have finally come to the point where we can start our journey from [ROOT.Char.GetCurrentLocation.GetName] to our next destination at [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName].\n\nAs we depart from the holding and our mounts start treading new ground, I am certain we will return soon and in one piece."
   travel_start_event.1010.tt.tournament.every_knight: "As you are attending a [GetActivityType( 'activity_tournament' ).GetName], every available [unlanded|E] [knight|E] you have will accompany you to compete"
-  travel_start_event.1000.a: "I can't wait!"
+  travel_start_event.1000.a: "Чекаю з нетерпінням!"
   travel_start_event.1000.a_cynical: "I suppose we must..."
   travel_start_event.1000.a_craven: "I hope it goes well..."
   travel_start_event.1000.a_hajj: "I have waited for this my entire life."

@@ -2,7 +2,7 @@
   #Common Taoism Localization
   taoism_religion: "Даосизм"
   taoism_religion_adj: "Даосиз"
-  taoism_religion_adherent: "Taoist"
+  taoism_religion_adherent: "Даосиз"
   taoism_religion_adherent_plural: "Taoists"
   taoism_religion_desc: "Дао - це джерело, взірець і субстанція, з якої існує все. Життя в гармонії з Дао веде до миру, задоволення, а після смерті – вознесіння, щоб жити в Дао як безсмертний дух."
   taoism_high_god_name: "Дао"
@@ -41,10 +41,10 @@
   taoism_divine_realm: "Дао"
   taoism_divine_realm_2: "$taoism_divine_realm$ # Optional translation alt" #Optional translation alt
   taoism_divine_realm_3: "$taoism_divine_realm$ # Optional translation alt" #Optional translation alt
-  taoism_positive_afterlife: "$taoism_divine_realm$"
+  taoism_positive_afterlife: "$taoism_divine_realm$ # Optional translation alt"
   taoism_positive_afterlife_2: "$taoism_divine_realm$ # Optional translation alt" #Optional translation alt
   taoism_positive_afterlife_3: "$taoism_divine_realm$ # Optional translation alt" #Optional translation alt
-  taoism_negative_afterlife: "$taoism_divine_realm$"
+  taoism_negative_afterlife: "$taoism_divine_realm$ # Optional translation alt"
   taoism_negative_afterlife_2: "$taoism_divine_realm$ # Optional translation alt" #Optional translation alt
   taoism_negative_afterlife_3: "$taoism_divine_realm$ # Optional translation alt" #Optional translation alt
   taoism_creator_god_name: "Юаньші Тяньцзунь Небесний Преподобний Первісного Початку"
@@ -57,7 +57,7 @@
   taoism_wealth_god_name_possessive: "Лу Дун Піна"
   taoism_household_god_name: "$taoism_knowledge_god_name$"
   taoism_household_god_name_possessive: "$taoism_knowledge_god_name_possessive$"
-  taoism_fate_god_name: "$taoism_high_god_name$"
+  taoism_fate_god_name: "$taoism_high_god_name$ # Optional translation alt"
   taoism_fate_god_name_possessive: "$taoism_high_god_name_possessive$"
   taoism_knowledge_god_name: "Лао-Цзи"
   taoism_knowledge_god_name_possessive: "Лао-Цзи"

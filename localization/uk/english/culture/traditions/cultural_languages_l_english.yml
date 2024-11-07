@@ -76,8 +76,8 @@
   language_wallachian_name: "Дакська"
   language_italian_name: "Італійська"
   language_ayneha_name: "Айнехська"
-  language_north_dravidian_name: "Північнодвінськ"
-  language_albanian_name: "Albanian"
+  language_north_dravidian_name: "Північно дравідінська"
+  language_albanian_name: "Албанська"
   aesthetics_norwegian_name: "Норвезьк"
   aesthetics_swedish_name: "Шведськ"
   aesthetics_danish_name: "Датськ"
@@ -90,9 +90,9 @@
   #Dead Languages - Only used in custom loc
   language_pali_name: "Палі"
   language_avestan_name: "Авестійська"
-  language_classical_tibetan_name: "Класичний Тибетський"
+  language_classical_tibetan_name: "Класична Тибетська"
   language_sanskrit_name: "Санскрит"
   #Dead languages used by dead cultures
   language_egyptian_name: "Єгипетська"
-  language_hunnic_name: "Ганський"
-  language_ancient_greek_name: "Еллінський"
+  language_hunnic_name: "Ганська"
+  language_ancient_greek_name: "Еллінська"

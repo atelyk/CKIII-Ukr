@@ -41,5 +41,5 @@
   court.1030.a: "[chaplain.GetFirstNameNoTooltip] is a [chaplain.GetWomanMan] of [chaplain.GetFaith.HighGodName]. Let us treat [chaplain.GetHerHim] as such."
   court.1030.b: "[chaplain.Custom('GetActualBishopTitle')] or not, [chaplain.GetFirstNameNoTooltip] #EMP will#! learn proper manners..."
   court.1030.b.flavor: "...or else [chaplain.GetSheHe] will eat with the pigs in the sty!"
-  court.1030.b.custom: "Every other courtier"
+  court.1030.b.custom: "Решта придворних"
   court.1030.c: "Oh come now, like we all haven't had to let one loose before?"

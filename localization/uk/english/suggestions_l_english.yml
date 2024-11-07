@@ -3,7 +3,7 @@
   suggestion_recruit_maa_label: "Recruit Men-At-Arms"
   suggestion_recruit_maa: "Suggestion: Recruit a men-at-arms regiment"
   suggestion_recruit_maa_desc: "You have fewer [men_at_arms|E] than is expected for a [ruler|E] of your [rank|E].\n\nRecruiting some will bolster your [armies|E], serving both to deter potential enemies as well as combat those who insist on fighting anyway."
-  suggestion_recruit_maa_click: "#I Click to view your Military#!"
+  suggestion_recruit_maa_click: "#I Натисніть, щоб відкрити вікно армії#!"
   suggestion_declare_war_label: "Оголосити війну"
   suggestion_declare_war: "Пропозиція: оголосіть війну персонажеві [recipient.GetShortUINameNoTooltip]"
   suggestion_declare_war_desc: "Перемігши персонажа [recipient.GetShortUIName] ви завоюєте більше територій і ваша [realm|E] розростеться, що сприятиме зростанню та довгому процвітанню вашого [houses|El]."

@@ -67,7 +67,7 @@
   generatepoem_title_winter: "winter"
   ## Emotions
   ### Romance
-  generatepoem_title_love: "Love"
+  generatepoem_title_love: "Любов"
   generatepoem_title_passion: "Passion"
   generatepoem_title_tenderness: "Tenderness"
   generatepoem_title_doting: "Doting"
@@ -78,7 +78,7 @@
   generatepoem_title_mourning: "Mourning"
   ### Strife
   generatepoem_title_rage: "Rage"
-  generatepoem_title_anger: "Anger"
+  generatepoem_title_anger: "Ангербург"
   generatepoem_title_bloodlust: "Bloodlust"
   generatepoem_title_wrath: "Wrath"
   ## Activity
@@ -103,25 +103,25 @@
   generatepoem_title_memory: "Memory"
   generatepoem_title_legacy: "Legacy"
   generatepoem_title_memoriam: "Memoriam"
-  generatepoem_title_heritage: "Heritage"
+  generatepoem_title_heritage: "Спадщина"
   ### Strife
   generatepoem_title_strife: "Strife"
   generatepoem_title_penury: "Penury"
   generatepoem_title_conflict: "Conflict"
-  generatepoem_title_quarrel: "Quarrel"
+  generatepoem_title_quarrel: "Сварка"
   ### Incompetence
   generatepoem_title_arse: "Arse"
   generatepoem_title_carbuncle: "Carbuncle"
-  generatepoem_title_fool: "Fool"
+  generatepoem_title_fool: "[Select_CString( CHARACTER.IsFemale, 'Дурепа', 'Дурень' )]"
   generatepoem_title_idiot: "Idiot"
-  generatepoem_title_villain: "Villain"
+  generatepoem_title_villain: "[Select_CString( CHARACTER.IsFemale, 'Моторошна', 'Моторошний' )]"
   generatepoem_title_spawn: "Spawn"
   ## Metaphorical Places
   ### Romance
   generatepoem_title_heart: "Heart"
-  generatepoem_title_head: "Head"
+  generatepoem_title_head: "Голова"
   generatepoem_title_dreams: "Dreams"
-  generatepoem_title_chest: "Chest"
+  generatepoem_title_chest: "Скриня"
   ## Pathetic Fallacies
   ### Mourning
   generatepoem_title_windswept_woods: "Windswept Woods"

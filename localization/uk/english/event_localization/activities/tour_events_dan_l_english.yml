@@ -93,7 +93,7 @@
   royal_maneuver_descriptor: "Royal"
   imperial_maneuver_descriptor: "Imperial"
   drunk_maneuver_descriptor: "Drunk"
-  holy_maneuver_descriptor: "Holy"
+  holy_maneuver_descriptor: "Священна"
   friend_built_temple_for_village: "[CHARACTER.GetShortUIName|U] built a temple in [TARGET_CHARACTER.GetShortUINamePossessive] village"
   friend_built_temple_for_village_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] built a temple in [CHARACTER.GetShortUINamePossessive] village"
   friend_married_my_child: "[CHARACTER.GetShortUIName|U] agreed to marry [TARGET_CHARACTER.GetShortUINamePossessive] lowborn child"

@@ -36,7 +36,7 @@
   yearly.4031.a: "I will scour the [ROOT.Char.Custom('ResidenceBuilding')] for this murderer!"
   yearly.4031.tt: "An investigation is launched"
   yearly.4031.b: "Let's bury the body and forget this travesty."
-  yearly.4031.b_every_courtier: "Every courtier"
+  yearly.4031.b_every_courtier: "Всі придворні"
   yearly.4031.c: "As my court physician, you should study the bodies."
   yearly.4061.t: "The Wise Fool"
   yearly.4061.desc_opening: "\"My name is [hodja.GetTitledFirstName], my [ROOT.Char.GetLadyLord]. I have come before you to offer my wisdom.\"\n\n"

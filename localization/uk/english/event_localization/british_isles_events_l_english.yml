@@ -31,7 +31,7 @@
   british_isles.3002.t: "The Claim on Ireland"
   british_isles.3002.desc.irish: "By Grace of [scoped_pope.GetHerHis|U] Holiness [scoped_pope.GetFirstName], Vicar of Christ and heir to the throne of Saint Peter, [scoped_ruler.GetFullName] has been given right of divine rule over the Eire and all the tribes therein.\n\nAny Irish lord who will disobey the Papal writ and refuse to submit will face the wrath of [scoped_ruler.GetTitledFirstName], [scoped_ruler.GetHerHis] [scoped_ruler.GetCulture.GetName] armies, and God Almighty."
   british_isles.3002.a: "We will see about that!"
-  british_isles.3002.b: "I see..."
+  british_isles.3002.b: "Зрозуміло..."
   #Refound Dumnonia, by Ewan Cowhig Croft
   british_isles.4001.t: "[founder.GetPrimaryTitle.GetAdjectiveNoTooltip] Kingdom Restored"
   british_isles.4001.desc: "[founder.GetPrimaryTitle.GetNameNoTierNoTooltip] does not take kindly to invaders, of any kind. For centuries, we have struggled against them, fighting to reclaim our home. With great cunning and skill, I have finally succeeded in taking back the lands of ancient Dumnonia, refounding the Kingdom of [founder.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nThe foreign menace has been withstood, the demise of old Britannia outlasted, and I now stand ready to face whatever fresh challenges [founder.GetFaith.DevilName] may throw at us. Come what may, [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] shall endure."

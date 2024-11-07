@@ -17,7 +17,7 @@
   bp2_understanding_modifier_desc: "This character has the intuition to identify when others are not quite as enthused about something as they are."
   bp2_careful_modifier: "Aware of Belongings"
   bp2_careful_modifier_desc: "After a mishap involving a football in their youth, this character is now very careful with their belongings."
-  bp2_cowardly_modifier: "Cowardly"
+  bp2_cowardly_modifier: "[Select_CString( CHARACTER.IsFemale, 'Боягузлива', 'Боягузливий' )]"
   bp2_cowardly_modifier_desc: "No matter their current disposition, this character carries the stain of having left a fellow child to be bullied as a youth."
   bp2_disrespects_elderly_modifier: "Disrespects Elderly"
   bp2_disrespects_elderly_modifier_desc: "From a young age this character has shown a healthy disdain of those older and — supposedly — wiser, which at least rather endears them to the young."

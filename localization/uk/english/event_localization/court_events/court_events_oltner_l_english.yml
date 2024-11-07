@@ -20,7 +20,7 @@
   court.9004.a: "[flirty_spouse.GetFirstNameNoTooltip] is only mine."
   court.9005.t: "$court.9001.t$: Defeated"
   court.9005.desc: "\"You never were deserving of [flirty_spouse.GetFirstNamePossessive] love!\" [flirty_knight.GetFirstName] exclaims.\n\n\"Oh, my [flirty_knight.Custom('ComplimentAdjective')] hero, I wish we could escape this dreary place! But our love has earned its right to flourish, nevertheless.\" [flirty_spouse.GetFirstNameNoTooltip] says, with a longing sigh.\n\n[flirty_knight.GetFirstNameNoTooltip] stares me down, stone-faced."
-  court.9005.a: "[ROOT.Char.Custom('CulturalCurse')|U]!"
+  court.9005.a: "Ось [ROOT.Char.Custom('CulturalCurse')]!"
   court_9005_tt: "[flirty_spouse.GetFirstName] and [flirty_knight.GetFirstName] leave your court to consummate their love elsewhere"
   court.9100.t: "Epicurean Entertainment"
   court.9100.desc: "\"Ah, excellent! [food_lover_1.Custom('GetExpensiveMeal')|U], my favorite!\" [food_lover_1.GetFirstName] bellows merrily, gorging [food_lover_1.GetHerselfHimself] as the servant desperately steadies the serving tray.\n\n\"Oh, my beloved [food_lover_2.Custom('GetExpensiveDessert')], you truly are delectable!\" [food_lover_2.GetFirstName] says with a singing voice.\n\n\"Now, this is what life is all about! Servants, more [food_lover_1.Custom('GetExpensiveDrink')], now!\" [food_lover_3.GetFirstName] demands.\n\nIt would appear that my courtiers are enjoying themselves!"

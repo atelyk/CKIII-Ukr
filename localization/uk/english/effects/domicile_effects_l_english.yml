@@ -1,0 +1,8 @@
+﻿l_english:
+  add_domicile_building_global: "Додати [DomicileBuilding.GetName] до [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
+  add_domicile_building_global_past: "Додано [DomicileBuilding.GetName] до [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
+  add_domicile_building_third: "Додає [DomicileBuilding.GetName] до [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
+  remove_domicile_building_global: "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] [DomicileBuilding.GetName] знищено"
+  remove_domicile_building_global_past: "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] [DomicileBuilding.GetName] було знищено"
+  remove_domicile_building_third: "$remove_domicile_building_global$"
+  remove_domicile_building_third_past: "$remove_domicile_building_global_past$"

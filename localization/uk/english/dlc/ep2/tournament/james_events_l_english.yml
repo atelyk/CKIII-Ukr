@@ -9,7 +9,7 @@
   tournament_events.8000.b: "[favor_giver_2.GetTitledFirstNameNoTooltip], how generous!"
   tournament_events.8000.c: "I have a match to focus on."
   handkerchief: "handkerchief"
-  flower: "flower"
+  flower: "квітка"
   wreath: "wreath"
   ring: "ring"
   soulmate_tournament: "[CHARACTER.GetShortUIName|U] earned [TARGET_CHARACTER.GetShortUINameNoTooltip] courtship during a tournament"

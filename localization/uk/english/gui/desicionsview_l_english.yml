@@ -18,4 +18,4 @@
   DECISIONS_VIEW_MAJOR_NOT_AVAILABLE: "Немає доступних серйозних рішень"
   LEAVE_COUNCIL_CONFIRMATION_TITLE: "Покинути раду"
   LEAVE_COUNCIL_CONFIRMATION: "Більше не отримуватиме переваги від знаходження у [Concept( 'council', 'раді' )|E] персонажа [CHARACTER.GetLiege.GetUIName] на посаді [CHARACTER.GetCouncilTitle]"
-  LEAVE_COUNCIL_CONFIRMATION_ACCEPT: "Покинутиw"
+  LEAVE_COUNCIL_CONFIRMATION_ACCEPT: "Покинути"

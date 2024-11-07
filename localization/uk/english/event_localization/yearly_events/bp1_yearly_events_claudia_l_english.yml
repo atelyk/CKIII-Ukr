@@ -148,4 +148,4 @@
   bp1_yearly.1081.b: "Tell me all about your woes..."
   bp1_yearly.1081.c: "#EMP Till death do us part#!, you said...?"
   bp1_yearly.1082.desc: "Recently, I have discovered that my [spouse.GetWifeHusband] [spouse.GetFirstName] — that [spouse.Custom('InsultAdjective')] [spouse.Custom('InsultNoun')] — had another dirty secret! I haven't forgotten that you tried to help me escape my unhappy marriage; as a sign of my gratitude, I have decided to share it with you. It's not much, but I hope you will find it useful."
-  bp1_yearly.1082.a: "Excellent..."
+  bp1_yearly.1082.a: "Чудово..."

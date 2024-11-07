@@ -101,7 +101,7 @@
   fp2_other_decisions.0703.war: "With the onset of war, [council_priest.GetCouncilTitleFirstName] has postponed the upcoming Council of Toledo for the time being."
   fp2_other_decisions.0703.control: "With the loss of [GetTitleByKey('c_toledo').GetNameNoTier], it will no longer possible to host the upcoming Council of Toledo..."
   fp2_other_decisions.0703.desc: "\n\nThe [ROOT.Char.GetFaith.GetAdherentNamePlural] will no doubt soon return from this setback..."
-  fp2_other_decisions.0703.a: "Disappointing."
+  fp2_other_decisions.0703.a: "Яке розчарування."
   #Event - Ping
   fp2_other_decisions.0704.t: "The $fp2_other_decisions.0700.council$"
   fp2_other_decisions.0704.success: "\n\nWith [council_toledo_host.GetTitledFirstNamePossessive] support, the [ROOT.Char.GetFaith.GetAdherentNamePlural] clergy have made their voices heard."

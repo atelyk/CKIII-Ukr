@@ -1,6 +1,6 @@
 ﻿l_english:
   #RandomElephantName
-  elephant_name_mahmud: "Mahmud"
+  elephant_name_mahmud: "Махмуд"
   elephant_name_kandula: "Kandula"
   elephant_name_abdulabbas: "Abdul-Abbas"
   elephant_name_surus: "Surus"
@@ -11,8 +11,8 @@
   hate_dog: "$love_dog$"
   hate_cat: "$love_cat$"
   #GetCatDog
-  love_cat: "cat"
-  love_dog: "dog"
+  love_cat: "кіт"
+  love_dog: "собака"
   #GetFelineCanine
   get_feline: "feline"
   get_canine: "canine"

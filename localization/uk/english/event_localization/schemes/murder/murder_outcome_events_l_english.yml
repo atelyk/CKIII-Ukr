@@ -396,7 +396,7 @@
   murder_outcome_reworked.0000.addendum.house_feud.2.servants: "The servants grumble: $murder_outcome_reworked.0000.addendum.house_feud.2.2$"
   #Memories (Scheme Target)
   murder_outcome_reworked.0000.memories.target.voice_overheard: "\n\nAs I fade, a voice coldly whispers: #EMP \"Consider that vengeance for the time [bad_memory.GetSecondPerspectiveDescription], dear [target.GetTitleAsNameNoTooltip]. Hope it was worth it.\"#!"
-  murder_outcome_reworked.0000.memories.target.note_discovered: "\n\nA crumpled note is found near the scene: #EMP \"Payment enclosed in full. Contract issued for when [bad_memory.GetThirdPerspectiveDescription].\"#!"
+  murder_outcome_reworked.0000.memories.target.note_discovered: "\n\nA crumpled note is found near the scene: #EMP Payment enclosed in full. Contract issued for when [bad_memory.GetThirdPerspectiveDescription].\"\"#!\"\""
   #Revealed (Scheme Target)
   murder_outcome_reworked.0000.revealed.scheme_target.success.1: "\n\nAs death claims me, there is not a moment of doubt in my mind as to who brought this upon me: [owner.GetTitledFirstName]!"
   murder_outcome_reworked.0000.revealed.scheme_target.success.2: "\n\nEven as my mind fades, my last thoughts are that this was undoubtedly the work of that [owner.Custom('InsultAdjective')] [owner.Custom('InsultNoun')], [owner_to_reveal.GetTitledFirstName]!"

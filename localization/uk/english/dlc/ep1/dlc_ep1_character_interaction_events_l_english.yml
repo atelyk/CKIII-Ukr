@@ -1,10 +1,10 @@
 ﻿l_english:
   #Indebt Guest Loc
-  ep1_character_interaction.0001.t: "Розумна винагорода"
-  ep1_character_interaction.0001.desc.intro: "[recipient.GetFirstName ] виглядає позитивно #EMP жахливо#! як слуга за слугою виводиться, щоб звинуватити [recipient.GetHerHim], кожен з яких засвідчує, що [recipient.GetSheHe]..."
-  ep1_character_interaction.0001.desc.lustful: "непоправно [Select_CString(ROOT.Char.IsFemale, 'зіпсувала', 'зіпсував' )] більшість дорогої постільної білизни у дворі,"
-  ep1_character_interaction.0001.desc.chaste: "постійно переміщує або затуляє будь-яке мистецтво, яке [recipient.GetSheHe] вважає неприємним, змушуючи їх витрачати години на день, щоб виправити ситуацію, та"
-  ep1_character_interaction.0001.desc.gluttonous: "[Select_CString(ROOT.Char.IsFemale, 'з'їла', 'з'їв' )] більше [recipient.GetHerselfHimself], ніж увесь двір разом узятий,"
+  ep1_character_interaction.0001.t: "A Sensible Recompense"
+  ep1_character_interaction.0001.desc.intro: "[recipient.GetFirstName] looks positively #EMP terrified#! as servant after servant is brought out to accuse [recipient.GetHerHim], each attesting that [recipient.GetSheHe]"
+  ep1_character_interaction.0001.desc.lustful: "has irreparably defiled the majority of the court's expensive bedding,"
+  ep1_character_interaction.0001.desc.chaste: "continually moves or obscures any art [recipient.GetSheHe] considers distasteful, forcing them to spend hours a day righting things and"
+  ep1_character_interaction.0001.desc.gluttonous: "has eaten more by [recipient.GetHerselfHimself] than the rest of the court combined,"
   ep1_character_interaction.0001.desc.temperate: "[Select_CString(ROOT.Char.IsFemale, 'вигнала', 'вигнав' )] трьох наших найкращих кухарів, крутячи [recipient.GetHerHis] носом за вечерею за вечерею,"
   ep1_character_interaction.0001.desc.greedy: "бачили, як вирізують виїмки з дорогоцінних металів з наших найдорожчих прикрас,"
   ep1_character_interaction.0001.desc.generous: "неодноразово роздавав майно суду так, ніби воно було [recipient.GetHerHis] власним,"

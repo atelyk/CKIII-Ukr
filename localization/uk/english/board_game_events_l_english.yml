@@ -9,7 +9,7 @@
   board_games.0001.desc.opponent_winning.diplomacy.medium: "\"Ahhhh, if only public speaking was as easy as beating you at [SCOPE.Custom('BG_GameType')],\" remarks my opponent."
   board_games.0001.desc.opponent_winning.diplomacy.high: "\"I genuinely don't know which is easier,\" laments my opponent, \"beating you at [SCOPE.Custom('BG_GameType')] or telling the tale of your embarrassing loss.\""
   board_games.0001.desc.opponent_winning.martial.low: "\"If war was as easy as [SCOPE.Custom('BG_GameType')], I'd rule the world by now,\" laughs my opponent. \"But then, that's just me.\""
-  board_games.0001.desc.opponent_winning.martial.medium: "\"Mmmm, you're not much of a strategist, are you?\" chortles my opponent."
+  board_games.0001.desc.opponent_winning.martial.medium: "«Мммм, ти не дуже то і стратег, чи не так?» — регоче мій опонент."
   board_games.0001.desc.opponent_winning.martial.high: "\"The battlefield, the board, it's all just a case of that most important thing,\" warbles my opponent. [bg_opponent.GetSheHe|U] taps [bg_opponent.GetHerHis] forehead with a knuckle for emphasis."
   board_games.0001.desc.opponent_winning.stewardship.low: "\"I wish matters of coin were as easy as playing [SCOPE.Custom('BG_GameType')],\" remarks my opponent. \"I'd be swimming in silver.\""
   board_games.0001.desc.opponent_winning.stewardship.medium: "\"Do you think [SCOPE.Custom('BG_GameType')] is good practice for real administration?\" questions my opponent idly. \"I've always rather thought so. Not that I'm... implying anything by it.\""

@@ -487,7 +487,7 @@
   harm.2041.c: "#BER I'LL MAKE YOU BLEED FOR THIS!#!"
   harm.2041.c.tt.success: "$harm.0000.tt.death.success$"
   harm.2041.c.tt.failure: "$harm.0000.tt.death.failure$"
-  harm.2051.t: "Starvation"
+  harm.2051.t: "Голод"
   harm.2051.desc: "Few things destroy an army as thoroughly as hunger — no shield can ward it, no blade can turn it aside, no maille may mute its pangs.\n\nWithout food, without water, without anything to keep us going save the pack animals that spur our progress, my troops are slowly grinding to a halt.\n\nEven... even I... am withering without sustenance..."
   harm.2051.a: "My skin... like paper..."
   harm.2051.a.tt.success: "$harm.0000.tt.death.success$"

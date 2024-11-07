@@ -273,7 +273,7 @@
   childhood.2005.b: "Фу, поверни його назад."
   childhood.2006.desc: "I am out playing with [ward.GetTitledFirstName] when [ward.GetSheHe] suddenly disappears into the [ROOT.Char.Custom('TerrainType')]. Where did [ward.getSheHe] go? I turn in a circle, looking, and suddenly [ward.GetSheHe] reappears, holding a small kitten out towards me.\n\n[friend.GetFirstNameNoTooltip]! It's for you!\"\"\"\""
   childhood.2006.a: "A kitty!!!"
-  childhood.2006.b: "Ew, put it away."
+  childhood.2006.b: "Фу, поверни його назад."
   childhood.2010.t: "Expectations"
   childhood.2010.desc_opening: "You are always there for me, and I hope you know that I am grateful.\"\"\n\n\"\""
   childhood.2010.desc_shy: "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approach me in a rare display of courage and openness."

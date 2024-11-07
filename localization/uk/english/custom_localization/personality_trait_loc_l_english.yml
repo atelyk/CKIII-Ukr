@@ -109,7 +109,7 @@
   personality_traitdesc.trait.vengeful: "[GetTrait('vengeful').GetName( ROOT.Char )]"
   personality_traitdesc.trait.stubborn: "[GetTrait('stubborn').GetName( ROOT.Char )]"
   personality_traitdesc.trait.fickle: "[GetTrait('fickle').GetName( ROOT.Char )]"
-  personality_traitdesc.trait.notrait: "bland"
+  personality_traitdesc.trait.notrait: "ввічлив"
   TRAIT_CATEGORY_CHILDHOOD: "[childhood_trait|E]"
   TRAIT_CATEGORY_PERSONALITY: "[personality_trait|E]"
   TRAIT_CATEGORY_LIFESTYLE: "[lifestyle_trait|E]"

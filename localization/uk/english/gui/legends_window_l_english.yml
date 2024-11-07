@@ -48,7 +48,7 @@
   HUD_LEGEND_SEEDS: "You have [Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )|V] Seeds available"
   COMPLETE_LEGEND_TITLE: "Complete [Legend.GetNameNoTooltip]"
   COMPLETE_LEGEND_TEXT: "$LEGEND_COMPLETE_LEGEND$"
-  COMPLETE_LEGEND_ACCEPT: "Complete"
+  COMPLETE_LEGEND_ACCEPT: "Завершено"
   START_PROMOTING_LEGEND_TITLE: "Promote [Legend.GetNameNoTooltip]"
   START_PROMOTING_LEGEND_TEXT: "Start [Concept( 'promoted_legend', 'Promoting' )|E] the spread of [Legend.GetName] owned by [Legend.GetOwner.GetShortUIName] within your [realm|E].\n\nMaintenance: [GetIntervalCostString( Legend.GetMaintenanceCost( GetPlayer ), 'monthly' )]"
   START_PROMOTING_LEGEND_ACCEPT: "Promote"

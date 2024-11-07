@@ -1,8 +1,8 @@
 ﻿l_english:
   MY_REALM_WINDOW_TITLE: "Моя Держава"
-  realm_tab_domain: "Domain"
-  realm_tab_vassals: "Vassals"
-  realm_tab_succession: "Succession"
+  realm_tab_domain: "Домен"
+  realm_tab_vassals: "Васали"
+  realm_tab_succession: "Успадкування"
   MY_REALM_WINDOW_MY_LIEGE: "Мій [liege|E]"
   MY_REALM_WINDOW_MY_OBLIGATIONS: "$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE$: [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]\n$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES$: [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
   MY_REALM_WINDOW_MY_TAX_LEVEL: "$VASSAL_CONTRACT_MY_OBLIGATIONS_TITLE$: [VassalContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]"

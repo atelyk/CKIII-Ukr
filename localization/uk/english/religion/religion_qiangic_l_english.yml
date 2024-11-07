@@ -8,9 +8,9 @@
   qiangic_high_god_name: "Mubyasei"
   qiangic_high_god_name_2: "$qiangic_high_god_name$" #Optional translation alt
   qiangic_high_god_name_possessive: "Mubyasei's"
-  qiangic_high_god_shehe: "He"
-  qiangic_high_god_herselfhimself: "Himself"
-  qiangic_high_god_herhis: "His"
+  qiangic_high_god_shehe: "Він"
+  qiangic_high_god_herselfhimself: "Себе"
+  qiangic_high_god_herhis: "Його"
   qiangic_high_god_name_alternate: "Abba Chi"
   qiangic_high_god_name_alternate_possessive: "Abba Chi's"
   qiangic_good_god_mubyasei: "Mubyasei"
@@ -22,8 +22,8 @@
   qiangic_good_god_mupitha: "Mupitha"
   qiangic_devil_name: "Dul"
   qiangic_devil_name_possessive: "Dul's"
-  qiangic_devil_shehe: "he"
-  qiangic_devil_herselfhimself: "himself"
+  qiangic_devil_shehe: "він"
+  qiangic_devil_herselfhimself: "сам"
   qiangic_evil_god_dul: "Dul"
   qiangic_evil_god_dul_possessive: "Dul's"
   qiangic_house_of_worship: "hseji"
@@ -105,9 +105,9 @@
   tangut_high_god_name: "Mewn" #lit. Crane
   tangut_high_god_name_2: "$tangut_high_god_name$" #Optional translation alt
   tangut_high_god_name_possessive: "Mewn's"
-  tangut_high_god_shehe: "He"
-  tangut_high_god_herselfhimself: "Himself"
-  tangut_high_god_herhis: "His"
+  tangut_high_god_shehe: "Він"
+  tangut_high_god_herselfhimself: "Себе"
+  tangut_high_god_herhis: "Його"
   tangut_high_god_name_alternate: "Phôn Mbin" #lit. White Loftiness
   tangut_high_god_name_alternate_possessive: "Phôn Mbin's"
   tangut_good_god_mewn: "Mewn"
@@ -128,7 +128,7 @@
   tangut_devotee_neuter_plural: "ninin" #red-faced (common language)
   tangut_priest: "unia" #black-headed (common language)
   tangut_priest_plural: "unia" #black-headed (common language)
-  tangut_priest_term_plural: "Unia" #black-headed (common language)
+  tangut_priest_term_plural: "Юнія" #black-headed (common language)
   tangut_bishop: "ndziu phôn" #black-headed (ritual language)
   tangut_bishop_plural: "ndziu phôn" #black-headed (ritual language)
   tangut_divine_realm: "Phôn Mbin"

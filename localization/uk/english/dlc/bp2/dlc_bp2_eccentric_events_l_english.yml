@@ -120,7 +120,7 @@
   bp2_yearly.8043.t: "Affections Scorned"
   bp2_yearly.8043.desc: "It seems that my feelings remain to be one-way. [crush.GetFirstName|U] seems entirely uninterested in me as a lover, and I am left heartbroken."
   bp2_yearly.8043.a: "Perhaps [crush.GetSheHe] may be persuaded."
-  bp2_yearly.8043.b: "Alas."
+  bp2_yearly.8043.b: "На жаль."
   bp2_yearly_8040_confess_crush: "You and [crush.GetFirstName] may become lovers"
   bp2_yearly_8042_rejection: "[crushee.GetFirstName] will be informed of your rejection"
   friend_secret_language: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] invented a secret language together"

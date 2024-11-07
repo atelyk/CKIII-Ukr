@@ -48,7 +48,7 @@
   bp2_yearly.7003.desc_faith: "\"[nursed_child.GetFaith.random_GoodGodNames].\"\n\nLooks like [nursed_child.GetFirstNameNoTooltip] is already a devotee!"
   bp2_yearly.7003.desc_father: "\"Pa-, pa-...\""
   bp2_yearly.7003.desc_mother: "\"Ma-, ma-...\""
-  bp2_yearly.7003.a: "How delightful!"
+  bp2_yearly.7003.a: "Чарівно!"
   bp2_yearly.7003.b: "What else can [nursed_child.GetSheHe] say?"
   bp2_yearly.7003.b.tt: "You pressure [nursed_child.GetFirstNameNoTooltip] to keep talking."
   bp2_yearly.7003.c: "I don't have time for this."

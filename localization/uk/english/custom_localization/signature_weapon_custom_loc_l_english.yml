@@ -78,7 +78,7 @@
   signature_weapon_attack_verb_bites: "bites"
   signature_weapon_attack_verb_cracks: "cracks"
   signature_weapon_attack_verb_punctures: "punctures"
-  signature_weapon_attack_verb_biting: "biting"
+  signature_weapon_attack_verb_biting: "захоплення"
   signature_weapon_attack_verb_cracking: "cracking"
   signature_weapon_attack_verb_puncturing: "puncturing"
   signature_weapon_attack_verb_rend: "rend"
@@ -123,7 +123,7 @@
   signature_weapon_breaks_snapped_the_haft: "snapped the haft"
   signature_weapon_breaks_bent_the_haft: "bent the haft"
   #Generic deaths
-  signature_weapon_killed_crush: "crush"
+  signature_weapon_killed_crush: "захоплення"
   signature_weapon_killed_run_through: "run through"
   signature_weapon_killed_cut_down: "cut down"
   signature_weapon_killed_gut: "gut"

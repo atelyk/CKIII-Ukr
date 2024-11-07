@@ -24,7 +24,7 @@
   fp2_struggle_hostility_culture_large_tt: "All [struggle_involved|E] [cultures|E] lose #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_large_value')]%#! [cultural_acceptance|E] of each other"
   fp2_struggle_hostility_acceptance_tt: "Hostility in Iberia"
   #Modifiers
-  fp2_struggle_hostility_house_faith_modifier: "Faith Hostility"
+  fp2_struggle_hostility_house_faith_modifier: "Ворожість конфесії"
   fp2_struggle_hostility_house_faith_modifier_desc: "This house has conquered most of Iberia in the name of their faith."
   fp2_struggle_hostility_house_culture_modifier: "Cultural Hostility"
   fp2_struggle_hostility_house_culture_modifier_desc: "This house has conquered most of Iberia in the name of their people."

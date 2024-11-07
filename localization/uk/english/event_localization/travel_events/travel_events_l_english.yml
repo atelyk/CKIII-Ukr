@@ -293,7 +293,7 @@
   travel_events.4035.t: "$travel_event_prefix$ Not in [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] Anymore"
   travel_events.4035.desc.intro: "As a loyal servant of [ROOT.Char.GetFaith.WitchGodName], travel means performing rituals and incantations to safeguard my entourage against evil spirits.\n\nHere in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip],"
   travel_events.4035.desc.mid.zealous: "the vile heretics"
-  travel_events.4035.desc.mid: "people"
+  travel_events.4035.desc.mid: "люди"
   travel_events.4035.desc.outro: "believe all magic and miracles done by any but their clerics to be witchcraft.\n\nAccordingly, the local [zealous_priest_scope.GetFaith.PriestNeuter] now descends upon my procession like a beast, scrubbing away my protective symbols and raving about the alleged evil of my ways."
   travel_events.4035.a: "Perhaps [zealous_priest_scope.GetSheHe] will listen to reason?"
   travel_events.4035.b: "I repent my evil ways!"

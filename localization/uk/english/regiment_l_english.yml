@@ -64,7 +64,7 @@
   REGIMENT_ORIGIN_NEW_LOCATION_MAP: "Station in: [Province.GetBaronyNameExplicitlyNoTooltip]"
   REPLACE_MAA_ORIGIN_TITLE: "Replace [stationed_regiment|E]"
   REPLACE_MAA_ORIGIN_BODY: "Replace the [stationed|E] [Province.GetMaaOriginHere.GetName] in [Province.GetBaronyNameExplicitly] with [Regiment.GetName]"
-  REPLACE_MAA_ORIGIN_ACCEPT: "Replace"
+  REPLACE_MAA_ORIGIN_ACCEPT: "Замінити"
   VIEW_MAA_ORIGIN_TT: "#T View [stationed_regiment|E]#!"
   SHOW_MAA_ORIGIN_TT: "#T [stationed_regiment|E]#!\n[Province.GetTitle.GetHolder.GetShortUIName|U] [Province.GetTitle.GetHolder.LocalPlayerString( 'have', 'has' )] [stationed|E] a [regiment|E] of [Province.GetMaaOriginHere.GetName] #weak ([Province.GetMaaOriginHere.GetMAAType.GetBaseTypeName])#! in this [holding|E]."
   MAA_UNSTATIONED: "Unstationed"

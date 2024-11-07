@@ -16,7 +16,7 @@
   stewardship_domain.1041.c.flavor: "...and the Merchant's Guild will pay me a portion of their profits!"
   stewardship_domain.1041.d: "[guild_county.GetNameNoTierNoTooltip] is #EMP mine#!! Only I control its trade!"
   #Domineering Guild, by Sean Hughes
-  stewardship_domain.1042.t: "Domineering Guild"
+  stewardship_domain.1042.t: "Панівна гільдія"
   stewardship_domain.1042.desc: "The [guild_county.Custom('Governance_1041_GuildType')] in the [guild_county.GetName] has developed a stranglehold on the sale of iron there.\n\nThey are now leveraging their power to charge outrageous prices for their goods, enriching the guild's masters but driving away trade from the county."
   stewardship_domain.1042.a: "Negotiate with them to lower their prices."
   stewardship_domain.1042.a.success: "I get the [guild_county.Custom('Governance_1041_GuildType')] to lower their prices"
@@ -254,7 +254,7 @@
   stewardship_domain_special.1412.b: "I am collecting your debt in full. Now."
   stewardship_domain_special.1412.b.flavor: "Seize everything valuable, then burn the rest!"
   stewardship_domain_special.1413.desc: "As [collector.GetTitledFirstName] shows me around the village, all I see are gaunt cows, chickens digging in the dirt, and peasants returning from the fields with light burdens. When I comment on it, [collector.GetSheHe] makes [collector.GetHerHis] point.\n\n\"These people can barely feed their livestock. If I demand more from them they would starve.\""
-  stewardship_domain_special.1413.a: "I guess I could grant a tax lien..."
+  stewardship_domain_special.1413.a: "Гадаю, я можу вам дати податкову пільгу..."
   stewardship_domain_special.1413.b: "Even under the circumstances, they must pay."
   stewardship_domain_special.1413.c: "This is what you wanted to show me? Treason!"
   stewardship_domain_special.1413.c.tt: "I will decide how to deal with the village"

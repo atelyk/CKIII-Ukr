@@ -5,7 +5,7 @@
   activity_invite_rule_personal_scheme_targets: "Жертва підступів"
   activity_invite_rule_powerful_vassals_children: "Діти могутніх васалів"
   activity_invite_rule_vassals_children: "Діти васала"
-  activity_invite_rule_fellow_vassals_children: "Fellow Vassal's Children"
+  activity_invite_rule_fellow_vassals_children: "Діти васалів"
   playdate_conc_reward_title: "Бенкет завершується"
   playdate_conc_reward: "[ROOT.Char.GetShortUINameNoTooltip] Провели успішний бенкет"
   #Play date
@@ -15,7 +15,7 @@
   activity_playdate_desc: "Inviting every small lord and lady in the realm, below the age of [EmptyScope.ScriptValue('less_than_two_years_to_adulthood_value')|0V], to enjoy themselves in the company of other children is a liberating and fun experience!"
   activity_playdate_host_desc: "$BULLET_WITH_TAB$Participants may gain attending characters [opinion|E]"
   activity_playdate_owner: "Організатор"
-  playdate_phase_desc: "Socialize with your peers."
+  playdate_phase_desc: "Спілкуйтеся зі своїми однолітками."
   activity_playdate_conclusion_desc: "Багато дітей з мого королівства приєдналися до мене, щоб поспілкуватися і повеселитися!"
   activity_playdate_guest_desc: "Може покращити [opinion|E] твого сюзерена про тебе"
   activity_playdate_guest_help_text: "$activity_playdate_desc$"

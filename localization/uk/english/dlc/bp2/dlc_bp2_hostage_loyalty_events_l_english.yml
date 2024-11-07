@@ -59,7 +59,7 @@
   bp2_yearly.8061.a: "Wonderful."
   bp2_yearly.8063.t: "A Hostage Scorned"
   bp2_yearly.8063.desc: "It has been so long now since [hostage.GetFirstName] first came to court and I became [hostage.GetHerHis] [ROOT.Char.Custom('GetAuntUncle')]. Now a [hostage.GetWomanMan], [hostage.GetSheHe] can hardly stand to look at me. Seated at court, [hostage.GetHerHis] eyes show a hatred and malice towards me that can only be attributed to my botched attempt at a proper [ROOT.Char.GetHouse.GetNameNoTooltip] upbringing."
-  bp2_yearly.8063.a: "Oops."
+  bp2_yearly.8063.a: "Ой."
   bp2_yearly.8065.t: "[ROOT.Char.Custom2('AppropriateGreetingNegative', ROOT.Char )]"
   bp2_yearly.8065.desc: "I have felt for a long time that [new_parent.GetFirstName] is my true [new_parent.GetMotherFather], and at last we have put it in writing. As of today, I am disassociated from my old house and am now a fully fledged member of [new_parent.GetHouse.GetName]."
   bp2_yearly.8065.a: "Madness!"

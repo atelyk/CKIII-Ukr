@@ -114,7 +114,7 @@
   steward_task.4002.t: "Втрата престижу"
   steward_task.4002.desc: "[councillor.GetTitledFirstName] is facing unexpected troubles in the [county.GetName]. The locals are utterly unimpressed with our attempts to win them over."
   steward_task.4002.a: "They will understand, sooner or later."
-  steward_task.4002.notification: "Loss of Prestige"
+  steward_task.4002.notification: "Втрата престижу"
   steward_task.4101.t: "Prestige Gained"
   steward_task.4101.desc: "[councillor.GetTitledFirstNamePossessive] mission in the [county.GetName] is beginning to show results. The locals are impressed with our efforts and look at us favorably."
   steward_task.4101.a: "Excellent result!"

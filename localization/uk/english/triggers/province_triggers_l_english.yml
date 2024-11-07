@@ -2,7 +2,7 @@
   DEVELOPMENT_LEVEL_TRIGGER: "Рівень [Concept( 'development', 'розвитку' )|E] в області [TITLE.GetName] $COMPARATOR$ $NUM|V$"
   NOT_DEVELOPMENT_LEVEL_TRIGGER: "Рівень [Concept( 'development', 'розвитку' )|E] в області [TITLE.GetName] #bold не#! $COMPARATOR$ $NUM|V$"
   ITS_DEVELOPMENT_LEVEL_TRIGGER: "Рівень [Concept( 'development', 'розвитку' )|E] в області [TITLE.GetName] $COMPARATOR$ $NUM|V$"
-  NOT_ITS_DEVELOPMENT_LEVEL_TRIGGER: "The [development|E] level in the [TITLE.GetName] is #bold not#! $COMPARATOR$ $NUM|V$"
+  NOT_ITS_DEVELOPMENT_LEVEL_TRIGGER: "Рівень [Concept( 'development', 'розвитку' )|E] в області [TITLE.GetName] #bold не#! $COMPARATOR$ $NUM|V$"
   IS_COUNTY_CAPITAL_TRIGGER: "[county_capital|E]"
   NOT_IS_COUNTY_CAPITAL_TRIGGER: "Це #bold не#! [county_capital|El]"
   NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER: "[TITLE.GetName] має [Concept( 'control', 'контроль' )|E] на рівні 100, і у володінні відсутня [Concept( 'county_corruption', 'корупція' )|E]"

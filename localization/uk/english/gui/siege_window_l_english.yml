@@ -14,7 +14,7 @@
   SW_TT_MEN_PROGRESS: "[soldiers|El], що беруть в облогу"
   SW_TT_ASSAULT_PROGRESS: "Штурм"
   SW_TT_DISEASE_PROGRESS: "Хвороба"
-  SW_TT_FORT_LEVEL_MULT: "[fort_level|E]"
+  SW_TT_FORT_LEVEL_MULT: "[fort_level|E]:"
   SW_TT_MORALE_LOSS_LABEL: "Щоденний прогрес: $VALUE|+=1$"
   SW_TT_MORALE_LOSS_LABEL_MINIMUM: "#! #weak (щонайменше $VALUE|=1$)#!"
   SIEGE_WINDOW_END_DATE: "З поточним прогресом облога триватиме до $TIME$ ([$DATE.GetString|V$])"

@@ -117,7 +117,7 @@
   SETTING_MOUSE_CURSOR_ZOOM_MODE_IGNORE_CURSOR: "Ігнорувати вказівник"
   SETTING_MOUSE_CURSOR_ZOOM_MODE_TOOLTIP: "#T $SETTING_MOUSE_CURSOR_ZOOM_MODE$#!\nЯк знімач поводиться відносно вказівника під час приближення/віддалення."
   SETTING_INPUT_DEVICE: "Пристрій введення"
-  SETTING_EDITOR: "Editor"
+  SETTING_EDITOR: "Редактор"
   SETTING_EDITOR_POSTFIX: "Editor postfix"
   SETTING_EDITOR_OPEN_FILE_FORMAT: "Editor open command"
   SETTING_LOG_VIEWER_OPEN_FILE_FORMAT: "View log command"

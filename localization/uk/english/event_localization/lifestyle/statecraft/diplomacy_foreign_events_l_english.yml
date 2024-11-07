@@ -9,7 +9,7 @@
   #1010 — 1031: Foreign Relations (Invite a foreign ruler to your court), by Mathilda Bjarnehed
   #1032 — 1051: The Weak Link	(One of your neighbor's vassals is disloyal), by Mathilda Bharnehed
   #Religious Refugees, by Sean Hughes
-  diplomacy_foreign.1074.t: "Religious Refugees"
+  diplomacy_foreign.1074.t: "Релігійні біженці"
   diplomacy_foreign.1074.desc: "[heretic_ruler.GetTitledFirstName] rules over the nearby [target_county.GetName], which is home to a large number of devout [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]. The [heretic_ruler.GetFaith.GetAdherentName] [heretic_ruler.GetTitleAsName] could easily persecute the faithful [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] living there, and it is my responsibility to protect them from [heretic_ruler.GetHerHis] [ROOT.GetCharacter.Custom2('ToleranceValue', SCOPE.sC('heretic_ruler'))] influence."
   diplomacy_foreign.1074.a: "We cannot allow [heretic_ruler.GetHerHim] to oppress the faithful!"
   diplomacy_foreign.1074.b: "Smuggle as many [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] as we can to safety."
@@ -55,7 +55,7 @@
   diplomacy_foreign.3008.desc.special: "You have greatly misjudged me if you think sycophantry will get you anywhere. I see now your words are as empty as your skull."
   diplomacy_foreign.3008.desc.bribe: "You have greatly misjudged me if you think bribery will get you anywhere. Avarice is an incredibly unbecoming trait."
   diplomacy_foreign.3008.desc.end: "And to think, I used to value your friendship..."
-  diplomacy_foreign.3008.a: "Oops."
+  diplomacy_foreign.3008.a: "Ой."
   diplomacy_foreign.3008.a.tt: "At least you learned something!"
   ##################
   #Special Events #
@@ -141,17 +141,17 @@
   diplomacy_foreign_special.1028.t: "$diplomacy_foreign_special.1017.t$: Petals and Thorns"
   diplomacy_foreign_special.1028.desc: "During our walk through the gardens, [foreign_guest.GetTitledFirstName] and I have paused to admire the view. \"The proportions, the colors — I have seen few things as beautiful as this, [ROOT.GetCharacter.GetTitledFirstNameNoTooltip],\" [foreign_guest.GetSheHe] says and gestures at the sight before us.\n\nI feel as if I ought say something kind in turn. Perhaps something about [foreign_guest.GetHerHis]..."
   diplomacy_foreign_special.1028.compassionate: "Warmth and kindness."
-  diplomacy_foreign_special.1028.bold: "Relentless courage."
-  diplomacy_foreign_special.1028.honorable: "Loyalty and sense of honor."
-  diplomacy_foreign_special.1028.greed: "Soaring ambition."
-  diplomacy_foreign_special.1028.rational: "Clear rationality."
+  diplomacy_foreign_special.1028.bold: "Безрозсудну хоробрість."
+  diplomacy_foreign_special.1028.honorable: "Вірність та честь."
+  diplomacy_foreign_special.1028.greed: "Сміливі амбіції."
+  diplomacy_foreign_special.1028.rational: "Чистий розум."
   diplomacy_foreign_special.1028.zealous: "Unshakable faith."
   diplomacy_foreign_special.1028.energetic: "Energy and spontaneity."
-  diplomacy_foreign_special.1028.forgiving: "Forgiving nature."
+  diplomacy_foreign_special.1028.forgiving: "Добра душа."
   diplomacy_foreign_special.1028.beautiful: "Regal handsomeness."
-  diplomacy_foreign_special.1028.strong: "Strength of arm."
+  diplomacy_foreign_special.1028.strong: "Міцність рук."
   diplomacy_foreign_special.1028.extroverted: "Way with people."
-  diplomacy_foreign_special.1028.dominant: "Assertive presence."
+  diplomacy_foreign_special.1028.dominant: "Наполегливість."
   diplomacy_foreign_special.1028.good: "My compliment is well-received"
   diplomacy_foreign_special.1028.neutral: "My compliment falls flat"
   diplomacy_foreign_special.1028.bad: "My compliment comes across as an insult"

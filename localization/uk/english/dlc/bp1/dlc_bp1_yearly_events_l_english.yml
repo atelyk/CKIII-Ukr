@@ -93,7 +93,7 @@
   bp1_yearly.5301.c: "I'm not too thin!"
   bp1_yearly.5301.d: "You're one to talk about appearance!"
   bp1_yearly.5301.d.tt: "The two of you engage in a somewhat-pathetic fistfight"
-  bp1_yearly.5301.d.tt.win: "You win the fight"
+  bp1_yearly.5301.d.tt.win: "Ви перемагаєте в бійці"
   bp1_yearly.5301.d.tt.lose: "You lose the fight"
   bp1_yearly.5302.t: "$bp1_yearly.5301.t$: Rocky Road"
   bp1_yearly.5302.desc: "It's a fresh, sunny day, and I can see the sweat dripping off [concerned_friend.GetFirstNamePossessive] chin as [concerned_friend.GetSheHe] continues to encourage me forward. The sack of rocks on my back groans under the weight, and I do too as I throw it down over the line in the dirt that [concerned_friend.GetFirstNameNoTooltip] had drawn with a stick. [concerned_friend.GetSheHe|U] claps [concerned_friend.GetHerHis] hands together delightedly.\n\n\"You're looking stronger already! I think it's time to move on to something a bit bigger.\"\n\n\"I know they're currently conducting drainage works in the next field over and could use some help. Otherwise if you're feeling brave, there's a copse of trees just over the crest that they're logging in. What do you think?\""
@@ -335,7 +335,7 @@
   bp1_yearly.8000.d: "Inconsequential prattle, I am sure."
   bp1_yearly.8000.d.rival: "The rumors were true"
   bp1_yearly.8000.d.bluff: "[bp1_8000_new_rival.GetTitledFirstNameNoTooltip] was bluffing"
-  bp1_yearly_8000_trusting_modifier: "Trusting Liege"
+  bp1_yearly_8000_trusting_modifier: "Довірливий сюзерен"
   bp1_yearly_8000_trusting_modifier_desc: "This character is known to give their subjects the benefit of the doubt."
   #Friends with Benefits
   bp1_yearly.8010.opening: "[bp1_8010_best_friend.Custom2('AppropriateGreeting', ROOT.Char)]"
@@ -585,7 +585,7 @@
   bp1_yearly.8134.t: "[sycophant_scope.GetFirstNamePossessiveNoTooltip] Absence"
   bp1_yearly.8134.desc: "It has been far too long since I had word from my [ROOT.Char.Custom2('RelationToMe', sycophant_scope)], [sycophant_scope.GetTitledFirstNamePossessive], and I am beginning to fear the worst.\n\nIf there really was a threat against [sycophant_scope.GetHerHis] life... oh [ROOT.Char.GetFaith.HighGodName]..."
   bp1_yearly.8134.a: "Where are you, [sycophant_scope.GetFirstNameNoTooltip]?"
-  bp1_yearly.8134.a.flavor: "What have I done..."
+  bp1_yearly.8134.a.flavor: "Невже це через мене?..."
   #Sycophant's revenge
   bp1_yearly.8140.t: "[sycophant_scope.GetFirstNamePossessiveNoTooltip] Revenge"
   bp1_yearly.8140.desc: "Looking over my collection of fine [ROOT.Char.Custom('RegionalAlcoholicDrink')|U], I hear the familiar voice of my [ROOT.Char.Custom2('RelationToMe', sycophant_scope)], [sycophant_scope.GetFirstName].\n\nTucked away amongst the barrels, [sycophant_scope.GetSheHe] is listing curses and expletives against [jealous_scope.GetTitledFirstName] to some servant or other.\n\nJust as I am about to lose interest I hear it, chilling my blood, \"kill [jealous_scope.GetTitledFirstName]!\""

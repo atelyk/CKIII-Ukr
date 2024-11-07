@@ -99,7 +99,7 @@
   COURT_AMENITIES_APPLY_WARNING: "Once applied, the modified Amenities will be #X locked for 12 months#!"
   COURT_AMENITIES_CONFIRM_TITLE: "Change Amenity Levels"
   COURT_AMENITIES_CONFIRM_DESC: "If you change [court_amenities|E] in your Royal Court, you cannot change that category again for [DATE.GetTimeToDate] ([DATE.GetStringLong]).\nThe new set of Amenities will cost $COST$."
-  COURT_AMENITIES_CONFIRM_ACCEPT: "Change"
+  COURT_AMENITIES_CONFIRM_ACCEPT: "Змінити"
   COURT_AMENITIES_COOLTIP_ABOVE_DESCRIPTION: "Maintenance: [CourtAmenitiesSetting.GetCostDescription( GetPlayer )]\n[CourtAmenitiesSetting.GetEffectDescription]"
   COURT_AMENITIES_NEED_CHANGE: "@warning_icon! #X No Amenities have been changed#!"
   AMENITIES_APPLY_TOOLTIP: "#T Apply New Amenities#!\n[AddTextIf( Not( CourtAmenitiesWindow.HasChangedAnyAmenity ), '$COURT_AMENITIES_NEED_CHANGE|q$\n' )]Apply the selected changes. The new [amenities|E] will cost [CourtAmenitiesWindow.GetNewMonthlyCost]"

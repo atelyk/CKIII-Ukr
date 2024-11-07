@@ -1,7 +1,7 @@
 ﻿l_english:
   travel_walking_modifier: "Walking"
   travel_walking_modifier_desc: "You are without mounts and hoofin' it to your destination"
-  travel_guide_modifier: "Local Guide"
+  travel_guide_modifier: "Місцевий провідник"
   travel_guide_modifier_desc: "You have hired a local guide to help you navigate"
   #New Travel Options
   experienced_captains_option: "Hire Experienced Captains"

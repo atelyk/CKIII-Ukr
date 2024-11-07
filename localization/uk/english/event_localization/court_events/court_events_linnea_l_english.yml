@@ -28,7 +28,7 @@
   court.5026.desc: "\"Such glistening [ROOT.Char.Custom('DogFurColor')] fur, and well-trained to boot! I've never seen such a magnificent canine!\"\n\n[buyer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] thoughtfully pets [ROOT.Char.Custom('DogStoryName')] before turning back to me. \"[ROOT.Var('price_for_pet').GetValue|0] gold should be plenty, yes?\""
   court.5026.a: "[ROOT.Char.Custom('DogStorySheHe')|U] is yours!"
   court.5026.b: "How dare you, I would never sell [ROOT.Char.Custom('DogStoryName')]!"
-  court.5030.t: "Playtime"
+  court.5030.t: "Час грати"
   court.5030.desc_opening: "Across the room I see [child.Custom2('MyCharacterIntroduction', ROOT.Char)] playing with [child.GetHerHis] favorite [child.Custom('child_favorite_toy')]."
   court.5030.desc_young: "The adults around me are always unhappy and want me to help them, but I think I would rather help beat the fearsome dragon [child.GetSheHe] seems to be fighting!"
   court.5030.desc: "I've been listening to people moan and complain the whole day and I'm so #EMP bored#! that I can't help my focus shifting to whatever game [child.GetSheHe] is playing..."

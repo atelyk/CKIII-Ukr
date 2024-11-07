@@ -1,6 +1,6 @@
 ﻿l_english:
   sacrifed_small_animal_title: "[first.GetShortUIName|U] Sacrificed a Small [root_scope.Custom('SmallAnimal')|U]"
-  small_animal_rabbit: "rabbit"
+  small_animal_rabbit: "кролик"
   small_animal_squirrel: "squirrel"
   small_animal_mouse: "mouse"
   small_animal_hedgehog: "hedgehog"

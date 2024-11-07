@@ -74,12 +74,12 @@
   activity_system.0320.desc: "Our host, [host.GetName], has lost [host.GetHerHis] possession of [province.GetNameNoTooltip()] and so the [activity_type.GetNameNoTooltip()] has come to an untimely end.\n\nThis is certainly not how I expected this affair to conclude after all the fanfare of invitations and buildup. I suppose all that is left is for my entourage and I to return home to [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]..."
   activity_system.0320.a: "What's done is done."
   #If you have gained the incapable trait
-  activity_system.0330.t: "Incapable"
+  activity_system.0330.t: "Недієздатність"
   activity_system.0330.desc.intro: "I have been deemed incapable and am seen as entirely unfit to manage my own affairs, including my [activity_type.GetNameNoTooltip()]!\n\n"
   activity_system.0330.desc.memory: "Alas, [incapable_memory.GetDescription].\n\n"
   activity_system.0330.desc.outro: "There is nothing left to do but return home to [home.GetName]."
   activity_system.0330.a: "May my guests make it home safely."
-  activity_system.0331.t: "Incapable"
+  activity_system.0331.t: "Недієздатність"
   activity_system.0331.desc: "Our host, [host.GetName], have been deemed incapable by those around [host.GetHerHim] and is seen as entirely unfit to manage [host.GetHerHis] own affairs, including [host.GetHerHis] [activity_type.GetNameNoTooltip()]!\n\nAlas, we must all return home empty-handed. "
   activity_system.0331.a: "What a shame."
   #Late to the activity
@@ -92,7 +92,7 @@
   activity_system.0401.t: "Too Late"
   activity_system.0401.desc_leader: "[travel_leader.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with a grim look on [travel_leader.GetHerHis] face.\n\n\"I'm sad to report that we didn't make it in time, my [ROOT.Char.GetTitleAsNameNoTooltip]. The activity started today, and we are simply not there for it.\""
   activity_system.0401.desc_no_leader: "Today is the day. The activity started today, but despite my best efforts we are simply not there for it.\n\nThere's nothing left to do but turning around and heading back home."
-  activity_system.0401.a: "Disappointing."
+  activity_system.0401.a: "Яке розчарування."
   SELECT_ACTIVITY_DECISION_TITLE: "#D Select Activity Type#!"
   SELECT_ACTIVITY_DECISION_NEXT_STEP_BUTTON: "$SELECT_ACTIVITY_DECISION_TITLE$"
   hold_grand_activity_option_tournament: "$activity_tournament$"

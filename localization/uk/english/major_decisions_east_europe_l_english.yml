@@ -206,5 +206,5 @@
   east_europe.0201.t: "$east_europe.0101.t$"
   east_europe.0201.desc: "Heralds bring word from the cold shores of Livonia: [founder.GetShortUIName] has been proclaimed [founder.GetTitleAsNameNoTooltip] of [founder.GetPrimaryTitle.GetNameNoTier].\n\nWith all Balts now united under a single banner, it seems the people of Livonia finally have a unifying identity to rally behind, no more scattered and confused in the defense of their homeland.\n\nWith this act of unification, Livonia seems to be in safe hands… for now."
   east_europe.0201.a: "They are still barbarians."
-  east_europe.0201.b: "Hail [founder.GetShortUINameNoTooltip]!"
+  east_europe.0201.b: "Слався, [founder.GetShortUINameNoTooltip]!"
   east_europe.0201.c: "United or divided, the Balts cannot last."

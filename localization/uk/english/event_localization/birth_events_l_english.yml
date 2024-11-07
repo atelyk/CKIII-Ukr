@@ -188,7 +188,7 @@
   birth.9002.b.tt: "Ви дасте [child.GetHerHim] більш відповідне ім'я"
   birth.9003.desc: "[suggester.GetTitledFirstName] обережно передає мені дитину, і я дивлюся в [child.GetHerHis] чарівні очі. Ким ти станеш у майбутньому?"
   birth.9003.a: "Значно краще."
-  birth.9004.t: "What's in a Name?"
+  birth.9004.t: "Що значить ім'я?"
   birth.9004.desc.me: "[ROOT.Char.GetFirstNameNoTooltip].\n\nSuch a drab name, I sometimes think, pondering how it will read to future historians.\n\nYet I am a [ROOT.Char.GetTitleAsNameNoTooltip], and if I wish to be called differently, surely I need only let the world know?"
   birth.9004.desc: "[child.GetFirstNameNoTooltip].\n\nInitially I was fond of the name, but now it seems strange to my ears. What will [child.GetSheHe] think of [child.GetHerHis] name once grown up?\n\nMaybe I should change it to something better?"
   birth.9004.a: "Ah, a #EMP much#! better name!"

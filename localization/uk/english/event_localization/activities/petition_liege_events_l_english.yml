@@ -189,8 +189,8 @@
   petition_liege.0209.desc.bridge.unapologetic: "$petition_liege.0209.desc.bridge$ \"#EMP This#! is the urgent matter you needed to discuss with me? No. Absolutely not. Now if you will excuse me, I have actually #EMP important#! matters to attend to.\""
   petition_liege.0209.desc.bridge.favor: "$petition_liege.0209.desc.bridge$ \"I am truly sorry, but I will not be able to grant this request. If I could I would give you what you want, but please let this promise of a future favor suffice.\""
   petition_liege.0209.counter: "Wait, my [petition_liege.GetLadyLord]! Hear me out!"
-  petition_liege.0209.a: "Alas."
-  petition_liege.0209.favor: "Very well."
+  petition_liege.0209.a: "На жаль."
+  petition_liege.0209.favor: "Ну добре."
   #Vassal agrees to terms
   petition_liege.0301.t: "Counter-offer Accepted"
   #Vassal refuses counterproposal (end)
@@ -295,6 +295,6 @@
   petition_liege_title_councillor: "[ROOT.Char.GetCouncilTitle]"
   petition_liege_title_position: "[ROOT.Char.GetHeldCourtAndCouncilPositionsString]"
   petition_liege_title_landed: "[ROOT.Char.GetTitleAsNameNoTooltip]"
-  petition_liege_title_courtier: "courtier"
+  petition_liege_title_courtier: "придворна"
   petition_liege_second_if_tt: "#bold If [TARGET_CHARACTER.GetTitledFirstNameRegnal] accepts:#!"
   petition_liege_costs_refunded: "$petition_liege_decision$ costs refunded"

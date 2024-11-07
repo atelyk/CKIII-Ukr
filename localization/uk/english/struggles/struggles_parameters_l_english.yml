@@ -50,7 +50,7 @@
   struggle_parameter_struggle_high_impact_on_terrain_danger: "[travel_danger|E] when [traveling|E] within the [struggle_region|E] is increased markedly"
   #FP3: Persian Struggle
   struggle_parameter_unlocks_claim_throne_for_caliph_vassals: "Unlocks the [GetScheme('claim_throne').GetTypeName] [scheme|E] for [vassals|E] of [GetTitleByKey('e_arabia').Custom('GetIncumbentOrNone')]"
-  struggle_parameter_unlocks_abandon_hook_for_all: "Unlocks the [abandon_hook_interaction|E]"
+  struggle_parameter_unlocks_abandon_hook_for_all: "Розблоковує [abandon_hook_interaction|E]"
   struggle_parameter_piety_from_converting_county: "Converting a [county|E] gives [piety_i][piety|E]"
   struggle_parameter_piety_from_converting_involved_rulers: "Converting a [struggle_involved|E] [characters|E] gives [piety_i][piety|E]"
   struggle_parameter_struggle_prestige_from_befriending_same_culture: "Befriending [struggle_involved|E] [characters|E] of the same [culture|E] gives [prestige_i][prestige|E]"

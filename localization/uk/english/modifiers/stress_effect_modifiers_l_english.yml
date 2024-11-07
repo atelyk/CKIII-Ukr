@@ -16,7 +16,7 @@
   stress_hashish_stupor_desc: "This character has drugged themselves into a stupor."
   stress_inappetetic_hunger_1: "Famished"
   stress_inappetetic_hunger_1_desc: "This character is not eating enough food to stay healthy."
-  stress_inappetetic_hunger_2: "Starved"
+  stress_inappetetic_hunger_2: "Голод"
   stress_inappetetic_hunger_2_desc: "This character is suffering from a severe lack of food."
   stress_inappetetic_hunger_3: "Wasting"
   stress_inappetetic_hunger_3_desc: "This character has not eaten anything in weeks, and it shows."

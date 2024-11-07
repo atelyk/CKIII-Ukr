@@ -225,9 +225,9 @@
   travel_events.3090.c: "Men, break the door down if it's necessary."
   travel_events.3090.d: "Well, that's unfortunate. Let's continue our travel."
   ignored_church: "Ignored Temple"
-  building_temple_church: "church"
-  building_temple_mosque: "mosque"
-  building_temple_temple: "temple"
+  building_temple_church: "церква"
+  building_temple_mosque: "мечеть"
+  building_temple_temple: "храм"
   #Weak Steppe Horses Events
   travel_events.3100.t: "$travel_danger_prefix$ Feeble Mounts"
   travel_events.3100.desc_intro: "We knew that traveling through the [horses_steppe_location.GetName]'s steppes wouldn't be easy. We march until night without a stop, arriving at our next destination so late that we don't even dine. Our horses neigh, refusing to leave the water whenever we find a stream."
@@ -287,7 +287,7 @@
   travel_events.3130.d: "\"Pleasant circumstances, you say...?\""
   travel_events.3130.e: "\"Go. I don't want to see you again.\""
   executed_assassin_modifier: "Assassination Averted"
-  sent_assassin_back_modifier: "Discovered Agents"
+  sent_assassin_back_modifier: "Викриті співучасники"
   #Army Tries to Capture Entourage Member Events
   travel_events.3140.t: "$travel_danger_prefix$ A Bad Crossing"
   travel_events.3140.desc: "Burned crops, barren fields. The spoils of war. Our pace gets faster after we see the first corpses.\n\nThe only possible path passes by an army camp. I look behind us: there's no other way. I nod at my guards and they nod back, tightening the grip on their swords.\n\nAn army commander stands at the entrance of the camp: \"Allies to the enemy, huh?\" [hostile_commander.GetSheHe] asks, scratching [hostile_commander.GetHerHis] nose, \"care to spare a prisoner?\" [hostile_commander.GetSheHe|U]'s clearly pointing at [entourage_member.GetTitledFirstName]."
@@ -295,7 +295,7 @@
   travel_events.3140.a.success: "You convince the commander"
   travel_events.3140.a.failure: "The commander refuses to listen"
   travel_events.3140.b: "You'll have to take me to take [entourage_member.GetHerHim]!"
-  travel_events.3140.b.success: "You win the fight"
+  travel_events.3140.b.success: "Ви перемагаєте в бійці"
   travel_events.3140.b.failure: "The commander wins the fight"
   travel_events.3140.c: "Maybe we can reach an understanding?"
   #Rival/Nemesis in Entourage Events

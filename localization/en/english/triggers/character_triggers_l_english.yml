@@ -841,12 +841,12 @@
   THEY_DOES_NOT_HAVE_AN_IMPRISONMENT_REASON_ON_CHARACTER: "[CHARACTER.GetShortUIName|U] does #bold not#! have a valid [imprisonment_reason|E] on [TARGET_CHARACTER.GetShortUIName]"
   has_imprisonment_reason_no_subject: "You have a valid [imprisonment_reason|E] on them"
 
-  MISSING_UNIQUE_ANCESTORS_TRIGGER_GLOBAL: "Is missing at least $NUM|V0$ unique ancestors"
-  MISSING_UNIQUE_ANCESTORS_TRIGGER_FIRST: "You are missing at least $NUM|V0$ unique ancestors"
-  MISSING_UNIQUE_ANCESTORS_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] is missing at least $NUM|V0$ unique ancestors"
-  NOT_MISSING_UNIQUE_ANCESTORS_TRIGGER_GLOBAL: "Does #bold not#! have more than $NUM|E$ missing unique ancestors"
-  NOT_MISSING_UNIQUE_ANCESTORS_TRIGGER_FIRST: "You do #bold not#! have more than $NUM|E$ missing unique ancestors"
-  NOT_MISSING_UNIQUE_ANCESTORS_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U] does #bold not#! have more than $NUM|E$ missing unique ancestors"
+  PARENT_RELATEDNESS_TRIGGER_GLOBAL: "Are at least $NUM|%0$ related"
+  PARENT_RELATEDNESS_TRIGGER_FIRST: "Your parents are at least $NUM|%0$ related"
+  PARENT_RELATEDNESS_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U]'s parents are at least $NUM|%0$ related"
+  NOT_PARENT_RELATEDNESS_TRIGGER_GLOBAL: "Are #bold not#! more than $NUM|%0$ related"
+  NOT_PARENT_RELATEDNESS_TRIGGER_FIRST: "Your parents are #bold not#! more than $NUM|%0$ related"
+  NOT_PARENT_RELATEDNESS_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|U]'s parents are #bold not#! more than $NUM|%0$ related"
 
   character_this_equal: "Target is [CHARACTER.GetShortUIName]"
   character_scope_equal: "Target is [CHARACTER.GetShortUIName]"

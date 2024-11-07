@@ -239,6 +239,7 @@
   commission_epic.9101.b: "There is still so much here for you!"
   commission_epic.9101.c: "I also need you. Here."
   commission_epic.9101.d: "As long as you write to me!"
+  commission_epic.9101.d.tt: "[composer.GetTitledFirstName] will leave your court"
 
   commission_epic.9102.t: "Family Epic: Servitude"
   commission_epic.9102.desc: "[composer.GetTitledFirstName] has proven [composer.GetHerselfHimself] far more capable than I would expect from a simple servant. Had I not known better, I might have thought [composer.GetHerHim] from a lineage of poets!\n\nAfter all the time we have spent together, it seems strange that [composer.GetSheHe] should return to shoveling dirt, or whatever it was [composer.GetSheHe] used to."

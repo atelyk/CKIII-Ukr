@@ -124,7 +124,7 @@
   #CHARACTER_INTERACTION_REPLY_BLOCKED: "" # <DELETE THIS KEY>
   CHARACTER_INTERACTION_CANT_SEND_RECIPIENT_REJECTS: "@warning_icon! #X [CHARACTER.GetShortUIName] would not accept this#!"
   CHARACTER_INTERACTION_ALREADY_CONSIDERING_WARNING: "@warning_icon! #X $CHARACTER_INTERACTION_ALREADY_CONSIDERING$#! "
-  CHARACTER_INTERACTION_ALREADY_CONSIDERING: "[CHARACTER.GetUIName] is already considering a proposal from [TARGET_CHARACTER.GetUIName]"
+  CHARACTER_INTERACTION_ALREADY_CONSIDERING: "[CHARACTER.GetUIName|U] [CharAreIs(CHARACTER)] already considering a proposal from [TARGET_CHARACTER.GetUIName]"
   CHARACTER_INTERACTION_NO_TARGET_SELECTED: "@warning_icon! #X No target selected#! "
   CHARACTER_OTHER_PLAYER_TOOLTIP: "This Character is controlled by [Character.PlayerName]."
   BASE_COLON: "Base: $VALUE|V0$"
@@ -619,7 +619,7 @@
   TRAIT_FLAG_DESC_immortal_visuals: "Will not visually age"
   TRAIT_FLAG_DESC_immortal_fertility: "[fertility|E] depends on the [character|E]'s visual age"
   TRAIT_FLAG_DESC_immortal_incapability: "Cannot become [GetTrait('incapable').GetName( GetNullCharacter )]"
-  TRAIT_BLOCK_INHERITANCE: "@warning_icon! #X May not inherit titles#!"
+  TRAIT_BLOCK_INHERITANCE: "@warning_icon! #X May not inherit [titles|E]#!"
   TRAIT_FLAVOR_DESC: "$DESC|F$"
   FERTILITY_COLON: "[fertility|E]: $VALUE|V$"
   BIRTH_DATE: "Born on [DATE.GetStringShort|V]"
@@ -807,6 +807,7 @@
   RENAME_STRING_ENDS_WITH_SPACE_NAMED: "@warning_icon! #X $NAME$ ends with space#!"
   DEFAULT_TEXT: "#D DEFAULT TEXT#!"
 
+  MUSIC_PLAYER_NAME: "Music Player"
   MUSIC_PLAYER_VOLUME_VALUE: "[MusicPlayer.GetVolumeString]"
   MUSIC_PLAYER_SETTING_MUSIC_DENSITY_VALUE: "[MusicPlayer.GetMusicDensityString]"
   MUSIC_PLAYER_CATEGORY_ENABLED_CK3: "#P $MUSIC_PLAYER_CATEGORY_ENABLED$#!"
@@ -883,6 +884,9 @@
   secrecy.scheme_owner.intrigue: "Your [intrigue|E]"
   secrecy.scheme_owner.learning: "Your [learning|E]"
   secrecy.scheme_owner.prowess: "Your [prowess|E]"
+
+  #BP3
+  realm_chart_perk_same_realm_secrecy: "$realm_charts_perk_name$"
   secrecy.scheme_owner.spymaster.disrupt_schemes: "[spymaster|E] tasked to [disrupt_schemes|E]"
 
   tooltipped_camp_purpose_wanderers: "[GetLaw('camp_purpose_wanderers').GetName]"

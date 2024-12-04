@@ -313,7 +313,7 @@
   travel_events.4032.a: "This [cowardly_knight_scope.GetWomanMan] deserves my help!"
   travel.beat_back_lion: "You beat the [ROOT.Char.Custom('GetAnimalType')]"
   travel.mauled_by_animal: "You were mauled by the [ROOT.Char.Custom('GetAnimalType')]"
-  travel_events.4032.b: "Help [cowardly_knight_scope.GetHerHim] [entourage_helper.GetNameNoTooltip]!"
+  travel_events.4032.b: "Help [cowardly_knight_scope.GetHerHim], [entourage_helper.GetFirstNameNoTooltip]!"
   travel_events.4032.c: "I won't risk my life for this."
   
   travel_events.4033.t: "The [witch_scope.Custom('MagicUserTerm')|U] of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]"

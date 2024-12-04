@@ -1097,7 +1097,7 @@
   #building_rammelsberg_mines_08_desc: "$building_type_rammelsberg_mines_01_desc$"
 
   building_type_falun_mines_01: "The Falun Mines"
-  building_type_falun_mines_01_desc: "Also known as "Stora Kopparberget" #italic (the Great Copper Mountain)#! this mine produces vast quantities of copper."
+  building_type_falun_mines_01_desc: "Also known as “Stora Kopparberget” #italic (the Great Copper Mountain)#! this mine produces vast quantities of copper."
   building_falun_mines_01: "Falun Mining Settlement"
   building_falun_mines_01_desc: "$building_rammelsberg_mines_01_desc$"
   building_falun_mines_02: "Falun Mine"

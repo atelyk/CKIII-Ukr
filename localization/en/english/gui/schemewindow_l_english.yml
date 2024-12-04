@@ -33,6 +33,7 @@
   SCHEME_WINDOW_NOT_OWNED_SCHEMES: "No #high [SkillSchemeGroup.GetTypeName]#! [scheme|E] in progress\nStart one by interacting with another Character"
   SCHEME_WINDOW_NOT_KNOWN_SCHEMES: "#weak No [schemes|E] discovered yet#!"
   SCHEME_WINDOW_UNKNOWN_OWNER_TOOLTIP: "The owner of this Scheme is unknown"
+  SCHEME_WINDOW_MODIFIERS: "[modifiers|E]:"
   SCHEME_WINDOW_TT_SPEED: "$SPEED|1V$ [scheme_speed|E]"
   SCHEME_RESISTANCE_DESCRIPTION_HEADER: "[scheme_resistance|E]"
   SCHEME_PHASE_DURATION_DESCRIPTION_HEADER: "#T [scheme_speed|E]#!\nDays per $game_concept_scheme_phase_phase$"

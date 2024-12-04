@@ -36,6 +36,7 @@
   LOBBY: "Lobby"
   START: "Start"
   FINISH: "Finish"
+  APPLY: "Apply"
   DISABLED_BUTTON: "Not implemented..."
   CURRENT_DATE: "[GetCurrentDate.GetStringLong]"
   CURRENT_DATE_TOOLTIP: "[JoinText( '\n', GetCurrentDateStringWithSyncInfo, GetPausedByEventReason )]"

@@ -28,3 +28,5 @@
   child_culture_converted.parent.message: "Під час наставництва [guardian.GetTitledFirstName] [Select_CString(guardian.IsFemale, 'посприяла', 'посприяв' )] тому, щоб [Select_CString(ward.IsFemale, 'ваша', 'ваш' )] [ward.Custom('GetDaughterSon')] [Select_CString(ward.IsFemale, 'змінила', 'змінив' )] культуру"
   childhood_education.9004.child_message: "[guardian.GetTitledFirstNameNoTooltip] і [GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]"
   childhood_education.9004.guardian_message: "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]"
+  childhood_education.9010.child_message: "[parent.GetTitledFirstNamePossessiveNoTooltip] [GetPerk( 'just_one_more_hill_perk' ).GetName( GetPlayer )]"
+  childhood_education.9010.parent_message: "[GetPerk( 'just_one_more_hill_perk' ).GetName( GetPlayer )]"

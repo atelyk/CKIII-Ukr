@@ -202,6 +202,7 @@
   commission_epic.9101.b: "Але тут на тебе стільки всього чекає!"
   commission_epic.9101.c: "Мені потрібний твій талант. Тут."
   commission_epic.9101.d: "Лише не забувай писати мені!"
+  commission_epic.9101.d.tt: "[composer.GetTitledFirstName] will leave your court"
   commission_epic.9102.t: "Сімейний епос: служіння"
   commission_epic.9102.desc: "[composer.GetTitledFirstName] [Select_CString(composer.IsFemale, 'виявилася', 'виявився' )] набагато більше [Select_CString(composer.IsFemale, 'здібною', 'здібним' )], ніж можна очікувати від слуги. Не знай я протилежного, можна було б подумати, що [composer.GetSheHe] належить до династії поетів!\n\nМи провели разом стільки часу, що мені тепер дивно, що [composer.GetHerHim] знову треба повертатися до колупання в багнюці або чим там [composer.GetSheHe] [Select_CString(composer.IsFemale, 'займалася', 'займався' )]."
   commission_epic.9102.a: "[composer.GetSheHe|U] [Select_CString(composer.IsFemale, 'повинна', 'повинен' )] показати себе світові."

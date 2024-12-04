@@ -1532,3 +1532,5 @@
   alto_flute_idle: "Holding Alto Flute"
   alto_flute_active: "Playing Alto Flute"
   dead: "Смерть"
+  survey_staff: "Surveying with Walking Stick"
+  holding_staff: "Holding Walking Stick"

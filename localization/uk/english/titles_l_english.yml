@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   TITLE_NAME: "$NAME|U$"
   TITLE_TIERED_NAME: "$TIER|U$ володіння $NAME$"
   TITLE_DEFINITIVE_NAME: "$TIER|U$ $NAME$"
@@ -9997,6 +9997,7 @@ l_english:
   b_tharros: "Фаррос"
   b_thasos: "Тасос"
   b_thatta: "Тхатта"
+  b_the_uists_article: "the "
   b_the_uists: "Уїст"
   b_thebes: "Фіви"
   b_thebeshellas: "Фіви"
@@ -24389,6 +24390,19 @@ l_english:
   d_laamp_ubbe_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
   d_laamp_enian: "Scattered Lights"
   d_laamp_enian_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+  d_laamp_sevener_caliph: "Followers of Isma'il"
+  d_laamp_sevener_caliph_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+  d_laamp_twelver_caliph: "Rightly Guided Sons"
+  d_laamp_twelver_caliph_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+  d_laamp_qutid: "Regents of Sabta"
+  d_laamp_qutid_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+  d_laamp_kalbid: "Exiled Balermi"
+  d_laamp_kalbid_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+  d_laamp_du_leon: "Old House"
+  d_laamp_du_leon_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
   #Special
   c_new_england: "New England"
   c_new_england_adj: "New English"
+  k_bosporan_kingdom: "Bosporan Kingdom"
+  k_bosporan_kingdom_article: "the "
+  k_bosporan_kingdom_adj: "Cimmerian"

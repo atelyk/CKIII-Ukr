@@ -73,4 +73,4 @@
   CREATE_LEGEND_DESC: "This [legend_seed|E] is for a [LegendSeed.GetQualityLevel] [Concept( 'legend_type', LegendSeed.GetType.GetName )|E].\n#I Select the [legend_protagonist|E] and create your [legend|E].#!\n#weak Based on your chosen Protagonist you will recieved different rewards upon completing your Legend.#!\n@alert_icon!#alert_trial You cannot complete the legend for [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!"
   CREATE_LEGEND_WARNING_DESC: "@warning_icon!#X You cannot complete or abandon the legend for [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!"
   LEGEND_REWARDS: "Rewards upon completion"
-  RELATIONSHIP: "Relationship"
+  RELATIONSHIP: "Відносини"

@@ -1002,6 +1002,8 @@
   easteregg_artifact_chad_dagger_description: "Його блиск тьмяний від плям засохлої крові, хоча він жадає більшого."
   easteregg_artifact_veronica_book: "Кільця Господні"
   easteregg_artifact_veronica_book_description: "Тонко завуальована довідка у формі книги. Написано найкращою португальською мовою."
+  easteregg_artifact_map_lohmander: "Old Itinerary"
+  easteregg_artifact_map_lohmander_description: "This small leather-bound book contains the tales of a Scandinavian scribe and his journey from the west to India. It details dangers, roads and what equipment one would need, from where to bring water to where you may need the right kind of boots, and so on. It also has a large amount of information on local types of food or dances.\n\nInside there is also a number of folded maps, depicting the subcontinent as well as many other places, with notes on faraway places and their names in ages past."
   easteregg_artifact_jason_sword: "Меч святого Мартіна"
   easteregg_artifact_jason_sword_description: "Уздовж леза хтось недбало видряпав слова - \"\" Я Є Те, Що Я Є\"\""
   child_toy_template_tt: "Тільки [Concept( 'child', 'дитина')|E] може використовувати цей [Concept( 'inventory_artifact', 'особистий артефакт')|E]"
@@ -1116,3 +1118,5 @@
   warenne_coin_description: "This coin bears the blue-and-yellow checkerboard insignia of the Warenne dynasty on the obverse. A dark splatter of blood marks its edge."
   traitors_head: "Traitor's Head"
   traitors_head_description: "A disembodied head, hacked neatly from its owner. It is more a message than a keepsake."
+  artifact_: "Destroyed Artifact"
+  artifact_slot_untyped: "Destroyed Artifact             " #Yes the tabs are intended

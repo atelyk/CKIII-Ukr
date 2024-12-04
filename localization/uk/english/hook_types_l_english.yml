@@ -19,6 +19,7 @@
   major_threat_hook: "Погроза"
   saved_my_life_hook: "Saved Life"
   obligation_hook: "Зобов'язання"
+  strong_obligation_hook: "$obligation_hook$"
   liege_favour_strong_hook: "Bestowed Grace"
   caliphal_submission_hook: "Caliphal Submission"
   weak_prostitute_blackmail_hook: "Licentious Blackmail"

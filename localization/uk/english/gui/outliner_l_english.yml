@@ -20,3 +20,4 @@
   OUTLINER_ARMY_CLICK_TO_PAN: "#I Натисніть для переходу#!"
   OUTLINER_ARMY_RIGHT_CLICK_TO_PAN: "#I Натисніть ПКМ для переходу#!"
   OUTLINER_PINNED_CHARACTER: "[Character.GetShortUINameNotMeNoTooltip]#medium, [Character.GetAge]#!"
+  OUTLINER_DOMICILE: "[DomicileType.GetNameNoTooltip]"

@@ -3,6 +3,7 @@
   ##Misc
   from_diarch_domain_limit_bonus: "Підтримка  [regent|E]"
   from_diarch_monthly_influence_bonus: "Benefits from [co_emperor|E]"
+  to_diarch_monthly_influence_add_bonus: "Benefits from [duumvirate|E]"
   from_co_monarch_diplomacy_vassal_opinion: "Benefits from [co_monarch|E]"
   to_co_monarch_monthly_prestige_add_bonus: "Benefits from [co_monarchy|E]"
   imprisonment_would_cause_regency_trigger.tt.imprisoned_abroad: "Ти  [imprisoned|E] закордоном"
@@ -352,6 +353,7 @@
   diarch_loyalty_score.regency.loyalty_hook.self: "$loyalty_hook$ [hook|E]"
   diarch_loyalty_score.regency.loyalty_hook.predecessor: "$predecessor_loyalty_hook$ [hook|E]"
   diarch_loyalty_score.regency.ai_honour: "[personality|E] is supremely Honorable"
+  diarch_loyalty_score_power_at_home_perk: "[GetPerk('power_at_home_perk').GetName( GetNullCharacter )]"
   diarch_loyalty_score.co_rule.co_emperorship.dread: "[dreadful|E]"
   diarch_loyalty_score.co_rulership.designated_heir: "[designated_heir|E]"
   diarch_loyalty_score.co_rulership.years_waiting: "Years Waiting"

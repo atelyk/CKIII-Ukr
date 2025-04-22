@@ -127,6 +127,7 @@
  doctrine_parameter_bonus_holy_war_piety_active:0 "[piety|E] and [piety_experience|E] from winning [holy_wars|E] is increased by #P 50%#!"
 
  tenet_religious_legal_pronouncements_name:0 "Religious Law"
+ tenet_religious_legal_pronouncements_hisbah: "Hisbah"
  tenet_religious_legal_pronouncements_fatwa:0 "Fatwa"
  tenet_religious_legal_pronouncements_halakha:0 "Halakha"
  tenet_religious_legal_pronouncements_desc:0 "The border between theological and legal arguments is thin, and spiritual qualities can and should be considered in secular settlements."
@@ -220,7 +221,7 @@
 
  tenet_sky_burials_name:0 "Sky Burials"
  tenet_sky_burials_desc:1 "The dead should not be imprisoned underground — it is far better to allowed them to be consumed by scavenging birds, where in a final act of generosity they can feed the world which fed them."
- doctrine_parameter_sky_burials_active:3 "[rulers|E] can give their ancestors a Sky Burial, gaining [piety|E] and pleasing their [vassals|E]\n$EFFECT_LIST_BULLET$Charnel Grounds [duchy_building|E] can be built"
+ doctrine_parameter_sky_burials_active:3 "[rulers|E] can give their ancestors a Sky Burial, gaining [piety|E] and pleasing their [vassals|E]\n$EFFECT_LIST_BULLET$The [GetBuilding('charnel_grounds_01').GetName] [duchy_building|E] can be built"
  can_build_towers_of_silence_active_name: "ability to use the [GetBuilding('tower_of_silence_01').GetName] [duchy_building|E]"
  doctrine_parameter_can_build_towers_of_silence_active: "[vassals|E] may build the [GetBuilding('tower_of_silence_01').GetName] [duchy_building|E] to bolster [county|E] zeal — #EMP if#! their [liege|E]'s [faith|E] does not engage in $tenet_sky_burials_name$"
 
@@ -297,7 +298,7 @@
  doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active:0 ""
  doctrine_parameter_unreformed_syncretic_recipient_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have $tenet_unreformed_syncretism_name$ [core_tenet|E]"
  doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 ""
- doctrine_parameter_unreformed_syncretic_conversion_malus_active:0 "Base speed of converting syncretised faiths is reduced by [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]"
+ doctrine_parameter_unreformed_syncretic_conversion_malus_active:0 "Base speed of converting syncretized faiths is reduced by [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]"
 
  tenet_christian_syncretism_name:0 "Christian Syncretism"
  tenet_christian_syncretism_desc:0 "Jesus of Nazareth may not have been true divinity, but he was still an upstanding and virtuous figure. We should honor and respect his teachings."
@@ -373,7 +374,7 @@
  tenet_communal_possessions_name: "Communal Possessions"
  tenet_communal_possessions_desc: "[ROOT.Faith.HighGodName] intended for us all an equal share of the resources on earth. We should hold all things in common, and re-distribute the stolen wealth of the powerful." 
  doctrine_parameter_piety_from_gifts_active: "Adherents gain [piety|E] from sending [gifts|E] and giving away [artifacts|E]"
-  doctrine_parameter_piety_from_marrying_lowborn_active: "Rulers gain [piety|E] from marrying [lowborn|E] [characters|E]"
+ doctrine_parameter_piety_from_marrying_lowborn_active: "Rulers gain [piety|E] from marrying [lowborn|E] [characters|E]"
 
  tenet_sacrificial_ceremonies_name:0 "Sacrificial Ceremonies"
  tenet_sacrificial_ceremonies_desc:0 "Human sacrifice both voluntary and involuntary bring us closer to the divine. It is customary and virtuous for one to volunteer to sacrifice oneself in ceremony, just as it is virtuous to sacrifice those who have committed unforgivable crimes against the Gods."
@@ -386,6 +387,13 @@
  tenet_fp3_fedayeen_name: "Fedayeen"
  tenet_fp3_sacred_murder_name: "Sacred Murder"
  tenet_fp3_fedayeen_desc: "When ordinary warfare will not avail, it is our duty before [ROOT.Faith.HighGodNameAlternate] to destroy [ROOT.Faith.HighGodHerHis|U] enemies through infiltration and deception. We must fear neither death nor pain, and eagerly lay down our lives for the greater cause." 
- doctrine_parameter_master_assassin_court_position_unlocked: "Unlocks the [master_assassin|E] [court_position|E]"
+ doctrine_parameter_master_assassin_court_position_unlocked: "Unlocks the #V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()]#! [court_position|E]"
  doctrine_parameter_death_is_glory: "Likelihood of death or injury in [battle|E]: #N +10%#!"
  doctrine_parameter_sanctioned_assassinations: "No [piety|e] loss for killing characters of a different [faith|E] through the [GetScheme('murder').GetTypeName] [schemes|E]"
+ 
+ # EP3 Tenets
+ tenet_household_gods_name: "Household Gods"
+ tenet_household_gods_desc: "We revere our #EMP Lares#! and the #EMP Genii#! — the protective spirits which watch over our abodes. Above all, we honor our glorious emperor, whose soul is charged with protecting all the realm."
+
+ # BP3 Parameter
+ doctrine_parameter_allows_brewery: "$allows_brewery$ for [temple_holdings|E]"

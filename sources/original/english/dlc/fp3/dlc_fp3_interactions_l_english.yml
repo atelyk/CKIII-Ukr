@@ -53,7 +53,7 @@
 
  fp3_persian_struggle_previously_swayed_tt: "Previously swayed during the [persian_struggle|E]: $VALUE|=+0$"
  fp3_demand_submission_interaction: "Demand Submission"
- fp3_demand_submission_interaction_desc: "Demand [recipient.GetShortUINamePossessiveNoTooltip] loyalty with piety, guile, or intimidation."
+ fp3_demand_submission_interaction_desc: "Demand [recipient.GetShortUINamePossessiveNoTooltip] loyalty in the form of a [hook|E] by using piety, guile, or intimidation."
  DEMAND_SUBMISSION_NOT_SAME_HEAD_OF_FAITH: "You don't have the same [head_of_faith|E]"
  DEMAND_SUBMISSION_I_AM_HEAD_OF_FAITH: "I am [recipient.GetShortUINamePossessive|U] [recipient.GetFaith.ReligiousHeadName|U]: $VALUE|=+0$"
  DEMAND_SUBMISSION_SHORT_REIGN: "[short_reign|E]: $VALUE|+0=-+$"
@@ -77,7 +77,7 @@
  fp3_request_turkic_invasion_interaction_negative_gold_offer: "The recipient already has more troops than your target, you cannot offer a proportionally negative sum of [gold|E]!\n"
  recipient_secondary_fp3_request_turkic_invasion_interaction: "@trebuchet_icon! Invader"
  fp3_request_turkic_invasion_interaction_option_join_war: "@alliance_icon! Provide military support"
- fp3_request_turkic_invasion_interaction_option_join_war_desc: "Join the invasion on the side of [secondary_recipient.GetShortUINameNoTooltip]"
+ fp3_request_turkic_invasion_interaction_option_join_war_desc: "Join the invasion on [secondary_recipient.GetShortUINamePossessiveNoTooltip] side"
  fp3_request_turkic_invasion_interaction_option_more_gold: "@gold_icon! Offer proportional funding"
  fp3_request_turkic_invasion_interaction_option_more_gold_desc: "Provide a sum of [gold|E] relative to their reluctance, to make more warriors flock to the cause"
  fp3_request_turkic_invasion_interaction_option_join_war_outcome_tooltip: "[actor.GetFirstNameOrMeRegnal|U] join the invasion alongside [secondary_recipient.GetShortUINameNoTooltip]"

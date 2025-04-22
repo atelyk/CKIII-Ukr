@@ -46,7 +46,8 @@
  ACCOLADE_APPOINT:0 "Appoint"
  ACCOLADE_PRIMARY_TYPE:0 "Primary [accolade_type|E]"
  ACCOLADE_SECONDARY_TYPE:0 "Secondary [accolade_type|E]"
- ACCOLADE_ACTIVE_EFFECTS:1 "#S Active Effects#!"
+ ACCOLADE_ACTIVE_EFFECTS_PRIMARY: "#TS Active Effects if Primary:#!"
+ ACCOLADE_ACTIVE_EFFECTS_SECONDARY: "#TS Active Effects if Secondary:#!"
  ACCOLADE_SUCCESSOR_REQUIREMENTS:0 "Successor Requirements"
  LOCKED_ACCOLADE_SLOT:1 "#T Unavailable Accolade #!\nUnlocked via [innovations|E], [dynasty_perks|E] and higher [title_tiers|E]"
  ACCOLADE_SET_ACCLAIMED_KNIGHT:0 "Assign [Character.GetShortUINameNoTooltip] as [acclaimed_knight|E] of [Accolade.GetNameNoTooltip]\nThis will cost a small amount of [glory|e]"
@@ -59,7 +60,7 @@
  ACCOLADE_ASSIGN_SUCCESSOR_ONLY_PRIMARY_TT:0 "$ACCOLADE_ASSIGN_SUCCESSOR_TT$\n@warning_icon! #X As they fulfill only Primary [accolade_type|e] requirements, [accolade_succession|e] will have increased [glory|e] loss and may replace the [accolade|e]'s Secondary Attribute#!"
  ACCOLADE_CANNOT_ASSIGN_SUCCESSOR_TT:0 "@warning_icon! #X [Character.GetShortUINameNoTooltip] does not fulfill the successor requirements of this [accolade|E] #!"
  CREATE_ACCOLADE_SET_PRIMARY_TYPE_TT:0 "#help Set this [accolade_type|E] as the $ACCOLADE_PRIMARY_TYPE$#!"
- CREATE_ACCOLADE_SET_SECONDARY_TYPE_TT:0 "#help Set this [accolade_type|E] as the  $ACCOLADE_SECONDARY_TYPE$#!"
+ CREATE_ACCOLADE_SET_SECONDARY_TYPE_TT:0 "#help Set this [accolade_type|E] as the $ACCOLADE_SECONDARY_TYPE$#!"
  ACCOLADE_CHANGE_PRIMARY_TYPE:0 "Change $ACCOLADE_PRIMARY_TYPE$"
  ACCOLADE_CHANGE_SECONDARY_TYPE:0 "Change $ACCOLADE_SECONDARY_TYPE$"
  CREATE_ACCOLADE_CANNOT_CHANGE_TYPES:0 "@warning_icon! #X [Character.GetShortUINameNoTooltip] does not fulfill the requirements of any other [accolade_types|E] than those currently selected #!"
@@ -85,6 +86,8 @@
  ACCOLADE_HISTORY:0 "Accolade History"
  SHOW_ACCOLADE_HISTORY:0 "Show $ACCOLADE_HISTORY$"
  ACCOLADE_HISTORY_ENTRY_DATE:0 "Became the [acclaimed_knight|E] on [AccoladeHistoryEntry.GetAcclaimedDate.GetString]"
+ ACCOLADE_NO_SUCCESSOR_FOUND: "No suitable successor found in your court."
+ ACCOLADE_SUCCESSOR_REQUIREMENT_HEADER: "[accolade_type|E]: [ACCOLADE.GetPrimaryType.GetName]"
 
  ACCOLADE_UNSUNG:0 "Unsung"
  ACCOLADE_ESTABLISHED:0 "Established"
@@ -280,7 +283,7 @@
  accolade_maa_horse_archers_only_available_on_primary:0 "#color_red NOT: [GetMaA('accolade_maa_horse_archers').GetName] (requires primary [accolade_type|E])#!"
 
 
-  # EMINENT ATTRIBUTES
+ # EMINENT ATTRIBUTES
  house_knight_attribute:0 "House Paragon"
  huntsmaster_attribute:0 "Huntsmaster"
  blademaster_attribute:0 "Blademaster"

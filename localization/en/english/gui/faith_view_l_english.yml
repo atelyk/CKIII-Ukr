@@ -8,7 +8,7 @@
   FAITH_VIEW_YOUR_FAITH: "Your [faith|E]"
   TOGGLE_RELIGION_VIEW: "Other Faiths"
   RELIGION_WINDOW_TITLE: "Other Faiths"
-  FAITH_ITEM_TOOLTIP: "#I Click to view [Faith.GetNameNoTooltip]#!"
+  FAITH_ITEM_TOOLTIP: "#I Click to view#!"
   FAITH_TOOLTIP_HEAD_OF_FAITH: "[head_of_faith|E]: [Faith.GetReligiousHead.GetUIName|U]"
   TOGGLE_RELIGION_VIEW_TOOLTIP: "#I Click to view Other [faiths|E]#!"
   FAITH_WINDOW_FERVOR: "[fervor|E]: [Faith.GetFervor|0]%"
@@ -84,7 +84,7 @@
   FAITH_WINDOW_FAITH_NAME: "[Select_CString( StringIsEmpty( FaithCreationWindow.GetNewFaithName ), 'Choose Name', '' )] [FaithCreationWindow.GetNewFaithName]"
   FAITH_WINDOW_FAITH_NAME_TOOLTIP: "Enter a name for your new [faith|E] and its followers"
   FERVOR_YEARLY_CHANGE: "Yearly [fervor|E] Change"
-  FERVOR_TT: "#T Fervor: [Faith.GetFervor|2]%\n#!#weak The actual effects of a [faith|E]'s [fervor|E] is always relative to the Fervor of the opposing Faith. For example, when using the [convert_county|E] Task.#!\n\n[Faith.GetYearlyFervorChangeDesc]\n\n[Faith.GetFervorChangelog]"
+  FERVOR_TT: "#T Fervor: [Faith.GetFervor|2]%\n#!#weak The actual effects of a [faithpossessive|E] [fervor|E] is always relative to the Fervor of the opposing Faith. For example, when using the [convert_county|E] Task.#!\n\n[Faith.GetYearlyFervorChangeDesc]\n\n[Faith.GetFervorChangelog]"
 
   FAITH_DOCTRINES_IMPORTANT: "Main [doctrines|E]"
   FAITH_DOCTRINES_MARRIAGE: "Marriage Doctrines"

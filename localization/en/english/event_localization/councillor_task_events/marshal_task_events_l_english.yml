@@ -50,7 +50,6 @@
   marshal_task.1102.a: "My subjects can always feel safe."
   marshal_task.1102.notification: "Increased Military Presence"
   marshal_task.1103.notification: "Levies Prepared for Battle"
-  #### END (Jonas W)
 
   marshal_task.2001.t: "Commander Wounded"
   marshal_task.2001.opening: "In the course of a practice duel, [commander.GetTitledFirstName] has been struck!"

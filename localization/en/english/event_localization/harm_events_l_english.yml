@@ -127,7 +127,7 @@
   harm.0521.a.tt.success: "Your hands latch on to something"
   harm.0521.a.tt.failure: "You're under the water for too long"
   harm.0521.b: "Break for the surface!"
-  harm.0521.b.tt.unlocked_by_cultrad: "This option is unlocked by your [culture|E]'s [traditions|E]"
+  harm.0521.b.tt.unlocked_by_cultrad: "This option is unlocked by your [culture_possessive|E] [traditions|E]"
   harm.0521.c: "Swim, #EMP swim#!!"
   harm.0521.c.tt.success: "You make the surface in time"
   harm.0521.c.tt.failure: "It takes you too long"

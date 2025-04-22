@@ -85,7 +85,7 @@
   death_management.1010.over_12_disliked_educator: "Good riddance, really."
   death_management.1010.a.tt: "With the death of [dead_character.GetTitledFirstName], you are no longer being tutored."
 
-  death_management.educator.desc: "[ward_of_dead_character.GetTitledFirstNamePossessive] educator [dead_character.GetTitledFirstName] died."
+  death_management.educator.desc: "Your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward_of_dead_character'))], [ward_of_dead_character.GetTitledFirstNamePossessive], educator, [dead_character.GetTitledFirstName], [dead_character.GetDeathReasonHideKiller]."
 
   death_management.2000.t: "'Til [prison_holder.GetFirstNameNoTooltip] Do Us Part"
   death_management.2000.t.root_killer: "'Til I Do Us Part"

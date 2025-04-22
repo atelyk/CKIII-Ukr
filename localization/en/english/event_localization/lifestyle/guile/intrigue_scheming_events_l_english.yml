@@ -265,7 +265,7 @@
   intrigue_scheming.4051.desc.murderattemptself: "who was behind a failed murder plot against me."
   intrigue_scheming.4051.desc.murder: "who was behind the murder of my [buyer.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName]."
   intrigue_scheming.4051.desc.incest: "the existence of incestuous relations among my own family!"
-  intrigue_scheming.4051.desc.middle: "[seller.GetSheHe|U] has offered to provide me with everything [seller.GetSheHe] knows, including names and evidence,"
+  intrigue_scheming.4051.desc.middle: "\n\n[seller.GetSheHe|U] has offered to provide me with everything [seller.GetSheHe] knows, including names and evidence,"
   intrigue_scheming.4051.desc.gold: "in exchange for a lump sum of gold."
   intrigue_scheming.4051.desc.secret: "in exchange for the details of another secret I know."
   intrigue_scheming.4051.desc.favor: "in exchange for a favor to be rendered on a future date."

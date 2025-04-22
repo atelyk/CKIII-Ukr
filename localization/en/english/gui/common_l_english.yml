@@ -51,7 +51,7 @@
   CHARACTER_TOOLTIP_INSTRUCTION_COURT_SCENE: "#I Click to view\nRight-click to interact#!"
   CHARACTER_TOOLTIP_NO_PORTRAIT: "#T No Character#!"
   PORTRAIT_NO_COUNCILLOR: "#T No [councillor|E] appointed#!"
-  ON_COUNCIL_EFFECTS: "#high Effects on you:#!\n[GetPlayer.GetCouncillorModifierDesc]"
+  ON_COUNCIL_EFFECTS: "#T Effects on You\n#![GetPlayer.GetCouncillorModifierDesc]"
   PORTRAIT_NO_SPOUSE: "#T No Spouse#!"
   HEIR_TO_HEADER: "[heir|E] to:\n"
   CHARACTER_LINE_OF_SUCCESSION_MORE: "And $COUNT|V$ more [titles|E]"

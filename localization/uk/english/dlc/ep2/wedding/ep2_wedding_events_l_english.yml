@@ -917,7 +917,7 @@
   ep2_wedding.3400.tt: "Insightful Conversation"
   ep2_wedding.3400.b: "Oh! My [ROOT.Char.Custom2('RelationToMeShort', my_family_suitor)] would love you!"
   ep2_wedding.3400.b.tt: "Instant Alchemy"
-  ep2_wedding.3400.b.success: "They hit it off"
+  ep2_wedding.3400.b.success: "Вони вдарили [Select_CString(ROOT.Char.IsFemale, 'її', 'його' )] "
   ep2_wedding.3400.b.failure: "They are merely polite"
   ep2_wedding.3400.c.drink: "More ale! More!"
   ep2_wedding.3400.c.hashish: "More hashish! More!"

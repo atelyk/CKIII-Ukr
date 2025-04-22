@@ -154,7 +154,7 @@
   innovation_knighthood_desc: "Посвячуючи кращих із кращих у лицарі та розплачуючись із ними земельними володіннями, а не просто грішми, ми можемо віддати воїнам заслужені почесті, а заразом заручитися їхньою вірністю."
   innovation_advanced_bowmaking: "Покращене виготовлення луків"
   innovation_advanced_bowmaking_desc: "Хоча традиційно лучники самі виготовляли свої луки та дбали про них, ремісники почали робити луки нового типу, потужніші та складніші. Прийнявши їх на озброєння, ми перетворимо лучників на неоціненний військовий ресурс."
-  eligible_accolade_crossbower_attribute_ACCOLADES_DLC: "[knights|E] of this [culture|E] become eligible for [GetAccoladeType('crossbowmen_attribute').GetName] [accolades|E]"
+  eligible_accolade_crossbower_attribute_ACCOLADES_DLC: "[knights|E] цієї [culture|E] можуть отримати [GetAccoladeType('crossbowmen_attribute').GetName] [accolades|E]"
   eligible_accolade_crossbower_attribute: "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
   #Civic
   innovation_heraldry: "Геральдика"

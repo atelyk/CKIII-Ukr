@@ -79,7 +79,7 @@
   bp1_yearly.5102.a: "[unloved_courtier.GetNameNoTooltip]! Come here!"
   bp1_yearly.5102.b: "Actually, perhaps you'd prefer forgoing the meeting?"
   bp1_yearly.5102.c: "\"You would be wasted on a [unloved_courtier.GetWomanMan] of my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('unloved_courtier'))]'s caliber.\""
-  bp1_yearly.5102.a.success: "They hit it off"
+  bp1_yearly.5102.a.success: "Вони вдарили [Select_CString(ROOT.Char.IsFemale, 'її', 'його' )] "
   bp1_yearly.5102.a.failure: "There's no spark"
   #Your friend is concerned about your weight
   bp1_yearly.5301.t: "A Weighty Problem"

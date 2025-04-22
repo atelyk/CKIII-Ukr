@@ -295,7 +295,7 @@
   decision_embrace_english_culture_get_innovations: "Англійська [culture|El] отримує норманські та англо-саксонські [innovations|El] у невеликій кількості"
   MY_CAPITAL_IS_IN_ENGLAND: "Ваша [realm_capital|El] в Англії"
   HARRYING_ENDED: "The Harrying of the North has ended"
-  HIGH_PACIFICATION: "The Harrying of the North's [harrying_pacification|E] has been:\n$EFFECT_LIST_BULLET$Higher than [harrying_resistance|E]\n$EFFECT_LIST_BULLET$Over #V 16#! for at least #V 1#! year"
+  HIGH_PACIFICATION: "The Harrying of the North's [harrying_pacification|E] has been:\n$EFFECT_LIST_BULLET$Higher than [harrying_resistance|E]\n$EFFECT_LIST_BULLET$Over #V 14#! for at least #V 1#! year"
   restore_dumnonia_decision: "Відродити королівство Корнуолл"
   restore_dumnonia_decision_desc: "З тих пір, як Брут вперше висадився на туманний британський берег, дух древньої Думнонії тлів в наших серцях. Пора йому загорітися!"
   restore_dumnonia_decision_tooltip: "Корнуолл стає [de_jure|El] [Concept( 'kingdom', 'королівством' )|E]."

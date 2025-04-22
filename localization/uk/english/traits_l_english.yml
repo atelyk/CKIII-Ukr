@@ -46,7 +46,7 @@
   trait_education_diplomacy_4_desc: "Знаючи нюанси дипломатії як свої п'ять пальців,[Select_CString(ROOT.Char.IsFemale, 'Найсивіша дипломатка', 'Найсивіший дипломат' )] є майстром цього мистецтва."
   trait_education_diplomacy_4_character_desc: "Знаючи нюанси дипломатії як свої п'ять пальців, [ROOT.GetCharacter.GetHerHis] є майстром цього мистецтва."
   trait_education_diplomacy_5: "Віртуозний арбітр"
-  trait_education_diplomacy_5_desc: "The Virtuoso Arbitrator's silver tongue can charm the hardest hearts and open the most barricaded of doors."
+  trait_education_diplomacy_5_desc: "Срібний язик Віртуозного Арбітра здатний зачарувати найтвердіші серця й відчинити найзамкненіші двері."
   trait_education_diplomacy_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] silver tongue can charm the hardest hearts and open the most barricaded of doors."
   trait_education_stewardship_1: "[Select_CString(ROOT.Char.IsFemale, 'Поблажлива марнотратка,' 'Поблажливий марнотрат' )]"
   trait_education_stewardship_1_desc: "The Indulgent Wastrel received an education in stewardship to study the flow of money, but unfortunately the flow seems to go only one way..."

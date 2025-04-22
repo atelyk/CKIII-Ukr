@@ -30,7 +30,7 @@
   SETTINGS: "Налаштування"
   REQUIRES_RESTART: "Потрібне перезавантаження"
   REQUIRE_RESTART_DESCRIPTION: "Деякі налаштування не набудуть чинності, доки ви не перезапустите гру."
-  SETTINGS_INPUT_REMAP_INPUT: "Remap input"
+  SETTINGS_INPUT_REMAP_INPUT: "Перепризначення вводу"
   SETTINGS_INPUT_CONFIRM: "Підтвердити"
   SETTINGS_INPUT_CANCEL: "Скасувати"
   SETTINGS_INPUT_CLEAR: "Очистити"

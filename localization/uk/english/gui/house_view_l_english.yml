@@ -6,7 +6,7 @@
   HOUSE_VIEW_PART_OF: "Частина"
   HOUSE_VIEW_PART_OF_DYNASTY: "Династія [Dynasty.GetBaseNameNoTooltip]"
   HOUSE_VIEW_DYNASTY_PRESTIGE: "Наступний [dynasty_prestige_level|E]: #high [Dynasty.GetNextPrestigeLevelName] #!"
-  HOUSE_HEAD_HEIR: "Спадкоємець голови призвища: [Character.GetUIName]"
+  HOUSE_HEAD_HEIR: "Спадкоємець голови роду: [Character.GetName]"
   DYNASTY_VIEW_DYNASTY_PRESTIGE: "[dynasty_prestige|E]: @prestige_level_2_icon![Dynasty.GetPrestige|V0]"
   DYNASTY_VIEW_DYNASTY_PRESTIGE_TOOLTIP: "#T Авторитет#!\n[dynast|E] може витрачати його на різні дії. Авторитет збільшує рівень величі."
   HOUSE_VIEW_HEAD_OF_THE_HOUSE: "[house_head|E]"
@@ -83,7 +83,7 @@
   HOUSE_UNITY_STAGE_TOOLTIP: "[GUIHouseUnityStage.GetModifierDesc]"
   HOUSE_UNITY_TOOLTIP: "ЦЕ - ОПИС РОДОВОЇ ЄДНОСТІ" #placeholder #TODO_CODE: General description for House Unity needed here
   HOUSE_UNITY_EFFECTS_TITLE: "Ефекти від [house_unity|E]"
-  HOUSE_UNITY_EFFECTS_NOT_APPLIED_TO_YOU: "@alert_icon! Not applied to you since you are not in a [clan|E] government"
+  HOUSE_UNITY_EFFECTS_NOT_APPLIED_TO_YOU: "@alert_icon! Не стосується до тебе, оскільки у державі [clan|E] уряд"
   HOUSE_UNITY_DECISIONS_TITLE: "[house_unity|E] Рішення"
   HOUSE_UNITY_RECENT_CHANGES_LABEL: "Нещодавні зміни в Єдності"
   HOUSE_UNITY_NO_RECENT_CHANGE_LABEL: "#weak Не було жодних змін останнім часом#!"

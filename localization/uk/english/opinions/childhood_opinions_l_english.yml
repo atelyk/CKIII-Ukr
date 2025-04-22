@@ -3,5 +3,5 @@
   bothersome_crush_on_me_opinion: "У мене закохалися"
   guardian_of_heir_opinion: "Опікун вашого спадкоємця"
   guardian_of_relative_opinion: "Опікун вашого родича"
-  guardian_of_heir_parochial_opinion: "[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] Guardian of your Heir"
-  guardian_of_relative_parochial_opinion: "[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] Guardian of your Relative"
+  guardian_of_heir_parochial_opinion: "[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] Охоронець вашого спадкоємця"
+  guardian_of_relative_parochial_opinion: "[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] Охоронець вашого родича"

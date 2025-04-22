@@ -1009,7 +1009,7 @@
   #building_rammelsberg_mines_08: "Rammelsberg Mines VIII"
   #building_rammelsberg_mines_08_desc: "$building_type_rammelsberg_mines_01_desc$"
   building_type_falun_mines_01: "Фалунські копальні"
-  building_type_falun_mines_01_desc: "На цій копальні, також відомій як Стура-Коппарберг #italic (Велика Мідна гора)#!, добувають величезну кількість мідної руди." #italic (the Great Copper Mountain)#! this mine produces vast quantities of copper."
+  building_type_falun_mines_01_desc: "На цій копальні, також відомій як Стура-Коппарберг #italic (Велика Мідна гора)#!, добувають величезну кількість мідної руди."
   building_falun_mines_01: "Фалунське гірниче поселення"
   building_falun_mines_01_desc: "$building_rammelsberg_mines_01_desc$"
   building_falun_mines_02: "Фалунська шахта"

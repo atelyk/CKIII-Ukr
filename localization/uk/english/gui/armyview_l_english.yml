@@ -30,7 +30,7 @@
   CANNOT_DISBAND_NOT_FRIENDLY_AREA: "@warning_icon!#X Можна розпустити тільки в дружньому регіоні#!"
   CANNOT_DISBAND_HOSTILE_AREA: "@warning_icon!#X Можна розпустити тільки в неворожому регіоні#!"
   CANNOT_DISBAND_ENEMY_OR_HOSTILE_ARMIES_AROUND: "@warning_icon!#X Не можна розпустити, коли навколо ворожі або шкідливі [armies|E]#!"
-  CANNOT_DISBAND_WAR_LEADER: "@warning_icon! #X Cannot disband as a [war_leader|E]#!"
+  CANNOT_DISBAND_WAR_LEADER: "@warning_icon! #X Не можна розпустити як [war_leader|E]#!"
   DISBAND_ARMY_DISABLED: "\n$DESC$"
   DISBAND_ARMY_CONFIRM_TITLE: "Розпустити армію"
   DISBAND_ARMY_CONFIRM_ACCEPT: "Розпустити"

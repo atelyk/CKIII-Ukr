@@ -1,6 +1,6 @@
 ﻿l_english:
   court_jester_prefix: "Придворний Блазень: "
-  jester.100.t: "$court_jester_prefix$My Rival Fool, Covered in Stool"
+  jester.100.t: "$court_jester_prefix$Яке дурне воно, покрите у лайно"
   jester.100.desc: "І ще один напружений день... коли я [Select_CString(sit down.IsFemale, 'сиділа, ', 'сів, ')] щоб трохи відпочити в тиші та спокої, раптово двері моїх покоїв відчинилися.\n\nЧи це не [Select_CString(my rival-made-jester.IsFemale, 'моя суперниця-блазень, ', 'мій суперник-блазень, ')], [Select_CString(dressed up.IsFemale, 'вбрана, ', 'вбраний, ')] у просякнутий брудом [jester.Custom('GetClothingArticle')] неймовірно яскравим [jester.Custom('GetAccessory')|l]!? Зараз [Select_CString(looks.IsFemale, 'вона схожа, ', 'він схожий, ')] на мішок зі лайном зовні так само, яким [Select_CString(jester.IsFemale, 'вона, ', 'він, ')] є всередині. \n\n\"Your [ROOT.Char.Custom('GetExpensiveDrink_Singular')]... my #EMP Liege#!\" [jester.GetSheHe] says, a massive frown across [jester.GetHerHis] face."
   jester.100.a: "Вип\\'ємо за тебе, [Select_CString(dear.IsFemale, 'шановна', 'шановний')] [jester.GetFirstNameNoTooltip]!"
   covered_in_feces: "Покритий лайном"
@@ -11,7 +11,7 @@
   jester.200.b: "Було весело, але тепер час повертатися до роботи!"
   death_laughter: "помер від надмірного сміху"
   jester.300.t: "$court_jester_prefix$Віртуозне жонглювання"
-  jester.300.desc: "Ох, як же тягнуться дні... одне і теж, знову і знову...\n\"Йдіть до великої зали, [Select_CString(my Liege.IsFemale, 'моя володарко', 'мій володаре')]! Ви маєте це побачити!\" несподівано вигукнув слуга. \n\nКоли я [Select_CString(arrive.IsFemale, 'прийшла', 'прийшов')], то [Select_CString(see.IsFemale, 'побачила', 'побачив')] свого блазня, [jester.GetTitledFirstName], мій [ROOT.Char.Custom('RandomPrivateObject')], пляшка [ROOT.Char.Custom('GetExpensiveDrink_Singular')],"
+  jester.300.desc: "Ох, як же тягнуться дні... одне і теж, знову і знову...\n\"Йдіть до великої зали, [Select_CString(my Liege.IsFemale, 'моя володарко', 'мій володарю')]! Ви маєте це побачити!\" несподівано вигукнув слуга. \n\nКоли я [Select_CString(arrive.IsFemale, 'прийшла', 'прийшов')], то [Select_CString(see.IsFemale, 'побачила', 'побачив')] свого блазня, [jester.GetTitledFirstName], мій [ROOT.Char.Custom('RandomPrivateObject')], пляшка [ROOT.Char.Custom('GetExpensiveDrink_Singular')],"
   jester.300.desc_child: "little [child_to_juggle.GetFirstName],"
   jester.300.desc_2: "[ROOT.Char.Custom('GetLivestockFowlIndef')], і [ROOT.Char.Custom('GetSmallFoodIndef')].\n\nУсі слуги дивляться зі страхом. Як і я."
   jester.300.a: "Тепер #EMP це#! те, що не побачиш щодня!"

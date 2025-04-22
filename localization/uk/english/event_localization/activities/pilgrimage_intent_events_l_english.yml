@@ -149,5 +149,5 @@
   pilgrimage_intent.9000.a: "Accept [ROOT.Char.GetFaith.HighGodName], and [entourage_to_marry_2.GetSheHe] will be yours."
   pilgrimage_intent.9000.b: "Oh my dear, you should talk to #EMP [entourage_to_marry_2.GetHerHim]#!, not me!"
   pilgrimage_intent.9000.c: "We don't have time for this..."
-  hit_it_off_tt: "They hit it off"
+  hit_it_off_tt: "Вони вдарили [Select_CString(ROOT.Char.IsFemale, 'її', 'його' )] "
   they_fight_publicly_tt: "They cause a scene"

@@ -82,7 +82,7 @@
   hunt_option_attendants: "Прислуга"
   hunt_attendants_few: "Місцеві єгері"
   hunt_attendants_few_desc: "#weak Невеликій групі що супроводжують мисливців допомагають місцеві єгері.#!"
-  hunt_attendants_normal: "Search Parties"
+  hunt_attendants_normal: "Пошук Сторін"
   hunt_attendants_normal_desc: "$BULLET_WITH_TAB$Increases [hunt_success_chance_no_prefix|E] somewhat$hunt_attendants_roco_tt$\n\n#weak Groups of servants aid in finding and cornering the game.#!"
   hunt_attendants_many: "Flushing Gangs"
   hunt_attendants_many_desc: "$BULLET_WITH_TAB$Збільшується [hunt_success_chance_no_prefix|E] помітно$hunt_attendants_roco_tt$\n\n#weak Окремі групи мисливців готові переслідувати та направляти дичину.#!"

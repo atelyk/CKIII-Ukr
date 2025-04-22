@@ -1,6 +1,6 @@
 ﻿l_english:
   camp_domicile_title: "[CHARACTER.GetFirstNamePossessiveNoTooltip] $game_concept_camp$"
-  estate_domicile_title: "The [CHARACTER.GetHouse.GetBaseNameNoTooltip] $game_concept_estate$"
+  estate_domicile_title: "[CHARACTER.GetHouse.GetBaseNameNoTooltip] $game_concept_estate$"
   camp_domicile_type: "$game_concept_camp$"
   camp_domicile_type_tooltip: "$CAMP$"
   estate_domicile_type: "$game_concept_estate$"

@@ -272,7 +272,7 @@
   travel_events.4032.a: "This [cowardly_knight_scope.GetWomanMan] deserves my help!"
   travel.beat_back_lion: "You beat the [ROOT.Char.Custom('GetAnimalType')]"
   travel.mauled_by_animal: "You were mauled by the [ROOT.Char.Custom('GetAnimalType')]"
-  travel_events.4032.b: "Help [cowardly_knight_scope.GetHerHim] [entourage_helper.GetNameNoTooltip]!"
+  travel_events.4032.b: "Help [cowardly_knight_scope.GetHerHim], [entourage_helper.GetFirstNameNoTooltip]!"
   travel_events.4032.c: "I won't risk my life for this."
   travel_events.4033.t: "The [witch_scope.Custom('MagicUserTerm')|U] of [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]"
   travel_events.4033.desc.intro: "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] is a land of strange and obscure custom to me. The practices of the [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdjective] faith are strange and unimaginably different from [ROOT.Char.GetFaith.GetName], and nowhere is that more apparent than in their attitude towards the practice of magic.\n\nRight in the middle of the town, there is a [witch_scope.GetWomanMan] chanting incantations and offering blessings as if [witch_scope.GetSheHe] were a [ROOT.Char.GetFaith.PriestNeuter]!"

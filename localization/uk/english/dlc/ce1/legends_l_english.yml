@@ -78,7 +78,7 @@
   game_concept_legend_library: "Legend Library"
   game_concept_legend_library_i: "@legend_icon!"
   game_concept_legend_library_desc: "The [legend_library|E] holds completed [legends|E] that have spread to your [domain|E], you created, or were actively promoting.\nYou can also actively add completed [legends|E] if you are traveling through the spread area of the legend.\n\nYou can remove [legends|E] from your library at will."
-  game_concept_ancestral_claim: "Ancestral Claim"
+  game_concept_ancestral_claim: "Спадкова Претензія"
   game_concept_ancestral_claim_desc: "The Ancestral Claim [casus_belli|E] allows you to annex all lands within a title with which you have a claim gained through a Legitimizing [legend|E]."
   legend_heroic: "Heroic Legend"
   legend_heroic_name: "The Legend of [ROOT.Legend.GetOwner.GetNameNoTooltip]"

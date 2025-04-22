@@ -376,7 +376,7 @@
   cave_hermit_court_position: "Garden Hermit"
   cave_hermit_court_position_desc: "The $cave_hermit_court_position$ is someone that will inhabit your castle grounds and entertain your guests with prophecies and riddles. Some say they may be actual mystics."
   cave_hermit_court_position_tt: "You've found a $cave_hermit_court_position$ in your travels"
-  travel_leader_court_position: "Caravan Master"
+  travel_leader_court_position: "[Select_CString(ROOT.Char.IsFemale, 'Головна каравану', 'Головний каравану' )]"
   travel_leader_court_position_desc: "The $travel_leader_court_position$ assists you when traveling and takes charge of all itineraries. They aim to ensure you arrive at your destination safely and on-time."
   hire_travel_leader_decision: "Search for $travel_leader_court_position$"
   hire_travel_leader_decision_tooltip: "Your servants will suggest a number of suitable candidates for the position of [GetCourtPositionType('travel_leader_court_position').GetName()]"

@@ -1,160 +1,160 @@
 ﻿l_english:
   #867
   #Haraldr
-  challenge_character_haraldr_vestfold: "Chieftain Haraldr"
-  challenge_character_haraldr_vestfold_desc: "A hero of the sagas, Haraldr is remembered as a great king who brought together the feuding chieftains of Norway beneath a single banner.\n\n#bold Can you put an end to the strife and unite Norway under your rule?#!"
+  challenge_character_haraldr_vestfold: "Вождь Гаральд"
+  challenge_character_haraldr_vestfold_desc: "Герой саг, Гаральд запам'ятався як великий король, який об'єднав ворогуючих вождів Норвегії під єдиним прапором.\n\n#bold Чи зможете ви покласти край чварам і об'єднати Норвегію під своєю владою??#!"
   #Ashot
-  challenge_character_ashot_armenia: "Prince Ashot"
-  challenge_character_ashot_armenia_desc: "Though his reign was one of prosperity for his people, Ashot owed his throne and his kingdom to the grace of the Caliph and remained his subordinate until his death.\n\n#bold Will you be able to break free of your foreign suzerain and prove yourself a sovereign in your own right?#!"
+  challenge_character_ashot_armenia: "Принц Ашот"
+  challenge_character_ashot_armenia_desc: "Хоча його правління було часом процвітання для його народу, Ашот завдячував своїм троном і королівством милості Халіфа і залишався його підлеглим до самої смерті.\n\n#bold Чи зможете ви звільнитися від іноземного сюзерена і довести, що ви є повноправним сувереном?#!"
   #Aella
-  challenge_character_aella_northumberland: "Petty King Ælla"
-  challenge_character_aella_northumberland_desc: "His lands besieged by foreign invaders, Ælla's death at their hands marked the end of meaningful resistance, his successor little more than a Norse puppet.\n\n#bold Can you turn back the tide and save Northumbria from the viking scourge?#!"
+  challenge_character_aella_northumberland: "Малий король Елла"
+  challenge_character_aella_northumberland_desc: "Його землі взяті в облогу іноземними загарбниками, смерть Елли від їхніх рук ознаменувала кінець конструктивного опору, а його спадкоємець став би не більше ніж норвезькою маріонеткою.\n\n#bold Чи зможете ви змінити хід подій і врятувати Нортумбрію від нападу вікінгів?#!"
   #Gregorios
-  challenge_character_gregorios_napoli: "Count Gregorios"
-  challenge_character_gregorios_napoli_desc: "As Byzantine influence in Italy dwindled, the rulers of Naples looked instead to the Muslim world for allies in the face of Lombard encroachment, much to papal consternation.\n\n#bold Can you exploit the void left by the Byzantines to found an empire of your own?#!"
+  challenge_character_gregorios_napoli: "Граф Грегоріос"
+  challenge_character_gregorios_napoli_desc: "Коли візантійський вплив в Італії зменшився, правителі Неаполя шукали союзників у мусульманському світі, щоб протистояти зазіханням лангобардів, що викликало жах у папи римського.\n\n#bold Чи зможете ви скористатися порожнечею, яку залишили візантійці, щоб заснувати власну імперію?#!"
   #Dawit
-  challenge_character_dawit_dembiya: "Ras Dawit"
-  challenge_character_dawit_dembiya_desc: "Though never numerous and often imperiled, the Beta Israelis successfully resisted assimilation by their larger and more powerful neighbors.\n\n#bold Can you overcome the odds and build a prosperous and secure homeland for the Beta Israelis?#!"
+  challenge_character_dawit_dembiya: "Рас Давіт"
+  challenge_character_dawit_dembiya_desc: "Попри те, що бета-ізраїльтяни ніколи не були численними й часто перебували в небезпеці, вони успішно протистояли асиміляції з боку своїх більших і могутніших сусідів.\n\n#bold Чи зможете ви подолати труднощі та побудувати процвітаючу і безпечну батьківщину для бета-ізраїльтян??#!"
   #Werner
-  challenge_character_werner_worms: "Count Werner"
-  challenge_character_werner_worms_desc: "While the Salian name was not yet famed in Werner's day, his descendants would count among their number four Holy Roman emperors and even a pope.\n\n#bold Can you claim Charlemagne's legacy for yourself and reforge his fractured empire?#!"
+  challenge_character_werner_worms: "Граф Вернер"
+  challenge_character_werner_worms_desc: "Хоча за часів Вернера ім'я Саліана ще не було відомим, його нащадки нарахують серед своїх чотирьох імператорів Священної Римської імперії й навіть Папу Римського.\n\n#bold Чи можете ви претендувати на спадщину Карла Великого і відновити його розбиту імперію?#!"
   #Siemowit
-  challenge_character_siemowit_wielkopolska: "High Chieftain Siemowit"
-  challenge_character_siemowit_wielkopolska_desc: "The son of the legendary Piast the Wheelwright, Siemowit and his father inaugurated a dynasty that would rule over Poland until the late fourteenth century.\n\n#bold Can you safely shepherd Poland through the centuries and make her the envy of both east and west?#!"
+  challenge_character_siemowit_wielkopolska: "Верховний вождь Сімовит"
+  challenge_character_siemowit_wielkopolska_desc: "Син легендарного П'яста Колісника, Семовіт разом зі своїм батьком започаткував династію, яка правитиме Польщею до кінця Xiv століття.\n\n#bold Чи зможете ви безпечно провести Польщу крізь століття і зробити її об'єктом заздрощів як на сході, так і на заході?#!"
   #Ahmad
-  challenge_character_ahmad_egypt: "Sultan Ahmad"
-  challenge_character_ahmad_egypt_desc: "Ahmad arose from humble origins to achieve dominion over Egypt, but his heirs failed to prove themselves his equal and his realm collapsed only twenty-one years after his death.\n\n#bold With the wealth and might of Egypt yours to command, can you make yourself master of the Mediterranean?#!"
+  challenge_character_ahmad_egypt: "Султан Ахмад"
+  challenge_character_ahmad_egypt_desc: "Ахмад походив зі скромного роду, щоб досягти панування над Єгиптом, але його спадкоємці не змогли довести, що вони йому рівні, і його царство розпалося лише через двадцять один рік після його смерті.\n\n#bold З багатством і могуттю Єгипту, що перебувають під вашим контролем, чи зможете ви стати господарем Середземного моря?#!"
   #Dyre
-  challenge_character_dyre_kiev: "Jarl Dyre"
-  challenge_character_dyre_kiev_desc: "A Norse adventurer seeking to make his mark in the east, Dyre's bold endeavor ended in his ignominious usurpation and demise at the hands of Oleg the Wise.\n\n#bold Can you rewrite Dyre's dolorous tale into a saga that will echo down the ages?#!"
+  challenge_character_dyre_kiev: "Ярл Дір"
+  challenge_character_dyre_kiev_desc: "Скандинавський авантюрист, який прагнув залишити свій слід на Сході, сміливі починання Діра закінчилися ганебною узурпацією влади та загибеллю від рук Олега Мудрого.\n\n#bold Чи зможете ви переписати жахливу історію Діра в сагу, яка відлунюватиме у віках?#!"
   #Dumnarth
-  challenge_character_dumnarth_cornwall: "Petty King Dumnarth"
-  challenge_character_dumnarth_cornwall_desc: "Dumnarth has the dubious honor of being remembered chiefly for being the last of the Cornish kings, and having met a watery end by mischance in a river.\n\n#bold Under your rule, can Cornwall take on challengers Anglo-Saxon and Norse alike and carry the day?#!"
+  challenge_character_dumnarth_cornwall: "Малий король Думнарх"
+  challenge_character_dumnarth_cornwall_desc: "Думнарт має сумнівну честь - його пам'ятають головним чином за те, що він був останнім з корнуельських королів і через нещасний випадок загинув у річці.\n\n#bold Під вашим правлінням, чи зможе Корнуолл протистояти викликам англосаксів і норманів і здобути перемогу?#!"
   #Rhodri
-  challenge_character_rhodri_gwynedd: "Prince Rhodri"
-  challenge_character_rhodri_gwynedd_desc: "Inheriting the throne of a small Welsh kingdom on the eve of the viking invasions, Rhodri's crown laid uneasily upon his brow, but he ably played the hand he was dealt.\n\n#bold Can you safely navigate the waters of this tumultuous age and ensure that Gwynedd emerges triumphant?#!"
+  challenge_character_rhodri_gwynedd: "Принц Родрі"
+  challenge_character_rhodri_gwynedd_desc: "Успадкувавши трон маленького валлійського королівства напередодні вікінгських вторгнень, корона Родрі лягала йому важко, але він вміло грав тією картою, яку йому випала.\n\n#bold Чи зможете ви безпечно керувати водами цієї бурхливої епохи та забезпечити перемогу Гвінеду?#!"
   #Gunda
-  challenge_character_gunda_orangallu: "Samanta Gunda"
-  challenge_character_gunda_orangallu_desc: "It wasn't until the Kakatiyas converted to Hinduism from Jainism that they were able to obtain enough land to call themselves kings, a feat perhaps made easier without the Jain strict commitment to non-violence.\n\n#bold Can you obtain a throne of your own while staying true to the tenets of your faith?#!"
+  challenge_character_gunda_orangallu: "Саманта Гунда"
+  challenge_character_gunda_orangallu_desc: "Лише після того, як Какатії перейшли з джайнізму в індуїзм, вони змогли отримати достатньо землі, щоб називати себе королями, що, можливо, було б легше зробити без суворої прихильності джайнів до ненасильства.\n\n#bold Чи можете ви здобути власний трон, залишаючись вірним догматам своєї віри?#!"
   #Muhammad
-  challenge_character_muhammad_africa: "Sultan Muhammad"
-  challenge_character_muhammad_africa_desc: "Despite his brief reign being remembered largely for his dissipation and extravagance, Muhammad's generals were so successful that they forced the Pope himself to pay tribute to this decadent potentate.\n\n#bold Having tasted the wealth of Italy, will you consume it entirely to satiate your desires?#!"
+  challenge_character_muhammad_africa: "Султан Мухаммед"
+  challenge_character_muhammad_africa_desc: "Незважаючи на те, що його коротке правління запам'яталося здебільшого своєю розбещеністю та екстравагантністю, генерали Мухаммеда були настільки успішними, що змусили самого Папу Римського віддати данину поваги цьому занепалому понтифіку.\n\n#bold Скуштувавши багатства Італії, чи будеш ти споживати їх цілком, щоб задовольнити свої бажання?#!"
   #Alfonsu
-  challenge_character_alfonsu_asturias: "King Alfonsu"
-  challenge_character_alfonsu_asturias_desc: "Near the end of his life, Alfonsu fell prey to the ambitions of his sons and was stripped of his crown, forced to partition his realm among three of their number.\n\n#bold Can you avert Alfonsu's fate, and ensure that the Christians of Iberia remain a united front against the Umayyad menace?#!"
+  challenge_character_alfonsu_asturias: "Король Альфонсу"
+  challenge_character_alfonsu_asturias_desc: "Наприкінці життя Альфонсу став жертвою амбіцій своїх синів і був позбавлений корони, змушений розділити своє королівство між трьома з них.\n\n#bold Чи зможете ви запобігти долі Альфонсу і забезпечити, щоб християни Іберії залишалися єдиним фронтом проти загрози Омейядів?#!"
   #Vicayalaya
-  challenge_character_vicayalaya_chola_nadu: "Raja Vicayalaya"
-  challenge_character_vicayalaya_chola_nadu_desc: "Originally a vassal of the Pallava dynasty, Vicayalaya saw opportunity and struck out on his own to found an empire that would come to unite all of southern India under its banners.\n\n#bold Can you take Chola ambitions to their natural conclusion and bring the entirety of India under your rule?#!"
+  challenge_character_vicayalaya_chola_nadu: "Раджа Вічаялая"
+  challenge_character_vicayalaya_chola_nadu_desc: "Спочатку васал династії Паллава, Вікаялая побачив можливість і вирішив самостійно заснувати імперію, яка об'єднає під своїми знаменами всю південну Індію.\n\n#bold Чи зможете ви довести амбіції Чоли до логічного завершення і підкорити всю Індію своїй владі?#!"
   #Lambert
-  challenge_character_lambert_spoleto: "Duke Lambert"
-  challenge_character_lambert_spoleto_desc: "Invited to attend the pope's consecration, Lambert instead infamously pillaged the city, plundering manses and monasteries in equal measure, and none were spared from his rapacity.\n\n#bold Respecting neither the laws of men nor God, just how far will you go in pursuit of your ambitions?#!"
+  challenge_character_lambert_spoleto: "Герцог Ламберт"
+  challenge_character_lambert_spoleto_desc: "Запрошений на папське освячення, Ламберт натомість ганебно пограбував місто, однаково грабуючи маєтки та монастирі, і ніхто не уникнув його жадібності.\n\n#bold Не поважаючи ні людські, ні Божі закони, як далеко ти зайдеш у гонитві за своїми амбіціями?#!"
   #Amoghavarsha
-  challenge_character_amoghavarsha_karnata: "Maharaja Amoghavarsha"
-  challenge_character_amoghavarsha_karnata_desc: "Ascending to the throne at the tender age of fourteen, Amoghavarsha enjoyed one of the longest reigns on record and was renowned for his benevolence and literary and cultural achievements.\n\n#bold Can you ensure that Amoghavarsha's achievements are preserved for future generations?#!"
+  challenge_character_amoghavarsha_karnata: "Махараджа Амогаварша"
+  challenge_character_amoghavarsha_karnata_desc: "Зійшовши на трон у юному чотирнадцятирічному віці, Амогаварша мав одне з найдовших правлінь в історії та був відомий своєю доброзичливістю та літературними й культурними досягненнями.\n\n#bold Чи можете ви забезпечити збереження досягнень Амогаварші для майбутніх поколінь?#!"
   #1066
   #Gudrod
-  challenge_character_gudrod_western_isles: "Petty King Gudröd"
-  challenge_character_gudrod_western_isles_desc: "A bold Hebridean warlord of mercenary background, Gudröd extended his reach to make himself master of Dublin, Mann, and the Irish Sea, but infighting among his descendants did much to diminish his achievements.\n\n#bold Can you establish a more permanent dominion over these fair isles?#!"
+  challenge_character_gudrod_western_isles: "Малий король Гудрьод"
+  challenge_character_gudrod_western_isles_desc: "Сміливий гебридський воєначальник із найманським минулим, Гудрьод розширив свій вплив, ставши володарем Дубліна, Мену та Ірландського моря, але міжусобиці серед його нащадків значно применшили його досягнення.\n\n#bold Чи зможете ви встановити більш тривале панування над цими прекрасними островами?#!"
   #Richard
-  challenge_character_richard_capua: "Duke Richard"
-  challenge_character_richard_capua_desc: "Though the house of Hauteville may have seized supremacy over Sicily, the Drengots were undeniably there first, having been among the very first Norman freebooters to set foot on the peninsula.\n\n#bold Can you put the upstart Hauteville latecomers in their place and prove Drengot preeminence?#!"
+  challenge_character_richard_capua: "Герцог Річард"
+  challenge_character_richard_capua_desc: "Хоча дім Готвілів і здобув верховенство над Сицилією, Дренготи безсумнівно були тут першими, бувши одними з перших норманських авантюристів, які ступили на цей півострів.\n\n#bold Чи зможете ви поставити зухвалих новачків Готвілів на їхнє місце та довести перевагу Дренготів?#!"
   #Fariburz
-  challenge_character_fariburz_shirvan: "Shirvanshah Fariburz"
-  challenge_character_fariburz_shirvan_desc: "The Shirvanshahs are remembered as patrons and benefactors of poets and philosophers, art and intellectual life frequently flourishing under their rule.\n\n#bold Can you make your court a shining beacon of culture for all the world to admire?#!"
+  challenge_character_fariburz_shirvan: "Ширваншах Фарібурз"
+  challenge_character_fariburz_shirvan_desc: "Ширваншахів пам'ятають як покровителів і благодійників поетів і філософів, мистецтво та інтелектуальне життя часто процвітало під час їхнього правління.\n\n#bold Чи можете ви зробити свій двір яскравим маяком культури, яким би захоплювався увесь світ?#!"
   #Shisnand
-  challenge_character_shisnand_coimbra: "Count Shisnand"
-  challenge_character_shisnand_coimbra_desc: "A Mozarabic aristocrat who passed from Abbadid to Leonese service, Shisnand ruled Coimbra almost autonomously for more than twenty years and was succeeded by his son-in-law upon his death.\n\n#bold Having served lieges both Muslim and Christian, can you build a bridge between faiths and bring peace to Iberia?#!"
+  challenge_character_shisnand_coimbra: "Граф Шиснанд"
+  challenge_character_shisnand_coimbra_desc: "Мозарабський аристократ, який перейшов від Аббадидів до Леонезів, Шиснанд правив Коїмброю майже автономно понад двадцять років, а після його смерті його успадкував зять.\n\n#bold Служачи сеньйорам як мусульманам, так і християнам, чи зможете ви побудувати міст між віросповіданнями і принести мир в Іберію?#!"
   #Alusian
-  challenge_character_alusian_vidin: "Count Alusian"
-  challenge_character_alusian_vidin_desc: "The second son of Bulgaria's last emperor may have had honors heaped upon him by his new Byzantine masters, but he did not overlook an opportunity to resurrect his father's empire, though he ultimately returned to the fold.\n\n#bold Can you cast off the Byzantine yoke and reclaim your birthright?#!"
+  challenge_character_alusian_vidin: "Граф Алузіан"
+  challenge_character_alusian_vidin_desc: "Другий син останнього болгарського імператора, можливо, і мав почесті від нових візантійських господарів, але він не проґавив можливості воскресити імперію свого батька, хоча врешті-решт і повернувся в обійми Візантії.\n\n#bold Чи зможете ви скинути візантійське ярмо і повернути собі своє право за народженням?#!"
   #Rostislav
-  challenge_character_rostislav_tmutarakan: "Count Rostislav"
-  challenge_character_rostislav_tmutarakan_desc: "Dispossessed of his patrimony by the premature death of his father, Rostislav conquered the distant pensinsula of Tmutarakan and made it his stronghold, but was poisoned before he could make good on his ambitions.\n\n#bold Can you overcome the hostility of your kinsmen and obtain a principality worthy of your lineage?#!"
+  challenge_character_rostislav_tmutarakan: "Граф Ростислав"
+  challenge_character_rostislav_tmutarakan_desc: "Позбавлений спадщини через передчасну смерть батька, Ростислав завоював далекий півострів Тмутаракань і зробив його своєю твердинею, але був отруєний, не встигнувши задовольнити свої амбіції.\n\n#bold Чи зможете ви здолати ворожнечу своїх родичів і здобути князівство, гідне вашого роду?#!"
   #Werner
-  challenge_character_werner_aargau: "Count Werner"
-  challenge_character_werner_aargau_desc: "While the Habsburgs had yet to make their mark in Werner's time, shrewd politics would see his descendants seated on many a throne for centuries to come.\n\n#bold Are you able to obtain Austria for the Habsburgs, and make all the world acknowledge their ascendancy?#!"
+  challenge_character_werner_aargau: "Граф Вернер"
+  challenge_character_werner_aargau_desc: "Хоча за часів Вернера Габсбурги ще не встигли заявити про себе, завдяки продуманій політиці його нащадки будуть сидіти на багатьох престолах протягом століть.\n\n#bold Чи здатні ви здобути Австрію для Габсбургів і змусити весь світ визнати їхнє панування?#!"
   #Herbert
-  challenge_character_herbert_vermandois: "Count Herbert"
-  challenge_character_herbert_vermandois_desc: "While Charlemagne's line may have been kings no more, their blood lived on in Herbert of Vermandois, though the next generation would see his lands pass out of the family.\n\n#bold Can you turn back the clock and engineer a return to power, by hook or by crook, for the Karlings?#!"
+  challenge_character_herbert_vermandois: "Граф Герберт"
+  challenge_character_herbert_vermandois_desc: "Хоча нащадки Карла Великого вже не були королями, їхня кров жила в Герберті Вермандуа, хоча наступне покоління побачить, як його землі відійдуть до іншої родини.\n\n#bold Чи зможете ви повернути хід історії та забезпечити повернення Каролінгів до влади будь-яким шляхом?#!"
   #Erik
-  challenge_character_erik_svealand: "Prince Erik"
-  challenge_character_erik_svealand_desc: "A pagan ruler who had renounced Christianity and returned to his roots, Erik was among the last of a dying breed in an increasingly Christianized Scandinavia.\n\n#bold Can you prove to all that the old ways are superior to these foreign priestlings and their new god?#!"
+  challenge_character_erik_svealand: "Принц Ерік"
+  challenge_character_erik_svealand_desc: "Язичницький правитель, який зрікся християнства і повернувся до свого коріння, Ерік був одним з останніх представників зникаючого роду у все більш християнізованій Скандинавії.\n\n#bold Чи зможеш ти довести всім, що старі звичаї кращі за цих чужоземних жерців та їхнього нового бога?#!"
   #Krutoj
-  challenge_character_krutoj_nordmark: "Duke Krutoj"
-  challenge_character_krutoj_nordmark_desc: "A devoted adherent to the traditional ways of his people, Krutoj led and uprising and murdered his Christian liege, seizing the throne for himself, but his scheme to do away with his liege's son ended in his own demise.\n\n#bold Can you overcome your rivals and legitimize your rule, despite its bloody beginning?#!"
+  challenge_character_krutoj_nordmark: "Герцог Круто"
+  challenge_character_krutoj_nordmark_desc: "Відданий прихильник традицій свого народу, Круто очолив повстання і вбив свого сеньйора-християнина, захопивши трон для себе, але його план покінчити з сином сеньйора закінчився його власною загибеллю.\n\n#bold Чи зможете ви подолати своїх суперників і узаконити своє правління, незважаючи на його кривавий початок?#!"
   #Ishaq
-  challenge_character_ishaq_baalbek: "Sheikh Ishaq"
-  challenge_character_ishaq_baalbek_desc: "Despite their small numbers and persecution by those who deemed their beliefs heretical, the Druze have endured down through the centuries by taking refuge in the rugged mountains of the Levant.\n\n#bold Can you lead the Druze beyond the mountains to find a halcyon homeland of their own?#!"
+  challenge_character_ishaq_baalbek: "Шейх Ісхак"
+  challenge_character_ishaq_baalbek_desc: "Попри свою нечисленність і переслідування з боку тих, хто вважав їхні вірування єретичними, друзи змогли вижити протягом століть, знаходячи притулок у суворих горах Леванту.\n\n#bold Чи зможете ви вивести друзів за гори, щоб вони віднайшли власну щасливу батьківщину?#!"
   #Badr
-  challenge_character_badr_acre: "Sheikh Badr"
-  challenge_character_badr_acre_desc: "A Fatimid soldier of Armenian origin, Badr rose through ranks to become supreme military dictator of the Caliphate, reducing the Caliph himself to little more than a figurehead.\n\n#bold Badr and his successors dominated Egyptian politics for more than sixty years – can you exceed their deeds and do away with the Caliph entirely?#!"
+  challenge_character_badr_acre: "Шейх Бадр"
+  challenge_character_badr_acre_desc: "Фатимідський солдат вірменського походження, Бадр піднявся по службових сходах і став верховним військовим диктатором халіфату, зменшивши роль самого халіфа до майже чисто символічної.\n\n#bold Бадр і його наступники домінували в єгипетській політиці більше шістдесяти років — чи зможете ви перевершити їхні досягнення і позбутися халіфа повністю?#!"
   #Berenguer
-  challenge_character_berenguer_barcelona: "Duke Berenguer"
-  challenge_character_berenguer_barcelona_desc: "In the pursuit of justice, Berenguer orchestrated the codification of his realm's customs as the Usatges of Barcelona, which would provide the foundation for Catalan law for centuries.\n\n#bold Berenguer's descendants would, in time, come to control much of the Mediterranean. Can you build on his achievements and do the same?#!"
+  challenge_character_berenguer_barcelona: "Герцог Беренгер"
+  challenge_character_berenguer_barcelona_desc: "Прагнучи справедливості, Беренгер організував кодифікацію звичаїв свого королівства під назвою «Барселонські устави», які стали основою каталонського права на довгі століття.\n\n#bold Сміливі нащадки Беренгера з часом контролюватимуть більшу частину Середземномор'я. Чи зможете ви, спираючись на його досягнення, зробити те ж саме?#!"
   #Raoul
-  challenge_character_raoul_valois: "Count Raoul"
-  challenge_character_raoul_valois_desc: "Although an opponent of the Capets early in life, Raoul later changed his cloak and became a loyal servant of the French crown, eventually marrying the widow of the very king he had fought against.\n\n#bold With your young liege's mother as your wife, can you parlay your influence into something greater?#!"
+  challenge_character_raoul_valois: "Граф Рауль"
+  challenge_character_raoul_valois_desc: "Хоча на початку життя Рауль був противником Капетингів, згодом він змінить свою мантію і стане вірним слугою французької корони, а згодом одружиться з вдовою того самого короля, проти якого він боровся.\n\n#bold Маючи за дружину матір свого молодого сеньйора, чи зможете ви використати свій вплив для чогось більшого?#!"
   #Ali
-  challenge_character_ali_siracusa: "Sheikh Ali"
-  challenge_character_ali_siracusa_desc: "Among the last holdouts against the Norman invasion of Sicily, Ali plunged into the ocean and drowned while trying to leap aboard his foe's vessel.\n\n#bold The Normans have come, but they have not fully conquered yet – can you reverse their gains and claim Sicily for yourself?#!"
+  challenge_character_ali_siracusa: "Шейх Алі"
+  challenge_character_ali_siracusa_desc: "Одним з останніх, хто опирався вторгненню норманів на Сицилію, Алі кинувся в океан й потонув, намагаючись застрибнути на борт ворожого корабля.\n\n#bold Нормани прийшли, але ще не повністю завоювали - чи зможете ви перекреслити їхні здобутки та забрати Сицилію собі?#!"
   #Eadgar
   challenge_character_eadgar_warwickshire: "Едгар"
-  challenge_character_eadgar_warwickshire_desc: "Born in exile, the last scion of the house of Wessex returned to England just in time to see his birthright usurped a second time by Harold Godwinson, and then irrevocably lost to a Norman conqueror.\n\n#bold The light of the house of Wessex flickers faintly, but has not yet been extinguished. Can you restore its fortunes?#!"
+  challenge_character_eadgar_warwickshire_desc: "Народжений у вигнанні, останній нащадок Вессекського дому повернувся до Англії якраз вчасно, щоб побачити, як Гарольд Годвінсон вдруге узурпував його право на престол, а потім безповоротно втратив його на користь нормандського завойовника.\n\n#bold Світло будинку Вессекс ледь мерехтить, але ще не згасло. Чи зможете ви відновити його багатство?#!"
   #Ali
-  challenge_character_ali_taizz: "Emir Ali"
-  challenge_character_ali_taizz_desc: "The son of a magistrate, Ali set out with a modest band of followers and won a kingdom, but earned greater praise for the wisdom of his wife, Asma, to whom he entrusted the administration of his state.\n\n#bold With such a capable parter by your side, anything seems possible. Together, all of Arabia is yours for the taking!#!"
+  challenge_character_ali_taizz: "Емір Алі"
+  challenge_character_ali_taizz_desc: "Син судді, Алі вирушив зі скромною групою послідовників і завоював королівство, але ще більше прославився мудрістю своєї дружини Асми, якій він довірив управління своєю державою.\n\n#bold Коли поруч із тобою такий здібний партер, все здається можливим. Разом ви зможете захопити всю Аравію!#!"
   #Pierre
-  challenge_character_pierre_piedmonte: "Duke Pierre"
-  challenge_character_pierre_piedmonte_desc: "The house of Savoie owed much of its territory to the inheritance of Pierre's mother, Adelaide of Turin, whose influence was paramount at her son's court, almost certainly for the better.\n\n#bold Can you break out from your famous mother's shadow and prove yourself a worthy ruler in your own right?#!"
+  challenge_character_pierre_piedmonte: "Герцог П'єр"
+  challenge_character_pierre_piedmonte_desc: "Значною частиною своїх територій Савойський дім завдячував спадку матері П'єра, Аделаїди Туринської, чий вплив при дворі сина був першорядним, майже напевно, на краще.\n\n#bold Чи зможете ви вирватися з тіні своєї знаменитої матері та довести, що ви самі є гідним правителем?#!"
   #Anawrahta
-  challenge_character_anawrahta_pagan: "King Anawrahta"
-  challenge_character_anawrahta_pagan_desc: "The founder of Pagan, Anawrahta governed prudently and ruthlessly suppressed any threat to his new realm, and his patronage of Theravada Buddhism contributed greatly to the faith's spread.\n\n#bold Anawrahta's successors were as able as their progenitor, but the Mongols proved too strong a foe for the Pagans – can you better weather the coming storm?#!"
+  challenge_character_anawrahta_pagan: "Король Анорахта"
+  challenge_character_anawrahta_pagan_desc: "Засновник Пагана, Анаврахта правив розсудливо і безжально придушував будь-яку загрозу своєму новому царству, а його покровительство буддизму тхеравади значною мірою сприяло поширенню віри.\n\n#bold Сміливі наступники Анаврахти були такими ж здібними, як і їхній прабатько, але монголи виявилися занадто сильним ворогом для язичників - чи зможете ви краще пережити прийдешню бурю?#!"
   #1178
   #Piarres
-  challenge_character_piarres_albarracin: "Count Piarres"
-  challenge_character_piarres_albarracin_desc: "Once the vassal of a Muslim potentate, Piarres Christianized his domain and declared his independence, acknowledging no liege save Saint Mary herself.\n\n#bold Having declared yourself the equal of kings and caliphs, can you now make good on your claim and raise up a new kingdom to rival any that came before?#!"
+  challenge_character_piarres_albarracin: "Граф Піаррес"
+  challenge_character_piarres_albarracin_desc: "Колись васал мусульманського можновладця, Піаррес християнізував свої володіння і проголосив незалежність, визнаючи жодного сеньйора, окрім самої Святої Марії.\n\n#bold Оголосивши себе рівним королям і халіфам, чи зможете ви тепер виконати свою обіцянку і створити нове королівство, яке зможе зрівнятися з будь-яким попереднім??#!"
   #John
-  challenge_character_john_ulster: "Earl John"
-  challenge_character_john_ulster_desc: "By right of the sword at his side and with the aid of a few solid men, John de Courcy made himself master over eastern Ulster until his downfall and imprisonment at the hands of an English king suspicious of his ambitions.\n\n#bold Can you finish what John started and see to it that the Courcy banner flies over all Ireland?#!"
+  challenge_character_john_ulster: "Граф Джон"
+  challenge_character_john_ulster_desc: "З правом меча на боці та за допомогою кількох надійних людей Джон де Курсі став господарем східного Ольстера, аж поки не був повалений та ув'язнений англійським королем, який підозрював його амбіції.\n\n#bold Чи зможете ви закінчити те, що розпочав Джон, і зробити так, щоб прапор Курсі майорів над усією Ірландією?#!"
   #Rogier
-  challenge_character_rogier_albi: "Count Rogier"
-  challenge_character_rogier_albi_desc: "Though they may not have openly embraced the doctrine themselves, the Trencavels were known for their controversial tolerance of and sympathy for the Cathar heretics that spread throughout their lands.\n\n#bold Can you shield the Cathars from persecution and ensure that their faith flourishes?#!"
+  challenge_character_rogier_albi: "Граф Роже"
+  challenge_character_rogier_albi_desc: "Хоча вони, можливо, самі відкрито не приймали доктрину, Тренкавелі були відомі своєю суперечливою толерантністю та симпатією до єретиків-катарів, які поширилися по їхніх землях.\n\n#bold Чи можете ви захистити катарів від переслідувань і забезпечити процвітання їхньої віри?#!"
   #Khusraw Malik
-  challenge_character_khusraw_malik_punjab: "Sultan Khusraw Malik"
-  challenge_character_khusraw_malik_punjab_desc: "Beset by enemies on all sides, Khusraw Malik gamely fought to preserve the kingdom of his ancestors, but his line was soon ended at the hands of a Ghurid executioner.\n\n#bold Can you fight your way back to a position of strength and repeat the conquests of Mahmud of Ghazni?#!"
+  challenge_character_khusraw_malik_punjab: "Султан Хосров Малік"
+  challenge_character_khusraw_malik_punjab_desc: "Оточений ворогами з усіх боків, Хосров Малік відважно боровся за збереження королівства своїх предків, але його рід незабаром обірвався від рук ката Гуріда.\n\n#bold Чи зможете ви знову стати сильним і повторити завоювання Махмуда Газневі?#!"
   #Kulin
-  challenge_character_kulin_bosna: "Doux Kulin"
-  challenge_character_kulin_bosna_desc: "Wedged between Byzantine and Hungarian ambitions in the Balkans, Kulin shrewdly exploited the conflict between the two greater powers to preserve his autonomy and spread his influence.\n\n#bold Can you break free of your suzerain and usher in a golden age of peace and prosperity for Bosnia?#!"
+  challenge_character_kulin_bosna: "Дукіс Кулін"
+  challenge_character_kulin_bosna_desc: "Будучи затиснутим між візантійськими та угорськими амбіціями на Балканах, Кулін спритно скористався конфліктом між двома великими державами, щоб зберегти свою автономію та поширити свій вплив.\n\n#bold Чи зможете ви звільнитися від свого сюзерена і розпочати золоту добу миру та процвітання для Боснії?#!"
   #Nur al-Din Muhammed
-  challenge_character_nur_al_din_muhammed_nizari: "Imam Muhammed"
-  challenge_character_nur_al_din_muhammed_nizari_desc: "From formidable strongholds in the mountains of Persia, Muhammed enjoyed a lengthy rule as the hereditary imam of the Nizaris, who acknowledged him as the sole legitimate custodian of their faith on account of his descent from Nizar.\n\n#bold Can you propagate your doctrine and achieve widespread acceptance for your faith?#!"
+  challenge_character_nur_al_din_muhammed_nizari: "Імам Мухаммед"
+  challenge_character_nur_al_din_muhammed_nizari_desc: "З грізних фортець у горах Персії Мухаммед тривалий час правив як спадковий імам Нізаритів, які визнавали його єдиним законним хранителем своєї віри через те, що він походив з Нізара.\n\n#bold Чи можете ви поширювати своє вчення і домогтися широкого визнання вашої віри?#!"
   #Algimantas
-  challenge_character_algimantas_lithuanians: "High Chieftain Algimantas"
-  challenge_character_algimantas_lithuanians_desc: "Algimantas and his heirs were able to maintain a pagan principality longer than any other people in Europe, successfully resisting conversion to Christianity until the late fourteenth century.\n\n#bold As the Christians are so intent on converting your people, can you instead open their eyes to the truth of Vidilism?#!"
+  challenge_character_algimantas_lithuanians: "Верховний вождь Алгімантас"
+  challenge_character_algimantas_lithuanians_desc: "Альгімантас та його спадкоємці змогли зберегти язичницьке князівство довше, ніж будь-який інший народ у Європі, і успішно протистояли наверненню до християнства аж до кінця чотирнадцятого століття.\n\n#bold Оскільки християни так прагнуть навернути ваш народ, чи не могли б ви натомість відкрити йому очі на істину Віділізму?#!"
   #Sargis
-  challenge_character_sargis_greater_armenia: "Duke Sargis"
-  challenge_character_sargis_greater_armenia_desc: "A formidable Armenian vassal of the Georgian king, Sargis' loyalties may have been at times dubious, but his influence and power were such that he couldn't be ignored.\n\n#bold Can you strike out on your own to restore the Greater Armenia of your ancient antecedents?#!"
+  challenge_character_sargis_greater_armenia: "Герцог Саргіс"
+  challenge_character_sargis_greater_armenia_desc: "Грізний вірменський васал грузинського царя, лояльність Саркіса часом могла бути сумнівною, але його вплив і сила були такими, що його не можна було ігнорувати.\n\n#bold Чи зможете ви самостійно відновити Велику Вірменію ваших давніх предків?#!"
   #Aba
-  challenge_character_aba_socotra: "Emir Aba"
-  challenge_character_aba_socotra_desc: "Socotra's isolation allowed it to remain an island of Nestorianism for centuries, its inhabitants seldom welcome beyond their own rocky shores.\n\n#bold Can you lead your people from their precarious perch to achieve imperishable fame beyond the horizon?#!"
+  challenge_character_aba_socotra: "Емір Аба"
+  challenge_character_aba_socotra_desc: "Ізольованість Сокотри дозволила їй століттями залишатися островом несторіанства, мешканців якого рідко вітають за межами власних скелястих берегів.\n\n#bold Чи зможете ви повести свій народ з його хиткого становища, щоб досягти нетлінної слави за обрієм?#!"
   #Prithviraja
-  challenge_character_prithviraja_rajputana: "Maharaja Prithviraja"
-  challenge_character_prithviraja_rajputana_desc: "Prithviraja struggled valiantly against repeated Ghurid incursions, triumphing over the invaders in at least one great battle, but met his end as a prisoner of the Ghurids.\n\n#bold Can you repel the Ghurid menace and ensure the future of the Chauhan dynasty?#!"
+  challenge_character_prithviraja_rajputana: "Махараджа Прітвіраджа"
+  challenge_character_prithviraja_rajputana_desc: "Прітвіраджа відважно боровся проти неодноразових вторгнень гурдів, перемігши загарбників принаймні в одній великій битві, але загинув у полоні гурдів.\n\n#bold Чи зможете ви відбити загрозу гурдів і забезпечити майбутнє династії Чауханів?#!"
   #Renaud
-  challenge_character_renaud_kerak: "Count Renaud"
-  challenge_character_renaud_kerak_desc: "The fiercest and most virulent opponent of Salāh al-Dīn in the kingdom of Jerusalem, Renaud's attack on a Muslim pilgrim caravan brought about the loss of Jerusalem and his own execution by the Sultan of Egypt.\n\n#bold History has remembered Renaud as a rapacious plunderer – can you ensure a nobler legacy for him?#!"
+  challenge_character_renaud_kerak: "Граф Рено"
+  challenge_character_renaud_kerak_desc: "Найзапекліший і найжорстокіший супротивник Салаха ад-Діна в Єрусалимському королівстві, Рено напав на караван мусульманських паломників, що призвело до втрати Єрусалима і його власної страти султаном Єгипту.\n\n#bold Історія запам'ятала Рено як жорстокого грабіжника — чи зможете ви забезпечити для нього благороднішу спадщину?#!"
   #Henry
-  challenge_character_henri_champagne: "Duke Henri"
-  challenge_character_henri_champagne_desc: "Educated in the liberal arts, Henri's enlightened rule brought great affluence to his people, with the celebrated trade fairs of Champagne attracting merchants and their valuable wares from across Europe.\n\n#bold Can you make Champagne a byname for peace and prosperity?#!"
+  challenge_character_henri_champagne: "Герцог Анрі"
+  challenge_character_henri_champagne_desc: "Освічений в галузі гуманітарних наук, Анрі приніс своєму народу велике багатство, а знамениті торгові ярмарки в Шампані приваблювали купців та їхні цінні товари з усієї Європи.\n\n#bold Чи можете ви зробити Шампань синонімом миру та процвітання?#!"
   #Richard
-  challenge_character_richard_poitiers: "Prince Richard"
-  challenge_character_richard_poitiers_desc: "Born a third son, the vagaries of fate saw Richard seated on the throne of England, and his subsequent campaigns in the Holy Land won him eternal glory as #italic Richard the Lionheart#!.\n\n#bold For all his fame, Richard's battles won few permanent gains. Can you make the most of his second chance to win a victory worthy of his name?#!"
+  challenge_character_richard_poitiers: "Принц Річард"
+  challenge_character_richard_poitiers_desc: "Народжений третім сином, примхи долі привели Річарда на трон Англії, а його подальші походи у Святу Землю принесли йому вічну славу як #італійському Річарду Левове Серце#!.\n\n#bold Незважаючи на всю свою славу, Річард здобув у битвах небагато довготривалих здобутків. Чи зможете ви максимально використати його другий шанс здобути перемогу, гідну його імені?#!"
   #Maghan
   challenge_character_maghan_sibi: "Маган Кон Фатта"
-  challenge_character_maghan_sibi_desc: "The legends say that a hunter once prophesized that if Maghan would marry ugly woman, their son would be a great and mighty king. Whatever the truth of the tale, Maghan's son Sunjata did indeed go on to found the empire of Mali.\n\n#bold Can you make the humble hunter's prophecy into reality and found a new empire?#!"
+  challenge_character_maghan_sibi_desc: "Легенди розповідають, що одного разу мисливець пророкував, що якщо Маган одружиться з потворною жінкою, то їхній син стане великим і могутнім королем. Якою б не була правда цієї казки, син Магана Сунджата дійсно заснував імперію Малі.\n\n#bold Чи зможете ви втілити пророцтво скромного мисливця в реальність і заснувати нову імперію?#!"
   #Mohammed
-  challenge_character_mohammed_azerbaijan: "Jahan Pahlavan Mohammed"
-  challenge_character_mohammed_azerbaijan_desc: "Kingmaker to the last of the Seljuk sultans, Mohammed effectively ruled the empire in all but name, though his descendants proved unable to withstand the Khwarazmshah advance.\n\n#bold You grasp the sultan himself in your fist – use him well, and all of Persia will bend to your will!#!"
+  challenge_character_mohammed_azerbaijan: "Джахан Пахлаван Мохаммед"
+  challenge_character_mohammed_azerbaijan_desc: "Творець королів для останніх султанів Сельджуків, Мохаммед фактично правив імперією, хоч і без офіційного титулу, однак його нащадки не змогли протистояти наступу Хорезмшаха.\n\n#bold Ви тримаєте самого султана у своїх руках — використайте його з розумом, і вся Персія скориться вашій волі!#!"
   #Heinrich
-  challenge_character_heinrich_angria: "Heinrich the Lion"
-  challenge_character_heinrich_angria_desc: "A bitter rival of the Holy Roman Emperor, Heinrich was the most powerful magnate in the empire in his day, but his imperial enmity would ultimately prove his undoing.\n\n#bold Can you prevail where the historical Heinrich failed and triumph over your Hohenstaufen nemesis?#!"
+  challenge_character_heinrich_angria: "Генріх Лев"
+  challenge_character_heinrich_angria_desc: "Запеклий суперник імператора Священної Римської імперії, Генріх був наймогутнішим магнатом імперії свого часу, але його імперська ворожнеча зрештою згубить його.\n\n#bold Чи зможете ви перемогти там, де історичний Генріх зазнав поразки, і здобути перемогу над своїм заклятим ворогом Гогенштауфеном?#!"

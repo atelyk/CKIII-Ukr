@@ -32,7 +32,7 @@
   travel_events.2001.b_success.tt: "A Good Meal"
   travel_events.2001.b_failure.tt: "Choked On It"
   travel_events.2001.c: "This is #EMP bad!#!"
-  travel_events.2001.c_success.tt: "Success"
+  travel_events.2001.c_success.tt: "Успіх"
   travel_events.2001.c_ran: "You successfully run away"
   travel_events.2001.c_failure.tt: "Поранення"
   travel_events.2001.c_hit_and_ran: "You get hit but run away"

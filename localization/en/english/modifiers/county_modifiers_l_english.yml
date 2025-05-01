@@ -102,6 +102,14 @@
   optimized_weighting_sucess: "Optimized Market Weights"
   optimized_weighting_sucess_desc: "In this county merchants pay a little more tax, mostly without realizing."
   optimized_weighting_failure: "Discovered Weighting Scheme"
-  optimized_weighting_failure_desc: "Merchants tend to avoid this county due to unfair weighting system."
+  optimized_weighting_failure_desc: "Merchants tend to avoid this county due to the unfair weighting system."
   new_weighting_system: "New Weighting System"
   new_weighting_system_desc: "This county benefits from a new superior weighting system."
+
+  innkeeper_bad_result: "The Stinking Inn"
+  innkeeper_bad_result_desc: "There is a tavern in this area that turns a tidy profit, but attracts malcontents."
+  innkeeper_average_result: "The Middling Inn"
+  innkeeper_average_result_desc: "There is a tavern in this area that keeps the people entertained — if not happy."
+  innkeeper_good_result: "The Lavish Inn"
+  innkeeper_good_result_desc: "There is a tavern in this area that keeps the people in high spirits."
+  

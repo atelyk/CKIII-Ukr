@@ -172,7 +172,7 @@
   adultery.2008.b.tt: "I keep this to myself for now"
 
   adultery.2009.t: "My [adultery_child.Custom('GetDaughterSon')|U]?"
-  adultery.2009.desc: "Despite following [adultery_child.GetTitledFirstName] everywhere, my spies have found no indication that I should suspect [adultery_child.GetHerHis] lineage.\n\nUnfortunately, [adultery_child.GetFirstNamePossessiveNoTooltip] is still upset that I would harbor any suspicion at all."
+  adultery.2009.desc: "Despite following [adultery_child.GetTitledFirstName] everywhere, my spies have found no indication that I should suspect [adultery_child.GetHerHis] lineage.\n\nUnfortunately, [adultery_child.GetFirstNameNoTooltip] is still upset that I would harbor any suspicion at all."
   adultery.2009.a: "So [adultery_child.GetSheHe] is my child, after all."
 
   adultery.3001.t: "The Secret"

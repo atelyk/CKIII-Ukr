@@ -124,7 +124,7 @@
   faith_conversion_cost_fervor_difference: "Difference in [fervor|E]"
   faith_creation_cost_fervor_impact: "From current [fervor|E]"
 
-  faith_conversion_cost_witch_event: "You have studied this [faith|E]'s Witchcraft"
+  faith_conversion_cost_event: "You have encountered this [faith|E] before"
 
   #Holy Sites: Christian
   holy_site_jerusalem_name: "Jerusalem"

@@ -105,7 +105,7 @@
   PROVINCE_DANGER_COUNTY_CONTROL: "[county_control|E]"
   PROVINCE_DANGER_COUNTY_OPINION: "[county_opinion|E]"
   PROVINCE_DANGER_OWNER_OPINION: "[holder_possessive|E] [opinion|E]"
-
+  PROVINCE_DANGER_MIGRATION: "[migration|E]"
 
 
   TRAVEL_OPTION_TT_OWNER_MODIFIER_HEADER: "#S Modifier on you#!"

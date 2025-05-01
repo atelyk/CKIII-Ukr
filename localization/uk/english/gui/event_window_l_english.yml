@@ -106,6 +106,7 @@
   EVENT_WINDOW_OPTION_AVAILABLE_RELIGIOUS_TRAIT: "Ця опція доступна завдяки твоїй [faith|E] [fame_trait|E]"
   EVENT_WINDOW_OPTION_AVAILABLE_HAVE_CAMP_PRIEST: "Ця опція доступна, оскільки ти маєш [GetCourtPositionType('camp_priest_camp_officer').GetName()] [officer|E]"
   EVENT_WINDOW_OPTION_AVAILABLE_POI_AMOUNT: "Ця опція доступна через кількість відвіданих тобою [points_of_interest|E]"
+  EVENT_WINDOW_OPTION_AVAILABLE_TRADITIONS: "This option is available because of your [traditions|E]"
   EVENT_OPTION_NO_LONGER_AVAILABLE: "@warning_icon!#X Більше не доступно#!"
   tooltip_open_scheme_view: "#I Показати/сховати вікно підступів#!"
   EVENT_OPTION_WILL_HAPPEN: "#S Відбудеться\n#!"

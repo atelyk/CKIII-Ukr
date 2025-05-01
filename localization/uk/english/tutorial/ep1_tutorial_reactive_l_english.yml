@@ -1,17 +1,10 @@
 ﻿l_english:
-  reactive_advice_form_hybrid_culture: "Створити гібридну культуру"
-  action_reactive_advice_form_hybrid_culture: "$open_tutorial_lesson$$reactive_advice_form_hybrid_culture$"
-  action_reactive_advice_form_hybrid_culture_desc: "Ви можете створити [гібридну_культуру|E] за допомогою [culture.GetCollectiveNoun]."
-  action_reactive_advice_form_hybrid_culture_click: "$click_to_open_lesson$"
-  lessons_ep1_form_hybrid_culture: "$reactive_advice_form_hybrid_culture$"
-  lessons_ep1_form_hybrid_culture_shared_desc: "\n\nЦе означає, що ви створите нову культуру, яка включатиме в себе частини як вашої, так і іншої культури."
-  lessons_ep1_form_hybrid_culture_desc: "Ви можете створити [гібридну культуру|E] з цією [культурою|E]!$lessons_ep1_form_hybrid_culture_shared_desc$\n\nПредставлена культура є лише одним із багатьох прикладів. Ви можете створити гібридну культуру, якщо інша культура має іншу [спадщину|E], ніж ваша. Для цього необхідно мати принаймні одине [графство|E] цієї культури у вашому [володінні|E], а також достатній рівень [культурного прийняття|E] між двома культурами."
   #Tell the player that Hybridising is a thing they SHOULD do, whether or not they can currently
   reactive_advice_should_form_hybrid_culture: "Гібридні культури"
   action_reactive_advice_should_form_hybrid_culture: "$open_tutorial_lesson$$reactive_advice_should_form_hybrid_culture$"
   action_reactive_advice_should_form_hybrid_culture_desc: "Працюйте над створенням [гібридної_культури|E] з [culture.GetCollectiveNoun]."
   action_reactive_advice_should_form_hybrid_culture_click: "$click_to_open_lesson$"
-  lessons_ep1_should_form_hybrid_culture: "$reactive_advice_should_form_hybrid_culture$"
+  lessons_ep1_form_hybrid_culture: "$reactive_advice_form_hybrid_culture$"
   lessons_ep1_should_form_hybrid_culture_desc: "Ви могли б створити [гібридну культуру|E] із цією [культурою|E], якщо [культурне прийняття|E] достатньо високе, а ваша культура існує понад 50 років! $lessons_ep1_form_hybrid_culture_shared_desc$\n\nВи можете підвищити культурне прийняття наступним чином:\n$EFFECT_LIST_BULLET$ Передавши [графства|E] цієї культури персонажам цієї культури\n$EFFECT_LIST_BULLET$ Використовуючи [завдання радника|E] [accept_culture|E]\n$EFFECT_LIST_BULLET$ Збільшуючи [культурне змішування|E]\n$EFFECT_LIST_BULLET$ Маючи [васалів|E] цієї культури\n\nЯкщо культурне прийняття високе, і хоча б одне графство цієї культури знаходиться у вашій [державі|E], ви можете створити гібридну культуру!"
   lessons_ep1_hybrid_culture_benefits: "Переваги гібридних культур"
   lessons_ep1_hybrid_culture_benefits_desc: "Створення Гібридної культури має низку переваг:\n\n$EFFECT_LIST_BULLET$Ви зможете обрати [стовпи культури|E] і [традиції_культури|E] з будь-якої з Батьківських культур.\n$EFFECT_LIST_BULLET$Ваша нова культура успадкує всі [інновації|E] від обох Батьківських культур.\n$EFFECT_LIST_BULLET$Нова культура матиме високий Рівень культурного прийняття з обома Батьківськими культурами.\n$EFFECT_LIST_BULLET$Гібридна культура зможе конвертувати землі своїх батьківських культур набагато швидше протягом кількох років після створення"

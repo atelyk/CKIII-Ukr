@@ -5,6 +5,8 @@
   NOT_I_AM_AT_WAR_WITH_TRIGGER: "Ви #bold не#! [Concept( 'war', 'воюєте' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   THEY_ARE_AT_WAR_WITH_TRIGGER: "[CHARACTER.GetShortUIName|V] воює з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   NOT_THEY_ARE_AT_WAR_WITH_TRIGGER: "[CHARACTER.GetShortUIName|V] #bold не#! [Concept( 'war', 'воює' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
+  NONE_ARE_AT_WAR_WITH_TRIGGER: "They are at [war|E] with you"
+  NOT_NONE_ARE_AT_WAR_WITH_TRIGGER: "They are #bold not#! at [war|E] with you"
   IS_ALLIED_TO_TRIGGER: "[allied|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   NOT_IS_ALLIED_TO_TRIGGER: "#bold Не#! [Concept( 'allied', 'в союзі' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"
   I_AM_ALLIED_TO_TRIGGER: "Ви уклали [Concept( 'allied', 'союз' )|E] з персонажем [TARGET_CHARACTER.GetShortUIName|V]"

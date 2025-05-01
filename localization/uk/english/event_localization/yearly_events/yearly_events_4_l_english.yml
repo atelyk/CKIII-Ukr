@@ -37,7 +37,7 @@
   yearly.4031.tt: "An investigation is launched"
   yearly.4031.b: "Let's bury the body and forget this travesty."
   yearly.4031.b_every_courtier: "Всі придворні"
-  yearly.4031.c: "As my court physician, you should study the bodies."
+  yearly.4031.c: "As my physician, you should study the bodies."
   yearly.4061.t: "The Wise Fool"
   yearly.4061.desc_opening: "\"My name is [hodja.GetTitledFirstName], my [ROOT.Char.GetLadyLord]. I have come before you to offer my wisdom.\"\n\n"
   yearly.4061.desc_guard: "[guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U], who brought the man before me, looks skeptical."

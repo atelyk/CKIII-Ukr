@@ -26,6 +26,8 @@
   DIARCHY_WINDOW_POWER_LEVEL_STATUS_INACTIVE: "#X Неактивний рівень#!"
   DIARCHY_WINDOW_POWER_LEVEL_STATUS_NO_DIARCHY: "$DIARCHY_WINDOW_POWER_LEVEL_STATUS_INACTIVE$"
   DIARCHY_WINDOW_OPEN_TOOLTIP: "Відкрити вікно [diarchy|E]"
+  DIARCHY_WINDOW_OPEN_TOOLTIP_YOUR_DIARCHY: "[GetPlayer.GetDiarchyTypeName]\n[scales_of_power|E] Level: [GetPlayer.GetDiarchy.GetPowerLevel|V]"
+  DIARCHY_WINDOW_OPEN_TOOLTIP_LIEGE_DIARCHY: "[GetPlayer.GetLiege.GetDiarchyTypeName]\n[scales_of_power|E] Level: [GetPlayer.GetLiege.GetDiarchy.GetPowerLevel|V]"
   DIARCHY_WINDOW_LIEGE_BENEFITS: "[liege|E] отримує [DiarchyWindow.GetModifierDescription( Character.Self )]"
   DIARCHY_WINDOW_DIARCH_BENEFITS: "[diarch|E] отримує [DiarchyWindow.GetModifierDescription( Character.Self )]"
   DIARCHY_WINDOW_DIARCH_LOYALTY: "[diarch_loyalty|E]: [Character.GetDiarchLoyaltyLabel]"

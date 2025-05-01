@@ -125,7 +125,7 @@
   single_combat.0001.stoic_veteran.general: "We faced tougher foes than #EMP you#! in the Guard!"
   single_combat.0001.stoic_veteran.other_varangian: "Shame to [my_foe.Custom('SignatureWeaponKillType')] a loyal Guards[my_foe.GetWomanMan], [my_foe.Custom('SisterBrother')]."
   single_combat.0001.blade_dance: "I'm the fastest blade in [myself.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
-  single_combat.0001.blade_dance_unlanded: "I'm the fastest blade in [myself.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+  single_combat.0001.blade_dance_unlanded: "I'm the fastest blade of the [myself.GetCulture.GetCollectiveNounNoTooltip]!"
   single_combat.0001.wrath_of_highgod: "For [myself.GetFaith.HighGodNameAlternate] and [myself.GetFaith.WarGodName], suffer blasphemer!"
   single_combat.0001.hurt_me_better: "#EMP Mmmmm#!, you think #EMP that#! hurts? I'll show you pain!"
   single_combat.0001.special_fallback: "To the floor with you!"

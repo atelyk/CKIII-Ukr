@@ -34,6 +34,7 @@
   #Empowering Sicilian Parliament, by Flavio Verna
   middle_europe_decisions.0010.t: "Асамблея суспільних станів"
   middle_europe_decisions.0010.desc: "Інфраструктура, залишена греками в провінціях Сицилія та Апулія, стане основою, завдяки якій [scoped_ruler.GetPrimaryTitle.GetName] перейде до більш освіченої форми правління.\n\nЗібравши представників трьох суспільних станів до єдиного дорадчого органу, що діє за римськими традиціями, я забезпечу стабільність і процвітання Середземномор'я у майбутніх століттях. Залишилося вирішити, де збиратиметься цей парламент."
+  middle_europe_decisions.0010.tt_napoli_warning: "@warning_icon! #warning Constructing the parliament in [GetTitleByKey('c_napoli').GetNameNoTier] will prevent you from building a university!#!"
   middle_europe_decisions.0010.a: "В Палермо, як у давнину!"
   middle_europe_decisions.0010.b: "Це буде в Неаполі."
   middle_europe_decisions.0010.c: "Мені слід серйозно подумати над цим рішенням."

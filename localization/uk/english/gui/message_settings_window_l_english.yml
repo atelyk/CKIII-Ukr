@@ -1,4 +1,6 @@
 ﻿l_english:
+  message_settings_tab_settings: "Налаштування"
+  message_settings_tab_log: "Message Log"
   MESSAGE_SETTINGS_WINDOW_NAME: "Налаштування повідомлень"
   MESSAGE_SETTINGS_WINDOW_SHORTCUT_TT: "#I Click to open Message Settings#!"
   MESSAGE_SETTINGS_WINDOW_TT: "#T $MESSAGE_SETTINGS_WINDOW_NAME$#!\nРедагувати частоту повідомлення і видимість фільтрованих груп."

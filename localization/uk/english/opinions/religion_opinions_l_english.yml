@@ -16,6 +16,7 @@
   cavalier_accusations_opinion: "Гордовиті звинувачення"
   brought_heretics_to_my_notice_opinion: "Повідомив мене про єретиків"
   brought_me_on_pilgrimage_opinion: "[Select_CString(ROOT.Char.IsFemale, 'Привела мене', 'Привів мене' )] мене у паломництво"
+  judaism_religion_opinion: "$judaism_religion_adj$ Думка"
   jainism_religion_opinion: "Думка $jainism_religion_adherent$"
   hinduism_religion_opinion: "Думка $hinduism_religion_adherent$"
   buddhism_religion_opinion: "Думка $buddhism_religion_adherent$"

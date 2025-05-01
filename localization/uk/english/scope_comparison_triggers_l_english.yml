@@ -17,6 +17,8 @@
   NOT_LIEGE_EQUAL_FIRST: "[TARGET_CHARACTER.GetShortUIName] #bold не#! ваш сюзерен"
   LIEGE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] — васал [TARGET_CHARACTER.GetShortUINamePossessive]"
   NOT_LIEGE_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] #bold не#! є васалом [TARGET_CHARACTER.GetShortUINamePossessive]"
+  LIEGE_EQUAL_NONE: "They are your [courtier|E], [vassal|E] or [follower|E]"
+  NOT_LIEGE_EQUAL_NONE: "They are #bold not#! your [courtier|E], [vassal|E] or [follower|E]"
   TOP_LIEGE_EQUAL_FIRST: "You are the [top_liege|E]"
   NOT_TOP_LIEGE_EQUAL_FIRST: "You are #bold not#! the [top_liege|E]"
   KILLER_EQUAL_THIRD: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'вбита', 'вбитий' )] персонажем [TARGET_CHARACTER.GetShortUIName]"

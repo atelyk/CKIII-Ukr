@@ -157,7 +157,7 @@
   well_prepared_perk_name: "Well Prepared"
   far_and_wide_perk_name: "Far and Wide"
   just_one_more_hill_perk_name: "Just One More Hill"
-  roaming_perk_name: "Storyteller"
+  roaming_perk_name: "Оповідач"
   of_the_people_perk_name: "Of the People"
   local_hero_perk_name: "Local Hero"
   travel_companion_perk_name: "Travel Companion"
@@ -196,3 +196,4 @@
   dark_insight_gain_stats_tt: "Можна отримати [GetPerk('dark_insights_perk').GetName(GetPlayer)]"
   dark_insights_maximum_insight_tt: "Всі можливі [GetPerk('dark_insights_perk').GetName(GetPlayer)] вже отримані"
   dark_insights_gain_message: "Темні одкровення"
+  ducal_conquest_perk_name_desc: "[GetPerk('ducal_conquest_perk').GetName( GetPlayer )] [perk|E]"

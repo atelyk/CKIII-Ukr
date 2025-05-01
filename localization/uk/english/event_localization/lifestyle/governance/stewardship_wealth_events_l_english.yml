@@ -25,7 +25,7 @@
   stewardship_wealth.1011.custom: "Every county in [THIS.Char.GetPrimaryTitle.GetName]"
   #War Taxes, by Sean Hughes
   stewardship_wealth.1021.t: "Paying For War"
-  stewardship_wealth.1021.desc: "Wars are expensive, and with my treasury rapidly emptying I need to think about how I will pay to keep my soldiers on the field of battle."
+  stewardship_wealth.1021.desc: "Wars are expensive, and the [current_war.GetName] is no different.\n\nWith my treasury rapidly emptying I need to think about how I will pay to keep my soldiers on the field of battle."
   stewardship_wealth.1021.a: "Raise additional taxes from the peasants."
   stewardship_wealth.1021.a.custom: "Every [county|E] in my [domain|E]"
   stewardship_wealth.1021.b: "Cut non-essential military expenditures."

@@ -24,7 +24,7 @@
   roaming_befriend_intent_desc: "You seek opportunities to gain [opinion|E] with your Traveling Companion. You should remember to bring someone!"
   roaming_mystic_intent: "Містика"
   roaming_mystic_intent_desc: "You wish for moments to be left alone with your thoughts. Higher chance of gaining [trait_level_track_xp|E]."
-  roaming_storyteller_intent: "Storyteller"
+  roaming_storyteller_intent: "Оповідач"
   roaming_storyteller_intent_desc: "You look for moments that would make for a good and memorable story! Will increase [prestige_experience|E] gained from the activity."
   activity_roaming_province_desc: "You travel to [ROOT.Province.GetName]"
   activity_roaming_astronomical_phenomenon: "\n#P ++ Astronomical Phenomenon#!"

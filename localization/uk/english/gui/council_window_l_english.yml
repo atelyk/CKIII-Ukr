@@ -77,3 +77,5 @@
   COURT_WINDOW_NO_GUESTS_OR_COURTIERS: "[CourtWindow.GetCourtOwner.Custom('GetNoGuestsOrNot')]"
   COURT_WINDOW_NO_COURTIERS: "Немає [guests|E] або [CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')]. З часом, ймовірно, з'являться інші, або ти можеш запросити деяких з них, використовуючи рішення, наведені вище."
   COURT_WINDOW_NO_FOLLOWERS: "Наразі немає [CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')] доступних"
+  COURT_WINDOW_NO_GUARDIAN: "No [guardian|E]"
+  COURT_WINDOW_NO_GUARDIAN_TOOLTIP: "No [guardian|E] has been assigned to educate the [child|E]"

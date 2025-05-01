@@ -6,6 +6,7 @@
   SUCCESSION_LAW_CHANGE_WINDOW_CHANGE: "Змінити закон"
   SUCCESSION_LAW_CHANGE_WINDOW_CHOOSE_NEW: "Доступні закони: [SuccessionLawChangeWindow.GetLaws.GetLawGroup.GetName]"
   SUCCESSION_LAW_CHANGE_WINDOW_PARTITION_LAWS: "Кілька [Concept( 'heir', 'спадкоємців')|E]"
+  SUCCESSION_LAW_CHANGE_WINDOW_APPOINTMENT_LAWS: "Appointment succession"
   SUCCESSION_LAW_CHANGE_WINDOW_SINGLE_HEIR_LAWS: "Один [heir|El]"
   SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST: "Вартість: [SuccessionLawChangeWindow.GetSelectedLaw.GetShortCostString]"
   SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST_TOOLTIP: "#T Вартість:#!\n[SuccessionLawChangeWindow.GetSelectedLaw.GetCostDescription]"

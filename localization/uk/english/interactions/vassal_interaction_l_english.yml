@@ -127,3 +127,7 @@
   must_not_have_landed_relatives_tt: "[CHARACTER.GetNameNoTooltip] must not have landed relatives"
   must_be_one_county_count_tt: "[CHARACTER.GetPrimaryTitle.GetNameNoTooltip] must be the only county of [CHARACTER.GetShortUINameNoTooltip]"
   appoint_podesta_interaction_notification: "Призначено республіканського наглядача"
+  request_court_position: "Request Court Position"
+  request_court_position_desc: "Request court position from [recipient.GetShortUINameNoTooltip]"
+  grant_court_position: "Grant Court Position"
+  grant_court_position_desc: "Grant [recipient.GetShortUINameNoTooltip] a [court_position|E]"

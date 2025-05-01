@@ -137,6 +137,7 @@
   START_RAID_LOOT_CAP: "@warning_icon!#X Не можна нести більше [raid|E] награбованого#!"
   START_RAID_NOT_OWN_REALM: "@warning_icon!#X Не можна [raid|E] у власній [realm|E]#!"
   START_RAID_ALLY: "@warning_icon!#X Не можна [raid|E] вашого союзника [CHARACTER.GetShortUIName]#!"
+  START_RAID_TRUCE: "@warning_icon! #X Cannot [raid|E] [CHARACTER.GetShortUIName]#! while you have a truce agreement"
   START_RAID_IMMUNE: "@warning_icon!#X Не можна здійснювати набіги на того, хто нещодавно переміг одного з ваших [raids|E]. Неушкодженість закінчиться [DATE.GetString|V]#!"
   START_RAID_NO_HOLDING: "@warning_icon!#X Немає [holding|E] тут для [raid|E]#!"
   START_RAID_MOVING: "@warning_icon!#X Не можна [raid|E] під час руху#!"

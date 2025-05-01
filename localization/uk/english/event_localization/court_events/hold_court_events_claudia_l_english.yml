@@ -149,7 +149,7 @@
   hold_court.6121.a: "Excellent job, [6121_responsible.GetFirstNameNoTooltip]!"
   #The Cadastre
   hold_court.6130.t: "The Cadastre"
-  hold_court.6130.desc: "\"My [ROOT.Char.GetLadyLord]\" [6130_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)] speaks up \"I propose a cadastral survey of all the counties you own.\n\n\"Improved knowledge and mapping of your land will certainly increase its prosperity!"
+  hold_court.6130.desc: "\"My [ROOT.Char.GetLadyLord],\" [6130_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)] speaks up \"I propose a cadastral survey of all the counties you own.\n\n\"Improved knowledge and mapping of your land will certainly increase its prosperity!"
   hold_court.6130.a: "Very well, [6130_proposer.GetFirstNameNoTooltip]. You may proceed."
   hold_court.6130.a.tt: "[6130_proposer.GetFirstNameNoTooltip] starts working on the cadastral survey. It will take several months to be completed, and when complete it will give the following rewards:"
   hold_court.6130.d: "Maps are overrated."

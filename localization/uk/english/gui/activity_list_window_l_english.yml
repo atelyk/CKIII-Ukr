@@ -1,5 +1,6 @@
 ﻿l_english:
   ACTIVITY_LIST: "Активності"
+  ACTIVITY_LIST_GROUP_HEADER: "$NAME$ #weak ($SIZE$)#!"
   ACTIVITY_LIST_NO_ONGOING_ACTIVITY: "#weak У тебе немає поточних [activities|E]\nТи можеш створити [AddTextIf(HasDlcFeature('advanced_activities'), ' або приєднатися')] активність#!"
   ACTIVITY_CURRENT_HEADER: "Поточна [activity|E]"
   ACTIVITY_LIST_INVOLVED_ACTIVITY: "Ти [activity_attending|E] [Activity.GetName]"

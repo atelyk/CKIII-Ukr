@@ -38,6 +38,7 @@
   lifestyle_nicknames_second: "[GetCourtPositionType('second_camp_officer').GetNameNoTooltip]"
   lifestyle_nicknames_marshal: "[GetPlayer.GetCouncillorPosition( 'councillor_marshal' ).GetPositionName]"
   lifestyle_nicknames_steward: "[GetPlayer.GetCouncillorPosition( 'councillor_steward' ).GetPositionName]"
+  lifestyle_nicknames_kurultai: "[GetPlayer.GetCouncillorPosition( 'councillor_kurultai_1' ).GetPositionName]"
   lifestyle_nicknames.0006.a: "Я хочу, щоб вони запам'ятали, що мають справу із майстром стратегії."
   lifestyle_nicknames.0006.b: "Вони запам'ятають мене за мою рішучість."
   lifestyle_nicknames.0006.c: "Мене завжди вела доблесть та відвага..."

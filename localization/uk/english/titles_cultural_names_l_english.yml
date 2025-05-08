@@ -2606,6 +2606,8 @@
   #Levedia
   cn_scythia: "Scythia"
   cn_scythia_adj: "Скіфська"
+  cn_southscythia: "South Scythia"
+  cn_southscythia_adj: "South Scythian"
   cn_hygreis: "Hygreis"
   cn_hygreis_adj: "Hygreisan"
   cn_oleshia: "Oleshia"
@@ -2628,3 +2630,10 @@
   #Dobrudja
   cn_scythia_minor: "Scythia Minor"
   cn_scythia_minor_adj: "Скіфська"
+  cn_south_jedisan: "South Jedisan"
+  cn_south_jedysan: "South Jedysan"
+  cn_south_edisan: "South Edisan"
+  cn_south_borysthenes: "South Borysthenes"
+  cn_bo_ro_: "Бере"
+  cn_cumania: "Cumania"
+  cn_black_cumania: "Black Cumania"

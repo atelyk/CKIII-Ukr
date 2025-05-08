@@ -27,3 +27,8 @@
   MAP_ICON_PROVISIONS_LOW_TT: "#X [provisions|E] run low past this point — [privation|E] events will occur!#!"
   MAP_ICON_PROVISIONS_CRITICAL_TT: "#XB [provisions|E] run out past this point — extreme [privation|E] events will occur!#!"
   MAP_ICON_LANDLESS_RULERS_COUNT: "+[Subtract_int32( LandlessRulersMapIcon.GetValidDomicilesCount, '(int32)1')]"
+  MAP_ICON_DETAILED_RAID_LOOT: "@loot_icon![DetailedRaidIcon.GetProvince.GetProvinceLoot|0V]"
+  MAP_ICON_DETAILED_RAID_TT: "#T [DetailedRaidIcon.GetProvince.GetNameNoTooltip]#!\nLoot: [raid_loot_i] [DetailedRaidIcon.GetLoot|0]"
+  MAP_ICON_DETAILED_RAID_LOOT_POTENTIAL_TT: "#T Potential Raid#!\n Resulting [raid_loot|E]: [raid_loot_i][DetailedRaidIcon.GetLoot|0]\n\n$MAP_ICON_DETAILED_RAID_LOOT_HOLD_ALT_TT$"
+  MAP_ICON_DETAILED_RAID_LOOT_ONGOING_TT: "#T Ongoing Raid#!\nEstimated completion: [DetailedRaidIcon.GetRaid.GetEta.GetString].\nResulting [raid_loot|E]: [raid_loot_i][DetailedRaidIcon.GetProvince.GetProvinceLoot|0V].\n\n#I Click to view [raid|e].#!\n$MAP_ICON_DETAILED_RAID_LOOT_HOLD_ALT_TT$"
+  MAP_ICON_DETAILED_RAID_LOOT_HOLD_ALT_TT: "#I Hold Alt to display all holdings with loot you can [raid|e].#!"

@@ -88,6 +88,7 @@
   Norse: "Норвезька"
   byzantine: "Візантійська"
   iranian: "$e_persia_adj$"
+  nomad: "$nomad_government$"
   SETTING_HUD_SKIN_TOOLTIP: "#T $SETTING_HUD_SKIN$#!\nВстановлює візуальну тему інтерфейсу - 2D інтерфейс, що відображається на головному екрані гри.\n\nЯкщо вибрано $hud_skin_auto$, інтерфейс буде змінюватися залежно від культури, віри та столиці королівства гравця"
   SETTING_RICH_PRESENCE: "Багата чисельність"
   SETTING_RICH_PRESENCE_TOOLTIP: "#T $SETTING_RICH_PRESENCE$#!\nПоказувати інформацію про поточну ігрову сесію друзям, якщо ваша платформа це підтримує."
@@ -106,3 +107,5 @@
   SETTING_SHOW_LEGEND_MAP_GRAPHICS_TOOLTIP: "#T $SETTING_SHOW_LEGEND_MAP_GRAPHICS$#!\nЗадає, чи показувати на мапі ефекти легенди"
   SETTING_HAS_FLAT_MAP_LIGHTING_ENABLED: "Підсвічування паперової мапи"
   SETTING_HAS_FLAT_MAP_LIGHTING_ENABLED_TOOLTIP: "#T $SETTING_HAS_FLAT_MAP_LIGHTING_ENABLED$#!\nВстановлює, чи паперова мапа повинна отримувати освітлення та тіні від таблиці мапи. (вимкни цей параметр, щоб отримати класичне забарвлення паперової мапи)"
+  SETTING_SHOW_DETAILED_RAID_MAP_ICON: "Detailed [raid|e] icons"
+  SETTING_SHOW_DETAILED_RAID_MAP_ICON_TOOLTIP: "#T $SETTING_SHOW_DETAILED_RAID_MAP_ICON$#!\nSets if the [raid|e] map icons should display the simplified or detailed icons\n\n#I If enabled, hold Alt to display all holdings with loot you can [raid|e].#!"

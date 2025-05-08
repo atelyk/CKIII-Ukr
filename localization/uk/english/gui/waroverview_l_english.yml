@@ -35,6 +35,7 @@
   WARSCORE_MODIFIER: "[war_score|E]: $VALUE|+=0$"
   WOULD_WIN_MODIFIER: "Виграє: $VALUE|+=0$"
   PEACEMAKER_PERK_MODIFIER: "[GetPerk( 'peacemaker_perk' ).GetName( GetPlayer )]: $VALUE|+=0$"
+  NOMAD_LEGACY_PERK_MODIFIER: "[GetDynastyPerk('mpo_nomad_legacy_3').GetName]: $VALUE|+=0$"
   WAR_LENGTH: "Довга війна: $VALUE|+=0$"
   CONCERN_ABOUT_OTHER_WARS: "Інші війни: $VALUE|+=0$"
   COMPLETELY_BANKRUPT: "Значне банкрутство: $VALUE|+=0$"

@@ -160,3 +160,12 @@
   sea_aral_sea: "the Aral Sea"
   #EP3
   custom_theodosian_ere: "Theodosian Eastern Empire"
+  #MPO
+  custom_eastern_balkans: "Eastern Balkans"
+  ghw_region_northern_russia: "Northern Russia"
+  ghw_region_southern_russia: "Southern Russia"
+  ghw_region_poland: "Польща"
+  ghw_region_baltic: "The Baltic"
+  dlc_mpo_steppe_caucasus_expansion: "Кавказ"
+  dlc_mpo_steppe_persia_expansion: "Персія"
+  dlc_mpo_steppe_siberia_further_expansion: "Northern Siberia"

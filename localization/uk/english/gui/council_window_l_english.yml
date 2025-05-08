@@ -1,5 +1,7 @@
 ﻿l_english:
-  COUNCILWINDOW_TITLE: "Рада"
+  COUNCIL_WINDOW_TITLE: "[CouncilWindow.GetCharacter.Custom( 'GetCouncilWindowTitle' )|U]"
+  COUNCIL_WINDOW_TITLE_GENERIC: "council"
+  COUNCIL_WINDOW_TITLE_KURULTAI: "kurultai"
   COUNCILWINDOW_POWERFUL_VASSAL_INFO: "@warning_icon!#X [CouncilWindow.GetNumberOfPowerfulVassalsNotInCouncil|V] [powerful_vassals|E] вимагати, щоб їх включили до [council|E]#!"
   COUNCILWINDOW_TT_REPLACE: "#T Призначити [ACTIVE_COUNCIL_TASK.GetPositionName]#!"
   COUNCILWINDOW_SELECT_COUNCILLOR: "Не вибраний [CouncilPositionType.GetName]"

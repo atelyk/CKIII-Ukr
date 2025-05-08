@@ -77,6 +77,7 @@
   COMBAT_NO_RETREAT_TOO_EARLY: "Почати організований відступ можна в останній фазі битви (через $DAYS|V$ дн.)"
   COMBAT_NO_RETREAT_PURSUIT: "@warning_icon! У фазі переслідування відступати неможливо"
   COMBAT_NO_RETREAT_LANDLESS: "@warning_icon! Безземельні командири не можуть відступати"
+  COMBAT_NO_RETREAT_DISALLOWED: "@warning_icon! Cannot retreat, the situation does not allow it"
   #New combat
   combat_phase_maneuver: "Маневрування"
   combat_phase_main: "Основна"

@@ -1,2 +1,3 @@
 ﻿l_english:
   UNDER_CONCUBINE_LIMIT_PRESTIGE_PENALTY: "Недостатньо [Concept( 'concubine', 'наложниць' )|E]"
+  LATIN_EMPIRE_REASON: "You are a [GetTrait('despoiler_of_byzantium').GetName( GetNullCharacter )] in [GetTitleByKey('e_latin_empire').GetName]: $VALUE|=+0$"

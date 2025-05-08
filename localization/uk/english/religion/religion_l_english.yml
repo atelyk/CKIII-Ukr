@@ -114,7 +114,7 @@
   MINIMUM_FAITH_CONVERSION_PIETY_COST: "Мінімальна вартість: [GetLocalPlayerPietyTextIcon]$VALUE|V$"
   faith_conversion_cost_fervor_difference: "Різниця в [fervor|E]"
   faith_creation_cost_fervor_impact: "З поточного [fervor|E]"
-  faith_conversion_cost_witch_event: "You have studied this [faith|E]'s Witchcraft"
+  faith_conversion_cost_event: "You have encountered this [faith|E] before"
   #Holy Sites: Christian
   holy_site_jerusalem_name: "Єрусалим"
   holy_site_jerusalem_effect_name: "З [holy_site|E] #слабкий ($holy_site_jerusalem_name$)#!"

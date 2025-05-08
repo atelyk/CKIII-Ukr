@@ -22,7 +22,7 @@
   persian_struggle_central_title_transfer.t: "#bold $persian_struggle$:#! Relevant Title Change"
   persian_struggle_central_title_transfer.desc: "The title of #high [title.GetName]#! is now held by [title.GetHolder.GetShortUIName]!"
   CURRENT_PHASE: "Current phase"
-  PHASE_EFFECTS_HEADER: "Phase effects"
+  PHASE_EFFECTS_HEADER: "Phase Effects"
   PHASE_EFFECTS_LOWER: "phase effects"
   ENDING_DECISION_BUTTON_LABEL_MULTIPLE: "#high View Struggle Endings#!"
   ENDING_DECISION_BUTTON_LABEL_SINGLE: "#high View Struggle Ending#!"

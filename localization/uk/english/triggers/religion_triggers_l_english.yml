@@ -32,6 +32,8 @@
   NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER: "[doctrines] конфесії [FAITH.GetName] стверджують, що [TARGET_CHARACTER.GetWomenMen] #bold не#! можуть отримувати [titles] в дар від [Concept( 'rulers', 'правителів' )|E]"
   I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH: "У вас не менше $VALUE|0V$ [FAITH.GetName]их [Concept( 'holy_sites', 'священних місць' )|E]"
   I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH: "У вас #bold менше#! $VALUE|0V$[FAITH.GetName]их [Concept( 'holy_sites', 'священних місць' )|E]"
+  I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY: "Your [realm|E] contains at least $VALUE|0V$ [FAITH.GetName] [holy_site|E] with [FAITH.GetAdjectiveNoTooltip] [holders|E]"
+  I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY: "Your [realm|E] does #bold not#! contain at least $VALUE|0V$ [FAITH.GetName] [holy_site|E] with [FAITH.GetAdjectiveNoTooltip] [holders|E]"
   NOT_RELIGION_TAG_TRIGGER: "Ваша [faith] #bold не#! належить до релігії «$RELIGION|V$»"
   CAN_LEGITIMIZE_BASTARDS_IN_FAITH: "[CHARACTER.GetFaith.GetName] дозволяє [Concept( 'legitimized', 'визнавати' )|E] [Concept( 'bastards', 'бастардів' )|E]"
   CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH: "[CHARACTER.GetFaith.GetName] #EMP не#! дозволяє [Concept( 'legitimized', 'визнавати' )|E] [Concept( 'bastards', 'бастардів' )|E]"

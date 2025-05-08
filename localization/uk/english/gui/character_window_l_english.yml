@@ -59,7 +59,7 @@
   CV_TAB_RELATIONS: "Відносини"
   CV_TAB_COURT: "[Character.Custom('GetCourtierPlural')|U]"
   CV_TAB_SECRETS: "Таємниці"
-  CV_TAB_VASSALS: "Васали"
+  CV_TAB_SUBJECTS: "Subjects"
   CV_NO_SECRETS: "#weak Немає відомих [secrets|E]#!"
   CV_NO_RELATIONS: "#weak Не має стосунків#!"
   CV_NO_COURT: "#weak Не має [court|E]#!"

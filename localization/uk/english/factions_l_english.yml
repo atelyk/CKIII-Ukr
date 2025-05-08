@@ -72,6 +72,15 @@
   FACTION_DEMAND_PEASANT_REFUSE: "Ні за що! Доля селянина — служити панові!"
   FACTION_PEASANT_NAME: "Селянський набрід"
   FACTION_PEASANT_TITLE_NAME: "Селянське повстання"
+  #Nomadic Faction
+  nomadic_faction: "Nomadic Faction"
+  nomadic_faction_desc: "The Nomadic [faction|E] wants to be ruled by a [GetGovernment( 'nomad_government' ).GetName] [ruler|E] whos [yurt|E] shares their [culture|E] and [faith|E]."
+  nomadic_faction_short_effect_desc: "Wants to establish new [GetGovernment( 'nomad_government' ).GetName] [realms|E]"
+  FACTION_DEMAND_NOMADIC: "До [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.GetTitledFirstName]"
+  FACTION_DEMAND_NOMADIC_DESC: "We will no longer bow beneath your yoke of oppression! We, the proud [GetGovernment( 'nomad_government' ).GetName] [peasant_leader.GetCulture.GetCollectiveNoun], were born to roam free beneath these endless skies.\n\nWith [peasant_leader.GetFaith.WarGodName] guiding our riders, we shall break from your pathetic rule and reclaim our place on the open steppe!"
+  FACTION_DEMAND_NOMADIC_ACCEPT_GRANT_INDEPENDENCE: "Fine! My realm has no place for your unwashed herds."
+  FACTION_DEMAND_NOMADIC_VASSAL_DESC: "We will no longer tolerate your vile oppression of the proud [peasant_leader.GetCulture.GetName] [peasant_leader.GetFaith.GetAdherentNamePlural]. Born to roam free beneath these open skies, we reject your tyranny — our time is at hand!\n\nWe shall cast off your rule and that of your liege, [faction_target.GetTitledFirstName], once and for all!!"
+  FACTION_DEMAND_NOMADIC_VASSAL_JOIN_WAR: "Then I shall meet you on the field of battle, #EMP vagabond#!!"
   #Populist Faction
   populist_faction: "Фракція популістів"
   populist_faction_desc: "Популістська [faction|E] прагне свободи від чужоземного або невірного правління, та прагнутиме незалежності від сюзерена, який не поділяє їхніх поглядів [culture|E] чи [faith|E]."
@@ -90,6 +99,7 @@
   FACTION_DEMAND_POPULIST_REFUSE_ADMIN: "Such changes are not yours to make, insolent [peasant_leader.Custom('InsultNoun')]!"
   FACTION_DEMAND_POPULIST_REFUSE_TT: "#high [peasant_leader.GetTitledFirstName]#! та #high [faction.GetName]#! проголошує [war|E] на тебе"
   FACTION_POPULIST_REVOLT_TITLE_NAME: "Популістське повстання"
+  FACTION_NOMADIC_REVOLT_TITLE_NAME: "the Nomadic Revolt"
   FACTION_POPULIST_CREATED_TITLE_NAME: "the [founder_culture.GetCollectiveNounNoTooltip]"
   FACTION_DEMAND_POPULIST_VASSAL_DESC_SAME_CULTURE_AND_FAITH: "Ви можете поділяти наші традиції та вірування, але ми не можемо терпіти ні вас, ні [faction_target.Custom('InsultAdjective')] [faction_target.GetTitledFirstName] більше не буде!\n\nАбо залишайтеся осторонь, або допоможіть нам здобути свободу, на яку ми по праву заслуговуємо! "
   FACTION_DEMAND_POPULIST_VASSAL_DESC_CULTURE: "Ми не будемо миритися з чужоземним гнобленням [peasant_leader.GetCulture.GetName] традиції більше не існують. Прийшов наш час!n\nМи вимагатимемо від вашого сюзерена повної свободи, [faction_target.GetTitledFirstName]!"
@@ -162,6 +172,7 @@
   FACTION_CLAIMANT_EVERY_FACTION_MEMBER: "Всі члени фракції"
   FACTION_CLAMAINT_DYNAMIC_NAME: "Фракція, яка хоче, щоб в [ROOT.Faction.GetSpecialTitle.GetAdjective]ого трону був єдиний законний володар — [ROOT.Faction.GetSpecialCharacter.GetNameNoTooltip]"
   FACTION_POPULIST_DYNAMIC_NAME: "[ROOT.Var('faction_culture').Culture.GetNameNoTooltip]і [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip]і популісти"
+  FACTION_NOMAD_DYNAMIC_NAME: "[ROOT.Var('faction_culture').Culture.GetNameNoTooltip] [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip] Nomads"
   WARNING_I_HAVE_ALREADY_JOINED_A_FACTION: "@warning_icon!#X Ви вже приєдналися до [faction|E]#!"
   WARNING_I_AM_ALREADY_AT_WAR_WITH_TARGET: "@warning_icon!#X Ви вже воюєте з [faction_target.GetTitledFirstName]#!"
   WARNING_I_AM_AT_WAR_WITH_FACTION_LEADER: "@warning_icon!#X Ви воюєте з [faction_invite_from.GetTitledFirstName]#!"
@@ -212,6 +223,7 @@
   FACTION_REASON_PREFER_POPULIST_FACTION: "Prefers $populist_faction$: $VALUE|0+=$"
   FACTION_REASON_RULING_CASTE: "[GetCultureTradition('tradition_ruling_caste').GetName]: $VALUE|0+=$"
   FACTION_REASON_AT_WAR_WITH_TARGET: "Already revolting against [liege|E]: $VALUE|0+=$"
+  FACTION_REASON_DISLIKE_NON_NOMADS: "Wants a [GetGovernment( 'nomad_government' ).GetName] [ruler|E]: $VALUE|0+=$"
   #liberty_faction_modifiers
   FACTION_REASON_CROWN_AUTHORITY_1: "$crown_authority_1$: $VALUE|0+=$"
   FACTION_REASON_CROWN_AUTHORITY_2: "$crown_authority_2$: $VALUE|0+=$"
@@ -261,7 +273,7 @@
   FACTION_REASON_CULTURAL_ACCEPTANCE: "[cultural_acceptance|E]: $VALUE|0+=$"
   FACTION_REASON_TARGET_NOT_FULL_CONTROL: "[liege|E] does not control their entire [de_jure] area: $VALUE|0+=$"
   FACTION_REASON_RECENT_LOST_WAR: "[liege|E] recently lost [war|E]: $VALUE|0+=$"
-  FACTION_REASON_TRIBAL_CLAN: "[liege|E] has [GetGovernment( 'tribal_government' ).GetName] or [GetGovernment( 'clan_government' ).GetName] [government|E]: $VALUE|0+=$"
+  FACTION_REASON_TRIBAL_CLAN: "[liege|E] has [GetGovernment( 'tribal_government' ).GetName], [GetGovernment( 'nomad_government' ).GetName], or [GetGovernment( 'clan_government' ).GetName] [government|E]: $VALUE|0+=$"
   FACTION_REASON_STRUGGLE_PHASE: "Current [struggle_phase|E]: $VALUE|0+=$"
   FACTION_REASON_ELECTIVE_PRIMARY: "[liege|E]'s [primary_title|E] has Elective [succession_law|E]: $VALUE|0+=$"
   FACTION_REASON_BYZANTINE_RELIGION: "Same [religion|E] as Byzantine [liege|E]: $VALUE|0+=$"
@@ -289,6 +301,11 @@
   FACTION_REASON_HOUSE_HOSTILITY: "[GetCultureTradition('tradition_ep3_indomitable_azatani').GetName]: $FACTOR|^%+=$"
   #Duty Focus
   FACTION_REASON_duty_focus: "[liege_possessive|E] Duty [focus|E]: $VALUE|0+=$"
+  #Court Position Task
+  FACTION_REASON_court_position_task: "[liege_possessive|E] [court_position_task|E]: $VALUE|0+=$"
+  #Nomads
+  MPO_OBEDIENT_NOMAD: "[obedient|E]: $VALUE|0+=$"
+  MPO_NON_OBEDIENT_NOMAD: "#bold Not #![obedient|E]: $VALUE|0+=$"
   #Harrying of the North
   FACTION_REASON_HARRYING_RESISTANCE: "Harrying of the North Resistance: $VALUE|1+=$"
   FACTION_REASON_HARRYING_PACIFICATION: "Harrying of the North Pacification: $VALUE|1+=$"
@@ -338,3 +355,4 @@
   FACTION_REASON_ADMIN_CLAIMANT_JUNIOR_EMPEROR: "[claimant|E] is [junior_emperor|E]: $FACTOR|0%+=$"
   FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "[claimant|E] is my [heir|E]: $VALUE|+0=$"
   FACTION_REASON_ADMINISTRATIVE: "[administrative|E] [vassal|E]: $VALUE|+0=$"
+  FACTION_REASON_NOMADIC: "[GetGovernment( 'nomad_government' ).GetName]: $VALUE|+0=$"

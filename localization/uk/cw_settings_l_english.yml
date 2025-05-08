@@ -58,6 +58,7 @@
   OPTION_LOW: "Низьк."
   OPTION_MEDIUM: "Середн."
   OPTION_HIGH: "Висок."
+  OPTION_VERY_HIGH: "Very High"
   OPTION_ULTRA: "Надвисок."
   OPTION_CUSTOM: "Користувацьк."
   OPTION_DEFAULT: "За замовчуванням"

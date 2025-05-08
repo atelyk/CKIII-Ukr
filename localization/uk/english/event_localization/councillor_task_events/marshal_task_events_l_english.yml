@@ -49,7 +49,7 @@
   marshal_task.2001.notification: "Воїн поранений під час тренування"
   marshal_task.2101.notification: "[commander.GetShortUINameNoTooltip] [Select_CString(commander.IsFemale, 'отримала', 'отримав' )] властивість: [commander.Custom('CommanderTraitBeingTaught')]"
   marshal_task.2102.notification: "Лицаря покращено: [commander.GetShortUIName]"
-  marshal_task.2103.notification: "Hastiludes Drilled: [trained_knight.GetShortUIName]"
+  marshal_task.2103.notification: "Hastiludes Drilled"
   marshal_task.0302.notification.a: "Командира значно покращено: [commander.GetShortUIName]"
   marshal_task.0302.notification.b: "Командира покращено: [commander.GetShortUIName]"
   marshal_task.0303.notification.a: "Лицаря значно покращено: [commander.GetShortUIName]"

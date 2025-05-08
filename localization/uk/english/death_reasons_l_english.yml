@@ -144,6 +144,7 @@
   death_poison_killer: "[Select_CString(CHARACTER.IsFemale, 'отруєна', 'отруєний' )] персонажем [TARGET_CHARACTER.GetUIName]"
   death_crocodile: "[Select_CString(CHARACTER.IsFemale, 'була з'їдена', 'був з'їдений' )] крокодилом"
   death_dog_attack: "[Select_CString(CHARACTER.IsFemale, 'була загризена', 'був загризений' )] собакою"
+  death_eagle_attack: "was clawed to death by an eagle"
   death_cat_attack: "was scratched to death by a cat"
   death_murder_known: "[Select_CString(CHARACTER.IsFemale, 'вбита', 'вбитий' )] персонажем [TARGET_CHARACTER.GetUIName]"
   death_murder_known_killer: "— жертва вбивства, влаштованого персонажем [TARGET_CHARACTER.GetUIName]"
@@ -348,6 +349,7 @@
   death_greek_fire: "was immolated by Greek fire during battle"
   death_greek_fire_killer: "was immolated by Greek fire during battle against [TARGET_CHARACTER.GetUINamePossessive] fleet"
   death_frankokratia_sacking: "was slaughtered by Latin crusaders as Byzantium burned"
+  death_gok_slaughter: "was slaughtered by invading nomads"
   death_raid_estate: "was killed in an estate raid"
   death_raid_estate_killer: "was killed in an estate raid orchestrated by [TARGET_CHARACTER.GetUIName]"
   death_attacking_laamp_train: "was cut down whilst attacking an adventure's baggage train"
@@ -374,3 +376,7 @@
   death_killed_by_monstrous_crocodile: "was disembowelled by a monstrous crocodile"
   death_slain_in_riot: "was slaughtered in a riot"
   death_slain_in_riot_killer: "$death_slain_in_riot$ due to [TARGET_CHARACTER.GetUIName]"
+  #MPO
+  death_snake: "died from a snake bite"
+  death_shot_by_arrows: "was riddled with arrows"
+  death_shot_by_arrows_killer: "$death_slain_in_riot$ loosed by [TARGET_CHARACTER.GetUINamePossessive] riders"

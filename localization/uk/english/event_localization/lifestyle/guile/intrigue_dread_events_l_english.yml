@@ -196,7 +196,7 @@
   intrigue_dread.2001.desc: "[loved_one.GetTitledFirstNamePossessive] hand trembles beneath mine. As I reach to stroke [loved_one.GetHerHis] cheek, [loved_one.GetSheHe] flinches away.\n\n[loved_one.GetSheHe|U] tells me what strange things people say about me. Frightening things. [loved_one.GetSheHe|U] wonders which of them are true."
   intrigue_dread.2001.a: "They don't know #EMP half#! the things I've done."
   intrigue_dread.2001.a.tt: "Come closer. #EMP Closer#!. I'll whisper it in your ear."
-  intrigue_dread.2001.b: "Everything I do is to protect you!"
+  intrigue_dread.2001.b: "Кожна моя дія, щоб захистити тебе!"
   intrigue_dread.2001.c: "Who, specifically, says these things? I want names."
   intrigue_dread.2001.d: "Just smile and walk away."
   intrigue_dread.2001.b.into_it: "[loved_one.GetFirstName] is moved by your devotion"
